@@ -43,7 +43,25 @@ footer a{color:var(--accent)}
 .insight-card{transition:transform .15s, border-color .15s}
 .insight-card:hover{transform:translateY(-1px)}
 .table-wrap th{user-select:none}
-#peer-network{overflow:auto}
+#peer-network{overflow:hidden;position:relative}
 .filing-card:hover{border-color:var(--accent)}
-
+/* v0.4 force-directed + mobile + scatter polish */
+#peer-network{border:1px solid var(--border);border-radius:12px;background:linear-gradient(180deg,#121521,#0e111c)}
+#peer-network svg text{font-family:Inter,system-ui,sans-serif}
+#peer-tooltip{max-width:260px;line-height:1.35}
+.chart .tick text{font-size:10px}
+.chart svg{overflow:visible}
+@media (max-width: 480px){
+  .header-inner{flex-direction:column;gap:12px}
+  .section-nav-inner{flex-wrap:wrap;gap:8px;padding:8px 12px}
+  .section-nav-link{font-size:.8rem;padding:5px 8px}
+  .metrics-strip{grid-template-columns:repeat(2,1fr);padding:0 12px}
+  .section{padding:0 12px}
+  .charts-grid{grid-template-columns:1fr}
+  #peer-network{height:380px}
+}
+.insights-grid .insight-card:nth-child(5){border-color:#1f5c3a;background:linear-gradient(180deg,#0f1e18,#151821)}
+.insights-grid .insight-card:nth-child(6){border-color:#2a2e6a;background:linear-gradient(180deg,#12142a,#151821)}
+.detail-panel table th{position:sticky;top:0;background:var(--card2)}
+.compare-highlight{background:rgba(124,140,255,.08)}
 

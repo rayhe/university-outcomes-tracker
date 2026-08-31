@@ -1,8 +1,8 @@
 {
   "metadata": {
     "last_updated": "2026-08-31",
-    "source": "College Scorecard API (DEMO_KEY) + IPEDS + NACUBO synthetic fallback + v0.3 150-university expansion",
-    "version": "0.3",
+    "source": "College Scorecard API (DEMO_KEY) + force-directed peers + corr + URL deep-link + IPEDS/NACUBO synthetic fallback (v0.4)",
+    "version": "0.4",
     "total_universities": 150,
     "criteria_version": "1.0",
     "enriched_count": 147,

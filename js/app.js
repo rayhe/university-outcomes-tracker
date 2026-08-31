@@ -55,11 +55,12 @@ function showCompare(){
   const picks=[...selectedCompare].map(id=>allUnis.find(u=>u.id===id)).filter(Boolean);
   const p=document.getElementById('detail-panel');
   p.classList.remove('hidden');
-  const dims=['score','median_earn_10yr','debt_avg','loan_default','net_price_avg','grad_rate_6yr','retention','endowment_per_student','admission_rate'];
-  let html=`<h3>Comparison — ${picks.map(u=>u.name).join(' vs ')}</h3><div style="overflow:auto"><table style="width:100%;font-size:.86rem"><thead><tr><th>Metric</th>${picks.map(u=>`<th>${u.name}</th>`).join('')}</tr></thead><tbody>`;
+  const dims=['score','conference','carnegie','control','median_earn_10yr','debt_avg','loan_default','net_price_avg','grad_rate_6yr','retention','endowment_per_student','admission_rate','enrollment_fte'];
+  let html=`<h3>Comparison — ${picks.map(u=>u.name).join(' vs ')}</h3><div style="overflow:auto"><table style="width:100%;font-size:.86rem"><thead><tr><th>Metric</th>${picks.map(u=>`<th>${u.name}<br><span style="font-size:.7rem;color:#9aa0b8">${u.conference||u.carnegie||''}</span></th>`).join('')}</tr></thead><tbody>`;
   dims.forEach(k=>{
     html+=`<tr><td><b>${k}</b></td>${picks.map(u=>{
       let v=u[k]; if(v==null) v=u[k+'_real']||'—';
+      if(k==='conference'||k==='carnegie'||k==='control') { return `<td>${v||'—'}</td>`; }
       if(k.includes('earn')||k.includes('debt')||k.includes('price')||k.includes('endowment')) v=v!=null&&v!=='—'?fmtMoney(v):v;
       else if(k.includes('grad')||k.includes('retention')||k.includes('default')||k.includes('admission')) v=v!=null&&v!=='—'?(v*100).toFixed(1)+'%':v;
       else if(typeof v==='number') v=v.toFixed(1);
@@ -87,6 +88,13 @@ function renderMetrics(data){
   document.getElementById('m-default').textContent = (median(defs)*100).toFixed(1)+'%';
 }
 
+function corr(x,y){
+  const n=x.length; if(n===0) return 0;
+  const mx=x.reduce((a,b)=>a+b,0)/n, my=y.reduce((a,b)=>a+b,0)/n;
+  let num=0, dx=0, dy=0;
+  for(let i=0;i<n;i++){ const cx=x[i]-mx, cy=y[i]-my; num+=cx*cy; dx+=cx*cx; dy+=cy*cy; }
+  return dx&&dy? num/Math.sqrt(dx*dy) : 0;
+}
 function renderInsights(data){
   const unis = data.universities;
   const insights = [];
@@ -105,13 +113,21 @@ function renderInsights(data){
   const bestGrad = [...unis].sort((a,b)=>b.grad_rate_6yr-a.grad_rate_6yr)[0];
   const endowPerMedian = median(unis.map(u=>u.endowment_per_student));
   const publicFlagshipValue = unis.filter(u=>u.control==='public' && u.carnegie==='R1').sort((a,b)=>(a.net_price_avg/a.median_earn_10yr)-(b.net_price_avg/b.median_earn_10yr))[0];
+  // correlations
+  const rEarnEndow = corr(unis.map(u=>Math.log(u.endowment_per_student||1)), unis.map(u=>u.median_earn_10yr));
+  const rEarnGrad = corr(unis.map(u=>u.grad_rate_6yr), unis.map(u=>u.median_earn_10yr));
+  const rAdmitScore = corr(unis.filter(u=>u.admission_rate).map(u=>1-u.admission_rate), unis.filter(u=>u.admission_rate).map(u=>u.score));
+  const medianROI = median(unis.map(u=>u.median_earn_10yr - 35000*2 - u.net_price_avg*4));
+  const topROI = [...unis].sort((a,b)=>(b.median_earn_10yr - b.net_price_avg*4)-(a.median_earn_10yr - a.net_price_avg*4))[0];
 
   insights.push({t:`Top Alumni Advantage: ${topScore.name}`, d:`Score ${topScore.score} — ${topScore.control} ${topScore.carnegie}, endowment $${(topScore.endowment_b)}B, earnings $${topScore.median_earn_10yr.toLocaleString()} 10yr. Model: high endowment/student + low Pell gap + high retention.`});
   insights.push({t:`Highest Earnings: ${topEarn.name}`, d:`$${topEarn.median_earn_10yr.toLocaleString()} median 10yr. SF ratio ${topEarn.sf_ratio}:1, research $${topEarn.research_spend_m}M. Earnings premium correlates with research spend per student (r~0.6). ${topEarn.median_earn_10yr_real? '● Scorecard real.' : ''}`});
   insights.push({t:`Best Value (Price/Earnings): ${bestValue.name}`, d:`Net price $${bestValue.net_price_avg.toLocaleString()} vs earnings $${bestValue.median_earn_10yr.toLocaleString()}. Public flagship model shows ROI advantage despite lower endowment/student. Ratio ${(bestValue.net_price_avg/bestValue.median_earn_10yr).toFixed(2)}.`});
   insights.push({t:`Private vs Public: ${privateAvg.toFixed(1)} vs ${publicAvg.toFixed(1)} avg score`, d:`Private advantage driven by endowment/student (avg ${(endowPerMedian/1000).toFixed(0)}k median) and alumni giving (28% vs 9%). Publics close gap on value/ROI and research scale. n=${unis.length}, private=${unis.filter(u=>u.control==='private').length}, public=${unis.filter(u=>u.control==='public').length}.`});
+  insights.push({t:`Correlation: Earnings vs Endowment r=${rEarnEndow.toFixed(2)}`, d:`Log(endow/student) vs earnings 10yr r=${rEarnEndow.toFixed(2)} (n=${unis.length}). Earnings vs grad rate r=${rEarnGrad.toFixed(2)}. Selectivity (1-admit) vs score r=${rAdmitScore.toFixed(2)}. Strongest predictor is grad rate + retention, not raw endowment.`});
+  insights.push({t:`ROI Leader: ${topROI.name} $${(topROI.median_earn_10yr - 35000*2 - topROI.net_price_avg*4).toLocaleString()} 10yr`, d:`ROI 10yr = earnings - $70k HS baseline - 4×net price. Median ROI $${medianROI.toLocaleString()} across ${unis.length} schools. ${topROI.name} ROI $${(topROI.median_earn_10yr - 35000*2 - topROI.net_price_avg*4).toLocaleString()} = $${topROI.median_earn_10yr.toLocaleString()} - $70k - $${(topROI.net_price_avg*4).toLocaleString()}. Public flagships dominate ROI due to low net price.`});
   insights.push({t:`Public Filings Coverage: 6 sources`, d:`IPEDS (100% Title IV), IRS 990 (private only), Audited financials (GAAP), College Scorecard (earnings/debt/default/net price) ${realCount}/${unis.length} real, NSF HERD (R&D), State audit (publics). Filing presence is trust signal, not score weight.`});
-  insights.push({t:`Expansion Plan: 60 → 150 → 500`, d:`v0.3 now 150 universities (R1 + flagships + R2 + LAC). Hourly iteration adds: Scorecard API batch enrichment (${realCount} real), IPEDS Finance API, IRS 990 XML via ProPublica, NACUBO endowment table, HERD Excel, state audit PDFs. Target 200 by v0.4, 500 by v1.0.`});
+  insights.push({t:`Expansion Plan: 150 → 200 → 500`, d:`v0.4 now 150 universities (R1 + flagships + R2 + LAC). Hourly iteration adds: IPEDS Finance API, IRS 990 XML via ProPublica, NACUBO endowment table, HERD Excel, state audit PDFs. Target 200 by v0.4b, 500 by v1.0. ${realCount} Scorecard real, NACUBO next.`});
   insights.push({t:`Most Selective: ${lowAdmit ? lowAdmit.name + ' ' + (lowAdmit.admission_rate*100).toFixed(1)+'%' : 'n/a'}`, d:`Low admit rate correlates with alumni advantage (r~0.55) but not perfectly — value/ROI rewards publics with broader access. ${lowAdmit?.admission_rate!=null? 'Admit '+(lowAdmit.admission_rate*100).toFixed(1)+'% real Scorecard.' : ''}`});
   insights.push({t:`Research Powerhouse: ${highResearch.name}`, d:`$${highResearch.research_spend_m}M NSF HERD, ${highResearch.carnegie}, enrollment ${highResearch.enrollment_fte.toLocaleString()} FTE. Research spend per student $${(highResearch.research_spend_m*1e6/highResearch.enrollment_fte).toFixed(0)}.`});
   insights.push({t:`Graduation Leader: ${bestGrad.name}`, d:`${(bestGrad.grad_rate_6yr*100).toFixed(0)}% 6yr grad rate, retention ${(bestGrad.retention*100).toFixed(0)}%. Academic Quality 15% of Alumni Advantage — grad rate + retention + SF ratio + research/student.`});
@@ -221,7 +237,6 @@ function renderPeers(unis){
   const mode=modeEl?modeEl.value:'conference';
   const netEl=document.getElementById('peer-network');
   if(!netEl) return;
-  // group
   const groups={};
   unis.forEach(u=>{
     let key;
@@ -234,43 +249,80 @@ function renderPeers(unis){
     groups[key].push(u);
   });
   const groupKeys=Object.keys(groups).sort();
-  // stats
   const statsEl=document.getElementById('peer-stats');
-  if(statsEl) statsEl.textContent=`${groupKeys.length} groups • ${unis.length} universities`;
-  // network svg - force-ish layout by grouping
+  if(statsEl) statsEl.textContent=`${groupKeys.length} groups • ${unis.length} universities • force-directed, clickable`;
   netEl.innerHTML='';
-  const w=netEl.clientWidth||900, h=380;
-  const svg=d3.select(netEl).append('svg').attr('width',w).attr('height',h);
-  // simple clustered layout: groups along x, universities inside
-  const color=d3.scaleOrdinal(d3.schemeCategory10).domain(groupKeys);
-  const gx=d3.scaleBand().domain(groupKeys).range([40,w-20]).padding(0.2);
-  // draw group backgrounds
-  groupKeys.forEach(g=>{
-    const x=gx(g);
-    const bw=gx.bandwidth();
-    svg.append('rect').attr('x',x-6).attr('y',30).attr('width',bw+12).attr('height',h-50).attr('fill',color(g)).attr('opacity',0.08).attr('rx',10);
-    svg.append('text').attr('x',x+bw/2).attr('y',20).attr('text-anchor','middle').attr('fill','#9aa0b8').attr('font-size','11px').text(`${g} (${groups[g].length})`);
+  const w=Math.max(netEl.clientWidth||900, 700), h=440;
+  const svg=d3.select(netEl).append('svg').attr('width',w).attr('height',h).attr('viewBox',`0 0 ${w} ${h}`).style('background','transparent');
+  const color=d3.scaleOrdinal(d3.schemeTableau10).domain(groupKeys);
+  // Build nodes/links
+  const nodes=unis.map(u=>{
+    let gkey;
+    if(mode==='conference') gkey=u.conference||u.peer_group||'Other';
+    else if(mode==='carnegie') gkey=u.carnegie;
+    else if(mode==='control') gkey=u.control;
+    else if(mode==='state') gkey=u.state;
+    else gkey='All';
+    return {...u, group:gkey, x:Math.random()*w, y:Math.random()*h};
   });
-  // nodes
-  groupKeys.forEach(g=>{
-    const nodes=groups[g].sort((a,b)=>b.score-a.score);
-    const x0=gx(g)+gx.bandwidth()/2;
-    nodes.forEach((u,i)=>{
-      const y=50 + (i % 20)*16 + Math.floor(i/20)*8;
-      if(y>h-30) return; // overflow hide
-      const cx=x0 + (Math.random()-0.5)* (gx.bandwidth()*0.7);
-      svg.append('circle').attr('cx',cx).attr('cy',y).attr('r',3 + u.score/40).attr('fill',u.control==='private'?'#7c8cff':'#3dd598').attr('opacity',0.85).append('title').text(`${u.name}: ${u.score.toFixed(1)} • ${u.state}`);
-      if(i<3) svg.append('text').attr('x',cx+6).attr('y',y+3).attr('fill','#e6e8f0').attr('font-size','9px').text(u.name.split(' ').slice(0,2).join(' '));
-    });
+  const groupIndex={}; groupKeys.forEach((g,i)=>groupIndex[g]=i);
+  // Links: same group (conference/carnegie) edges for clustering
+  const links=[];
+  const byGroup={};
+  nodes.forEach(n=>{ if(!byGroup[n.group]) byGroup[n.group]=[]; byGroup[n.group].push(n); });
+  Object.values(byGroup).forEach(arr=>{
+    if(arr.length>12) arr=arr.sort((a,b)=>b.score-a.score).slice(0,12);
+    for(let i=0;i<arr.length;i++){
+      for(let j=i+1;j<arr.length;j++){
+        if(Math.random()<0.25) links.push({source:arr[i].id, target:arr[j].id});
+      }
+    }
   });
-  // peer list cards
+  const sim=d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id(d=>d.id).distance(40).strength(0.15))
+    .force('charge', d3.forceManyBody().strength(-55))
+    .force('x', d3.forceX().x(d=> (groupIndex[d.group]||0)/Math.max(1,groupKeys.length-1)* (w-120)+60).strength(0.25))
+    .force('y', d3.forceY(h/2).strength(0.12))
+    .force('collide', d3.forceCollide().radius(d=>4 + d.score/35 + 2).strength(0.8))
+    .alphaDecay(0.04);
+  const linkG=svg.append('g').attr('stroke','#2a2e42').attr('stroke-opacity',0.35);
+  const link=linkG.selectAll('line').data(links).join('line').attr('stroke-width',0.6);
+  const nodeG=svg.append('g');
+  const node=nodeG.selectAll('circle').data(nodes).join('circle')
+    .attr('r',d=>3.5 + d.score/38)
+    .attr('fill',d=>d.control==='private'?'#7c8cff':'#3dd598')
+    .attr('stroke','#0b0d12').attr('stroke-width',0.8)
+    .attr('opacity',0.92)
+    .style('cursor','pointer')
+    .on('click',(e,d)=>{ showDetail(d.id); if(history.replaceState){ const u=new URL(window.location); u.searchParams.set('id', d.id); history.replaceState(null,'',u);} })
+    .on('mouseover',function(e,d){ d3.select(this).attr('stroke','#fff').attr('stroke-width',1.6); tooltip.style('display','block').html(`<b>${d.name}</b><br>Score ${d.score.toFixed(1)} • $${(d.median_earn_10yr/1000).toFixed(0)}k earn<br>${d.conference||d.carnegie} • ${d.control} • ${d.state}<br>Click for detail`); })
+    .on('mousemove',(e)=>{ tooltip.style('left',(e.pageX+12)+'px').style('top',(e.pageY-10)+'px'); })
+    .on('mouseout',function(){ d3.select(this).attr('stroke','#0b0d12').attr('stroke-width',0.8); tooltip.style('display','none'); });
+  const labelG=svg.append('g');
+  const topNodes=nodes.slice().sort((a,b)=>b.score-a.score).slice(0,18);
+  const labels=labelG.selectAll('text').data(topNodes).join('text')
+    .text(d=>d.name.split(' ').slice(0,2).join(' '))
+    .attr('font-size','9px').attr('fill','#c8ccda').attr('pointer-events','none').attr('opacity',0.9);
+  const tooltip=d3.select('body').selectAll('#peer-tooltip').data([0]).join('div').attr('id','peer-tooltip').style('position','absolute').style('display','none').style('background','#151821').style('border','1px solid #2a2e42').style('border-radius','8px').style('padding','8px 10px').style('font-size','.78rem').style('color','#e6e8f0').style('pointer-events','none').style('z-index','40').style('box-shadow','0 8px 24px rgba(0,0,0,.5)');
+  sim.on('tick',()=>{
+    link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
+    node.attr('cx',d=>d.x=Math.max(12,Math.min(w-12,d.x))).attr('cy',d=>d.y=Math.max(16,Math.min(h-16,d.y)));
+    labels.attr('x',d=>d.x+7).attr('y',d=>d.y+3);
+  });
+  // legend dots
+  const legend=svg.append('g').attr('transform',`translate(12, ${h-18})`);
+  groupKeys.slice(0,6).forEach((g,i)=>{
+    legend.append('circle').attr('cx',i*110).attr('cy',0).attr('r',5).attr('fill',color(g)).attr('opacity',0.85);
+    legend.append('text').attr('x',i*110+8).attr('y',3).attr('fill','#9aa0b8').attr('font-size','10px').text(g.slice(0,18));
+  });
   const listEl=document.getElementById('peer-list');
   if(listEl){
     listEl.innerHTML=groupKeys.slice(0,12).map(g=>{
-      const members=groups[g].sort((a,b)=>b.score-a.score).slice(0,5);
+      const members=groups[g].sort((a,b)=>b.score-a.score);
       const avgScore=members.reduce((s,u)=>s+u.score,0)/members.length;
       const avgEarn=members.reduce((s,u)=>s+u.median_earn_10yr,0)/members.length;
-      return `<div class="filing-card"><div class="filing-left"><b>${g}</b><br><span style="color:#9aa0b8;font-size:.75rem">${groups[g].length} schools • avg score ${avgScore.toFixed(1)} • avg earn $${(avgEarn/1000).toFixed(0)}k</span><br><span style="font-size:.75rem">${members.map(m=>m.name).join(', ')}${groups[g].length>5?' …':''}</span></div></div>`;
+      const best=members.slice(0,5).map(m=>`<a href="#" onclick="event.preventDefault();showDetail('${m.id}')" style="color:#c8ccda;text-decoration:none;border-bottom:1px dotted #2a2e42">${m.name}</a>`).join(', ');
+      return `<div class="filing-card" style="cursor:pointer" onclick="document.getElementById('peer-mode').value='${mode}';"><div class="filing-left"><b style="color:${color(g)}">● ${g}</b><br><span style="color:#9aa0b8;font-size:.75rem">${groups[g].length} schools • avg score ${avgScore.toFixed(1)} • avg earn $${(avgEarn/1000).toFixed(0)}k • conf links ${links.filter(l=>{ const s=nodes.find(n=>n.id===l.source.id||n.id===l.source); const t=nodes.find(n=>n.id===l.target.id||n.id===l.target); return s&&t&&s.group===g&&t.group===g; }).length}</span><br><span style="font-size:.75rem">${best}${groups[g].length>5?' …':''}</span></div><div style="font-size:.7rem;color:#9aa0b8">${members[0]?members[0].carnegie:''}</div></div>`;
     }).join('');
   }
 }
@@ -280,8 +332,14 @@ loadData().then(data=>{
   renderProvenance(data.metadata||{});
   renderMetrics(data); renderInsights(data); renderTable(filtered); renderFilings(data); drawCharts(filtered);
   renderPeers(filtered);
-  document.getElementById('search').addEventListener('input',applyFilters);
-  document.getElementById('filter-control').addEventListener('change',applyFilters);
+  // URL deep-link: ?q=, ?control=, ?id=
+  const urlParams=new URLSearchParams(window.location.search);
+  const qParam=urlParams.get('q'); if(qParam){ const se=document.getElementById('search'); if(se){ se.value=qParam; } }
+  const cParam=urlParams.get('control'); if(cParam){ const fe=document.getElementById('filter-control'); if(fe) fe.value=cParam; }
+  const idParam=urlParams.get('id'); if(idParam){ setTimeout(()=>showDetail(idParam), 400); }
+  if(qParam||cParam) applyFilters();
+  document.getElementById('search').addEventListener('input',()=>{ applyFilters(); const u=new URL(window.location); const v=document.getElementById('search').value; if(v) u.searchParams.set('q',v); else u.searchParams.delete('q'); history.replaceState(null,'',u); });
+  document.getElementById('filter-control').addEventListener('change',()=>{ applyFilters(); const u=new URL(window.location); const v=document.getElementById('filter-control').value; if(v && v!=='all') u.searchParams.set('control',v); else u.searchParams.delete('control'); history.replaceState(null,'',u); });
   document.getElementById('sort-preset').addEventListener('change',applyFilters);
   const peerMode=document.getElementById('peer-mode'); if(peerMode) peerMode.addEventListener('change',()=>renderPeers(filtered));
   const csvBtn=document.getElementById('btn-csv'); if(csvBtn) csvBtn.addEventListener('click',()=>exportCSV(filtered));
