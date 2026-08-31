@@ -65,3 +65,21 @@ footer a{color:var(--accent)}
 .detail-panel table th{position:sticky;top:0;background:var(--card2)}
 .compare-highlight{background:rgba(124,140,255,.08)}
 
+
+/* v0.5 conference fix + drag + regression + benchmarking */
+#peer-network{cursor:grab}
+#peer-network:active{cursor:grabbing}
+#peer-network svg circle{transition:stroke-width .12s}
+.insights-grid .insight-card:nth-child(7){border-color:#3d2e6a;background:linear-gradient(180deg,#18142a,#151821)}
+.insights-grid .insight-card:nth-child(8){border-color:#1f4a5c;background:linear-gradient(180deg,#0f1c22,#151821)}
+.insights-grid .insight-card:nth-child(9){border-color:#5c3a1f;background:linear-gradient(180deg,#1e1610,#151821)}
+#peer-list{grid-template-columns:1fr}
+#peer-list .filing-card{flex-direction:column;align-items:flex-start;gap:6px}
+.peer-bench-table th{font-weight:600;color:#9aa0b8}
+.peer-bench-table td{padding:4px 6px}
+.chart #chart-scatter path{pointer-events:none}
+@media (max-width: 768px){
+  .header-right{flex-wrap:wrap;gap:6px}
+  .badge{font-size:.72rem;padding:3px 8px}
+  #peer-network{height:420px}
+}

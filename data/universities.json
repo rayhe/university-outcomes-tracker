@@ -1,14 +1,16 @@
 {
   "metadata": {
     "last_updated": "2026-08-31",
-    "source": "College Scorecard API (DEMO_KEY) + force-directed peers + corr + URL deep-link + IPEDS/NACUBO synthetic fallback (v0.4)",
-    "version": "0.4",
+    "source": "College Scorecard API (DEMO_KEY) + force-directed peers + corr + conference fix (150) + Scorecard mismatch correction",
+    "version": "0.5",
     "total_universities": 150,
     "criteria_version": "1.0",
-    "enriched_count": 147,
+    "enriched_count": 149,
     "failed": [
       "connecticut2"
-    ]
+    ],
+    "conference_fix": 66,
+    "mismatch_fix": 14
   },
   "criteria": {
     "alumni_advantage_score": {
@@ -63,7 +65,9 @@
       "pell_rate": 0.1916,
       "scorecard_id": 243744,
       "scorecard_name": "Stanford University",
-      "scorecard_city": "Stanford"
+      "scorecard_city": "Stanford",
+      "conference": "Pac-12 Legacy",
+      "peer_group": "Pac-12 Legacy"
     },
     {
       "id": "mit",
@@ -105,7 +109,9 @@
       "pell_rate": 0.1932,
       "scorecard_id": 166683,
       "scorecard_name": "Massachusetts Institute of Technology",
-      "scorecard_city": "Cambridge"
+      "scorecard_city": "Cambridge",
+      "conference": "NEWMAC",
+      "peer_group": "NEWMAC"
     },
     {
       "id": "harvard",
@@ -147,7 +153,9 @@
       "pell_rate": 0.1643,
       "scorecard_id": 166027,
       "scorecard_name": "Harvard University",
-      "scorecard_city": "Cambridge"
+      "scorecard_city": "Cambridge",
+      "conference": "Ivy League",
+      "peer_group": "Ivy League"
     },
     {
       "id": "caltech",
@@ -190,7 +198,9 @@
       "_earnings_source": "scorecard",
       "loan_default_real": 0.0,
       "admission_rate": 0.0257,
-      "avg_family_income": 74238
+      "avg_family_income": 74238,
+      "conference": "SCIAC",
+      "peer_group": "SCIAC"
     },
     {
       "id": "princeton",
@@ -232,7 +242,9 @@
       "pell_rate": 0.1924,
       "scorecard_id": 186131,
       "scorecard_name": "Princeton University",
-      "scorecard_city": "Princeton"
+      "scorecard_city": "Princeton",
+      "conference": "Ivy League",
+      "peer_group": "Ivy League"
     },
     {
       "id": "penn",
@@ -274,7 +286,9 @@
       "pell_rate": 0.1653,
       "scorecard_id": 215062,
       "scorecard_name": "University of Pennsylvania",
-      "scorecard_city": "Philadelphia"
+      "scorecard_city": "Philadelphia",
+      "conference": "Ivy League",
+      "peer_group": "Ivy League"
     },
     {
       "id": "brandeis",
@@ -316,7 +330,9 @@
       "pell_rate": 0.1497,
       "scorecard_id": 165015,
       "scorecard_name": "Brandeis University",
-      "scorecard_city": "Waltham"
+      "scorecard_city": "Waltham",
+      "conference": "UAA",
+      "peer_group": "UAA"
     },
     {
       "id": "villanova",
@@ -358,7 +374,9 @@
       "pell_rate": 0.1202,
       "scorecard_id": 216597,
       "scorecard_name": "Villanova University",
-      "scorecard_city": "Villanova"
+      "scorecard_city": "Villanova",
+      "conference": "Big East",
+      "peer_group": "Big East"
     },
     {
       "id": "howard",
@@ -372,13 +390,13 @@
       "grad_rate_6yr": 0.91,
       "retention": 0.91,
       "sf_ratio": 15,
-      "median_earn_10yr": 88349,
+      "median_earn_10yr": 63066,
       "employment_6mo": 0.83,
       "alumni_giving": 0.17,
-      "net_price_avg": 26810,
+      "net_price_avg": 50539,
       "pell_gap": 0.14,
       "loan_default": 0.022,
-      "debt_avg": 20239,
+      "debt_avg": 24500,
       "research_spend_m": 472,
       "alumni_network_k": 137,
       "score": 94.5,
@@ -390,12 +408,20 @@
         "herd": "2023",
         "state_audit": "n/a"
       },
-      "avg_family_income": 24742,
-      "pell_rate": 0.0,
-      "scorecard_id": 454689,
-      "scorecard_name": "Taft University System",
-      "scorecard_city": "Denver",
-      "loan_default_real": 0.0
+      "avg_family_income": 58082,
+      "pell_rate": 0.4,
+      "scorecard_id": 131520,
+      "scorecard_name": "Howard University",
+      "scorecard_city": "Washington",
+      "loan_default_real": 0.0,
+      "conference": "MEAC",
+      "peer_group": "MEAC",
+      "median_earn_10yr_real": 63066,
+      "_earnings_source": "scorecard",
+      "debt_avg_real": 24500,
+      "net_price_avg_real": 50539,
+      "enrollment_fte_real": 10108,
+      "admission_rate": 0.4134
     },
     {
       "id": "uf",
@@ -437,7 +463,9 @@
       "pell_rate": 0.2297,
       "scorecard_id": 134097,
       "scorecard_name": "Florida State University",
-      "scorecard_city": "Tallahassee"
+      "scorecard_city": "Tallahassee",
+      "conference": "SEC",
+      "peer_group": "SEC"
     },
     {
       "id": "pepperdine",
@@ -479,7 +507,9 @@
       "pell_rate": 0.2025,
       "scorecard_id": 121150,
       "scorecard_name": "Pepperdine University",
-      "scorecard_city": "Malibu"
+      "scorecard_city": "Malibu",
+      "conference": "WCC",
+      "peer_group": "WCC"
     },
     {
       "id": "yale",
@@ -521,7 +551,9 @@
       "pell_rate": 0.2039,
       "scorecard_id": 130794,
       "scorecard_name": "Yale University",
-      "scorecard_city": "New Haven"
+      "scorecard_city": "New Haven",
+      "conference": "Ivy League",
+      "peer_group": "Ivy League"
     },
     {
       "id": "ohiostate",
@@ -562,7 +594,9 @@
       "pell_rate": 0.2706,
       "scorecard_id": 204662,
       "scorecard_name": "Ohio State University Agricultural Technical Institute",
-      "scorecard_city": "Wooster"
+      "scorecard_city": "Wooster",
+      "conference": "Big Ten",
+      "peer_group": "Big Ten"
     },
     {
       "id": "washu",
@@ -604,7 +638,9 @@
       "pell_rate": 0.1775,
       "scorecard_id": 179867,
       "scorecard_name": "Washington University in St Louis",
-      "scorecard_city": "St. Louis"
+      "scorecard_city": "St. Louis",
+      "conference": "UAA",
+      "peer_group": "UAA"
     },
     {
       "id": "duke",
@@ -646,7 +682,9 @@
       "pell_rate": 0.1403,
       "scorecard_id": 198419,
       "scorecard_name": "Duke University",
-      "scorecard_city": "Durham"
+      "scorecard_city": "Durham",
+      "conference": "ACC",
+      "peer_group": "ACC"
     },
     {
       "id": "carnegiemell",
@@ -688,7 +726,9 @@
       "pell_rate": 0.1604,
       "scorecard_id": 211440,
       "scorecard_name": "Carnegie Mellon University",
-      "scorecard_city": "Pittsburgh"
+      "scorecard_city": "Pittsburgh",
+      "conference": "UAA",
+      "peer_group": "UAA"
     },
     {
       "id": "uwmadison",
@@ -730,7 +770,9 @@
       "pell_rate": 0.1594,
       "scorecard_id": 240444,
       "scorecard_name": "University of Wisconsin-Madison",
-      "scorecard_city": "Madison"
+      "scorecard_city": "Madison",
+      "conference": "Big Ten",
+      "peer_group": "Big Ten"
     },
     {
       "id": "umd",
@@ -772,7 +814,9 @@
       "pell_rate": 0.1939,
       "scorecard_id": 163286,
       "scorecard_name": "University of Maryland-College Park",
-      "scorecard_city": "College Park"
+      "scorecard_city": "College Park",
+      "conference": "Big Ten",
+      "peer_group": "Big Ten"
     },
     {
       "id": "lmu",
@@ -814,7 +858,9 @@
       "pell_rate": 0.1322,
       "scorecard_id": 117946,
       "scorecard_name": "Loyola Marymount University",
-      "scorecard_city": "Los Angeles"
+      "scorecard_city": "Los Angeles",
+      "conference": "WCC",
+      "peer_group": "WCC"
     },
     {
       "id": "tulane",
@@ -856,7 +902,9 @@
       "pell_rate": 0.0976,
       "scorecard_id": 160755,
       "scorecard_name": "Tulane University of Louisiana",
-      "scorecard_city": "New Orleans"
+      "scorecard_city": "New Orleans",
+      "conference": "AAC",
+      "peer_group": "AAC"
     },
     {
       "id": "santaclara",
@@ -898,7 +946,9 @@
       "pell_rate": 0.1127,
       "scorecard_id": 122931,
       "scorecard_name": "Santa Clara University",
-      "scorecard_city": "Santa Clara"
+      "scorecard_city": "Santa Clara",
+      "conference": "WCC",
+      "peer_group": "WCC"
     },
     {
       "id": "ucberkeley",
@@ -940,7 +990,9 @@
       "pell_rate": 0.2864,
       "scorecard_id": 110635,
       "scorecard_name": "University of California-Berkeley",
-      "scorecard_city": "Berkeley"
+      "scorecard_city": "Berkeley",
+      "conference": "Pac-12 Legacy",
+      "peer_group": "Pac-12 Legacy"
     },
     {
       "id": "emory",
@@ -982,7 +1034,9 @@
       "pell_rate": 0.1821,
       "scorecard_id": 139658,
       "scorecard_name": "Emory University",
-      "scorecard_city": "Atlanta"
+      "scorecard_city": "Atlanta",
+      "conference": "UAA",
+      "peer_group": "UAA"
     },
     {
       "id": "asu",
@@ -1020,7 +1074,9 @@
       "avg_family_income": 56365,
       "scorecard_id": 10415113,
       "scorecard_name": "Arizona State University - Northeastern Arizona",
-      "scorecard_city": "Show Low"
+      "scorecard_city": "Show Low",
+      "conference": "Big 12",
+      "peer_group": "Big 12"
     },
     {
       "id": "georgiatech",
@@ -1062,7 +1118,9 @@
       "pell_rate": 0.139,
       "scorecard_id": 139755,
       "scorecard_name": "Georgia Institute of Technology-Main Campus",
-      "scorecard_city": "Atlanta"
+      "scorecard_city": "Atlanta",
+      "conference": "ACC",
+      "peer_group": "ACC"
     },
     {
       "id": "vanderbilt",
@@ -1104,7 +1162,9 @@
       "pell_rate": 0.2022,
       "scorecard_id": 221999,
       "scorecard_name": "Vanderbilt University",
-      "scorecard_city": "Nashville"
+      "scorecard_city": "Nashville",
+      "conference": "SEC",
+      "peer_group": "SEC"
     },
     {
       "id": "lehigh",
@@ -1146,7 +1206,9 @@
       "pell_rate": 0.1771,
       "scorecard_id": 213543,
       "scorecard_name": "Lehigh University",
-      "scorecard_city": "Bethlehem"
+      "scorecard_city": "Bethlehem",
+      "conference": "Patriot",
+      "peer_group": "Patriot"
     },
     {
       "id": "cornell",
@@ -1184,7 +1246,9 @@
       "avg_family_income": 96568,
       "scorecard_id": 190424,
       "scorecard_name": "Weill Medical College of Cornell University",
-      "scorecard_city": "New York"
+      "scorecard_city": "New York",
+      "conference": "Ivy League",
+      "peer_group": "Ivy League"
     },
     {
       "id": "bostonuniver",
@@ -1226,7 +1290,9 @@
       "pell_rate": 0.1915,
       "scorecard_id": 164988,
       "scorecard_name": "Boston University",
-      "scorecard_city": "Boston"
+      "scorecard_city": "Boston",
+      "conference": "Patriot",
+      "peer_group": "Patriot"
     },
     {
       "id": "michigan",
@@ -1268,7 +1334,9 @@
       "pell_rate": 0.1813,
       "scorecard_id": 170976,
       "scorecard_name": "University of Michigan-Ann Arbor",
-      "scorecard_city": "Ann Arbor"
+      "scorecard_city": "Ann Arbor",
+      "conference": "Big Ten",
+      "peer_group": "Big Ten"
     },
     {
       "id": "usd",
@@ -1310,7 +1378,9 @@
       "pell_rate": 0.342,
       "scorecard_id": 110680,
       "scorecard_name": "University of California-San Diego",
-      "scorecard_city": "La Jolla"
+      "scorecard_city": "La Jolla",
+      "conference": "WCC",
+      "peer_group": "WCC"
     },
     {
       "id": "northeastern",
@@ -1352,7 +1422,9 @@
       "pell_rate": 0.2674,
       "scorecard_id": 118888,
       "scorecard_name": "Northeastern University Oakland",
-      "scorecard_city": "Oakland"
+      "scorecard_city": "Oakland",
+      "conference": "CAA",
+      "peer_group": "CAA"
     },
     {
       "id": "uwseattle",
@@ -1394,7 +1466,9 @@
       "pell_rate": 0.1486,
       "scorecard_id": 236948,
       "scorecard_name": "University of Washington-Seattle Campus",
-      "scorecard_city": "Seattle"
+      "scorecard_city": "Seattle",
+      "conference": "Big Ten",
+      "peer_group": "Big Ten"
     },
     {
       "id": "ucla",
@@ -1436,7 +1510,9 @@
       "pell_rate": 0.663,
       "scorecard_id": 110592,
       "scorecard_name": "California State University-Los Angeles",
-      "scorecard_city": "Los Angeles"
+      "scorecard_city": "Los Angeles",
+      "conference": "Big Ten",
+      "peer_group": "Big Ten"
     },
     {
       "id": "chapman",
@@ -1478,7 +1554,9 @@
       "pell_rate": 0.1939,
       "scorecard_id": 111948,
       "scorecard_name": "Chapman University",
-      "scorecard_city": "Orange"
+      "scorecard_city": "Orange",
+      "conference": "SCIAC",
+      "peer_group": "SCIAC"
     },
     {
       "id": "utaustin",
@@ -1520,7 +1598,9 @@
       "pell_rate": 0.2585,
       "scorecard_id": 228778,
       "scorecard_name": "The University of Texas at Austin",
-      "scorecard_city": "Austin"
+      "scorecard_city": "Austin",
+      "conference": "SEC",
+      "peer_group": "SEC"
     },
     {
       "id": "uiuc",
@@ -1562,7 +1642,9 @@
       "pell_rate": 0.2341,
       "scorecard_id": 145637,
       "scorecard_name": "University of Illinois Urbana-Champaign",
-      "scorecard_city": "Champaign"
+      "scorecard_city": "Champaign",
+      "conference": "Big Ten",
+      "peer_group": "Big Ten"
     },
     {
       "id": "pennstate",
@@ -1604,7 +1686,9 @@
       "pell_rate": 0.4182,
       "scorecard_id": 214652,
       "scorecard_name": "Pennsylvania State University-Penn State Scranton",
-      "scorecard_city": "Dunmore"
+      "scorecard_city": "Dunmore",
+      "conference": "Big Ten",
+      "peer_group": "Big Ten"
     },
     {
       "id": "columbia",
@@ -1646,7 +1730,9 @@
       "pell_rate": 0.2271,
       "scorecard_id": 190150,
       "scorecard_name": "Columbia University in the City of New York",
-      "scorecard_city": "New York"
+      "scorecard_city": "New York",
+      "conference": "Ivy League",
+      "peer_group": "Ivy League"
     },
     {
       "id": "ucd",
@@ -1688,7 +1774,9 @@
       "pell_rate": 0.3135,
       "scorecard_id": 110644,
       "scorecard_name": "University of California-Davis",
-      "scorecard_city": "Davis"
+      "scorecard_city": "Davis",
+      "conference": "Big West",
+      "peer_group": "Big West"
     },
     {
       "id": "texasa&m",
@@ -1730,7 +1818,9 @@
       "pell_rate": 0.1964,
       "scorecard_id": 228723,
       "scorecard_name": "Texas A&M University-College Station",
-      "scorecard_city": "College Station"
+      "scorecard_city": "College Station",
+      "conference": "SEC",
+      "peer_group": "SEC"
     },
     {
       "id": "northwestern",
@@ -1772,7 +1862,9 @@
       "pell_rate": 0.3524,
       "scorecard_id": 160038,
       "scorecard_name": "Northwestern State University of Louisiana",
-      "scorecard_city": "Natchitoches"
+      "scorecard_city": "Natchitoches",
+      "conference": "Big Ten",
+      "peer_group": "Big Ten"
     },
     {
       "id": "johnshopkins",
@@ -1814,7 +1906,9 @@
       "pell_rate": 0.1949,
       "scorecard_id": 162928,
       "scorecard_name": "Johns Hopkins University",
-      "scorecard_city": "Baltimore"
+      "scorecard_city": "Baltimore",
+      "conference": "Big Ten",
+      "peer_group": "Big Ten"
     },
     {
       "id": "casewestern",
@@ -1856,7 +1950,9 @@
       "pell_rate": 0.1752,
       "scorecard_id": 201645,
       "scorecard_name": "Case Western Reserve University",
-      "scorecard_city": "Cleveland"
+      "scorecard_city": "Cleveland",
+      "conference": "UAA",
+      "peer_group": "UAA"
     },
     {
       "id": "ucsb",
@@ -1898,7 +1994,9 @@
       "pell_rate": 0.2785,
       "scorecard_id": 110705,
       "scorecard_name": "University of California-Santa Barbara",
-      "scorecard_city": "Santa Barbara"
+      "scorecard_city": "Santa Barbara",
+      "conference": "Big West",
+      "peer_group": "Big West"
     },
     {
       "id": "usc",
@@ -1940,7 +2038,9 @@
       "pell_rate": 0.4378,
       "scorecard_id": 123651,
       "scorecard_name": "Vanguard University of Southern California",
-      "scorecard_city": "Costa Mesa"
+      "scorecard_city": "Costa Mesa",
+      "conference": "Big Ten",
+      "peer_group": "Big Ten"
     },
     {
       "id": "tufts",
@@ -1982,7 +2082,9 @@
       "pell_rate": 0.1204,
       "scorecard_id": 168148,
       "scorecard_name": "Tufts University",
-      "scorecard_city": "Medford"
+      "scorecard_city": "Medford",
+      "conference": "NESCAC",
+      "peer_group": "NESCAC"
     },
     {
       "id": "rice",
@@ -2024,7 +2126,9 @@
       "pell_rate": 0.1703,
       "scorecard_id": 227757,
       "scorecard_name": "Rice University",
-      "scorecard_city": "Houston"
+      "scorecard_city": "Houston",
+      "conference": "AAC",
+      "peer_group": "AAC"
     },
     {
       "id": "smu",
@@ -2066,7 +2170,9 @@
       "pell_rate": 0.1276,
       "scorecard_id": 228246,
       "scorecard_name": "Southern Methodist University",
-      "scorecard_city": "Dallas"
+      "scorecard_city": "Dallas",
+      "conference": "ACC",
+      "peer_group": "ACC"
     },
     {
       "id": "purdue",
@@ -2108,7 +2214,9 @@
       "pell_rate": 0.2477,
       "scorecard_id": 151102,
       "scorecard_name": "Purdue University Fort Wayne",
-      "scorecard_city": "Fort Wayne"
+      "scorecard_city": "Fort Wayne",
+      "conference": "Big Ten",
+      "peer_group": "Big Ten"
     },
     {
       "id": "bostoncolleg",
@@ -2149,7 +2257,9 @@
       "pell_rate": 0.2876,
       "scorecard_id": 164872,
       "scorecard_name": "Boston Architectural College",
-      "scorecard_city": "Boston"
+      "scorecard_city": "Boston",
+      "conference": "ACC",
+      "peer_group": "ACC"
     },
     {
       "id": "morehouse",
@@ -2191,7 +2301,9 @@
       "pell_rate": 0.4467,
       "scorecard_id": 140553,
       "scorecard_name": "Morehouse College",
-      "scorecard_city": "Atlanta"
+      "scorecard_city": "Atlanta",
+      "conference": "SIAC",
+      "peer_group": "SIAC"
     },
     {
       "id": "rutgers",
@@ -2233,7 +2345,9 @@
       "pell_rate": 0.4771,
       "scorecard_id": 186371,
       "scorecard_name": "Rutgers University-Camden",
-      "scorecard_city": "Camden"
+      "scorecard_city": "Camden",
+      "conference": "Big Ten",
+      "peer_group": "Big Ten"
     },
     {
       "id": "notredame",
@@ -2275,7 +2389,9 @@
       "pell_rate": 0.1374,
       "scorecard_id": 152080,
       "scorecard_name": "University of Notre Dame",
-      "scorecard_city": "Notre Dame"
+      "scorecard_city": "Notre Dame",
+      "conference": "ACC",
+      "peer_group": "ACC"
     },
     {
       "id": "nyu",
@@ -2317,7 +2433,9 @@
       "pell_rate": 0.319,
       "scorecard_id": 196176,
       "scorecard_name": "State University of New York at New Paltz",
-      "scorecard_city": "New Paltz"
+      "scorecard_city": "New Paltz",
+      "conference": "UAA",
+      "peer_group": "UAA"
     },
     {
       "id": "hbcusample",
@@ -2359,7 +2477,9 @@
       "pell_rate": 0.7047,
       "scorecard_id": 138947,
       "scorecard_name": "Clark Atlanta University",
-      "scorecard_city": "Atlanta"
+      "scorecard_city": "Atlanta",
+      "conference": "SIAC",
+      "peer_group": "SIAC"
     },
     {
       "id": "georgetown",
@@ -2401,7 +2521,9 @@
       "pell_rate": 0.1012,
       "scorecard_id": 131496,
       "scorecard_name": "Georgetown University",
-      "scorecard_city": "Washington"
+      "scorecard_city": "Washington",
+      "conference": "Big East",
+      "peer_group": "Big East"
     },
     {
       "id": "uncchapelhil",
@@ -2443,7 +2565,9 @@
       "pell_rate": 0.2004,
       "scorecard_id": 199120,
       "scorecard_name": "University of North Carolina at Chapel Hill",
-      "scorecard_city": "Chapel Hill"
+      "scorecard_city": "Chapel Hill",
+      "conference": "ACC",
+      "peer_group": "ACC"
     },
     {
       "id": "spelman",
@@ -2485,7 +2609,9 @@
       "pell_rate": 0.2783,
       "scorecard_id": 141060,
       "scorecard_name": "Spelman College",
-      "scorecard_city": "Atlanta"
+      "scorecard_city": "Atlanta",
+      "conference": "SIAC",
+      "peer_group": "SIAC"
     },
     {
       "id": "ucsd",
@@ -2527,7 +2653,9 @@
       "pell_rate": 0.342,
       "scorecard_id": 110680,
       "scorecard_name": "University of California-San Diego",
-      "scorecard_city": "La Jolla"
+      "scorecard_city": "La Jolla",
+      "conference": "Big West",
+      "peer_group": "Big West"
     },
     {
       "id": "brown",
@@ -2541,13 +2669,13 @@
       "grad_rate_6yr": 0.96,
       "retention": 0.98,
       "sf_ratio": 6,
-      "median_earn_10yr": 53907,
+      "median_earn_10yr": 93487,
       "employment_6mo": 0.87,
       "alumni_giving": 0.35,
-      "net_price_avg": 20397,
+      "net_price_avg": 25184,
       "pell_gap": 0.03,
       "loan_default": 0.015,
-      "debt_avg": 21250,
+      "debt_avg": 11428,
       "research_spend_m": 200,
       "alumni_network_k": 110,
       "score": 95.5,
@@ -2561,18 +2689,18 @@
       },
       "conference": "Ivy League",
       "peer_group": "Ivy League",
-      "median_earn_10yr_real": 53907,
+      "median_earn_10yr_real": 93487,
       "_earnings_source": "scorecard",
-      "debt_avg_real": 21250,
+      "debt_avg_real": 11428,
       "loan_default_real": 0.0,
-      "net_price_avg_real": 20397,
-      "enrollment_fte_real": 1471,
-      "admission_rate": 0.7614,
-      "avg_family_income": 69960,
-      "pell_rate": 0.237,
-      "scorecard_id": 107141,
-      "scorecard_name": "John Brown University",
-      "scorecard_city": "Siloam Springs"
+      "net_price_avg_real": 25184,
+      "enrollment_fte_real": 7226,
+      "admission_rate": 0.0539,
+      "avg_family_income": 107609,
+      "pell_rate": 0.1384,
+      "scorecard_id": 217156,
+      "scorecard_name": "Brown University",
+      "scorecard_city": "Providence"
     },
     {
       "id": "dartmouth",
@@ -2631,13 +2759,13 @@
       "grad_rate_6yr": 0.94,
       "retention": 0.98,
       "sf_ratio": 5,
-      "median_earn_10yr": 68740,
+      "median_earn_10yr": 91885,
       "employment_6mo": 0.86,
       "alumni_giving": 0.3,
-      "net_price_avg": 10974,
+      "net_price_avg": 14860,
       "pell_gap": 0.04,
       "loan_default": 0.014,
-      "debt_avg": 16704,
+      "debt_avg": 15000,
       "research_spend_m": 400,
       "alumni_network_k": 180,
       "score": 96.0,
@@ -2649,19 +2777,19 @@
         "herd": "2023",
         "state_audit": "n/a"
       },
-      "conference": "AAU Private",
-      "peer_group": "AAU Private",
-      "median_earn_10yr_real": 68740,
+      "conference": "UAA",
+      "peer_group": "UAA",
+      "median_earn_10yr_real": 91885,
       "_earnings_source": "scorecard",
-      "debt_avg_real": 16704,
+      "debt_avg_real": 15000,
       "loan_default_real": 0.0,
-      "net_price_avg_real": 10974,
-      "enrollment_fte_real": 22170,
-      "admission_rate": 0.7735,
-      "avg_family_income": 47402,
-      "pell_rate": 0.4893,
-      "scorecard_id": 145600,
-      "scorecard_name": "University of Illinois Chicago",
+      "net_price_avg_real": 14860,
+      "enrollment_fte_real": 7569,
+      "admission_rate": 0.0448,
+      "avg_family_income": 100617,
+      "pell_rate": 0.1526,
+      "scorecard_id": 144050,
+      "scorecard_name": "University of Chicago",
       "scorecard_city": "Chicago"
     },
     {
@@ -2676,13 +2804,13 @@
       "grad_rate_6yr": 0.96,
       "retention": 0.98,
       "sf_ratio": 6,
-      "median_earn_10yr": 63435,
+      "median_earn_10yr": 111371,
       "employment_6mo": 0.89,
       "alumni_giving": 0.33,
-      "net_price_avg": 18095,
+      "net_price_avg": 28699,
       "pell_gap": 0.03,
       "loan_default": 0.013,
-      "debt_avg": 25000,
+      "debt_avg": 15715,
       "research_spend_m": 900,
       "alumni_network_k": 300,
       "score": 96.2,
@@ -2696,18 +2824,18 @@
       },
       "conference": "Ivy League",
       "peer_group": "Ivy League",
-      "median_earn_10yr_real": 63435,
+      "median_earn_10yr_real": 111371,
       "_earnings_source": "scorecard",
-      "debt_avg_real": 25000,
+      "debt_avg_real": 15715,
       "loan_default_real": 0.0,
-      "net_price_avg_real": 18095,
-      "enrollment_fte_real": 256,
-      "admission_rate": 0.922,
-      "avg_family_income": 82495,
-      "pell_rate": 0.3916,
-      "scorecard_id": 214634,
-      "scorecard_name": "Pennsylvania State University-Penn State Shenango",
-      "scorecard_city": "Sharon"
+      "net_price_avg_real": 28699,
+      "enrollment_fte_real": 10650,
+      "admission_rate": 0.054,
+      "avg_family_income": 71672,
+      "pell_rate": 0.1653,
+      "scorecard_id": 215062,
+      "scorecard_name": "University of Pennsylvania",
+      "scorecard_city": "Philadelphia"
     },
     {
       "id": "baylor",
@@ -2721,13 +2849,13 @@
       "grad_rate_6yr": 0.82,
       "retention": 0.88,
       "sf_ratio": 15,
-      "median_earn_10yr": 56132,
+      "median_earn_10yr": 65793,
       "employment_6mo": 0.78,
       "alumni_giving": 0.12,
-      "net_price_avg": 26106,
+      "net_price_avg": 41104,
       "pell_gap": 0.07,
       "loan_default": 0.035,
-      "debt_avg": 26000,
+      "debt_avg": 23000,
       "research_spend_m": 300,
       "alumni_network_k": 170,
       "score": 78.5,
@@ -2741,18 +2869,18 @@
       },
       "conference": "Big 12",
       "peer_group": "Big 12",
-      "median_earn_10yr_real": 56132,
+      "median_earn_10yr_real": 65793,
       "_earnings_source": "scorecard",
-      "debt_avg_real": 26000,
+      "debt_avg_real": 23000,
       "loan_default_real": 0.0,
-      "net_price_avg_real": 26106,
-      "enrollment_fte_real": 2759,
-      "admission_rate": 0.9576,
-      "avg_family_income": 63901,
-      "pell_rate": 0.3965,
-      "scorecard_id": 226471,
-      "scorecard_name": "University of Mary Hardin-Baylor",
-      "scorecard_city": "Belton"
+      "net_price_avg_real": 41104,
+      "enrollment_fte_real": 14785,
+      "admission_rate": 0.5128,
+      "avg_family_income": 104705,
+      "pell_rate": 0.1245,
+      "scorecard_id": 223232,
+      "scorecard_name": "Baylor University",
+      "scorecard_city": "Waco"
     },
     {
       "id": "byu",
@@ -2766,13 +2894,13 @@
       "grad_rate_6yr": 0.81,
       "retention": 0.89,
       "sf_ratio": 20,
-      "median_earn_10yr": 52064,
+      "median_earn_10yr": 75790,
       "employment_6mo": 0.8,
       "alumni_giving": 0.1,
-      "net_price_avg": 16774,
+      "net_price_avg": 15564,
       "pell_gap": 0.06,
       "loan_default": 0.028,
-      "debt_avg": 9413,
+      "debt_avg": 11069,
       "research_spend_m": 100,
       "alumni_network_k": 400,
       "score": 77.0,
@@ -2786,18 +2914,18 @@
       },
       "conference": "Big 12",
       "peer_group": "Big 12",
-      "median_earn_10yr_real": 52064,
+      "median_earn_10yr_real": 75790,
       "_earnings_source": "scorecard",
-      "debt_avg_real": 9413,
+      "debt_avg_real": 11069,
       "loan_default_real": 0.0,
-      "net_price_avg_real": 16774,
-      "enrollment_fte_real": 2889,
-      "admission_rate": 0.4696,
-      "avg_family_income": 54040,
-      "pell_rate": 0.151,
-      "scorecard_id": 230047,
-      "scorecard_name": "Brigham Young University-Hawaii",
-      "scorecard_city": "Laie"
+      "net_price_avg_real": 15564,
+      "enrollment_fte_real": 32952,
+      "admission_rate": 0.6778,
+      "avg_family_income": 59069,
+      "pell_rate": 0.321,
+      "scorecard_id": 230038,
+      "scorecard_name": "Brigham Young University",
+      "scorecard_city": "Provo"
     },
     {
       "id": "clemson",
@@ -2874,8 +3002,8 @@
         "herd": "2023",
         "state_audit": "2024"
       },
-      "conference": "Independent",
-      "peer_group": "Independent",
+      "conference": "RMAC",
+      "peer_group": "RMAC",
       "median_earn_10yr_real": 97335,
       "_earnings_source": "scorecard",
       "debt_avg_real": 23000,
@@ -4015,13 +4143,13 @@
       "grad_rate_6yr": 0.63,
       "retention": 0.85,
       "sf_ratio": 21,
-      "median_earn_10yr": 36144,
+      "median_earn_10yr": 62377,
       "employment_6mo": 0.77,
       "alumni_giving": 0.06,
-      "net_price_avg": 20249,
+      "net_price_avg": 14276,
       "pell_gap": 0.1,
       "loan_default": 0.048,
-      "debt_avg": 31000,
+      "debt_avg": 18194,
       "research_spend_m": 300,
       "alumni_network_k": 340,
       "score": 72.0,
@@ -4035,17 +4163,18 @@
       },
       "conference": "Big 12",
       "peer_group": "Big 12",
-      "median_earn_10yr_real": 36144,
+      "median_earn_10yr_real": 62377,
       "_earnings_source": "scorecard",
-      "debt_avg_real": 31000,
+      "debt_avg_real": 18194,
       "loan_default_real": 0.0,
-      "net_price_avg_real": 20249,
-      "enrollment_fte_real": 94,
-      "avg_family_income": 17387,
-      "pell_rate": 0.6855,
-      "scorecard_id": 445133,
-      "scorecard_name": "American InterContinental University-Houston",
-      "scorecard_city": "Houston"
+      "net_price_avg_real": 14276,
+      "enrollment_fte_real": 38380,
+      "avg_family_income": 49662,
+      "pell_rate": 0.4165,
+      "scorecard_id": 225511,
+      "scorecard_name": "University of Houston",
+      "scorecard_city": "Houston",
+      "admission_rate": 0.7392
     },
     {
       "id": "iowa",
@@ -4194,13 +4323,13 @@
       "grad_rate_6yr": 0.6,
       "retention": 0.8,
       "sf_ratio": 15,
-      "median_earn_10yr": 28188,
+      "median_earn_10yr": 53899,
       "employment_6mo": 0.74,
       "alumni_giving": 0.06,
-      "net_price_avg": 17010,
+      "net_price_avg": 17988,
       "pell_gap": 0.1,
       "loan_default": 0.05,
-      "debt_avg": 23618,
+      "debt_avg": 20500,
       "research_spend_m": 200,
       "alumni_network_k": 150,
       "score": 70.5,
@@ -4214,17 +4343,18 @@
       },
       "conference": "ACC",
       "peer_group": "ACC",
-      "median_earn_10yr_real": 28188,
+      "median_earn_10yr_real": 53899,
       "_earnings_source": "scorecard",
-      "debt_avg_real": 23618,
+      "debt_avg_real": 20500,
       "loan_default_real": 0.0,
-      "net_price_avg_real": 17010,
-      "enrollment_fte_real": 347,
-      "avg_family_income": 16672,
-      "pell_rate": 0.7708,
-      "scorecard_id": 157021,
-      "scorecard_name": "American National University-Louisville",
-      "scorecard_city": "Louisville"
+      "net_price_avg_real": 17988,
+      "enrollment_fte_real": 14727,
+      "avg_family_income": 65847,
+      "pell_rate": 0.306,
+      "scorecard_id": 157289,
+      "scorecard_name": "University of Louisville",
+      "scorecard_city": "Louisville",
+      "admission_rate": 0.7941
     },
     {
       "id": "miami",
@@ -4238,13 +4368,13 @@
       "grad_rate_6yr": 0.83,
       "retention": 0.91,
       "sf_ratio": 12,
-      "median_earn_10yr": 41544,
+      "median_earn_10yr": 75328,
       "employment_6mo": 0.81,
       "alumni_giving": 0.18,
-      "net_price_avg": 19849,
+      "net_price_avg": 37244,
       "pell_gap": 0.05,
       "loan_default": 0.033,
-      "debt_avg": 5500,
+      "debt_avg": 17500,
       "research_spend_m": 400,
       "alumni_network_k": 190,
       "score": 81.0,
@@ -4258,18 +4388,18 @@
       },
       "conference": "ACC",
       "peer_group": "ACC",
-      "median_earn_10yr_real": 41544,
+      "median_earn_10yr_real": 75328,
       "_earnings_source": "scorecard",
-      "debt_avg_real": 5500,
+      "debt_avg_real": 17500,
       "loan_default_real": 0.0,
-      "net_price_avg_real": 19849,
-      "enrollment_fte_real": 287,
-      "admission_rate": 0.7571,
-      "avg_family_income": 21176,
-      "pell_rate": 0.6637,
-      "scorecard_id": 132842,
-      "scorecard_name": "Albizu University-Miami",
-      "scorecard_city": "Miami"
+      "net_price_avg_real": 37244,
+      "enrollment_fte_real": 12913,
+      "admission_rate": 0.189,
+      "avg_family_income": 95429,
+      "pell_rate": 0.1486,
+      "scorecard_id": 135726,
+      "scorecard_name": "University of Miami",
+      "scorecard_city": "Coral Gables"
     },
     {
       "id": "minnesota",
@@ -4775,13 +4905,13 @@
       "grad_rate_6yr": 0.71,
       "retention": 0.87,
       "sf_ratio": 16,
-      "median_earn_10yr": 66215,
+      "median_earn_10yr": 67170,
       "employment_6mo": 0.79,
       "alumni_giving": 0.09,
-      "net_price_avg": 27094,
+      "net_price_avg": 16200,
       "pell_gap": 0.07,
       "loan_default": 0.036,
-      "debt_avg": 22250,
+      "debt_avg": 19000,
       "research_spend_m": 500,
       "alumni_network_k": 230,
       "score": 78.5,
@@ -4795,17 +4925,17 @@
       },
       "conference": "Big 12",
       "peer_group": "Big 12",
-      "median_earn_10yr_real": 66215,
+      "median_earn_10yr_real": 67170,
       "_earnings_source": "scorecard",
-      "debt_avg_real": 22250,
+      "debt_avg_real": 19000,
       "loan_default_real": 0.0,
-      "net_price_avg_real": 27094,
-      "enrollment_fte_real": 823,
-      "admission_rate": 0.6657,
-      "avg_family_income": 76867,
-      "pell_rate": 0.2447,
-      "scorecard_id": 230807,
-      "scorecard_name": "Westminster University",
+      "net_price_avg_real": 16200,
+      "enrollment_fte_real": 27264,
+      "admission_rate": 0.8598,
+      "avg_family_income": 57205,
+      "pell_rate": 0.1959,
+      "scorecard_id": 230764,
+      "scorecard_name": "University of Utah",
       "scorecard_city": "Salt Lake City"
     },
     {
@@ -5896,13 +6026,13 @@
       "grad_rate_6yr": 0.84,
       "retention": 0.92,
       "sf_ratio": 16,
-      "median_earn_10yr": 65000,
+      "median_earn_10yr": 73997,
       "employment_6mo": 0.82,
       "alumni_giving": 0.12,
-      "net_price_avg": 18000,
+      "net_price_avg": 25097,
       "pell_gap": 0.06,
       "loan_default": 0.032,
-      "debt_avg": 21000,
+      "debt_avg": 21500,
       "research_spend_m": 300,
       "alumni_network_k": 280,
       "score": 82.0,
@@ -5915,7 +6045,19 @@
         "state_audit": "2024"
       },
       "conference": "Big East",
-      "peer_group": "Big East"
+      "peer_group": "Big East",
+      "median_earn_10yr_real": 73997,
+      "_earnings_source": "scorecard",
+      "debt_avg_real": 21500,
+      "loan_default_real": 0.0,
+      "net_price_avg_real": 25097,
+      "enrollment_fte_real": 19835,
+      "admission_rate": 0.5239,
+      "avg_family_income": 88097,
+      "pell_rate": 0.2538,
+      "scorecard_id": 129020,
+      "scorecard_name": "University of Connecticut",
+      "scorecard_city": "Storrs"
     },
     {
       "id": "davidson",
@@ -5929,13 +6071,13 @@
       "grad_rate_6yr": 0.93,
       "retention": 0.96,
       "sf_ratio": 10,
-      "median_earn_10yr": 36337,
+      "median_earn_10yr": 81400,
       "employment_6mo": 0.83,
       "alumni_giving": 0.3,
-      "net_price_avg": 8753,
+      "net_price_avg": 17379,
       "pell_gap": 0.03,
       "loan_default": 0.024,
-      "debt_avg": 10500,
+      "debt_avg": 18688,
       "research_spend_m": 5,
       "alumni_network_k": 25,
       "score": 88.5,
@@ -5947,19 +6089,20 @@
         "herd": "2023",
         "state_audit": "n/a"
       },
-      "conference": "Atlantic 10",
-      "peer_group": "Atlantic 10",
-      "median_earn_10yr_real": 36337,
+      "conference": "A-10",
+      "peer_group": "A-10",
+      "median_earn_10yr_real": 81400,
       "_earnings_source": "scorecard",
-      "debt_avg_real": 10500,
+      "debt_avg_real": 18688,
       "loan_default_real": 0.0,
-      "net_price_avg_real": 8753,
-      "enrollment_fte_real": 2633,
-      "avg_family_income": 27549,
-      "pell_rate": 0.3447,
-      "scorecard_id": 198376,
-      "scorecard_name": "Davidson-Davie Community College",
-      "scorecard_city": "Thomasville"
+      "net_price_avg_real": 17379,
+      "enrollment_fte_real": 1867,
+      "avg_family_income": 103687,
+      "pell_rate": 0.1759,
+      "scorecard_id": 198385,
+      "scorecard_name": "Davidson College",
+      "scorecard_city": "Davidson",
+      "admission_rate": 0.1337
     },
     {
       "id": "delaware2",
@@ -5973,13 +6116,13 @@
       "grad_rate_6yr": 0.82,
       "retention": 0.91,
       "sf_ratio": 12,
-      "median_earn_10yr": 61675,
+      "median_earn_10yr": 72950,
       "employment_6mo": 0.81,
       "alumni_giving": 0.11,
-      "net_price_avg": 11297,
+      "net_price_avg": 17799,
       "pell_gap": 0.06,
       "loan_default": 0.033,
-      "debt_avg": 18000,
+      "debt_avg": 24572,
       "research_spend_m": 200,
       "alumni_network_k": 190,
       "score": 80.5,
@@ -5993,18 +6136,18 @@
       },
       "conference": "CAA",
       "peer_group": "CAA",
-      "median_earn_10yr_real": 61675,
+      "median_earn_10yr_real": 72950,
       "_earnings_source": "scorecard",
-      "debt_avg_real": 18000,
+      "debt_avg_real": 24572,
       "loan_default_real": 0.0,
-      "net_price_avg_real": 11297,
-      "enrollment_fte_real": 32212,
-      "admission_rate": 0.2422,
-      "avg_family_income": 66692,
-      "pell_rate": 0.2297,
-      "scorecard_id": 134097,
-      "scorecard_name": "Florida State University",
-      "scorecard_city": "Tallahassee"
+      "net_price_avg_real": 17799,
+      "enrollment_fte_real": 19071,
+      "admission_rate": 0.706,
+      "avg_family_income": 124857,
+      "pell_rate": 0.1612,
+      "scorecard_id": 130943,
+      "scorecard_name": "University of Delaware",
+      "scorecard_city": "Newark"
     },
     {
       "id": "denver",
@@ -6018,13 +6161,13 @@
       "grad_rate_6yr": 0.73,
       "retention": 0.87,
       "sf_ratio": 11,
-      "median_earn_10yr": 64270,
+      "median_earn_10yr": 71155,
       "employment_6mo": 0.79,
       "alumni_giving": 0.1,
-      "net_price_avg": 11900,
+      "net_price_avg": 36131,
       "pell_gap": 0.07,
       "loan_default": 0.038,
-      "debt_avg": 20500,
+      "debt_avg": 21844,
       "research_spend_m": 100,
       "alumni_network_k": 90,
       "score": 76.0,
@@ -6038,17 +6181,17 @@
       },
       "conference": "Summit",
       "peer_group": "Summit",
-      "median_earn_10yr_real": 64270,
+      "median_earn_10yr_real": 71155,
       "_earnings_source": "scorecard",
-      "debt_avg_real": 20500,
+      "debt_avg_real": 21844,
       "loan_default_real": 0.0,
-      "net_price_avg_real": 11900,
-      "enrollment_fte_real": 10519,
-      "admission_rate": 0.7468,
-      "avg_family_income": 52017,
-      "pell_rate": 0.2616,
-      "scorecard_id": 126562,
-      "scorecard_name": "University of Colorado Denver/Anschutz Medical Campus",
+      "net_price_avg_real": 36131,
+      "enrollment_fte_real": 6025,
+      "admission_rate": 0.7781,
+      "avg_family_income": 113088,
+      "pell_rate": 0.1425,
+      "scorecard_id": 127060,
+      "scorecard_name": "University of Denver",
       "scorecard_city": "Denver"
     },
     {
@@ -6171,8 +6314,8 @@
         "herd": "2023",
         "state_audit": "n/a"
       },
-      "conference": "ACC",
-      "peer_group": "ACC",
+      "conference": "UAA",
+      "peer_group": "UAA",
       "median_earn_10yr_real": 80137,
       "_earnings_source": "scorecard",
       "debt_avg_real": 18250,
@@ -6216,8 +6359,8 @@
         "herd": "2023",
         "state_audit": "2024"
       },
-      "conference": "C-USA",
-      "peer_group": "C-USA",
+      "conference": "CUSA",
+      "peer_group": "CUSA",
       "median_earn_10yr_real": 60249,
       "_earnings_source": "scorecard",
       "debt_avg_real": 16500,
@@ -6441,8 +6584,8 @@
         "herd": "2023",
         "state_audit": "2024"
       },
-      "conference": "Missouri Valley",
-      "peer_group": "Missouri Valley",
+      "conference": "MVC",
+      "peer_group": "MVC",
       "median_earn_10yr_real": 68740,
       "_earnings_source": "scorecard",
       "debt_avg_real": 16704,
