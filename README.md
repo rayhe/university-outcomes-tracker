@@ -3,7 +3,7 @@
 How well universities convert resources into alumni success — modeled after the [S&P 500 Executive Compensation Tracker](https://rayhe.github.io/sp500-exec-comp).
 
 **Live:** https://rayhe.github.io/university-outcomes-tracker  
-**Data:** 60 universities v0.1 → 500 target  
+**Data:** 200 universities v0.7 → 500 target (200/200 Scorecard-real 100%, 18 conferences, 10 LACs)  
 **Update cadence:** Hourly until 9.0+ quality, then daily
 
 ## What It Measures
@@ -36,7 +36,7 @@ Filing presence is a **trust signal**, not a score weight — similar to how DEF
 - v0.1 (now): 60 universities, synthetic enrichment, full UI, methodology
 - v0.2 (hour +1): Replace synthetic earnings with College Scorecard API batch, add direct IPEDS Finance API
 - v0.3 (hour +2): IRS 990 XML enrichment via ProPublica, NACUBO endowment table scrape, HERD Excel parser
-- v0.4: Add 140 more universities (200 total), peer network (conference / Carnegie / geography), trends
+- v0.4: Add 140 more universities (200 total), peer network (conference / Carnegie / geography), trends — **DONE v0.7 200/200 real**
 - v0.5: Alumni network via LinkedIn alumni search (Fortune 500 %), startup founder enrichment (Crunchbase)
 - v1.0: 500 universities, 6 filing sources 100% coverage, 5-critic panel 9.0+
 

@@ -217,7 +217,7 @@ function drawCharts(unis){
   const svg=d3.select(scatterEl).append('svg').attr('width',w).attr('height',h);
   const x=d3.scaleLog().domain([d3.min(unis,d=>d.endowment_per_student)*0.8, d3.max(unis,d=>d.endowment_per_student)*1.2]).range([m.left,w-m.right]);
   const y=d3.scaleLinear().domain([d3.min(unis,d=>d.median_earn_10yr)*0.9, d3.max(unis,d=>d.median_earn_10yr)*1.1]).range([h-m.bottom,m.top]);
-  svg.append('g').attr('transform',`translate(0,${h-m.bottom})`).call(d3.axisBottom(x).ticks(4,'~s')).attr('color','#9aa0b8');
+  svg.append('g').attr('transform',`translate(0,${h-m.bottom})`).call(d3.axisBottom(x).ticks(3,'~s')).attr('color','#9aa0b8');
   svg.append('g').attr('transform',`translate(${m.left},0)`).call(d3.axisLeft(y).ticks(5)).attr('color','#9aa0b8');
   // regression line on log(endow) vs earn
   const lx=unis.map(u=>Math.log(u.endowment_per_student||1)), ly=unis.map(u=>u.median_earn_10yr);
@@ -325,10 +325,11 @@ function renderPeers(unis){
     node.attr('cx',d=>d.x=Math.max(12,Math.min(w-12,d.x))).attr('cy',d=>d.y=Math.max(16,Math.min(h-16,d.y)));
     labels.attr('x',d=>d.x+7).attr('y',d=>d.y+3);
   });
-  const legend=svg.append('g').attr('transform',`translate(12, ${h-18})`);
-  groupKeys.slice(0,8).forEach((g,i)=>{
-    legend.append('circle').attr('cx',i*110).attr('cy',0).attr('r',5).attr('fill',color(g)).attr('opacity',0.85);
-    legend.append('text').attr('x',i*110+8).attr('y',3).attr('fill','#9aa0b8').attr('font-size','10px').text(g.slice(0,18));
+  const legend=svg.append('g').attr('transform',`translate(12, ${h-36})`);
+  groupKeys.slice(0,18).forEach((g,i)=>{
+    const row=Math.floor(i/6), col=i%6;
+    legend.append('circle').attr('cx',col*130).attr('cy',row*16).attr('r',5).attr('fill',color(g)).attr('opacity',0.85);
+    legend.append('text').attr('x',col*130+8).attr('y',row*16+3).attr('fill','#9aa0b8').attr('font-size','10px').text(g.slice(0,18));
   });
   const listEl=document.getElementById('peer-list');
   if(listEl){
