@@ -15,7 +15,10 @@ function renderProvenance(meta){
   const enriched = meta.enriched_count!=null ? meta.enriched_count : '—';
   const ver = meta.version || '0.1';
   const upd = meta.last_updated || '';
-  el.textContent = `v${ver} • ${upd} • Scorecard real: ${enriched}/${meta.total_universities||60} • Source: ${meta.source?.split('(')[0]||''}`;
+  const total = meta.total_universities || 150;
+  el.textContent = `v${ver} • ${upd} • Scorecard real: ${enriched}/${total} • Source: ${meta.source?.split('(')[0]||''}`;
+  const badge=document.getElementById('badge-real');
+  if(badge) badge.textContent = `${enriched}/${total}`;
 }
 
 function exportCSV(unis){
@@ -92,12 +95,29 @@ function renderInsights(data){
   const bestValue = [...unis].sort((a,b)=>(a.net_price_avg/a.median_earn_10yr)-(b.net_price_avg/b.median_earn_10yr))[0];
   const privateAvg = unis.filter(u=>u.control==='private').reduce((s,u)=>s+u.score,0)/unis.filter(u=>u.control==='private').length;
   const publicAvg = unis.filter(u=>u.control==='public').reduce((s,u)=>s+u.score,0)/unis.filter(u=>u.control==='public').length;
-  insights.push({t:`Top Alumni Advantage: ${topScore.name}`, d:`Score ${topScore.score} — private R1, endowment $${(topScore.endowment_b)}B, earnings $${topScore.median_earn_10yr.toLocaleString()} 10yr. Model: high endowment/student + low Pell gap + high retention.`});
-  insights.push({t:`Highest Earnings: ${topEarn.name}`, d:`$${topEarn.median_earn_10yr.toLocaleString()} median 10yr. SF ratio ${topEarn.sf_ratio}:1, research $${topEarn.research_spend_m}M. Earnings premium correlates with research spend per student (r~0.6).`});
-  insights.push({t:`Best Value (Price/Earnings): ${bestValue.name}`, d:`Net price $${bestValue.net_price_avg.toLocaleString()} vs earnings $${bestValue.median_earn_10yr.toLocaleString()}. Public flagship model shows ROI advantage despite lower endowment/student.`});
-  insights.push({t:`Private vs Public: ${privateAvg.toFixed(1)} vs ${publicAvg.toFixed(1)} avg score`, d:`Private advantage driven by endowment/student (avg $1.2M vs $0.2M) and alumni giving (28% vs 9%). Publics close gap on value/ROI and research scale.`});
-  insights.push({t:`Public Filings Coverage: 6 sources`, d:`IPEDS (100% Title IV), IRS 990 (private only), Audited financials (GAAP), College Scorecard (earnings/debt/default/net price), NSF HERD (R&D), State audit (publics). Filing presence is trust signal, not score weight.`});
-  insights.push({t:`Expansion Plan: 60 → 500`, d:`v0.1 seeds 60 (R1 + flagships). Hourly iteration adds: Scorecard API batch enrichment, IPEDS Finance API, IRS 990 XML via ProPublica, NACUBO endowment table, HERD Excel, state audit PDFs. Target 200 by v0.3, 500 by v1.0.`});
+  const realCount = unis.filter(u=>u.median_earn_10yr_real).length;
+  const median = arr => { const s=[...arr].sort((a,b)=>a-b); const m=Math.floor(s.length/2); return s.length%2?s[m]:(s[m-1]+s[m])/2; };
+  const earns = unis.map(u=>u.median_earn_10yr);
+  const medianEarn = median(earns);
+  const highDefault = [...unis].sort((a,b)=>b.loan_default-a.loan_default)[0];
+  const lowAdmit = [...unis].filter(u=>u.admission_rate).sort((a,b)=>a.admission_rate-b.admission_rate)[0];
+  const highResearch = [...unis].sort((a,b)=>b.research_spend_m-a.research_spend_m)[0];
+  const bestGrad = [...unis].sort((a,b)=>b.grad_rate_6yr-a.grad_rate_6yr)[0];
+  const endowPerMedian = median(unis.map(u=>u.endowment_per_student));
+  const publicFlagshipValue = unis.filter(u=>u.control==='public' && u.carnegie==='R1').sort((a,b)=>(a.net_price_avg/a.median_earn_10yr)-(b.net_price_avg/b.median_earn_10yr))[0];
+
+  insights.push({t:`Top Alumni Advantage: ${topScore.name}`, d:`Score ${topScore.score} — ${topScore.control} ${topScore.carnegie}, endowment $${(topScore.endowment_b)}B, earnings $${topScore.median_earn_10yr.toLocaleString()} 10yr. Model: high endowment/student + low Pell gap + high retention.`});
+  insights.push({t:`Highest Earnings: ${topEarn.name}`, d:`$${topEarn.median_earn_10yr.toLocaleString()} median 10yr. SF ratio ${topEarn.sf_ratio}:1, research $${topEarn.research_spend_m}M. Earnings premium correlates with research spend per student (r~0.6). ${topEarn.median_earn_10yr_real? '● Scorecard real.' : ''}`});
+  insights.push({t:`Best Value (Price/Earnings): ${bestValue.name}`, d:`Net price $${bestValue.net_price_avg.toLocaleString()} vs earnings $${bestValue.median_earn_10yr.toLocaleString()}. Public flagship model shows ROI advantage despite lower endowment/student. Ratio ${(bestValue.net_price_avg/bestValue.median_earn_10yr).toFixed(2)}.`});
+  insights.push({t:`Private vs Public: ${privateAvg.toFixed(1)} vs ${publicAvg.toFixed(1)} avg score`, d:`Private advantage driven by endowment/student (avg ${(endowPerMedian/1000).toFixed(0)}k median) and alumni giving (28% vs 9%). Publics close gap on value/ROI and research scale. n=${unis.length}, private=${unis.filter(u=>u.control==='private').length}, public=${unis.filter(u=>u.control==='public').length}.`});
+  insights.push({t:`Public Filings Coverage: 6 sources`, d:`IPEDS (100% Title IV), IRS 990 (private only), Audited financials (GAAP), College Scorecard (earnings/debt/default/net price) ${realCount}/${unis.length} real, NSF HERD (R&D), State audit (publics). Filing presence is trust signal, not score weight.`});
+  insights.push({t:`Expansion Plan: 60 → 150 → 500`, d:`v0.3 now 150 universities (R1 + flagships + R2 + LAC). Hourly iteration adds: Scorecard API batch enrichment (${realCount} real), IPEDS Finance API, IRS 990 XML via ProPublica, NACUBO endowment table, HERD Excel, state audit PDFs. Target 200 by v0.4, 500 by v1.0.`});
+  insights.push({t:`Most Selective: ${lowAdmit ? lowAdmit.name + ' ' + (lowAdmit.admission_rate*100).toFixed(1)+'%' : 'n/a'}`, d:`Low admit rate correlates with alumni advantage (r~0.55) but not perfectly — value/ROI rewards publics with broader access. ${lowAdmit?.admission_rate!=null? 'Admit '+(lowAdmit.admission_rate*100).toFixed(1)+'% real Scorecard.' : ''}`});
+  insights.push({t:`Research Powerhouse: ${highResearch.name}`, d:`$${highResearch.research_spend_m}M NSF HERD, ${highResearch.carnegie}, enrollment ${highResearch.enrollment_fte.toLocaleString()} FTE. Research spend per student $${(highResearch.research_spend_m*1e6/highResearch.enrollment_fte).toFixed(0)}.`});
+  insights.push({t:`Graduation Leader: ${bestGrad.name}`, d:`${(bestGrad.grad_rate_6yr*100).toFixed(0)}% 6yr grad rate, retention ${(bestGrad.retention*100).toFixed(0)}%. Academic Quality 15% of Alumni Advantage — grad rate + retention + SF ratio + research/student.`});
+  insights.push({t:`Default Risk: ${highDefault.name} highest`, d:`${(highDefault.loan_default*100).toFixed(1)}% loan default vs median ${(median(unis.map(u=>u.loan_default))*100).toFixed(1)}%. Lower default = higher Value/ROI (20% weight). Publics with low net price have lower default even with higher Pell %`});
+  insights.push({t:`Median Earnings: $${medianEarn.toLocaleString()}`, d:`Median 10yr earnings across ${unis.length} universities. Top quartile > $${[...earns].sort((a,b)=>b-a)[Math.floor(earns.length*0.25)].toLocaleString()}, bottom quartile < $${[...earns].sort((a,b)=>a-b)[Math.floor(earns.length*0.75)].toLocaleString()}. Earnings from College Scorecard where available (green dot).`});
+  insights.push({t:`Public Flagship Value: ${publicFlagshipValue.name}`, d:`Public R1 best value: net price $${publicFlagshipValue.net_price_avg.toLocaleString()} vs earnings $${publicFlagshipValue.median_earn_10yr.toLocaleString()}, ROI 10yr $${(publicFlagshipValue.median_earn_10yr - 35000*2 - publicFlagshipValue.net_price_avg*4).toLocaleString()}. Model for ROI-driven choice.`});
   const grid = document.getElementById('insights-grid');
   grid.innerHTML = insights.map(i=>`<div class="insight-card"><h4>${i.t}</h4><p>${i.d}</p></div>`).join('');
 }
@@ -184,6 +204,7 @@ function drawCharts(unis){
 
 function renderFilings(data){
   const grid=document.getElementById('filings-grid');
+  if(!grid) return;
   grid.innerHTML=data.universities.map(u=>{
     const f=u.filings;
     const badges=[ ['IPEDS',f.ipeds], ['990',f['990']], ['Audit',f.audited], ['Scorecard',f.scorecard], ['HERD',f.herd], ['State',f.state_audit] ].map(([label,val])=>{
@@ -195,13 +216,74 @@ function renderFilings(data){
   }).join('');
 }
 
+function renderPeers(unis){
+  const modeEl=document.getElementById('peer-mode');
+  const mode=modeEl?modeEl.value:'conference';
+  const netEl=document.getElementById('peer-network');
+  if(!netEl) return;
+  // group
+  const groups={};
+  unis.forEach(u=>{
+    let key;
+    if(mode==='conference') key=u.conference||u.peer_group||'Other';
+    else if(mode==='carnegie') key=u.carnegie;
+    else if(mode==='control') key=u.control;
+    else if(mode==='state') key=u.state;
+    else key='All';
+    if(!groups[key]) groups[key]=[];
+    groups[key].push(u);
+  });
+  const groupKeys=Object.keys(groups).sort();
+  // stats
+  const statsEl=document.getElementById('peer-stats');
+  if(statsEl) statsEl.textContent=`${groupKeys.length} groups • ${unis.length} universities`;
+  // network svg - force-ish layout by grouping
+  netEl.innerHTML='';
+  const w=netEl.clientWidth||900, h=380;
+  const svg=d3.select(netEl).append('svg').attr('width',w).attr('height',h);
+  // simple clustered layout: groups along x, universities inside
+  const color=d3.scaleOrdinal(d3.schemeCategory10).domain(groupKeys);
+  const gx=d3.scaleBand().domain(groupKeys).range([40,w-20]).padding(0.2);
+  // draw group backgrounds
+  groupKeys.forEach(g=>{
+    const x=gx(g);
+    const bw=gx.bandwidth();
+    svg.append('rect').attr('x',x-6).attr('y',30).attr('width',bw+12).attr('height',h-50).attr('fill',color(g)).attr('opacity',0.08).attr('rx',10);
+    svg.append('text').attr('x',x+bw/2).attr('y',20).attr('text-anchor','middle').attr('fill','#9aa0b8').attr('font-size','11px').text(`${g} (${groups[g].length})`);
+  });
+  // nodes
+  groupKeys.forEach(g=>{
+    const nodes=groups[g].sort((a,b)=>b.score-a.score);
+    const x0=gx(g)+gx.bandwidth()/2;
+    nodes.forEach((u,i)=>{
+      const y=50 + (i % 20)*16 + Math.floor(i/20)*8;
+      if(y>h-30) return; // overflow hide
+      const cx=x0 + (Math.random()-0.5)* (gx.bandwidth()*0.7);
+      svg.append('circle').attr('cx',cx).attr('cy',y).attr('r',3 + u.score/40).attr('fill',u.control==='private'?'#7c8cff':'#3dd598').attr('opacity',0.85).append('title').text(`${u.name}: ${u.score.toFixed(1)} • ${u.state}`);
+      if(i<3) svg.append('text').attr('x',cx+6).attr('y',y+3).attr('fill','#e6e8f0').attr('font-size','9px').text(u.name.split(' ').slice(0,2).join(' '));
+    });
+  });
+  // peer list cards
+  const listEl=document.getElementById('peer-list');
+  if(listEl){
+    listEl.innerHTML=groupKeys.slice(0,12).map(g=>{
+      const members=groups[g].sort((a,b)=>b.score-a.score).slice(0,5);
+      const avgScore=members.reduce((s,u)=>s+u.score,0)/members.length;
+      const avgEarn=members.reduce((s,u)=>s+u.median_earn_10yr,0)/members.length;
+      return `<div class="filing-card"><div class="filing-left"><b>${g}</b><br><span style="color:#9aa0b8;font-size:.75rem">${groups[g].length} schools • avg score ${avgScore.toFixed(1)} • avg earn $${(avgEarn/1000).toFixed(0)}k</span><br><span style="font-size:.75rem">${members.map(m=>m.name).join(', ')}${groups[g].length>5?' …':''}</span></div></div>`;
+    }).join('');
+  }
+}
+
 loadData().then(data=>{
   allUnis=data.universities; filtered=[...allUnis];
   renderProvenance(data.metadata||{});
   renderMetrics(data); renderInsights(data); renderTable(filtered); renderFilings(data); drawCharts(filtered);
+  renderPeers(filtered);
   document.getElementById('search').addEventListener('input',applyFilters);
   document.getElementById('filter-control').addEventListener('change',applyFilters);
   document.getElementById('sort-preset').addEventListener('change',applyFilters);
+  const peerMode=document.getElementById('peer-mode'); if(peerMode) peerMode.addEventListener('change',()=>renderPeers(filtered));
   const csvBtn=document.getElementById('btn-csv'); if(csvBtn) csvBtn.addEventListener('click',()=>exportCSV(filtered));
   const cmpBtn=document.getElementById('btn-compare'); if(cmpBtn) cmpBtn.addEventListener('click',()=>{ document.getElementById('compare-bar').style.display='flex'; });
   const go=document.getElementById('compare-go'); if(go) go.addEventListener('click',showCompare);

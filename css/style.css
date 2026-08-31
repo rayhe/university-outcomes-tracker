@@ -37,4 +37,13 @@ footer{max-width:1400px;margin:40px auto;padding:0 24px 30px;color:var(--muted);
 footer a{color:var(--accent)}
 /* tooltip polish */
 [title]{cursor:help}
+/* v0.3 peer network + polish */
+#peer-network svg{width:100%}
+#peer-network circle:hover{stroke:#fff;stroke-width:1.2}
+.insight-card{transition:transform .15s, border-color .15s}
+.insight-card:hover{transform:translateY(-1px)}
+.table-wrap th{user-select:none}
+#peer-network{overflow:auto}
+.filing-card:hover{border-color:var(--accent)}
+
 
