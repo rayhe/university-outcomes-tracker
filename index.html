@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Outcomes & Alumni Advantage Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <div class="header-left">
+      <h1>University Outcomes Tracker</h1>
+      <p class="subtitle">How well universities convert resources into alumni success — public filings, earnings, and ROI</p>
+    </div>
+    <div class="header-right">
+      <span class="badge">60 Universities v0.1</span>
+      <span class="badge accent">Public Filings</span>
+      <button class="theme-toggle" id="theme-toggle">◐</button>
+    </div>
+  </div>
+</header>
+
+<nav class="section-nav">
+  <div class="section-nav-inner">
+    <a class="section-nav-link active" href="#insights">Insights</a>
+    <a class="section-nav-link" href="#rankings">Rankings</a>
+    <a class="section-nav-link" href="#charts">Charts</a>
+    <a class="section-nav-link" href="#filings">Filings</a>
+    <a class="section-nav-link" href="#methodology">Methodology</a>
+  </div>
+</nav>
+
+<section class="metrics-strip" id="metrics-strip">
+  <div class="metric-card"><div class="metric-label">Median Alumni Advantage</div><div class="metric-value" id="m-median-score">—</div><div class="metric-delta" id="m-median-sub">0-100 composite</div></div>
+  <div class="metric-card"><div class="metric-label">Median Earnings 10yr</div><div class="metric-value" id="m-earnings">—</div><div class="metric-delta" id="m-earnings-sub">College Scorecard</div></div>
+  <div class="metric-card"><div class="metric-label">Median Endow / Student</div><div class="metric-value" id="m-endow">—</div><div class="metric-delta">NACUBO / IPEDS</div></div>
+  <div class="metric-card"><div class="metric-label">Median Grad Rate 6yr</div><div class="metric-value" id="m-grad">—</div><div class="metric-delta">IPEDS</div></div>
+  <div class="metric-card"><div class="metric-label">Median Loan Default</div><div class="metric-value" id="m-default">—</div><div class="metric-delta">Lower is better</div></div>
+  <div class="metric-card"><div class="metric-label">Data Sources</div><div class="metric-value" style="font-size:1.1rem">6 Public</div><div class="metric-delta">IPEDS, 990, Scorecard, HERD, NACUBO, Audit</div></div>
+</section>
+
+<section class="insights-section" id="insights">
+  <div class="section-header"><h2>Key Insights</h2><p class="section-desc">Statistical highlights from the current 60-university sample — expands hourly</p></div>
+  <div class="insights-grid" id="insights-grid"></div>
+</section>
+
+<section class="section" id="rankings">
+  <div class="section-header">
+    <h2>Rankings — Alumni Advantage Score</h2>
+    <p class="section-desc">Composite 0-100: 30% career outcomes, 20% alumni support, 15% academic quality, 15% financial health, 20% value/ROI. Public filings shown as trust signal, not weighted. Click headers to sort, click row for detail.</p>
+    <div class="controls">
+      <input type="text" id="search" placeholder="Filter by name, state, control..." />
+      <select id="filter-control"><option value="all">All</option><option value="private">Private</option><option value="public">Public</option><option value="R1">R1 Only</option></select>
+      <select id="sort-preset"><option value="score_desc">Sort: Score ↓</option><option value="earn_desc">Earnings ↓</option><option value="endow_desc">Endowment / Student ↓</option><option value="grad_desc">Grad Rate ↓</option><option value="value_desc">ROI ↑ (value)</option></select>
+    </div>
+  </div>
+  <div class="table-wrap"><table id="uni-table"><thead></thead><tbody></tbody></table></div>
+  <div id="detail-panel" class="detail-panel hidden"></div>
+</section>
+
+<section class="section" id="charts">
+  <div class="section-header"><h2>Charts</h2></div>
+  <div class="charts-grid">
+    <div class="chart-card"><h3>Endowment / Student vs Earnings 10yr</h3><div id="chart-scatter" class="chart"></div><p class="chart-desc">Does more money per student = higher alumni earnings? Bubble size = enrollment</p></div>
+    <div class="chart-card"><h3>Score by Dimension</h3><div id="chart-radar" class="chart"></div><p class="chart-desc">Average dimension scores for private vs public</p></div>
+    <div class="chart-card"><h3>Grad Rate vs Loan Default</h3><div id="chart-grad-default" class="chart"></div></div>
+    <div class="chart-card"><h3>Value Quadrant — Net Price vs Earnings</h3><div id="chart-value" class="chart"></div></div>
+  </div>
+</section>
+
+<section class="section" id="filings">
+  <div class="section-header">
+    <h2>Public Filings & Transparency</h2>
+    <p class="section-desc">Every university evaluated on 6 public sources. Green = available, amber = partial/system-level, gray = n/a. Unlike S&P 500 DEF 14A, universities file across IPEDS, IRS 990, audited financials, College Scorecard, NSF HERD, and state audits. This tracker links directly to filings.</p>
+  </div>
+  <div id="filings-grid" class="filings-grid"></div>
+  <div class="filings-legend"><span><i class="dot ok"></i> Available</span><span><i class="dot partial"></i> System/Partial</span><span><i class="dot na"></i> N/A-Public</span></div>
+</section>
+
+<section class="section" id="methodology">
+  <div class="section-header"><h2>Methodology — How Alumni Advantage is Measured</h2></div>
+  <div class="methodology-grid">
+    <div class="method-card"><h4>1. Career Outcomes (30%)</h4><ul><li>Median earnings 10yr post-entry (College Scorecard)</li><li>Employment 6mo (IPEDS + surveys)</li><li>Grad school enrollment</li><li>Fortune 500 / startup founders per 1k alumni (LinkedIn enrichment)</li></ul></div>
+    <div class="method-card"><h4>2. Alumni Support (20%)</h4><ul><li>Alumni giving rate (IPEDS, CASE)</li><li>Endowment per FTE (NACUBO, IPEDS)</li><li>Alumni network size (alumni association)</li><li>Career services staff per student</li></ul></div>
+    <div class="method-card"><h4>3. Academic Quality (15%)</h4><ul><li>6yr graduation rate (IPEDS)</li><li>First-year retention</li><li>Student-faculty ratio</li><li>Research spend per student (NSF HERD)</li></ul></div>
+    <div class="method-card"><h4>4. Financial Health (15%)</h4><ul><li>Endowment 5yr growth (NACUBO, 990)</li><li>Tuition reliance = tuition / total revenue (990, audited)</li><li>State appropriation stability (publics, IPEDS Finance)</li><li>Moody's / S&P credit rating</li></ul></div>
+    <div class="method-card"><h4>5. Value & ROI (20%)</h4><ul><li>Net price low-income ($0-30k) (Scorecard)</li><li>Pell graduation gap</li><li>Loan default rate (Scorecard)</li><li>Debt at graduation, 10yr ROI = (earnings - HS earnings) - net price</li></ul></div>
+    <div class="method-card"><h4>6. Public Filings (trust signal, unweighted)</h4><ul><li><b>IPEDS</b> — mandatory federal, all Title IV</li><li><b>IRS 990</b> — private nonprofits, Schedule D endowment</li><li><b>Audited financials</b> — GAAP, endowment footnotes</li><li><b>College Scorecard</b> — earnings, debt, default, net price</li><li><b>NSF HERD</b> — research expenditures</li><li><b>State audit</b> — publics, single audit</li></ul><p>Scoring normalizes each metric 0-100 within Carnegie class, then weighted sum. Public filings boost confidence interval, not score.</p></div>
+  </div>
+  <p class="small-note">Inspired by the S&P 500 Executive Compensation Tracker methodology: primary-source first, DEF 14A → IPEDS/990 mapping, panel-evaluated iteration, daily/hourly improvement. See sp500-exec-comp repo for reference implementation. Data pipeline planned: IPEDS API, Scorecard API, IRS 990 XML (ProPublica), NACUBO scraping, NSF HERD Excel.</p>
+</section>
+
+<footer><p>Built as companion to <a href="https://rayhe.github.io/sp500-exec-comp">S&P 500 Exec Comp Tracker</a> • Ray He • Data v0.1 60 universities • Iteration hourly until 9.0+, then daily • <a href="https://github.com/rayhe/university-outcomes-tracker">GitHub</a></p></footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
