@@ -5,19 +5,24 @@ header{border-bottom:1px solid var(--border);padding:20px 24px;background:linear
 .header-inner{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;max-width:1400px;margin:0 auto}
 h1{margin:0;font-size:1.6rem;letter-spacing:-0.02em} .subtitle{margin:6px 0 0;color:var(--muted);font-size:.95rem}
 .badge{border:1px solid var(--border);padding:4px 10px;border-radius:999px;font-size:.75rem;background:var(--card2);color:var(--muted)} .badge.accent{border-color:var(--accent);color:var(--accent)}
+.header-right{display:flex;align-items:center;flex-wrap:wrap;gap:6px}
 .section-nav{position:sticky;top:0;z-index:10;background:rgba(11,13,18,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
 .section-nav-inner{max-width:1400px;margin:0 auto;display:flex;gap:18px;padding:10px 24px}
 .section-nav-link{color:var(--muted);text-decoration:none;font-size:.85rem;padding:6px 10px;border-radius:6px} .section-nav-link.active,.section-nav-link:hover{background:var(--card2);color:var(--text)}
 .metrics-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;max-width:1400px;margin:18px auto;padding:0 24px}
-.metric-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px 16px}
+.metric-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px 16px;transition:transform .15s}
+.metric-card:hover{transform:translateY(-2px);border-color:var(--accent)}
 .metric-label{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em} .metric-value{font-size:1.35rem;font-weight:600;margin-top:4px} .metric-delta{font-size:.78rem;color:var(--muted);margin-top:2px}
 .section{max-width:1400px;margin:28px auto;padding:0 24px} .section-header h2{margin:0 0 6px;font-size:1.25rem} .section-desc{margin:0 0 14px;color:var(--muted);font-size:.9rem}
 .insights-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
-.insight-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:12px 14px} .insight-card h4{margin:0 0 6px;font-size:.88rem} .insight-card p{margin:0;font-size:.85rem;color:var(--muted)}
+.insight-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:12px 14px;transition:border-color .15s} .insight-card:hover{border-color:var(--accent)} .insight-card h4{margin:0 0 6px;font-size:.88rem} .insight-card p{margin:0;font-size:.85rem;color:var(--muted)}
 .controls{display:flex;gap:10px;margin:10px 0 14px;flex-wrap:wrap} input,select{background:var(--card2);border:1px solid var(--border);color:var(--text);padding:8px 10px;border-radius:8px;font-size:.85rem}
+input:focus,select:focus{outline:none;border-color:var(--accent)}
 .table-wrap{overflow:auto;border:1px solid var(--border);border-radius:10px;background:var(--card)}
-table{width:100%;border-collapse:collapse;font-size:.85rem} th{position:sticky;top:0;background:var(--card2);text-align:left;padding:10px 12px;cursor:pointer;border-bottom:1px solid var(--border);white-space:nowrap} td{padding:9px 12px;border-bottom:1px solid #1e2233} tr:hover td{background:#1a1e30}
-.detail-panel{margin-top:14px;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px} .detail-panel.hidden{display:none}
+table{width:100%;border-collapse:collapse;font-size:.85rem} th{position:sticky;top:0;background:var(--card2);text-align:left;padding:10px 12px;cursor:pointer;border-bottom:1px solid var(--border);white-space:nowrap} th:hover{color:var(--accent)} td{padding:9px 12px;border-bottom:1px solid #1e2233} tr:hover td{background:#1a1e30}
+.detail-panel{margin-top:14px;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px;animation:fadeIn .2s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+.detail-panel.hidden{display:none}
 .charts-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:14px}
 .chart-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:12px} .chart-card h3{margin:0 0 8px;font-size:.95rem} .chart{height:280px} .chart-desc{font-size:.78rem;color:var(--muted);margin:6px 0 0}
 .filings-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:10px}
@@ -30,3 +35,6 @@ table{width:100%;border-collapse:collapse;font-size:.85rem} th{position:sticky;t
 .small-note{font-size:.78rem;color:var(--muted);margin-top:12px;max-width:900px}
 footer{max-width:1400px;margin:40px auto;padding:0 24px 30px;color:var(--muted);font-size:.8rem;border-top:1px solid var(--border);padding-top:16px}
 footer a{color:var(--accent)}
+/* tooltip polish */
+[title]{cursor:help}
+

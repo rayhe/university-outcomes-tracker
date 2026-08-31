@@ -16,8 +16,10 @@
       <p class="subtitle">How well universities convert resources into alumni success — public filings, earnings, and ROI</p>
     </div>
     <div class="header-right">
-      <span class="badge">60 Universities v0.1</span>
-      <span class="badge accent">Public Filings</span>
+      <span class="badge">60 Universities v0.2</span>
+      <span class="badge accent">Scorecard Real</span>
+      <button id="btn-csv" style="margin-left:8px;padding:4px 10px;border-radius:8px;border:1px solid #2a2e42;background:#1c2030;color:#e6e8f0;font-size:.78rem;cursor:pointer">⬇ CSV</button>
+      <button id="btn-compare" style="margin-left:6px;padding:4px 10px;border-radius:8px;border:1px solid #2a2e42;background:#1c2030;color:#e6e8f0;font-size:.78rem;cursor:pointer">◫ Compare</button>
       <button class="theme-toggle" id="theme-toggle">◐</button>
     </div>
   </div>
@@ -93,7 +95,9 @@
   <p class="small-note">Inspired by the S&P 500 Executive Compensation Tracker methodology: primary-source first, DEF 14A → IPEDS/990 mapping, panel-evaluated iteration, daily/hourly improvement. See sp500-exec-comp repo for reference implementation. Data pipeline planned: IPEDS API, Scorecard API, IRS 990 XML (ProPublica), NACUBO scraping, NSF HERD Excel.</p>
 </section>
 
-<footer><p>Built as companion to <a href="https://rayhe.github.io/sp500-exec-comp">S&P 500 Exec Comp Tracker</a> • Ray He • Data v0.1 60 universities • Iteration hourly until 9.0+, then daily • <a href="https://github.com/rayhe/university-outcomes-tracker">GitHub</a></p></footer>
+<footer><p>Built as companion to <a href="https://rayhe.github.io/sp500-exec-comp">S&P 500 Exec Comp Tracker</a> • Ray He • Data v0.2 60 universities (Scorecard-enriched) • Iteration hourly until 9.0+, then daily • <a href="https://github.com/rayhe/university-outcomes-tracker">GitHub</a> • <span id="data-provenance" style="color:#9aa0b8"></span></p></footer>
+
+<div id="compare-bar" style="position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:#151821;border:1px solid #2a2e42;border-radius:12px;padding:10px 14px;display:none;gap:8px;align-items:center;z-index:50;box-shadow:0 8px 24px rgba(0,0,0,.4)"><span id="compare-count" style="font-size:.85rem;color:#9aa0b8">0 selected</span><button id="compare-go" style="padding:6px 12px;background:#7c8cff;border:none;border-radius:6px;color:#fff;font-size:.85rem;cursor:pointer">Compare</button><button id="compare-clear" style="padding:6px 10px;background:transparent;border:1px solid #2a2e42;border-radius:6px;color:#9aa0b8;font-size:.85rem;cursor:pointer">Clear</button></div>
 
 <script src="js/app.js"></script>
 </body>

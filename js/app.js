@@ -7,7 +7,67 @@ async function loadData(){
 function fmtMoney(n){ if(n>=1e9) return '$'+(n/1e9).toFixed(1)+'B'; if(n>=1e6) return '$'+(n/1e6).toFixed(1)+'M'; if(n>=1e3) return '$'+(n/1e3).toFixed(0)+'k'; return '$'+n; }
 function fmtNum(n){ return n.toLocaleString(); }
 
-let allUnis=[], filtered=[];
+let allUnis=[], filtered=[], selectedCompare=new Set();
+
+function renderProvenance(meta){
+  const el=document.getElementById('data-provenance');
+  if(!el) return;
+  const enriched = meta.enriched_count!=null ? meta.enriched_count : '—';
+  const ver = meta.version || '0.1';
+  const upd = meta.last_updated || '';
+  el.textContent = `v${ver} • ${upd} • Scorecard real: ${enriched}/${meta.total_universities||60} • Source: ${meta.source?.split('(')[0]||''}`;
+}
+
+function exportCSV(unis){
+  const headers=['id','name','control','state','carnegie','score','median_earn_10yr','median_earn_real','debt_avg','loan_default','net_price_avg','grad_rate_6yr','retention','endowment_b','endowment_per_student','enrollment_fte','research_spend_m','alumni_network_k','admission_rate','scorecard_id','scorecard_name'];
+  const rows=[headers.join(',')];
+  unis.forEach(u=>{
+    const vals=headers.map(h=>{
+      let v=u[h];
+      if(h==='median_earn_real') v=u.median_earn_10yr_real||'';
+      if(v==null) v='';
+      if(typeof v==='string' && (v.includes(',')||v.includes('"'))) return `"${v.replace(/"/g,'""')}"`;
+      return v;
+    });
+    rows.push(vals.join(','));
+  });
+  const blob=new Blob([rows.join('\n')],{type:'text/csv'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a'); a.href=url; a.download=`university-outcomes-${new Date().toISOString().slice(0,10)}.csv`; a.click(); URL.revokeObjectURL(url);
+}
+
+function toggleCompare(id){
+  if(selectedCompare.has(id)) selectedCompare.delete(id); else { if(selectedCompare.size>=4){ alert('Max 4 for comparison'); return; } selectedCompare.add(id); }
+  updateCompareBar();
+  renderTable(filtered); // re-render to show check
+}
+function updateCompareBar(){
+  const bar=document.getElementById('compare-bar'); const cnt=document.getElementById('compare-count');
+  if(!bar) return;
+  cnt.textContent=`${selectedCompare.size} selected for compare`;
+  bar.style.display=selectedCompare.size>0?'flex':'none';
+}
+function showCompare(){
+  if(selectedCompare.size<2){ alert('Select at least 2'); return; }
+  const picks=[...selectedCompare].map(id=>allUnis.find(u=>u.id===id)).filter(Boolean);
+  const p=document.getElementById('detail-panel');
+  p.classList.remove('hidden');
+  const dims=['score','median_earn_10yr','debt_avg','loan_default','net_price_avg','grad_rate_6yr','retention','endowment_per_student','admission_rate'];
+  let html=`<h3>Comparison — ${picks.map(u=>u.name).join(' vs ')}</h3><div style="overflow:auto"><table style="width:100%;font-size:.86rem"><thead><tr><th>Metric</th>${picks.map(u=>`<th>${u.name}</th>`).join('')}</tr></thead><tbody>`;
+  dims.forEach(k=>{
+    html+=`<tr><td><b>${k}</b></td>${picks.map(u=>{
+      let v=u[k]; if(v==null) v=u[k+'_real']||'—';
+      if(k.includes('earn')||k.includes('debt')||k.includes('price')||k.includes('endowment')) v=v!=null&&v!=='—'?fmtMoney(v):v;
+      else if(k.includes('grad')||k.includes('retention')||k.includes('default')||k.includes('admission')) v=v!=null&&v!=='—'?(v*100).toFixed(1)+'%':v;
+      else if(typeof v==='number') v=v.toFixed(1);
+      const realBadge=u[k+'_real']!=null||u.median_earn_10yr_real!=null&&k==='median_earn_10yr'?' <span style="font-size:.65rem;color:#3dd598">●real</span>':'';
+      return `<td>${v}${realBadge}</td>`;
+    }).join('')}</tr>`;
+  });
+  html+=`</tbody></table></div><p style="font-size:.8rem;color:#9aa0b8;margin-top:8px">●real = College Scorecard API. Others synthetic until v0.3 IPEDS/990 enrichment. ROI 10yr = earn - $35k*2 - net_price*4.</p><button onclick="document.getElementById('detail-panel').classList.add('hidden')" style="margin-top:8px">Close</button>`;
+  p.innerHTML=html;
+  p.scrollIntoView({behavior:'smooth'});
+}
 
 function renderMetrics(data){
   const unis = data.universities;
@@ -44,11 +104,16 @@ function renderInsights(data){
 
 function renderTable(unis){
   const thead = document.querySelector('#uni-table thead');
-  thead.innerHTML = `<tr><th data-k="name">University</th><th data-k="control">Control</th><th data-k="state">State</th><th data-k="score">Score</th><th data-k="median_earn_10yr">Earn 10yr</th><th data-k="endowment_per_student">Endow / Stud</th><th data-k="grad_rate_6yr">Grad 6yr</th><th data-k="loan_default">Default</th><th data-k="net_price_avg">Net Price</th><th data-k="enrollment_fte">Enroll</th></tr>`;
+  thead.innerHTML = `<tr><th>◫</th><th data-k="name">University <span title="Scorecard name stored">ⓘ</span></th><th data-k="control">Control</th><th data-k="state">State</th><th data-k="score">Score</th><th data-k="median_earn_10yr">Earn 10yr <span title="Real = green dot from College Scorecard">ⓘ</span></th><th data-k="endowment_per_student">Endow / Stud</th><th data-k="grad_rate_6yr">Grad 6yr</th><th data-k="loan_default">Default</th><th data-k="net_price_avg">Net Price</th><th data-k="enrollment_fte">Enroll</th></tr>`;
   const tbody = document.querySelector('#uni-table tbody');
-  tbody.innerHTML = unis.map(u=>`<tr data-id="${u.id}"><td><b>${u.name}</b><br><span style="color:#9aa0b8;font-size:.75rem">${u.carnegie} • ${u.enrollment_fte.toLocaleString()} FTE</span></td><td>${u.control}</td><td>${u.state}</td><td><b>${u.score.toFixed(1)}</b></td><td>${fmtMoney(u.median_earn_10yr)}</td><td>${fmtMoney(u.endowment_per_student)}</td><td>${(u.grad_rate_6yr*100).toFixed(0)}%</td><td>${(u.loan_default*100).toFixed(1)}%</td><td>${fmtMoney(u.net_price_avg)}</td><td>${fmtNum(u.enrollment_fte)}</td></tr>`).join('');
-  tbody.querySelectorAll('tr').forEach(tr=>tr.addEventListener('click',()=>showDetail(tr.dataset.id)));
-  thead.querySelectorAll('th').forEach(th=>th.addEventListener('click',()=>{ const k=th.dataset.k; sortBy(k); }));
+  tbody.innerHTML = unis.map(u=>{
+    const checked=selectedCompare.has(u.id)?'checked':'';
+    const realDot=u.median_earn_10yr_real!=null?'<span style="color:#3dd598" title="Scorecard real">●</span>':'<span style="color:#555" title="Synthetic">○</span>';
+    const debtReal=u.debt_avg_real!=null?' title="Scorecard real"' : ' title="Synthetic"';
+    return `<tr data-id="${u.id}"><td><input type="checkbox" ${checked} onchange="event.stopPropagation(); window.__toggleCompare('${u.id}')" /></td><td><b>${u.name}</b> ${realDot}<br><span style="color:#9aa0b8;font-size:.75rem">${u.carnegie} • ${u.enrollment_fte.toLocaleString()} FTE ${u.admission_rate!=null?`• admit ${(u.admission_rate*100).toFixed(0)}%`:''}</span></td><td>${u.control}</td><td>${u.state}</td><td><b>${u.score.toFixed(1)}</b></td><td>${fmtMoney(u.median_earn_10yr)} ${u.median_earn_10yr_real?`<span style="font-size:.7rem;color:#3dd598">real</span>`:''}</td><td>${fmtMoney(u.endowment_per_student)}</td><td>${(u.grad_rate_6yr*100).toFixed(0)}%</td><td><span${debtReal}>${(u.loan_default*100).toFixed(1)}%</span></td><td>${fmtMoney(u.net_price_avg)}</td><td>${fmtNum(u.enrollment_fte)}</td></tr>`;
+  }).join('');
+  tbody.querySelectorAll('tr').forEach(tr=>tr.addEventListener('click',(e)=>{ if(e.target.type==='checkbox') return; showDetail(tr.dataset.id); }));
+  thead.querySelectorAll('th').forEach(th=>th.addEventListener('click',()=>{ const k=th.dataset.k; if(k) sortBy(k); }));
 }
 
 let sortKey='score', sortDir=-1;
@@ -80,15 +145,18 @@ function showDetail(id){
   const u = allUnis.find(x=>x.id===id); if(!u) return;
   const p = document.getElementById('detail-panel');
   p.classList.remove('hidden');
-  p.innerHTML = `<h3>${u.name} — Alumni Advantage ${u.score.toFixed(1)}</h3>
+  const realBadge = (k)=> u[k+'_real']!=null ? '<span style="font-size:.65rem;background:#0f251c;color:#3dd598;border:1px solid #1f5c3a;padding:1px 5px;border-radius:999px;margin-left:6px">Scorecard real</span>' : '<span style="font-size:.65rem;background:#1f1f28;color:#9aa0b8;padding:1px 5px;border-radius:999px;margin-left:6px">synthetic</span>';
+  const provenance = u.scorecard_name ? `<div style="font-size:.75rem;color:#9aa0b8;margin-top:6px">Matched to Scorecard: ${u.scorecard_name} (${u.scorecard_city}) ID ${u.scorecard_id}</div>` : '';
+  p.innerHTML = `<h3>${u.name} — Alumni Advantage ${u.score.toFixed(1)} ${u.median_earn_10yr_real?' <span style="color:#3dd598">● Scorecard-enriched</span>':''}</h3>
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:.86rem">
-  <div><b>Basic</b><br>Control: ${u.control}<br>State: ${u.state}<br>Carnegie: ${u.carnegie}<br>Enrollment FTE: ${u.enrollment_fte.toLocaleString()}<br>Endowment: $${u.endowment_b}B ($${(u.endowment_per_student/1000).toFixed(0)}k / student)<br>Student-Faculty: ${u.sf_ratio}:1</div>
-  <div><b>Outcomes</b><br>Grad 6yr: ${(u.grad_rate_6yr*100).toFixed(0)}%<br>Retention: ${(u.retention*100).toFixed(0)}%<br>Median Earn 10yr: $${u.median_earn_10yr.toLocaleString()}<br>Employment 6mo: ${(u.employment_6mo*100).toFixed(0)}%<br>Alumni Giving: ${(u.alumni_giving*100).toFixed(0)}%<br>Alumni Network: ${(u.alumni_network_k)}k</div>
-  <div><b>Value</b><br>Net Price Avg: $${u.net_price_avg.toLocaleString()}<br>Pell Gap: ${(u.pell_gap*100).toFixed(0)}pp<br>Loan Default: ${(u.loan_default*100).toFixed(1)}%<br>Debt Avg: $${u.debt_avg.toLocaleString()}<br>ROI 10yr (est): $${(u.median_earn_10yr - 35000*2 - u.net_price_avg*4).toLocaleString()}</div>
-  <div><b>Public Filings</b><br>IPEDS: ${u.filings.ipeds}<br>IRS 990: ${u.filings['990']}<br>Audited: ${u.filings.audited}<br>Scorecard: ${u.filings.scorecard}<br>HERD: ${u.filings.herd}<br>State Audit: ${u.filings.state_audit}<br><br><span style="font-size:.75rem;color:#9aa0b8">Research Spend: $${u.research_spend_m}M (NSF HERD)</span></div>
+  <div><b>Basic</b><br>Control: ${u.control}<br>State: ${u.state}<br>Carnegie: ${u.carnegie}<br>Enrollment FTE: ${u.enrollment_fte.toLocaleString()}${u.enrollment_fte_real?` <span style="color:#3dd598">(${u.enrollment_fte_real} Scorecard)</span>`:''}<br>Endowment: $${u.endowment_b}B ($${(u.endowment_per_student/1000).toFixed(0)}k / student)<br>Student-Faculty: ${u.sf_ratio}:1${u.admission_rate!=null?`<br>Admission Rate: ${(u.admission_rate*100).toFixed(1)}%${realBadge('admission_rate')}`:''}</div>
+  <div><b>Outcomes</b><br>Grad 6yr: ${(u.grad_rate_6yr*100).toFixed(0)}%${u.grad_rate_6yr_real?` → real ${(u.grad_rate_6yr_real*100).toFixed(0)}%`:''}<br>Retention: ${(u.retention*100).toFixed(0)}% ${u.retention_real?realBadge('retention'):''}<br>Median Earn 10yr: $${u.median_earn_10yr.toLocaleString()} ${realBadge('median_earn_10yr')}<br>Employment 6mo: ${(u.employment_6mo*100).toFixed(0)}%<br>Alumni Giving: ${(u.alumni_giving*100).toFixed(0)}%<br>Alumni Network: ${(u.alumni_network_k)}k${u.avg_family_income?`<br>Avg Family Income: $${u.avg_family_income.toLocaleString()}`:''}</div>
+  <div><b>Value</b><br>Net Price Avg: $${u.net_price_avg.toLocaleString()} ${realBadge('net_price_avg')}<br>Pell Gap: ${(u.pell_gap*100).toFixed(0)}pp${u.pell_rate?` (Pell ${(u.pell_rate*100).toFixed(0)}%)`:''}<br>Loan Default: ${(u.loan_default*100).toFixed(1)}% ${realBadge('loan_default')}<br>Debt Avg: $${u.debt_avg.toLocaleString()} ${realBadge('debt_avg')}<br>ROI 10yr (est): $${(u.median_earn_10yr - 35000*2 - u.net_price_avg*4).toLocaleString()}</div>
+  <div><b>Public Filings</b><br>IPEDS: ${u.filings.ipeds}<br>IRS 990: ${u.filings['990']}<br>Audited: ${u.filings.audited}<br>Scorecard: ${u.filings.scorecard} ${u.scorecard_id?`→ <a href="https://collegescorecard.ed.gov/school/?${u.scorecard_id}" target="_blank">${u.scorecard_id}</a>`:''}<br>HERD: ${u.filings.herd}<br>State Audit: ${u.filings.state_audit}<br><br><span style="font-size:.75rem;color:#9aa0b8">Research Spend: $${u.research_spend_m}M (NSF HERD)</span></div>
   </div>
+  ${provenance}
   <p style="font-size:.8rem;color:#9aa0b8;margin-top:10px">Filings as trust signal: this university's Scorecard coverage = ${u.filings.scorecard}, 990 = ${u.filings['990']}. Direct links planned via IPEDS Use-the-Data, ProPublica Nonprofit Explorer, Scorecard API.</p>
-  <button onclick="document.getElementById('detail-panel').classList.add('hidden')" style="margin-top:8px">Close</button>`;
+  <div style="display:flex;gap:8px;margin-top:10px"><button onclick="document.getElementById('detail-panel').classList.add('hidden')" style="padding:6px 10px">Close</button><button onclick="window.__toggleCompare('${u.id}')" style="padding:6px 10px;background:#7c8cff;border:none;border-radius:6px;color:#fff;cursor:pointer">Toggle Compare</button></div>`;
   p.scrollIntoView({behavior:'smooth',block:'nearest'});
 }
 
@@ -129,8 +197,15 @@ function renderFilings(data){
 
 loadData().then(data=>{
   allUnis=data.universities; filtered=[...allUnis];
+  renderProvenance(data.metadata||{});
   renderMetrics(data); renderInsights(data); renderTable(filtered); renderFilings(data); drawCharts(filtered);
   document.getElementById('search').addEventListener('input',applyFilters);
   document.getElementById('filter-control').addEventListener('change',applyFilters);
   document.getElementById('sort-preset').addEventListener('change',applyFilters);
+  const csvBtn=document.getElementById('btn-csv'); if(csvBtn) csvBtn.addEventListener('click',()=>exportCSV(filtered));
+  const cmpBtn=document.getElementById('btn-compare'); if(cmpBtn) cmpBtn.addEventListener('click',()=>{ document.getElementById('compare-bar').style.display='flex'; });
+  const go=document.getElementById('compare-go'); if(go) go.addEventListener('click',showCompare);
+  const cl=document.getElementById('compare-clear'); if(cl) cl.addEventListener('click',()=>{ selectedCompare.clear(); updateCompareBar(); renderTable(filtered); });
+  window.__toggleCompare=toggleCompare;
+  window.__showCompare=showCompare;
 });
