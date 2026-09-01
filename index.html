@@ -16,9 +16,9 @@
       <p class="subtitle">How well universities convert resources into alumni success — public filings, earnings, and ROI</p>
     </div>
     <div class="header-right">
-      <span class="badge">200 Universities v0.7</span>
+      <span class="badge">200 Universities v0.8</span>
       <span class="badge accent">Scorecard Real: <span id="badge-real">—</span></span>
-      <span class="badge" style="border-color:#3dd598;color:#3dd598">200/200 Real • 18 Conf • Force-directed</span>
+      <span class="badge" style="border-color:#3dd598;color:#3dd598">200/200 Real • 36 Conf • ID-correct 7 • Force-directed</span>
       <button id="btn-csv" style="margin-left:8px;padding:4px 10px;border-radius:8px;border:1px solid #2a2e42;background:#1c2030;color:#e6e8f0;font-size:.78rem;cursor:pointer">⬇ CSV</button>
       <button id="btn-compare" style="margin-left:6px;padding:4px 10px;border-radius:8px;border:1px solid #2a2e42;background:#1c2030;color:#e6e8f0;font-size:.78rem;cursor:pointer">◫ Compare</button>
       <button class="theme-toggle" id="theme-toggle">◐</button>
@@ -47,7 +47,7 @@
 </section>
 
 <section class="insights-section" id="insights">
-  <div class="section-header"><h2>Key Insights</h2><p class="section-desc">Statistical highlights + correlations from 200-university sample — v0.7 200/200 real (100%) Scorecard, 18 conferences, 10 LACs, Mountain West/MAC/AAC/Summit/Big Sky expansion, ID-corrected (5 mismatches fixed: Williams, Loyola Chicago, Wesleyan, Colby, Ohio U), drag, regression, peer benchmarking</p></div>
+  <div class="section-header"><h2>Key Insights</h2><p class="section-desc">Statistical highlights + correlations from 200-university sample — v0.8 200/200 real (100%) Scorecard, 36 conferences, 10 LACs, ID-corrected 7 critical (UF 134130 Florida not FSU, Ohio State 204796 main not Ag Tech, Cornell 190415 Ithaca not Weill Medical, USD 122436 San Diego not UCSD, Northeastern 167358 Boston not Oakland, UCLA 110662 LA not Cal State LA, Penn State 214777 Univ Park not Scranton), duplicate audit 13 dupes remain, Mountain West/MAC/AAC/Summit/Big Sky expansion, drag, regression, peer benchmarking</p></div>
   <div class="insights-grid" id="insights-grid"></div>
 </section>
 
@@ -110,7 +110,7 @@
   <p class="small-note">Inspired by the S&P 500 Executive Compensation Tracker methodology: primary-source first, DEF 14A → IPEDS/990 mapping, panel-evaluated iteration, daily/hourly improvement. See sp500-exec-comp repo for reference implementation. Data pipeline planned: IPEDS API, Scorecard API, IRS 990 XML (ProPublica), NACUBO scraping, NSF HERD Excel.</p>
 </section>
 
-<footer><p>Built as companion to <a href="https://rayhe.github.io/sp500-exec-comp">S&P 500 Exec Comp Tracker</a> • Ray He • Data v0.7 200 universities (200/200 Scorecard-real 100%, 18 conf, 10 LACs, ID-corrected 5, Mountain West/MAC/AAC expansion) • Iteration hourly until 9.0+, then daily • <a href="https://github.com/rayhe/university-outcomes-tracker">GitHub</a> • <span id="data-provenance" style="color:#9aa0b8"></span></p></footer>
+<footer><p>Built as companion to <a href="https://rayhe.github.io/sp500-exec-comp">S&P 500 Exec Comp Tracker</a> • Ray He • Data v0.8 200 universities (200/200 Scorecard-real 100%, 36 conf, ID-correct 7 critical, duplicate audit 13 dupes) • Iteration hourly until 9.0+, then daily • <a href="https://github.com/rayhe/university-outcomes-tracker">GitHub</a> • <span id="data-provenance" style="color:#9aa0b8"></span></p></footer>
 
 <div id="compare-bar" style="position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:#151821;border:1px solid #2a2e42;border-radius:12px;padding:10px 14px;display:none;gap:8px;align-items:center;z-index:50;box-shadow:0 8px 24px rgba(0,0,0,.4)"><span id="compare-count" style="font-size:.85rem;color:#9aa0b8">0 selected</span><button id="compare-go" style="padding:6px 12px;background:#7c8cff;border:none;border-radius:6px;color:#fff;font-size:.85rem;cursor:pointer">Compare</button><button id="compare-clear" style="padding:6px 10px;background:transparent;border:1px solid #2a2e42;border-radius:6px;color:#9aa0b8;font-size:.85rem;cursor:pointer">Clear</button></div>
 
