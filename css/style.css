@@ -83,3 +83,25 @@ footer a{color:var(--accent)}
   .badge{font-size:.72rem;padding:3px 8px}
   #peer-network{height:420px}
 }
+
+/* v0.11 full-bleed (no side margins) + percentile distributions */
+.header-inner,.section-nav-inner,.metrics-strip,.section,footer{max-width:none}
+.chart svg{width:100%;height:auto;display:block}
+.pct-bar-wrap{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:14px 24px 0}
+.pct-label{font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.pct-bar{display:flex;gap:6px;flex-wrap:wrap}
+.pct-btn{background:var(--card2);border:1px solid var(--border);color:var(--muted);padding:6px 12px;border-radius:999px;font-size:.8rem;cursor:pointer}
+.pct-btn:hover{border-color:var(--accent);color:var(--text)}
+.pct-btn.active{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.pct-note{font-size:.78rem;color:var(--muted)}
+.dist-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.dist-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:12px}
+.dist-card h4{margin:0 0 8px;font-size:.9rem}
+.lower-tag{font-size:.68rem;color:var(--amber);border:1px solid var(--amber);border-radius:6px;padding:1px 6px;font-weight:400}
+.dist-chart{width:100%}
+.dist-stats{display:flex;justify-content:space-between;font-size:.75rem;color:var(--muted);margin-top:6px}
+.dist-stats .dist-sel{color:var(--text)}
+.dist-stats .dist-sel b{color:var(--accent)}
+.legend{display:flex;gap:14px;font-size:.75rem;color:var(--muted);margin:0 0 6px;flex-wrap:wrap}
+.sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px}
+@media (max-width:480px){.pct-bar-wrap{padding:10px 12px 0}}

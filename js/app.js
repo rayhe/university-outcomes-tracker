@@ -9,6 +9,24 @@ function fmtNum(n){ return n.toLocaleString(); }
 
 let allUnis=[], filtered=[], selectedCompare=new Set();
 
+// v0.11 percentile toolkit: P10..P99 across the university distribution
+const PCTS=[10,25,50,75,80,90,95,99];
+let activePct=50;
+function quantile(sorted,q){
+  if(!sorted.length) return NaN;
+  const pos=(sorted.length-1)*q, b=Math.floor(pos), r=pos-b;
+  return sorted[b]+(sorted[b+1]!==undefined?r*(sorted[b+1]-sorted[b]):0);
+}
+function renderPctControls(){
+  const c=document.getElementById('pct-controls'); if(!c) return;
+  c.innerHTML=PCTS.map(p=>`<button class="pct-btn${p===activePct?' active':''}" data-p="${p}">P${p}</button>`).join('');
+  c.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{
+    activePct=+b.dataset.p;
+    renderPctControls(); renderMetrics(filtered); renderDistributions(filtered);
+    const u=new URL(window.location); u.searchParams.set('p',activePct); history.replaceState(null,'',u);
+  }));
+}
+
 function renderProvenance(meta){
   const el=document.getElementById('data-provenance');
   if(!el) return;
@@ -75,19 +93,82 @@ function showCompare(){
   p.scrollIntoView({behavior:'smooth'});
 }
 
-function renderMetrics(data){
-  const unis = data.universities;
-  const median = arr => { const s=[...arr].sort((a,b)=>a-b); const m=Math.floor(s.length/2); return s.length%2?s[m]:(s[m-1]+s[m])/2; };
-  const scores = unis.map(u=>u.score).filter(v=>v!=null);
-  const earns = unis.map(u=>u.median_earn_10yr).filter(v=>v!=null);
-  const endows = unis.map(u=>u.endowment_per_student).filter(v=>v!=null);
-  const grads = unis.map(u=>u.grad_rate_6yr).filter(v=>v!=null);
-  const defs = unis.map(u=>u.loan_default).filter(v=>v!=null);
-  document.getElementById('m-median-score').textContent = median(scores).toFixed(1);
-  document.getElementById('m-earnings').textContent = fmtMoney(median(earns));
-  document.getElementById('m-endow').textContent = fmtMoney(median(endows));
-  document.getElementById('m-grad').textContent = (median(grads)*100).toFixed(0)+'%';
-  document.getElementById('m-default').textContent = (median(defs)*100).toFixed(1)+'%';
+function renderMetrics(unis){
+  const vals=key=>unis.map(u=>u[key]).filter(v=>v!=null).sort((a,b)=>a-b);
+  const q=key=>quantile(vals(key),activePct/100);
+  const P='P'+activePct;
+  const labels=document.querySelectorAll('#metrics-strip .metric-card .metric-label');
+  const set=(i,label)=>{ if(labels[i]) labels[i].textContent=label; };
+  set(0,`${P} Alumni Advantage`);
+  document.getElementById('m-median-score').textContent=q('score').toFixed(1);
+  set(1,`${P} Earnings 10yr`);
+  document.getElementById('m-earnings').textContent=fmtMoney(q('median_earn_10yr'));
+  set(2,`${P} Endow / Student`);
+  document.getElementById('m-endow').textContent=fmtMoney(q('endowment_per_student'));
+  set(3,`${P} Grad Rate 6yr`);
+  document.getElementById('m-grad').textContent=(q('grad_rate_6yr')*100).toFixed(0)+'%';
+  set(4,`${P} Loan Default`);
+  document.getElementById('m-default').textContent=(q('loan_default')*100).toFixed(1)+'%';
+  const subs=document.querySelectorAll('#metrics-strip .metric-card .metric-delta');
+  if(subs[4]) subs[4].textContent=`Lower is better \u2022 ${P} of ${unis.length} schools`;
+}
+
+function renderDistributions(unis){
+  const grid=document.getElementById('dist-grid'); if(!grid) return;
+  const defs=[
+    {key:'score',title:'Alumni Advantage Score',fmt:v=>v.toFixed(1),lower:false},
+    {key:'median_earn_10yr',title:'Median Earnings 10yr',fmt:v=>fmtMoney(v),lower:false},
+    {key:'endowment_per_student',title:'Endowment / Student',fmt:v=>fmtMoney(v),lower:false,log:true},
+    {key:'grad_rate_6yr',title:'6yr Graduation Rate',fmt:v=>(v*100).toFixed(0)+'%',lower:false},
+    {key:'loan_default',title:'Loan Default Rate',fmt:v=>(v*100).toFixed(1)+'%',lower:true},
+    {key:'net_price_avg',title:'Avg Net Price',fmt:v=>fmtMoney(v),lower:true},
+  ];
+  grid.innerHTML='';
+  const pending=[];
+  defs.forEach(def=>{
+    const items=unis.map(u=>({u,v:u[def.key]})).filter(d=>d.v!=null);
+    if(!items.length) return;
+    const s=items.map(d=>d.v).sort((a,b)=>a-b);
+    const pv=quantile(s,activePct/100);
+    const card=document.createElement('div'); card.className='dist-card';
+    card.innerHTML=`<h4>${def.title}${def.lower?' <span class="lower-tag">lower is better</span>':''}</h4><div class="dist-chart"></div>
+      <div class="dist-stats"><span>P10 ${def.fmt(quantile(s,.10))}</span><span class="dist-sel">P${activePct} <b>${def.fmt(pv)}</b></span><span>P90 ${def.fmt(quantile(s,.90))}</span></div>`;
+    grid.appendChild(card);
+    pending.push([card.querySelector('.dist-chart'),items,def,pv,s]);
+  });
+  // two-pass: measure after all cards are laid out so each gets its final column width
+  pending.forEach(a=>drawDistStrip(a[0],a[1],a[2],a[3],a[4]));
+}
+
+function drawDistStrip(el,items,def,pv,sorted){
+  el.innerHTML='';
+  const W=Math.max(el.clientWidth||320,280), H=118, m={top:18,right:12,bottom:26,left:12};
+  const svg=d3.select(el).append('svg').attr('viewBox',`0 0 ${W} ${H}`).attr('width','100%').style('height','auto').style('display','block').style('overflow','visible');
+  const vs=sorted;
+  const x=def.log
+    ? d3.scaleLog().domain([vs[0]*0.9,vs[vs.length-1]*1.1]).range([m.left,W-m.right])
+    : d3.scaleLinear().domain([vs[0],vs[vs.length-1]]).range([m.left,W-m.right]);
+  const yMid=60;
+  const b10=quantile(vs,.10), b90=quantile(vs,.90);
+  svg.append('rect').attr('x',x(b10)).attr('y',yMid-24).attr('width',Math.max(1,x(b90)-x(b10))).attr('height',48).attr('rx',6).attr('fill','rgba(124,140,255,.10)');
+  const p50=quantile(vs,.5);
+  svg.append('line').attr('x1',x(p50)).attr('x2',x(p50)).attr('y1',yMid-24).attr('y2',yMid+24).attr('stroke','#c8ccda').attr('stroke-width',1.5).attr('opacity',.7);
+  items.forEach((d,i)=>{
+    const jx=(((i*2654435761)%100)/100-0.5)*2;
+    const jy=(((i*40503)%100)/100-0.5)*32;
+    svg.append('circle')
+      .attr('cx',x(d.v)+jx).attr('cy',yMid+jy).attr('r',3)
+      .attr('fill',d.u.control==='private'?'#7c8cff':'#3dd598').attr('opacity',.55)
+      .style('cursor','pointer')
+      .on('click',()=>showDetail(d.u.id))
+      .append('title').text(`${d.u.name}: ${def.fmt(d.v)}`);
+  });
+  svg.append('line').attr('x1',x(pv)).attr('x2',x(pv)).attr('y1',yMid-28).attr('y2',yMid+28).attr('stroke','#7c8cff').attr('stroke-width',2.5);
+  svg.append('text').attr('x',Math.min(Math.max(x(pv),m.left+34),W-m.right-34)).attr('y',12).attr('text-anchor','middle').attr('fill','#7c8cff').attr('font-size','11px').attr('font-weight','600').text(`P${activePct} ${def.fmt(pv)}`);
+  const ax=svg.append('g').attr('transform',`translate(0,${H-m.bottom})`).attr('color','#9aa0b8');
+  if(def.log) ax.call(d3.axisBottom(x).ticks(4,'~s'));
+  else ax.call(d3.axisBottom(x).ticks(4).tickFormat(d=>def.fmt(d)));
+  ax.selectAll('text').attr('font-size','9px');
 }
 
 function corr(x,y){
@@ -184,10 +265,10 @@ function applyFilters(){
   if(preset==='grad_desc'){sortKey='grad_rate_6yr';sortDir=-1;}
   if(preset==='value_desc'){
     list = list.sort((a,b)=>(a.net_price_avg/a.median_earn_10yr)-(b.net_price_avg/b.median_earn_10yr));
-    filtered=list; renderTable(filtered); drawCharts(filtered); renderPeers(filtered); return;
+    filtered=list; renderTable(filtered); drawCharts(filtered); renderPeers(filtered); renderMetrics(filtered); renderDistributions(filtered); return;
   }
   list.sort((a,b)=>{ let av=a[sortKey], bv=b[sortKey]; if(typeof av==='string') av=av.toLowerCase(), bv=bv.toLowerCase(); if(av<bv) return -1*sortDir; if(av>bv) return 1*sortDir; return 0; });
-  filtered=list; renderTable(filtered); drawCharts(filtered); renderPeers(filtered);
+  filtered=list; renderTable(filtered); drawCharts(filtered); renderPeers(filtered); renderMetrics(filtered); renderDistributions(filtered);
 }
 
 function showDetail(id){
@@ -214,11 +295,13 @@ function drawCharts(unis){
   if(!scatterEl) return;
   scatterEl.innerHTML='';
   const w=340,h=260,m={top:20,right:20,bottom:30,left:50};
-  const svg=d3.select(scatterEl).append('svg').attr('width',w).attr('height',h);
+  const svg=d3.select(scatterEl).append('svg').attr('viewBox',`0 0 ${w} ${h}`).attr('width','100%').style('height','auto').style('display','block');
   const x=d3.scaleLog().domain([d3.min(unis,d=>d.endowment_per_student)*0.8, d3.max(unis,d=>d.endowment_per_student)*1.2]).range([m.left,w-m.right]);
   const y=d3.scaleLinear().domain([d3.min(unis,d=>d.median_earn_10yr)*0.9, d3.max(unis,d=>d.median_earn_10yr)*1.1]).range([h-m.bottom,m.top]);
   svg.append('g').attr('transform',`translate(0,${h-m.bottom})`).call(d3.axisBottom(x).ticks(3,'~s')).attr('color','#9aa0b8');
   svg.append('g').attr('transform',`translate(${m.left},0)`).call(d3.axisLeft(y).ticks(5)).attr('color','#9aa0b8');
+  svg.append('text').attr('x',(m.left+w-m.right)/2).attr('y',h-2).attr('text-anchor','middle').attr('fill','#9aa0b8').attr('font-size','10px').text('Endowment per student (log scale)');
+  svg.append('text').attr('transform','rotate(-90)').attr('x',-(m.top+h-m.bottom)/2).attr('y',10).attr('text-anchor','middle').attr('fill','#9aa0b8').attr('font-size','10px').text('Median earnings 10yr');
   // regression line on log(endow) vs earn
   const lx=unis.map(u=>Math.log(u.endowment_per_student||1)), ly=unis.map(u=>u.median_earn_10yr);
   const lr=linearRegression(lx,ly);
@@ -227,9 +310,14 @@ function drawCharts(unis){
   const line=d3.line().x(d=>x(d.x)).y(d=>y(d.y));
   svg.append('path').datum(lineData).attr('fill','none').attr('stroke','#7c8cff').attr('stroke-width',1.2).attr('stroke-dasharray','4 3').attr('opacity',0.6).attr('d',line);
   svg.selectAll('circle').data(unis).enter().append('circle').attr('cx',d=>x(d.endowment_per_student)).attr('cy',d=>y(d.median_earn_10yr)).attr('r',d=>Math.sqrt(d.enrollment_fte)/25+3).attr('fill',d=>d.control==='private'?'#7c8cff':'#3dd598').attr('opacity',0.7).append('title').text(d=>`${d.name} (${d.conference}): $${d.endowment_per_student.toLocaleString()} / stud, $${d.median_earn_10yr} earn, r=${corr(lx,ly).toFixed(2)}`);
-  const gd=document.getElementById('chart-grad-default'); if(gd){ gd.innerHTML=''; const svg2=d3.select(gd).append('svg').attr('width',w).attr('height',h); const x2=d3.scaleLinear().domain([0.7,1]).range([m.left,w-m.right]); const y2=d3.scaleLinear().domain([0,0.08]).range([h-m.bottom,m.top]); svg2.append('g').attr('transform',`translate(0,${h-m.bottom})`).call(d3.axisBottom(x2).tickFormat(d=>d*100+'%')).attr('color','#9aa0b8'); svg2.append('g').attr('transform',`translate(${m.left},0)`).call(d3.axisLeft(y2).tickFormat(d=>d*100+'%')).attr('color','#9aa0b8'); svg2.selectAll('circle').data(unis).enter().append('circle').attr('cx',d=>x2(d.grad_rate_6yr)).attr('cy',d=>y2(d.loan_default)).attr('r',4).attr('fill',d=>d.score>92?'#7c8cff':'#9aa0b8').attr('opacity',0.8).append('title').text(d=>d.name); }
-  const val=document.getElementById('chart-value'); if(val){ val.innerHTML=''; const svg3=d3.select(val).append('svg').attr('width',w).attr('height',h); const x3=d3.scaleLinear().domain([0,d3.max(unis,d=>d.net_price_avg)*1.1]).range([m.left,w-m.right]); const y3=d3.scaleLinear().domain([d3.min(unis,d=>d.median_earn_10yr)*0.9,d3.max(unis,d=>d.median_earn_10yr)*1.1]).range([h-m.bottom,m.top]); svg3.append('g').attr('transform',`translate(0,${h-m.bottom})`).call(d3.axisBottom(x3)).attr('color','#9aa0b8'); svg3.append('g').attr('transform',`translate(${m.left},0)`).call(d3.axisLeft(y3)).attr('color','#9aa0b8'); svg3.selectAll('circle').data(unis).enter().append('circle').attr('cx',d=>x3(d.net_price_avg)).attr('cy',d=>y3(d.median_earn_10yr)).attr('r',4).attr('fill',d=>d.control==='public'?'#3dd598':'#ffb84d').append('title').text(d=>d.name); }
-  const rad=document.getElementById('chart-radar'); if(rad){ rad.innerHTML=''; const privAvg={career:0,alumni:0,academic:0,financial:0,value:0}; const pubAvg={career:0,alumni:0,academic:0,financial:0,value:0}; let pc=0,uc=0; unis.forEach(u=>{ const isPriv=u.control==='private'; const tgt=isPriv?privAvg:pubAvg; tgt.career+=u.median_earn_10yr/1000; tgt.alumni+=u.alumni_giving*100; tgt.academic+=u.grad_rate_6yr*100; tgt.financial+=Math.log(u.endowment_per_student); tgt.value+=(1-u.loan_default)*100; if(isPriv) pc++; else uc++; }); Object.keys(privAvg).forEach(k=>privAvg[k]/=pc||1); Object.keys(pubAvg).forEach(k=>pubAvg[k]/=uc||1); const svg4=d3.select(rad).append('svg').attr('width',w).attr('height',h); const keys=Object.keys(privAvg); const x4=d3.scaleBand().domain(keys).range([m.left,w-m.right]).padding(0.2); const y4=d3.scaleLinear().domain([0,100]).range([h-m.bottom,m.top]); svg4.append('g').attr('transform',`translate(0,${h-m.bottom})`).call(d3.axisBottom(x4)).attr('color','#9aa0b8'); svg4.append('g').attr('transform',`translate(${m.left},0)`).call(d3.axisLeft(y4)).attr('color','#9aa0b8'); keys.forEach((k)=>{ svg4.append('rect').attr('x',x4(k)).attr('y',y4(privAvg[k]/1.5)).attr('width',x4.bandwidth()/2).attr('height',h-m.bottom-y4(privAvg[k]/1.5)).attr('fill','#7c8cff'); svg4.append('rect').attr('x',x4(k)+x4.bandwidth()/2).attr('y',y4(pubAvg[k]/1.5)).attr('width',x4.bandwidth()/2).attr('height',h-m.bottom-y4(pubAvg[k]/1.5)).attr('fill','#3dd598'); }); }
+  const gd=document.getElementById('chart-grad-default'); if(gd){ gd.innerHTML=''; const svg2=d3.select(gd).append('svg').attr('viewBox',`0 0 ${w} ${h}`).attr('width','100%').style('height','auto').style('display','block'); const x2=d3.scaleLinear().domain([0.7,1]).range([m.left,w-m.right]); const y2=d3.scaleLinear().domain([0,0.08]).range([h-m.bottom,m.top]); svg2.append('g').attr('transform',`translate(0,${h-m.bottom})`).call(d3.axisBottom(x2).tickFormat(d=>d*100+'%')).attr('color','#9aa0b8'); svg2.append('g').attr('transform',`translate(${m.left},0)`).call(d3.axisLeft(y2).tickFormat(d=>d*100+'%')).attr('color','#9aa0b8'); svg2.selectAll('circle').data(unis).enter().append('circle').attr('cx',d=>x2(d.grad_rate_6yr)).attr('cy',d=>y2(d.loan_default)).attr('r',4).attr('fill',d=>d.score>92?'#7c8cff':'#9aa0b8').attr('opacity',0.8).append('title').text(d=>d.name); }
+  const val=document.getElementById('chart-value'); if(val){ val.innerHTML=''; const svg3=d3.select(val).append('svg').attr('viewBox',`0 0 ${w} ${h}`).attr('width','100%').style('height','auto').style('display','block'); const x3=d3.scaleLinear().domain([0,d3.max(unis,d=>d.net_price_avg)*1.1]).range([m.left,w-m.right]); const y3=d3.scaleLinear().domain([d3.min(unis,d=>d.median_earn_10yr)*0.9,d3.max(unis,d=>d.median_earn_10yr)*1.1]).range([h-m.bottom,m.top]); svg3.append('g').attr('transform',`translate(0,${h-m.bottom})`).call(d3.axisBottom(x3)).attr('color','#9aa0b8'); svg3.append('g').attr('transform',`translate(${m.left},0)`).call(d3.axisLeft(y3)).attr('color','#9aa0b8'); svg3.selectAll('circle').data(unis).enter().append('circle').attr('cx',d=>x3(d.net_price_avg)).attr('cy',d=>y3(d.median_earn_10yr)).attr('r',4).attr('fill',d=>d.control==='public'?'#3dd598':'#ffb84d').append('title').text(d=>d.name);
+  const vqx=unis.map(d=>d.net_price_avg).sort((a,b)=>a-b), vqy=unis.map(d=>d.median_earn_10yr).sort((a,b)=>a-b);
+  const medx=quantile(vqx,.5), medy=quantile(vqy,.5);
+  svg3.append('line').attr('x1',x3(medx)).attr('x2',x3(medx)).attr('y1',m.top).attr('y2',h-m.bottom).attr('stroke','#9aa0b8').attr('stroke-dasharray','4 3').attr('opacity',.5);
+  svg3.append('line').attr('x1',m.left).attr('x2',w-m.right).attr('y1',y3(medy)).attr('y2',y3(medy)).attr('stroke','#9aa0b8').attr('stroke-dasharray','4 3').attr('opacity',.5);
+  svg3.append('text').attr('x',m.left+6).attr('y',m.top+12).attr('fill','#3dd598').attr('font-size','10px').attr('font-weight','600').text('BEST VALUE'); }
+  const rad=document.getElementById('chart-radar'); if(rad){ rad.innerHTML=''; const privAvg={career:0,alumni:0,academic:0,financial:0,value:0}; const pubAvg={career:0,alumni:0,academic:0,financial:0,value:0}; let pc=0,uc=0; unis.forEach(u=>{ const isPriv=u.control==='private'; const tgt=isPriv?privAvg:pubAvg; tgt.career+=u.median_earn_10yr/1000; tgt.alumni+=u.alumni_giving*100; tgt.academic+=u.grad_rate_6yr*100; tgt.financial+=Math.log(u.endowment_per_student); tgt.value+=(1-u.loan_default)*100; if(isPriv) pc++; else uc++; }); Object.keys(privAvg).forEach(k=>privAvg[k]/=pc||1); Object.keys(pubAvg).forEach(k=>pubAvg[k]/=uc||1); const svg4=d3.select(rad).append('svg').attr('viewBox',`0 0 ${w} ${h}`).attr('width','100%').style('height','auto').style('display','block'); const keys=Object.keys(privAvg); const x4=d3.scaleBand().domain(keys).range([m.left,w-m.right]).padding(0.2); const y4=d3.scaleLinear().domain([0,100]).range([h-m.bottom,m.top]); svg4.append('g').attr('transform',`translate(0,${h-m.bottom})`).call(d3.axisBottom(x4)).attr('color','#9aa0b8'); svg4.append('g').attr('transform',`translate(${m.left},0)`).call(d3.axisLeft(y4)).attr('color','#9aa0b8'); keys.forEach((k)=>{ svg4.append('rect').attr('x',x4(k)).attr('y',y4(privAvg[k]/1.5)).attr('width',x4.bandwidth()/2).attr('height',h-m.bottom-y4(privAvg[k]/1.5)).attr('fill','#7c8cff'); svg4.append('rect').attr('x',x4(k)+x4.bandwidth()/2).attr('y',y4(pubAvg[k]/1.5)).attr('width',x4.bandwidth()/2).attr('height',h-m.bottom-y4(pubAvg[k]/1.5)).attr('fill','#3dd598'); }); }
 }
 
 function renderFilings(data){
@@ -354,10 +442,12 @@ function renderPeers(unis){
 
 loadData().then(data=>{
   allUnis=data.universities; filtered=[...allUnis];
-  renderProvenance(data.metadata||{});
-  renderMetrics(data); renderInsights(data); renderTable(filtered); renderFilings(data); drawCharts(filtered);
-  renderPeers(filtered);
   const urlParams=new URLSearchParams(window.location.search);
+  const pParam=urlParams.get('p'); if(pParam&&PCTS.includes(+pParam)) activePct=+pParam;
+  renderProvenance(data.metadata||{});
+  renderPctControls(); renderMetrics(filtered); renderDistributions(filtered);
+  renderInsights(data); renderTable(filtered); renderFilings(data); drawCharts(filtered);
+  renderPeers(filtered);
   const qParam=urlParams.get('q'); if(qParam){ const se=document.getElementById('search'); if(se){ se.value=qParam; } }
   const cParam=urlParams.get('control'); if(cParam){ const fe=document.getElementById('filter-control'); if(fe) fe.value=cParam; }
   const peerParam=urlParams.get('peer'); if(peerParam){ const pe=document.getElementById('peer-mode'); if(pe){ pe.value=peerParam; renderPeers(filtered); } }

@@ -16,7 +16,7 @@
       <p class="subtitle">How well universities convert resources into alumni success — public filings, earnings, and ROI</p>
     </div>
     <div class="header-right">
-      <span class="badge">200 Universities v0.10</span>
+      <span class="badge">200 Universities v0.11</span>
       <span class="badge accent">Scorecard Real: <span id="badge-real">—</span></span>
       <span class="badge" style="border-color:#3dd598;color:#3dd598">200/200 Real • 36 Conf • ID-correct 7 • Force-directed</span>
       <button id="btn-csv" style="margin-left:8px;padding:4px 10px;border-radius:8px;border:1px solid #2a2e42;background:#1c2030;color:#e6e8f0;font-size:.78rem;cursor:pointer">⬇ CSV</button>
@@ -37,6 +37,11 @@
   </div>
 </nav>
 
+<div class="pct-bar-wrap">
+  <span class="pct-label">Distribution percentile</span>
+  <div class="pct-bar" id="pct-controls"></div>
+  <span class="pct-note">P90 = 90% of schools at or below. Applies to the strip and the distribution charts.</span>
+</div>
 <section class="metrics-strip" id="metrics-strip">
   <div class="metric-card"><div class="metric-label">Median Alumni Advantage</div><div class="metric-value" id="m-median-score">—</div><div class="metric-delta" id="m-median-sub">0-100 composite</div></div>
   <div class="metric-card"><div class="metric-label">Median Earnings 10yr</div><div class="metric-value" id="m-earnings">—</div><div class="metric-delta" id="m-earnings-sub">College Scorecard</div></div>
@@ -44,6 +49,11 @@
   <div class="metric-card"><div class="metric-label">Median Grad Rate 6yr</div><div class="metric-value" id="m-grad">—</div><div class="metric-delta">IPEDS</div></div>
   <div class="metric-card"><div class="metric-label">Median Loan Default</div><div class="metric-value" id="m-default">—</div><div class="metric-delta">Lower is better</div></div>
   <div class="metric-card"><div class="metric-label">Data Sources</div><div class="metric-value" style="font-size:1.1rem">6 Public</div><div class="metric-delta">IPEDS, 990, Scorecard, HERD, NACUBO, Audit</div></div>
+</section>
+
+<section class="section" id="distributions">
+  <div class="section-header"><h2>Distributions — Where Would a Student Land?</h2><p class="section-desc">Each dot is one university (indigo = private, green = public). Shaded band = middle 80% (P10–P90), white tick = median. The <b style="color:#7c8cff">blue line</b> marks the percentile selected above. Click a dot for that school's detail.</p></div>
+  <div class="dist-grid" id="dist-grid"></div>
 </section>
 
 <section class="insights-section" id="insights">
@@ -68,10 +78,10 @@
 <section class="section" id="charts">
   <div class="section-header"><h2>Charts</h2></div>
   <div class="charts-grid">
-    <div class="chart-card"><h3>Endowment / Student vs Earnings 10yr</h3><div id="chart-scatter" class="chart"></div><p class="chart-desc">Does more money per student = higher alumni earnings? Bubble size = enrollment</p></div>
-    <div class="chart-card"><h3>Score by Dimension</h3><div id="chart-radar" class="chart"></div><p class="chart-desc">Average dimension scores for private vs public</p></div>
-    <div class="chart-card"><h3>Grad Rate vs Loan Default</h3><div id="chart-grad-default" class="chart"></div></div>
-    <div class="chart-card"><h3>Value Quadrant — Net Price vs Earnings</h3><div id="chart-value" class="chart"></div></div>
+    <div class="chart-card"><h3>Endowment / Student vs Earnings 10yr</h3><div class="legend"><span><i class="sw" style="background:#7c8cff"></i>Private</span><span><i class="sw" style="background:#3dd598"></i>Public</span><span>Size = enrollment</span></div><div id="chart-scatter" class="chart"></div><p class="chart-desc">Does more money per student = higher alumni earnings? Bubble size = enrollment</p></div>
+    <div class="chart-card"><h3>Dimension Averages — Private vs Public</h3><div class="legend"><span><i class="sw" style="background:#7c8cff"></i>Private</span><span><i class="sw" style="background:#3dd598"></i>Public</span></div><div id="chart-radar" class="chart"></div><p class="chart-desc">Average dimension scores for private vs public</p></div>
+    <div class="chart-card"><h3>Grad Rate vs Loan Default</h3><div id="chart-grad-default" class="chart"></div><p class="chart-desc">Top-right is best: more graduates, fewer defaults.</p></div>
+    <div class="chart-card"><h3>Value Quadrant — Net Price vs Earnings</h3><div class="legend"><span><i class="sw" style="background:#3dd598"></i>Public</span><span><i class="sw" style="background:#ffb84d"></i>Private</span></div><div id="chart-value" class="chart"></div><p class="chart-desc">Top-left is best: low net price, high earnings.</p></div>
   </div>
 </section>
 
@@ -110,7 +120,7 @@
   <p class="small-note">Inspired by the S&P 500 Executive Compensation Tracker methodology: primary-source first, DEF 14A → IPEDS/990 mapping, panel-evaluated iteration, daily/hourly improvement. See sp500-exec-comp repo for reference implementation. Data pipeline planned: IPEDS API, Scorecard API, IRS 990 XML (ProPublica), NACUBO scraping, NSF HERD Excel.</p>
 </section>
 
-<footer><p>Built as companion to <a href="https://rayhe.github.io/sp500-exec-comp">S&P 500 Exec Comp Tracker</a> • Ray He • Data v0.10 200 universities (200/200 Scorecard-real 100%, 200/200 distinct IDs, 36 conf, score declamped 55-97) • Iteration hourly until 9.0+, then daily • <a href="https://github.com/rayhe/university-outcomes-tracker">GitHub</a> • <span id="data-provenance" style="color:#9aa0b8"></span></p></footer>
+<footer><p>Built as companion to <a href="https://rayhe.github.io/sp500-exec-comp">S&P 500 Exec Comp Tracker</a> • Ray He • Data v0.11 200 universities (200/200 Scorecard-real 100%, 200/200 distinct IDs, 36 conf, score declamped 55-97) • Iteration hourly until 9.0+, then daily • <a href="https://github.com/rayhe/university-outcomes-tracker">GitHub</a> • <span id="data-provenance" style="color:#9aa0b8"></span></p></footer>
 
 <div id="compare-bar" style="position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:#151821;border:1px solid #2a2e42;border-radius:12px;padding:10px 14px;display:none;gap:8px;align-items:center;z-index:50;box-shadow:0 8px 24px rgba(0,0,0,.4)"><span id="compare-count" style="font-size:.85rem;color:#9aa0b8">0 selected</span><button id="compare-go" style="padding:6px 12px;background:#7c8cff;border:none;border-radius:6px;color:#fff;font-size:.85rem;cursor:pointer">Compare</button><button id="compare-clear" style="padding:6px 10px;background:transparent;border:1px solid #2a2e42;border-radius:6px;color:#9aa0b8;font-size:.85rem;cursor:pointer">Clear</button></div>
 
