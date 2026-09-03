@@ -3,7 +3,7 @@
 How well universities convert resources into alumni success — modeled after the [S&P 500 Executive Compensation Tracker](https://rayhe.github.io/sp500-exec-comp).
 
 **Live:** https://rayhe.github.io/university-outcomes-tracker  
-**Data:** 200 universities v0.8 → 500 target (200/200 Scorecard-real 100%, 36 conferences, 10 LACs, ID-correct 7 critical)  
+**Data:** 200 universities v0.10 (200/200 Scorecard-real 100%, 200/200 distinct IDs, 36 conferences, 12 LACs, score formula declamped 55-97)
 **Update cadence:** Hourly until 9.0+ quality, then daily
 
 ## What It Measures

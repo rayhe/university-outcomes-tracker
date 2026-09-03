@@ -16,7 +16,7 @@
       <p class="subtitle">How well universities convert resources into alumni success — public filings, earnings, and ROI</p>
     </div>
     <div class="header-right">
-      <span class="badge">200 Universities v0.9</span>
+      <span class="badge">200 Universities v0.10</span>
       <span class="badge accent">Scorecard Real: <span id="badge-real">—</span></span>
       <span class="badge" style="border-color:#3dd598;color:#3dd598">200/200 Real • 36 Conf • ID-correct 7 • Force-directed</span>
       <button id="btn-csv" style="margin-left:8px;padding:4px 10px;border-radius:8px;border:1px solid #2a2e42;background:#1c2030;color:#e6e8f0;font-size:.78rem;cursor:pointer">⬇ CSV</button>
@@ -47,7 +47,7 @@
 </section>
 
 <section class="insights-section" id="insights">
-  <div class="section-header"><h2>Key Insights</h2><p class="section-desc">Statistical highlights + correlations from 200-university sample — v0.9 200/200 real (100%) Scorecard, 200/200 distinct IDs (13 duplicate entries replaced: TCU, Syracuse, Arkansas, Ole Miss, Mississippi State, Creighton, Gonzaga, Marquette, Xavier, Butler, Hamilton, Macalester, Providence), 36 conferences, 12 LACs, drag, regression, peer benchmarking</p></div>
+  <div class="section-header"><h2>Key Insights</h2><p class="section-desc">Statistical highlights + correlations from 200-university sample — v0.10 200/200 real (100%) Scorecard, 200/200 distinct IDs, 36 conferences, 12 LACs, score formula declamped (was 21 tied at 96.0; now min-max normalized 55-97, MIT 97.0 top), drag, regression, peer benchmarking</p></div>
   <div class="insights-grid" id="insights-grid"></div>
 </section>
 
@@ -110,7 +110,7 @@
   <p class="small-note">Inspired by the S&P 500 Executive Compensation Tracker methodology: primary-source first, DEF 14A → IPEDS/990 mapping, panel-evaluated iteration, daily/hourly improvement. See sp500-exec-comp repo for reference implementation. Data pipeline planned: IPEDS API, Scorecard API, IRS 990 XML (ProPublica), NACUBO scraping, NSF HERD Excel.</p>
 </section>
 
-<footer><p>Built as companion to <a href="https://rayhe.github.io/sp500-exec-comp">S&P 500 Exec Comp Tracker</a> • Ray He • Data v0.9 200 universities (200/200 Scorecard-real 100%, 200/200 distinct IDs, 36 conf, dedup 13 replaced) • Iteration hourly until 9.0+, then daily • <a href="https://github.com/rayhe/university-outcomes-tracker">GitHub</a> • <span id="data-provenance" style="color:#9aa0b8"></span></p></footer>
+<footer><p>Built as companion to <a href="https://rayhe.github.io/sp500-exec-comp">S&P 500 Exec Comp Tracker</a> • Ray He • Data v0.10 200 universities (200/200 Scorecard-real 100%, 200/200 distinct IDs, 36 conf, score declamped 55-97) • Iteration hourly until 9.0+, then daily • <a href="https://github.com/rayhe/university-outcomes-tracker">GitHub</a> • <span id="data-provenance" style="color:#9aa0b8"></span></p></footer>
 
 <div id="compare-bar" style="position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:#151821;border:1px solid #2a2e42;border-radius:12px;padding:10px 14px;display:none;gap:8px;align-items:center;z-index:50;box-shadow:0 8px 24px rgba(0,0,0,.4)"><span id="compare-count" style="font-size:.85rem;color:#9aa0b8">0 selected</span><button id="compare-go" style="padding:6px 12px;background:#7c8cff;border:none;border-radius:6px;color:#fff;font-size:.85rem;cursor:pointer">Compare</button><button id="compare-clear" style="padding:6px 10px;background:transparent;border:1px solid #2a2e42;border-radius:6px;color:#9aa0b8;font-size:.85rem;cursor:pointer">Clear</button></div>
 
