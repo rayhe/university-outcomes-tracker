@@ -1,5 +1,14 @@
 # Enrichment scripts
 
+## Fetch provenance rule (Ray, 2026-09-03)
+
+Every script that fetches over HTTP MUST persist the raw response via
+`scripts/raw_artifact.py::save_raw` into `data/raw/<source>/<YYYY-MM-DD>/`
+(see `data/raw/README.md`). Raw responses are committed to git. Nothing
+fetched may live only in ephemeral logs or /tmp — provenance must be
+traceable in history. Secrets are redacted by the helper; never write raw
+URLs containing api keys.
+
 - `enrich_scorecard.py` — College Scorecard API batch (DEMO_KEY works, or set DATA_GOV_API_KEY env)
   Usage: python3 scripts/enrich_scorecard.py
   It updates data/universities.json in place, preserving synthetic fallback where Scorecard suppressed.

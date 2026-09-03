@@ -1,0 +1,40 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED&id=131469&fields=id%2Cschool.name%2Cschool.city%2Cschool.state%2Cschool.ownership%2Clatest.earnings.10_yrs_after_entry.median%2Clatest.earnings.6_yrs_after_entry.median%2Clatest.aid.median_debt.completers.overall%2Clatest.repayment.3_yr_default_rate%2Clatest.cost.avg_net_price.overall%2Clatest.cost.avg_net_price.public%2Clatest.cost.avg_net_price.private%2Clatest.student.size%2Clatest.admissions.admission_rate.overall%2Clatest.completion.retention_rate.four_year.full_time%2Clatest.aid.pell_grant_rate%2Clatest.student.demographics.avg_family_income%2Clatest.completion.completion_rate_4yr_150nt",
+    "params": {
+      "id": 131469,
+      "fields": "id,school.name,school.city,school.state,school.ownership,latest.earnings.10_yrs_after_entry.median,latest.earnings.6_yrs_after_entry.median,latest.aid.median_debt.completers.overall,latest.repayment.3_yr_default_rate,latest.cost.avg_net_price.overall,latest.cost.avg_net_price.public,latest.cost.avg_net_price.private,latest.student.size,latest.admissions.admission_rate.overall,latest.completion.retention_rate.four_year.full_time,latest.aid.pell_grant_rate,latest.student.demographics.avg_family_income,latest.completion.completion_rate_4yr_150nt"
+    },
+    "fetched_at": "2026-09-03T15:52:52.278403+00:00",
+    "note": "gwu / George Washington University"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "latest.earnings.10_yrs_after_entry.median": 90873,
+        "latest.earnings.6_yrs_after_entry.median": 71607,
+        "latest.aid.median_debt.completers.overall": 20449,
+        "latest.repayment.3_yr_default_rate": 0,
+        "latest.cost.avg_net_price.overall": 36586,
+        "latest.cost.avg_net_price.public": null,
+        "latest.cost.avg_net_price.private": 36586,
+        "latest.student.size": 11182,
+        "latest.admissions.admission_rate.overall": 0.4709,
+        "latest.aid.pell_grant_rate": 0.1582,
+        "latest.student.demographics.avg_family_income": 105591,
+        "latest.completion.completion_rate_4yr_150nt": 0.8398,
+        "school.name": "George Washington University",
+        "school.city": "Washington",
+        "school.state": "DC",
+        "school.ownership": 2,
+        "id": 131469
+      }
+    ]
+  }
+}
