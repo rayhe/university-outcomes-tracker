@@ -37,6 +37,7 @@ Filing presence is a **trust signal**, not a score weight — similar to how DEF
 - v0.2 (hour +1): Replace synthetic earnings with College Scorecard API batch, add direct IPEDS Finance API
 - v0.3 (hour +2): IRS 990 XML enrichment via ProPublica, NACUBO endowment table scrape, HERD Excel parser
 - v0.4: Add 140 more universities (200 total), peer network (conference / Carnegie / geography), trends — **DONE v0.7 200/200 real**
+- v0.12 (2026-09-04): **DONE** — endowment_b now NACUBO 2025 NCSE FY2025 real for 114/200 (explicit hand-adjudicated allowlist; system/foundation figures flagged via `_endowment_scope`; raw fetch artifacts in `data/raw/wikipedia-endowment/`)
 - v0.5: Alumni network via LinkedIn alumni search (Fortune 500 %), startup founder enrichment (Crunchbase)
 - v1.0: 500 universities, 6 filing sources 100% coverage, 5-critic panel 9.0+
 

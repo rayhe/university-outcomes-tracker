@@ -1,0 +1,804 @@
+{
+ "_fetch_meta": {
+  "source": "wikipedia-endowment",
+  "endpoint": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_colleges_and_universities_in_the_United_States_by_endowment",
+  "params": {
+   "section": "parsed-fy2025",
+   "prop": "text"
+  },
+  "fetched_at": "2026-09-04T09:01:14.216846+00:00",
+  "note": "parsed institution/FY2025($B)/sector from both wikitables"
+ },
+ "response": [
+  {
+   "name": "Harvard University",
+   "fy2025_b": 55.67,
+   "sector": "private"
+  },
+  {
+   "name": "Yale University",
+   "fy2025_b": 44.15,
+   "sector": "private"
+  },
+  {
+   "name": "Stanford University",
+   "fy2025_b": 40.79,
+   "sector": "private"
+  },
+  {
+   "name": "The Trustees of Princeton University",
+   "fy2025_b": 36.42,
+   "sector": "private"
+  },
+  {
+   "name": "Massachusetts Institute of Technology",
+   "fy2025_b": 27.37,
+   "sector": "private"
+  },
+  {
+   "name": "The University of Pennsylvania",
+   "fy2025_b": 24.81,
+   "sector": "private"
+  },
+  {
+   "name": "University of Notre Dame",
+   "fy2025_b": 20.09,
+   "sector": "private"
+  },
+  {
+   "name": "Columbia University in the City of New York",
+   "fy2025_b": 15.92,
+   "sector": "private"
+  },
+  {
+   "name": "Northwestern University",
+   "fy2025_b": 15.17,
+   "sector": "private"
+  },
+  {
+   "name": "Johns Hopkins University",
+   "fy2025_b": 13.73,
+   "sector": "private"
+  },
+  {
+   "name": "Washington University in St. Louis",
+   "fy2025_b": 13.3,
+   "sector": "private"
+  },
+  {
+   "name": "Duke University",
+   "fy2025_b": 12.32,
+   "sector": "private"
+  },
+  {
+   "name": "Emory University",
+   "fy2025_b": 12.0,
+   "sector": "private"
+  },
+  {
+   "name": "Cornell University",
+   "fy2025_b": 11.75,
+   "sector": "private"
+  },
+  {
+   "name": "Vanderbilt University",
+   "fy2025_b": 10.86,
+   "sector": "private"
+  },
+  {
+   "name": "University of Chicago",
+   "fy2025_b": 10.62,
+   "sector": "private"
+  },
+  {
+   "name": "University of Southern California",
+   "fy2025_b": 9.03,
+   "sector": "private"
+  },
+  {
+   "name": "Dartmouth College",
+   "fy2025_b": 8.96,
+   "sector": "private"
+  },
+  {
+   "name": "Rice University",
+   "fy2025_b": 8.5,
+   "sector": "private"
+  },
+  {
+   "name": "Brown University",
+   "fy2025_b": 7.28,
+   "sector": "private"
+  },
+  {
+   "name": "New York University",
+   "fy2025_b": 7.28,
+   "sector": "private"
+  },
+  {
+   "name": "California Institute of Technology",
+   "fy2025_b": 4.32,
+   "sector": "private"
+  },
+  {
+   "name": "Carnegie Mellon University",
+   "fy2025_b": 4.29,
+   "sector": "private"
+  },
+  {
+   "name": "Boston College",
+   "fy2025_b": 4.24,
+   "sector": "private"
+  },
+  {
+   "name": "Boston University",
+   "fy2025_b": 4.02,
+   "sector": "private"
+  },
+  {
+   "name": "Georgetown University",
+   "fy2025_b": 3.95,
+   "sector": "private"
+  },
+  {
+   "name": "Williams College",
+   "fy2025_b": 3.93,
+   "sector": "private"
+  },
+  {
+   "name": "Amherst College",
+   "fy2025_b": 3.9,
+   "sector": "private"
+  },
+  {
+   "name": "University of Richmond",
+   "fy2025_b": 3.49,
+   "sector": "private"
+  },
+  {
+   "name": "University of Rochester",
+   "fy2025_b": 3.24,
+   "sector": "private"
+  },
+  {
+   "name": "Pomona College",
+   "fy2025_b": 3.22,
+   "sector": "private"
+  },
+  {
+   "name": "Wellesley College",
+   "fy2025_b": 3.19,
+   "sector": "private"
+  },
+  {
+   "name": "Bowdoin College",
+   "fy2025_b": 2.92,
+   "sector": "private"
+  },
+  {
+   "name": "Texas Christian University",
+   "fy2025_b": 2.85,
+   "sector": "private"
+  },
+  {
+   "name": "Grinnell College",
+   "fy2025_b": 2.85,
+   "sector": "private"
+  },
+  {
+   "name": "Swarthmore College",
+   "fy2025_b": 2.84,
+   "sector": "private"
+  },
+  {
+   "name": "The George Washington University",
+   "fy2025_b": 2.81,
+   "sector": "private"
+  },
+  {
+   "name": "Smith College",
+   "fy2025_b": 2.71,
+   "sector": "private"
+  },
+  {
+   "name": "Tufts University",
+   "fy2025_b": 2.71,
+   "sector": "private"
+  },
+  {
+   "name": "The Rockefeller University",
+   "fy2025_b": 2.61,
+   "sector": "private"
+  },
+  {
+   "name": "Case Western Reserve University",
+   "fy2025_b": 2.52,
+   "sector": "private"
+  },
+  {
+   "name": "Tulane University",
+   "fy2025_b": 2.47,
+   "sector": "private"
+  },
+  {
+   "name": "Southern Methodist University",
+   "fy2025_b": 2.34,
+   "sector": "private"
+  },
+  {
+   "name": "Syracuse University",
+   "fy2025_b": 2.27,
+   "sector": "private"
+  },
+  {
+   "name": "Washington and Lee University",
+   "fy2025_b": 2.19,
+   "sector": "private"
+  },
+  {
+   "name": "Baylor University",
+   "fy2025_b": 2.18,
+   "sector": "private"
+  },
+  {
+   "name": "Wake Forest University",
+   "fy2025_b": 2.15,
+   "sector": "private"
+  },
+  {
+   "name": "Saint Louis University",
+   "fy2025_b": 2.02,
+   "sector": "private"
+  },
+  {
+   "name": "Lehigh University",
+   "fy2025_b": 2.0,
+   "sector": "private"
+  },
+  {
+   "name": "Trinity University",
+   "fy2025_b": 1.94,
+   "sector": "private"
+  },
+  {
+   "name": "Medical College of Wisconsin",
+   "fy2025_b": 1.94,
+   "sector": "private"
+  },
+  {
+   "name": "Berea College",
+   "fy2025_b": 1.83,
+   "sector": "private"
+  },
+  {
+   "name": "Middlebury College",
+   "fy2025_b": 1.73,
+   "sector": "private"
+  },
+  {
+   "name": "University of Miami",
+   "fy2025_b": 1.71,
+   "sector": "private"
+  },
+  {
+   "name": "Santa Clara University",
+   "fy2025_b": 1.67,
+   "sector": "private"
+  },
+  {
+   "name": "Wesleyan University",
+   "fy2025_b": 1.64,
+   "sector": "private"
+  },
+  {
+   "name": "School of the Art Institute of Chicago",
+   "fy2025_b": 1.6,
+   "sector": "private"
+  },
+  {
+   "name": "Princeton Theological Seminary",
+   "fy2025_b": 1.56,
+   "sector": "private"
+  },
+  {
+   "name": "Hamilton College",
+   "fy2025_b": 1.5,
+   "sector": "private"
+  },
+  {
+   "name": "Oberlin College",
+   "fy2025_b": 1.48,
+   "sector": "private"
+  },
+  {
+   "name": "Villanova University",
+   "fy2025_b": 1.47,
+   "sector": "private"
+  },
+  {
+   "name": "Berry College",
+   "fy2025_b": 1.47,
+   "sector": "private"
+  },
+  {
+   "name": "Rochester Institute of Technology",
+   "fy2025_b": 1.46,
+   "sector": "private"
+  },
+  {
+   "name": "Davidson College",
+   "fy2025_b": 1.46,
+   "sector": "private"
+  },
+  {
+   "name": "Loma Linda University",
+   "fy2025_b": 1.44,
+   "sector": "private"
+  },
+  {
+   "name": "Baylor College of Medicine",
+   "fy2025_b": 1.43,
+   "sector": "private"
+  },
+  {
+   "name": "Vassar College",
+   "fy2025_b": 1.39,
+   "sector": "private"
+  },
+  {
+   "name": "Loyola University of Chicago",
+   "fy2025_b": 1.37,
+   "sector": "private"
+  },
+  {
+   "name": "Brandeis University",
+   "fy2025_b": 1.36,
+   "sector": "private"
+  },
+  {
+   "name": "Claremont McKenna College",
+   "fy2025_b": 1.35,
+   "sector": "private"
+  },
+  {
+   "name": "Colgate University",
+   "fy2025_b": 1.34,
+   "sector": "private"
+  },
+  {
+   "name": "Bryn Mawr College",
+   "fy2025_b": 1.34,
+   "sector": "private"
+  },
+  {
+   "name": "University of Tulsa",
+   "fy2025_b": 1.34,
+   "sector": "private"
+  },
+  {
+   "name": "Carleton College",
+   "fy2025_b": 1.33,
+   "sector": "private"
+  },
+  {
+   "name": "Pepperdine University",
+   "fy2025_b": 1.29,
+   "sector": "private"
+  },
+  {
+   "name": "Bucknell University",
+   "fy2025_b": 1.26,
+   "sector": "private"
+  },
+  {
+   "name": "Colby College",
+   "fy2025_b": 1.25,
+   "sector": "private"
+  },
+  {
+   "name": "College of the Holy Cross",
+   "fy2025_b": 1.21,
+   "sector": "private"
+  },
+  {
+   "name": "Lafayette College",
+   "fy2025_b": 1.2,
+   "sector": "private"
+  },
+  {
+   "name": "Mount Holyoke College",
+   "fy2025_b": 1.18,
+   "sector": "private"
+  },
+  {
+   "name": "DePaul University",
+   "fy2025_b": 1.15,
+   "sector": "private"
+  },
+  {
+   "name": "University of Denver",
+   "fy2025_b": 1.15,
+   "sector": "private"
+  },
+  {
+   "name": "Drexel University",
+   "fy2025_b": 1.13,
+   "sector": "private"
+  },
+  {
+   "name": "Marquette University",
+   "fy2025_b": 1.13,
+   "sector": "private"
+  },
+  {
+   "name": "American University",
+   "fy2025_b": 1.12,
+   "sector": "private"
+  },
+  {
+   "name": "Howard University",
+   "fy2025_b": 1.12,
+   "sector": "private"
+  },
+  {
+   "name": "Denison University",
+   "fy2025_b": 1.1,
+   "sector": "private"
+  },
+  {
+   "name": "Colorado College",
+   "fy2025_b": 1.06,
+   "sector": "private"
+  },
+  {
+   "name": "Fordham University",
+   "fy2025_b": 1.05,
+   "sector": "private"
+  },
+  {
+   "name": "The University of Texas System",
+   "fy2025_b": 27.17,
+   "sector": "public"
+  },
+  {
+   "name": "The Texas A&M University System & Related Foundations",
+   "fy2025_b": 22.23,
+   "sector": "public"
+  },
+  {
+   "name": "University of Michigan",
+   "fy2025_b": 21.2,
+   "sector": "public"
+  },
+  {
+   "name": "The Regents of the University of California",
+   "fy2025_b": 20.15,
+   "sector": "public"
+  },
+  {
+   "name": "University of Virginia",
+   "fy2025_b": 11.23,
+   "sector": "public"
+  },
+  {
+   "name": "The Ohio State University",
+   "fy2025_b": 8.62,
+   "sector": "public"
+  },
+  {
+   "name": "The University of Texas at Austin",
+   "fy2025_b": 6.49,
+   "sector": "public"
+  },
+  {
+   "name": "University of Minnesota & Foundations",
+   "fy2025_b": 6.45,
+   "sector": "public"
+  },
+  {
+   "name": "University of North Carolina at Chapel Hill",
+   "fy2025_b": 6.22,
+   "sector": "public"
+  },
+  {
+   "name": "University of Pittsburgh",
+   "fy2025_b": 6.15,
+   "sector": "public"
+  },
+  {
+   "name": "The Pennsylvania State University",
+   "fy2025_b": 5.06,
+   "sector": "public"
+  },
+  {
+   "name": "University of Wisconsin Foundation",
+   "fy2025_b": 4.92,
+   "sector": "public"
+  },
+  {
+   "name": "UCLA Foundation",
+   "fy2025_b": 4.77,
+   "sector": "public"
+  },
+  {
+   "name": "Michigan State University",
+   "fy2025_b": 4.61,
+   "sector": "public"
+  },
+  {
+   "name": "Purdue University",
+   "fy2025_b": 4.44,
+   "sector": "public"
+  },
+  {
+   "name": "Indiana University Foundation",
+   "fy2025_b": 4.05,
+   "sector": "public"
+  },
+  {
+   "name": "University of Illinois & Foundations",
+   "fy2025_b": 3.8,
+   "sector": "public"
+  },
+  {
+   "name": "University of Iowa and Foundations",
+   "fy2025_b": 3.77,
+   "sector": "public"
+  },
+  {
+   "name": "Georgia Institute of Technology and Related Foundations",
+   "fy2025_b": 3.51,
+   "sector": "public"
+  },
+  {
+   "name": "University of California Berkeley Foundation",
+   "fy2025_b": 3.39,
+   "sector": "public"
+  },
+  {
+   "name": "University of California San Francisco",
+   "fy2025_b": 3.29,
+   "sector": "public"
+  },
+  {
+   "name": "Virginia Commonwealth University and Affiliated Entities",
+   "fy2025_b": 3.23,
+   "sector": "public"
+  },
+  {
+   "name": "Texas Tech University",
+   "fy2025_b": 3.07,
+   "sector": "public"
+  },
+  {
+   "name": "University of Nebraska",
+   "fy2025_b": 2.72,
+   "sector": "public"
+  },
+  {
+   "name": "University of Florida Foundation Inc.",
+   "fy2025_b": 2.69,
+   "sector": "public"
+  },
+  {
+   "name": "The Kansas University Endowment Association",
+   "fy2025_b": 2.69,
+   "sector": "public"
+  },
+  {
+   "name": "The Board of Trustees of The University of Alabama",
+   "fy2025_b": 2.59,
+   "sector": "public"
+  },
+  {
+   "name": "University of Missouri System",
+   "fy2025_b": 2.55,
+   "sector": "public"
+  },
+  {
+   "name": "North Carolina State University",
+   "fy2025_b": 2.54,
+   "sector": "public"
+  },
+  {
+   "name": "The University of Texas Southwestern Medical Center",
+   "fy2025_b": 2.47,
+   "sector": "public"
+  },
+  {
+   "name": "University of Colorado Foundation",
+   "fy2025_b": 2.47,
+   "sector": "public"
+  },
+  {
+   "name": "The University System of Maryland Foundation",
+   "fy2025_b": 2.46,
+   "sector": "public"
+  },
+  {
+   "name": "Rutgers The State University of New Jersey",
+   "fy2025_b": 2.35,
+   "sector": "public"
+  },
+  {
+   "name": "The University of Georgia and Related Foundations",
+   "fy2025_b": 2.18,
+   "sector": "public"
+  },
+  {
+   "name": "University of Kentucky",
+   "fy2025_b": 2.17,
+   "sector": "public"
+  },
+  {
+   "name": "Texas State University System",
+   "fy2025_b": 2.11,
+   "sector": "public"
+  },
+  {
+   "name": "Virginia Tech Foundation",
+   "fy2025_b": 2.09,
+   "sector": "public"
+  },
+  {
+   "name": "The University of Utah",
+   "fy2025_b": 2.07,
+   "sector": "public"
+  },
+  {
+   "name": "University of Delaware",
+   "fy2025_b": 2.06,
+   "sector": "public"
+  },
+  {
+   "name": "The University of Texas M.D. Anderson Cancer Center",
+   "fy2025_b": 1.96,
+   "sector": "public"
+  },
+  {
+   "name": "The University of Tennessee System",
+   "fy2025_b": 1.92,
+   "sector": "public"
+  },
+  {
+   "name": "Iowa State University",
+   "fy2025_b": 1.91,
+   "sector": "public"
+  },
+  {
+   "name": "University of Oregon Foundation",
+   "fy2025_b": 1.84,
+   "sector": "public"
+  },
+  {
+   "name": "University of Arkansas at Fayetteville and Foundation",
+   "fy2025_b": 1.81,
+   "sector": "public"
+  },
+  {
+   "name": "University of Massachusetts Foundation",
+   "fy2025_b": 1.8,
+   "sector": "public"
+  },
+  {
+   "name": "University of California San Diego",
+   "fy2025_b": 1.79,
+   "sector": "public"
+  },
+  {
+   "name": "University of Cincinnati",
+   "fy2025_b": 1.77,
+   "sector": "public"
+  },
+  {
+   "name": "Arizona State University",
+   "fy2025_b": 1.76,
+   "sector": "public"
+  },
+  {
+   "name": "William & Mary and Foundations",
+   "fy2025_b": 1.59,
+   "sector": "public"
+  },
+  {
+   "name": "Oklahoma State University Foundation",
+   "fy2025_b": 1.56,
+   "sector": "public"
+  },
+  {
+   "name": "The University of Arizona and the University of Arizona Foundation",
+   "fy2025_b": 1.5,
+   "sector": "public"
+  },
+  {
+   "name": "Oklahoma State Regents for Higher Education",
+   "fy2025_b": 1.31,
+   "sector": "public"
+  },
+  {
+   "name": "Auburn University and Foundation",
+   "fy2025_b": 1.31,
+   "sector": "public"
+  },
+  {
+   "name": "Oregon Health and Science University Foundation",
+   "fy2025_b": 1.3,
+   "sector": "public"
+  },
+  {
+   "name": "Clemson University Foundation",
+   "fy2025_b": 1.24,
+   "sector": "public"
+  },
+  {
+   "name": "Louisiana State University System",
+   "fy2025_b": 1.24,
+   "sector": "public"
+  },
+  {
+   "name": "The University of Texas at San Antonio",
+   "fy2025_b": 1.21,
+   "sector": "public"
+  },
+  {
+   "name": "University at Buffalo Foundation Inc.",
+   "fy2025_b": 1.17,
+   "sector": "public"
+  },
+  {
+   "name": "University of South Carolina and Affiliated Foundations",
+   "fy2025_b": 1.15,
+   "sector": "public"
+  },
+  {
+   "name": "Florida State University Foundation Inc.",
+   "fy2025_b": 1.11,
+   "sector": "public"
+  },
+  {
+   "name": "The University of Texas Health Science Center at Houston",
+   "fy2025_b": 1.1,
+   "sector": "public"
+  },
+  {
+   "name": "Miami University",
+   "fy2025_b": 1.09,
+   "sector": "public"
+  },
+  {
+   "name": "University of Louisville Foundation",
+   "fy2025_b": 1.07,
+   "sector": "public"
+  },
+  {
+   "name": "University System of New Hampshire & University of New Hampshire Foundation",
+   "fy2025_b": 1.06,
+   "sector": "public"
+  },
+  {
+   "name": "Temple University",
+   "fy2025_b": 1.05,
+   "sector": "public"
+  },
+  {
+   "name": "University of California Irvine Foundation",
+   "fy2025_b": 1.03,
+   "sector": "public"
+  },
+  {
+   "name": "Oregon State University Foundation",
+   "fy2025_b": 1.01,
+   "sector": "public"
+  },
+  {
+   "name": "University of Mississippi Foundation",
+   "fy2025_b": 1.0,
+   "sector": "public"
+  },
+  {
+   "name": "Mississippi State University & Foundation",
+   "fy2025_b": 1.0,
+   "sector": "public"
+  }
+ ]
+}

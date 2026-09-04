@@ -65,8 +65,8 @@
    "state": "CA",
    "carnegie": "R1",
    "enrollment_fte": 17100,
-   "endowment_b": 36.5,
-   "endowment_per_student": 2134500,
+   "endowment_b": 40.79,
+   "endowment_per_student": 2385380,
    "grad_rate_6yr": 0.95,
    "retention": 0.99,
    "sf_ratio": 5,
@@ -100,7 +100,8 @@
    "scorecard_name": "Stanford University",
    "scorecard_city": "Stanford",
    "conference": "Pac-12 Legacy",
-   "peer_group": "Pac-12 Legacy"
+   "peer_group": "Pac-12 Legacy",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "mit",
@@ -109,8 +110,8 @@
    "state": "MA",
    "carnegie": "R1",
    "enrollment_fte": 11500,
-   "endowment_b": 24.6,
-   "endowment_per_student": 2139000,
+   "endowment_b": 27.37,
+   "endowment_per_student": 2380000,
    "grad_rate_6yr": 0.95,
    "retention": 0.99,
    "sf_ratio": 3,
@@ -144,7 +145,8 @@
    "scorecard_name": "Massachusetts Institute of Technology",
    "scorecard_city": "Cambridge",
    "conference": "NEWMAC",
-   "peer_group": "NEWMAC"
+   "peer_group": "NEWMAC",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "harvard",
@@ -153,8 +155,8 @@
    "state": "MA",
    "carnegie": "R1",
    "enrollment_fte": 23500,
-   "endowment_b": 50.7,
-   "endowment_per_student": 2157000,
+   "endowment_b": 55.67,
+   "endowment_per_student": 2368936,
    "grad_rate_6yr": 0.97,
    "retention": 0.97,
    "sf_ratio": 7,
@@ -188,7 +190,8 @@
    "scorecard_name": "Harvard University",
    "scorecard_city": "Cambridge",
    "conference": "Ivy League",
-   "peer_group": "Ivy League"
+   "peer_group": "Ivy League",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "caltech",
@@ -197,8 +200,8 @@
    "state": "CA",
    "carnegie": "R1",
    "enrollment_fte": 2400,
-   "endowment_b": 3.7,
-   "endowment_per_student": 1541000,
+   "endowment_b": 4.32,
+   "endowment_per_student": 1800000,
    "grad_rate_6yr": 0.93,
    "retention": 0.99,
    "sf_ratio": 3,
@@ -233,7 +236,8 @@
    "admission_rate": 0.0257,
    "avg_family_income": 74238,
    "conference": "SCIAC",
-   "peer_group": "SCIAC"
+   "peer_group": "SCIAC",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "princeton",
@@ -242,8 +246,8 @@
    "state": "NJ",
    "carnegie": "R1",
    "enrollment_fte": 5400,
-   "endowment_b": 35.8,
-   "endowment_per_student": 6629000,
+   "endowment_b": 36.42,
+   "endowment_per_student": 6744444,
    "grad_rate_6yr": 0.97,
    "retention": 0.98,
    "sf_ratio": 5,
@@ -277,7 +281,8 @@
    "scorecard_name": "Princeton University",
    "scorecard_city": "Princeton",
    "conference": "Ivy League",
-   "peer_group": "Ivy League"
+   "peer_group": "Ivy League",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "penn",
@@ -286,8 +291,8 @@
    "state": "PA",
    "carnegie": "R1",
    "enrollment_fte": 28283,
-   "endowment_b": 2.8,
-   "endowment_per_student": 89771,
+   "endowment_b": 24.81,
+   "endowment_per_student": 877205,
    "grad_rate_6yr": 0.94,
    "retention": 0.93,
    "sf_ratio": 11,
@@ -321,7 +326,8 @@
    "scorecard_name": "University of Pennsylvania",
    "scorecard_city": "Philadelphia",
    "conference": "Ivy League",
-   "peer_group": "Ivy League"
+   "peer_group": "Ivy League",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "brandeis",
@@ -330,8 +336,8 @@
    "state": "MA",
    "carnegie": "R1",
    "enrollment_fte": 28253,
-   "endowment_b": 9.6,
-   "endowment_per_student": 318086,
+   "endowment_b": 1.36,
+   "endowment_per_student": 48136,
    "grad_rate_6yr": 0.92,
    "retention": 0.94,
    "sf_ratio": 14,
@@ -365,7 +371,8 @@
    "scorecard_name": "Brandeis University",
    "scorecard_city": "Waltham",
    "conference": "UAA",
-   "peer_group": "UAA"
+   "peer_group": "UAA",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "villanova",
@@ -374,8 +381,8 @@
    "state": "PA",
    "carnegie": "R1",
    "enrollment_fte": 41886,
-   "endowment_b": 11.4,
-   "endowment_per_student": 227007,
+   "endowment_b": 1.47,
+   "endowment_per_student": 35095,
    "grad_rate_6yr": 0.78,
    "retention": 0.92,
    "sf_ratio": 19,
@@ -409,7 +416,8 @@
    "scorecard_name": "Villanova University",
    "scorecard_city": "Villanova",
    "conference": "Big East",
-   "peer_group": "Big East"
+   "peer_group": "Big East",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "howard",
@@ -418,8 +426,8 @@
    "state": "DC",
    "carnegie": "R1",
    "enrollment_fte": 12435,
-   "endowment_b": 5.7,
-   "endowment_per_student": 388244,
+   "endowment_b": 1.12,
+   "endowment_per_student": 90068,
    "grad_rate_6yr": 0.91,
    "retention": 0.91,
    "sf_ratio": 15,
@@ -454,7 +462,8 @@
    "debt_avg_real": 24500,
    "net_price_avg_real": 50539,
    "enrollment_fte_real": 10108,
-   "admission_rate": 0.4134
+   "admission_rate": 0.4134,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "uf",
@@ -463,8 +472,8 @@
    "state": "FL",
    "carnegie": "R2",
    "enrollment_fte": 35629,
-   "endowment_b": 1.4,
-   "endowment_per_student": 63483,
+   "endowment_b": 2.69,
+   "endowment_per_student": 75500,
    "grad_rate_6yr": 0.9131,
    "retention": 0.93,
    "sf_ratio": 8,
@@ -499,7 +508,8 @@
    "scorecard_city": "Gainesville",
    "conference": "SEC",
    "peer_group": "SEC",
-   "grad_rate_6yr_real": 0.9131
+   "grad_rate_6yr_real": 0.9131,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "pepperdine",
@@ -508,8 +518,8 @@
    "state": "CA",
    "carnegie": "R1",
    "enrollment_fte": 50048,
-   "endowment_b": 3.0,
-   "endowment_per_student": 54297,
+   "endowment_b": 1.29,
+   "endowment_per_student": 25775,
    "grad_rate_6yr": 0.9,
    "retention": 0.93,
    "sf_ratio": 12,
@@ -543,7 +553,8 @@
    "scorecard_name": "Pepperdine University",
    "scorecard_city": "Malibu",
    "conference": "WCC",
-   "peer_group": "WCC"
+   "peer_group": "WCC",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "yale",
@@ -552,8 +563,8 @@
    "state": "CT",
    "carnegie": "R1",
    "enrollment_fte": 46905,
-   "endowment_b": 1.6,
-   "endowment_per_student": 37407,
+   "endowment_b": 44.15,
+   "endowment_per_student": 941264,
    "grad_rate_6yr": 0.78,
    "retention": 0.87,
    "sf_ratio": 9,
@@ -587,7 +598,8 @@
    "scorecard_name": "Yale University",
    "scorecard_city": "New Haven",
    "conference": "Ivy League",
-   "peer_group": "Ivy League"
+   "peer_group": "Ivy League",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "ohiostate",
@@ -596,8 +608,8 @@
    "state": "OH",
    "carnegie": "R1",
    "enrollment_fte": 45638,
-   "endowment_b": 4.2,
-   "endowment_per_student": 71621,
+   "endowment_b": 8.62,
+   "endowment_per_student": 188878,
    "grad_rate_6yr": 0.8773,
    "retention": 0.86,
    "sf_ratio": 7,
@@ -632,7 +644,8 @@
    "conference": "Big Ten",
    "peer_group": "Big Ten",
    "grad_rate_6yr_real": 0.8773,
-   "admission_rate": 0.6057
+   "admission_rate": 0.6057,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "washu",
@@ -641,8 +654,8 @@
    "state": "MO",
    "carnegie": "R2",
    "enrollment_fte": 34588,
-   "endowment_b": 1.7,
-   "endowment_per_student": 43737,
+   "endowment_b": 13.3,
+   "endowment_per_student": 384526,
    "grad_rate_6yr": 0.8,
    "retention": 0.93,
    "sf_ratio": 13,
@@ -676,7 +689,8 @@
    "scorecard_name": "Washington University in St Louis",
    "scorecard_city": "St. Louis",
    "conference": "UAA",
-   "peer_group": "UAA"
+   "peer_group": "UAA",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "duke",
@@ -685,8 +699,8 @@
    "state": "NC",
    "carnegie": "R1",
    "enrollment_fte": 29807,
-   "endowment_b": 1.2,
-   "endowment_per_student": 36928,
+   "endowment_b": 12.32,
+   "endowment_per_student": 413326,
    "grad_rate_6yr": 0.86,
    "retention": 0.97,
    "sf_ratio": 17,
@@ -720,7 +734,8 @@
    "scorecard_name": "Duke University",
    "scorecard_city": "Durham",
    "conference": "ACC",
-   "peer_group": "ACC"
+   "peer_group": "ACC",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "carnegiemell",
@@ -729,8 +744,8 @@
    "state": "PA",
    "carnegie": "R1",
    "enrollment_fte": 15300,
-   "endowment_b": 3.1,
-   "endowment_per_student": 202000,
+   "endowment_b": 4.29,
+   "endowment_per_student": 280392,
    "grad_rate_6yr": 0.9,
    "retention": 0.96,
    "sf_ratio": 6,
@@ -764,7 +779,8 @@
    "scorecard_name": "Carnegie Mellon University",
    "scorecard_city": "Pittsburgh",
    "conference": "UAA",
-   "peer_group": "UAA"
+   "peer_group": "UAA",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "uwmadison",
@@ -773,8 +789,8 @@
    "state": "WI",
    "carnegie": "R2",
    "enrollment_fte": 12564,
-   "endowment_b": 4.5,
-   "endowment_per_student": 392896,
+   "endowment_b": 4.92,
+   "endowment_per_student": 391595,
    "grad_rate_6yr": 0.76,
    "retention": 0.89,
    "sf_ratio": 12,
@@ -808,7 +824,9 @@
    "scorecard_name": "University of Wisconsin-Madison",
    "scorecard_city": "Madison",
    "conference": "Big Ten",
-   "peer_group": "Big Ten"
+   "peer_group": "Big Ten",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_endowment_scope": "UW Foundation (system)"
   },
   {
    "id": "umd",
@@ -817,8 +835,8 @@
    "state": "MD",
    "carnegie": "R1",
    "enrollment_fte": 32460,
-   "endowment_b": 3.1,
-   "endowment_per_student": 104465,
+   "endowment_b": 2.46,
+   "endowment_per_student": 75786,
    "grad_rate_6yr": 0.9,
    "retention": 0.97,
    "sf_ratio": 21,
@@ -852,7 +870,9 @@
    "scorecard_name": "University of Maryland-College Park",
    "scorecard_city": "College Park",
    "conference": "Big Ten",
-   "peer_group": "Big Ten"
+   "peer_group": "Big Ten",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_endowment_scope": "USM Foundation (system)"
   },
   {
    "id": "lmu",
@@ -905,8 +925,8 @@
    "state": "LA",
    "carnegie": "R2",
    "enrollment_fte": 54950,
-   "endowment_b": 8.4,
-   "endowment_per_student": 134005,
+   "endowment_b": 2.47,
+   "endowment_per_student": 44950,
    "grad_rate_6yr": 0.89,
    "retention": 0.89,
    "sf_ratio": 22,
@@ -940,7 +960,8 @@
    "scorecard_name": "Tulane University of Louisiana",
    "scorecard_city": "New Orleans",
    "conference": "AAC",
-   "peer_group": "AAC"
+   "peer_group": "AAC",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "santaclara",
@@ -949,8 +970,8 @@
    "state": "CA",
    "carnegie": "R1",
    "enrollment_fte": 33780,
-   "endowment_b": 1.8,
-   "endowment_per_student": 57307,
+   "endowment_b": 1.67,
+   "endowment_per_student": 49438,
    "grad_rate_6yr": 0.88,
    "retention": 0.97,
    "sf_ratio": 22,
@@ -984,7 +1005,8 @@
    "scorecard_name": "Santa Clara University",
    "scorecard_city": "Santa Clara",
    "conference": "WCC",
-   "peer_group": "WCC"
+   "peer_group": "WCC",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "ucberkeley",
@@ -993,8 +1015,8 @@
    "state": "CA",
    "carnegie": "R1",
    "enrollment_fte": 45200,
-   "endowment_b": 2.9,
-   "endowment_per_student": 64000,
+   "endowment_b": 3.39,
+   "endowment_per_student": 75000,
    "grad_rate_6yr": 0.93,
    "retention": 0.97,
    "sf_ratio": 20,
@@ -1028,7 +1050,8 @@
    "scorecard_name": "University of California-Berkeley",
    "scorecard_city": "Berkeley",
    "conference": "Pac-12 Legacy",
-   "peer_group": "Pac-12 Legacy"
+   "peer_group": "Pac-12 Legacy",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "emory",
@@ -1037,8 +1060,8 @@
    "state": "GA",
    "carnegie": "R1",
    "enrollment_fte": 10372,
-   "endowment_b": 5.2,
-   "endowment_per_student": 518129,
+   "endowment_b": 12.0,
+   "endowment_per_student": 1156961,
    "grad_rate_6yr": 0.84,
    "retention": 0.97,
    "sf_ratio": 12,
@@ -1072,7 +1095,8 @@
    "scorecard_name": "Emory University",
    "scorecard_city": "Atlanta",
    "conference": "UAA",
-   "peer_group": "UAA"
+   "peer_group": "UAA",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "asu",
@@ -1081,8 +1105,8 @@
    "state": "AZ",
    "carnegie": "R2",
    "enrollment_fte": 40456,
-   "endowment_b": 1.0,
-   "endowment_per_student": 20451,
+   "endowment_b": 1.76,
+   "endowment_per_student": 43504,
    "grad_rate_6yr": 0.87,
    "retention": 0.97,
    "sf_ratio": 13,
@@ -1116,7 +1140,8 @@
    "net_price_avg_real": 14967,
    "enrollment_fte_real": 64674,
    "admission_rate": 0.8989,
-   "pell_rate": 0.2899
+   "pell_rate": 0.2899,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "georgiatech",
@@ -1125,8 +1150,8 @@
    "state": "GA",
    "carnegie": "R1",
    "enrollment_fte": 39000,
-   "endowment_b": 2.7,
-   "endowment_per_student": 69000,
+   "endowment_b": 3.51,
+   "endowment_per_student": 90000,
    "grad_rate_6yr": 0.91,
    "retention": 0.97,
    "sf_ratio": 19,
@@ -1160,7 +1185,8 @@
    "scorecard_name": "Georgia Institute of Technology-Main Campus",
    "scorecard_city": "Atlanta",
    "conference": "ACC",
-   "peer_group": "ACC"
+   "peer_group": "ACC",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "vanderbilt",
@@ -1169,8 +1195,8 @@
    "state": "TN",
    "carnegie": "R1",
    "enrollment_fte": 25552,
-   "endowment_b": 1.0,
-   "endowment_per_student": 40453,
+   "endowment_b": 10.86,
+   "endowment_per_student": 425016,
    "grad_rate_6yr": 0.84,
    "retention": 0.96,
    "sf_ratio": 11,
@@ -1204,7 +1230,8 @@
    "scorecard_name": "Vanderbilt University",
    "scorecard_city": "Nashville",
    "conference": "SEC",
-   "peer_group": "SEC"
+   "peer_group": "SEC",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "lehigh",
@@ -1213,8 +1240,8 @@
    "state": "PA",
    "carnegie": "R1",
    "enrollment_fte": 13275,
-   "endowment_b": 7.8,
-   "endowment_per_student": 646983,
+   "endowment_b": 2.0,
+   "endowment_per_student": 150659,
    "grad_rate_6yr": 0.74,
    "retention": 0.85,
    "sf_ratio": 15,
@@ -1248,7 +1275,8 @@
    "scorecard_name": "Lehigh University",
    "scorecard_city": "Bethlehem",
    "conference": "Patriot",
-   "peer_group": "Patriot"
+   "peer_group": "Patriot",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "cornell",
@@ -1257,8 +1285,8 @@
    "state": "NY",
    "carnegie": "R1",
    "enrollment_fte": 15995,
-   "endowment_b": 5.0,
-   "endowment_per_student": 160961,
+   "endowment_b": 11.75,
+   "endowment_per_student": 734605,
    "grad_rate_6yr": 0.9526,
    "retention": 0.92,
    "sf_ratio": 16,
@@ -1293,7 +1321,8 @@
    "grad_rate_6yr_real": 0.9526,
    "enrollment_fte_real": 15995,
    "admission_rate": 0.0876,
-   "pell_rate": 0.1841
+   "pell_rate": 0.1841,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "bostonuniver",
@@ -1302,8 +1331,8 @@
    "state": "MA",
    "carnegie": "R2",
    "enrollment_fte": 27935,
-   "endowment_b": 2.9,
-   "endowment_per_student": 85899,
+   "endowment_b": 4.02,
+   "endowment_per_student": 143905,
    "grad_rate_6yr": 0.94,
    "retention": 0.86,
    "sf_ratio": 6,
@@ -1337,7 +1366,8 @@
    "scorecard_name": "Boston University",
    "scorecard_city": "Boston",
    "conference": "Patriot",
-   "peer_group": "Patriot"
+   "peer_group": "Patriot",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "michigan",
@@ -1346,8 +1376,8 @@
    "state": "MI",
    "carnegie": "R1",
    "enrollment_fte": 51000,
-   "endowment_b": 17.3,
-   "endowment_per_student": 339000,
+   "endowment_b": 21.2,
+   "endowment_per_student": 415686,
    "grad_rate_6yr": 0.93,
    "retention": 0.97,
    "sf_ratio": 15,
@@ -1381,7 +1411,8 @@
    "scorecard_name": "University of Michigan-Ann Arbor",
    "scorecard_city": "Ann Arbor",
    "conference": "Big Ten",
-   "peer_group": "Big Ten"
+   "peer_group": "Big Ten",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "usd",
@@ -1524,8 +1555,8 @@
    "state": "CA",
    "carnegie": "R1",
    "enrollment_fte": 33475,
-   "endowment_b": 3.5,
-   "endowment_per_student": 75000,
+   "endowment_b": 4.77,
+   "endowment_per_student": 142494,
    "grad_rate_6yr": 0.9264,
    "retention": 0.97,
    "sf_ratio": 18,
@@ -1560,7 +1591,8 @@
    "scorecard_city": "Los Angeles",
    "conference": "Big Ten",
    "peer_group": "Big Ten",
-   "grad_rate_6yr_real": 0.9264
+   "grad_rate_6yr_real": 0.9264,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "chapman",
@@ -1613,8 +1645,8 @@
    "state": "TX",
    "carnegie": "R1",
    "enrollment_fte": 38153,
-   "endowment_b": 1.9,
-   "endowment_per_student": 58429,
+   "endowment_b": 6.49,
+   "endowment_per_student": 170105,
    "grad_rate_6yr": 0.92,
    "retention": 0.96,
    "sf_ratio": 17,
@@ -1648,7 +1680,8 @@
    "scorecard_name": "The University of Texas at Austin",
    "scorecard_city": "Austin",
    "conference": "SEC",
-   "peer_group": "SEC"
+   "peer_group": "SEC",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "uiuc",
@@ -1657,8 +1690,8 @@
    "state": "IL",
    "carnegie": "R1",
    "enrollment_fte": 7614,
-   "endowment_b": 4.6,
-   "endowment_per_student": 534087,
+   "endowment_b": 3.8,
+   "endowment_per_student": 499081,
    "grad_rate_6yr": 0.78,
    "retention": 0.86,
    "sf_ratio": 19,
@@ -1692,7 +1725,9 @@
    "scorecard_name": "University of Illinois Urbana-Champaign",
    "scorecard_city": "Champaign",
    "conference": "Big Ten",
-   "peer_group": "Big Ten"
+   "peer_group": "Big Ten",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_endowment_scope": "U of I & Foundations (system)"
   },
   {
    "id": "pennstate",
@@ -1701,8 +1736,8 @@
    "state": "PA",
    "carnegie": "R2",
    "enrollment_fte": 42284,
-   "endowment_b": 3.7,
-   "endowment_per_student": 133064,
+   "endowment_b": 5.06,
+   "endowment_per_student": 119667,
    "grad_rate_6yr": 0.8589,
    "retention": 0.9,
    "sf_ratio": 20,
@@ -1737,7 +1772,8 @@
    "scorecard_city": "University Park",
    "conference": "Big Ten",
    "peer_group": "Big Ten",
-   "grad_rate_6yr_real": 0.8589
+   "grad_rate_6yr_real": 0.8589,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "columbia",
@@ -1746,8 +1782,8 @@
    "state": "NY",
    "carnegie": "R2",
    "enrollment_fte": 23231,
-   "endowment_b": 9.8,
-   "endowment_per_student": 338576,
+   "endowment_b": 15.92,
+   "endowment_per_student": 685291,
    "grad_rate_6yr": 0.91,
    "retention": 0.94,
    "sf_ratio": 16,
@@ -1781,7 +1817,8 @@
    "scorecard_name": "Columbia University in the City of New York",
    "scorecard_city": "New York",
    "conference": "Ivy League",
-   "peer_group": "Ivy League"
+   "peer_group": "Ivy League",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "ucd",
@@ -1834,8 +1871,8 @@
    "state": "TX",
    "carnegie": "R1",
    "enrollment_fte": 11985,
-   "endowment_b": 4.1,
-   "endowment_per_student": 303621,
+   "endowment_b": 22.23,
+   "endowment_per_student": 1854819,
    "grad_rate_6yr": 0.9,
    "retention": 0.94,
    "sf_ratio": 20,
@@ -1869,7 +1906,9 @@
    "scorecard_name": "Texas A&M University-College Station",
    "scorecard_city": "College Station",
    "conference": "SEC",
-   "peer_group": "SEC"
+   "peer_group": "SEC",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_endowment_scope": "TAMU System"
   },
   {
    "id": "northwestern",
@@ -1878,8 +1917,8 @@
    "state": "IL",
    "carnegie": "R1",
    "enrollment_fte": 28723,
-   "endowment_b": 2.9,
-   "endowment_per_student": 121057,
+   "endowment_b": 15.17,
+   "endowment_per_student": 528148,
    "grad_rate_6yr": 0.84,
    "retention": 0.86,
    "sf_ratio": 7,
@@ -1913,7 +1952,8 @@
    "scorecard_name": "Northwestern University",
    "scorecard_city": "Evanston",
    "conference": "Big Ten",
-   "peer_group": "Big Ten"
+   "peer_group": "Big Ten",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "johnshopkins",
@@ -1922,8 +1962,8 @@
    "state": "MD",
    "carnegie": "R2",
    "enrollment_fte": 52233,
-   "endowment_b": 1.6,
-   "endowment_per_student": 35346,
+   "endowment_b": 13.73,
+   "endowment_per_student": 262861,
    "grad_rate_6yr": 0.89,
    "retention": 0.95,
    "sf_ratio": 16,
@@ -1957,7 +1997,8 @@
    "scorecard_name": "Johns Hopkins University",
    "scorecard_city": "Baltimore",
    "conference": "Big Ten",
-   "peer_group": "Big Ten"
+   "peer_group": "Big Ten",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "casewestern",
@@ -1966,8 +2007,8 @@
    "state": "OH",
    "carnegie": "R2",
    "enrollment_fte": 19522,
-   "endowment_b": 5.0,
-   "endowment_per_student": 229823,
+   "endowment_b": 2.52,
+   "endowment_per_student": 129085,
    "grad_rate_6yr": 0.87,
    "retention": 0.9,
    "sf_ratio": 22,
@@ -2001,7 +2042,8 @@
    "scorecard_name": "Case Western Reserve University",
    "scorecard_city": "Cleveland",
    "conference": "UAA",
-   "peer_group": "UAA"
+   "peer_group": "UAA",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "ucsb",
@@ -2054,8 +2096,8 @@
    "state": "CA",
    "carnegie": "R1",
    "enrollment_fte": 9535,
-   "endowment_b": 11.7,
-   "endowment_per_student": 1243111,
+   "endowment_b": 9.03,
+   "endowment_per_student": 947037,
    "grad_rate_6yr": 0.75,
    "retention": 0.94,
    "sf_ratio": 11,
@@ -2089,7 +2131,8 @@
    "scorecard_name": "University of Southern California",
    "scorecard_city": "Los Angeles",
    "conference": "Big Ten",
-   "peer_group": "Big Ten"
+   "peer_group": "Big Ten",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "tufts",
@@ -2098,8 +2141,8 @@
    "state": "MA",
    "carnegie": "R1",
    "enrollment_fte": 12933,
-   "endowment_b": 9.6,
-   "endowment_per_student": 761863,
+   "endowment_b": 2.71,
+   "endowment_per_student": 209541,
    "grad_rate_6yr": 0.73,
    "retention": 0.92,
    "sf_ratio": 17,
@@ -2133,7 +2176,8 @@
    "scorecard_name": "Tufts University",
    "scorecard_city": "Medford",
    "conference": "NESCAC",
-   "peer_group": "NESCAC"
+   "peer_group": "NESCAC",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "rice",
@@ -2142,8 +2186,8 @@
    "state": "TX",
    "carnegie": "R2",
    "enrollment_fte": 8842,
-   "endowment_b": 2.2,
-   "endowment_per_student": 199264,
+   "endowment_b": 8.5,
+   "endowment_per_student": 961321,
    "grad_rate_6yr": 0.81,
    "retention": 0.97,
    "sf_ratio": 20,
@@ -2177,7 +2221,8 @@
    "scorecard_name": "Rice University",
    "scorecard_city": "Houston",
    "conference": "AAC",
-   "peer_group": "AAC"
+   "peer_group": "AAC",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "smu",
@@ -2186,8 +2231,8 @@
    "state": "TX",
    "carnegie": "R1",
    "enrollment_fte": 53502,
-   "endowment_b": 1.5,
-   "endowment_per_student": 30982,
+   "endowment_b": 2.34,
+   "endowment_per_student": 43737,
    "grad_rate_6yr": 0.86,
    "retention": 0.88,
    "sf_ratio": 8,
@@ -2221,7 +2266,8 @@
    "scorecard_name": "Southern Methodist University",
    "scorecard_city": "Dallas",
    "conference": "ACC",
-   "peer_group": "ACC"
+   "peer_group": "ACC",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "purdue",
@@ -2230,8 +2276,8 @@
    "state": "IN",
    "carnegie": "R1",
    "enrollment_fte": 23292,
-   "endowment_b": 2.3,
-   "endowment_per_student": 99117,
+   "endowment_b": 4.44,
+   "endowment_per_student": 190623,
    "grad_rate_6yr": 0.88,
    "retention": 0.96,
    "sf_ratio": 16,
@@ -2265,7 +2311,8 @@
    "scorecard_name": "Purdue University-Main Campus",
    "scorecard_city": "West Lafayette",
    "conference": "Big Ten",
-   "peer_group": "Big Ten"
+   "peer_group": "Big Ten",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "bostoncolleg",
@@ -2274,8 +2321,8 @@
    "state": "MA",
    "carnegie": "R1",
    "enrollment_fte": 54016,
-   "endowment_b": 8.7,
-   "endowment_per_student": 178960,
+   "endowment_b": 4.24,
+   "endowment_per_student": 78495,
    "grad_rate_6yr": 0.76,
    "retention": 0.89,
    "sf_ratio": 6,
@@ -2309,7 +2356,8 @@
    "scorecard_city": "Chestnut Hill",
    "conference": "ACC",
    "peer_group": "ACC",
-   "admission_rate": 0.1643
+   "admission_rate": 0.1643,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "morehouse",
@@ -2362,8 +2410,8 @@
    "state": "NJ",
    "carnegie": "R2",
    "enrollment_fte": 30822,
-   "endowment_b": 3.3,
-   "endowment_per_student": 114047,
+   "endowment_b": 2.35,
+   "endowment_per_student": 76244,
    "grad_rate_6yr": 0.74,
    "retention": 0.91,
    "sf_ratio": 20,
@@ -2397,7 +2445,8 @@
    "scorecard_name": "Rutgers University-New Brunswick",
    "scorecard_city": "New Brunswick",
    "conference": "Big Ten",
-   "peer_group": "Big Ten"
+   "peer_group": "Big Ten",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "notredame",
@@ -2406,8 +2455,8 @@
    "state": "IN",
    "carnegie": "R1",
    "enrollment_fte": 52405,
-   "endowment_b": 11.2,
-   "endowment_per_student": 219793,
+   "endowment_b": 20.09,
+   "endowment_per_student": 383360,
    "grad_rate_6yr": 0.83,
    "retention": 0.95,
    "sf_ratio": 19,
@@ -2441,7 +2490,8 @@
    "scorecard_name": "University of Notre Dame",
    "scorecard_city": "Notre Dame",
    "conference": "ACC",
-   "peer_group": "ACC"
+   "peer_group": "ACC",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "nyu",
@@ -2450,8 +2500,8 @@
    "state": "NY",
    "carnegie": "R1",
    "enrollment_fte": 38270,
-   "endowment_b": 7.4,
-   "endowment_per_student": 166511,
+   "endowment_b": 7.28,
+   "endowment_per_student": 190227,
    "grad_rate_6yr": 0.9,
    "retention": 0.92,
    "sf_ratio": 22,
@@ -2485,7 +2535,8 @@
    "scorecard_name": "New York University",
    "scorecard_city": "New York",
    "conference": "UAA",
-   "peer_group": "UAA"
+   "peer_group": "UAA",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "hbcusample",
@@ -2538,8 +2589,8 @@
    "state": "DC",
    "carnegie": "R1",
    "enrollment_fte": 17556,
-   "endowment_b": 2.5,
-   "endowment_per_student": 139474,
+   "endowment_b": 3.95,
+   "endowment_per_student": 224994,
    "grad_rate_6yr": 0.82,
    "retention": 0.89,
    "sf_ratio": 13,
@@ -2573,7 +2624,8 @@
    "scorecard_name": "Georgetown University",
    "scorecard_city": "Washington",
    "conference": "Big East",
-   "peer_group": "Big East"
+   "peer_group": "Big East",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "uncchapelhil",
@@ -2582,8 +2634,8 @@
    "state": "NC",
    "carnegie": "R1",
    "enrollment_fte": 22167,
-   "endowment_b": 1.5,
-   "endowment_per_student": 66093,
+   "endowment_b": 6.22,
+   "endowment_per_student": 280597,
    "grad_rate_6yr": 0.88,
    "retention": 0.92,
    "sf_ratio": 9,
@@ -2617,7 +2669,8 @@
    "scorecard_name": "University of North Carolina at Chapel Hill",
    "scorecard_city": "Chapel Hill",
    "conference": "ACC",
-   "peer_group": "ACC"
+   "peer_group": "ACC",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "spelman",
@@ -2670,8 +2723,8 @@
    "state": "CA",
    "carnegie": "R1",
    "enrollment_fte": 38516,
-   "endowment_b": 1.3,
-   "endowment_per_student": 39145,
+   "endowment_b": 1.79,
+   "endowment_per_student": 46474,
    "grad_rate_6yr": 0.76,
    "retention": 0.86,
    "sf_ratio": 19,
@@ -2705,7 +2758,8 @@
    "scorecard_name": "University of California-San Diego",
    "scorecard_city": "La Jolla",
    "conference": "Big West",
-   "peer_group": "Big West"
+   "peer_group": "Big West",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "brown",
@@ -2714,8 +2768,8 @@
    "state": "RI",
    "carnegie": "R1",
    "enrollment_fte": 10500,
-   "endowment_b": 6.5,
-   "endowment_per_student": 619047,
+   "endowment_b": 7.28,
+   "endowment_per_student": 693333,
    "grad_rate_6yr": 0.96,
    "retention": 0.98,
    "sf_ratio": 6,
@@ -2750,7 +2804,8 @@
    "pell_rate": 0.1384,
    "scorecard_id": 217156,
    "scorecard_name": "Brown University",
-   "scorecard_city": "Providence"
+   "scorecard_city": "Providence",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "dartmouth",
@@ -2759,8 +2814,8 @@
    "state": "NH",
    "carnegie": "R1",
    "enrollment_fte": 6500,
-   "endowment_b": 8.3,
-   "endowment_per_student": 1276923,
+   "endowment_b": 8.96,
+   "endowment_per_student": 1378462,
    "grad_rate_6yr": 0.95,
    "retention": 0.98,
    "sf_ratio": 7,
@@ -2795,7 +2850,8 @@
    "pell_rate": 0.1435,
    "scorecard_id": 182670,
    "scorecard_name": "Dartmouth College",
-   "scorecard_city": "Hanover"
+   "scorecard_city": "Hanover",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "uchicago",
@@ -2804,8 +2860,8 @@
    "state": "IL",
    "carnegie": "R1",
    "enrollment_fte": 17000,
-   "endowment_b": 10.5,
-   "endowment_per_student": 617647,
+   "endowment_b": 10.62,
+   "endowment_per_student": 624706,
    "grad_rate_6yr": 0.94,
    "retention": 0.98,
    "sf_ratio": 5,
@@ -2840,7 +2896,8 @@
    "pell_rate": 0.1526,
    "scorecard_id": 144050,
    "scorecard_name": "University of Chicago",
-   "scorecard_city": "Chicago"
+   "scorecard_city": "Chicago",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "baylor",
@@ -2849,8 +2906,8 @@
    "state": "TX",
    "carnegie": "R1",
    "enrollment_fte": 20500,
-   "endowment_b": 1.8,
-   "endowment_per_student": 87804,
+   "endowment_b": 2.18,
+   "endowment_per_student": 106341,
    "grad_rate_6yr": 0.82,
    "retention": 0.88,
    "sf_ratio": 15,
@@ -2885,7 +2942,8 @@
    "pell_rate": 0.1245,
    "scorecard_id": 223232,
    "scorecard_name": "Baylor University",
-   "scorecard_city": "Waco"
+   "scorecard_city": "Waco",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "byu",
@@ -2939,8 +2997,8 @@
    "state": "SC",
    "carnegie": "R1",
    "enrollment_fte": 26500,
-   "endowment_b": 1.0,
-   "endowment_per_student": 37735,
+   "endowment_b": 1.24,
+   "endowment_per_student": 46792,
    "grad_rate_6yr": 0.86,
    "retention": 0.92,
    "sf_ratio": 16,
@@ -2975,7 +3033,8 @@
    "pell_rate": 0.1475,
    "scorecard_id": 217882,
    "scorecard_name": "Clemson University",
-   "scorecard_city": "Clemson"
+   "scorecard_city": "Clemson",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "coloradomines",
@@ -3029,8 +3088,8 @@
    "state": "PA",
    "carnegie": "R1",
    "enrollment_fte": 24000,
-   "endowment_b": 0.9,
-   "endowment_per_student": 37500,
+   "endowment_b": 1.13,
+   "endowment_per_student": 47083,
    "grad_rate_6yr": 0.71,
    "retention": 0.88,
    "sf_ratio": 11,
@@ -3065,7 +3124,8 @@
    "pell_rate": 0.2676,
    "scorecard_id": 212054,
    "scorecard_name": "Drexel University",
-   "scorecard_city": "Philadelphia"
+   "scorecard_city": "Philadelphia",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "floridastate",
@@ -3074,8 +3134,8 @@
    "state": "FL",
    "carnegie": "R1",
    "enrollment_fte": 44000,
-   "endowment_b": 0.75,
-   "endowment_per_student": 17045,
+   "endowment_b": 1.11,
+   "endowment_per_student": 25227,
    "grad_rate_6yr": 0.83,
    "retention": 0.92,
    "sf_ratio": 21,
@@ -3110,7 +3170,8 @@
    "pell_rate": 0.2297,
    "scorecard_id": 134097,
    "scorecard_name": "Florida State University",
-   "scorecard_city": "Tallahassee"
+   "scorecard_city": "Tallahassee",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "fordham",
@@ -3119,8 +3180,8 @@
    "state": "NY",
    "carnegie": "R2",
    "enrollment_fte": 16000,
-   "endowment_b": 0.85,
-   "endowment_per_student": 53125,
+   "endowment_b": 1.05,
+   "endowment_per_student": 65625,
    "grad_rate_6yr": 0.84,
    "retention": 0.9,
    "sf_ratio": 14,
@@ -3155,7 +3216,8 @@
    "pell_rate": 0.2142,
    "scorecard_id": 191241,
    "scorecard_name": "Fordham University",
-   "scorecard_city": "Bronx"
+   "scorecard_city": "Bronx",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "gwu",
@@ -3164,8 +3226,8 @@
    "state": "DC",
    "carnegie": "R1",
    "enrollment_fte": 26000,
-   "endowment_b": 2.4,
-   "endowment_per_student": 92307,
+   "endowment_b": 2.81,
+   "endowment_per_student": 108077,
    "grad_rate_6yr": 0.82,
    "retention": 0.9,
    "sf_ratio": 13,
@@ -3200,7 +3262,8 @@
    "pell_rate": 0.1582,
    "scorecard_id": 131469,
    "scorecard_name": "George Washington University",
-   "scorecard_city": "Washington"
+   "scorecard_city": "Washington",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "georgiastate",
@@ -3254,8 +3317,8 @@
    "state": "IN",
    "carnegie": "R1",
    "enrollment_fte": 47000,
-   "endowment_b": 2.8,
-   "endowment_per_student": 59574,
+   "endowment_b": 4.05,
+   "endowment_per_student": 86170,
    "grad_rate_6yr": 0.8,
    "retention": 0.9,
    "sf_ratio": 17,
@@ -3290,7 +3353,9 @@
    "pell_rate": 0.1676,
    "scorecard_id": 151351,
    "scorecard_name": "Indiana University-Bloomington",
-   "scorecard_city": "Bloomington"
+   "scorecard_city": "Bloomington",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_endowment_scope": "IU Foundation (system)"
   },
   {
    "id": "iowastate",
@@ -3299,8 +3364,8 @@
    "state": "IA",
    "carnegie": "R1",
    "enrollment_fte": 31000,
-   "endowment_b": 1.6,
-   "endowment_per_student": 51612,
+   "endowment_b": 1.91,
+   "endowment_per_student": 61613,
    "grad_rate_6yr": 0.75,
    "retention": 0.87,
    "sf_ratio": 19,
@@ -3335,7 +3400,8 @@
    "pell_rate": 0.1877,
    "scorecard_id": 153603,
    "scorecard_name": "Iowa State University",
-   "scorecard_city": "Ames"
+   "scorecard_city": "Ames",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "jamesmadison",
@@ -3434,8 +3500,8 @@
    "state": "LA",
    "carnegie": "R1",
    "enrollment_fte": 35000,
-   "endowment_b": 0.65,
-   "endowment_per_student": 18571,
+   "endowment_b": 1.24,
+   "endowment_per_student": 35429,
    "grad_rate_6yr": 0.71,
    "retention": 0.84,
    "sf_ratio": 20,
@@ -3470,7 +3536,9 @@
    "scorecard_city": "Baton Rouge",
    "debt_avg_real": 20500,
    "net_price_avg_real": 19151,
-   "admission_rate": 0.7333
+   "admission_rate": 0.7333,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_endowment_scope": "LSU System"
   },
   {
    "id": "michiganstate",
@@ -3479,8 +3547,8 @@
    "state": "MI",
    "carnegie": "R1",
    "enrollment_fte": 50000,
-   "endowment_b": 3.9,
-   "endowment_per_student": 78000,
+   "endowment_b": 4.61,
+   "endowment_per_student": 92200,
    "grad_rate_6yr": 0.81,
    "retention": 0.91,
    "sf_ratio": 17,
@@ -3515,7 +3583,8 @@
    "pell_rate": 0.2009,
    "scorecard_id": 171100,
    "scorecard_name": "Michigan State University",
-   "scorecard_city": "East Lansing"
+   "scorecard_city": "East Lansing",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "missouri",
@@ -3524,8 +3593,8 @@
    "state": "MO",
    "carnegie": "R1",
    "enrollment_fte": 31000,
-   "endowment_b": 1.2,
-   "endowment_per_student": 38709,
+   "endowment_b": 2.55,
+   "endowment_per_student": 82258,
    "grad_rate_6yr": 0.72,
    "retention": 0.87,
    "sf_ratio": 18,
@@ -3560,7 +3629,9 @@
    "scorecard_id": 178396,
    "scorecard_name": "University of Missouri-Columbia",
    "scorecard_city": "Columbia",
-   "admission_rate": 0.7847
+   "admission_rate": 0.7847,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_endowment_scope": "MU System"
   },
   {
    "id": "ncstate",
@@ -3569,8 +3640,8 @@
    "state": "NC",
    "carnegie": "R1",
    "enrollment_fte": 36000,
-   "endowment_b": 1.8,
-   "endowment_per_student": 50000,
+   "endowment_b": 2.54,
+   "endowment_per_student": 70556,
    "grad_rate_6yr": 0.84,
    "retention": 0.92,
    "sf_ratio": 14,
@@ -3605,7 +3676,8 @@
    "pell_rate": 0.1958,
    "scorecard_id": 199193,
    "scorecard_name": "North Carolina State University at Raleigh",
-   "scorecard_city": "Raleigh"
+   "scorecard_city": "Raleigh",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "oklahomastate",
@@ -3614,8 +3686,8 @@
    "state": "OK",
    "carnegie": "R1",
    "enrollment_fte": 26000,
-   "endowment_b": 1.3,
-   "endowment_per_student": 50000,
+   "endowment_b": 1.56,
+   "endowment_per_student": 60000,
    "grad_rate_6yr": 0.64,
    "retention": 0.84,
    "sf_ratio": 20,
@@ -3650,7 +3722,8 @@
    "scorecard_id": 207388,
    "scorecard_name": "Oklahoma State University-Main Campus",
    "scorecard_city": "Stillwater",
-   "admission_rate": 0.7504
+   "admission_rate": 0.7504,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "oregonstate",
@@ -3704,8 +3777,8 @@
    "state": "PA",
    "carnegie": "R1",
    "enrollment_fte": 38000,
-   "endowment_b": 0.65,
-   "endowment_per_student": 17105,
+   "endowment_b": 1.05,
+   "endowment_per_student": 27632,
    "grad_rate_6yr": 0.75,
    "retention": 0.87,
    "sf_ratio": 14,
@@ -3740,7 +3813,8 @@
    "pell_rate": 0.3197,
    "scorecard_id": 216339,
    "scorecard_name": "Temple University",
-   "scorecard_city": "Philadelphia"
+   "scorecard_city": "Philadelphia",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "texastech",
@@ -3749,8 +3823,8 @@
    "state": "TX",
    "carnegie": "R1",
    "enrollment_fte": 40000,
-   "endowment_b": 1.3,
-   "endowment_per_student": 32500,
+   "endowment_b": 3.07,
+   "endowment_per_student": 76750,
    "grad_rate_6yr": 0.63,
    "retention": 0.85,
    "sf_ratio": 21,
@@ -3785,7 +3859,8 @@
    "_earnings_source": "scorecard",
    "net_price_avg_real": 19070,
    "admission_rate": 0.7265,
-   "avg_family_income": 72431
+   "avg_family_income": 72431,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "ucirvine",
@@ -3794,8 +3869,8 @@
    "state": "CA",
    "carnegie": "R1",
    "enrollment_fte": 36000,
-   "endowment_b": 1.2,
-   "endowment_per_student": 33333,
+   "endowment_b": 1.03,
+   "endowment_per_student": 28611,
    "grad_rate_6yr": 0.85,
    "retention": 0.93,
    "sf_ratio": 18,
@@ -3830,7 +3905,8 @@
    "pell_rate": 0.361,
    "scorecard_id": 110653,
    "scorecard_name": "University of California-Irvine",
-   "scorecard_city": "Irvine"
+   "scorecard_city": "Irvine",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "ucriverside",
@@ -4019,8 +4095,8 @@
    "state": "CO",
    "carnegie": "R1",
    "enrollment_fte": 37000,
-   "endowment_b": 2.1,
-   "endowment_per_student": 56756,
+   "endowment_b": 2.47,
+   "endowment_per_student": 66757,
    "grad_rate_6yr": 0.74,
    "retention": 0.87,
    "sf_ratio": 18,
@@ -4055,7 +4131,9 @@
    "pell_rate": 0.1449,
    "scorecard_id": 126614,
    "scorecard_name": "University of Colorado Boulder",
-   "scorecard_city": "Boulder"
+   "scorecard_city": "Boulder",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_endowment_scope": "CU Foundation (system)"
   },
   {
    "id": "uconn",
@@ -4199,8 +4277,8 @@
    "state": "IA",
    "carnegie": "R1",
    "enrollment_fte": 31000,
-   "endowment_b": 1.6,
-   "endowment_per_student": 51612,
+   "endowment_b": 3.77,
+   "endowment_per_student": 121613,
    "grad_rate_6yr": 0.74,
    "retention": 0.87,
    "sf_ratio": 16,
@@ -4235,7 +4313,8 @@
    "pell_rate": 0.1835,
    "scorecard_id": 153658,
    "scorecard_name": "University of Iowa",
-   "scorecard_city": "Iowa City"
+   "scorecard_city": "Iowa City",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "kansas",
@@ -4244,8 +4323,8 @@
    "state": "KS",
    "carnegie": "R1",
    "enrollment_fte": 28000,
-   "endowment_b": 2.2,
-   "endowment_per_student": 78571,
+   "endowment_b": 2.69,
+   "endowment_per_student": 96071,
    "grad_rate_6yr": 0.67,
    "retention": 0.84,
    "sf_ratio": 17,
@@ -4280,7 +4359,8 @@
    "pell_rate": 0.2047,
    "scorecard_id": 155317,
    "scorecard_name": "University of Kansas",
-   "scorecard_city": "Lawrence"
+   "scorecard_city": "Lawrence",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "kentucky",
@@ -4334,8 +4414,8 @@
    "state": "KY",
    "carnegie": "R1",
    "enrollment_fte": 23000,
-   "endowment_b": 0.85,
-   "endowment_per_student": 36956,
+   "endowment_b": 1.07,
+   "endowment_per_student": 46522,
    "grad_rate_6yr": 0.6,
    "retention": 0.8,
    "sf_ratio": 15,
@@ -4370,7 +4450,8 @@
    "scorecard_id": 157289,
    "scorecard_name": "University of Louisville",
    "scorecard_city": "Louisville",
-   "admission_rate": 0.7941
+   "admission_rate": 0.7941,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "miami",
@@ -4379,8 +4460,8 @@
    "state": "FL",
    "carnegie": "R1",
    "enrollment_fte": 19000,
-   "endowment_b": 1.1,
-   "endowment_per_student": 57894,
+   "endowment_b": 1.71,
+   "endowment_per_student": 90000,
    "grad_rate_6yr": 0.83,
    "retention": 0.91,
    "sf_ratio": 12,
@@ -4415,7 +4496,8 @@
    "pell_rate": 0.1486,
    "scorecard_id": 135726,
    "scorecard_name": "University of Miami",
-   "scorecard_city": "Coral Gables"
+   "scorecard_city": "Coral Gables",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "minnesota",
@@ -4424,8 +4506,8 @@
    "state": "MN",
    "carnegie": "R1",
    "enrollment_fte": 52000,
-   "endowment_b": 4.2,
-   "endowment_per_student": 80769,
+   "endowment_b": 6.45,
+   "endowment_per_student": 124038,
    "grad_rate_6yr": 0.82,
    "retention": 0.92,
    "sf_ratio": 17,
@@ -4460,7 +4542,8 @@
    "pell_rate": 0.1765,
    "scorecard_id": 174066,
    "scorecard_name": "University of Minnesota-Twin Cities",
-   "scorecard_city": "Minneapolis"
+   "scorecard_city": "Minneapolis",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "nebraska",
@@ -4469,8 +4552,8 @@
    "state": "NE",
    "carnegie": "R1",
    "enrollment_fte": 25000,
-   "endowment_b": 1.8,
-   "endowment_per_student": 72000,
+   "endowment_b": 2.72,
+   "endowment_per_student": 108800,
    "grad_rate_6yr": 0.69,
    "retention": 0.84,
    "sf_ratio": 19,
@@ -4505,7 +4588,9 @@
    "pell_rate": 0.2277,
    "scorecard_id": 181464,
    "scorecard_name": "University of Nebraska-Lincoln",
-   "scorecard_city": "Lincoln"
+   "scorecard_city": "Lincoln",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_endowment_scope": "NU system"
   },
   {
    "id": "unm",
@@ -4648,8 +4733,8 @@
    "state": "OR",
    "carnegie": "R1",
    "enrollment_fte": 23000,
-   "endowment_b": 1.1,
-   "endowment_per_student": 47826,
+   "endowment_b": 1.3,
+   "endowment_per_student": 56522,
    "grad_rate_6yr": 0.73,
    "retention": 0.87,
    "sf_ratio": 18,
@@ -4682,7 +4767,8 @@
    "pell_rate": 0.2893,
    "scorecard_id": 209490,
    "scorecard_name": "Oregon Health & Science University",
-   "scorecard_city": "Portland"
+   "scorecard_city": "Portland",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "pitt",
@@ -4691,8 +4777,8 @@
    "state": "PA",
    "carnegie": "R1",
    "enrollment_fte": 33000,
-   "endowment_b": 5.5,
-   "endowment_per_student": 166666,
+   "endowment_b": 6.15,
+   "endowment_per_student": 186364,
    "grad_rate_6yr": 0.84,
    "retention": 0.92,
    "sf_ratio": 14,
@@ -4727,7 +4813,8 @@
    "pell_rate": 0.1398,
    "scorecard_id": 215293,
    "scorecard_name": "University of Pittsburgh-Pittsburgh Campus",
-   "scorecard_city": "Pittsburgh"
+   "scorecard_city": "Pittsburgh",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "rochester",
@@ -4871,8 +4958,8 @@
    "state": "TN",
    "carnegie": "R1",
    "enrollment_fte": 33000,
-   "endowment_b": 0.75,
-   "endowment_per_student": 22727,
+   "endowment_b": 1.92,
+   "endowment_per_student": 58182,
    "grad_rate_6yr": 0.72,
    "retention": 0.87,
    "sf_ratio": 18,
@@ -4907,7 +4994,9 @@
    "pell_rate": 0.1889,
    "scorecard_id": 221759,
    "scorecard_name": "The University of Tennessee-Knoxville",
-   "scorecard_city": "Knoxville"
+   "scorecard_city": "Knoxville",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_endowment_scope": "UT System"
   },
   {
    "id": "utah",
@@ -4916,8 +5005,8 @@
    "state": "UT",
    "carnegie": "R1",
    "enrollment_fte": 34000,
-   "endowment_b": 1.2,
-   "endowment_per_student": 35294,
+   "endowment_b": 2.07,
+   "endowment_per_student": 60882,
    "grad_rate_6yr": 0.71,
    "retention": 0.87,
    "sf_ratio": 16,
@@ -4952,7 +5041,8 @@
    "pell_rate": 0.1959,
    "scorecard_id": 230764,
    "scorecard_name": "University of Utah",
-   "scorecard_city": "Salt Lake City"
+   "scorecard_city": "Salt Lake City",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "uva",
@@ -5051,8 +5141,8 @@
    "state": "NC",
    "carnegie": "R1",
    "enrollment_fte": 9000,
-   "endowment_b": 1.8,
-   "endowment_per_student": 200000,
+   "endowment_b": 2.15,
+   "endowment_per_student": 238889,
    "grad_rate_6yr": 0.88,
    "retention": 0.94,
    "sf_ratio": 11,
@@ -5087,7 +5177,8 @@
    "pell_rate": 0.1009,
    "scorecard_id": 199847,
    "scorecard_name": "Wake Forest University",
-   "scorecard_city": "Winston-Salem"
+   "scorecard_city": "Winston-Salem",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "washstate",
@@ -5186,8 +5277,8 @@
    "state": "VA",
    "carnegie": "R2",
    "enrollment_fte": 9500,
-   "endowment_b": 1.1,
-   "endowment_per_student": 115789,
+   "endowment_b": 1.59,
+   "endowment_per_student": 167368,
    "grad_rate_6yr": 0.92,
    "retention": 0.95,
    "sf_ratio": 12,
@@ -5222,7 +5313,8 @@
    "pell_rate": 0.1245,
    "scorecard_id": 231624,
    "scorecard_name": "William & Mary",
-   "scorecard_city": "Williamsburg"
+   "scorecard_city": "Williamsburg",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "wpi",
@@ -5456,8 +5548,8 @@
    "state": "AZ",
    "carnegie": "R1",
    "enrollment_fte": 48000,
-   "endowment_b": 1.1,
-   "endowment_per_student": 22916,
+   "endowment_b": 1.5,
+   "endowment_per_student": 31250,
    "grad_rate_6yr": 0.66,
    "retention": 0.83,
    "sf_ratio": 15,
@@ -5492,7 +5584,8 @@
    "pell_rate": 0.257,
    "scorecard_id": 104179,
    "scorecard_name": "University of Arizona",
-   "scorecard_city": "Tucson"
+   "scorecard_city": "Tucson",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "arizonastate2",
@@ -5542,8 +5635,8 @@
    "state": "PA",
    "carnegie": "R2",
    "enrollment_fte": 3700,
-   "endowment_b": 1.0,
-   "endowment_per_student": 270270,
+   "endowment_b": 1.26,
+   "endowment_per_student": 340541,
    "grad_rate_6yr": 0.9,
    "retention": 0.93,
    "sf_ratio": 9,
@@ -5578,7 +5671,8 @@
    "pell_rate": 0.1238,
    "scorecard_id": 211291,
    "scorecard_name": "Bucknell University",
-   "scorecard_city": "Lewisburg"
+   "scorecard_city": "Lewisburg",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "calpoly",
@@ -5632,8 +5726,8 @@
    "state": "MN",
    "carnegie": "R2",
    "enrollment_fte": 2100,
-   "endowment_b": 1.0,
-   "endowment_per_student": 476190,
+   "endowment_b": 1.33,
+   "endowment_per_student": 633333,
    "grad_rate_6yr": 0.94,
    "retention": 0.97,
    "sf_ratio": 9,
@@ -5668,7 +5762,8 @@
    "pell_rate": 0.1653,
    "scorecard_id": 173258,
    "scorecard_name": "Carleton College",
-   "scorecard_city": "Northfield"
+   "scorecard_city": "Northfield",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "claremont",
@@ -5677,8 +5772,8 @@
    "state": "CA",
    "carnegie": "R2",
    "enrollment_fte": 1400,
-   "endowment_b": 1.1,
-   "endowment_per_student": 785714,
+   "endowment_b": 1.35,
+   "endowment_per_student": 964286,
    "grad_rate_6yr": 0.91,
    "retention": 0.95,
    "sf_ratio": 8,
@@ -5713,7 +5808,8 @@
    "pell_rate": 0.181,
    "scorecard_id": 112260,
    "scorecard_name": "Claremont McKenna College",
-   "scorecard_city": "Claremont"
+   "scorecard_city": "Claremont",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "colgate",
@@ -5722,8 +5818,8 @@
    "state": "NY",
    "carnegie": "R2",
    "enrollment_fte": 3100,
-   "endowment_b": 1.1,
-   "endowment_per_student": 354838,
+   "endowment_b": 1.34,
+   "endowment_per_student": 432258,
    "grad_rate_6yr": 0.91,
    "retention": 0.95,
    "sf_ratio": 9,
@@ -5758,7 +5854,8 @@
    "pell_rate": 0.1252,
    "scorecard_id": 190099,
    "scorecard_name": "Colgate University",
-   "scorecard_city": "Hamilton"
+   "scorecard_city": "Hamilton",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "coloradostate",
@@ -5857,8 +5954,8 @@
    "state": "NC",
    "carnegie": "R2",
    "enrollment_fte": 1900,
-   "endowment_b": 1.0,
-   "endowment_per_student": 526315,
+   "endowment_b": 1.46,
+   "endowment_per_student": 768421,
    "grad_rate_6yr": 0.93,
    "retention": 0.96,
    "sf_ratio": 10,
@@ -5893,7 +5990,8 @@
    "scorecard_id": 198385,
    "scorecard_name": "Davidson College",
    "scorecard_city": "Davidson",
-   "admission_rate": 0.1337
+   "admission_rate": 0.1337,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "delaware2",
@@ -5902,8 +6000,8 @@
    "state": "DE",
    "carnegie": "R1",
    "enrollment_fte": 24000,
-   "endowment_b": 1.8,
-   "endowment_per_student": 75000,
+   "endowment_b": 2.06,
+   "endowment_per_student": 85833,
    "grad_rate_6yr": 0.82,
    "retention": 0.91,
    "sf_ratio": 12,
@@ -5938,7 +6036,8 @@
    "pell_rate": 0.1612,
    "scorecard_id": 130943,
    "scorecard_name": "University of Delaware",
-   "scorecard_city": "Newark"
+   "scorecard_city": "Newark",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "denver",
@@ -5947,8 +6046,8 @@
    "state": "CO",
    "carnegie": "R1",
    "enrollment_fte": 12000,
-   "endowment_b": 0.9,
-   "endowment_per_student": 75000,
+   "endowment_b": 1.15,
+   "endowment_per_student": 95833,
    "grad_rate_6yr": 0.73,
    "retention": 0.87,
    "sf_ratio": 11,
@@ -5983,7 +6082,8 @@
    "pell_rate": 0.1425,
    "scorecard_id": 127060,
    "scorecard_name": "University of Denver",
-   "scorecard_city": "Denver"
+   "scorecard_city": "Denver",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "depaul",
@@ -5992,8 +6092,8 @@
    "state": "IL",
    "carnegie": "R2",
    "enrollment_fte": 21000,
-   "endowment_b": 0.8,
-   "endowment_per_student": 38095,
+   "endowment_b": 1.15,
+   "endowment_per_student": 54762,
    "grad_rate_6yr": 0.66,
    "retention": 0.84,
    "sf_ratio": 15,
@@ -6028,7 +6128,8 @@
    "pell_rate": 0.3178,
    "scorecard_id": 144740,
    "scorecard_name": "DePaul University",
-   "scorecard_city": "Chicago"
+   "scorecard_city": "Chicago",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "fiu",
@@ -6217,8 +6318,8 @@
    "state": "MA",
    "carnegie": "Baccalaureate",
    "enrollment_fte": 2100,
-   "endowment_b": 3.2,
-   "endowment_per_student": 1520000,
+   "endowment_b": 3.93,
+   "endowment_per_student": 1871429,
    "grad_rate_6yr": 0.9758,
    "retention": 0.97,
    "sf_ratio": 6,
@@ -6252,7 +6353,8 @@
    "avg_family_income": 62458,
    "pell_rate": 0.1643,
    "scorecard_name": "Williams College",
-   "scorecard_city": "Williamstown"
+   "scorecard_city": "Williamstown",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "amherst",
@@ -6261,8 +6363,8 @@
    "state": "MA",
    "carnegie": "Baccalaureate",
    "enrollment_fte": 1900,
-   "endowment_b": 3.0,
-   "endowment_per_student": 1580000,
+   "endowment_b": 3.9,
+   "endowment_per_student": 2052632,
    "grad_rate_6yr": 0.939,
    "retention": 0.97,
    "sf_ratio": 7,
@@ -6297,7 +6399,8 @@
    "grad_rate_6yr_real": 0.939,
    "scorecard_id": 164465,
    "scorecard_name": "Amherst College",
-   "scorecard_city": "Amherst"
+   "scorecard_city": "Amherst",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "swarthmore",
@@ -6306,8 +6409,8 @@
    "state": "PA",
    "carnegie": "Baccalaureate",
    "enrollment_fte": 1650,
-   "endowment_b": 2.5,
-   "endowment_per_student": 1510000,
+   "endowment_b": 2.84,
+   "endowment_per_student": 1721212,
    "grad_rate_6yr": 0.9227,
    "retention": 0.96,
    "sf_ratio": 8,
@@ -6342,7 +6445,8 @@
    "grad_rate_6yr_real": 0.9227,
    "scorecard_id": 216287,
    "scorecard_name": "Swarthmore College",
-   "scorecard_city": "Swarthmore"
+   "scorecard_city": "Swarthmore",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "pomona",
@@ -6351,8 +6455,8 @@
    "state": "CA",
    "carnegie": "Baccalaureate",
    "enrollment_fte": 1710,
-   "endowment_b": 2.7,
-   "endowment_per_student": 1580000,
+   "endowment_b": 3.22,
+   "endowment_per_student": 1883041,
    "grad_rate_6yr": 0.932,
    "retention": 0.96,
    "sf_ratio": 8,
@@ -6386,7 +6490,8 @@
    "scorecard_id": 121345,
    "scorecard_name": "Pomona College",
    "scorecard_city": "Claremont",
-   "admission_rate": 0.0709
+   "admission_rate": 0.0709,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "wellesley",
@@ -6395,8 +6500,8 @@
    "state": "MA",
    "carnegie": "Baccalaureate",
    "enrollment_fte": 2400,
-   "endowment_b": 2.2,
-   "endowment_per_student": 916000,
+   "endowment_b": 3.19,
+   "endowment_per_student": 1329167,
    "grad_rate_6yr": 0.9153,
    "retention": 0.95,
    "sf_ratio": 8,
@@ -6431,7 +6536,8 @@
    "grad_rate_6yr_real": 0.9153,
    "scorecard_id": 168218,
    "scorecard_name": "Wellesley College",
-   "scorecard_city": "Wellesley"
+   "scorecard_city": "Wellesley",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "bowdoin",
@@ -6440,8 +6546,8 @@
    "state": "ME",
    "carnegie": "Baccalaureate",
    "enrollment_fte": 1950,
-   "endowment_b": 2.0,
-   "endowment_per_student": 1025000,
+   "endowment_b": 2.92,
+   "endowment_per_student": 1497436,
    "grad_rate_6yr": 0.9528,
    "retention": 0.96,
    "sf_ratio": 9,
@@ -6476,7 +6582,8 @@
    "grad_rate_6yr_real": 0.9528,
    "scorecard_id": 161004,
    "scorecard_name": "Bowdoin College",
-   "scorecard_city": "Brunswick"
+   "scorecard_city": "Brunswick",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "middlebury",
@@ -6485,8 +6592,8 @@
    "state": "VT",
    "carnegie": "Baccalaureate",
    "enrollment_fte": 2750,
-   "endowment_b": 1.6,
-   "endowment_per_student": 581000,
+   "endowment_b": 1.73,
+   "endowment_per_student": 629091,
    "grad_rate_6yr": 0.914,
    "retention": 0.95,
    "sf_ratio": 8,
@@ -6521,7 +6628,8 @@
    "grad_rate_6yr_real": 0.914,
    "scorecard_id": 230959,
    "scorecard_name": "Middlebury College",
-   "scorecard_city": "Middlebury"
+   "scorecard_city": "Middlebury",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "wesleyan",
@@ -6530,8 +6638,8 @@
    "state": "VA",
    "carnegie": "Baccalaureate",
    "enrollment_fte": 3100,
-   "endowment_b": 1.3,
-   "endowment_per_student": 419000,
+   "endowment_b": 1.64,
+   "endowment_per_student": 529032,
    "grad_rate_6yr": 0.9264,
    "retention": 0.94,
    "sf_ratio": 8,
@@ -6566,7 +6674,8 @@
    "grad_rate_6yr_real": 0.4164,
    "scorecard_id": 130697,
    "scorecard_name": "Wesleyan University",
-   "scorecard_city": "Middletown"
+   "scorecard_city": "Middletown",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "vassar",
@@ -6575,8 +6684,8 @@
    "state": "NY",
    "carnegie": "Baccalaureate",
    "enrollment_fte": 2450,
-   "endowment_b": 1.1,
-   "endowment_per_student": 449000,
+   "endowment_b": 1.39,
+   "endowment_per_student": 567347,
    "grad_rate_6yr": 0.9108,
    "retention": 0.94,
    "sf_ratio": 8,
@@ -6611,7 +6720,8 @@
    "grad_rate_6yr_real": 0.9108,
    "scorecard_id": 197133,
    "scorecard_name": "Vassar College",
-   "scorecard_city": "Poughkeepsie"
+   "scorecard_city": "Poughkeepsie",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "colby",
@@ -6620,8 +6730,8 @@
    "state": "NH",
    "carnegie": "Baccalaureate",
    "enrollment_fte": 2200,
-   "endowment_b": 1.0,
-   "endowment_per_student": 454000,
+   "endowment_b": 1.25,
+   "endowment_per_student": 568182,
    "grad_rate_6yr": 0.8879,
    "retention": 0.94,
    "sf_ratio": 10,
@@ -6657,7 +6767,8 @@
    "grad_rate_6yr_real": 0.5745,
    "scorecard_id": 161086,
    "scorecard_name": "Colby College",
-   "scorecard_city": "Waterville"
+   "scorecard_city": "Waterville",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "cincinnati",
@@ -6666,8 +6777,8 @@
    "state": "OH",
    "carnegie": "R1",
    "enrollment_fte": 38000,
-   "endowment_b": 1.8,
-   "endowment_per_student": 47000,
+   "endowment_b": 1.77,
+   "endowment_per_student": 46579,
    "grad_rate_6yr": 0.7496,
    "retention": 0.88,
    "sf_ratio": 17,
@@ -6702,7 +6813,8 @@
    "grad_rate_6yr_real": 0.7496,
    "scorecard_id": 201885,
    "scorecard_name": "University of Cincinnati-Main Campus",
-   "scorecard_city": "Cincinnati"
+   "scorecard_city": "Cincinnati",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "dayton",
@@ -6756,8 +6868,8 @@
    "state": "IL",
    "carnegie": "R1",
    "enrollment_fte": 16500,
-   "endowment_b": 0.9,
-   "endowment_per_student": 54500,
+   "endowment_b": 1.37,
+   "endowment_per_student": 83030,
    "grad_rate_6yr": 0.7304,
    "retention": 0.86,
    "sf_ratio": 14,
@@ -6791,7 +6903,8 @@
    "avg_family_income": 87753,
    "pell_rate": 0.2375,
    "scorecard_name": "Loyola University Chicago",
-   "scorecard_city": "Chicago"
+   "scorecard_city": "Chicago",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "slu",
@@ -6800,8 +6913,8 @@
    "state": "MO",
    "carnegie": "R1",
    "enrollment_fte": 13500,
-   "endowment_b": 1.4,
-   "endowment_per_student": 103000,
+   "endowment_b": 2.02,
+   "endowment_per_student": 149630,
    "grad_rate_6yr": 0.7953,
    "retention": 0.89,
    "sf_ratio": 9,
@@ -6836,7 +6949,8 @@
    "grad_rate_6yr_real": 0.6622,
    "scorecard_id": 179159,
    "scorecard_name": "Saint Louis University",
-   "scorecard_city": "Saint Louis"
+   "scorecard_city": "Saint Louis",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "usfca",
@@ -7159,8 +7273,8 @@
    "state": "NH",
    "carnegie": "R1",
    "enrollment_fte": 14500,
-   "endowment_b": 0.4,
-   "endowment_per_student": 27500,
+   "endowment_b": 1.06,
+   "endowment_per_student": 73103,
    "grad_rate_6yr": 0.7607,
    "retention": 0.87,
    "sf_ratio": 18,
@@ -7195,7 +7309,9 @@
    "grad_rate_6yr_real": 0.7607,
    "scorecard_id": 183044,
    "scorecard_name": "University of New Hampshire-Main Campus",
-   "scorecard_city": "Durham"
+   "scorecard_city": "Durham",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_endowment_scope": "USNH system"
   },
   {
    "id": "maine",
@@ -7697,8 +7813,8 @@
    "state": "TX",
    "carnegie": "R2",
    "enrollment_fte": 38000,
-   "endowment_b": 0.3,
-   "endowment_per_student": 7890,
+   "endowment_b": 2.11,
+   "endowment_per_student": 55526,
    "grad_rate_6yr": 0.5528,
    "retention": 0.8,
    "sf_ratio": 20,
@@ -7733,7 +7849,9 @@
    "grad_rate_6yr_real": 0.5528,
    "scorecard_id": 228459,
    "scorecard_name": "Texas State University",
-   "scorecard_city": "San Marcos"
+   "scorecard_city": "San Marcos",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_endowment_scope": "TSU System"
   },
   {
    "id": "unt",
@@ -7876,8 +7994,8 @@
    "state": "TX",
    "carnegie": "R1",
    "enrollment_fte": 34000,
-   "endowment_b": 0.3,
-   "endowment_per_student": 8820,
+   "endowment_b": 1.21,
+   "endowment_per_student": 35588,
    "grad_rate_6yr": 0.5264,
    "retention": 0.77,
    "sf_ratio": 25,
@@ -7912,7 +8030,8 @@
    "grad_rate_6yr_real": 0.5264,
    "scorecard_id": 229027,
    "scorecard_name": "The University of Texas at San Antonio",
-   "scorecard_city": "San Antonio"
+   "scorecard_city": "San Antonio",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "fau",
@@ -8426,8 +8545,8 @@
     "state_audit": "n/a"
    },
    "enrollment_fte": 11000,
-   "endowment_b": 2.6,
-   "endowment_per_student": 236000,
+   "endowment_b": 2.85,
+   "endowment_per_student": 259091,
    "grad_rate_6yr": 0.8551,
    "retention": 0.91,
    "sf_ratio": 13,
@@ -8452,7 +8571,8 @@
    "pell_rate": 0.1432,
    "avg_family_income": 109988,
    "grad_rate_6yr_real": 0.8551,
-   "enrollment_fte_real": 11026
+   "enrollment_fte_real": 11026,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "syracuse",
@@ -8471,8 +8591,8 @@
     "state_audit": "n/a"
    },
    "enrollment_fte": 21000,
-   "endowment_b": 1.9,
-   "endowment_per_student": 90000,
+   "endowment_b": 2.27,
+   "endowment_per_student": 108095,
    "grad_rate_6yr": 0.8361,
    "retention": 0.9,
    "sf_ratio": 15,
@@ -8497,7 +8617,8 @@
    "scorecard_id": 196413,
    "scorecard_name": "Syracuse University",
    "scorecard_city": "Syracuse",
-   "score": 72.8
+   "score": 72.8,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "arkansas",
@@ -8516,8 +8637,8 @@
     "state_audit": "2024"
    },
    "enrollment_fte": 30000,
-   "endowment_b": 1.9,
-   "endowment_per_student": 63000,
+   "endowment_b": 1.81,
+   "endowment_per_student": 60333,
    "grad_rate_6yr": 0.7052,
    "retention": 0.85,
    "sf_ratio": 19,
@@ -8542,7 +8663,8 @@
    "scorecard_id": 106397,
    "scorecard_name": "University of Arkansas",
    "scorecard_city": "Fayetteville",
-   "score": 63.6
+   "score": 63.6,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "olemiss",
@@ -8561,8 +8683,8 @@
     "state_audit": "2024"
    },
    "enrollment_fte": 21000,
-   "endowment_b": 0.8,
-   "endowment_per_student": 38000,
+   "endowment_b": 1.0,
+   "endowment_per_student": 47619,
    "grad_rate_6yr": 0.7174,
    "retention": 0.85,
    "sf_ratio": 16,
@@ -8587,7 +8709,8 @@
    "grad_rate_6yr_real": 0.7174,
    "scorecard_id": 176017,
    "scorecard_name": "University of Mississippi",
-   "scorecard_city": "University"
+   "scorecard_city": "University",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "mississippistate",
@@ -8606,8 +8729,8 @@
     "state_audit": "2024"
    },
    "enrollment_fte": 22000,
-   "endowment_b": 0.7,
-   "endowment_per_student": 31000,
+   "endowment_b": 1.0,
+   "endowment_per_student": 45455,
    "grad_rate_6yr": 0.6667,
    "retention": 0.82,
    "sf_ratio": 17,
@@ -8632,7 +8755,8 @@
    "scorecard_id": 176080,
    "scorecard_name": "Mississippi State University",
    "scorecard_city": "Mississippi State",
-   "score": 60.8
+   "score": 60.8,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "creighton",
@@ -8741,8 +8865,8 @@
     "state_audit": "n/a"
    },
    "enrollment_fte": 11500,
-   "endowment_b": 0.9,
-   "endowment_per_student": 78000,
+   "endowment_b": 1.13,
+   "endowment_per_student": 98261,
    "grad_rate_6yr": 0.8321,
    "retention": 0.9,
    "sf_ratio": 14,
@@ -8767,7 +8891,8 @@
    "scorecard_id": 239105,
    "scorecard_name": "Marquette University",
    "scorecard_city": "Milwaukee",
-   "score": 71.4
+   "score": 71.4,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "xavier",
@@ -8876,8 +9001,8 @@
     "state_audit": "n/a"
    },
    "enrollment_fte": 2050,
-   "endowment_b": 1.2,
-   "endowment_per_student": 585000,
+   "endowment_b": 1.5,
+   "endowment_per_student": 731707,
    "grad_rate_6yr": 0.9063,
    "retention": 0.95,
    "sf_ratio": 9,
@@ -8902,7 +9027,8 @@
    "scorecard_id": 191515,
    "scorecard_name": "Hamilton College",
    "scorecard_city": "Clinton",
-   "score": 75.8
+   "score": 75.8,
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "macalester",
