@@ -1,0 +1,42 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED",
+    "params": {
+      "query": "id=129020",
+      "fields": "id,school.name,school.city,school.state,school.ownership,latest.earnings.10_yrs_after_entry.median,latest.earnings.6_yrs_after_entry.median,latest.aid.median_debt.completers.overall,latest.repayment.3_yr_default_rate,latest.cost.avg_net_price.overall,latest.cost.avg_net_price.public,latest.cost.avg_net_price.private,latest.completion.completion_rate_4yr_150nt,latest.completion.rate_suppressed.overall,latest.student.size,latest.admissions.admission_rate.overall,latest.completion.retention_rate.four_year.full_time,latest.aid.federal_loan_rate,latest.aid.pell_grant_rate,latest.student.demographics.avg_family_income"
+    },
+    "fetched_at": "2026-09-05T08:59:43.590185+00:00",
+    "note": "v0.13 identity fix: uconn -> correct main-campus institution 129020"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "latest.earnings.10_yrs_after_entry.median": 73997,
+        "latest.earnings.6_yrs_after_entry.median": 63322,
+        "latest.aid.median_debt.completers.overall": 21500,
+        "latest.repayment.3_yr_default_rate": 0,
+        "latest.cost.avg_net_price.overall": 25097,
+        "latest.cost.avg_net_price.public": 25097,
+        "latest.cost.avg_net_price.private": null,
+        "latest.completion.completion_rate_4yr_150nt": 0.8329,
+        "latest.completion.rate_suppressed.overall": 0.8354,
+        "latest.student.size": 19835,
+        "latest.admissions.admission_rate.overall": 0.5239,
+        "latest.aid.federal_loan_rate": 0.4156,
+        "latest.aid.pell_grant_rate": 0.2538,
+        "latest.student.demographics.avg_family_income": 88097,
+        "school.name": "University of Connecticut",
+        "school.city": "Storrs",
+        "school.state": "CT",
+        "school.ownership": 1,
+        "id": 129020
+      }
+    ]
+  }
+}

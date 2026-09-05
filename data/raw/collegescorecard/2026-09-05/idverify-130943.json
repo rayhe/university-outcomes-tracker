@@ -1,0 +1,28 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED",
+    "params": {
+      "query": "id=130943",
+      "fields": "id,school.name,school.city,school.state,school.ownership"
+    },
+    "fetched_at": "2026-09-05T08:59:20.142145+00:00",
+    "note": "v0.13 identity verification: confirm candidate ID maps to expected main campus"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "school.name": "University of Delaware",
+        "school.city": "Newark",
+        "school.state": "DE",
+        "school.ownership": 1,
+        "id": 130943
+      }
+    ]
+  }
+}

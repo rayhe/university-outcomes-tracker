@@ -1,0 +1,28 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED",
+    "params": {
+      "query": "school.name=Oregon+State+University&school.city=Corvallis",
+      "fields": "id,school.name,school.city,school.state,school.ownership"
+    },
+    "fetched_at": "2026-09-05T08:58:49.458218+00:00",
+    "note": "v0.13 name-search to resolve correct IDs for UNM and Oregon State"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "school.name": "Oregon State University",
+        "school.city": "Corvallis",
+        "school.state": "OR",
+        "school.ownership": 1,
+        "id": 209542
+      }
+    ]
+  }
+}

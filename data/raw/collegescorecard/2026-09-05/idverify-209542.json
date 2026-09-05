@@ -1,0 +1,28 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED",
+    "params": {
+      "query": "id=209542",
+      "fields": "id,school.name,school.city,school.state,school.ownership"
+    },
+    "fetched_at": "2026-09-05T08:59:06.860776+00:00",
+    "note": "v0.13 identity verification: confirm candidate ID maps to expected main campus"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "school.name": "Oregon State University",
+        "school.city": "Corvallis",
+        "school.state": "OR",
+        "school.ownership": 1,
+        "id": 209542
+      }
+    ]
+  }
+}

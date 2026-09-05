@@ -1,0 +1,42 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED",
+    "params": {
+      "query": "id=157085",
+      "fields": "id,school.name,school.city,school.state,school.ownership,latest.earnings.10_yrs_after_entry.median,latest.earnings.6_yrs_after_entry.median,latest.aid.median_debt.completers.overall,latest.repayment.3_yr_default_rate,latest.cost.avg_net_price.overall,latest.cost.avg_net_price.public,latest.cost.avg_net_price.private,latest.completion.completion_rate_4yr_150nt,latest.completion.rate_suppressed.overall,latest.student.size,latest.admissions.admission_rate.overall,latest.completion.retention_rate.four_year.full_time,latest.aid.federal_loan_rate,latest.aid.pell_grant_rate,latest.student.demographics.avg_family_income"
+    },
+    "fetched_at": "2026-09-05T08:59:54.287423+00:00",
+    "note": "v0.13 identity fix: kentucky -> correct main-campus institution 157085"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "latest.earnings.10_yrs_after_entry.median": 59025,
+        "latest.earnings.6_yrs_after_entry.median": 47266,
+        "latest.aid.median_debt.completers.overall": 22500,
+        "latest.repayment.3_yr_default_rate": 0,
+        "latest.cost.avg_net_price.overall": 18851,
+        "latest.cost.avg_net_price.public": 18851,
+        "latest.cost.avg_net_price.private": null,
+        "latest.completion.completion_rate_4yr_150nt": 0.7142,
+        "latest.completion.rate_suppressed.overall": 0.7069,
+        "latest.student.size": 24763,
+        "latest.admissions.admission_rate.overall": 0.9294,
+        "latest.aid.federal_loan_rate": 0.3366,
+        "latest.aid.pell_grant_rate": 0.2252,
+        "latest.student.demographics.avg_family_income": 81686,
+        "school.name": "University of Kentucky",
+        "school.city": "Lexington",
+        "school.state": "KY",
+        "school.ownership": 1,
+        "id": 157085
+      }
+    ]
+  }
+}

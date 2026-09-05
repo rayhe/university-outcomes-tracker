@@ -1,0 +1,42 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED",
+    "params": {
+      "query": "id=104151",
+      "fields": "id,school.name,school.city,school.state,school.ownership,latest.earnings.10_yrs_after_entry.median,latest.earnings.6_yrs_after_entry.median,latest.aid.median_debt.completers.overall,latest.repayment.3_yr_default_rate,latest.cost.avg_net_price.overall,latest.cost.avg_net_price.public,latest.cost.avg_net_price.private,latest.completion.completion_rate_4yr_150nt,latest.completion.rate_suppressed.overall,latest.student.size,latest.admissions.admission_rate.overall,latest.completion.retention_rate.four_year.full_time,latest.aid.federal_loan_rate,latest.aid.pell_grant_rate,latest.student.demographics.avg_family_income"
+    },
+    "fetched_at": "2026-09-05T09:00:06.889626+00:00",
+    "note": "v0.13 identity fix: arizonastate2 -> correct main-campus institution 104151"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "latest.earnings.10_yrs_after_entry.median": 62668,
+        "latest.earnings.6_yrs_after_entry.median": 52843,
+        "latest.aid.median_debt.completers.overall": 19500,
+        "latest.repayment.3_yr_default_rate": 0,
+        "latest.cost.avg_net_price.overall": 14967,
+        "latest.cost.avg_net_price.public": 14967,
+        "latest.cost.avg_net_price.private": null,
+        "latest.completion.completion_rate_4yr_150nt": 0.6804,
+        "latest.completion.rate_suppressed.overall": 0.6795,
+        "latest.student.size": 64674,
+        "latest.admissions.admission_rate.overall": 0.8989,
+        "latest.aid.federal_loan_rate": 0.2675,
+        "latest.aid.pell_grant_rate": 0.2899,
+        "latest.student.demographics.avg_family_income": 56365,
+        "school.name": "Arizona State University Campus Immersion",
+        "school.city": "Tempe",
+        "school.state": "AZ",
+        "school.ownership": 1,
+        "id": 104151
+      }
+    ]
+  }
+}

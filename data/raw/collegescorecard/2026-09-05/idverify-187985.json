@@ -1,0 +1,28 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED",
+    "params": {
+      "query": "id=187985",
+      "fields": "id,school.name,school.city,school.state,school.ownership"
+    },
+    "fetched_at": "2026-09-05T08:59:00.962180+00:00",
+    "note": "v0.13 identity verification: confirm candidate ID maps to expected main campus"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "school.name": "University of New Mexico-Main Campus",
+        "school.city": "Albuquerque",
+        "school.state": "NM",
+        "school.ownership": 1,
+        "id": 187985
+      }
+    ]
+  }
+}

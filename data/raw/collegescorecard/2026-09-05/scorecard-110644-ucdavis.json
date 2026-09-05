@@ -1,0 +1,42 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED",
+    "params": {
+      "query": "id=110644",
+      "fields": "id,school.name,school.city,school.state,school.ownership,latest.earnings.10_yrs_after_entry.median,latest.earnings.6_yrs_after_entry.median,latest.aid.median_debt.completers.overall,latest.repayment.3_yr_default_rate,latest.cost.avg_net_price.overall,latest.cost.avg_net_price.public,latest.cost.avg_net_price.private,latest.completion.completion_rate_4yr_150nt,latest.completion.rate_suppressed.overall,latest.student.size,latest.admissions.admission_rate.overall,latest.completion.retention_rate.four_year.full_time,latest.aid.federal_loan_rate,latest.aid.pell_grant_rate,latest.student.demographics.avg_family_income"
+    },
+    "fetched_at": "2026-09-05T09:00:35.029329+00:00",
+    "note": "v0.13b dedup replacement: connecticut2 -> ucdavis"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "latest.earnings.10_yrs_after_entry.median": 80838,
+        "latest.earnings.6_yrs_after_entry.median": 58461,
+        "latest.aid.median_debt.completers.overall": 13000,
+        "latest.repayment.3_yr_default_rate": 0,
+        "latest.cost.avg_net_price.overall": 14741,
+        "latest.cost.avg_net_price.public": 14741,
+        "latest.cost.avg_net_price.private": null,
+        "latest.completion.completion_rate_4yr_150nt": 0.8567,
+        "latest.completion.rate_suppressed.overall": 0.8538,
+        "latest.student.size": 32253,
+        "latest.admissions.admission_rate.overall": 0.4183,
+        "latest.aid.federal_loan_rate": 0.197,
+        "latest.aid.pell_grant_rate": 0.3135,
+        "latest.student.demographics.avg_family_income": 51677,
+        "school.name": "University of California-Davis",
+        "school.city": "Davis",
+        "school.state": "CA",
+        "school.ownership": 1,
+        "id": 110644
+      }
+    ]
+  }
+}

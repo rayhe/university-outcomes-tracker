@@ -38,6 +38,7 @@ Filing presence is a **trust signal**, not a score weight — similar to how DEF
 - v0.3 (hour +2): IRS 990 XML enrichment via ProPublica, NACUBO endowment table scrape, HERD Excel parser
 - v0.4: Add 140 more universities (200 total), peer network (conference / Carnegie / geography), trends — **DONE v0.7 200/200 real**
 - v0.12 (2026-09-04): **DONE** — endowment_b now NACUBO 2025 NCSE FY2025 real for 114/200 (explicit hand-adjudicated allowlist; system/foundation figures flagged via `_endowment_scope`; raw fetch artifacts in `data/raw/wikipedia-endowment/`)
+- v0.13 (2026-09-05): **DONE** — identity-mismatch audit: 13 records re-matched to correct main-campus Scorecard institution (uconn→Storrs 129020, unm→Albuquerque 187985, uva→Charlottesville 234076, rochester→195030, oregonstate→Corvallis 209542, southcarolina→Columbia 218663, kentucky→Lexington 157085, auburn→100858, washstate→Pullman 236939, alabama→Tuscaloosa 100751, udel→Newark 130943, georgia→Athens 139959, arizonastate2→ASU Tempe 104151); 3 suffix dupes replaced with distinct schools (umassamherst 166629, utahstate 230728, fresnostate 110556); all 200 rescored (v0.10 formula); 200/200 distinct IDs preserved; candidate IDs verified via Scorecard API before applying; raw artifacts in `data/raw/collegescorecard/2026-09-05/`
 - v0.5: Alumni network via LinkedIn alumni search (Fortune 500 %), startup founder enrichment (Crunchbase)
 - v1.0: 500 universities, 6 filing sources 100% coverage, 5-critic panel 9.0+
 

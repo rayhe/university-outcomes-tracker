@@ -1,0 +1,42 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED",
+    "params": {
+      "query": "id=218663",
+      "fields": "id,school.name,school.city,school.state,school.ownership,latest.earnings.10_yrs_after_entry.median,latest.earnings.6_yrs_after_entry.median,latest.aid.median_debt.completers.overall,latest.repayment.3_yr_default_rate,latest.cost.avg_net_price.overall,latest.cost.avg_net_price.public,latest.cost.avg_net_price.private,latest.completion.completion_rate_4yr_150nt,latest.completion.rate_suppressed.overall,latest.student.size,latest.admissions.admission_rate.overall,latest.completion.retention_rate.four_year.full_time,latest.aid.federal_loan_rate,latest.aid.pell_grant_rate,latest.student.demographics.avg_family_income"
+    },
+    "fetched_at": "2026-09-05T08:59:52.449827+00:00",
+    "note": "v0.13 identity fix: southcarolina -> correct main-campus institution 218663"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "latest.earnings.10_yrs_after_entry.median": 62177,
+        "latest.earnings.6_yrs_after_entry.median": 50621,
+        "latest.aid.median_debt.completers.overall": 21500,
+        "latest.repayment.3_yr_default_rate": 0,
+        "latest.cost.avg_net_price.overall": 22811,
+        "latest.cost.avg_net_price.public": 22811,
+        "latest.cost.avg_net_price.private": null,
+        "latest.completion.completion_rate_4yr_150nt": 0.7882,
+        "latest.completion.rate_suppressed.overall": 0.7828,
+        "latest.student.size": 29820,
+        "latest.admissions.admission_rate.overall": 0.6015,
+        "latest.aid.federal_loan_rate": 0.4112,
+        "latest.aid.pell_grant_rate": 0.1911,
+        "latest.student.demographics.avg_family_income": 94373,
+        "school.name": "University of South Carolina-Columbia",
+        "school.city": "Columbia",
+        "school.state": "SC",
+        "school.ownership": 1,
+        "id": 218663
+      }
+    ]
+  }
+}

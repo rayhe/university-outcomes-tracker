@@ -1,0 +1,42 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED",
+    "params": {
+      "query": "id=195030",
+      "fields": "id,school.name,school.city,school.state,school.ownership,latest.earnings.10_yrs_after_entry.median,latest.earnings.6_yrs_after_entry.median,latest.aid.median_debt.completers.overall,latest.repayment.3_yr_default_rate,latest.cost.avg_net_price.overall,latest.cost.avg_net_price.public,latest.cost.avg_net_price.private,latest.completion.completion_rate_4yr_150nt,latest.completion.rate_suppressed.overall,latest.student.size,latest.admissions.admission_rate.overall,latest.completion.retention_rate.four_year.full_time,latest.aid.federal_loan_rate,latest.aid.pell_grant_rate,latest.student.demographics.avg_family_income"
+    },
+    "fetched_at": "2026-09-05T08:59:48.766216+00:00",
+    "note": "v0.13 identity fix: rochester -> correct main-campus institution 195030"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "latest.earnings.10_yrs_after_entry.median": 79042,
+        "latest.earnings.6_yrs_after_entry.median": 68333,
+        "latest.aid.median_debt.completers.overall": 21000,
+        "latest.repayment.3_yr_default_rate": 0,
+        "latest.cost.avg_net_price.overall": 29278,
+        "latest.cost.avg_net_price.public": null,
+        "latest.cost.avg_net_price.private": 29278,
+        "latest.completion.completion_rate_4yr_150nt": 0.8543,
+        "latest.completion.rate_suppressed.overall": 0.8495,
+        "latest.student.size": 6331,
+        "latest.admissions.admission_rate.overall": 0.4008,
+        "latest.aid.federal_loan_rate": 0.3974,
+        "latest.aid.pell_grant_rate": 0.1725,
+        "latest.student.demographics.avg_family_income": 83523,
+        "school.name": "University of Rochester",
+        "school.city": "Rochester",
+        "school.state": "NY",
+        "school.ownership": 2,
+        "id": 195030
+      }
+    ]
+  }
+}
