@@ -1,8 +1,8 @@
 {
  "metadata": {
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-06",
   "source": "College Scorecard API (DEMO_KEY) + v0.9 dedup: 13 duplicate entries replaced with 13 distinct schools (TCU, Syracuse, Arkansas, Ole Miss, Mississippi State, Creighton, Gonzaga, Marquette, Xavier, Butler, Hamilton, Macalester, Providence), 200/200 distinct IDs, 200/200 real",
-  "version": "0.13",
+  "version": "0.14",
   "total_universities": 200,
   "criteria_version": "1.0",
   "enriched_count": 200,
@@ -44,7 +44,12 @@
     "providence"
    ]
   },
-  "identity_fix_v13": 13
+  "identity_fix_v13": 13,
+  "endowment_gapfill_v14": {
+   "nacubo_new": 10,
+   "manual_verified": 8,
+   "synthetic_remaining": 67
+  }
  },
  "criteria": {
   "alumni_advantage_score": {
@@ -882,8 +887,8 @@
    "state": "CA",
    "carnegie": "R2",
    "enrollment_fte": 26614,
-   "endowment_b": 5.1,
-   "endowment_per_student": 191281,
+   "endowment_b": 0.72,
+   "endowment_per_student": 27053,
    "grad_rate_6yr": 0.87,
    "retention": 0.9,
    "sf_ratio": 7,
@@ -917,7 +922,8 @@
    "scorecard_name": "Loyola Marymount University",
    "scorecard_city": "Los Angeles",
    "conference": "WCC",
-   "peer_group": "WCC"
+   "peer_group": "WCC",
+   "_endowment_source": "Wikipedia infobox (2024): $722.7M, Loyola Marymount"
   },
   {
    "id": "tulane",
@@ -1422,8 +1428,8 @@
    "state": "CA",
    "carnegie": "R1",
    "enrollment_fte": 5671,
-   "endowment_b": 12.0,
-   "endowment_per_student": 2017133,
+   "endowment_b": 0.77,
+   "endowment_per_student": 135779,
    "grad_rate_6yr": 0.8266,
    "retention": 0.86,
    "sf_ratio": 11,
@@ -1458,7 +1464,8 @@
    "scorecard_city": "San Diego",
    "conference": "WCC",
    "peer_group": "WCC",
-   "grad_rate_6yr_real": 0.8266
+   "grad_rate_6yr_real": 0.8266,
+   "_endowment_source": "Wikipedia infobox (2025): $767M, University of San Diego"
   },
   {
    "id": "northeastern",
@@ -1467,8 +1474,8 @@
    "state": "MA",
    "carnegie": "R1",
    "enrollment_fte": 17326,
-   "endowment_b": 7.5,
-   "endowment_per_student": 385852,
+   "endowment_b": 2.1,
+   "endowment_per_student": 121205,
    "grad_rate_6yr": 0.9046,
    "retention": 0.91,
    "sf_ratio": 14,
@@ -1503,7 +1510,8 @@
    "scorecard_city": "Boston",
    "conference": "CAA",
    "peer_group": "CAA",
-   "grad_rate_6yr_real": 0.9046
+   "grad_rate_6yr_real": 0.9046,
+   "_endowment_source": "Wikipedia infobox (2025): $2.1B; audited FY2025 rollforward consistent"
   },
   {
    "id": "uwseattle",
@@ -1547,7 +1555,8 @@
    "scorecard_name": "University of Washington-Seattle Campus",
    "scorecard_city": "Seattle",
    "conference": "Big Ten",
-   "peer_group": "Big Ten"
+   "peer_group": "Big Ten",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "ucla",
@@ -1602,8 +1611,8 @@
    "state": "CA",
    "carnegie": "R2",
    "enrollment_fte": 37669,
-   "endowment_b": 7.6,
-   "endowment_per_student": 222739,
+   "endowment_b": 0.86,
+   "endowment_per_student": 22830,
    "grad_rate_6yr": 0.77,
    "retention": 0.92,
    "sf_ratio": 15,
@@ -1637,7 +1646,8 @@
    "scorecard_name": "Chapman University",
    "scorecard_city": "Orange",
    "conference": "SCIAC",
-   "peer_group": "SCIAC"
+   "peer_group": "SCIAC",
+   "_endowment_source": "Chapman president 2025 State of the University address: $860M"
   },
   {
    "id": "utaustin",
@@ -1828,8 +1838,8 @@
    "state": "CA",
    "carnegie": "R1",
    "enrollment_fte": 33173,
-   "endowment_b": 4.1,
-   "endowment_per_student": 128867,
+   "endowment_b": 2.2,
+   "endowment_per_student": 66319,
    "grad_rate_6yr": 0.79,
    "retention": 0.91,
    "sf_ratio": 12,
@@ -1863,7 +1873,8 @@
    "scorecard_name": "University of California-Davis",
    "scorecard_city": "Davis",
    "conference": "Big West",
-   "peer_group": "Big West"
+   "peer_group": "Big West",
+   "_endowment_source": "UC Davis Venture Catalyst newsletter: endowment $2.2B"
   },
   {
    "id": "texasa&m",
@@ -2088,7 +2099,8 @@
    "scorecard_name": "University of California-Santa Barbara",
    "scorecard_city": "Santa Barbara",
    "conference": "Big West",
-   "peer_group": "Big West"
+   "peer_group": "Big West",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "usc",
@@ -2367,8 +2379,8 @@
    "state": "GA",
    "carnegie": "R1",
    "enrollment_fte": 23104,
-   "endowment_b": 9.3,
-   "endowment_per_student": 459592,
+   "endowment_b": 0.28,
+   "endowment_per_student": 12119,
    "grad_rate_6yr": 0.8,
    "retention": 0.95,
    "sf_ratio": 14,
@@ -2402,7 +2414,8 @@
    "scorecard_name": "Morehouse College",
    "scorecard_city": "Atlanta",
    "conference": "SIAC",
-   "peer_group": "SIAC"
+   "peer_group": "SIAC",
+   "_endowment_source": "Associated Press (Jul 2024): $280M"
   },
   {
    "id": "rutgers",
@@ -2581,7 +2594,8 @@
    "scorecard_name": "Clark Atlanta University",
    "scorecard_city": "Atlanta",
    "conference": "SIAC",
-   "peer_group": "SIAC"
+   "peer_group": "SIAC",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "georgetown",
@@ -2680,8 +2694,8 @@
    "state": "GA",
    "carnegie": "R1",
    "enrollment_fte": 26088,
-   "endowment_b": 10.5,
-   "endowment_per_student": 479885,
+   "endowment_b": 0.61,
+   "endowment_per_student": 23382,
    "grad_rate_6yr": 0.77,
    "retention": 0.9,
    "sf_ratio": 19,
@@ -2715,7 +2729,8 @@
    "scorecard_name": "Spelman College",
    "scorecard_city": "Atlanta",
    "conference": "SIAC",
-   "peer_group": "SIAC"
+   "peer_group": "SIAC",
+   "_endowment_source": "Spelman College audited FY2025 financial statements: $609M endowment funds"
   },
   {
    "id": "ucsd",
@@ -2953,8 +2968,8 @@
    "state": "UT",
    "carnegie": "R1",
    "enrollment_fte": 32000,
-   "endowment_b": 2.1,
-   "endowment_per_student": 65625,
+   "endowment_b": 3.71,
+   "endowment_per_student": 115938,
    "grad_rate_6yr": 0.81,
    "retention": 0.89,
    "sf_ratio": 20,
@@ -2989,7 +3004,8 @@
    "pell_rate": 0.321,
    "scorecard_id": 230038,
    "scorecard_name": "Brigham Young University",
-   "scorecard_city": "Provo"
+   "scorecard_city": "Provo",
+   "_endowment_source": "Wikipedia infobox (FY2025): $3.71B"
   },
   {
    "id": "clemson",
@@ -3080,7 +3096,8 @@
    "pell_rate": 0.1357,
    "scorecard_id": 126775,
    "scorecard_name": "Colorado School of Mines",
-   "scorecard_city": "Golden"
+   "scorecard_city": "Golden",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "drexel",
@@ -3309,7 +3326,8 @@
    "pell_rate": 0.5075,
    "scorecard_id": 139940,
    "scorecard_name": "Georgia State University",
-   "scorecard_city": "Atlanta"
+   "scorecard_city": "Atlanta",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "indiana",
@@ -3447,7 +3465,8 @@
    "pell_rate": 0.1712,
    "scorecard_id": 232423,
    "scorecard_name": "James Madison University",
-   "scorecard_city": "Harrisonburg"
+   "scorecard_city": "Harrisonburg",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "kansasstate",
@@ -3492,7 +3511,8 @@
    "scorecard_id": 155399,
    "scorecard_name": "Kansas State University",
    "scorecard_city": "Manhattan",
-   "admission_rate": 0.8169
+   "admission_rate": 0.8169,
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "lsu",
@@ -3733,8 +3753,8 @@
    "state": "OR",
    "carnegie": "R1",
    "enrollment_fte": 30743,
-   "endowment_b": 0.8,
-   "endowment_per_student": 23529,
+   "endowment_b": 1.01,
+   "endowment_per_student": 32853,
    "grad_rate_6yr": 0.7037,
    "retention": 0.85,
    "sf_ratio": 18,
@@ -3769,7 +3789,8 @@
    "pell_rate": 0.2277,
    "scorecard_id": 209542,
    "scorecard_name": "Oregon State University",
-   "scorecard_city": "Corvallis"
+   "scorecard_city": "Corvallis",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "temple",
@@ -3952,7 +3973,8 @@
    "pell_rate": 0.4695,
    "scorecard_id": 110671,
    "scorecard_name": "University of California-Riverside",
-   "scorecard_city": "Riverside"
+   "scorecard_city": "Riverside",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "ucsc",
@@ -3997,7 +4019,8 @@
    "pell_rate": 0.3157,
    "scorecard_id": 110714,
    "scorecard_name": "University of California-Santa Cruz",
-   "scorecard_city": "Santa Cruz"
+   "scorecard_city": "Santa Cruz",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "alabama",
@@ -4006,8 +4029,8 @@
    "state": "AL",
    "carnegie": "R1",
    "enrollment_fte": 33227,
-   "endowment_b": 1.5,
-   "endowment_per_student": 39473,
+   "endowment_b": 2.59,
+   "endowment_per_student": 77949,
    "grad_rate_6yr": 0.7354,
    "retention": 0.87,
    "sf_ratio": 23,
@@ -4042,7 +4065,9 @@
    "pell_rate": 0.184,
    "scorecard_id": 100751,
    "scorecard_name": "The University of Alabama",
-   "scorecard_city": "Tuscaloosa"
+   "scorecard_city": "Tuscaloosa",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_endowment_scope": "UA System (Tuscaloosa/Birmingham/Huntsville)"
   },
   {
    "id": "ucf",
@@ -4087,7 +4112,8 @@
    "pell_rate": 0.3234,
    "scorecard_id": 132903,
    "scorecard_name": "University of Central Florida",
-   "scorecard_city": "Orlando"
+   "scorecard_city": "Orlando",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "colorado",
@@ -4179,7 +4205,8 @@
    "pell_rate": 0.2538,
    "scorecard_id": 129020,
    "scorecard_name": "University of Connecticut",
-   "scorecard_city": "Storrs"
+   "scorecard_city": "Storrs",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "udel",
@@ -4188,8 +4215,8 @@
    "state": "DE",
    "carnegie": "R1",
    "enrollment_fte": 19071,
-   "endowment_b": 1.8,
-   "endowment_per_student": 75000,
+   "endowment_b": 2.06,
+   "endowment_per_student": 108017,
    "grad_rate_6yr": 0.7967,
    "retention": 0.91,
    "sf_ratio": 12,
@@ -4224,7 +4251,8 @@
    "pell_rate": 0.1612,
    "scorecard_id": 130943,
    "scorecard_name": "University of Delaware",
-   "scorecard_city": "Newark"
+   "scorecard_city": "Newark",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "houston",
@@ -4269,7 +4297,8 @@
    "scorecard_id": 225511,
    "scorecard_name": "University of Houston",
    "scorecard_city": "Houston",
-   "admission_rate": 0.7392
+   "admission_rate": 0.7392,
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "iowa",
@@ -4370,8 +4399,8 @@
    "state": "KY",
    "carnegie": "R1",
    "enrollment_fte": 24763,
-   "endowment_b": 1.8,
-   "endowment_per_student": 58064,
+   "endowment_b": 2.17,
+   "endowment_per_student": 87631,
    "grad_rate_6yr": 0.7069,
    "retention": 0.85,
    "sf_ratio": 17,
@@ -4406,7 +4435,8 @@
    "pell_rate": 0.2252,
    "scorecard_id": 157085,
    "scorecard_name": "University of Kentucky",
-   "scorecard_city": "Lexington"
+   "scorecard_city": "Lexington",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "louisville",
@@ -4636,7 +4666,8 @@
    "scorecard_id": 187985,
    "scorecard_name": "University of New Mexico-Main Campus",
    "scorecard_city": "Albuquerque",
-   "admission_rate": 0.9518
+   "admission_rate": 0.9518,
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "uncc",
@@ -4681,7 +4712,8 @@
    "pell_rate": 0.3394,
    "scorecard_id": 199139,
    "scorecard_name": "University of North Carolina at Charlotte",
-   "scorecard_city": "Charlotte"
+   "scorecard_city": "Charlotte",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "oklahoma",
@@ -4726,7 +4758,8 @@
    "pell_rate": 0.2497,
    "scorecard_id": 207500,
    "scorecard_name": "University of Oklahoma-Norman Campus",
-   "scorecard_city": "Norman"
+   "scorecard_city": "Norman",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "oregon",
@@ -4825,8 +4858,8 @@
    "state": "NY",
    "carnegie": "R1",
    "enrollment_fte": 6331,
-   "endowment_b": 2.6,
-   "endowment_per_student": 216666,
+   "endowment_b": 3.24,
+   "endowment_per_student": 511767,
    "grad_rate_6yr": 0.8495,
    "retention": 0.94,
    "sf_ratio": 10,
@@ -4861,7 +4894,8 @@
    "pell_rate": 0.1725,
    "scorecard_id": 195030,
    "scorecard_name": "University of Rochester",
-   "scorecard_city": "Rochester"
+   "scorecard_city": "Rochester",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "southcarolina",
@@ -4870,8 +4904,8 @@
    "state": "SC",
    "carnegie": "R1",
    "enrollment_fte": 29820,
-   "endowment_b": 0.9,
-   "endowment_per_student": 25714,
+   "endowment_b": 1.15,
+   "endowment_per_student": 38565,
    "grad_rate_6yr": 0.7828,
    "retention": 0.89,
    "sf_ratio": 17,
@@ -4906,7 +4940,8 @@
    "pell_rate": 0.1911,
    "scorecard_id": 218663,
    "scorecard_name": "University of South Carolina-Columbia",
-   "scorecard_city": "Columbia"
+   "scorecard_city": "Columbia",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "usf",
@@ -4951,7 +4986,8 @@
    "pell_rate": 0.2936,
    "scorecard_id": 137351,
    "scorecard_name": "University of South Florida",
-   "scorecard_city": "Tampa"
+   "scorecard_city": "Tampa",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "tennessee",
@@ -5053,8 +5089,8 @@
    "state": "VA",
    "carnegie": "R1",
    "enrollment_fte": 17597,
-   "endowment_b": 10.0,
-   "endowment_per_student": 400000,
+   "endowment_b": 11.23,
+   "endowment_per_student": 638177,
    "grad_rate_6yr": 0.9545,
    "retention": 0.97,
    "sf_ratio": 15,
@@ -5089,7 +5125,8 @@
    "pell_rate": 0.1555,
    "scorecard_id": 234076,
    "scorecard_name": "University of Virginia-Main Campus",
-   "scorecard_city": "Charlottesville"
+   "scorecard_city": "Charlottesville",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "virginiatech",
@@ -5134,7 +5171,8 @@
    "pell_rate": 0.1529,
    "scorecard_id": 233921,
    "scorecard_name": "Virginia Polytechnic Institute and State University",
-   "scorecard_city": "Blacksburg"
+   "scorecard_city": "Blacksburg",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "wakeforest",
@@ -5225,7 +5263,8 @@
    "pell_rate": 0.2738,
    "scorecard_id": 236939,
    "scorecard_name": "Washington State University",
-   "scorecard_city": "Pullman"
+   "scorecard_city": "Pullman",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "waynestate",
@@ -5270,7 +5309,8 @@
    "pell_rate": 0.4569,
    "scorecard_id": 172644,
    "scorecard_name": "Wayne State University",
-   "scorecard_city": "Detroit"
+   "scorecard_city": "Detroit",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "williamandmary",
@@ -5361,7 +5401,8 @@
    "pell_rate": 0.1188,
    "scorecard_id": 168421,
    "scorecard_name": "Worcester Polytechnic Institute",
-   "scorecard_city": "Worcester"
+   "scorecard_city": "Worcester",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "yeshiva",
@@ -5406,7 +5447,8 @@
    "pell_rate": 0.1344,
    "scorecard_id": 197708,
    "scorecard_name": "Yeshiva University",
-   "scorecard_city": "New York"
+   "scorecard_city": "New York",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "rpi",
@@ -5451,7 +5493,8 @@
    "pell_rate": 0.1992,
    "scorecard_id": 194824,
    "scorecard_name": "Rensselaer Polytechnic Institute",
-   "scorecard_city": "Troy"
+   "scorecard_city": "Troy",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "stevens",
@@ -5496,7 +5539,8 @@
    "pell_rate": 0.2043,
    "scorecard_id": 186867,
    "scorecard_name": "Stevens Institute of Technology",
-   "scorecard_city": "Hoboken"
+   "scorecard_city": "Hoboken",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "auburn",
@@ -5505,8 +5549,8 @@
    "state": "AL",
    "carnegie": "R1",
    "enrollment_fte": 26816,
-   "endowment_b": 1.0,
-   "endowment_per_student": 32258,
+   "endowment_b": 1.31,
+   "endowment_per_student": 48851,
    "grad_rate_6yr": 0.8058,
    "retention": 0.9,
    "sf_ratio": 19,
@@ -5541,7 +5585,8 @@
    "pell_rate": 0.1253,
    "scorecard_id": 100858,
    "scorecard_name": "Auburn University",
-   "scorecard_city": "Auburn"
+   "scorecard_city": "Auburn",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "arizona",
@@ -5596,8 +5641,8 @@
    "state": "MA",
    "carnegie": "R1",
    "enrollment_fte": 23671,
-   "endowment_b": 1.0,
-   "endowment_per_student": 25000,
+   "endowment_b": 1.8,
+   "endowment_per_student": 76042,
    "grad_rate_6yr": 0.8321,
    "retention": 0.86,
    "sf_ratio": 23,
@@ -5632,7 +5677,8 @@
    "net_price_avg_real": 22383,
    "admission_rate": 0.5973,
    "pell_rate": 0.1994,
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_endowment_scope": "UMass Foundation (system)"
   },
   {
    "id": "bucknell",
@@ -5723,7 +5769,8 @@
    "pell_rate": 0.1924,
    "scorecard_id": 110422,
    "scorecard_name": "California Polytechnic State University-San Luis Obispo",
-   "scorecard_city": "San Luis Obispo"
+   "scorecard_city": "San Luis Obispo",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "carleton",
@@ -5906,7 +5953,8 @@
    "pell_rate": 0.2109,
    "scorecard_id": 126818,
    "scorecard_name": "Colorado State University-Fort Collins",
-   "scorecard_city": "Fort Collins"
+   "scorecard_city": "Fort Collins",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "utahstate",
@@ -6181,7 +6229,8 @@
    "pell_rate": 0.4137,
    "scorecard_id": 133951,
    "scorecard_name": "Florida International University",
-   "scorecard_city": "Miami"
+   "scorecard_city": "Miami",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "georgia",
@@ -6190,8 +6239,8 @@
    "state": "GA",
    "carnegie": "R1",
    "enrollment_fte": 32137,
-   "endowment_b": 1.7,
-   "endowment_per_student": 42500,
+   "endowment_b": 2.18,
+   "endowment_per_student": 67835,
    "grad_rate_6yr": 0.8886,
    "retention": 0.94,
    "sf_ratio": 17,
@@ -6226,7 +6275,8 @@
    "pell_rate": 0.1675,
    "scorecard_id": 139959,
    "scorecard_name": "University of Georgia",
-   "scorecard_city": "Athens"
+   "scorecard_city": "Athens",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
   },
   {
    "id": "harveymudd",
@@ -6271,7 +6321,8 @@
    "pell_rate": 0.1517,
    "scorecard_id": 115409,
    "scorecard_name": "Harvey Mudd College",
-   "scorecard_city": "Claremont"
+   "scorecard_city": "Claremont",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "illinoischicago",
@@ -6316,7 +6367,8 @@
    "pell_rate": 0.4893,
    "scorecard_id": 145600,
    "scorecard_name": "University of Illinois Chicago",
-   "scorecard_city": "Chicago"
+   "scorecard_city": "Chicago",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "williams",
@@ -6866,7 +6918,8 @@
    "grad_rate_6yr_real": 0.6655,
    "scorecard_id": 202480,
    "scorecard_name": "University of Dayton",
-   "scorecard_city": "Dayton"
+   "scorecard_city": "Dayton",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "loyolachicago",
@@ -7001,7 +7054,8 @@
    "net_price_avg_real": 41431,
    "enrollment_fte_real": 5287,
    "admission_rate": 0.6171,
-   "pell_rate": 0.2796
+   "pell_rate": 0.2796,
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "sdsu",
@@ -7046,7 +7100,8 @@
    "grad_rate_6yr_real": 0.7643,
    "scorecard_id": 122409,
    "scorecard_name": "San Diego State University",
-   "scorecard_city": "San Diego"
+   "scorecard_city": "San Diego",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "sjsu",
@@ -7091,7 +7146,8 @@
    "grad_rate_6yr_real": 0.6922,
    "scorecard_id": 122755,
    "scorecard_name": "San Jose State University",
-   "scorecard_city": "San Jose"
+   "scorecard_city": "San Jose",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "unlv",
@@ -7136,7 +7192,8 @@
    "grad_rate_6yr_real": 0.5051,
    "scorecard_id": 182281,
    "scorecard_name": "University of Nevada-Las Vegas",
-   "scorecard_city": "Las Vegas"
+   "scorecard_city": "Las Vegas",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "unr",
@@ -7181,7 +7238,8 @@
    "grad_rate_6yr_real": 0.6124,
    "scorecard_id": 182290,
    "scorecard_name": "University of Nevada-Reno",
-   "scorecard_city": "Reno"
+   "scorecard_city": "Reno",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "wyoming",
@@ -7226,7 +7284,8 @@
    "grad_rate_6yr_real": 0.5884,
    "scorecard_id": 240727,
    "scorecard_name": "University of Wyoming",
-   "scorecard_city": "Laramie"
+   "scorecard_city": "Laramie",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "uvm",
@@ -7271,7 +7330,8 @@
    "grad_rate_6yr_real": 0.4722,
    "scorecard_id": 231174,
    "scorecard_name": "University of Vermont",
-   "scorecard_city": "Burlington"
+   "scorecard_city": "Burlington",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "unh",
@@ -7363,7 +7423,8 @@
    "scorecard_id": 161253,
    "scorecard_name": "University of Maine",
    "scorecard_city": "Orono",
-   "admission_rate": 0.9664
+   "admission_rate": 0.9664,
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "uri",
@@ -7407,7 +7468,8 @@
    "avg_family_income": 93356,
    "pell_rate": 0.2176,
    "scorecard_name": "University of Rhode Island",
-   "scorecard_city": "Kingston"
+   "scorecard_city": "Kingston",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "hawaii",
@@ -7452,7 +7514,8 @@
    "grad_rate_6yr_real": 0.6429,
    "scorecard_id": 141574,
    "scorecard_name": "University of Hawaii at Manoa",
-   "scorecard_city": "Honolulu"
+   "scorecard_city": "Honolulu",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "montanastate",
@@ -7497,7 +7560,8 @@
    "scorecard_id": 180461,
    "scorecard_name": "Montana State University",
    "scorecard_city": "Bozeman",
-   "admission_rate": 0.8214
+   "admission_rate": 0.8214,
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "montana",
@@ -7542,7 +7606,8 @@
    "grad_rate_6yr_real": 0.5125,
    "scorecard_id": 180489,
    "scorecard_name": "The University of Montana",
-   "scorecard_city": "Missoula"
+   "scorecard_city": "Missoula",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "ndsu",
@@ -7587,7 +7652,8 @@
    "grad_rate_6yr_real": 0.6389,
    "scorecard_id": 200332,
    "scorecard_name": "North Dakota State University-Main Campus",
-   "scorecard_city": "Fargo"
+   "scorecard_city": "Fargo",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "und",
@@ -7631,7 +7697,8 @@
    "avg_family_income": 89027,
    "pell_rate": 0.1715,
    "scorecard_name": "University of North Dakota",
-   "scorecard_city": "Grand Forks"
+   "scorecard_city": "Grand Forks",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "sdstate",
@@ -7676,7 +7743,8 @@
    "grad_rate_6yr_real": 0.6235,
    "scorecard_id": 219356,
    "scorecard_name": "South Dakota State University",
-   "scorecard_city": "Brookings"
+   "scorecard_city": "Brookings",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "boisestate",
@@ -7721,7 +7789,8 @@
    "grad_rate_6yr_real": 0.602,
    "scorecard_id": 142115,
    "scorecard_name": "Boise State University",
-   "scorecard_city": "Boise"
+   "scorecard_city": "Boise",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "idaho",
@@ -7766,7 +7835,8 @@
    "scorecard_id": 142285,
    "scorecard_name": "University of Idaho",
    "scorecard_city": "Moscow",
-   "admission_rate": 0.7553
+   "admission_rate": 0.7553,
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "nmsu",
@@ -7811,7 +7881,8 @@
    "grad_rate_6yr_real": 0.5517,
    "scorecard_id": 188030,
    "scorecard_name": "New Mexico State University-Main Campus",
-   "scorecard_city": "Las Cruces"
+   "scorecard_city": "Las Cruces",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "txstate",
@@ -7902,7 +7973,8 @@
    "debt_avg_real": 19250,
    "net_price_avg_real": 15649,
    "admission_rate": 0.7223,
-   "avg_family_income": 58313
+   "avg_family_income": 58313,
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "uta",
@@ -7947,7 +8019,8 @@
    "grad_rate_6yr_real": 0.5402,
    "scorecard_id": 228769,
    "scorecard_name": "The University of Texas at Arlington",
-   "scorecard_city": "Arlington"
+   "scorecard_city": "Arlington",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "utdallas",
@@ -7992,7 +8065,8 @@
    "grad_rate_6yr_real": 0.7569,
    "scorecard_id": 228787,
    "scorecard_name": "The University of Texas at Dallas",
-   "scorecard_city": "Richardson"
+   "scorecard_city": "Richardson",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "utsa",
@@ -8083,7 +8157,8 @@
    "grad_rate_6yr_real": 0.6257,
    "scorecard_id": 133669,
    "scorecard_name": "Florida Atlantic University",
-   "scorecard_city": "Boca Raton"
+   "scorecard_city": "Boca Raton",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "memphis",
@@ -8128,7 +8203,8 @@
    "grad_rate_6yr_real": 0.5089,
    "scorecard_id": 220862,
    "scorecard_name": "University of Memphis",
-   "scorecard_city": "Memphis"
+   "scorecard_city": "Memphis",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "akron",
@@ -8173,7 +8249,8 @@
    "grad_rate_6yr_real": 0.5186,
    "scorecard_id": 200800,
    "scorecard_name": "University of Akron Main Campus",
-   "scorecard_city": "Akron"
+   "scorecard_city": "Akron",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "toledo",
@@ -8218,7 +8295,8 @@
    "grad_rate_6yr_real": 0.5704,
    "scorecard_id": 206084,
    "scorecard_name": "University of Toledo",
-   "scorecard_city": "Toledo"
+   "scorecard_city": "Toledo",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "kentstate",
@@ -8263,7 +8341,8 @@
    "grad_rate_6yr_real": 0.6372,
    "scorecard_id": 203517,
    "scorecard_name": "Kent State University at Kent",
-   "scorecard_city": "Kent"
+   "scorecard_city": "Kent",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "bgsu",
@@ -8308,7 +8387,8 @@
    "grad_rate_6yr_real": 0.6373,
    "scorecard_id": 201441,
    "scorecard_name": "Bowling Green State University-Main Campus",
-   "scorecard_city": "Bowling Green"
+   "scorecard_city": "Bowling Green",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "ohiou",
@@ -8353,7 +8433,8 @@
    "grad_rate_6yr_real": 0.8772,
    "scorecard_id": 204857,
    "scorecard_name": "Ohio University-Main Campus",
-   "scorecard_city": "Athens"
+   "scorecard_city": "Athens",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "miamioh",
@@ -8398,7 +8479,8 @@
    "grad_rate_6yr_real": 0.7979,
    "scorecard_id": 204024,
    "scorecard_name": "Miami University-Oxford",
-   "scorecard_city": "Oxford"
+   "scorecard_city": "Oxford",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "umkc",
@@ -8443,7 +8525,8 @@
    "grad_rate_6yr_real": 0.5546,
    "scorecard_id": 178402,
    "scorecard_name": "University of Missouri-Kansas City",
-   "scorecard_city": "Kansas City"
+   "scorecard_city": "Kansas City",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "uwmilwaukee",
@@ -8488,7 +8571,8 @@
    "grad_rate_6yr_real": 0.4932,
    "scorecard_id": 240453,
    "scorecard_name": "University of Wisconsin-Milwaukee",
-   "scorecard_city": "Milwaukee"
+   "scorecard_city": "Milwaukee",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "uab",
@@ -8533,7 +8617,8 @@
    "grad_rate_6yr_real": 0.6423,
    "scorecard_id": 100663,
    "scorecard_name": "University of Alabama at Birmingham",
-   "scorecard_city": "Birmingham"
+   "scorecard_city": "Birmingham",
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "tcu",
@@ -8808,7 +8893,8 @@
    "scorecard_id": 181002,
    "scorecard_name": "Creighton University",
    "scorecard_city": "Omaha",
-   "score": 70.0
+   "score": 70.0,
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "gonzaga",
@@ -8853,7 +8939,8 @@
    "scorecard_id": 235316,
    "scorecard_name": "Gonzaga University",
    "scorecard_city": "Spokane",
-   "score": 71.9
+   "score": 71.9,
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "marquette",
@@ -8944,7 +9031,8 @@
    "scorecard_id": 206622,
    "scorecard_name": "Xavier University",
    "scorecard_city": "Cincinnati",
-   "score": 65.5
+   "score": 65.5,
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "butler",
@@ -8989,7 +9077,8 @@
    "scorecard_id": 150163,
    "scorecard_name": "Butler University",
    "scorecard_city": "Indianapolis",
-   "score": 70.6
+   "score": 70.6,
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "hamilton",
@@ -9080,7 +9169,8 @@
    "scorecard_id": 173902,
    "scorecard_name": "Macalester College",
    "scorecard_city": "Saint Paul",
-   "score": 70.0
+   "score": 70.0,
+   "_endowment_source": "synthetic (placeholder)"
   },
   {
    "id": "providence",
@@ -9125,7 +9215,8 @@
    "scorecard_id": 217402,
    "scorecard_name": "Providence College",
    "scorecard_city": "Providence",
-   "score": 77.0
+   "score": 77.0,
+   "_endowment_source": "synthetic (placeholder)"
   }
  ]
 }
