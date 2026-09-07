@@ -1,8 +1,8 @@
 {
  "metadata": {
-  "last_updated": "2026-09-06",
+  "last_updated": "2026-09-07",
   "source": "College Scorecard API (DEMO_KEY) + v0.9 dedup: 13 duplicate entries replaced with 13 distinct schools (TCU, Syracuse, Arkansas, Ole Miss, Mississippi State, Creighton, Gonzaga, Marquette, Xavier, Butler, Hamilton, Macalester, Providence), 200/200 distinct IDs, 200/200 real",
-  "version": "0.14",
+  "version": "0.15",
   "total_universities": 200,
   "criteria_version": "1.0",
   "enriched_count": 200,
@@ -49,6 +49,10 @@
    "nacubo_new": 10,
    "manual_verified": 8,
    "synthetic_remaining": 67
+  },
+  "endowment_gapfill_v15": {
+   "verified_new": 9,
+   "synthetic_remaining": 0
   }
  },
  "criteria": {
@@ -3475,8 +3479,8 @@
    "state": "KS",
    "carnegie": "R1",
    "enrollment_fte": 20000,
-   "endowment_b": 0.65,
-   "endowment_per_student": 32500,
+   "endowment_b": 1.04732,
+   "endowment_per_student": 52366,
    "grad_rate_6yr": 0.67,
    "retention": 0.86,
    "sf_ratio": 18,
@@ -3512,7 +3516,7 @@
    "scorecard_name": "Kansas State University",
    "scorecard_city": "Manhattan",
    "admission_rate": 0.8169,
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "Kansas State University Foundation audited FY2025 statements: Endowment net assets - End of year $1,047,320,258"
   },
   {
    "id": "lsu",
@@ -4950,8 +4954,8 @@
    "state": "FL",
    "carnegie": "R1",
    "enrollment_fte": 50000,
-   "endowment_b": 0.7,
-   "endowment_per_student": 14000,
+   "endowment_b": 0.722838,
+   "endowment_per_student": 14457,
    "grad_rate_6yr": 0.74,
    "retention": 0.9,
    "sf_ratio": 22,
@@ -4987,7 +4991,7 @@
    "scorecard_id": 137351,
    "scorecard_name": "University of South Florida",
    "scorecard_city": "Tampa",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "University of South Florida Foundation audited FY2025 statements: Total Foundation endowment balance $722,838,408"
   },
   {
    "id": "tennessee",
@@ -5135,8 +5139,8 @@
    "state": "VA",
    "carnegie": "R1",
    "enrollment_fte": 37000,
-   "endowment_b": 1.6,
-   "endowment_per_student": 43243,
+   "endowment_b": 2.09,
+   "endowment_per_student": 56486,
    "grad_rate_6yr": 0.86,
    "retention": 0.92,
    "sf_ratio": 14,
@@ -5172,7 +5176,7 @@
    "scorecard_id": 233921,
    "scorecard_name": "Virginia Polytechnic Institute and State University",
    "scorecard_city": "Blacksburg",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 (Virginia Tech Foundation)"
   },
   {
    "id": "wakeforest",
@@ -5365,8 +5369,8 @@
    "state": "MA",
    "carnegie": "R2",
    "enrollment_fte": 7000,
-   "endowment_b": 0.6,
-   "endowment_per_student": 85714,
+   "endowment_b": 0.731422,
+   "endowment_per_student": 104489,
    "grad_rate_6yr": 0.85,
    "retention": 0.93,
    "sf_ratio": 13,
@@ -5402,7 +5406,7 @@
    "scorecard_id": 168421,
    "scorecard_name": "Worcester Polytechnic Institute",
    "scorecard_city": "Worcester",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "Worcester Polytechnic Institute audited FY2025 statements: Total endowment funds $731,422 (thousands) at June 30, 2025"
   },
   {
    "id": "yeshiva",
@@ -5963,8 +5967,8 @@
    "state": "UT",
    "carnegie": "R1",
    "enrollment_fte": 20272,
-   "endowment_b": 1.0,
-   "endowment_per_student": 25000,
+   "endowment_b": 0.64,
+   "endowment_per_student": 31571,
    "grad_rate_6yr": 0.5824,
    "retention": 0.92,
    "sf_ratio": 16,
@@ -6000,7 +6004,8 @@
    "scorecard_id": 230728,
    "scorecard_name": "Utah State University",
    "scorecard_city": "Logan",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "Utah Board of Higher Education memorandum (Mar 27, 2025): 'about $640 million in its endowment' (FY2024 yearend holdings)",
+   "_endowment_scope": "approximate - source wording"
   },
   {
    "id": "davidson",
@@ -6882,8 +6887,8 @@
    "state": "FL",
    "carnegie": "R2",
    "enrollment_fte": 10500,
-   "endowment_b": 0.7,
-   "endowment_per_student": 66000,
+   "endowment_b": 0.919,
+   "endowment_per_student": 87524,
    "grad_rate_6yr": 0.8018,
    "retention": 0.89,
    "sf_ratio": 15,
@@ -6919,7 +6924,7 @@
    "scorecard_id": 202480,
    "scorecard_name": "University of Dayton",
    "scorecard_city": "Dayton",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "University of Dayton official endowment page (retrieved 2026-09-07): '$919 million: The value of UD\\u2019s endowment'"
   },
   {
    "id": "loyolachicago",
@@ -7248,8 +7253,8 @@
    "state": "WY",
    "carnegie": "R1",
    "enrollment_fte": 11500,
-   "endowment_b": 0.7,
-   "endowment_per_student": 60800,
+   "endowment_b": 0.857427,
+   "endowment_per_student": 74559,
    "grad_rate_6yr": 0.5884,
    "retention": 0.77,
    "sf_ratio": 14,
@@ -7285,7 +7290,8 @@
    "scorecard_id": 240727,
    "scorecard_name": "University of Wyoming",
    "scorecard_city": "Laramie",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "University of Wyoming Foundation audited FY2025 statements: Total managed endowments $857,427,086 at June 30, 2025",
+   "_endowment_scope": "Total managed endowments; includes $347,598,365 custodial endowment corpus held by Foundation for the University"
   },
   {
    "id": "uvm",
@@ -7294,8 +7300,8 @@
    "state": "VT",
    "carnegie": "R2",
    "enrollment_fte": 13000,
-   "endowment_b": 0.7,
-   "endowment_per_student": 53800,
+   "endowment_b": 0.972474,
+   "endowment_per_student": 74806,
    "grad_rate_6yr": 0.7859,
    "retention": 0.88,
    "sf_ratio": 17,
@@ -7331,7 +7337,7 @@
    "scorecard_id": 231174,
    "scorecard_name": "University of Vermont",
    "scorecard_city": "Burlington",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "University of Vermont Foundation FY2025 endowment overview: UVM ENDOWMENT - 6/30/2025 972,473,524"
   },
   {
    "id": "unh",
@@ -9143,8 +9149,8 @@
     "state_audit": "n/a"
    },
    "enrollment_fte": 2200,
-   "endowment_b": 0.9,
-   "endowment_per_student": 409000,
+   "endowment_b": 0.92,
+   "endowment_per_student": 418182,
    "grad_rate_6yr": 0.871,
    "retention": 0.93,
    "sf_ratio": 10,
@@ -9170,7 +9176,7 @@
    "scorecard_name": "Macalester College",
    "scorecard_city": "Saint Paul",
    "score": 70.0,
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "Macalester College official 2025 Facts & Figures: Endowment 6/30/25: $920 million"
   },
   {
    "id": "providence",

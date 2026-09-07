@@ -1,0 +1,2100 @@
+[Client Name]
+Contents
+December 31, 20X2 and 20X1
+
+
+
+
+Kansas State University
+Foundation
+
+
+Independent Auditor’s Report and
+Consolidated Financial Statements
+
+
+
+
+June 30, 2025 and 2024
+Kansas State University Foundation
+Contents
+June 30, 2025 and 2024
+
+
+
+
+  Independent Auditor's Report .......................................................................................................................           1
+
+  Consolidated Financial Statements
+
+      Statements of Financial Position .................................................................................................................         3
+
+      Statements of Activities ...............................................................................................................................   4
+
+      Statements of Functional Expenses............................................................................................................              6
+
+      Statements of Cash Flows ..........................................................................................................................        8
+
+      Notes to Financial Statements .................................................................................................................... 10
+                                                 Independent Auditor’s Report
+
+
+         The Board of Directors of
+         Kansas State University Foundation
+         Manhattan, Kansas
+
+         Opinion
+         We have audited the consolidated financial statements of Kansas State University Foundation and its
+         supporting organizations (the Foundation), which comprise the consolidated statements of financial
+         position as of June 30, 2025 and 2024, and the related consolidated statements of activities, functional
+         expenses and cash flows for the years then ended, and the related notes to the consolidated financial
+         statements.
+
+         In our opinion, the accompanying consolidated financial statements present fairly, in all material respects,
+         the consolidated financial position of the Foundation as of June 30, 2025 and 2024, and the changes in
+         its net assets and its cash flows for the years then ended in accordance with accounting principles
+         generally accepted in the United States of America.
+
+         Basis for Opinion
+         We conducted our audits in accordance with auditing standards generally accepted in the United States
+         of America (GAAS). Our responsibilities under those standards are further described in the “Auditor’s
+         Responsibilities for the Audit of the Consolidated Financial Statements” section of our report. We are
+         required to be independent of the Foundation and to meet our other ethical responsibilities, in accordance
+         with the relevant ethical requirements relating to our audits. We believe that the audit evidence we have
+         obtained is sufficient and appropriate to provide a basis for our audit opinion.
+
+         Responsibilities of Management for the Consolidated Financial Statements
+         Management is responsible for the preparation and fair presentation of the consolidated financial
+         statements in accordance with accounting principles generally accepted in the United States of America,
+         and for the design, implementation, and maintenance of internal control relevant to the preparation and
+         fair presentation of consolidated financial statements that are free from material misstatement, whether
+         due to fraud or error.
+
+         In preparing the consolidated financial statements, management is required to evaluate whether there are
+         conditions or events, considered in the aggregate, that raise substantial doubt about the Foundation’s
+         ability to continue as a going concern within one year after the date that these consolidated financial
+         statements are issued.
+
+
+
+
+Forvis Mazars, LLP is an independent member of Forvis Mazars Global Limited
+                                                                                 The Board of Directors of
+                                                                        Kansas State University Foundation
+
+Auditor’s Responsibilities for the Audit of the Consolidated Financial Statements
+Our objectives are to obtain reasonable assurance about whether the consolidated financial statements
+as a whole are free from material misstatement, whether due to fraud or error, and to issue an auditor’s
+report that includes our opinion. Reasonable assurance is a high level of assurance but is not absolute
+assurance and therefore is not a guarantee that an audit conducted in accordance with GAAS will always
+detect a material misstatement when it exists. The risk of not detecting a material misstatement resulting
+from fraud is higher than for one resulting from error, as fraud may involve collusion, forgery, intentional
+omissions, misrepresentations, or the override of internal control. Misstatements are considered material
+if there is a substantial likelihood that, individually or in the aggregate, they would influence the judgment
+made by a reasonable user based on the consolidated financial statements.
+
+In performing an audit in accordance with GAAS, we:
+
+    •   Exercise professional judgment and maintain professional skepticism throughout the audit.
+
+    •   Identify and assess the risks of material misstatement of the consolidated financial statements,
+        whether due to fraud or error, and design and perform audit procedures responsive to those risks.
+        Such procedures include examining, on a test basis, evidence regarding the amounts and
+        disclosures in the consolidated financial statements.
+
+    •   Obtain an understanding of internal control relevant to the audit in order to design audit
+        procedures that are appropriate in the circumstances, but not for the purpose of expressing an
+        opinion on the effectiveness of the Foundation’s internal control. Accordingly, no such opinion is
+        expressed.
+
+    •   Evaluate the appropriateness of accounting policies used and the reasonableness of significant
+        accounting estimates made by management, as well as evaluate the overall presentation of the
+        consolidated financial statements.
+
+    •   Conclude whether, in our judgment, there are conditions or events, considered in the aggregate,
+        that raise substantial doubt about the Foundation’s ability to continue as a going concern for a
+        reasonable period of time.
+
+We are required to communicate with those charged with governance regarding, among other matters,
+the planned scope and timing of the audit, significant audit findings, and certain internal control-related
+matters that we identified during the audit.
+
+
+
+
+Kansas City, Missouri
+September 24, 2025
+
+
+
+
+                                                                                                            2
+Kansas State University Foundation
+Consolidated Statements of Financial Position
+June 30, 2025 and 2024
+
+
+                                                                   2025                2024
+ASSETS
+
+  Cash and cash equivalents                                  $      70,503,849   $      50,029,183
+  Cash restricted for future investment                             12,509,337          10,450,324
+  Investments                                                    1,478,811,594       1,385,328,495
+  Pledges receivable – net of allowance and discounts              146,836,265         126,248,258
+  Receivables from estates                                           6,642,500           3,171,129
+  Property and equipment, net of accumulated depreciation;
+    2025 - $6,591,688, 2024 - $6,664,966                           14,259,604          13,037,354
+  Golf Course property and equipment, net of accumulated
+    depreciation; 2025 - $7,038,105, 2024 - $6,543,737              7,539,537           7,572,408
+  Notes receivable                                                  7,085,400          17,459,400
+  Cash surrender value of life insurance policies                   9,593,786           9,412,387
+  Other assets and accrued investment income                       35,754,916          34,398,385
+
+Total Assets                                                 $ 1,789,536,788     $ 1,657,107,323
+
+
+LIABILITIES AND NET ASSETS
+  Liabilities
+    Accounts payable, deposits and other liabilities         $      5,584,934    $      6,204,947
+    Accrued liabilities                                             4,758,284           4,562,105
+    Assets held for others                                         21,201,423          21,879,988
+    Unitrust and annuity liabilities                               17,948,081          17,576,233
+    Long-term debt and lines of credit                             78,739,394          94,624,651
+
+  Total Liabilities                                               128,232,116         144,847,924
+
+  Net Assets
+   Net assets without donor restrictions                           134,427,263         131,090,735
+   Net assets with donor restrictions                            1,526,877,409       1,381,168,664
+
+  Total Net Assets                                               1,661,304,672       1,512,259,399
+
+Total Liabilities and Net Assets                             $ 1,789,536,788     $ 1,657,107,323
+
+
+
+
+See Notes to Consolidated Financial Statements                                                   3
+Kansas State University Foundation
+Consolidated Statement of Activities
+Year Ended June 30, 2025
+
+
+                                                                    Without                  With
+                                                                     Donor                  Donor
+                                                                   Restrictions           Restrictions              Total
+Revenues, Gains (Losses) and Other Support
+ Contributions                                                 $      5,539,890       $    170,527,697       $    176,067,587
+ Provision for bad debts                                                      -             (4,616,406)            (4,616,406)
+   Contribution revenue, less provision for bad debts                 5,539,890            165,911,291            171,451,181
+ Investment return (loss), net                                       (7,950,914)               558,439             (7,392,475)
+ Net realized and unrealized gains on investments                    15,431,538             97,979,694            113,411,232
+ Other support
+   Operational service charges, management
+     fees and other                                                  25,178,311                760,917             25,939,228
+   Receipts for grants, research, supplies, travel and other
+     University departmental activities and funding
+     allotments, etc.                                                   932,609               2,907,362             3,839,971
+   Actuarial gains on unitrusts and annuity
+     obligations                                                                  -           3,059,546             3,059,546
+ Net assets released from restrictions and
+   change in donor designation                                      125,468,504            (125,468,504)                     -
+
+Total Revenues, Gains (Losses) and Other Support                    164,599,938            145,708,745            310,308,683
+
+Expenses and Support
+ Direct University support
+   Scholarships and other student awards                             27,339,089                          -         27,339,089
+   Academic support                                                  27,643,845                          -         27,643,845
+   Administrative support                                            67,247,039                          -         67,247,039
+   Capital improvements                                               9,173,872                          -          9,173,872
+ Subtotal                                                           131,403,845                          -        131,403,845
+
+  Management and general                                             12,745,314                          -         12,745,314
+  Fundraising and development                                        17,114,251                          -         17,114,251
+
+Total Expenses and Support                                          161,263,410                          -        161,263,410
+
+Change in Net Assets                                                   3,336,528           145,708,745            149,045,273
+
+Net Assets, Beginning of Year                                       131,090,735           1,381,168,664          1,512,259,399
+
+Net Assets, End of Year                                        $    134,427,263       $ 1,526,877,409        $ 1,661,304,672
+
+
+
+
+See Notes to Consolidated Financial Statements                                                                               4
+Kansas State University Foundation
+Consolidated Statement of Activities
+Year Ended June 30, 2024
+
+
+                                                                    Without                  With
+                                                                     Donor                  Donor
+                                                                   Restrictions           Restrictions              Total
+Revenues, Gains (Losses) and Other Support
+ Contributions                                                 $      5,800,204       $    121,262,042       $    127,062,246
+ Provision for bad debts                                                      -             (6,360,752)            (6,360,752)
+   Contribution revenue, less provision for bad debts                 5,800,204            114,901,290            120,701,494
+ Investment return (loss), net                                       (8,988,903)             1,042,663             (7,946,240)
+ Net realized and unrealized gains on investments                    22,544,124             74,681,711             97,225,835
+ Other support
+   Operational service charges, management
+     fees and other                                                  22,910,835                318,102             23,228,937
+   Receipts for grants, research, supplies, travel and other
+     University departmental activities and funding
+     allotments, etc.                                                   406,900               3,367,947             3,774,847
+   Actuarial losses on unitrusts and annuity
+     obligations                                                                  -            235,748                235,748
+ Net assets released from restrictions and
+   change in donor designation                                      109,485,651            (109,485,651)                     -
+
+Total Revenues, Gains (Losses) and Other Support                    152,158,811             85,061,810            237,220,621
+
+Expenses and Support
+ Direct University support
+   Scholarships and other student awards                             24,123,937                          -         24,123,937
+   Academic support                                                  17,448,442                          -         17,448,442
+   Administrative support                                            68,579,533                          -         68,579,533
+   Capital improvements                                               3,405,347                          -          3,405,347
+ Subtotal                                                           113,557,259                          -        113,557,259
+
+  Management and general                                             12,587,689                          -         12,587,689
+  Fundraising and development                                        16,661,423                          -         16,661,423
+
+Total Expenses and Support                                          142,806,371                          -        142,806,371
+
+Change in Net Assets                                                   9,352,440            85,061,810             94,414,250
+
+Net Assets, Beginning of Year                                       121,738,295           1,296,106,854          1,417,845,149
+
+Net Assets, End of Year                                        $    131,090,735       $ 1,381,168,664        $ 1,512,259,399
+
+
+
+
+See Notes to Consolidated Financial Statements                                                                               5
+Kansas State University Foundation
+Consolidated Statement of Functional Expenses
+Year Ended June 30, 2025
+
+
+                                                  Scholarships and
+                                                   Other Student                            Administrative           Capital       Direct University   Management and    Fundraising and
+                                                      Awards         Academic Support         Support             Improvements      Support Total         General         Development           Overall Total
+
+Salaries, wages and benefits                      $              -   $      9,776,413   $           551,242   $                -   $     10,327,655    $     7,502,833   $     13,684,676   $       31,515,164
+Scholarships, awards and student development            27,339,089          2,868,114                     -                    -         30,207,203                  -                  -           30,207,203
+Travel, seminars and meetings                                    -            477,772               830,380                    -          1,308,152            131,691          1,135,771            2,575,614
+Hospitality, entertainment and events                            -                  -             2,148,278                    -          2,148,278             75,990            660,405            2,884,673
+Professional services                                            -          8,327,301             6,750,993                    -         15,078,294            766,777            110,471           15,955,542
+Research                                                         -          1,761,159                     -                    -          1,761,159                  -                  -            1,761,159
+Construction and building expenses                               -                  -               774,393            8,952,870          9,727,263             80,018                  -            9,807,281
+University support                                               -                  -            46,521,061                    -         46,521,061            379,711                  -           46,900,772
+Equipment and supplies                                           -          3,479,297               984,581              199,587          4,663,465            233,259             82,151            4,978,875
+Office expenses                                                  -              5,907               292,210                    -            298,117            375,394            558,149            1,231,660
+University advancement and other fees                            -              6,627             5,638,953                    -          5,645,580            176,240                  -            5,821,820
+Insurance expense                                                -                  -               219,933                    -            219,933            169,644                166              389,743
+Advertising                                                      -              7,219                81,534                    -             88,753             13,455            117,405              219,613
+Dues and subscriptions                                           -             32,857                50,662                    -             83,519             33,406            135,475              252,400
+Rental expenses                                                  -            205,277               503,759                    -            709,036                  -            264,780              973,816
+Computer systems                                                 -             64,188                69,554                    -            133,742          1,866,229            103,486            2,103,457
+Depreciation, excluding KSUGCMRF assets                          -                  -                     -                    -                  -            820,886                  -              820,886
+Contributions of non-financial assets and other                  -                  -               128,094               21,415            149,509            119,781            261,316              530,606
+Loan and interest expense                                        -            631,714             1,701,412                    -          2,333,126                  -                  -            2,333,126
+
+                                                  $     27,339,089   $     27,643,845   $        67,247,039   $        9,173,872   $    131,403,845    $    12,745,314   $     17,114,251   $      161,263,410
+
+
+
+
+See Notes to Financial Statements                                                                                                                                                                               6
+Kansas State University Foundation
+Consolidated Statement of Functional Expenses
+Year Ended June 30, 2024
+
+
+                                                  Scholarships and
+                                                   Other Student                            Administrative           Capital       Direct University   Management and    Fundraising and
+                                                      Awards         Academic Support         Support             Improvements      Support Total         General         Development           Overall Total
+
+Salaries, wages and benefits                      $              -   $      9,618,542   $           762,535   $                -   $     10,381,077    $     7,328,145   $     13,373,613   $       31,082,835
+Scholarships, awards and student development            24,123,937          2,939,796                     -                    -         27,063,733                  -                  -           27,063,733
+Travel, seminars and meetings                                    -            406,500               906,296                    -          1,312,796            157,007          1,039,587            2,509,390
+Hospitality, entertainment and events                            -                  -             1,687,879                    -          1,687,879             88,314            713,212            2,489,405
+Professional services                                            -            158,406             2,144,477                    -          2,302,883            819,480            213,451            3,335,814
+Research                                                         -          1,425,893                     -                    -          1,425,893                  -                  -            1,425,893
+Construction and building expenses                               -                  -               623,860            3,195,097          3,818,957            253,972                  -            4,072,929
+University support                                               -                  -            54,206,194                    -         54,206,194            329,711                  -           54,535,905
+Equipment and supplies                                           -          1,803,104             1,312,920              154,337          3,270,361             56,373             75,482            3,402,216
+Office expenses                                                  -             10,319               483,705                    -            494,024            352,404            560,084            1,406,512
+University advancement and other fees                            -              1,195             3,649,574                    -          3,650,769            169,012                  -            3,819,781
+Insurance expense                                                -                  -               197,803                    -            197,803            154,636                311              352,750
+Advertising                                                      -                  -                94,310                    -             94,310             22,215             77,587              194,112
+Dues and subscriptions                                           -             26,566                58,503                    -             85,069             19,105            100,685              204,859
+Rental expenses                                                  -             72,877               417,852                    -            490,729                  -            246,620              737,349
+Computer systems                                                 -              7,334               167,111                    -            174,445          1,955,785             84,536            2,214,766
+Depreciation, excluding KSUGCMRF assets                          -                  -                     -                    -                  -            829,144                  -              829,144
+Contributions of non-financial assets and other                  -            977,910             1,753,127                    -          2,731,037             52,386            176,255            2,959,678
+Loan and interest expense                                        -                  -               113,387               55,913            169,300                  -                  -              169,300
+
+                                                  $     24,123,937   $     17,448,442   $        68,579,533   $        3,405,347   $    113,557,259    $    12,587,689   $     16,661,423   $      142,806,371
+
+
+
+
+See Notes to Financial Statements                                                                                                                                                                               7
+Kansas State University Foundation
+Consolidated Statements of Cash Flows
+Years Ended June 30, 2025 and 2024
+
+
+                                                                         2025                2024
+Operating Activities
+ Change in net assets                                              $   149,045,273     $    94,414,250
+ Items not requiring (providing) operating activities cash flows
+   Depreciation                                                           1,489,498           1,429,950
+   Amortization of bond issuance premium and debt issuance                   94,132             153,723
+   Net realized and unrealized gains on investments                    (113,411,232)        (97,225,835)
+   Contributions and investment income received restricted
+     for long-term investment and capital projects                      (65,282,321)        (36,911,634)
+   Contributions for term endowment                                      (2,385,996)         (2,911,317)
+   Non-cash contributions                                               (11,311,838)        (18,475,912)
+   Non-cash transfers to Kansas State University                          3,531,358          12,945,772
+   Net actuarial gains on unitrust and annuity obligations               (3,059,546)           (235,748)
+   Loss on disposal of long-lived assets                                          -              23,498
+   Gain on extinguishment of debt                                        (3,940,850)                  -
+ Changes in
+   Pledges receivable                                                   (12,280,975)          2,542,386
+   Receivables from estates                                              (3,471,371)         (1,899,603)
+   Other assets and accrued investment income                             2,739,335         (15,525,085)
+   Accounts payable and accrued liabilities                                (275,378)           (835,279)
+   Assets held for others                                                  (678,565)          1,260,462
+
+Net Cash Used in Operating Activities                                   (59,198,476)        (61,250,372)
+
+Investing Activities
+  Purchase of investments                                              (190,138,122)       (276,954,828)
+  Purchase of real estate investments                                             -         (17,774,568)
+  Proceeds from sale of investments                                     217,463,599         302,172,269
+  Expenditures for property and equipment                                (2,853,658)           (747,236)
+  Collections on loans receivable                                         9,096,742                   -
+  Issuance of loans receivable                                                    -          (7,085,400)
+  Cash surrender value of life insurance policies                          (181,399)           (546,795)
+
+Net Cash Provided by (Used in) Investing Activities                     33,387,162             (936,558)
+
+Financing Activities
+  Proceeds from contributions and investment income restricted
+   for long-term investment and capital projects                         56,975,289         51,685,028
+  Contributions for term endowment                                        2,385,996          2,911,317
+  Proceeds from issuance of long-term debt                                8,598,757          9,980,850
+  Principal payments on long-term debt                                  (19,185,400)        (2,394,201)
+  Payments for debt issuance costs                                          (86,405)          (280,710)
+  Borrowings under line of credit agreement                                   5,055             10,002
+  Repayments under line of credit agreement                                 (93,288)           (97,545)
+  Proceeds from issuance of annuities and trusts payable                    649,148            740,829
+  Payments on annuities and trusts payable                                 (904,159)        (1,744,297)
+
+Net Cash Provided by Financing Activities                               48,344,993          60,811,273
+
+
+
+
+See Notes to Consolidated Financial Statements                                                        8
+Kansas State University Foundation
+Consolidated Statements of Cash Flows
+Years Ended June 30, 2025 and 2024                                              (Continued)
+
+
+                                                               2025               2024
+Change in Cash, Cash Equivalents and Cash Restricted
+ for Future Investment                                         22,533,679         (1,375,657)
+
+Cash, Cash Equivalents and Cash Restricted for Future
+ Investment, Beginning of Year                                 60,479,507        61,855,164
+
+Cash, Cash Equivalents and Cash Restricted for Future
+ Investment, End of Year                                   $   83,013,186   $    60,479,507
+
+Supplemental Disclosures of Cash Flows Information
+ Cash paid during the year for interest                    $    3,543,927   $     3,992,880
+ Real estate investments transferred to lease receivable                -         7,668,683
+
+  Cash and cash equivalents                                $   70,503,849   $    50,029,183
+  Cash restricted for future investment                        12,509,337        10,450,324
+
+Total Cash, Cash Equivalents and Cash Restricted for
+ Future Investment Shown in the Consolidated
+ Statement of Cash Flows                                   $   83,013,186   $    60,479,507
+
+
+
+
+See Notes to Consolidated Financial Statements                                             9
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Note 1.     Nature of Operations and Summary of Significant Accounting Policies
+
+Nature of Operations
+The purpose of Kansas State University Foundation (the Foundation) is to encourage, receive and hold in trust
+any real or personal property given for the use of Kansas State University, its faculty and students (the
+University); and to invest, disburse, manage and control all such gifts in accordance with donor intent and to
+provide those services to the University which are not or cannot be provided through state appropriations or
+student fees.
+
+Supporting Organizations and Principles of Consolidation
+The Foundation’s consolidated financial statements include three supporting organizations, the Kansas State
+University Golf Course Management and Research Foundation, formed in 1997, the Foundation for Engineering
+at Kansas State University, Inc., formed in 2009 and the Kansas State University Charitable Real Estate
+Foundation (KSUCREF), formed in 2012, and its wholly-owned subsidiaries, 1880 Kimball, LLC, formed in 2017,
+1960 Kimball, LLC, formed in 2023, and Dudrey Cattle Company, obtained in 2023. The financial statements of
+these organizations have been consolidated with the Foundation’s financial statements in accordance with
+accounting principles generally accepted in the United States of America. All significant inter-organizational
+accounts and transactions are eliminated in the consolidated financial statements.
+
+Use of Estimates
+The preparation of financial statements in conformity with accounting principles generally accepted in the United
+States of America requires management to make estimates and assumptions that affect the reported amounts of
+assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements and
+the reported amounts of revenues, expenses, gains, losses and other changes in net assets during the reporting
+period. Actual results could differ from those estimates.
+
+Cash and Cash Equivalents
+The Foundation considers all liquid investments with original maturities of three months or less to be cash
+equivalents. At June 30, 2025 and 2024, cash equivalents consisted primarily of money market mutual funds
+totaling $82,540,547 and $59,774,982, respectively, and deposits with financial institutions.
+
+At June 30, 2025, the Foundation’s cash accounts exceeded federally insured limits by approximately $1,525,000.
+
+Cash Restricted for Future Investment
+Cash restricted for future investment includes assets held in cash at June 30, 2025 and 2024, that are subject to
+future investment (typically as of July 1) that have donor-imposed restrictions to establish future endowment
+accounts. Cash restricted for future investments consisted primarily of uninsured money market mutual funds.
+
+Investments and Net Investment Return
+Investments in marketable equity securities and all debt securities are carried at fair value. Investments in pooled
+separate accounts, private capital funds and hedge funds are recorded at the estimated net asset value per
+share, as a practical expedient, to determine the fair value of the investments. Closely held stock is recorded at
+fair value as determined by a third-party appraiser hired by the company for which the Foundation holds stock.
+The Foundation has elected to record other investments, consisting primarily of real estate, at fair value.
+
+Investment return includes dividend, interest and other investment income; realized and unrealized gains and
+losses on investments carried at fair value; and realized gains and losses on other investments, less external and
+direct internal investment expenses. Gains and losses on the sale of securities are recorded on the trade date
+and are determined using the specific identification method.
+
+
+
+                                                                                                                   10
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Investment return that is initially restricted by donor stipulation and for which the restriction will be satisfied in the
+same year is included in net assets without donor restrictions. Other investment return is reflected in the
+consolidated statements of activities with or without donor restrictions based upon the existence and nature of any
+donor or legally imposed restrictions.
+
+The Foundation maintains a long term investment pool for its endowments. Investment income and realized and
+unrealized gains and losses from securities in the pooled investment accounts are allocated monthly to the
+individual endowments based on the relationship of the fair value of the interest of each endowment to the total
+fair value of the pooled investment accounts, as adjusted for additions to or deductions from those accounts.
+
+Receivables
+The Foundation reports pledges receivable expected to be collected within one year at net realizable value.
+Pledges expected to be collected in future years are initially reported at fair value determined using the
+discounted present value of future contributions. The Foundation provides an allowance for doubtful collections,
+which is based upon a review of outstanding pledge receivables, historical collection information and existing
+economic conditions. Pledge receivables are considered past due if they are not received by their payment
+instrument due date. Delinquent pledges are written off based on individual credit evaluation and specific
+circumstances of the donor.
+
+Receivables from estates are recorded at the time the Foundation is notified of the death of a donor and the
+amount receivable from the estate can be reasonably measured.
+
+Notes receivable pertain to the Foundation’s New Market Tax Credit Financing arrangements which are disclosed
+in Note 11.
+
+Property and Equipment
+Property and equipment are stated at cost less accumulated depreciation. Depreciation is charged to expense
+using the straight-line method over the estimated useful life of each asset.
+
+Long-Lived Asset Impairment
+The Foundation evaluates the recoverability of the carrying value of long-lived assets whenever events or
+circumstances indicate the carrying amount may not be recoverable. If a long-lived asset is tested for
+recoverability and the undiscounted estimated future cash flows expected to result from the use and eventual
+disposition of the asset is less than the carrying amount of the asset, the asset cost is adjusted to fair value and
+an impairment loss is recognized as the amount by which the carrying amount of a long-lived asset exceeds its
+fair value.
+
+No asset impairments were recognized during the years ended June 30, 2025 and 2024.
+
+Net Assets
+Net assets, revenues, gains and losses are classified based on the existence or absence of donor or grantor
+restrictions.
+
+Net assets without donor restrictions are available for use in general operations and not subject to donor or
+certain grantor restrictions. The governing board has designated, from net assets without donor or certain grantor
+restrictions, net assets for an operating reserve and board-designated endowment.
+
+
+
+
+                                                                                                                       11
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Net assets with donor restrictions are subject to donor or certain grantor restrictions. Some restrictions are
+temporary in nature, such as those that will be met by the passage of time or other events specified by the donor.
+Other restrictions are perpetual in nature, where the donor or grantor stipulates that resources be maintained in
+perpetuity.
+
+Contributions
+Gifts of cash and other assets received without donor stipulations are reported as revenue and net assets without
+donor restrictions and are recorded at fair value. Gifts received with a donor stipulation that limits their use are
+reported as revenue and net assets with donor restrictions and are recorded at fair value. When a donor
+stipulated time restriction ends or purpose restriction is accomplished, net assets with donor restrictions are
+reclassified to net assets without donor restrictions and reported in the consolidated statements of activities as net
+assets released from restrictions. Absent explicit donor stipulations for the time long-lived assets must be held,
+expirations of restrictions resulting in reclassification of net assets with donor restrictions as net assets without
+donor restrictions are reported when the long-lived assets are placed in service. Gifts having donor stipulations
+which are satisfied in the period the gift is received are reported as revenue and net assets without donor
+restrictions.
+
+Donations of property and equipment are recorded as support at their estimated fair value at the date of donation.
+
+Unconditional gifts expected to be collected within one year are reported at their net realizable value.
+Unconditional gifts expected to be collected in future years are initially reported at fair value determined using the
+discounted present value of estimated future cash flows technique. The resulting discount is amortized using the
+level-yield method and is reported as contribution revenue.
+
+Conditional gifts depend on the occurrence of a specified future and uncertain event to bind the potential donor.
+Conditional contributions having donor stipulations which are satisfied in the period the gift is received are
+recorded as revenue and net assets without donor restrictions.
+
+Contributions Establishing Charitable Trusts
+The Foundation accepts donor contributions to establish trust agreements in exchange for a named beneficiary to
+receive a fixed dollar annual return or a specific percentage of the fair value of the trust assets for the
+beneficiary’s lifetime or a specific time period. A portion of the donation is considered to be a charitable
+contribution and the remaining portion represents a liability equal to the present value of future payments. The
+liability is revalued annually based on actuarially computed present values.
+
+Income Taxes
+The Foundation is generally exempt from federal and state income tax under Section 501(c)(3) of the Internal
+Revenue Code as a public foundation. However, the Foundation is subject to income tax on any unrelated
+business income. The Foundation files tax returns in the U.S. federal jurisdiction.
+
+Functional Allocation of Expenses
+The costs of supporting the various programs and other activities have been summarized on a functional basis in
+the consolidated statements of activities. The consolidated statements of functional expenses present the natural
+classification detail of expenses by function. Certain costs have been allocated among the program, management
+and general and fundraising categories based on headcount and estimated usage by each department.
+
+
+
+
+                                                                                                                   12
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Other Support Revenue Recognition
+Other support revenue, excluding actuarial gains (losses) on unitrusts and annuity obligations, is recognized as
+the Foundation satisfies performance obligations under its contracts. The amount and timing of revenue
+recognition varies based on the nature of the services provided. See Note 14 for additional information about the
+Foundation’s revenue.
+
+Leases
+The Foundation determines if an arrangement is a lease or contains a lease at inception. Leases result in the
+recognition of right-of-use (ROU) assets and lease liabilities on the consolidated statements of financial position.
+ROU assets represent the right to use an underlying asset for the lease term, and lease liabilities represent the
+obligation to make lease payments arising from the lease, measured on a discounted basis. The Foundation
+determines lease classification as operating or finance at the lease commencement date. Finance leases are
+included in other assets and accrued investment income and long-term debt and lines of credit in the consolidated
+statements of financial position.
+
+At lease commencement, the lease liability is measured at the present value of the lease payments over the lease
+term. The ROU asset equals the lease liability adjusted for any initial direct costs, prepaid or deferred rent, and
+lease incentives.
+
+
+
+Note 2.     Investments and Investment Return
+Investment management is governed by policies and procedures established by the asset management
+committee, a committee of the board of directors, in collaboration with staff and consultants. Staff implements the
+policies through: 1) the selection of investment strategies; 2) the hiring, monitoring and changing of investment
+managers; and 3) rebalancing the portfolios. Investment results are monitored by the committee quarterly through
+manager and portfolio performance and due diligence reporting.
+
+Private capital and hedge funds are included in the endowment pool to diversify assets, provide portfolio return
+enhancement and dampen volatility. Fund managers run proprietary strategies employing securities and
+instruments such as cash, stocks, partnerships, bonds and derivative instruments including options, futures and
+swaps in various combinations, sometimes shorting various securities and employing leverage to construct
+desired risk/return characteristics that are less correlated to the major asset classes.
+
+
+
+
+                                                                                                                 13
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+The Foundation’s investments include debt and equity securities for liquidity, donated assets and real estate, as
+well as a managed portfolio of long-term investments. The Foundation’s investments at June 30, 2025 and 2024,
+were as follows:
+
+                                                                                 2025
+                                                          Long-Term
+                                                          Investment           Other                  Total
+                                                             Pool           Investments           Investments
+
+Marketable equity securities                          $    129,193,231     $ 27,114,483       $     156,307,714
+Pooled separate funds
+  Equity securities                                        322,625,726                 -            322,625,726
+U.S. Government and agency obligations                      67,697,602         7,923,776             75,621,378
+Corporate bonds and other fixed income securities                    -            59,754                 59,754
+Private capital
+  Real estate investments                                   34,984,101                 -             34,984,101
+  Venture capital                                          125,600,251            26,951            125,627,202
+  Domestic private equity                                  116,418,666                 -            116,418,666
+ International private equity                               22,672,317                 -             22,672,317
+ Private capital distressed debt                            20,996,726                 -             20,996,726
+ Natural resources                                          35,673,054                 -             35,673,054
+ Fixed income                                               38,024,231                 -             38,024,231
+Hedge funds
+ Absolute return                                           149,625,898        66,887,122            216,513,020
+Closely held common stock                                            -       170,499,359            170,499,359
+Real estate held for investment                                      -       142,772,349            142,772,349
+Other securities and investments                                     -            15,997                 15,997
+
+                                                      $ 1,063,511,803      $ 415,299,791      $    1,478,811,594
+
+
+
+
+                                                                                                                14
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+                                                                                    2024
+                                                            Long-Term
+                                                            Investment           Other                   Total
+                                                               Pool           Investments            Investments
+
+Marketable equity securities                            $    163,589,203     $ 30,614,956        $      194,204,159
+Pooled separate funds
+ Equity securities                                           273,723,589                  -             273,723,589
+ Fixed income                                                 40,381,886                  -              40,381,886
+U.S. Government and agency obligations                        29,741,700          1,228,371              30,970,071
+Corporate bonds and other fixed income securities                      -             58,125                  58,125
+Private capital
+ Real estate investments                                      52,804,079                  -              52,804,079
+ Venture capital                                             122,365,346             38,584             122,403,930
+ Domestic private equity                                     105,464,015                  -             105,464,015
+ International private equity                                 24,286,242                  -              24,286,242
+ Private capital distressed debt                               9,511,371                  -               9,511,371
+ Natural resources                                            21,121,750                  -              21,121,750
+ Fixed income                                                 35,439,815                  -              35,439,815
+Hedge funds
+ Absolute return                                             132,123,940        53,166,256              185,290,196
+Closely held common stock                                              -       140,215,231              140,215,231
+Real estate held for investment                                        -       149,438,039              149,438,039
+Other securities and investments                                       -            15,997                   15,997
+
+                                                        $ 1,010,552,936      $ 374,775,559       $    1,385,328,495
+
+
+The Foundation’s long-term investment pool (LTIP) strives to achieve long term capital appreciation and
+consistent income by utilizing a “total return investment strategy.” Distributions from the long-term investment pool
+are calculated annually using a 12 quarter unit value average multiplied by the distribution rate set by the board of
+directors. This action creates a distribution smoothing and is consistent with the board of directors’ long-term
+strategic plans and attempts to treat all generations equitably and protect future purchasing power. Distribution
+rate for the years ended June 30, 2025 and 2024 were 4.3%.
+
+Investment managers’ fees totaled approximately $17,646,000 and $18,572,000 for the years ended June 30,
+2025 and 2024, respectively.
+
+
+
+
+                                                                                                                   15
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Note 3.     Disclosures About Fair Value of Assets and Liabilities
+Fair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction
+between market participants at the measurement date. Fair value measurements must maximize the use of
+observable inputs and minimize the use of unobservable inputs. The hierarchy comprises three levels of inputs
+that may be used to measure fair value:
+
+          Level 1     Quoted prices in active markets for identical assets or liabilities
+
+          Level 2     Observable inputs other than Level 1 prices, such as quoted prices for similar assets or
+                      liabilities; quoted prices in markets that are not active; or other inputs that are observable or
+                      can be corroborated by observable market data for substantially the full term of the assets or
+                      liabilities
+
+          Level 3     Unobservable inputs supported by little or no market activity and are significant to the fair
+                      value of the assets or liabilities
+
+
+
+
+                                                                                                                      16
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Recurring Measurements
+The following tables present the fair value measurements of assets and liabilities recognized in the accompanying
+consolidated statements of financial position measured at fair value on a recurring basis and the level within the
+fair value hierarchy in which the fair value measurements fall at June 30, 2025 and 2024:
+
+                                                                                     2025
+                                                                        Fair Value Measurements Using
+                                                              Quoted Prices
+                                                                in Active          Significant
+                                                               Markets for            Other        Significant
+                                                                Identical         Observable     Unobservable            Investments
+                                                                 Assets              Inputs          Inputs              Measured at
+                                              Fair Value        (Level 1)           (Level 2)       (Level 3)               NAV(A)
+Assets
+ Cash and Cash Equivalents
+   Money market mutual funds              $      82,540,547   $    82,540,547   $            -   $               -   $                 -
+ Investments
+   Marketable equity securities                156,307,714        156,307,714                -                   -                     -
+   Pooled separate funds
+     Equity securities
+        measured at net asset value (A)        322,625,726                  -                -                   -         322,625,726
+   U.S. Government and
+     agency obligations                          75,621,378        75,621,378                -                   -                     -
+   Corporate bonds and other
+     fixed income securities                         59,754                 -          59,754                    -                     -
+   Private capital
+     Real estate investments
+        measured at net asset value (A)          34,984,101                 -                -                   -          34,984,101
+     Venture capital
+        measured at net asset value (A)        125,627,202                  -                -                   -         125,627,202
+     Domestic private equity
+        measured at net asset value (A)        116,418,666                  -                -                   -         116,418,666
+     International private equity
+        measured at net asset value (A)          22,672,317                 -                -                   -          22,672,317
+     Private capital distressed debt
+        measured at net asset value (A)          20,996,726                 -                -                   -          20,996,726
+     Natural resources
+        measured at net asset value (A)          35,673,054                 -                -                   -          35,673,054
+     Fixed income
+        measured at net asset value (A)          38,024,231                 -                -                   -          38,024,231
+   Hedge funds
+     Absolute return
+        measured at net asset value (A)        216,513,020                  -                -                 -           216,513,020
+   Closely held common stock                   170,499,359                  -                -       170,499,359                     -
+   Real estate held for investment             142,772,349                  -                -       142,772,349                     -
+   Other securities and investments
+      measured at net asset value (A)                15,997                 -                -                   -             15,997
+
+Total Assets                              $   1,561,352,141   $   314,469,639   $      59,754    $   313,271,708     $     933,551,040
+
+Liabilities
+  Unitrust and annuity liabilities        $      17,948,081   $             -   $   17,948,081   $               -   $                 -
+
+
+
+
+                                                                                                                                       17
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+                                                                                     2024
+                                                                        Fair Value Measurements Using
+                                                              Quoted Prices
+                                                                in Active          Significant
+                                                               Markets for            Other        Significant
+                                                                Identical         Observable     Unobservable            Investments
+                                                                 Assets              Inputs          Inputs              Measured at
+                                              Fair Value        (Level 1)           (Level 2)       (Level 3)               NAV(A)
+Assets
+ Cash and Cash Equivalents
+   Money market mutual funds              $      59,774,982   $    59,774,982   $            -   $               -   $                 -
+ Investments
+   Marketable equity securities                194,204,159        194,204,159                -                   -                     -
+   Pooled separate funds
+     Equity securities
+        measured at net asset value (A)        273,723,589                  -                -                   -         273,723,589
+     Fixed income
+        measured at net asset value (A)          40,381,886                 -                -                   -          40,381,886
+   U.S. Government and
+     agency obligations                          30,970,071                 -       30,970,071                   -                     -
+   Corporate bonds and other
+     fixed income securities                         58,125                 -          58,125                    -                     -
+   Private capital
+     Real estate investments
+        measured at net asset value (A)          52,804,079                 -                -                   -          52,804,079
+     Venture capital
+        measured at net asset value (A)        122,403,930                  -                -                   -         122,403,930
+     Domestic private equity
+        measured at net asset value (A)        105,464,015                  -                -                   -         105,464,015
+     International private equity
+        measured at net asset value (A)          24,286,242                 -                -                   -          24,286,242
+     Private capital distressed debt
+        measured at net asset value (A)           9,511,371                 -                -                   -           9,511,371
+     Natural resources
+        measured at net asset value (A)          21,121,750                 -                -                   -          21,121,750
+     Futures
+        measured at net asset value (A)          35,439,815                 -                -                   -          35,439,815
+   Hedge funds
+     Absolute return
+        measured at net asset value (A)        185,290,196                  -                -                 -           185,290,196
+   Closely held common stock                   140,215,231                  -                -       140,215,231                     -
+   Real estate held for investment             149,438,039                  -                -       149,438,039                     -
+   Other securities and investments
+     measured at net asset value (A)                 15,997                 -                -                   -             15,997
+
+Total Assets                              $   1,445,103,477   $   253,979,141   $   31,028,196   $   289,653,270     $     870,442,870
+
+Liabilities
+  Unitrust and annuity liabilities        $      17,576,233   $             -   $   17,576,233   $               -   $                 -
+
+
+           (A) Certain investments that are measured at fair value using the net asset value per share (or its
+               equivalent) practical expedient have not been classified in the fair value hierarchy. The fair value
+               amounts included above are intended to permit reconciliation of the fair value hierarchy to the
+               amounts presented in the consolidated statements of financial position.
+
+
+
+
+                                                                                                                                       18
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Following is a description of the valuation methodologies and inputs used for assets measured at fair value on a
+recurring basis and recognized in the accompanying consolidated statements of financial position, as well as the
+general classification of such assets pursuant to the valuation hierarchy. There have been no significant changes
+in the valuation techniques during the year ended June 30, 2025. For assets classified within Level 3 of the fair
+value hierarchy, the process used to develop the reported fair value is described below.
+
+Investments
+Where quoted market prices are available in an active market, securities are classified within Level 1 of the
+valuation hierarchy. If quoted market prices are not available, then fair values are estimated by using quoted
+prices of securities with similar characteristics or independent asset pricing services and pricing models, the
+inputs of which are market-based or independently sourced market parameters, including, but not limited to, yield
+curves, interest rates, volatilities, prepayments, defaults, cumulative loss projections and cash flows. Such
+securities are classified in Level 2 of the valuation hierarchy. In certain cases where Level 1 or Level 2 inputs are
+not available, securities are classified within Level 3 of the hierarchy. See the table below for inputs and valuation
+techniques used for Level 3 securities.
+
+Unitrust and Annuity Liabilities
+The fair value is estimated using forward-looking interest rate curves and discounted cash flows that are
+observable or can be corroborated by observable market data and, therefore, are classified within Level 2 of the
+hierarchy.
+
+Alternative Investments
+Investments in certain entities measured at fair value using the net asset value per share as a practical expedient
+consist of the following at June 30, 2025 and 2024:
+
+                                                                     June 30, 2025
+                                                              Unfunded         Redemption             Redemption
+                                           Fair Value        Commitments        Frequency             Notice Period
+Pooled separate funds (A)
+  Equity securities                    $    322,625,726     $              -        Monthly             5-45 days
+Private capital (B)
+  Real estate investments                    34,984,101           6,366,327          None                 None
+  Venture capital                           125,627,202          38,082,264          None                 None
+  Domestic private equity                   116,418,666          57,661,369          None                 None
+  International private equity               22,672,317          12,761,065          None                 None
+  Private capital distressed
+    debt - Illiquid                          20,996,726          22,226,400          None                 None
+  Natural resources                          35,673,054          21,294,267          None                 None
+  Fixed income                               38,024,231          17,929,206          None                 None
+Hedge funds
+Absolute return (C)                         216,513,020                    -    None to Annually        3-90 days
+
+
+
+
+                                                                                                                      19
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+                                                                   June 30, 2024
+                                                            Unfunded         Redemption            Redemption
+                                          Fair Value       Commitments        Frequency            Notice Period
+Pooled separate funds (A)
+  Equity securities                   $    273,723,589    $              -        Monthly            5-45 days
+  Fixed income securities                   40,381,886                   -        Monthly            5-45 days
+Private capital (B)
+  Real estate investments                   52,804,079          4,187,465          None                None
+  Venture capital                          122,403,930         32,109,029          None                None
+ Domestic private equity                   105,464,015         54,240,152          None                None
+ International private equity               24,286,242         12,212,208          None                None
+ Private capital distressed
+   debt - Illiquid                           9,511,371          3,976,400          None                None
+ Natural resources                          21,121,750         28,172,367          None                None
+ Fixed income                               35,439,815         23,280,560          None                None
+Hedge funds
+Absolute return (C)                        185,290,196                   -    None to Annually       3-90 days
+
+
+        (A) This category includes investments in pooled separate accounts which hold exchange-traded equity
+            securities and fixed income securities. While the underlying securities in these accounts are primarily
+            highly liquid, exchange-traded securities, the nature of this type of account generally only allows for
+            monthly liquidity at a month end net asset value.
+
+        (B) This category includes investments in private equity and venture capital that invest primarily in
+            domestic and international private companies. Private capital funds are structured as closed-end,
+            commitment-based investment funds where a specified amount of capital is committed upon inception
+            of the fund which is then drawn down over a period of three to five years, and distributions are
+            received through the liquidation of underlying assets of the fund. The typical term of these
+            investments is 12-15 years. Such funds generally do not provide redemption options for investors.
+
+        (C) This category includes investments in hedge funds that pursue multiple strategies to diversify risks
+            and reduce volatility. The funds’ composite portfolio includes investments in U.S. common stocks,
+            global real estate projects and arbitrage investments. Certain funds may have the ability to impose a
+            suspension or postponement of redemptions until further notice (a “Gate”). In addition, certain funds
+            may delay payment of a portion of redemption proceeds (a “Holdback”) until the annual audited
+            financial statements are distributed.
+
+In addition to the funding commitments identified above, the Foundation was committed to invest in new
+alternative investments with committed capital of approximately $79,000,000 as of June 30, 2025.
+
+
+
+
+                                                                                                                   20
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Level 3 Reconciliation
+The following is a reconciliation of the beginning and ending balances of recurring fair value measurements
+recognized in the accompanying consolidated statements of financial position using significant unobservable
+(Level 3) inputs:
+
+                                                            Asset
+                                                           (Closely            Asset
+                                                             Held           (Real Estate
+                                                           Common             Held for
+                                                            Stock)          Investment)              Total
+
+Balance, July 1, 2023                                    $ 128,211,787     $ 135,074,304         $ 263,286,091
+
+  Total realized and unrealized gains
+   (losses) included in change in net assets                13,504,156          7,002,912           20,507,068
+  Purchases/donations                                                -         20,977,881           20,977,881
+  Sales/redemptions                                         (1,500,712)       (13,617,058)         (15,117,770)
+
+Balance, June 30, 2024                                     140,215,231       149,438,039          289,653,270
+
+  Total realized and unrealized gains
+   included in change in net assets                         35,648,073         (6,115,690)          29,532,383
+  Purchases/donations                                                -            206,408              206,408
+  Sales/redemptions                                         (5,363,945)          (756,408)          (6,120,353)
+
+Balance, June 30, 2025                                   $ 170,499,359     $ 142,772,349         $ 313,271,708
+
+
+Realized and unrealized gains and losses for items reflected in the table above are included in change in net
+assets in the consolidated statements of activities as follows:
+
+                                                                           2025                     2024
+
+Total realized gains                                                  $       567,800        $       3,741,108
+Change in unrealized gains (losses)
+ relating to assets still held at the
+ statement of financial position date                                 $    28,964,583        $      16,765,960
+
+
+
+
+                                                                                                             21
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Unobservable (Level 3) Inputs
+The following table presents quantitative information about unobservable inputs used in recurring Level 3 fair
+value measurements.
+
+                                        Fair Value      Valuation Technique           Unobservable Inputs
+June 30, 2025
+  Closely held common stock         $     170,499,359   Market approach
+                                                         Guideline Company Method     Lack of marketability discount - 32%
+                                                         Private Transaction Method   Minority interest discount - 19.1%
+
+  Real estate held for investment   $     142,772,349   Sales Comparison              Property sales of like properties
+                                                                                      Comparative advantages and
+                                                                                        deficiencies
+                                                        Property tax appraisals       Values determined by local county
+                                                                                      Appraisal reports from third-party provider
+
+
+                                        Fair Value      Valuation Technique           Unobservable Inputs
+June 30, 2024
+  Closely held common stock         $     140,215,231   Capitalization of Cash Flow   Risk free rate - 4.2%
+                                                                                      WACC - 14.2%
+                                                                                      Long-term growth - 2.3%
+                                                        Market approach
+                                                         Guideline Company Method     Lack of marketability discount - 32%
+                                                         Private Transaction Method   Minority interest discount - 19.1%
+
+  Real estate held for investment   $     149,438,039   Sales Comparison              Property sales of like properties
+                                                                                      Comparative advantages and
+                                                                                        deficiencies
+                                                        Property tax appraisals       Values determined by local county
+                                                                                      Appraisal reports from third-party provider
+
+
+Uncertainty of Fair Value Measurements
+The following is a description of the uncertainty of the fair value measurement at the reporting date from the use
+of significant unobservable inputs, if those inputs reasonably could have been different at the reporting date.
+
+Closely Held Common Stock
+The significant unobservable inputs used in the fair value measurement of the Foundation’s investment in closely
+held common stock are the discount rates used in the income and market valuation methodologies. Significant
+increases (decreases) in any of those inputs in isolation would result in a significantly lower (higher) fair value
+measurement at the reporting date.
+
+Real Estate
+The significant unobservable inputs used in the fair value measurement of the Foundation’s real estate
+investments are the comparable sales and third-party appraisals. Significant increases (decreases) in any of
+those inputs in isolation would result in a significantly lower (higher) fair value measurement at the reporting date.
+
+
+
+
+                                                                                                                                    22
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Note 4.     Endowment
+The Foundation’s endowment consists of approximately 4,500 individual funds established for a variety of
+purposes. The endowment includes both donor-restricted endowment funds and funds designated by the
+governing body to function as endowments (board-designated endowment funds). As required by accounting
+principles generally accepted in the United States of America (GAAP), net assets associated with endowment
+funds, including board-designated endowment funds, are classified and reported based on the existence or
+absence of donor-imposed restrictions.
+
+The Foundation’s governing body has interpreted the State of Kansas Uniform Prudent Management of Institutional
+Funds Act (UPMIFA) and, thus, classifies amounts in its donor-restricted endowment funds as net assets with
+donor restrictions because those net assets are time restricted until the governing body appropriates such
+amounts for expenditures. Most of those net assets also are subject to purpose restrictions that must be met
+before reclassifying those net assets to net assets without donor restrictions. The governing body of the
+Foundation has interpreted UPMIFA as not requiring the maintenance of purchasing power of the original gift
+amount contributed to an endowment fund, unless a donor stipulates the contrary. As a result of this
+interpretation, when reviewing its donor-restricted endowment funds, the Foundation considers a fund to be
+underwater if the fair value of the fund is less than the sum of (a) the original value of initial and subsequent gift
+amounts donated to the fund and (b) any accumulations to the fund that are required to be maintained in
+perpetuity in accordance with the direction of the applicable donor gift instrument. The Foundation has interpreted
+UPMIFA to permit spending from underwater funds in accordance with the prudent measures required under the
+law. Additionally, in accordance with UPMIFA, the Foundation considers the following factors in making a
+determination to appropriate or accumulate donor-restricted endowment funds:
+
+            1.   Duration and preservation of the fund
+            2.   Purposes of the Foundation and the fund
+            3.   General economic conditions
+            4.   Possible effect of inflation and deflation
+            5.   Expected total return from investment income and appreciation or depreciation of investments
+            6.   Other resources of the Foundation
+            7.   Investment policies of the Foundation
+
+
+
+
+                                                                                                                   23
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+The composition of net assets by type of endowment fund, excluding associated liabilities under split-interest
+agreements, at June 30, 2025 and 2024, was as follows:
+
+                                                                                2025
+                                                      Without Donor          With Donor
+                                                       Restrictions          Restrictions            Total
+
+Board-designated endowment funds
+ Board designated                                    $    21,652,157     $                  -   $    21,652,157
+ Board policy to address
+   underwater endowments                                  39,131,331                        -        39,131,331
+
+Donor-restricted endowment funds
+ Original donor-restricted gift amount
+  and amounts required to be
+  maintained in perpetuity by donor                                 -         678,166,846           678,166,846
+ Accumulated investment gains                                       -         196,586,293           196,586,293
+ Term endowments                                                    -         111,783,631           111,783,631
+
+                                                     $    60,783,488     $ 986,536,770          $ 1,047,320,258
+
+                                                                                2024
+                                                      Without Donor          With Donor
+                                                       Restrictions          Restrictions            Total
+Board-designated endowment funds
+ Board designated                                    $    23,081,130     $                  -   $    23,081,130
+ Board policy to address
+   underwater endowments                                  39,172,257                        -        39,172,257
+
+Donor-restricted endowment funds
+ Original donor-restricted gift amount
+  and amounts required to be
+  maintained in perpetuity by donor                                 -         638,867,570           638,867,570
+ Accumulated investment gains                                       -         174,845,613           174,845,613
+ Term endowments                                                    -         108,182,543           108,182,543
+
+                                                     $    62,253,387     $ 921,895,726          $ 984,149,113
+
+
+
+
+                                                                                                              24
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Changes in endowment net assets for the years ended June 30, 2025 and 2024, were:
+
+                                                                                2025
+                                                       Without Donor         With Donor
+                                                        Restrictions         Restrictions            Total
+
+Endowment net assets -
+ Beginning of year                                     $    62,253,387     $ 921,895,726        $ 984,149,113
+
+  Investment return, net                                     3,101,065          66,768,180          69,869,245
+  Contributions and collections
+    on pledges and estates                                      67,090          37,285,545          37,352,635
+  Appropriation of endowment
+    assets for expenditure and
+    change in donor designation                             (4,638,054)        (39,412,681)         (44,050,735)
+
+Endowment net assets -
+ End of year                                           $    60,783,488     $ 986,536,770        $ 1,047,320,258
+
+
+                                                                                2024
+                                                       Without Donor         With Donor
+                                                        Restrictions         Restrictions            Total
+
+Endowment net assets -
+ Beginning of year                                     $    61,529,498     $ 872,879,792        $ 934,409,290
+
+  Investment return (loss), net                                459,552          55,019,400          55,478,952
+  Contributions and collections
+    on pledges and estates                                     265,978          27,929,177          28,195,155
+  Appropriation of endowment
+    assets for expenditure and
+    change in donor designation                                 (1,641)        (33,932,643)         (33,934,284)
+
+Endowment net assets -
+ End of year                                           $    62,253,387     $ 921,895,726        $ 984,149,113
+
+
+Investment and Spending Policies
+The Foundation has adopted investment and spending policies for endowment assets that attempt to provide a
+predictable stream of funding to programs and other items supported by its endowment while seeking to maintain
+the purchasing power of the endowment. Endowment assets include those assets of donor-restricted endowment
+funds the Foundation must hold in perpetuity or for donor-specified periods, as well as those of board-designated
+endowment funds, charitable gift annuities, endowed charitable gifts of real estate and endowed unitrusts held by
+the Foundation.
+
+
+
+
+                                                                                                              25
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+To satisfy its long-term rate of return objectives, the Foundation relies on a total return strategy in which
+investment returns are achieved through both current yield (investment income such as dividends and interest)
+and capital appreciation (both realized and unrealized). The Foundation targets a diversified asset allocation to
+achieve its long-term return objectives within prudent risk constraints. For the fiscal years ended June 30, 2025
+and 2024, the total return of the Endowment Pool was 6.63% and 8.82%, respectively.
+
+The Foundation’s board of directors determines the Endowment Pool’s percentage distribution of total return to
+the participating funds. The distributions approved by the board of directors are:
+
+            1. A distribution to purpose, annually using 12 quarter unit value average multiplied by the
+               distribution rate set by the board of directors. This action creates a distribution smoothing and is
+               consistent with the board of directors’ long-term strategic plan to protect future purchasing power.
+
+            2. Distribution rates for the years ended June 30, 2025 and 2024 were 4.3%.
+
+            3. The balance of the total return remains in the participating funds.
+
+Term endowed accounts are invested in the same manner as endowed accounts and share the same endowment
+pool operating costs. They differ from endowed accounts in that quasi-endowment distributions may utilize the
+donor’s gift and earnings/investment growth to make the distribution to purpose and the distribution rate is specific
+to the donor memo of understanding.
+
+A donor to a term endowment account may choose from three distribution options:
+
+            1. Fixed dollar option pays distributions in multiples of $500; or
+
+            2. Fixed percentage option pays distributions of 4%, 5%, 6% or 8% of market value annually; or
+
+            3. Situational option pays distributions of 50% or 100% of tuition and fees for the number of hours
+               taken by an average full-time student.
+
+Term endowed accounts are to be established at a financial amount expected to last for 10 years or more.
+
+Underwater Endowments
+From time to time, the fair value of assets associated with individual donor-restricted endowment funds may fall
+below the level the Foundation is required to retain as a fund of perpetual duration pursuant to donor stipulation or
+UPMIFA. At June 30, 2025, funds with original gift values of $7,362,140, fair values of $7,299,417 and
+deficiencies of $62,723 were reported in net assets with donor restrictions. At June 30, 2024, funds with original
+gift values of $8,719,445, fair values of $8,594,852 and deficiencies of $124,593 were reported in net assets with
+donor restrictions. These deficiencies resulted from unfavorable market fluctuations that occurred shortly after
+investment of new restricted contributions and continued appropriation for certain purposes that was deemed
+prudent by the governing body.
+
+The Foundation’s policy regarding distributions on underwater funds will not allow distributions on funds more
+than 15% underwater.
+
+For funds that are underwater 0% - 7.5%, the full distribution as a participating account will be made; for funds
+7.51% to 15%, it will be a 50% distribution of the amount of a participating account.
+
+
+
+
+                                                                                                                  26
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Note 5.     Liquidity and Availability
+Financial assets available for general expenditure, that is, without donor or other restrictions limiting their use,
+within one year of June 30, 2025 and 2024, comprise the following:
+
+                                                                                2025                    2024
+
+Cash and cash equivalents                                                 $     28,839,486        $     26,854,187
+Accounts receivable                                                                165,523               3,244,872
+Appropriations from endowments                                                     906,563                 450,641
+
+                                                                          $     29,911,572        $     30,549,700
+
+
+The Foundation receives significant contributions restricted by donors and considers contributions restricted for
+programs which are ongoing, major and central to its annual operations to be available to meet cash needs for
+general expenditures. For the years ended June 30, 2025 and 2024, restricted contributions of $943,212 and
+$881,902, respectively, were included in financial assets available to meet cash needs for general expenditures
+within one year.
+
+The Foundation’s endowment funds consist of donor-restricted endowments and funds designated by the board
+as endowments. Income from donor-restricted endowments is restricted for specific purposes, with the exception
+of the amounts available for general use. Donor-restricted endowment funds are not available for general
+expenditure.
+
+At June 30, 2025 and 2024, the board-designated endowments of approximately $21,652,000 and $23,081,000,
+respectively, which are utilized for general operations are subject to an annual spending rate as described in Note
+4. Although the Foundation does not intend to spend from this board-designated endowment (other than amounts
+appropriated for general expenditure as part of the board’s annual budget approval and appropriation), these
+amounts could be made available if necessary.
+
+The Foundation manages its liquidity and reserves following three guiding principles: operating within a prudent
+range of financial soundness and stability, maintaining adequate liquid assets to fund near-term operating needs
+and maintaining sufficient reserves to provide reasonable assurance that long-term obligations will be discharged.
+The Foundation bases financial reserves targets on projected deficiencies in income streams due to market
+downturns or delays in payments. In addition to available financial assets, the Foundation operates with a
+balanced budget and anticipates collecting sufficient revenue to cover all general expenditures. The Foundation
+has a line of credit agreement with a third-party lender available for general corporate purposes. Under the terms
+of the line of credit agreement, the Foundation can borrow a maximum of $10 million. There were no borrowings
+against the line at June 30, 2025 and 2024 (see Note 12). During the years ended June 30, 2025 and 2024, the
+level of liquidity and reserves was managed within the policy requirements.
+
+
+
+
+                                                                                                                 27
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Note 6.     Pledges Receivable
+Pledges receivable consisted of the following at June 30, 2025 and 2024:
+
+                                                                                  2025
+                                                    Without Donor              With Donor
+                                                     Restrictions              Restrictions         Total
+
+Due in less than one year                           $              -            $53,276,153    $    53,276,153
+Due in one to five years                                           -            119,784,096        119,784,096
+Due thereafter                                                     -              6,959,286          6,959,286
+                                                                   -            180,019,535        180,019,535
+
+Less
+ Allowance for uncollectible
+ contributions                                                     -               6,856,231         6,856,231
+ Unamortized discount                                              -              26,327,039        26,327,039
+
+                                                    $              -       $    146,836,265    $   146,836,265
+
+                                                                                  2024
+                                                    Without Donor              With Donor
+                                                     Restrictions              Restrictions         Total
+
+Due in less than one year                           $              -       $     45,373,119    $    45,373,119
+Due in one to five years                                           -             98,340,520         98,340,520
+Due thereafter                                                     -              7,968,976          7,968,976
+                                                                   -            151,682,615        151,682,615
+
+Less
+ Allowance for uncollectible
+ contributions                                                     -               5,237,669         5,237,669
+ Unamortized discount                                              -              20,196,688        20,196,688
+
+                                                    $              -       $    126,248,258    $   126,248,258
+
+
+Discount rate used on pledges receivable ranged from 3.25% to 8.5% at June 30, 2025 and ranged from 3.25% to
+8.75% at June 30, 2024.
+
+Approximately 31% and 19% of pledges receivable were due from two and one donor at June 30, 2025 and 2024,
+respectively.
+
+Approximately $79,118,000 and $55,649,000 of pledges receivable were due from related parties such as
+members of the board of directors and trustees, employees of the Foundation and University affiliated
+organizations and colleges, as of June 30, 2025 and 2024, respectively.
+
+
+
+
+                                                                                                            28
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Note 7.    Property and Equipment
+Property and equipment at June 30, 2025 and 2024, consisted of:
+
+                                                                         2025                  2024
+
+Buildings and improvements                                         $     14,262,132      $     14,208,333
+Furniture and equipment                                                   6,034,227             4,954,257
+Land                                                                        415,996               415,996
+Other                                                                       138,937               123,734
+                                                                         20,851,292            19,702,320
+Less accumulated depreciation and amortization                           (6,591,688)           (6,664,966)
+
+                                                                   $     14,259,604      $     13,037,354
+
+
+Golf Course assets are reported net of accumulated depreciation on the Foundation’s consolidated financial
+statements. Property and equipment for the Golf Course consist of:
+
+                                                                         2025                  2024
+
+Land and land improvements                                         $      3,946,864      $      3,834,604
+Buildings and improvements                                                7,411,019             7,388,245
+Other                                                                     3,219,759             2,893,296
+                                                                         14,577,642            14,116,145
+Less accumulated depreciation and amortization                           (7,038,105)           (6,543,737)
+
+                                                                   $      7,539,537      $      7,572,408
+
+
+
+
+                                                                                                        29
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Note 8.     Net Assets
+
+Net Assets With Donor Restrictions
+Net assets with donor restrictions at June 30, 2025 and 2024 are restricted for the following purposes or periods:
+
+                                                                                2025                    2024
+Subject to expenditure for specific purpose
+ Excellence and programs                                                  $   238,493,547        $    204,542,829
+ Student enhancement                                                           52,367,686              49,516,402
+ Facility enhancement                                                          61,652,444              45,072,020
+ Faculty enhancement                                                           12,556,819              11,309,019
+
+Promises to give and other receivables
+ restricted by donors for
+   Excellence and programs                                                     40,531,546              20,402,970
+   Student enhancement                                                         17,702,193              19,738,359
+   Facility enhancement                                                        56,240,216              60,695,212
+   Faculty enhancement                                                          1,265,129               1,223,801
+                                                                              480,809,580             412,500,612
+
+Subject to the passage of time
+ Charitable trusts and gift annuities                                            2,238,951               1,941,559
+
+  Real estate held for use                                                      12,549,538             12,582,409
+
+                                                                              495,598,069             427,024,580
+
+
+
+
+                                                                                                                 30
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+                                                                             2025                   2024
+Endowments
+Subject to appropriation and expenditure when a
+ specific event occurs
+   Excellence and programs                                             $     47,075,124       $     45,223,677
+   Student enhancement                                                       44,978,400             43,646,918
+   Facility enhancement                                                       5,555,099              4,878,946
+   Faculty enhancement                                                        3,950,193              4,218,425
+                                                                            101,558,816             97,967,966
+
+Promises to give and other receivables subject to
+ expenditure when a specific event occurs                                      3,111,738               872,267
+
+Real estate held for specific event or appropriation                           9,664,617             9,636,387
+Trust assets to be held subject to appropriation when realized                 1,244,485             1,183,975
+
+                                                                            115,579,656            109,660,595
+
+Subject to endowment spending policy and
+ appropriation
+   Excellence and programs                                                  191,685,813            180,708,130
+   Student enhancement                                                      439,115,645            410,121,178
+   Facility enhancement                                                       9,632,863              8,994,238
+   Faculty enhancement                                                      151,240,952            134,586,040
+                                                                            791,675,273            734,409,586
+
+Promises to give and other receivables to be held in perpetuity              44,071,010             35,763,518
+Real estate to be held in perpetuity                                         60,133,746             57,597,103
+Trust assets to be held in perpetuity                                        19,819,655             16,713,282
+
+Total net assets with donor restrictions                               $ 1,526,877,409        $ 1,381,168,664
+
+
+Net Assets Without Donor Restrictions
+Net assets without donor restrictions at June 30, 2025 and 2024 have been designated for the following purposes:
+
+                                                                             2025                   2024
+
+Undesignated                                                           $     61,826,355       $     51,505,016
+Designated by the Board for operating reserve                                 9,790,380              9,723,217
+Designated by the Board for endowment                                        50,261,091             54,764,977
+Investment in real property, property and
+  equipment, net, designated for endowment                                   12,549,437             15,097,525
+
+                                                                       $    134,427,263       $    131,090,735
+
+
+
+
+                                                                                                              31
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Net Assets Released from Restrictions
+Net assets were released from donor restrictions by incurring expenses satisfying the restricted purposes or by
+occurrence of other events specified by donors:
+
+                                                                                  2025                     2024
+
+Expiration of time restrictions                                             $      7,473,208        $       5,970,441
+Satisfaction or purpose restrictions
+ Student enhancement                                                               7,066,843               6,454,964
+ Excellence and programs                                                          17,771,631               9,151,925
+ Faculty enhancement                                                              53,977,016              58,915,610
+ Facility enhancement                                                              8,894,223               2,945,725
+ Other support                                                                       128,080                 113,387
+
+                                                                                  87,837,793              77,581,611
+
+ Restricted-purpose spending-rate distributions and appropriations
+  Student enhancement                                                             17,803,530              15,404,167
+  Excellence and programs                                                          7,243,420               5,680,727
+  Faculty enhancement                                                              4,847,641               4,650,486
+  Facility enhancement                                                               262,912                 198,219
+
+                                                                                  30,157,503              25,933,599
+
+                                                                            $    125,468,504        $    109,485,651
+
+
+
+
+Note 9.     Unitrust and Annuity Liabilities
+
+Gift Annuities
+The Foundation has been the recipient of gift annuities which require future payments to the donor or their named
+beneficiaries. Beneficiary annuity rates typically follow the guidelines recommended by the American Council on
+Gift Annuities and range from 4.0% to 11.5%. The assets received from donors are recorded at fair value of
+approximately $15,933,000 and $8,973,000 as of June 30, 2025 and 2024, respectively. The Foundation has
+recorded a liability at June 30, 2025 and 2024, totaling $8,166,259 and $8,119,806, respectively, which
+represents the present value of the future annuity obligations. The liability has been determined using a discount
+rate of 5.0% and 5.6% in 2025 and 2024, respectively.
+
+Charitable Remainder Trust
+The Foundation administers various charitable remainder trusts. A charitable remainder trust provides for the
+payment of distributions to the grantor or other designated beneficiaries over the trust’s term (usually the
+designated beneficiary’s lifetime or a specific time period). At the end of the trust’s term, the remaining assets are
+available for the Foundation’s use. The portion of the trust attributable to the future interest of the Foundation is
+recorded in the consolidated statements of activities as contributions with donor restrictions as designated by the
+donor, in the period the trust is established. Assets held in charitable remainder trusts are recorded at fair value of
+approximately $35,312,000 and $31,934,000 as of June 30, 2025 and 2024, respectively, and are included in
+investments in the Foundation’s consolidated statements of financial position. On an annual basis, the Foundation
+revalues the liability to make distributions to the designated beneficiaries based on actuarial assumptions. The
+
+
+
+                                                                                                                    32
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+present value of the estimated future payments is calculated using a discount rate of 5.0% and 5.6% in 2025 and
+2024, respectively, as well as applicable mortality tables, and amounted to $9,781,822 and $9,456,427 at
+June 30, 2025 and 2024, respectively.
+
+
+
+Note 10. Employee Benefit Plan
+The Foundation’s board of directors has established the Kansas State University Foundation Defined Contribution
+Retirement Plan (the Plan). The Plan provides for a mandatory employer matching contribution of 10.0% for the
+years ended June 30, 2025 and 2024. Employees are fully vested when plan contributions are made. Employer
+contributions paid by the Foundation were $1,488,461 and $1,456,082 for the years ended June 30, 2025 and
+2024, respectively.
+
+The Plan requires mandatory employee participation at time of hire with a minimum contribution of 5.5%.
+
+
+
+Note 11. New Market Tax Credit Financing
+During 2018, the Foundation and its newly formed subsidiary 1880 Kimball, LLC began participation in a New
+Market Tax Credit (NMTC) program. NMTC programs were established as part of the Community Renewal Tax
+Relief Act of 2000. The goal of the NMTC programs is to spur revitalization efforts of low-income and
+impoverished communities across the United States and its Territories by providing tax credit incentives to
+investors in certain community development entities. The tax credit for investors equals 39% of the investment,
+and investors receive the tax credit over a seven year period. A community development entity (CDE) is required
+to participate and has the primary mission of providing the financing for revitalization project in low-income
+communities.
+
+NMTC financing allows entities such as the Foundation to receive low-interest loans or investment capital from
+CDEs, primarily financial institutions, which will allow their investors to receive tax credits. As a result of
+participation in the NMTC program, the Foundation obtained $14,650,000 of financing for the construction and
+outfitting of a new office building that was completed and placed in operations in 2019.
+
+The Foundation’s NMTC program was formed based on the following series of transactions:
+
+    •   USBCDC Investment Fund 199, LLC (Fund 199) was formed in March 2017 with $5.031 million of equity
+        in the form of NMTCs infused by U.S. Bancorp Community Development Corporation (USBCDC).
+
+    •   KSUCREF obtained a $9.097 million loan from a bank (see Note 12). The Foundation also provided $1.3
+        million in cash to KSUCREF. $10.374 million in net proceeds were in turn loaned to Fund 199 by
+        KSUCREF, which is recorded as a note receivable in the consolidated statements of financial position.
+
+    •   The Foundation formed a wholly owned subsidiary, 1880 Kimball, LLC, which was the qualified active
+        low-income community business (QALICB) established to hold the land and building development project.
+
+    •   Fund 199 invested $15.0 million in its 99.99% owned qualified low-income community investment
+        subsidiaries (sub-CDEs) for purposes of making a qualified low-income community investment loan
+        (QLICI) to QALICB.
+
+
+
+
+                                                                                                             33
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+    •   Two Community Development Entities owned the remaining 0.01% of sub-CDE and committed to
+        providing financing to QALICB in the form of loans totaling $14.65 million (the “CDE loans”) in exchange
+        for the tax credits.
+
+1880 Kimball also obtained a direct loan with a bank to provide additional construction lending, if necessary.
+
+The Foundation has entered into lease arrangements with third party entities to occupy the building. The rental
+payments received by 1880 Kimball were used to fund the debt service payments.
+
+On July 22, 2024, the company’s seven-year compliance period for the 1880 New Markets Tax Credit (NMTC)
+investment expired. In accordance with the original investment agreements, the company exercised its Put option,
+resulting in the exit of the investors from the NMTC structure. Loans from CBKC CDC SUB-CDE 40, LLC and
+NCIF New Markets Capital Fund XXVII CDE, LLC were deemed paid in full. The company acquired its interest in
+USBCDC Investment Fund 199, LLC from for a nominal consideration, after which the investment fund was
+dissolved. As a result of this transaction, the Foundation recognized a net gain of approximately $3.9 million in
+Investment Return (loss), net in the accompanying consolidated statement of activities for the year ended
+June 30, 2025.
+
+During 2024, the Foundation and its newly formed subsidiary, 1960 Kimball, LLC, began participation in a New
+Market Tax Credit (NMTC) program.
+
+As a result of participation in the NMTC program, the Foundation obtained $9,800,000 of financing for the
+construction and outfitting of a new office building that was completed and placed in operations in fiscal year
+2025.
+
+The Foundation’s NMTC program was formed based on the following series of transactions:
+
+    •   Twain Investment Fund 349, LLC was formed in July 2023 with $3.120 million of equity in the form of
+        NMTCs infused by U.S. Bancorp Community Development Corporation (USBCDC).
+
+    •   The Foundation provided $7.085 million in cash to KSUCREF. $7.085 million in net proceeds were in turn
+        loaned to Twain Investment Fund 349 by KSUCREF, which is recorded as a note receivable in the
+        consolidated statements of financial position.
+
+    •   The Foundation formed a wholly owned subsidiary, 1960 Kimball, LLC, which was the qualified active
+        low-income community business (QALICB) established to hold the land and building development project.
+
+    •   Twain Investment Fund 349 invested $10 million in its 99.99% owned qualified low-income community
+        investment subsidiary (sub-CDE) for purpose of making a qualified low income community investment
+        loan (QLICI) to QALICB.
+
+    •   One Community Development Entity owned the remaining 0.01% of sub-CDE and committed to providing
+        financing to QALICB in the form of loans totaling $9.8 million (the “CDE” loan) in exchange for the tax
+        credits.
+
+The Foundation has entered into lease arrangements with third party entities to occupy the building. The rental
+payments received by 1960 Kimball will be used to fund the debt service payments.
+
+
+
+
+                                                                                                                 34
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Note 12. Long-Term Debt
+
+                                                                               2025                   2024
+
+Kansas State Revenue Bonds (A)                                          $      22,854,343       $     23,745,130
+KSUGCMRF Notes Payable, Various Financiers (B)                                  1,630,524              1,328,913
+Finance Equipment Leases, Various Financiers (C)                                   91,201                130,439
+Lines of Credit, Various Financiers (D)                                           198,600                645,833
+KSUCREF Note Payable, Various Financiers (E)                                    8,820,000             16,690,806
+1880 Kimball Notes Payable, Various Financiers (F)                                      -             14,650,000
+Other Notes Payable, Various Financiers (G)                                     3,926,161              4,543,479
+Notes Payable (H)                                                              32,500,337             24,215,337
+1960 Kimball Notes Payable (I)                                                  9,800,000              9,800,000
+
+                                                                               79,821,166             95,749,937
+Less unamortized debt issuance costs                                           (1,081,772)            (1,125,286)
+
+                                                                        $      78,739,394       $     94,624,651
+
+
+The Foundation undertakes real estate transactions that further the mission of Kansas State University. At no time
+do any of these transactions utilize donor gifts to meet debt or operating obligations.
+
+        (A) On September 12, 2013, the Foundation acquired financing, via Series 2013D Revenue Bonds,
+            totaling $9,035,000. The bonds were issued to fund construction of the new Department of Agriculture
+            headquarters on Foundation owned property in the Kansas State University Research Park. The
+            Foundation’s obligation to make payments under the loan agreement is limited to the lease amounts
+            received from the Department of Agriculture pursuant to an Assignment of Leases and Rents
+            between the Foundation and the Bond Trustee. Lease payments are subject and dependent upon
+            appropriations being made by the Kansas Legislature for such purpose. Coupon rates range from 2%
+            to 5% with scheduled semi-annual payments beginning April 1, 2014 through October 1, 2033.
+            Unamortized debt issuance costs were $128,267 and $142,519 at June 30, 2025 and 2024,
+            respectively.
+
+            On August 1, 2019, the Foundation acquired financing, via Series 2019A Revenue Bonds, totaling
+            $8,765,000. The bonds were issued to fund construction of the new Department of Agriculture
+            Laboratory on Foundation owned property in the Kansas State University Research Park. The
+            Foundation’s obligation to make payments under the loan agreement is limited to the lease amounts
+            received from the Department of Agriculture pursuant to an Assignment of Leases and Rents
+            between the Foundation and the Bond Trustee. Coupon rates range from 2.0% to 3.0% with
+            scheduled annual payments beginning October 1, 2021 through October 1, 2049. Unamortized debt
+            issuance costs were $220,083 and $228,886 at June 30, 2025 and 2024, respectively.
+
+            On March 15, 2022, the Foundation acquired financing, via Series 2022A Revenue Bonds, totaling
+            $9,480,000. The bonds were issued to fund construction of the new Kansas State University
+            Aerospace and Technology Campus Housing Project. The Foundation’s obligation to make payments
+            under the loan agreement is limited to the lease amounts received from Kansas State University
+            pursuant to an agreement between the KSU Real Estate Fund, LLC and Kansas State University.
+            Coupon rates range from 1.5% to 5.0% with scheduled annual payments to begin May 1, 2024
+            through May 1, 2053. Unamortized debt issuances costs were $275,214 and $285,147 at June 30,
+            2025 and 2024, respectively.
+
+
+
+                                                                                                               35
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+      (B) On March 27, 2020, the Foundation obtained a line of credit. The line of credit had a balance drawn
+          of $462,080 and $112,398 at June 30, 2025 and 2024, respectively and is due on demand. Interest
+          varies with the Wall Street Journal Prime Rate plus 0.5%.
+
+          KSUGCMRF has a note payable with a maturity date of September 15, 2042 at a 3.5% interest rate.
+          There was $1,168,444 and $1,216,515 outstanding on the note at June 30, 2025 and 2024,
+          respectively.
+
+      (C) Lease expiring March 2026 with required quarterly payments of $8,290 at an imputed rate of
+          1.8125%. Lease expiring January 2026 with required monthly payments of $1,171 at an imputed rate
+          of 0.428%.
+
+      (D) The Foundation had a $4,000,000 revolving bank line of credit which expired and was fully paid in
+          October 2024. There was $88,233 borrowed against the line at June 30, 2024.
+
+          The Foundation also has a $10,000,000 revolving bank line of credit expiring in December 2028.
+          There were no borrowings against the line at June 30, 2025 and 2024. The line is collateralized by
+          certain real property assets of the Foundation. The interest rate is variable based on the one-month
+          SOFR rate, plus 1.15%.
+
+          The Foundation has a $3,185,000 revolving bank line of credit expiring in June 2026. There was
+          $198,600 and $557,600 borrowed against the line at June 30, 2025 and 2024, respectively. Interest
+          varies with the one-month SOFR rate, plus 1.45%.
+
+      (E) Repaid in July 2024; monthly interest-only payments beginning August 2017 through July 2020;
+          monthly repayments of $55,605 beginning in August 2020 through maturity with remaining principal
+          and interest due upon maturity. Interest rate is set at a fixed rate of 4.10%. Loan is secured by certain
+          assets and property of KSUCREF, as defined. Issued as part of the new market tax credit agreement
+          (see Note 11). Borrowings on this note were $7,870,806 at June 30, 2024. This note was paid in full
+          as of June 30, 2025.
+
+          On January 20, 2023, the Foundation obtained a note payable with maturity on January 20, 2026 with
+          a fixed interest rate at 5.89%. Repayment of the note and any accrued but unpaid interest is payable
+          on January 20, 2026. Borrowings on this note were $8,820,000 at June 30, 2025 and 2024.
+
+      (F) Due in July 2052 from two lenders (CBKC sub-CDE and NCIF sub-CDE) through four promissory
+          notes (CBKC Note A in the amount of $6,948,500, CBKC Note B in the amount of $2,851,500, NCIF
+          Note A in the amount of $3,425,500 and NCIF Note B in the amount of $1,424,500). Periodic
+          payments on the notes are as follows:
+
+          •   Monthly interest-only payments beginning in September 2017 through September 2024;
+
+          •   In July 2024, an aggregate principal payment of $9,431,892 (CBKC Note A - $6,092,993, CBKC
+              Note B - $285,150, NCIF Note A - $3,003,749, NCIF Note B - $50,000) plus interest is due;
+
+          •   Beginning in October 2024, aggregate quarterly principal and interest payments of $55,513
+              (CBKC Note A - $9,101, CBKC Note B - $27,302, NCIF Note A - $4,487, NCIF Note B - $14,623)
+              through June 2033;
+
+          •   Beginning in September 2033, quarterly payments of principal and interest to fully amortize the
+              principal amount of the loans through the maturity date.
+
+
+
+
+                                                                                                                36
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+          Interest rate is set at a fixed rate of 2.89%. Loans are secured by mortgages and improvements on
+          property constructed with loan proceeds. Issued as part of the new market tax credit agreement (see
+          Note 11).
+
+          In July 2024, the seven year compliance period for the New Market Tax Credit financing expired - see
+          Note 7 for additional disclosure.
+
+      (G) Due in November 2027; quarterly principal and interest payments of $35,664 beginning in December
+          2020 through November 2027, with a balloon payment of all unpaid principal and interest due on
+          maturity. The credit agreement is collateralized by certain real property assets of the Foundation.
+          Interest is set at a fixed rate of 2.55%. Borrowings on this note were $1,476,053 and $1,654,580 as of
+          June 30, 2025 and 2024, respectively. The credit agreement, among other provisions, contains a
+          financial covenant, which includes that the Foundation maintain a liquidity coverage ratio of 1.10 to
+          1.00 as defined in the credit agreement. Management of the Foundation has provided this calculation
+          to the bank certifying their compliance with this covenant as of June 30, 2025.
+
+          The Foundation also has available credit through a construction loan agreement with a bank with a
+          maximum commitment of $1,219,258 that matured in July 2024. Interest is variable at the five-year
+          treasury bond rate plus 2.20%. As part of the credit agreement, the Foundation is required to maintain
+          certain financial covenants, including a minimum liquidity ratio of 1.10 to 1.00 and minimum debt
+          service coverage ratio of 1.15 to 1.00. Borrowings on this note were $353,104 at June 30, 2024. The
+          note balance was paid in full in 2025.
+
+          Due in August 2031; annual repayments of $160,000 beginning in October 2026. Note is interest free.
+          The note contains certain provisions that allow forgiveness on up to $400,000 of the note balance
+          upon achievement and maintenance of certain employment requirements, as defined in the
+          agreement. Borrowings on this note were $800,000 at both June 30, 2025 and 2024.
+
+          Due in November 2027; monthly repayments of $10,500 beginning in December 2020. Interest is
+          fixed at 2.63%. Borrowing on this note was $1,650,108 and $1,735,795 at June 30, 2025 and 2024,
+          respectively.
+
+      (H) On June 20, 2023, the Foundation obtained a note payable with maturity on June 20, 2030 with a
+          fixed interest rate of 5.14%. Semi-annual repayments begin in December 2026 through December
+          2029 with increasing payments and a balloon payment of $23,059,810 due in June 2030.
+          Unamortized debt issuance costs were $183,439 and $220,127 at June 30, 2025 and 2024,
+          respectively. The agreement contains financial covenants, which includes the Foundation shall not
+          permit at any time the ratio of Assets Without Donor Restriction to Total Records Debt, as defined in
+          the credit agreement, to be less than 2.0 to 1.0 and the Foundation shall not permit at any time the
+          ratio of Unencumbered Assets Without Donor Restriction to Unsecured Debt, as defined in the credit
+          agreement, to be less than 2.0 to 1.0. Management of the Foundation has provided this calculation to
+          the lender certifying compliance with the covenants as of June 30, 2025.
+
+          On July 22, 2024, the Foundation obtained a note payable with maturity on July 22, 2027, with a fixed
+          interest rate at 6.06%. Repayments are made in annual installments of $517,813 with the remainder
+          of the balance due in full on the maturity date. Borrowings on this note was $8,285,000 as of June 30,
+          2025. The agreement contains the same financial covenants as the note payable above.
+
+      (I) Due in December 2053 from one lender (LEFG sub-CDE) through two promissory notes (LEFG Note
+          A in the amount of $7,085,400 and LEFG Note B in the amount of $2,714,600). Period payments on
+          the notes are as follows:
+
+          •   Quarterly interest only payments beginning in September 2023 through December 2030
+
+
+
+                                                                                                             37
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+             •   Beginning in March 2031, aggregate quarterly principal payments of $122,440 (LEFG Note A
+                 $88,524 and LEFG Note B $33,916) through December 2053 to fully amortize the principal
+                 amount of the loans through the maturity date.
+
+             Interest rate is fixed at 1.23%. Loans are secured by mortgages and improvements on property
+             constructed with loan proceeds. Issued as part of the new market tax credit agreement (see Note 12).
+             Unamortized debt costs were $260,721 and $240,638 at June 30, 2025 and 2024, respectively.
+
+Aggregate annual maturities of long-term debt at June 30, 2025, are:
+
+2026                                                                     $     11,553,422
+2027                                                                            2,195,066
+2028                                                                           11,283,741
+2029                                                                            1,521,792
+2030                                                                           34,072,253
+Thereafter                                                                     19,194,892
+
+                                                                         $     79,821,166
+
+Total interest expense on long-term debt amounted to $3,543,927 and $3,992,880 during 2025 and 2024,
+respectively.
+
+In September 2024, the Foundation entered into a series of transactions contemporaneously with a local
+municipality. To facilitate property tax exemptions on recently placed in service physical assets, the Foundation
+entered into a lease-leaseback arrangement with the municipality, where the Foundation leased a building to the
+municipality, who immediately leased the same facility back to the Foundation. In accordance with ASC 842,
+Leases, this transaction is accounted for as a financing arrangement as the control of the underlying asset (the
+building) does not change as a result of the lease-leaseback arrangement. As part of the leasing arrangement,
+the municipality issued Industrial Revenue Bonds (IRB) up to an amount not to exceed $30,000,000 (par value as
+of June 30, 2025 of $27,400,000), for which all debt service is funded by the rent obligations from the Foundation.
+In exchange for entering into the Foundation leasing the facility to the municipality, the investment in the same
+IRB was assigned to the Foundation (basis as of June 30, 2025 of $27,400,000). The IRB matures in
+December 31, 2034 and has no stated repayment terms during the life of the facility. At maturity or any point prior
+to maturity, the holder of the investment in the IRB has the contractual right to surrender the bond and cancel the
+obligation to repay the IRB, for which the Foundation as both the holder and obligor of the IRB has determined
+they are likely to do. Foundation management has assessed and determined the criteria to offset the contracts in
+the consolidated statement of financial position in accordance with ASC 210-20-45-1 have been met, resulting in
+the investment in the debt security and the obligation being netted in the accompanying consolidated statement of
+financial position.
+
+
+
+Note 13. Significant Estimates and Concentrations
+Accounting principles generally accepted in the United States of America require disclosure of certain significant
+estimates and current vulnerabilities due to certain concentrations. Those matters include the following:
+
+Litigation
+Management is not aware of any significant outstanding litigation. The Foundation is subject to claims and
+lawsuits that arise primarily in the ordinary course of its activities. It is the opinion of management that the
+
+
+
+
+                                                                                                                38
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+disposition or ultimate resolution of such claims and lawsuits will not have a material adverse effect on the
+financial position, change in net assets and cash flows of the Foundation.
+
+Contributions
+No concentrations from donor contributions existed as of June 30, 2025. Approximately 14% of all contributions
+were received from one donor in 2024. During 2025 and 2024, approximately 13% and 10% of all contributions
+were received to benefit one fund.
+
+Investments
+The Foundation invests in various investment securities. Investment securities are exposed to various risks such
+as interest rate, market and credit risks. Due to the level of risk associated with certain investment securities, it is
+at least reasonably possible that changes in the values of investment securities will occur in the near term and
+that such change could materially affect the amounts reported in the accompanying consolidated statements of
+financial position.
+
+Allowance for Doubtful Collections on Pledges Receivable
+Management estimates an allowance for doubtful collections on pledges receivable based on historical trends,
+individual donor circumstances and current economic conditions. Actual future collections on pledges could result
+in material future losses.
+
+
+
+Note 14. Other Support Revenue
+Other support revenue, excluding actuarial gains (losses) on unitrusts and annuity obligations, is recognized as
+the Foundation satisfies performance obligations under its contracts. Revenue is reported at the estimated
+transaction price or amount that reflects the consideration to which the Foundation expects to be entitled to in
+exchange for providing services. The Foundation determines the transaction price based on standard charges for
+services provided, reduced by implicit and explicit price concessions, if any.
+
+Performance obligations are determined based on the nature of the services provided by the Foundation in
+accordance with the contract. Performance obligations accounted for within other support revenue include
+revenues earned for fundraising and administrative services, investment management services and other
+revenues. Revenue for performance obligations satisfied over time is recognized ratably over the period based on
+time elapsed. The Foundation believes this method provides a faithful depiction of the transfer of services over
+the term of the performance obligations satisfied as a point in time is generally recognized when services are
+provided at a single point in time and the Foundation does not believe it is required to provide additional services
+related to that sale.
+
+Performance Obligations and Transaction Price Allocated to Remaining Performance
+Obligations
+Because all of its performance obligations relate to contracts with a duration of less than one year, the Foundation
+has elected to apply the optional exemption provided in FASB ASC 606-10-50-14(a) and, therefore, is not
+required to disclose the aggregate amount of the transaction price allocated to performance obligations that are
+unsatisfied or partially unsatisfied at the end of the reporting period. The unsatisfied or partially unsatisfied
+performance obligations referred to above are primarily related to fundraising and administrative services and
+investment management services. The performance obligation for these contracts are generally satisfied at the
+end of the contract period.
+
+
+
+
+                                                                                                                     39
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+Significant Judgments
+The Foundation determines the transaction price based on standard charges for services provided. The
+Foundation has minimal exposure to discounts, allowances, price concessions or other components of variable
+transaction price.
+
+Disaggregation of Revenue
+The composition of revenue based on services provided and timing of revenue recognition for the years ended
+June 30, 2025 and 2024, are as follows:
+
+                                                                                 2025                    2024
+
+Pooled endowment fund fee income                                          $      14,186,285       $      13,086,954
+Sole source revenue                                                               5,000,000               5,000,000
+University advancement fee income                                                 4,016,795               2,882,558
+Other                                                                             2,736,148               2,259,425
+
+Operational service charges, management fees and other                    $      25,939,228       $      23,228,937
+
+Service lines
+ Departmental deposits                                                    $       3,206,816       $       2,709,815
+ Other                                                                              633,155               1,065,032
+
+University departmental activities and funding allotments, etc.           $       3,839,971       $       3,774,847
+
+Timing of revenue and recognition
+  Services transferred over time                                          $      25,939,228       $      23,228,937
+  Sales at point in time                                                          3,839,971               3,774,847
+
+  Total                                                                   $      29,779,199       $      27,003,784
+
+
+
+
+Note 15. Conditional Promises and Intentions to Give
+Conditional promises and intentions to give are not recognized in the consolidated financial statements due to the
+unknown occurrence of a specified future and uncertain event. Donors have notified the Foundation of conditional
+promises and intentions to give approximating $911,700,000 and $823,400,000 at June 30, 2025 and 2024,
+respectively, in the form of bequests and life insurance policies, respectively. Future amounts received may vary
+significantly as the potential donor has no obligation to retain the Foundation as the beneficiary. Additionally, the
+timing of any receipts is unknown. As a result, the Foundation has not applied a discount rate to these amounts.
+
+
+
+Note 16. Related-Party Transactions
+The purpose of the Foundation is to aid, foster and promote the development and welfare of Kansas State
+University (“University”) in Manhattan, Kansas, and the education and welfare of its students, faculty and alumni,
+and to acquire property of all kinds for purposes stated above. The Foundation is dependent upon the existence
+of the University.
+
+
+
+                                                                                                                  40
+Kansas State University Foundation
+Notes to Consolidated Financial Statements
+June 30, 2025 and 2024
+
+
+The Foundation previously entered into several direct financing and sales-type leases with the University for
+certain real properties which were purchased by the Foundation on behalf of the University, which the University
+then entered into five year leases with a transfer of ownership clause at the completion of the lease. There was
+$8,992,007 and $9,248,997 in lease receivables recorded in other assets and accrued investment income for the
+years ended June 30, 2025 and 2024, respectively.
+
+
+
+Note 17. Contributed Nonfinancial Assets
+For the years ended June 30, 2025 and 2024, contributed nonfinancial assets recognized within the consolidated
+statements of activities included:
+
+                                                                                  2025                    2024
+
+Properties                                                                 $         215,340       $       1,200,210
+Other nonfinancial assets contributed                                              3,531,359              12,915,910
+
+                                                                           $       3,746,699       $      14,116,120
+
+The nonfinancial assets listed above were recognized within revenue. Unless otherwise noted, contributed
+nonfinancial assets did not have donor-imposed restrictions.
+
+Properties
+It is the Foundation’s policy to sell all contributed property, unless restricted by the donor. Contributed properties
+are valued at the date of the gift using real estate tax appraisals, comparable sales approach, etc.
+
+Other Contributed Items
+There are other nonfinancial assets that were contributed. The Foundation’s policy is to sell these assets, unless
+restricted by the donor. Other contributed items include contributions of artwork, equipment, furnishings, non-
+inventoriable goods, professional services, livestock, vehicles, rental services, etc. Other contributed items are
+valued at fair value based on similar transactions observable in the market.
+
+
+
+Note 18. Subsequent Events
+Subsequent events were evaluated through September 24, 2025, which is the date the consolidated financial
+statements were issued.
+
+
+
+
+                                                                                                                   41
+

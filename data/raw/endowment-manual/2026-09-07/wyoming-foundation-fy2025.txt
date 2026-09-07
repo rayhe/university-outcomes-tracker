@@ -1,0 +1,1233 @@
+University of Wyoming Foundation
+          Financial Report
+           June 30, 2025
+University of Wyoming Foundation
+
+                                                      Contents
+
+Independent Auditor's Report                             1-2
+
+Financial Statements
+
+  Statement of Financial Position                        3
+
+  Statement of Activities and Changes in Net Assets      4
+
+  Statement of Functional Expenses                       5-6
+
+  Statement of Cash Flows                                7
+
+  Notes to Financial Statements                         8-24
+                                          Independent Auditor's Report
+
+
+To the Board of Directors
+University of Wyoming Foundation
+
+Opinion
+We have audited the financial statements of University of Wyoming Foundation (the "Foundation"), which
+comprise the statement of financial position as of June 30, 2025 and 2024 and the related statements of activities
+and changes in net assets, functional expenses, and cash flows for the years then ended, and the related notes
+to the financial statements.
+In our opinion, the accompanying financial statements present fairly, in all material respects, the financial position
+of the Foundation as of June 30, 2025 and 2024 and the changes in its net assets and its cash flows for the years
+then ended in accordance with accounting principles generally accepted in the United States of America.
+Basis for Opinion
+We conducted our audits in accordance with auditing standards generally accepted in the United States of
+America (GAAS). Our responsibilities under those standards are further described in the Auditor's Responsibilities
+for the Audits of the Financial Statements section of our report. We are required to be independent of the
+Foundation and to meet our ethical responsibilities in accordance with the relevant ethical requirements relating
+to our audits. We believe that the audit evidence we have obtained is sufficient and appropriate to provide a basis
+for our audit opinion.
+Emphasis of Matter
+As described in Note 4 to the financial statements, the June 30, 2025 and 2024 financial statements include
+certain investments valued at approximately $405,000,000 (61 percent of net assets) and $403,000,000 (66
+percent of net assets) as of June 30, 2025 and 2024, respectively, whose fair values are not based on readily
+determinable fair values. Management recognizes the fair value of these investments based on information
+provided by the fund managers or general partners. Our opinion is not modified with respect to this matter.
+Responsibilities of Management for the Financial Statements
+Management is responsible for the preparation and fair presentation of the financial statements in accordance
+with accounting principles generally accepted in the United States of America and for the design, implementation,
+and maintenance of internal control relevant to the preparation and fair presentation of financial statements that
+are free from material misstatement, whether due to fraud or error.
+In preparing the financial statements, management is required to evaluate whether there are conditions or events,
+considered in the aggregate, that raise substantial doubt about the Foundation's ability to continue as a going
+concern within one year after the date that the financial statements are issued or available to be issued.
+Auditor’s Responsibilities for the Audits of the Financial Statements
+Our objectives are to obtain reasonable assurance about whether the financial statements as a whole are free
+from material misstatement, whether due to fraud or error, and to issue an auditor's report that includes our
+opinion. Reasonable assurance is a high level of assurance but is not absolute assurance and, therefore, is not a
+guarantee that audits conducted in accordance with GAAS will always detect a material misstatement when it
+exists. The risk of not detecting a material misstatement resulting from fraud is higher than for one resulting from
+error, as fraud may involve collusion, forgery, intentional omissions, misrepresentations, or the override of internal
+control. Misstatements are considered material if there is a substantial likelihood that, individually or in the
+aggregate, they would influence the judgment made by a reasonable user based on the financial statements.
+
+
+
+
+                                                          1
+To the Board of Directors
+University of Wyoming Foundation
+
+In performing audits in accordance with GAAS, we:
+
+• Exercise professional judgment and maintain professional skepticism throughout the audits.
+• Identify and assess the risks of material misstatement of the financial statements, whether due to fraud or
+   error, and design and perform audit procedures responsive to those risks. Such procedures include
+   examining, on a test basis, evidence regarding the amounts and disclosures in the financial statements.
+
+• Obtain an understanding of internal control relevant to the audits in order to design audit procedures that are
+   appropriate in the circumstances but not for the purpose of expressing an opinion on the effectiveness of the
+   Foundation's internal control. Accordingly, no such opinion is expressed.
+
+• Evaluate the appropriateness of accounting policies used and the reasonableness of significant accounting
+   estimates made by management, as well as evaluate the overall presentation of the financial statements.
+
+• Conclude whether, in our judgment, there are conditions or events, considered in the aggregate, that raise
+   substantial doubt about the Foundation's ability to continue as a going concern for a reasonable period of time.
+We are required to communicate with those charged with governance regarding, among other matters, the
+planned scope and timing of the audits, significant audit findings, and certain internal control-related matters that
+we identified during the audits.
+
+
+
+
+October 21, 2025
+
+
+
+
+                                                         2
+University of Wyoming Foundation
+                                                          Statement of Financial Position
+                                                                                 June 30, 2025 and 2024
+
+                                                                                2025            2024
+
+                                                      Assets
+Cash and cash equivalents                                                 $     1,023,902 $     1,456,705
+Investments (Note 4)                                                          931,108,313     870,730,839
+Bitcoin                                                                        42,015,050      24,135,294
+Equity method investments                                                      27,711,345      27,081,118
+Receivables - Net:
+    Contributions receivable (Note 7)                                          22,660,915      23,402,131
+    Other accounts receivable                                                     111,391         269,348
+Prepaid expenses and other assets                                                  59,488         251,419
+Contributed assets held for sale                                                  421,600         421,600
+Property and equipment - Net (Note 8)                                          30,875,116      32,418,416
+
+                Total assets                                              $ 1,055,987,120 $   980,166,870
+
+                                             Liabilities and Net Assets
+Liabilities
+   Accounts payable (Note 9)                                              $    12,812,254 $     6,613,937
+   Amounts held for others (Note 10)                                          373,194,500     348,967,018
+   Split-interest agreements payable (Note 11)                                  5,492,882       4,739,763
+   Accrued and other liabilities                                                  601,958         516,493
+   Grand Avenue Property note payable (Note 12)                                 4,517,007       4,750,424
+                Total liabilities                                             396,618,601     365,587,635
+Net Assets (Note 13)
+  Without donor restrictions:
+     Undesignated                                                              29,647,986      40,978,168
+     Board designated                                                          42,240,267      43,348,484
+                Total without donor restrictions                               71,888,253      84,326,652
+   With donor restrictions                                                    587,480,266     530,252,583
+                Total net assets                                              659,368,519     614,579,235
+
+                Total liabilities and net assets                          $ 1,055,987,120 $   980,166,870
+
+
+
+
+See notes to financial statements.                       3
+University of Wyoming Foundation
+                                                                          Statement of Activities and Changes in Net Assets
+                                                                                                                        Years Ended June 30, 2025 and 2024
+                                                                                 2025                                                   2024
+                                                          Without Donor       With Donor                         Without Donor       With Donor
+                                                           Restrictions       Restrictions       Total            Restrictions       Restrictions       Total
+
+Revenue, Gains, and Other Support
+   Contributions and state match                      $         8,544,416 $       42,547,187 $    51,091,603 $        17,152,068 $       34,738,255 $    51,890,323
+   Less contributions to accounts held for
+     others (Note 10)                                          (8,887,905)                -       (8,887,905)        (16,523,637)                -      (16,523,637)
+   Contributions of nonfinancial assets                                -             418,000         418,000                  -              42,500          42,500
+   University of Wyoming                                          280,000                 -          280,000             910,978                 -          910,978
+   Assessments                                                 10,328,471        (10,308,104)         20,367           9,610,934         (9,603,978)          6,956
+   (Loss) return from equity method investments                  (427,008)          (488,728)       (915,736)          4,943,719          5,658,295      10,602,014
+   Gain from remeasurement of Bitcoin                           8,337,330          9,542,426      17,879,756           5,729,154          6,557,259      12,286,413
+   Net investment return                                       29,148,385         32,054,827      61,203,212          26,152,321         30,389,997      56,542,318
+   Less net investment return on amounts held for
+     others (Note 10)                                         (26,689,572)                   -   (26,689,572)        (25,629,200)                   -   (25,629,200)
+   Change in cash surrender value of life insurance
+     policies                                                          -              74,188          74,188                  -              79,612          79,612
+   Change in value of split-interest agreements                        -             372,574         372,574                  -             374,692         374,692
+   Other revenue                                                1,024,101          3,345,210       4,369,311           1,058,997          4,606,016       5,665,013
+   Net assets released from restrictions                       20,329,897        (20,329,897)             -           27,438,801        (27,438,801)             -
+
+                   Total revenue, gains, and other
+                     support                                   41,988,115         57,227,683      99,215,798          50,844,135         45,403,847      96,247,982
+
+Expenses
+   Program services:
+      Program expenses                                         48,142,994                    -    48,142,994          42,592,054                    -    42,592,054
+      Less distributions made from amounts held for
+        others (Note 10)                                      (11,338,854)                   -   (11,338,854)        (11,277,251)                   -   (11,277,251)
+
+                   Total program services                      36,804,140                    -    36,804,140          31,314,803                    -    31,314,803
+
+   Support services:
+      Fundraising                                               8,970,866                    -     8,970,866           8,992,050                    -     8,992,050
+      Management and general                                    8,651,508                    -     8,651,508           9,485,702                    -     9,485,702
+
+                   Total expenses                              54,426,514                    -    54,426,514          49,792,555                    -    49,792,555
+
+Change in Net Assets                                          (12,438,399)        57,227,683      44,789,284           1,051,580         45,403,847      46,455,427
+
+Net Assets - Beginning of year                                 84,326,652        530,252,583     614,579,235          83,275,072        484,848,736     568,123,808
+
+Net Assets - End of year                              $        71,888,253 $      587,480,266 $   659,368,519 $        84,326,652 $      530,252,583 $   614,579,235
+
+
+
+
+See notes to financial statements.                                                    4
+University of Wyoming Foundation
+                                                  Statement of Functional Expenses
+                                                                               Year Ended June 30, 2025
+                                                  Program                      Management
+                                                  Services       Fundraising   and General         Total
+
+Distributions to University of Wyoming          $ 47,831,610 $            -    $         -     $ 47,831,610
+Less distributions made from amounts held for
+  others                                          (11,338,854)            -              -       (11,338,854)
+University of Wyoming support                          50,000             -              -            50,000
+University of Wyoming president support               109,884             -              -           109,884
+University of Wyoming Alumni Association
+  support                                            151,500              -               -         151,500
+Salaries                                                  -        4,889,043       3,196,843      8,085,886
+Employee benefits                                         -        1,879,329       1,309,944      3,189,273
+Equipment and data processing                             -          728,606         915,262      1,643,868
+Building maintenance                                      -               -          146,227        146,227
+Printing and duplication                                  -          443,489          31,404        474,893
+Investment counsel fees                                   -               -          335,226        335,226
+Travel and entertainment                                  -          513,190         183,211        696,401
+Interest                                                  -               -          139,273        139,273
+Insurance                                                 -               -          291,403        291,403
+Contractual services                                      -          364,972         252,151        617,123
+Professional development                                  -          101,480          69,069        170,549
+Supplies                                                  -            1,688          27,839         29,527
+Moving and recruiting expenses                            -               -            6,321          6,321
+Legal fees                                                -               -           21,933         21,933
+Depreciation                                              -               -        1,725,402      1,725,402
+Taxes                                                     -           49,069              -          49,069
+      Total functional expenses                 $ 36,804,140 $     8,970,866 $     8,651,508 $ 54,426,514
+
+
+
+
+See notes to financial statements.                   5
+University of Wyoming Foundation
+                                                  Statement of Functional Expenses
+                                                                               Year Ended June 30, 2024
+                                                  Program                      Management
+                                                  Services       Fundraising   and General         Total
+
+Distributions to University of Wyoming          $ 42,001,813 $            -    $         -     $ 42,001,813
+Less distributions made from amounts held for
+  others                                          (11,277,251)            -              -       (11,277,251)
+University of Wyoming support                         412,916             -              -           412,916
+University of Wyoming president support               120,825             -              -           120,825
+University of Wyoming Alumni Association
+  support                                             56,500              -               -          56,500
+Salaries                                                  -        4,444,517       3,698,036      8,142,553
+Employee benefits                                         -        1,967,551       1,572,035      3,539,586
+Equipment and data processing                             -          687,237         745,508      1,432,745
+Building maintenance                                      -               -          864,238        864,238
+Printing and duplication                                  -          431,517          32,687        464,204
+Investment counsel fees                                   -               -          315,029        315,029
+Travel and entertainment                                  -          488,410         190,250        678,660
+Interest                                                  -               -          146,210        146,210
+Insurance                                                 -               -          276,343        276,343
+Contractual services                                      -          801,072          95,617        896,689
+Professional development                                  -          122,969          75,203        198,172
+Supplies                                                  -            2,032          23,699         25,731
+Moving and recruiting expenses                            -               -           99,974         99,974
+Legal fees                                                -               -           46,932         46,932
+Depreciation                                              -               -        1,303,941      1,303,941
+Taxes                                                     -           46,745              -          46,745
+      Total functional expenses                 $ 31,314,803 $     8,992,050 $     9,485,702 $ 49,792,555
+
+
+
+
+See notes to financial statements.                   6
+University of Wyoming Foundation
+                                                                   Statement of Cash Flows
+                                                                      Years Ended June 30, 2025 and 2024
+
+                                                                                  2025           2024
+
+Cash Flows from Operating Activities
+  Increase in net assets                                                     $   44,789,284 $   46,455,427
+  Adjustments to reconcile increase in net assets to net cash and cash
+    equivalents from operating activities:
+     Depreciation                                                                  1,725,402      1,303,941
+     Loss on disposal of property and equipment                                       18,918             -
+     Change in value of charitable remainder trusts                                 (372,574)      (374,692)
+     Contributions of nonfinancial assets                                                 -         (42,500)
+     Net realized and unrealized gains on investments                            (22,494,566)   (52,235,824)
+     Contributions for long-term purposes                                         (7,741,836)   (15,177,553)
+     Changes in operating assets and liabilities that (used) provided cash
+       and cash equivalents:
+         Contributions receivable                                                (16,689,310)    (2,445,249)
+         Other accounts receivable                                                   157,957        (83,942)
+         Prepaid expenses and other assets                                           191,931       (178,000)
+         Accounts payable                                                          6,198,317      1,628,805
+         Amounts held for others                                                  (2,462,090)     5,240,444
+         Accrued and other liabilities                                                85,465         51,986
+         Split-interest agreements payable                                         1,125,693        486,406
+                Net cash and cash equivalents provided by (used in)
+                 operating activities                                             4,532,591     (15,370,751)
+Cash Flows from Investing Activities
+  Purchase of property and equipment                                               (201,020)       (704,292)
+  Proceeds from disposition of property and equipment                                    -        1,789,813
+  Purchases of investments                                                   (3,031,478,853) (1,519,854,140)
+  Proceeds from sales and maturities of investments                           3,003,321,497   1,520,572,321
+  Investment in equity method investee                                           (7,148,991)    (15,677,034)
+  Distributions from equity method investee                                       5,603,028      14,325,047
+                Net cash and cash equivalents (used in) provided by
+                 investing activities                                            (29,904,339)      451,715
+Cash Flows from Financing Activities
+  Payments on notes payable                                                        (233,417)      (226,480)
+  Contributions collected for long-term purposes                                 25,172,362     15,443,259
+                Net cash and cash equivalents provided by financing
+                 activities                                                      24,938,945     15,216,779
+Net (Decrease) Increase in Cash and Cash Equivalents                               (432,803)       297,743
+Cash and Cash Equivalents - Beginning of year                                     1,456,705       1,158,962
+Cash and Cash Equivalents - End of year                                      $    1,023,902 $     1,456,705
+
+Supplemental Cash Flow Information - Cash paid for interest                  $      139,273 $      146,210
+
+
+
+
+See notes to financial statements.                     7
+University of Wyoming Foundation
+                                                           Notes to Financial Statements
+                                                                                       June 30, 2025 and 2024
+Note 1 - Nature of Business
+     University of Wyoming Foundation (the "Foundation") is an independent not-for-profit organization
+     established for the purpose of obtaining contributions for the benefit of the University of Wyoming (the
+     "University") and management of the related investments in accordance with donor directions. The
+     Foundation and the University of Wyoming Institutional Advancement Office cooperate significantly and
+     utilize common staff in performing the fundraising activities and management of investments. Accordingly,
+     the Foundation's financial statements present the shared budget expenditures and recognize as support
+     the University of Wyoming's contribution to the shared budget.
+
+Note 2 - Significant Accounting Policies
+     Basis of Presentation
+     The financial statements of the Foundation have been prepared on the basis of generally accepted
+     accounting principles (GAAP).
+     Classification of Net Assets
+     Net assets of the Foundation are classified based on the presence or absence of donor-imposed
+     restrictions.
+     Net assets without donor restrictions: Net assets that are not subject to donor-imposed restrictions or for
+     which the donor-imposed restrictions have expired or been fulfilled. Net assets in this category may be
+     expended for any purpose in performing the primary objectives of the Foundation.
+     Net assets with donor restrictions: Net assets subject to stipulations imposed by donors and grantors.
+     Some donor restrictions are temporary in nature; those restrictions will be met by actions of the
+     Foundation or by the passage of time. Other donor restrictions are perpetual in nature, where the donor
+     has stipulated the funds be maintained in perpetuity.
+     Earnings, gains, and losses on donor-restricted net assets are classified as net assets without donor
+     restrictions unless specifically restricted by the donor or by applicable state law.
+     Use of Estimates
+     The preparation of financial statements in conformity with generally accepted accounting principles
+     requires management to make estimates and assumptions that affect the reported amounts of assets and
+     liabilities and disclosure of contingent assets and liabilities at the date of the financial statements and the
+     reported amounts of revenue and expenses during the reporting period. Actual results could differ from
+     those estimates.
+     Cash and Cash Equivalents
+     The Foundation considers all depository bank account balances, other than those held as part of the
+     investment portfolio and subject to the investment policy, to be cash and cash equivalents. At times, the
+     Foundation may hold cash and cash equivalents in excess of FDIC insurance coverage.
+     Investments and Equity Method Investments
+     The Foundation records investment purchases initially at cost or, when donated to the Foundation, at fair
+     value at the date of donation. The majority of investments are held in the short-term or long-term
+     investment pools (endowment pool). Both investment pools are managed at the direction of the chief
+     investment officer and the investment committee of the Foundation's board of directors.
+
+
+
+
+                                                       8
+University of Wyoming Foundation
+                                                          Notes to Financial Statements
+                                                                                     June 30, 2025 and 2024
+Note 2 - Significant Accounting Policies (Continued)
+     Other entities affiliated with the University, including the Cowboy Joe Club, various departments of the
+     University of Wyoming, and the University's endowments, participate with the Foundation where certain
+     assets are pooled for investment purposes. The Foundation manages the assets of the pool and
+     maintains separate accounts for each participant. Investment income, gains, losses, and expenses of the
+     pool are allocated to each participant based on their unit interest in the pool, consistent with the practice
+     described below for endowments. These portions of the investment pools managed on behalf of others
+     are included in the investment asset balances presented, as well as a liability for amounts due to others,
+     on the statement of financial position. The investment returns (losses) and other activity affecting these
+     amounts managed on behalf of others are excluded from total revenue or expenses on the statement of
+     activities and changes in net assets, as these transactions do not increase or decrease the net assets of
+     the Foundation.
+     Investments in limited liability companies in which the Foundation has more than a minor interest (more
+     than 20 percent) is accounted for using the equity method. Under the equity method, the investment is
+     carried at cost, adjusted for the Foundation’s proportionate share of undistributed earnings or losses.
+     Impairment losses, if any, due to a decline in the value of the investment that would be other than
+     temporary will be recognized when incurred. No impairment losses were recognized for 2025 and 2024.
+     Investments in equity securities with readily determinable fair values and investments in debt securities
+     are reported at fair value, with unrealized gains and losses included in earnings.
+     Investments in equity securities without a readily determinable fair value are recorded at cost and
+     adjusted for any observable changes in price. Impairment losses due to a decline in the value of the
+     investment that is other than temporary are recognized when incurred. No impairment losses were
+     recognized for 2025 and 2024.
+     Included in the investment portfolio are real estate and note receivable assets managed under the
+     investment policy. These assets are stated at cost and present value, respectively, subject to impairment.
+     No impairment losses were recognized for 2025 and 2024 and the notes receivable were repaid during
+     2025.
+     The alternative investments, composed primarily of hedge funds and limited partnerships, which are not
+     readily marketable, are measured at fair value, valued at net asset value per share as the practical
+     expedient. The Foundation reviews and evaluates the values provided by the investment managers and
+     agrees with the valuation methods and significant assumptions used in determining fair value. Those
+     estimated fair values may differ significantly from the values that would have been used had a ready
+     market for these securities existed.
+     Endowed funds use an investment pool approach, under which each restricted purpose endowment has
+     a specific unit interest based on its capital contributions to the pool. Income earned in the pool is
+     allocated monthly to unrestricted funds for general operations and to the individual endowments in
+     proportion to the unit interests as of the end of the month. Gains and losses from the sale of pooled
+     investments and unrealized gains and losses on investments held are allocated in the same manner.
+     Bitcoin
+     The Foundation's investment pool includes Bitcoin assets, which the Foundation considers to be
+     investments, and they are managed under the investment policy. Bitcoin assets meeting certain criteria
+     are recognized at cost and subsequently measured at fair value. Change in value of the Bitcoin assets is
+     presented separately on the statement of activities and changes in net assets.
+
+
+
+
+                                                      9
+University of Wyoming Foundation
+                                                           Notes to Financial Statements
+                                                                                       June 30, 2025 and 2024
+Note 2 - Significant Accounting Policies (Continued)
+     Investments Risk and Uncertainties
+     The Foundation invests in various investment securities. Investment securities are exposed to various
+     risks, such as interest rate, market, and credit risks. Due to the level of risk associated with certain
+     investment securities, it is at least reasonably possible that changes in the values of investment securities
+     will occur in the near term and that such changes could materially affect investment account balances
+     and the amounts reported in the financial statements.
+     Property and Equipment
+     The Foundation capitalizes major expenditures for property and equipment, which are recorded at cost
+     or, if donated, at fair value at the time of donation.
+     Gifts of long-lived assets, if any, such as land, buildings, or equipment, are reported as support without
+     donor restrictions unless explicit donor stipulations specify how the donated asset must be used. Gifts of
+     long-lived assets with explicit restrictions that specify how the assets are to be used and gifts of cash or
+     other assets that must be used to acquire long-lived assets must be maintained. Expirations of donor
+     restrictions are reported when the donated or acquired long-lived assets are placed in service.
+     Straight-line depreciation methods are used for computing depreciation. Assets are depreciated over their
+     estimated useful lives, as outlined in the table below:
+                                                                       Depreciable Life -
+                                                                            Years
+
+                            Buildings                                        35-39
+                            Vehicles                                           5
+                            Furniture, fixtures, and other                   5-15
+                            Computers, equipment, and software               5-15
+                            Digital asset mining equipment                     3
+                            Right-of-use operating lease assets                5
+
+     Costs of maintenance and repairs are charged to expense when incurred.
+     Split-interest Agreements
+     The Foundation is a remainder beneficiary of several charitable gift annuity and charitable remainder
+     unitrusts. Required distributions to other beneficiaries range from 4.5 percent to 9.7 percent of gift or
+     market value, as defined by each agreement. The discount rates used to calculate the present value
+     range from 5.0 percent to 5.6 percent.
+     Contributions
+     Contributions of cash and other assets, including unconditional promises to give in the future, are
+     reported as revenue when received, measured at fair value. Donor promises to give in the future are
+     recorded at the present value of estimated future cash flows. Contributions resulting from split-interest
+     agreements, measured at the time the agreements are entered, are based on the difference between the
+     fair value of the assets received or promised and the present value of the obligation to the third-party
+     recipient(s) under the contract. Contributions without donor-imposed restrictions are reported as
+     contributions without donor restrictions.
+     There were no significant contributions of nonfinancial assets during fiscal years ended June 30, 2025
+     and 2024.
+
+
+
+
+                                                      10
+University of Wyoming Foundation
+                                                               Notes to Financial Statements
+                                                                                            June 30, 2025 and 2024
+Note 2 - Significant Accounting Policies (Continued)
+     Functional Allocation of Expenses
+     Costs of providing the program and support services have been reported on a functional basis in the
+     statement of functional expenses. The financial statements report certain categories of expenses that are
+     attributable to more than one program or supporting function. Therefore, these expenses require
+     allocation on a reasonable basis that is consistently applied. Expenses are allocated to the various
+     functions based on either the underlying purpose of the expense or allocated based on the percentage of
+     time employees spend on each function for those that can be attributable to more than one function, such
+     as salaries and benefits. Costs have been allocated between the various program and support services
+     based on estimates determined by management. Although the methods of allocation used are considered
+     appropriate, other methods could be used that would produce different amounts.
+     Income Taxes
+     The Foundation is a not-for-profit corporation and is exempt from tax under the provisions of Internal
+     Revenue Code Section 501(c)(3).
+     Subsequent Events
+     The financial statements and related disclosures include evaluation of events up through and including
+     October 21, 2025, which is the date the financial statements were available to be issued.
+     On July 1, 2025, the Foundation was gifted ownership of shares in an S corporation with a fair value of
+     approximately $13,900,000. As the Foundation owns 100 percent of the shares of the corporation, all
+     activity will be consolidated.
+
+Note 3 - Liquidity and Availability of Resources
+     The following reflects the Foundation's financial assets as of June 30 reduced by amounts not available
+     for general use because of contractual or donor-imposed restrictions within one year of the statement of
+     financial position date:
+                                                                                         2025            2024
+
+         Cash and cash equivalents                                                $       1,023,902 $     1,456,705
+         Investments, equity method investments, and Bitcoin                          1,000,834,708     921,947,251
+         Contributions receivable                                                        22,660,915      23,402,131
+         Other receivables                                                                  111,391         269,348
+
+                    Financial assets - At year end                                    1,024,630,916     947,075,435
+         Less those unavailable for general expenditures within one year
+          due to:
+            Contractual or donor-imposed restrictions:
+                Restricted by donor with purpose and time restrictions                  65,026,562       61,584,293
+                Subject to appropriation and satisfaction of donor restrictions
+                  related to endowment                                                 522,453,704      468,668,290
+                Amounts held for others                                                373,194,500      348,967,018
+                Split-interest agreements payable                                        5,492,882        4,739,763
+            Board-designated endowments                                                 12,991,478       11,951,680
+
+                    Financial assets available to meet cash needs for general
+                      expenditures within one year                                $     45,471,790 $     51,164,391
+
+     The Foundation has a policy to structure its financial assets to be available as its general expenditures,
+     liabilities, and other obligations come due. In addition, the Foundation invests cash in excess of daily
+     requirements in various short-term investments.
+
+                                                          11
+University of Wyoming Foundation
+                                                           Notes to Financial Statements
+                                                                                     June 30, 2025 and 2024
+Note 3 - Liquidity and Availability of Resources (Continued)
+     The Foundation also realizes there could be unanticipated liquidity needs.
+     The Foundation’s endowment funds consist of donor-restricted endowments and board-designated
+     endowments of $535,445,182 and $480,619,970 and custodial endowment corpus totaling $347,598,365
+     and $325,030,952 at June 30, 2025 and 2024, respectively. Income from donor-restricted endowments is
+     restricted for specific purposes and, therefore, is not available for general expenditure. As described in
+     Note 14, the board-designated endowment has a spending rate based on December market values and
+     based on the prior year's distribution. A total of $160,163 of appropriations from the board-designated
+     endowment will be available within the next 12 months. Although the Foundation does not intend to
+     spend from its board-designated endowment other than amounts appropriated for general expenditure as
+     part of its annual budget approval and appropriation process, amounts from its board-designated
+     endowment could be made available if necessary. However, both the board-designated endowment and
+     donor-restricted endowments contain investments with lock-up provisions that would reduce the total
+     investments that could be made available (see Note 4 for disclosures about investments).
+
+Note 4 - Investments and Fair Value Measurements
+     Accounting standards require certain assets and liabilities be reported at fair value in the financial
+     statements and provide a framework for establishing that fair value. The framework for determining fair
+     value is based on a hierarchy that prioritizes the inputs and valuation techniques used to measure fair
+     value.
+     Fair values determined by Level 1 inputs use quoted prices in active markets for identical assets that the
+     Foundation has the ability to access.
+     Fair values determined by Level 2 inputs use other inputs that are observable, either directly or indirectly.
+     These Level 2 inputs include quoted prices for similar assets in active markets and other inputs, such as
+     interest rates and yield curves, that are observable at commonly quoted intervals.
+     Level 3 inputs are unobservable inputs, including inputs that are available in situations where there is
+     little, if any, market activity for the related asset. These Level 3 fair value measurements are based
+     primarily on management’s own estimates using pricing models, discounted cash flow methodologies, or
+     similar techniques taking into account the characteristics of the asset.
+     In instances where inputs used to measure fair value fall into different levels in the above fair value
+     hierarchy, fair value measurements in their entirety are categorized based on the lowest level input that is
+     significant to the valuation. The Foundation’s assessment of the significance of particular inputs to these
+     fair value measurements requires judgment and considers factors specific to each asset.
+     Investments that are measured at fair value using net asset value (NAV) per share (or its equivalent) as a
+     practical expedient are not classified into the fair value hierarchy below but are shown in a separate
+     column beside those assets that are classified into the hierarchy. The fair value amounts presented in the
+     following tables are intended to permit reconciliation of the fair value hierarchy to the amounts presented
+     on the statement of financial position. Those investments that are measured at NAV require additional
+     disclosures regarding the liquidity and redemption conditions around the investments, which are
+     presented later in this note.
+
+
+
+
+                                                      12
+University of Wyoming Foundation
+                                                            Notes to Financial Statements
+                                                                                       June 30, 2025 and 2024
+Note 4 - Investments and Fair Value Measurements (Continued)
+     Investments for Which it was Not Practicable to Estimate Fair Value
+     The Foundation holds certain investments that are considered for accounting treatment under GAAP as
+     investments in equity securities without readily determinable fair values under ASC 321. Under this
+     accounting treatment, the securities are recorded initially at cost and adjusted for any observable
+     changes in price. Impairment losses due to a decline in the value of the investment that is other than
+     temporary are recognized when incurred. The Foundation must reassess at each reporting period
+     whether these equity securities continue to qualify for this treatment due to a lack of a readily
+     determinable fair value. If a fair value becomes readily available or if the Foundation makes an election to
+     measure these securities at fair value despite the impracticalities, the securities must be measured at fair
+     value from that point forward.
+     The Foundation holds a number of equity interests related to startup companies. Certain equity interests
+     required no cash to be paid for these equity interests, as they were obtained as consideration in
+     exchange for the use of university facilities and personnel, as well as licensing considerations. The
+     investments are held on behalf of, and in trust for, the University. It was not practicable to estimate the fair
+     value of these equity interests. The investments as of June 30, 2025 and 2024 have not incurred any
+     downward or upward adjustments in value in either of the years then ended or cumulatively since the
+     investments were placed, as no observable price changes for identical or similar investments of the same
+     issuer have occurred, and no impairment indicators have become present. Accordingly, no unrealized
+     gains or losses have been recognized on these investments without readily determinable fair values.
+     The Foundation holds a separate equity interest where cash was paid for the equity interest in the startup
+     company. Original cost of the investment is approximately $7,000,000 as of June 30, 2025 and 2024.
+     Subsequent to payment for the equity interests, there were observable transactions that allowed the
+     Foundation to adjust the recorded amount up to approximately $20,000,000 as of June 30, 2024, which is
+     included in investments on the statement of financial position. The investment declined in value during
+     the year ended June 30, 2025, as observable price changes for identical or similar investments of the
+     same issuer have occurred. Therefore, the Foundation has adjusted the recorded amount to
+     approximately $10,000,000 as of June 30, 2025 on the statement of financial position. Accordingly,
+     unrealized losses have been recognized on this investment without readily determinable fair values within
+     net investment return on the statement of activities and changes in net assets.
+     Investments that are measured at fair value using net asset value per share (or its equivalent) as a
+     practical expedient are not classified in the fair value hierarchy below.
+
+
+
+
+                                                       13
+University of Wyoming Foundation
+                                                                      Notes to Financial Statements
+                                                                                                      June 30, 2025 and 2024
+Note 4 - Investments and Fair Value Measurements (Continued)
+          The following tables present information about the Foundation’s assets measured at fair value on a
+          recurring basis at June 30, 2025 and 2024 and the valuation techniques used by the Foundation to
+          determine those fair values:
+                                                      Assets Measured at Fair Value on a Recurring Basis at June 30, 2025
+                                       Quoted Prices in                           Significant
+                                       Active Markets for Significant Other     Unobservable
+                                        Identical Assets Observable Inputs           Inputs          Investments          Balance at
+                                            (Level 1)          (Level 2)           (Level 3)      Measured at NAV       June 30, 2025
+
+Investments
+    Fixed income:
+        Cash and equivalents subject
+          to investment policy         $     33,451,516 $        56,633,770 $               -     $             -  $       90,085,286
+        Mutual funds                         10,134,427                  -                  -                   -          10,134,427
+        Investment-grade bonds                  566,195           7,010,660                 -                   -           7,576,855
+        Opportunistic credit                         -                   -                  -           35,772,760         35,772,760
+
+            Total fixed income               44,152,138          63,644,430                 -           35,772,760        143,569,328
+
+   Equity:
+      Cash and equivalents subject
+         to investment policy                    10,264                  -                  -                   -              10,264
+      U.S. large- and mid-cap equity          1,101,962                  -                  -                   -           1,101,962
+      Exchange-traded funds                  10,965,764                  -                  -                   -          10,965,764
+      Developed foreign equity               33,828,856                  -                  -                   -          33,828,856
+      Emerging markets equity                41,220,951                  -                  -                   -          41,220,951
+      Common stock                           64,222,398                  -                  -                   -          64,222,398
+      Mutual funds                          113,276,137                  -                  -                   -         113,276,137
+      U.S. equity                               466,271                  -                  -          104,817,990        105,284,261
+
+            Total equity                    265,092,603                  -                  -          104,817,990        369,910,593
+
+   Hedge funds:
+      Event driven                                   -                   -                4,099            150,650            154,749
+      U.S. investment-grade fixed
+        income                                       -                   -                  -           27,152,760         27,152,760
+      Multistrategy                                  -                   -             101,768                  -             101,768
+
+            Total hedge funds                        -                   -             105,867          27,303,410         27,409,277
+
+   Private equity:
+       Buyout                                        -                   -                  -          136,864,152        136,864,152
+       Private debt                                  -                   -                  -           50,018,672         50,018,672
+       Venture capital                               -                   -           1,693,558          99,714,338        101,407,896
+       Real assets                                   -                   -                  -            4,954,201          4,954,201
+       Lower middle market                           -                   -                  -            2,930,309          2,930,309
+       Infrastructure                                -                   -                  -              542,977            542,977
+       Natural resources                             -                   -                  -            3,874,432          3,874,432
+
+            Total private equity                     -                   -           1,693,558         298,899,081        300,592,639
+
+   Real assets:
+      Infrastructure                                 -                   -                  -           13,847,717         13,847,717
+      Natural resources                              -                   -                  -           25,820,553         25,820,553
+      Real estate                                    -                   -                  -           37,071,703         37,071,703
+
+            Total real assets                        -                   -                  -           76,739,973         76,739,973
+
+            Total investments          $    309,244,741 $        63,644,430 $        1,799,425 $       543,533,214 $      918,221,810
+
+Bitcoin                                $     42,015,050 $                -    $             -     $             -    $     42,015,050
+
+
+
+
+                                                                 14
+University of Wyoming Foundation
+                                                                      Notes to Financial Statements
+                                                                                                      June 30, 2025 and 2024
+Note 4 - Investments and Fair Value Measurements (Continued)
+          In addition to the investments carried at fair value as of June 30, 2025, the Foundation holds investment
+          assets without readily determinable fair values of $11,195,285 and digital assets accounted for as
+          indefinite-lived intangibles of $1,691,218, making total investments $931,108,313.
+                                                      Assets Measured at Fair Value on a Recurring Basis at June 30, 2024
+                                       Quoted Prices in                           Significant
+                                       Active Markets for Significant Other     Unobservable
+                                        Identical Assets Observable Inputs           Inputs          Investments          Balance at
+                                            (Level 1)          (Level 2)           (Level 3)      Measured at NAV       June 30, 2024
+
+Investments
+    Fixed income:
+        Cash and equivalents subject
+          to investment policy         $     32,267,788 $        62,764,238 $               -     $             -  $       95,032,026
+        Mutual funds                            514,655                  -                  -                   -             514,655
+        Investment-grade bonds                  540,150          10,855,666                 -                   -          11,395,816
+        Opportunistic credit                         -                   -                  -           67,429,774         67,429,774
+
+            Total fixed income               33,322,593          73,619,904                 -           67,429,774        174,372,271
+
+   Equity:
+      U.S. large- and mid-cap equity         18,224,985                  -                  -          148,440,175        166,665,160
+      Exchange-traded funds                   9,042,657                  -                  -                   -           9,042,657
+      Developed foreign equity               28,342,692                  -                  -                   -          28,342,692
+      Emerging markets equity                32,024,504                  -                  -                   -          32,024,504
+      Common stock                           28,561,325                  -                  -                   -          28,561,325
+
+            Total equity                    116,196,163                  -                  -          148,440,175        264,636,338
+
+   Hedge funds:
+      Event driven                                   -                   -                5,384            175,598            180,982
+      U.S. investment-grade fixed
+        income                                       -                   -                  -           26,650,881         26,650,881
+      Fixed income                                                                                       5,000,000          5,000,000
+      Long-short equity                                                                                  1,995,698          1,995,698
+      Multistrategy                                  -                   -             158,732                  -             158,732
+
+            Total hedge funds                        -                   -             164,116          33,822,177         33,986,293
+
+   Private equity:
+       Buyout                                        -                   -                  -          147,453,400        147,453,400
+       Private debt                                  -                   -                  -           34,137,314         34,137,314
+       Venture capital                               -                   -           2,969,964          99,898,711        102,868,675
+       Real assets                                   -                   -                  -            3,612,280          3,612,280
+       Lower middle market                           -                   -                  -            2,278,707          2,278,707
+
+            Total private equity                     -                   -           2,969,964         287,380,412        290,350,376
+
+   Real assets:
+      Infrastructure                                 -                   -                  -           14,136,360         14,136,360
+      Natural resources                              -                   -                  -           27,251,787         27,251,787
+      Real estate                                    -                   -                  -           37,323,561         37,323,561
+
+            Total real assets                        -                   -                  -           78,711,708         78,711,708
+
+            Total investments          $    149,518,756 $        73,619,904 $        3,134,080 $       615,784,246 $      842,056,986
+
+Bitcoin                                $     24,135,294 $                -    $             -     $             -    $     24,135,294
+
+          In addition to the investments carried at fair value as of June 30, 2024, the Foundation holds investment
+          assets without readily determinable fair values of $25,454,640 and digital assets accounted for as
+          indefinite-lived intangibles of $3,219,213, making total investments $870,730,839.
+
+
+
+                                                                 15
+University of Wyoming Foundation
+                                                                   Notes to Financial Statements
+                                                                                               June 30, 2025 and 2024
+Note 4 - Investments and Fair Value Measurements (Continued)
+        The fair values of fixed-income cash equivalents and investment-grade bonds at June 30, 2025 and 2024
+        were determined primarily based on Level 2 inputs. The Foundation estimates the fair value of these
+        investments using quoted market prices and other market data for the same or comparable instruments
+        and transactions in establishing the prices, discounted cash flow models, and other pricing models.
+        These models are primarily industry-standard models that consider various assumptions, including time
+        value and yield curve, as well as other relevant economic measures, and are primarily Level 2 inputs.
+        Investments in Entities that Calculate Net Asset Value per Share
+        The Foundation holds shares or interests in investment companies at year end where the fair value of the
+        investment held is estimated based on net asset value per share (or its equivalent) of the investment
+        company.
+        At year end, the fair value, unfunded commitments, and redemption rules of those investments are as
+        follows:
+                                        June 30, 2025     June 30, 2024                     June 30, 2025
+                                                                                             Redemption
+                                                                             Unfunded        Frequency, if    Redemption
+                                         Fair Value        Fair Value       Commitments         Eligible      Notice Period
+
+Fixed income - Opportunistic credit
+  (a)                               $      35,772,760 $      67,429,774 $            -     Annual            30-90 days
+Equity - U.S. large- and mid-cap                                                           Daily and
+  equity (b)                              104,817,990       148,440,175              -     monthly           1 day
+Hedge funds:
+    Event driven (c)                          150,650           175,598              -     Quarterly         65 days
+    U.S. investment-grade fixed
+      income (d)                           27,152,760        26,650,881              -     Varies            45-60 days
+    Fixed income (d)                               -          5,000,000              -     Quarterly         90 days
+    Long-short equity (e)                          -          1,995,698              -     Monthly           30 days
+Private equity: (f)
+    Buyout                                136,864,152       147,453,400       26,526,554   None              N/A
+    Private debt                           50,018,672        34,137,314       25,231,612   None              N/A
+    Venture capital                        99,714,338        99,898,711       16,520,371   None              N/A
+    Real assets                             4,954,201         3,612,280        1,862,500   None              N/A
+    Lower middle market                     2,930,309         2,278,707        6,318,411   None              N/A
+    Infrastructure                            542,977                -        14,331,886   None              N/A
+    Natural resources                       3,874,432                -         6,245,542   None              N/A
+Real assets: (g)
+    Infrastructure                         13,847,717        14,136,360        2,035,466 None                N/A
+    Natural resources                      25,820,553        27,251,787        3,070,664 None                N/A
+    Real estate                            37,071,703        37,323,561       12,474,860 None                N/A
+       Total                       $      543,533,214 $     615,784,246 $    114,617,866
+
+        As of June 30, 2025 and 2024, the net asset values of these investments have been provided by the
+        underlying general partner or fund manager.
+        (a) The opportunistic credit fund class includes investments in privately originated and privately
+            negotiated investments, predominantly direct lending to U.S. companies through first lien senior
+            secured and unitranche loans and second lien, unsecured, subordinated, or mezzanine loans and
+            structured credit, as well as broadly syndicated loans and other debt and equity securities. The
+            opportunistic credit fund class may also invest in publicly traded securities of large corporate issuers.
+
+
+
+
+                                                              16
+University of Wyoming Foundation
+                                                           Notes to Financial Statements
+                                                                                      June 30, 2025 and 2024
+Note 4 - Investments and Fair Value Measurements (Continued)
+     (b) The equity fund class includes investments in large-cap, mid-cap, and emerging market companies
+         through acquisition of common stock. Investments include publicly traded U.S. and non-U.S. stocks;
+         an investment in a privately held bank holding company; and a fund that may invest in vehicles,
+         including equity-related, hybrid, and credit securities that are traded publicly and privately in the U.S.
+         and non-U.S. markets.
+     (c) The event-driven hedge funds class includes investments in hedge funds that focus on a range of
+         events. These events include activist, distressed - noncontrol, long-short credit, long-short equity, and
+         merger (risk) arbitrage. These funds have limited transparency to underlying securities. The fair
+         values of the investments in this class have been estimated using net asset value per share of the
+         investments. The term for these investments ranges from 60 to 90 days.
+     (d) The fixed-income hedge fund class includes hedge funds that tend to focus on mispricing within
+         credit instruments. The investments have limited transparency to underlying securities. The
+         investments are valued using significant unobservable inputs. The fair values of the investments in
+         this class have been estimated using net asset value per share of the investments. The term for
+         these investments ranges from 60 to 90 days.
+     (e) The long-short equity hedge fund class includes investments in hedge funds that invest both long and
+         short, primarily in U.S. common stocks. Management of the hedge funds has the ability to shift
+         investments from value to growth strategies, from small to large capitalization stocks, and from a net
+         long position to a net short position. The investments contain exposure in the U.S. market but will
+         also take advantage of investment opportunities in Europe, Asia, and emerging markets. The fair
+         values of the investments in this class have been estimated using net asset value per share of the
+         investments.
+     (f) The private equity funds class includes several private equity funds that employ buyout, private
+         distressed debt, venture capital strategies, infrastructure, or natural resources. These investments
+         are not readily redeemable, but a secondary market does exist to provide the potential for early
+         liquidation. The nature of these investments is that distributions are anticipated to be received
+         through liquidation of the underlying assets of the fund and final distributions to the investors. The
+         terms of these investments are 5 to 12 years. The fair values of the investments in this class have
+         been estimated using net asset value of the Foundation’s ownership interest in partners’ capital.
+     (g) The real assets funds class includes several funds that focus on infrastructure, natural resources,
+         and real estate that invest in primarily in assets in the U.S. These investments are not readily
+         redeemable, but a secondary market does exist to provide the potential for early liquidation. The
+         nature of these investments is that distributions are anticipated to be received through liquidation of
+         the underlying assets of the fund and final distributions to the investors. The terms of these
+         investments are 5 to 12 years. The fair values of the investments in this class have been estimated
+         using net asset value of the Foundation’s ownership interest in partners’ capital.
+
+
+
+
+                                                      17
+University of Wyoming Foundation
+                                                          Notes to Financial Statements
+                                                                                  June 30, 2025 and 2024
+Note 5 - Investments Using the Equity Method
+      Investments accounted for using the equity method consist of the following at June 30, including
+      percentage of total units held:
+                                                                                  Percent Owned
+                                                                               2025           2024
+
+         Real estate investments:
+            Thrive Creekside UW, LLC                                             67.00 %          67.00 %
+            Northern Preferred Investors, LLC                                    56.78            56.78
+            Central Park Townhomes Preferred Investors, LLC                      51.85            51.85
+            HH 170 UW, LLC - The Laramie                                         90.00            90.00
+            Mountain View Village, LLC                                           60.00            60.00
+            EB UW, LLC, Emberwood Apartments                                     84.50            84.50
+            307 S Walton Blvd Co-Investor I, LLC                                 69.30            69.30
+            3400 E Walnut Industrial Investor, LLC                               24.10            24.10
+            4800 Chichester Industrial Investor, LLC                             23.87            23.90
+            13636 N Columbia Industrial Investor                                 24.04            24.12
+            East Bethel Townhomes Preferred Investors LLC                        51.85               -
+            Glenfield Blaine Investors LLC                                       41.58               -
+
+Note 6 - Bitcoin
+      The Foundation holds 389.91 units of Bitcoin as of June 30, 2025 and 2024. As of June 30, 2025 and
+      2024, the Bitcoin had a fair value of $42,015,050 and $24,135,294, respectively, with a cost basis of
+      $12,000,000 based on cash paid to acquire those units. An average cost of the Bitcoin is used in
+      determining gains and losses. There are no sale restrictions of the Bitcoin. Below is a summary of the
+      Bitcoin activity for the years ended June 30, 2025 and 2024:
+         Beginning balance - June 30, 2024                                                 $   24,135,294
+         Gain from remeasurement                                                               17,879,756
+
+         Ending balance - June 30, 2025                                                    $   42,015,050
+
+         Beginning balance - June 30, 2023                                                 $    7,184,310
+         Impact of adoption of ASU No. 2023-08                                                  4,664,571
+         Gain from remeasurement                                                               12,286,413
+
+         Ending balance - June 30, 2024                                                    $   24,135,294
+
+Note 7 - Contributions Receivable
+      Contributions receivable represent promises to give that have been made by donors but have not yet
+      been received by the Foundation. Contributions that will not be received in subsequent years have been
+      discounted using an estimated rate of return, which could be earned if such contributions had been made
+      in the current year.
+
+
+
+
+                                                     18
+University of Wyoming Foundation
+                                                              Notes to Financial Statements
+                                                                                   June 30, 2025 and 2024
+Note 7 - Contributions Receivable (Continued)
+     Total contributions receivable as of June 30 were as follows:
+                                                                                2025            2024
+
+         Gross promises to give before unamortized discount                $   24,194,491 $     25,035,087
+         Less allowance for uncollectible contributions                          (530,211)        (566,109)
+         Less allowance for net present value discount                         (1,003,365)      (1,066,847)
+
+               Net contributions receivable                                $   22,660,915 $     23,402,131
+
+         Amounts due in:
+           Less than one year                                              $   15,350,736 $     14,121,840
+           One to five years                                                    8,199,533        9,926,009
+           More than five years                                                   644,222          987,238
+
+               Total                                                       $   24,194,491 $     25,035,087
+
+     As of June 30, 2025 and 2024, there were no donor concentrations in contributions receivable. A discount
+     rate of 4.24 percent and 4.36 percent as of June 30, 2025 and 2024, respectively, has been used in
+     estimating the net present value of cash flows.
+
+Note 8 - Property and Equipment
+     Property and equipment are summarized as follows:
+                                                                                2025            2024
+
+         Land                                                              $    3,525,995 $      3,525,995
+         Land improvements                                                         32,388           32,388
+         Buildings - Marian H. Rochelle Gateway Center                         30,252,337       30,252,337
+         Buildings - Misc. Grand Avenue properties                              3,500,000        3,500,000
+         Furniture, fixtures, and other                                         5,145,749        5,116,379
+         Vehicles                                                                  15,897           15,897
+         Computers, equipment, and software                                     1,112,336        1,096,837
+         Digital asset mining equipment                                            35,491        1,719,558
+         Leasehold improvements                                                    11,899           11,899
+         Right-of-use operating lease assets                                      141,135           52,639
+
+               Total cost                                                      43,773,227       45,323,929
+         Accumulated depreciation                                              (12,898,111)    (12,905,513)
+
+               Net property and equipment                                  $   30,875,116 $     32,418,416
+
+     Depreciation expense for 2025 and 2024 was $1,725,402 and $1,303,941, respectively.
+
+Note 9 - Accounts Payable
+     The current year accounts payable balance includes amounts owed to various departments and colleges
+     of the University of Wyoming. All payables are expected to be paid within one year. As part of the efforts
+     to comply with GASB Statement No. 39 reporting in the current year, the University recorded a receivable
+     for these amounts. These amounts are immaterial to both 2025 and 2024.
+
+
+
+
+                                                         19
+University of Wyoming Foundation
+                                                          Notes to Financial Statements
+                                                                                    June 30, 2025 and 2024
+Note 10 - Amounts Held for Others
+     The Foundation acts as an investment manager for certain assets for the University of Wyoming, the
+     Cowboy Joe Club, and various departments of the University of Wyoming. The investments held on the
+     behalf of others are as follows:
+                                                                                  2025            2024
+
+        Cowboy Joe Club                                                    $      6,672,398 $     6,284,118
+        UW - State match                                                        194,982,414     179,258,783
+        UW - Endowments                                                         171,539,688     163,424,117
+
+               Total                                                       $    373,194,500 $   348,967,018
+
+                                             Cowboy Joe       UW - State         UW -
+                                                Club           Match          Endowments         Total
+
+        Activity for the Year Ended
+         June 30, 2024
+           July 1, 2023 balance         $       1,105,257 $   166,689,467 $    150,302,650 $    318,097,374
+           Additions                            5,011,813       5,071,809        6,440,015       16,523,637
+           Transfers to UW                        (48,815)     (5,854,993)      (5,373,443)     (11,277,251)
+           Investment return                      215,867      13,362,035       11,646,722       25,224,624
+           Fees                                         (4)            -            (5,938)          (5,942)
+           Other                                       -           (9,535)         414,111          404,576
+
+            June 30, 2024 balance       $       6,284,118 $   179,258,783 $    163,424,117 $    348,967,018
+
+                                             Cowboy Joe       UW - State          UW -
+                                                Club           Match           Endowments         Total
+
+        Activity for the Year Ended
+         June 30, 2025
+           July 1, 2024 balance          $      6,284,118 $    179,258,783 $    163,424,117 $   348,967,018
+           Additions                                  400        8,454,664          432,841       8,887,905
+           Transfers to UW                        (51,629)      (5,471,616)      (5,815,609)    (11,338,854)
+           Investment return                      445,041       12,740,583       13,503,948      26,689,572
+           Fees                                        -                -            (5,609)         (5,609)
+           Other                                   (5,532)              -                -           (5,532)
+
+            June 30, 2025 balance        $      6,672,398 $    194,982,414 $    171,539,688 $   373,194,500
+
+Note 11 - Split-interest Agreements
+     The Foundation is party to split-interest agreements with certain donors. These agreements include
+     contracts entered into with certain donors from which the Foundation benefits. Under the agreements the
+     donor has contributed funds to be held in trust, with the Foundation as the charitable beneficiary.
+     Under charitable remainder trusts, as a condition of the trust, the Foundation is required to pay an
+     amount determined as a percentage of the market value of the trust assets each year to the donor(s) or
+     another designated beneficiary until their death. Under charitable gift annuity arrangements, the
+     Foundation is required to pay a fixed distribution of trust assets each year to the donor or another
+     designated beneficiary until their death.
+     Obligations under the split-interest agreements represent the present value of future payments required
+     be paid to the donors or other beneficiaries under the agreements. These obligations total $5,492,882
+     and $4,739,763 at June 30, 2025 and 2024, respectively.
+
+
+
+                                                    20
+University of Wyoming Foundation
+                                                               Notes to Financial Statements
+                                                                                            June 30, 2025 and 2024
+Note 11 - Split-interest Agreements (Continued)
+     Upon the death of the beneficiaries, the remaining funds become the property of the Foundation. The fair
+     values of the assets related to these agreements total $10,967,967 and $9,577,337 at June 30, 2025 and
+     2024, respectively, and are included in investments.
+
+Note 12 - Notes Payable and Lines of Credit
+     On June 16, 2020, the Foundation purchased property located on Grand Avenue in Laramie, Wyoming,
+     adjacent to the Marian H. Rochelle Gateway Center. The Foundation signed a promissory note as part of
+     this purchase for $5,600,000 with Sheaffer Place, LLC, with an interest rate of 3 percent, to be paid in
+     240 equal principal and interest payments beginning on August 1, 2020 until July 1, 2040. The purpose of
+     the purchase is to hold said property until the University of Wyoming is ready to integrate the property into
+     its master plan and make it a contiguous part of the overall university campus. In the meantime, the
+     Foundation is renting the property to generate returns on the investment.
+     These obligations are scheduled to mature as follows:
+                                         Years Ending           Amount
+
+                                            2026          $          240,466
+                                            2027                     247,781
+                                            2028                     255,317
+                                            2029                     263,083
+                                            2030                     271,085
+                                          Thereafter               3,239,275
+
+                                                 Total    $        4,517,007
+
+Note 13 - Net Assets
+     Net assets without donor restrictions consist of the following as of June 30:
+                                                                                         2025            2024
+
+         Board-designated net assets:
+            Endowment (Note 14)                                                     $    12,991,478 $    11,951,680
+            Invested in property and equipment - Net of debt                             29,248,789      31,396,804
+
+                Total board-designated net assets                                        42,240,267      43,348,484
+         Undesignated net assets                                                         29,647,986      40,978,168
+
+                Total net assets without donor restrictions                         $    71,888,253 $    84,326,652
+
+     Net assets with donor restrictions as of June 30 are available for the following purposes:
+                                                                                         2025            2024
+
+         Subject to expenditures for specified purposes to benefit the University   $    65,026,562 $    61,584,293
+         Subject to the Foundation's spending policy and appropriation from the
+          endowment (Note 14)                                                           522,453,704     468,668,290
+
+                Total                                                               $   587,480,266 $   530,252,583
+
+Note 14 - Donor-restricted and Board-designated Endowments
+     Total managed endowments at the Foundation were $857,427,086 and $778,878,622 at June 30, 2025
+     and 2024, respectively. Included in these totals were custodial endowments totaling $347,598,365 and
+     $325,030,952 at June 30, 2025 and 2024, respectively.
+                                                          21
+University of Wyoming Foundation
+                                                            Notes to Financial Statements
+                                                                                      June 30, 2025 and 2024
+Note 14 - Donor-restricted and Board-designated Endowments (Continued)
+     The managed endowments at June 30, 2025 and 2024 consisted of 1,916 and 1,813 funds, respectively,
+     established for a variety of purposes. The Foundation's endowment includes both donor-restricted
+     endowment funds and funds designated by the board of directors to function as endowments. Net assets
+     associated with endowment funds, including funds designated by the board of directors to function as
+     endowments, are classified and reported based on the existence or absence of donor-imposed
+     restrictions.
+     Interpretation of Relevant Law
+     The Foundation is subject to the State of Wyoming's Uniform Prudent Management of Institutional Funds
+     Act (UPMIFA) and, thus, classifies amounts in its donor-restricted endowment funds as net assets with
+     donor restrictions because those net assets are time restricted until the board of directors appropriates
+     such amounts for expenditures. Most of those net assets also are subject to purpose restrictions that
+     must be met before reclassifying those net assets to net assets without donor restrictions. The board of
+     directors of the Foundation had interpreted UPMIFA as not requiring the maintenance of purchasing
+     power of the original gift amount contributed to an endowment fund, unless a donor stipulates the
+     contrary. As a result of this interpretation, when reviewing its donor-restricted endowment funds, the
+     Foundation considers a fund to be underwater if the fair value of the fund is less than the sum of (a) the
+     original value of initial and subsequent gift amounts donated to the fund and (b) any accumulations to the
+     fund that are required to be maintained in perpetuity in accordance with the direction of the applicable
+     donor gift instrument. The Foundation has interpreted UPMIFA to permit spending from underwater funds
+     in accordance with the prudent measures required under the law. Additionally, in accordance with
+     UPMIFA, the Foundation considers the following factors in making a determination to appropriate or
+     accumulate donor-restricted endowment funds:
+        The duration and preservation of the fund
+        The purpose of the Foundation and the donor-restricted endowment fund
+        General economic conditions
+        The possible effect of inflation and deflation
+        The expected total return from income and the appreciation of investments
+        Other resources of the Foundation
+        The investment policies of the Foundation
+                                                              Endowment Net Asset Composition by Type of Fund
+                                                                             as of June 30, 2025
+                                                               Without Donor     With Donor
+                                                                Restrictions     Restrictions      Total
+
+         Board-designated endowment funds                     $   12,991,478 $            -    $    12,991,478
+         Donor-restricted endowment funds:
+            Original donor-restricted gift amount and amounts
+              required to be maintained in perpetuity by the
+              donor                                                      -       352,623,221       352,623,221
+            Accumulated investment gains                                 -       169,830,483       169,830,483
+
+                Total                                        $    12,991,478 $   522,453,704 $     535,445,182
+
+
+
+
+                                                       22
+University of Wyoming Foundation
+                                                            Notes to Financial Statements
+                                                                                        June 30, 2025 and 2024
+Note 14 - Donor-restricted and Board-designated Endowments (Continued)
+                                                                 Changes in Endowment Net Assets for the Fiscal
+                                                                             Year Ended June 30, 2025
+                                                                 Without Donor      With Donor
+                                                                  Restrictions     Restrictions       Total
+
+        Endowment net assets - Beginning of year             $      11,951,680 $    468,668,290 $      480,619,970
+        Investment return (loss):
+           Investment income                                         1,047,624       48,176,373         49,223,997
+           Manager and administrative fees                            (152,253)      (7,067,847)        (7,220,100)
+           Assessments                                                      -        (9,771,032)        (9,771,032)
+
+               Total investment return                                 895,371       31,337,494         32,232,865
+        Contributions                                                       -        28,705,427         28,705,427
+        Appropriation of endowment assets for expenditure                   -       (15,902,631)       (15,902,631)
+        Designations                                                   144,427               -             144,427
+        Other transfers                                                     -         9,645,124          9,645,124
+
+        Endowment net assets - End of year                   $      12,991,478 $    522,453,704 $      535,445,182
+
+                                                             Endowment Net Asset Composition by Type of Fund
+                                                                            as of June 30, 2024
+                                                              Without Donor     With Donor
+                                                               Restrictions     Restrictions      Total
+
+        Board-designated endowment funds                     $      11,951,680 $             -     $    11,951,680
+        Donor-restricted endowment funds:
+           Original donor-restricted gift amount and amounts
+             required to be maintained in perpetuity by the
+             donor                                                          -       326,100,284        326,100,284
+           Accumulated investment gains                                     -       142,568,006        142,568,006
+
+               Total                                         $      11,951,680 $    468,668,290 $      480,619,970
+
+                                                                 Changes in Endowment Net Assets for the Fiscal
+                                                                             Year Ended June 30, 2024
+                                                                 Without Donor      With Donor
+                                                                  Restrictions     Restrictions       Total
+
+        Endowment net assets - Beginning of year             $      22,967,264 $    426,111,338 $      449,078,602
+        Cumulative effect of change in accounting                           -         4,664,571          4,664,571
+        Investment return (loss):
+           Investment income                                           811,457       48,348,606         49,160,063
+           Manager and administrative fees                            (109,958)      (5,743,056)        (5,853,014)
+           Assessments                                                      -        (9,806,013)        (9,806,013)
+
+               Total investment return                                 701,499       32,799,537         33,501,036
+        Contributions                                                       -        15,963,685         15,963,685
+        Appropriation of endowment assets for expenditure                   -       (10,870,841)       (10,870,841)
+        Release of designation                                     (11,717,083)              -         (11,717,083)
+
+        Endowment net assets - End of year                   $      11,951,680 $    468,668,290 $      480,619,970
+
+
+
+
+                                                      23
+University of Wyoming Foundation
+                                                          Notes to Financial Statements
+                                                                                     June 30, 2025 and 2024
+Note 14 - Donor-restricted and Board-designated Endowments (Continued)
+     Underwater Endowment Funds
+     From time to time, the fair value of assets associated with individual donor-restricted endowment funds
+     may fall below the level that the donor or UPMIFA requires the Foundation to retain as a fund of perpetual
+     duration. Effective February 2023, if the fair value of an endowment falls below 80 percent of the fund's
+     original gift value, expenditures will be suspended from the fund until the fund's fair market value equals
+     or exceeds 80 percent of the original gift value. Deficiencies of this nature exist in 15 donor-restricted
+     endowment funds, which together have an original gift value of $3,414,419, a current fair value of
+     $3,370,589, and a deficiency of $43,830 as of June 30, 2025. These deficiencies resulted from
+     unfavorable market fluctuations that occurred shortly after the investment of new contributions for donor-
+     restricted endowment funds and continued appropriation for certain programs that was deemed prudent
+     by the board of directors.
+     As of June 30, 2024, deficiencies of this nature existed in 45 donor-restricted endowment funds, which
+     together had an original gift value of $9,070,934, a current fair value of $8,704,327, and a deficiency of
+     $366,607.
+     Return Objectives and Risk Parameters
+     The Foundation has adopted investment and spending policies for endowment assets that attempt to
+     provide a predictable stream of funding to programs supported by its endowment while seeking to
+     maintain the purchasing power of the endowment assets. Endowment assets include those assets of
+     donor-restricted funds that the Foundation must hold in perpetuity or for a donor-specified period, as well
+     as board-designated funds. Under this policy, as approved by the board of directors, the endowment
+     assets are invested in a manner that is intended to achieve a return of 9 and 7 percent, net of inflation
+     and investment expenses, for the years ended June 30, 2025 and 2024, respectively. The secondary
+     investment objective is to earn a total return, net of expenses, at least equal to the portfolio's composite
+     benchmark, as defined in its investment policy statement. Actual returns in any given year may vary from
+     this amount.
+     Strategies Employed for Achieving Objectives
+     To satisfy its long-term rate-of-return objectives, the Foundation relies on a total return strategy in which
+     investment returns are achieved through both capital appreciation (realized and unrealized) and current
+     yield (interest and dividends). With consultation from its investment consultant, the Foundation targets a
+     diversified asset allocation that places a greater emphasis on equity-based investments to achieve its
+     long-term return objectives within prudent risk constraints. The Foundation's governing board meets at
+     least once quarterly and more often, if needed, to discuss investment matters to ensure the best possible
+     return, consistent with the preservation of principal, is achieved.
+     Expenditure Policy and How the Investment Objectives Relate to Payout Policy
+     The Foundation's board has adopted a expenditure policy that makes funds available for appropriation
+     based on a calculation that uses 40 percent spending rate based the December market value and 60
+     percent based on the prior year distribution, with an inflationary adjustment. The effective spending rate
+     of the December market value was 4.0 percent as of June 30, 2025 and 2024. The effective inflationary
+     rate was 4.0 percent as of June 30, 2025 and 2024. In establishing this policy, the Foundation considered
+     the long-term expected rate of return on its endowment. Accordingly, over the long term, the Foundation
+     expects the current expenditure policy to allow its endowment to grow.
+
+Note 15 - Related Party Transactions
+     The Foundation is a strategic partner of the University of Wyoming and transacts with the University
+     during the ordinary course of business. Transactions with the University and other related parties
+     controlled by the University include all transactions related to amounts held for others (see Note 10) and
+     all program services expenses shown on the statement of activities and changes in net assets.
+                                                       24
+

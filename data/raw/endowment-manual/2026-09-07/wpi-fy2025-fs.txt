@@ -1,0 +1,1841 @@
+Consolidated Financial Statements and
+Report of Independent Certified Public
+Accountants
+
+Worcester Polytechnic Institute
+
+June 30, 2025 and 2024
+Contents                                                        Page
+
+           Report of Independent Certified Public Accountants     3
+
+           Consolidated Financial Statements
+
+             Consolidated statements of financial position        5
+
+             Consolidated statements of activities                6
+
+             Consolidated statements of cash flows                8
+
+             Notes to consolidated financial statements           9
+GRANT THORNTON LLP         REPORT OF INDEPENDENT CERTIFIED PUBLIC ACCOUNTANTS
+53 State St., 16th Floor
+Boston, MA 02109
+
+D   +1 617 723 7900
+F   +1 617 723 3640
+
+
+
+                           To the Board of Trustees
+                           Worcester Polytechnic Institute
+
+                           Opinion
+                           We have audited the consolidated financial statements of Worcester Polytechnic
+                           Institute (collectively the “University”), which comprise the consolidated statements of
+                           financial position as of June 30, 2025 and 2024, and the related consolidated
+                           statements of activities, functional expenses, and cash flows for the years then ended,
+                           and the related notes to the financial statements.
+
+                           In our opinion, the accompanying consolidated financial statements present fairly, in
+                           all material respects, the financial position of the University as of June 30, 2025 and
+                           2024, and the results of its operations and its cash flows for the years then ended in
+                           accordance with accounting principles generally accepted in the United States of
+                           America.
+
+                           Basis for opinion
+                           We conducted our audits of the consolidated financial statements in accordance with
+                           auditing standards generally accepted in the United States of America (US GAAS).
+                           Our responsibilities under those standards are further described in the Auditor’s
+                           Responsibilities for the Audit of the Financial Statements section of our report. We
+                           are required to be independent of the University and to meet our other ethical
+                           responsibilities in accordance with the relevant ethical requirements relating to our
+                           audits. We believe that the audit evidence we have obtained is sufficient and
+                           appropriate to provide a basis for our audit opinion.
+
+                           Responsibilities of management for the financial statements
+                           Management is responsible for the preparation and fair presentation of the
+                           consolidated financial statements in accordance with accounting principles generally
+                           accepted in the United States of America, and for the design, implementation, and
+                           maintenance of internal control relevant to the preparation and fair presentation of
+                           consolidated financial statements that are free from material misstatement, whether
+                           due to fraud or error.
+
+                           In preparing the consolidated financial statements, management is required to
+                           evaluate whether there are conditions or events, considered in the aggregate, that
+                           raise substantial doubt about the University’s ability to continue as a going concern for
+                           one year after the date the consolidated financial statements are available to be
+                           issued.
+
+
+
+
+GT.COM                     Grant Thornton LLP is a U.S. member firm of Grant Thornton International Ltd (GTIL). GTIL and each of its member firms are
+                           separate legal entities and are not a worldwide partnership.
+Auditor’s responsibilities for the audit of the financial statements
+Our objectives are to obtain reasonable assurance about whether the consolidated
+financial statements as a whole are free from material misstatement, whether due to
+fraud or error, and to issue an auditor’s report that includes our opinion. Reasonable
+assurance is a high level of assurance but is not absolute assurance and therefore is
+not a guarantee that an audit conducted in accordance with US GAAS will always
+detect a material misstatement when it exists. The risk of not detecting a material
+misstatement resulting from fraud is higher than for one resulting from error, as fraud
+may involve collusion, forgery, intentional omissions, misrepresentations, or the
+override of internal control. Misstatements are considered material if there is a
+substantial likelihood that, individually or in the aggregate, they would influence the
+judgment made by a reasonable user based on the consolidated financial statements.
+
+In performing an audit in accordance with US GAAS, we:
+
+•   Exercise professional judgment and maintain professional skepticism throughout
+    the audit.
+•   Identify and assess the risks of material misstatement of the consolidated
+    financial statements, whether due to fraud or error, and design and perform audit
+    procedures responsive to those risks. Such procedures include examining, on a
+    test basis, evidence regarding the amounts and disclosures in the consolidated
+    financial statements.
+•   Obtain an understanding of internal control relevant to the audit in order to design
+    audit procedures that are appropriate in the circumstances, but not for the
+    purpose of expressing an opinion on the effectiveness of the University’s internal
+    control. Accordingly, no such opinion is expressed.
+•   Evaluate the appropriateness of accounting policies used and the
+    reasonableness of significant accounting estimates made by management, as
+    well as evaluate the overall presentation of the consolidated financial statements.
+•   Conclude whether, in our judgment, there are conditions or events, considered in
+    the aggregate, that raise substantial doubt about the University’s ability to
+    continue as a going concern for a reasonable period of time.
+
+We are required to communicate with those charged with governance regarding,
+among other matters, the planned scope and timing of the audit, significant audit
+findings, and certain internal control-related matters that we identified during the audit.
+
+
+
+
+Boston, Massachusetts
+November 5, 2025
+                                        Worcester Polytechnic Institute
+
+                              CONSOLIDATED STATEMENTS OF FINANCIAL POSITION
+
+                                                    June 30,
+                                                (in thousands)
+
+
+
+
+                                                                                 2025           2024
+Assets
+ Cash and cash equivalents                                                  $       4,758   $      2,351
+ Accounts receivable, net                                                          16,008         14,175
+ Contributions receivable, net                                                     18,989         28,483
+ Prepaid expenses and other assets                                                  8,692          8,550
+ Student loans receivable, net                                                     14,447         15,993
+ Beneficial interest in trusts                                                     16,522         15,577
+ Investments - Endowment                                                          726,314        670,651
+ Investments - Other                                                               66,976         53,324
+ Land, buildings and equipment, net                                               563,902        539,074
+
+          Total assets                                                      $   1,436,608   $   1,348,178
+
+Liabilities
+  Accounts payable and accrued liabilities                                  $      28,302   $     28,671
+  Deposits and deferred revenue                                                    19,135         17,728
+  Lease and contract liabilities                                                   63,382         60,914
+  Obligations under split-interest agreements                                       5,678          5,413
+  Funds held for others                                                             4,724          5,142
+  Asset retirement obligations                                                      1,194          1,160
+  Refundable government loan funds                                                  1,221          1,815
+  Bonds and notes payable, net                                                    409,309        375,750
+  Interest rate agreements                                                          1,580          1,400
+
+          Total liabilities                                                       534,525        497,993
+
+Net assets
+ Without donor restrictions                                                       390,305        364,825
+ With donor restrictions
+   Time or purpose                                                                243,870        224,009
+   Perpetual                                                                      267,908        261,351
+
+          Total net assets                                                        902,083        850,185
+
+          Total liabilities and net assets                                  $   1,436,608   $   1,348,178
+
+
+
+
+The accompanying notes are an integral part of these consolidated financial statements.
+
+                                                       5
+                                                          Worcester Polytechnic Institute
+
+                                                  CONSOLIDATED STATEMENT OF ACTIVITIES
+
+                                                             Year ended June 30, 2025
+                                                                  (in thousands)
+
+
+
+
+                                                                                            Without Donor   With Donor
+                                                                                             Restrictions   Restrictions           Total
+Operating revenues
+ Tuition and fees, net                                                                      $    214,386    $          -       $    214,386
+ Other educational activities                                                                      3,194               -              3,194
+ Contributions                                                                                    12,621           2,665             15,286
+ Contract and exchange transactions                                                               63,771               -             63,771
+ Investment income on endowment and similar funds                                                  9,507              62              9,569
+ Net realized and unrealized gains on endowment used for operations                                9,351           9,777             19,128
+ Other investment income                                                                           2,721             566              3,287
+ Sales and services of auxiliary enterprises                                                      55,335               -             55,335
+ Other                                                                                             7,295               -              7,295
+
+         Total revenues                                                                          378,181          13,070            391,251
+
+Net assets released from restriction                                                              15,821         (15,821)                  -
+
+         Total revenues and other support                                                        394,002          (2,751)           391,251
+
+Operating expenses
+ Salaries and wages                                                                              170,226                   -        170,226
+ Employee benefits                                                                                53,635                   -         53,635
+ Supplies and other expenses                                                                      71,459                   -         71,459
+ Professional services                                                                            26,990                   -         26,990
+ Utilities                                                                                         9,725                   -          9,725
+ Rent                                                                                                535                   -            535
+ Depreciation                                                                                     38,275                   -         38,275
+ Interest expense                                                                                 18,228                   -         18,228
+
+         Total operating expenses                                                                389,073                   -        389,073
+
+         Change in net assets from operating activities                                            4,929          (2,751)             2,178
+
+Nonoperating activities
+ Net realized and unrealized gains on investments                                                 23,857          37,799             61,656
+ Net realized and unrealized losses on endowment used for operations                              (9,351)         (9,777)           (19,128)
+ Net unrealized gains on beneficial interest in trusts                                                 -             969                969
+ Change in value of split-interest agreements                                                          -            (909)              (909)
+ Contributions restricted for long-term investment                                                     -           7,501              7,501
+ Gain on disposal of assets                                                                            5               -                  5
+ Net unrealized loss on interest rate agreements                                                    (375)              -               (375)
+
+         Change in net assets from nonoperating activities                                        14,136          35,583             49,719
+
+Net assets released from restriction                                                               6,414          (6,414)                  -
+
+         Total change in net assets from nonoperating activities                                  20,550          29,169             49,719
+
+         TOTAL CHANGE IN NET ASSETS                                                               25,479          26,418             51,897
+
+Net assets
+ Beginning of year                                                                               364,825         485,360            850,185
+
+ End of year                                                                                $    390,304    $    511,778       $    902,082
+
+
+
+
+The accompanying notes are an integral part of this consolidated financial statement.
+
+                                                                         6
+                                                          Worcester Polytechnic Institute
+
+                                                  CONSOLIDATED STATEMENT OF ACTIVITIES
+
+                                                             Year ended June 30, 2024
+                                                                  (in thousands)
+
+
+
+
+                                                                                            Without Donor    With Donor
+                                                                                             Restrictions    Restrictions           Total
+Operating revenues
+ Tuition and fees, net                                                                      $    207,858     $          -       $    207,858
+ Other educational activities                                                                      3,035                -              3,035
+ Contributions                                                                                     5,741            2,304              8,045
+ Contract and exchange transactions                                                               56,850                -             56,850
+ Investment income on endowment and similar funds                                                  8,135               61              8,196
+ Net realized and unrealized gains on endowment used for operations                                9,419            9,647             19,066
+ Other investment income                                                                           2,465              624              3,089
+ Sales and services of auxiliary enterprises                                                      44,098                -             44,098
+ Other                                                                                             5,783                -              5,783
+
+         Total revenues                                                                          343,384           12,636            356,020
+
+Net assets released from restriction                                                              14,326          (14,326)                  -
+
+         Total revenues and other support                                                        357,710           (1,690)           356,020
+
+Operating expenses
+ Salaries and wages                                                                              162,344                    -        162,344
+ Employee benefits                                                                                54,926                    -         54,926
+ Supplies and other expenses                                                                      65,672                    -         65,672
+ Professional services                                                                            20,756                    -         20,756
+ Utilities                                                                                         8,200                    -          8,200
+ Rent                                                                                              2,040                    -          2,040
+ Depreciation                                                                                     36,640                    -         36,640
+ Interest expense                                                                                 10,564                    -         10,564
+
+         Total operating expenses                                                                361,142                    -        361,142
+
+         Change in net assets from operating activities                                            (3,432)         (1,690)             (5,122)
+
+Nonoperating activities
+ Net realized and unrealized gains on investments                                                 24,504           39,376             63,880
+ Net realized gains on endowment used for operations                                              (9,419)          (9,647)           (19,066)
+ Net unrealized gains on beneficial interest in trusts                                                 -              959                959
+ Change in value of split-interest agreements                                                         30             (345)              (315)
+ Contributions restricted for long-term investment                                                     -           10,635             10,635
+ Loss on disposal of assets                                                                         (480)               -               (480)
+ Net unrealized gains on interest rate agreements                                                    407                -                407
+
+         Change in net assets from nonoperating activities                                        15,042           40,978             56,020
+
+Net assets released from restriction                                                               2,493           (2,493)                  -
+
+         Total change in net assets from nonoperating activities                                  17,535           38,485             56,020
+
+         TOTAL CHANGE IN NET ASSETS                                                               14,103           36,795             50,898
+
+Net assets
+ Beginning of year                                                                               350,722          448,565            799,287
+
+ End of year                                                                                $    364,825     $    485,360       $    850,185
+
+
+
+
+The accompanying notes are an integral part of this consolidated financial statement.
+
+                                                                         7
+                                                                  Worcester Polytechnic Institute
+
+                                                        CONSOLIDATED STATEMENTS OF CASH FLOWS
+
+                                                                       Years ended June 30,
+                                                                          (in thousands)
+
+
+
+
+                                                                                                            2025            2024
+Cash flows from operating activities
+ Change in net assets                                                                                   $     51,897    $     50,898
+ Adjustments to reconcile change in net assets to net cash (used in) provided by operating activities
+  Depreciation, amortization, and accretion                                                                   37,368          30,373
+  Provision for uncollectible receivables                                                                        283             496
+  Gain on disposal of property and equipment                                                                      (5)            480
+  Net realized and unrealized gains on investments                                                           (76,758)        (56,834)
+  Net unrealized losses (gains) on interest rate agreements                                                       40              42
+  Contributions other than cash                                                                                   (7)           (287)
+  Contributions restricted for long-term investment                                                           (7,501)        (10,635)
+  Proceeds from sale of donated securities                                                                    (7,570)           (642)
+  Changes in assets and liabilities
+    Accounts receivable                                                                                       (2,401)            (27)
+    Contributions receivable                                                                                   9,390            (101)
+    Prepaid expenses and other assets                                                                           (141)          1,454
+    Accounts payable and accrued liabilities                                                                  (7,527)          8,656
+    Deposits and deferred revenue                                                                              1,155             577
+    Lease liabilities                                                                                         (1,086)         (9,824)
+    Split-interest agreements                                                                                    265             (69)
+    Funds held for others                                                                                       (418)           (239)
+    Asset retirement obligations                                                                                  34              32
+    Refundable government loan funds                                                                            (593)           (712)
+
+         Total adjustments                                                                                   (55,472)        (37,260)
+
+         Net cash (used in) provided by operating activities                                                  (3,575)         13,638
+
+Cash flows from investing activities
+ Proceeds from sales and maturities of investments                                                           130,230          91,810
+ Purchase of investments                                                                                    (115,806)        (52,853)
+ Purchase of land, buildings, and equipment                                                                  (60,661)        (54,732)
+ Disbursement of loans to students                                                                            (1,334)         (2,291)
+ Repayment of loans from students                                                                              2,919           2,898
+
+         Net cash used in investing activities                                                               (44,652)        (15,168)
+
+Cash flows from financing activities
+ Contributions restricted for long-term investment                                                             7,500          10,635
+ Proceeds from deferred financing arrangement                                                                  5,502               -
+ Realized losses (gains) on interest rate agreements                                                             140            (517)
+ Payment on / proceeds from long-term debt                                                                    46,510          21,332
+ Payment on / proceeds from short-term borrowing                                                             (10,000)            500
+ Repayment of long-term debt                                                                                     982         (38,960)
+
+         Net cash (used in) provided by financing activities                                                  50,634          (7,010)
+
+         NET INCREASE IN CASH AND CASH EQUIVALENTS                                                             2,407          (8,540)
+
+Cash and cash equivalents
+ Beginning of year                                                                                             2,351          10,891
+
+ End of year                                                                                            $      4,758    $      2,351
+
+Supplemental disclosures of cash flow information
+ Interest paid                                                                                          $     16,310    $     17,269
+ Contributed securities                                                                                        7,570             642
+ Gift in kind                                                                                                    204             143
+ Purchases of buildings and equipment included in accounts payable                                             1,257              45
+ Leased equipment                                                                                              4,026           5,969
+
+
+
+
+The accompanying notes are an integral part of these consolidated financial statements.
+
+                                                                                8
+                                     Worcester Polytechnic Institute
+
+                        NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+                                         June 30, 2025 and 2024
+
+
+NOTE 1 - ORGANIZATION
+
+Worcester Polytechnic Institute (the "University"), founded in 1865, is the third-oldest private technological
+university in the United States. The University has an annual enrollment of over 8,400 undergraduate and
+graduate students. Located in Worcester, Massachusetts, the University serves a diverse student body
+representing nearly all U.S. states and over 95 foreign countries.
+
+
+NOTE 2 - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+
+Basis of Financial Statement Presentation
+
+The accompanying consolidated financial statements are prepared using the accrual basis of accounting.
+Net assets, revenues, expenses, gains, and losses are classified based on whether donor-imposed
+restrictions exist. Accordingly, the University's net assets and any changes in them are categorized and
+reported as follows:
+
+    Net Assets With Donor Restrictions
+
+    These include net assets subject to donor-imposed stipulations, which may require the University to
+    maintain the principal permanently. In most cases, donors allow the University to use all or part of the
+    income generated by these investments for general or specific purposes. Also included are net assets
+    restricted by state law or donor-imposed restrictions that can be fulfilled by University actions or the
+    passage of time.
+
+    Net Assets Without Donor Restrictions
+
+    These are net assets that are not subject to any donor-imposed restrictions. However, net assets
+    without restrictions can be designated for specific purposes by the Board of Trustees or restricted
+    through contractual agreements with external parties.
+
+Effective for the fiscal year ending June 30, 2024, the University changed the presentation of its Statement
+of Activities from a functional expense category format to a natural expense category format.
+
+Certain prior year amounts have been reclassified to conform to the current year presentation. Such
+reclassifications had no material effect on the consolidated financial position, changes in net assets, or
+cash flows of the University.
+
+Consolidation
+
+On September 12, 2024, Worcester Polytechnic Institute completed the purchase the Hampton Inn and the
+Courtyard Marriott hotels in the Gateway Park area of Worcester, for a total purchase price of $46 million.
+The acquisition was financed through a combination of taxable and tax-exempt variable-rate debt, with
+interest rates tied to the Secured Overnight Financing Rate. The University plans to operate the hotels as
+commercial properties for a minimum of 18 months, after which the properties may be converted into
+student housing as deemed necessary by the University. Revenues associated with the hotel operations
+are reported as sales of auxiliary enterprises and the expenses are reported within the natural expense
+categories in the Statement of Activities.
+
+
+
+
+                                                      9
+                                     Worcester Polytechnic Institute
+
+                NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                          June 30, 2025 and 2024
+
+
+The accompanying consolidated financial statements include the accounts of the University and its wholly-
+owned or controlled subsidiaries, as described below. Intercompany accounts and transactions have been
+eliminated.
+
+Gateway Park LLC (“Gateway”)
+
+Gateway holds a ground lease for University-owned property in the Gateway Park area of Worcester.
+
+Lancaster Island LLC (“Lancaster”)
+
+Lancaster owns land in the Gateway Park area of Worcester and is the lessee of a parcel of land currently
+used for student parking.
+
+ASSISTments Foundation Inc. (“TAF”)
+
+TAF is a not-for-profit corporation and a Type 1 Supporting Organization of the University. It supports the
+University’s ASSISTments program.
+
+Grove Street Lodging LLC (“Grove Street”)
+
+Grove Street holds and manages the Courtyard Marriott (“Courtyard”) in the Gateway Park area of
+Worcester.
+
+Prescott Street Lodging LLC (“Prescott Street”)
+
+Prescott Street holds and manages the Hampton Inn (“Hampton”) in the Gateway Park area of Worcester.
+
+During the fiscal year ending June 30, 2024, Washburn Park Inc. (“Washburn”), previously consolidated in
+the University’s financial statements, was merged into the University. As a result, no separate consolidation
+of this entity is presented in the current year. The dissolution had no impact on the University’s consolidated
+net assets, results of operations, or cash flows.
+
+Classifications
+
+Revenues are reported as increases in net assets without donor restrictions unless the use of related
+inflows is limited by donor-imposed restrictions or legal requirements. Expenses are reported as decreases
+in net assets without donor restrictions. Gains and losses on investments and other assets or liabilities are
+also reported as increases or decreases in net assets without donor restrictions, unless restricted by explicit
+donor stipulation or legal requirements. When temporary restrictions on net assets expire (i.e., the donor’s
+stipulation is fulfilled or the specified time period elapses), the amounts are reclassified as net assets
+released from restrictions.
+
+Operating and Nonoperating Activities
+
+In the consolidated statements of activities, the University distinguishes between operating and
+nonoperating activities. Operating activities are primarily those that support the University's educational
+mission and purpose and the operations of the acquired hotels. Nonoperating activities generally include
+unspent appreciation on endowment funds, gains or losses on beneficial interests in trusts, changes in the
+value of split-interest agreements, net contributions designated for endowment and capital use and related
+releases, and changes in the value of interest rate agreements.
+
+
+
+
+                                                      10
+                                      Worcester Polytechnic Institute
+
+                NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                          June 30, 2025 and 2024
+
+
+Use of Estimates in the Preparation of Financial Statements
+
+The preparation of financial statements in accordance with generally accepted accounting principles
+(“GAAP”) in the United States requires management to make estimates and assumptions that impact the
+reported amounts of assets, liabilities, and disclosures of contingent assets and liabilities at the financial
+statement date, as well as the reported revenues and expenses during the reporting period. Significant
+estimates made by the University include the valuation of investments, the estimated net realizable value
+of receivables (including contributions, gifts, pledges, student loans, student accounts, and other
+receivables), the estimated useful lives of buildings and equipment, and liabilities related to asset retirement
+obligations, self-insured medical claims, and split-interest agreements. Actual results may differ from these
+estimates.
+
+Cash and Cash Equivalents
+
+For purposes of reporting cash flows, the University defines cash equivalents as short-term, highly liquid
+investments. These consist of time deposits and other short-term investments with original maturities of
+ninety days or less at the time of purchase. Cash equivalents are recorded at cost, which approximates
+their fair value at the reporting date. Certain cash and cash equivalent balances are designated as separate
+from cash available for current operations, based on the University's intent to segregate these funds.
+
+The University's banking activities, including cash and cash equivalents not classified as investments, are
+primarily held with one regional bank, and the balances exceed federal insurance limits. The University
+monitors the financial strength of the bank on an ongoing basis.
+
+Contributions
+
+Contributions, including unconditional promises to give, are recognized as revenue in the period received.
+Contributions subject to donor-imposed stipulations that are satisfied within the same reporting period are
+reported as unrestricted support. Promises to give that are scheduled to be received after the fiscal year-
+end are shown as increases in net assets with donor restrictions and are reclassified to net assets without
+donor restrictions when the purpose or time restrictions are met. Promises to give that require the corpus
+to be maintained permanently are recognized as increases in net assets with donor restrictions. Conditional
+promises to give are not recognized until the conditions on which they depend are substantially met.
+Contributions of non-cash assets are recorded at their estimated fair value at the time of the gift.
+Contributions expected to be collected after more than one year are recorded at the present value of
+estimated future cash flows, with discount rates ranging from 0.5% to 4.3%. The amortization of the discount
+is recorded as additional contribution revenue in the relevant net asset class.
+
+The carrying amount of contributions receivable approximates fair value, as these amounts are recorded
+net of an allowance for uncollectible accounts and discounted to present value. Management determines
+the allowance for uncollectible contributions receivable based on judgment, considering factors such as
+prior collection history, the type of contribution, and the nature of the fundraising activity.
+
+The University reports contributions of land, buildings, or equipment as support without donor restrictions
+unless the donor imposes specific restrictions on their use. Contributions of cash or other assets that must
+be used to acquire long-lived assets are reported as support without donor restrictions if the assets are
+placed in service within the same reporting period. Otherwise, these contributions are reported as support
+with donor restrictions until the assets are acquired and placed in service, at which point they are
+reclassified as net assets without donor restrictions.
+
+
+
+
+                                                      11
+                                     Worcester Polytechnic Institute
+
+                NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                         June 30, 2025 and 2024
+
+
+Deferred Financing Costs
+
+Deferred financing costs related to bonds and notes payable are amortized over the life of the associated
+bonds.
+
+As of June 30, 2025 and 2024, net deferred financing costs were $2,318,000 and $2,248,000, respectively.
+Amortization expense for the years ended June 30, 2025 and 2024, was $87,000 and $376,000,
+respectively.
+
+Beneficial Interest in Trusts
+
+The University is the beneficiary of certain perpetual and charitable remainder trusts, which are held and
+administered by third-party trustees. Under these agreements, the University has an irrevocable right to its
+share of the income generated by the trust assets. Donors may impose restrictions on the use of the income.
+The estimated fair value of the trust assets is recognized as an asset and as contribution revenue when the
+information is reported to the University.
+
+Investments
+
+Investments are reported at fair value, which is a market-based measurement determined by the price that
+would be received to sell an asset or paid to transfer a liability in an orderly transaction between market
+participants at the measurement date. To determine fair value, the University prioritizes inputs based on
+the market in which the investments trade and the reliability of the data, using a three-level hierarchy:
+
+    Level 1 - Valuation is based on quoted prices for identical assets in active markets. Market price data
+              is typically obtained from relevant exchanges or dealer markets.
+
+    Level 2 - Valuation is based on observable inputs other than Level 1 prices. This includes quoted
+              prices for similar assets in active or inactive markets, or other observable data that can be
+              corroborated by market data for substantially similar assets or liabilities.
+
+    Level 3 - Valuation is based on unobservable inputs that are significant to the asset’s fair value. This
+              category includes investments where valuation is determined using pricing models,
+              discounted cash flow methodologies, or other techniques that require significant judgment or
+              estimation.
+
+For certain investments, fair values are based on the net asset value (“NAV”) provided by external
+investment managers, including general partners, when fair values are not readily available. These
+valuations rely on estimates, assumptions, and methodologies used by the investment managers.
+
+In the absence of quoted market prices, fair values are determined using present value calculations or other
+valuation techniques. These techniques are significantly affected by assumptions, such as discount rates
+and estimates of future cash flows. As a result, the estimated fair values may differ from actual realized
+values in transactions.
+
+Investments consist of assets held in the University's endowment and similar funds, as well as split-interest
+agreements. Endowment funds are subject to donor restrictions requiring the principal to be invested in
+perpetuity, with only the income available for use. Funds functioning as endowments, or quasi-endowments,
+have been established by the Board of Trustees to serve the same purposes. However, any portion of these
+quasi-endowments may be expended with Board approval.
+
+
+
+
+                                                     12
+                                     Worcester Polytechnic Institute
+
+                NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                         June 30, 2025 and 2024
+
+
+Endowment and similar fund assets are pooled on a fair value basis, with each individual fund subscribing
+to or disposing of units based on the fair value per unit at the start of each quarter. Endowment income is
+distributed based on the number of units held at the end of each month. The University also maintains
+separately invested funds, as stipulated by specific donors.
+
+Gains or losses on investments are reported in the consolidated statement of activities as increases or
+decreases in net assets without donor restrictions, unless restricted by explicit donor stipulations or legal
+requirements. Investment income is recorded in net assets without donor restrictions, unless donor
+stipulations require otherwise.
+
+Land, Buildings and Equipment
+
+Land, buildings, and equipment are recorded at their acquisition cost, or, if received as a gift, at their
+estimated fair value at the time of the gift. When assets are retired or otherwise disposed of, their cost and
+the related accumulated depreciation are removed from the accounts, and any resulting gain or loss is
+recognized. Expenditures for repairs and maintenance are expensed as incurred.
+
+Finance leases are recorded at the present value of lease payments at the lease inception date. Property
+and equipment acquired under leases are amortized on a straight-line basis over the shorter of the lease
+term or the asset’s estimated useful life. Amortization expense related to leased assets is included in
+depreciation expense in the consolidated statement of activities.
+
+Depreciation expense is calculated on a straight-line basis over the estimated useful lives of the assets.
+The University periodically reviews these useful life estimates and, when necessary, makes prospective
+adjustments. If significant events or changes in operating conditions occur, asset lives may be reassessed,
+and impairment evaluations may be performed to determine if the carrying amounts are recoverable.
+
+Useful lives are as follows:
+
+ Land improvements                                                                           10 to 20 years
+ Buildings and improvements                                                                  10 to 40 years
+ Equipment                                                                                    3 to 10 years
+
+Deposits and Deferred Revenue
+
+Deposits and deferred revenue represent payments received in advance for services that have not yet been
+provided. These amounts primarily consist of revenue from student tuition, educational fees, and advance
+payments for sponsored research programs.
+
+Split-Interest Agreements
+
+The University’s split-interest agreements with donors are included in investments and consist of charitable
+gift annuities, charitable lead trusts, charitable remainder trusts, and pooled income arrangements. These
+assets are either managed by the University or by third-party trustees, with payments made to beneficiaries
+according to the terms of the agreements. At the end of the agreement's term, remaining amounts are
+distributed to the University or other beneficiaries.
+
+Annual distributions to beneficiaries may be a fixed dollar amount or a percentage of the trust’s fair value.
+Upon receiving a gift that requires the University or trustee to make periodic payments to donors, the
+University records the gift at fair value and establishes a corresponding liability for the future payments
+owed to beneficiaries. This liability is adjusted throughout the term of the gift.
+
+
+
+
+                                                     13
+                                      Worcester Polytechnic Institute
+
+                NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                           June 30, 2025 and 2024
+
+
+The University recognizes its beneficial interest in split-interest agreements when the amounts become
+estimable and probable. The present value of payments to beneficiaries is calculated using discount rates
+effective on the date of the gift, ranging from 0.4% to 11.2%.
+
+Asset Retirement Obligations
+
+An asset retirement obligation (“ARO”) is a legal obligation associated with the retirement of long-lived
+assets. These liabilities are initially recorded at fair value and the related asset retirement costs are
+capitalized by increasing the carrying amount of the related assets by the same amount as the liability.
+Asset retirement costs are subsequently depreciated over the useful lives of the related assets. Subsequent
+to initial recognition, the University records period-to-period changes in the ARO liability resulting from the
+passage of time or revisions to either the timing or the amount of the original estimate of undiscounted cash
+flows. The University derecognizes ARO liabilities when the related obligations are settled.
+
+Tax-Exempt Status
+
+The University is a tax-exempt organization as described in Section 501(c)(3) of the Internal Revenue Code
+(the “Code”) and is generally exempt from income taxes pursuant to Section 501(a) of the Code.
+
+Sponsored Research
+
+The University receives sponsored program funding from various governmental and corporate sources.
+The funding may represent a reciprocal transaction, in which the University provides an equivalent benefit
+in return, or a nonreciprocal transaction, in which the resources are provided for the benefit of the University,
+the funding organization’s mission, or the public at large.
+
+Revenues from exchange transactions are recognized as performance obligations are satisfied, which in
+most cases are as related costs are incurred.
+
+Revenues from nonexchange transactions (contributions) may be subject to conditions, in the form of both
+a barrier to entitlement and a refund of amounts paid. Revenues from conditional nonexchange transactions
+are recognized when the barrier is satisfied.
+
+In 2025 and 2024, sponsored programs revenue earned from governmental sources total $47,282,000 and
+$45,216,000, respectively. Indirect costs recovered on federally sponsored programs are based on
+predetermined reimbursement rates, which are stated as a percentage and distributed based on the
+modified total direct costs incurred. The University negotiates its federal indirect rate with its cognizant
+federal agency. Indirect costs recovered on all other grants and contracts are based on rates negotiated
+with the respective sponsors. Funds received for sponsored research activity are subject to audit. Based
+upon information currently available, management believes that any liability resulting from such audits will
+not materially affect the financial position or operations of the University.
+
+Tuition and Fee Revenue
+
+The University recognizes revenue from student tuition and fees within the fiscal year in which educational
+services are provided. Institutional aid, in the form of scholarships and grants-in-aid, includes amounts
+funded by the endowment, research funds, and gifts, and reduces the published price of tuition for students
+receiving such aid. As such, institutional aid is referred to as a tuition discount and represents the difference
+between the stated charge for tuition and fees and the amount that is billed to the student and/or third
+parties making payments on behalf of the student. Institutional aid provided to students was $155,105,000
+in 2025 and $143,697,000 in 2024.
+
+
+
+
+                                                       14
+                                      Worcester Polytechnic Institute
+
+                NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                           June 30, 2025 and 2024
+
+
+The University offers a summer term that spans two reporting periods. Payments of tuition and housing for
+the summer terms are recognized as performance obligations are met. Because the academic term spans
+two reporting periods, a portion of the revenues are deferred at June 30, 2025 and 2024.
+
+Auxiliary Services Revenue
+
+Auxiliary services exist to furnish goods or services to students, faculty, staff, or incidentally to the general
+public, and charge a fee that is directly related to, although not necessarily equal to, the cost of the goods
+or services provided. Auxiliary revenues primarily consist of student housing and dining services and hotel
+operations.
+
+Undergraduate students are generally required to remit payments for housing and dining one week prior to
+the start of the academic term, while graduate student housing payments are due monthly on the first of
+each month. Dining plans are not offered during summer terms. Performance obligations for housing and
+dining services are satisfied over the academic terms, and revenue is recognized ratably over the period in
+which the services are provided.
+
+The University has oversight over the daily operations of the hotels. Hotel operations include revenues from
+room rentals, food and beverage sales, and event services. Payments are generally due at the time of
+service, and performance obligations are satisfied and revenue recognized as lodging nights are provided
+and services rendered. The hotels support the University indirectly by hosting visiting scholars, prospective
+students, conference and event attendees, visiting athletic teams, and other University visitors.
+
+Recent Accounting Pronouncements
+
+There were no new accounting pronouncements issued and adopted during the year that had a material
+effect on the University’s financial statements.
+
+
+NOTE 3 - ACCOUNTS RECEIVABLE, NET
+
+Accounts receivable, net, consist of the following at June 30 (in thousands):
+
+                                                                                 2025               2024
+
+ Sponsored research                                                        $       10,869     $         9,172
+ Student receivables                                                                3,307               3,585
+ Other receivables                                                                  3,597               2,965
+
+                                                                                   17,773              15,722
+
+ Less: allowance for doubtful accounts                                              (1,765)             (1,547)
+
+                                                                           $       16,008     $        14,175
+
+
+
+
+                                                       15
+                                      Worcester Polytechnic Institute
+
+                 NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                           June 30, 2025 and 2024
+
+
+NOTE 4 - CONTRIBUTIONS RECEIVABLE, NET
+
+Unconditional promises are expected to be received in the following periods at June 30 (in thousands):
+
+                                                                                   2025                     2024
+
+ In one year or less                                                       $              7,123      $         9,830
+ Between one and five years                                                              16,551               23,234
+
+                                                                                         23,674               33,064
+ Less:
+   Discount to present value                                                             (1,402)              (1,916)
+   Allowance for doubtful contributions                                                  (3,283)              (2,665)
+
+                                                                           $             18,989      $        28,483
+
+As of June 30, 2025 and 2024, the University has $126,339,000 and $132,614,000, respectively, of
+conditional promises to give that are not recognized as assets in the accompanying consolidated
+statements of financial position.
+
+
+NOTE 5 - STUDENT LOANS RECEIVABLE, NET
+
+The University makes uncollateralized loans to students based on financial need. Student loans are funded
+through Federal government loan programs or institutional resources.
+
+Student loans receivable consists of the following at June 30 (in thousands):
+
+                                                  2025                                         2024
+                                     Federal   Institutional     Total         Federal      Institutional     Total
+
+ Student loans receivable        $    1,044    $ 13,739        $ 14,783    $    1,562       $ 14,806        $ 16,368
+
+ Less: allowance for doubtful
+   accounts
+       Beginning of year                   -        (375)          (375)             -             (394)        (394)
+       Decrease (increase)                 -        (194)          (194)             -               19           19
+       Writeoffs                           -         233            233              -                -            -
+
+      End of year                          -        (336)          (336)             -             (375)        (375)
+
+            Student loans
+               receivable, net   $    1,044    $ 13,403        $ 14,447    $    1,562       $ 14,431        $ 15,993
+
+Historically, the University participated in the Federal Perkins Loan Program revolving loan program.
+Congress did not renew the program after September 30, 2017, and no disbursements were permitted after
+June 30, 2018. The University has elected to continue to collect on the loans and return the federal portion
+collected on an annual basis. Funds advanced by the Federal government and their share of student loan
+activity totals $1,221,000 and $1,815,000 at June 30, 2025 and 2024, respectively.
+
+
+
+
+                                                       16
+                                       Worcester Polytechnic Institute
+
+                 NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                           June 30, 2025 and 2024
+
+
+The following amounts were past due under student loan programs at June 30 (in thousands):
+
+                                       1-60 Days            60-90 Days           90+ Days       Total Past Due
+
+ June 30, 2025                     $               3   $                5    $            541   $           549
+ June 30, 2024                     $               5   $                7    $            631   $           643
+
+Allowances for credit losses are established based on prior collection experience and current economic
+factors which, in management’s judgment, could influence the ability of loan recipients to repay the amounts
+per the loan terms. Institutional loan balances are written off only when they are deemed to be permanently
+uncollectible.
+
+
+NOTE 6 - BENEFICIAL INTEREST IN TRUSTS
+
+Beneficial interest in trusts is carried at fair value using discounted present value and other similar
+methodologies. The following table summarizes the changes in these trusts during the years ended June 30
+(in thousands):
+
+                                                                                  2025              2024
+
+ Fair value, beginning of year                                               $       15,577     $      16,474
+ Net realized (losses) and gains                                                        945               941
+ Contributions                                                                            -                 -
+ Distributions, net                                                                       -            (1,838)
+
+ Fair value, end of year                                                     $       16,522     $      15,577
+
+
+NOTE 7 - INVESTMENTS
+
+Investments at June 30, 2025 are as follows (comparative totals are included for 2024) (in thousands):
+
+                                                               2025
+                                       Endowment
+                                       and Similar         Split-Interest                           2024
+                                         Funds             Agreements             Total             Total
+
+ Cash and cash equivalents         $         8,386     $             156     $        8,542     $       1,614
+ Equity securities                          82,042                12,002             94,044            77,087
+ Fixed income securities                    89,536                 2,921             92,457            54,444
+ Alternative investments
+    Equity funds                           403,081                       -         403,081           383,941
+    Fixed income funds                      72,407                       -          72,407            63,453
+    Private equity funds                    75,529                       -          75,529            95,756
+    Total investments                        8,994                       -           8,994                 -
+    Real assets                             38,236                       -          38,236            47,680
+
+           Total investments       $       778,211     $        $15,079      $     793,290      $    723,975
+
+
+
+
+                                                       17
+                                       Worcester Polytechnic Institute
+
+                NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                            June 30, 2025 and 2024
+
+
+The following table presents the fair value of investments by major category and fair value hierarchy level
+as of June 30, 2025 (in thousands):
+
+                                                                             2025
+                                        Quoted         Significant
+                                       Prices in          Other           Significant
+                                         Active        Observable        Unobservable             NAV
+                                        Markets          Inputs             Inputs              Practical
+                                       (Level 1)        (Level 2)          (Level 3)            Expedient           Total
+
+ Cash and cash equivalents         $        8,542      $             -   $          -       $               -   $     8,542
+ Equity securities                         86,775                7,269              -                       -        94,044
+ Fixed income securities                   50,557               41,900              -                       -        92,457
+ Alternative investments
+    Equity funds                                   -                 -              -              403,081          403,081
+    Fixed income funds                             -                 -              -               72,407          72,407
+    Private equity funds                           -                 -              -               75,529          75,529
+    Private credit                                 -                 -              -                8,994           8,994
+    Real assets                                    -                 -              -               38,236          38,236
+
+           Total investments       $      145,874      $        49,169   $          -       $      598,247      $   793,290
+
+The following table presents the fair value of investments by major category and fair value hierarchy as of
+June 30, 2024 (in thousands):
+
+                                                                             2024
+                                        Quoted         Significant
+                                       Prices in          Other           Significant
+                                         Active        Observable        Unobservable             NAV
+                                        Markets          Inputs             Inputs              Practical
+                                       (Level 1)        (Level 2)          (Level 3)            Expedient           Total
+
+ Cash and cash equivalents         $        1,614      $             -   $              -   $            -      $     1,614
+ Equity securities                         70,776                6,311                  -                -           77,087
+ Fixed income securities                   21,792               31,396                  -            1,256           54,444
+ Alternative investments
+    Equity funds                                   -                 -                  -          383,941          383,941
+    Fixed income funds                             -                 -                  -           63,453           63,453
+    Private equity funds                           -                 -                  -           95,756           95,756
+    Real assets                                    -                 -                  -           47,680           47,680
+
+           Total investments       $       94,182      $        37,707   $              -   $      592,086      $   723,975
+
+For the year ended June 30, 2024, $38 million of fixed income and equity securities were reclassified from
+Level 1 to Level 2.
+
+As of June 30, 2025 and 2024, there were no investments to disclose as Level 3 in the fair value hierarchy.
+
+Fair values of equity, fixed income and commodity securities are generally based on published fair values.
+The University invests in hedge funds, private equity, and real estate investments through various limited
+partnerships and similar vehicles. Hedge funds utilize a variety of investment strategies incorporating
+marketable securities and, in some cases, derivative instruments, all of which are reported at estimated fair
+value by the fund managers. Private equity funds consist of long-term private investments and have been
+valued based on estimates provided by the general partners of the investment vehicles. Investments in
+limited partnerships and limited liability companies (generally referred to as “limited partnerships”) for which
+
+
+                                                           18
+                                                   Worcester Polytechnic Institute
+
+                    NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                                         June 30, 2025 and 2024
+
+
+readily ascertainable fair values are not available are reported at estimated fair value as determined by
+management or at the investment NAV as a practical expedient. Investments in limited partnerships are
+generally valued based upon the most recent NAV or capital account information available from the general
+partner of the investment limited partnership, taking into consideration, where applicable, other information
+determined to be a reliable indicator of fair value. These factors include rights and obligations, restrictions
+or illiquidity on such interest, potential claw backs, and the fair value of the limited partnership’s investment
+portfolio or other assets and liabilities. The values assigned to investments in limited partnerships are based
+upon available information and do not necessarily represent amounts which might ultimately be realized.
+Because of the inherent uncertainty of valuation, those estimated fair values may differ significantly from
+the values that would have been realized had a ready market for the investments existed and those
+differences could be material.
+
+Alternative investments consist of noncontrolling, limited marketability stock holdings and investments in
+limited partnerships. The fair values of investments in limited partnerships have been valued based on the
+NAV provided by the fund managers of these investment vehicles and reviewed by management.
+
+The following table summarizes key provisions for the University’s alternative investments valued at NAV
+(in thousands) as of June 30, 2025:
+                                                                      2025
+                                                          Remaining         Unfunded
+ Asset Class         Strategy              Fair Value       Life           Commitment       Redemption Terms         Redemption Restrictions
+
+               Global equity and                                                         Redemption terms range      Lock-up provisions range
+ Absolute        fixed income                                                              from quarterly with 60      from none to
+   return -      funds in market                                                           to 90 days notice to        redemptions limited to
+   market        neutral                                   Up to 19                        annually with 45 to 90      1/3 of the value
+   neutral       categories            $        66,765      years       $            -     days notice.                annually.
+
+               Venture capital and
+                 buyout in the US                                                        Private equity structure
+ Private         and global                                Up to 10                        with no ability to
+     equity      markets                        75,529      years               52,302     redeem.                   Not redeemable
+
+                                                                                         Redemption terms range
+                                                                                           from quarterly with 60
+                                                                                           days notice to every
+ Directional   Global long/short                           Up to 25                        five years with 90 days
+    hedge        equity funds                 115,155       years                    -     notice.                   No lock-up provisions
+
+                                                                                         Redemption terms range      Ranges from no
+               Primarily in long                                                           from 10 business days       additional restrictions
+                 only equity,                                                              in advance of valuation     to partial redemptions
+                 tracks                                                                    date to monthly             allowed but may
+ Public          performance or                                                            redemptions with            require full redemption
+    equity       relevant index               275,666      No limit             10,374     7 days notice.              if capital is below $1M.
+
+               Primarily in                                                              Daily redemption with a
+                 domestic bonds,                                                           notice period ranging
+ Fixed           tracks                                                                    from 0 to 2 business
+    income       performance                    17,902     No limit                  -     days                      Daily redemption
+
+               Primarily in illiquid
+                 distressed and
+                 opportunistic
+ Private         credit and                                                              Redemption terms vary
+     credit      lending funds                   8,994     No limit             14,383     from daily to illiquid    Not redeemable
+
+                                                                                         Private equity structure
+                                                           Up to 10                        with no ability to
+ Real assets   US real estate                   38,236      years               23,403     redeem.                   Not redeemable
+
+                                       $      598,247                   $      100,462
+
+
+
+
+                                                                      19
+                                                   Worcester Polytechnic Institute
+
+                    NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                                         June 30, 2025 and 2024
+
+
+The following table summarizes key provisions for the University’s alternative investments valued at NAV
+(in thousands) as of June 30, 2024:
+                                                                          2024
+                                                           Remaining            Unfunded
+ Asset Class         Strategy              Fair Value        Life              Commitment       Redemption Terms         Redemption Restrictions
+
+               Global equity and                                                             Redemption terms range      Lock-up provisions range
+ Absolute        fixed income                                                                  from quarterly with 60      from none to
+    return -     funds in market                                                               to 90 days’ notice to       redemptions limited to
+    market       neutral                                     Up to                             annually with 45 to 90      1/3 of the value
+    neutral      categories            $        68,614      20 years         $           -     days’ notice.               annually.
+
+               Venture capital and
+                 buyout in the                                                               Private equity structure
+ Private         US and global                                                                 with no ability to
+     equity      markets                        87,684    Up to 7 years             41,300     redeem.                   Not redeemable
+
+                                                                                             Redemption terms range
+                                                                                               from quarterly with 60
+                                                                                               days’ notice to every
+ Directional   Global long/short                                                               five years with 90
+    hedge        equity funds                 114,625     Up to 7 years                  -     days’ notice.             No lock-up provisions
+
+                                                                                             Redemption terms range      Ranges from no
+               Primarily in long                                                               from 10 business days       additional restrictions
+                 only equity,                                                                  in advance of valuation     to partial redemptions
+                 tracks                                                                        date to monthly             allowed but may
+ Public          performance or                                                                redemptions with            require full redemption
+    equity       relevant index               241,898       No limit                     -     7 days’ notice.             if capital is below $1M.
+
+               Primarily in                                                                  Daily redemption with a
+                 domestic bonds,                                                               notice period ranging
+ Fixed           tracks                                                                        from 0 to 2 business
+    income       performance                    22,257      No limit                     -     days.                     Daily redemption
+
+               Primarily in illiquid
+                 distressed and
+                 opportunistic
+ Private         credit and                                                                  Redemption terms vary
+     credit      lending funds                   8,072      No limit                 8,037     from daily to illiquid.   Not redeemable
+
+                                                                                             Private equity structure
+                                                                                               with no ability to
+ Real assets   US real estate                   47,680    Up to 4 years             26,695     redeem.                   Not redeemable
+
+                                       $      590,830                        $      76,032
+
+
+Endowment Income and Spending
+
+In addition to current yield (interest, dividends, and net rental income), the University has interpreted
+Massachusetts state law to allow for the utilization of capital appreciation on donor-restricted endowment
+funds unless explicit donor stipulations specify how net appreciation must be used. Accordingly, the
+University segregates capital appreciation between that which can be used for current operations and that
+which is attributable to donor-restricted endowment funds. For financial reporting purposes, current yield
+and capital appreciation attributed to donor-restricted endowment funds are considered restricted until
+appropriated for use, and the historic dollar value of such funds is considered restricted in perpetuity.
+
+The University has adopted the Uniform Prudent Management of Institutional Funds Act (“UPMIFA”) statute.
+UPMIFA provides guidance for investment management; enumerates guidelines for prudent investing; and
+eliminates the concept of “historic dollar value” for donor-restricted endowments. Accordingly, the University
+has not limited appropriation of underwater funds to current yield.
+
+
+
+
+                                                                          20
+                                     Worcester Polytechnic Institute
+
+                NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                         June 30, 2025 and 2024
+
+
+The University has adopted investment and spending policies for its endowment and similar funds that
+attempt to provide a predictable stream of funding for its programs. To satisfy its long-term rate-of-return
+objectives, the University relies on a total return approach in which investment returns are achieved through
+both capital appreciation (realized and unrealized gains) and current yield.
+
+To achieve its long-term objectives within prudent risk parameters, the University targets a diversified asset
+allocation as follows:
+
+ Asset Allocation Policy                                                                         Target %
+
+ Global equity                                                                                      50
+ Private equity/venture capital                                                                     20
+ Private credit                                                                                     5
+ Flexible capital                                                                                   10
+ Fixed income                                                                                      2.5
+ Real assets                                                                                       12.5
+
+The University observes a spending rule with respect to total return (interest, dividends, and appreciation)
+on investments of the endowment and similar funds. Under the spending rule, the University appropriated
+4.6 % of its endowment and similar funds’ average unit fair value for the previous twelve quarters, from the
+beginning of the fiscal year, for the years ended June 30, 2025 and 2024, respectively.
+
+Endowment and Similar Funds
+
+The endowment and similar funds’ net asset composition as of June 30, 2025 and 2024 and the changes
+for the years then ended are as follows (in thousands):
+
+                                                                                2025
+                                                       Without Donor         With Donor
+                                                        Restrictions         Restrictions         Total
+
+ Donor restricted                                     $            -     $       454,416     $      454,416
+ Quasi-endowment                                             277,006                   -            277,006
+
+                                                      $      277,006     $       454,416     $      731,422
+
+ Balance, June 30, 2024                               $      261,163     $       418,836     $      679,999
+
+ Investment return                                            32,737               37,018            69,755
+ Contributions                                                 2,026                8,339            10,365
+ Appropriated for expenditure                                (18,920)              (9,777)          (28,697)
+
+ Balance, June 30, 2025                               $      277,006     $       454,416     $      731,422
+
+
+
+
+                                                     21
+                                    Worcester Polytechnic Institute
+
+               NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                        June 30, 2025 and 2024
+
+
+                                                                              2024
+                                                     Without Donor         With Donor
+                                                      Restrictions         Restrictions        Total
+
+ Donor restricted endowment                          $           -     $       418,836     $    418,836
+ Quasi-endowment                                           261,163                   -          261,163
+
+                                                     $     261,163     $       418,836     $    679,999
+
+ Balance, June 30, 2023                              $     244,971     $       383,794     $    628,765
+
+ Investment return                                           32,975              38,667          71,642
+ Contributions                                                  832               6,022           6,854
+ Appropriated for expenditure                               (17,615)             (9,647)        (27,262)
+
+ Balance, June 30, 2024                              $     261,163     $       418,836     $    679,999
+
+Split-Interest Agreements
+
+Investments include the following split-interest agreements at June 30 (in thousands):
+
+                                                                              2025             2024
+
+ Charitable remainder trusts                                           $          7,003    $       6,500
+ Charitable gift annuities                                                        7,198            6,595
+ Pooled income funds                                                                879              865
+
+                                                                       $         15,080    $     13,960
+
+
+NOTE 8 - LAND, BUILDINGS AND EQUIPMENT, NET
+
+Land, buildings and equipment, net, consist of the following at June 30 (in thousands):
+
+                                                                              2025             2024
+
+ Land and land improvements                                            $        45,899     $     43,618
+ Buildings and improvements                                                    794,253          723,977
+ Equipment                                                                     166,313          155,426
+ Long-term lease assets                                                         26,263           26,166
+
+                                                                             1,032,728          949,187
+
+ Less: accumulated depreciation                                                (472,379)       (434,257)
+
+                                                                               560,349          514,930
+
+ Construction-in-progress                                                         3,552          24,144
+
+                                                                       $       563,902     $    539,074
+
+
+
+
+                                                    22
+                                       Worcester Polytechnic Institute
+
+                NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                            June 30, 2025 and 2024
+
+
+Depreciation expense charged to operations was $38,275,000 and $32,835,000 for the years ended
+June 30, 2025 and 2024, respectively.
+
+
+NOTE 9 - LEASES AND CONTRACT LIABILITIES
+
+The University is a lessee or lessor of real estate and office space, as well as equipment. The University
+determines whether a contract is a lease at inception of the contract. When evaluating contracts for
+embedded leases, the University exercises judgement to determine if there is an explicit or implicit identified
+asset in the contract and if the University controls the use of that asset. Embedded leases are immaterial
+to the consolidated financial statements.
+
+Certain real estate leases have renewal options and the lease term includes options to extend or terminate
+the lease when it is reasonably certain that the University will exercise that option.
+
+Lease expense for lease payments is recognized on a straight-line basis over the term of the lease. Lease
+assets and liabilities are recognized based on the present value of lease payments over the lease term.
+The majority of the University’s leases do not have a readily determinable implicit discount rate and in those
+cases the University uses its incremental borrowing rate to calculate the present value of lease payments.
+As a practical expedient, the University has made an accounting policy election for all asset classes not to
+separate lease components from nonlease components in the event that the agreement contains both. The
+University includes both lease and nonlease components for purposes of calculating the right-of-use asset
+and related lease liability. For finance leases, interest expense on the lease liability is recognized using the
+effective interest method and amortization of the right-to-use asset is recognized on a straight-line basis
+over the shorter of the estimated useful life of the asset or the lease term.
+
+During the year ended June 30, 2023, the University entered into a 40-year operating agreement with a
+third party to manage and upgrade the existing powerplant. This long-term utility agreement includes an
+upfront $45 million payment and an exclusive right to sell to the University electricity, steam/hot water, and
+chilled water. Through this 40-year agreement, the University agreed to sell certain utility assets to a newly
+formed entity, WPI Utility P3, LLC at a price of $14,103,600 and to grant them the right to operate the utility
+systems for the duration of the agreement at a price of $30,896,400.
+
+The University assessed the transaction as a sale leaseback transaction under Financial Accounting
+Standards Board Accounting Standards Codification (“FASB”) 842 and concluded that ultimately the
+transaction did not meet the definition of a sale. Therefore, the University did not follow sale leaseback
+accounting and accounted for the liability as a contract liability under FASB 842. The University continued
+to recognize the fixed assets at their net book value of $2.6 million and will continue to depreciate them
+over their useful lives. Separately, the University recognized the cash received of $45 million as a contract
+liability discounted to present value based on the future payments to be made.
+
+The table below presents certain information related to the lease costs for leases (in thousands):
+
+                                                                                2025               2024
+ Finance lease expense
+   Amortization of leased assets                                          $           334     $          334
+   Interest on lease liabilities and contract liabilities                           2,509                752
+ Operating lease expense                                                            2,101              3,416
+ Short-term and variable lease costs                                                  213                 81
+
+           Total lease cost                                               $         5,157     $        4,583
+
+
+
+
+                                                        23
+                                             Worcester Polytechnic Institute
+
+                   NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                                 June 30, 2025 and 2024
+
+
+Supplemental financial position information related to operating leases, finance leases, and contract
+liabilities as of June 30, 2025 is as follows (in thousands):
+
+                                                   Classification on the Statement of
+                                                            Financial Position                2025                  2024
+ Assets
+   Operating lease assets                        Land, buildings and equipment, net       $       6,470        $          8,746
+   Finance lease assets                          Land, buildings and equipment, net                 836                   1,170
+
+             Total lease assets                                                           $       7,576        $          9,916
+
+ Liabilities
+    Operating lease liabilities                      Lease and contract liabilities       $       7,111        $       9,042
+    Finance lease liabilities                        Lease and contract liabilities               1,080                1,484
+    Contract liabilities                             Lease and contract liabilities              55,191               50,388
+
+             Total lease and contract
+               liabilities                                                                $      63,382        $      60,914
+
+ Weighted-average remaining lease term
+   Operating leases                                                                            3.7 years            4.6 years
+   Finance leases and contract liabilities                                                    36.8 years           37.4 years
+ Weighted-average discount rate
+   Operating leases                                                                              2.91%                    2.92%
+   Finance leases and contract liabilities                                                       4.88%                    4.87%
+
+The table below presents supplemental cash flow information related to leases (in thousands):
+
+                                                                                          2025                     2024
+ Cash paid for amounts included in the measurement of lease liabilities
+   Operating cash flows for operating leases                                          $       2,263        $          4,390
+   Operating cash flows for finance leases and contract liabilities                           3,047                   2,454
+
+                                                                                      $       5,310        $          6,844
+
+Future minimum lease payments under operating and finance leases (in thousands) at June 30, 2025 is as
+follows:
+
+ Year Ending June 30,                                                                                          Amount Due
+
+ 2026                                                                                                      $          5,370
+ 2027                                                                                                                 5,271
+ 2028                                                                                                                 4,981
+ 2029                                                                                                                 4,475
+ 2030                                                                                                                 3,083
+ Thereafter                                                                                                         112,582
+
+                                                                                                                    135,762
+
+ Less: imputed interest                                                                                             (72,380)
+
+             Total lease and contract liabilities                                                          $         63,382
+
+
+
+
+                                                             24
+                                              Worcester Polytechnic Institute
+
+                    NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                                  June 30, 2025 and 2024
+
+
+NOTE 10 - BONDS AND NOTES PAYABLE, NET
+
+Bonds, notes payable, and financing liabilities consist of the following (in thousands) at June 30:
+                                                                               Amount Due
+                                   Maturity       Interest       Original      Within One     Balance,         Balance,
+      Purpose and Definition        Date          Rate %          Issue           Year      June 30, 2025    June 30, 2024
+
+  Bonds payable
+    MDFA 2008 Series A (1)          9/1/2035     Variable    $        54,815   $   2,090    $     26,815     $     28,905
+    MDFA 2014 Series (1)            9/1/2029     2.5-3.1               2,782         225           2,659            2,877
+    MDFA 2016 Series (2)            9/1/2052     3.0-5.0              49,030           -          36,892           37,189
+    Worcester Polytechnic
+       Institute 2016 Series (1)    9/1/2056      4.338            56,905              -          56,905           56,905
+    MDFA 2017A Series (3)           9/1/2047     3.0-5.0           14,435            395          13,834           13,297
+    MDFA 2017B Series (4)           9/1/2045       5.0             52,990              -          45,136           45,728
+    MDFA 2019 Series (5)            9/1/2059     4.0-5.0          113,640              -         106,682          107,689
+    MDFA 2022 Series (1)           6/30/2042       2.2             42,540          1,099          39,480           40,532
+    People's Bank Loan             6/30/2047       4.6             22,000            545          20,563           21,080
+    Term Loan - T.D. Bank (6)         9/12/27    Variable          26,053              -          26,053                -
+    MDFA 2024 Series (7)              9/12/54    Variable          20,400              -          20,400                -
+
+  Uncollateralized notes
+    Capital lease obligations       Various       Various               N/A           89             206              258
+    Financing liability            9/30/2043                                         497           5,502            3,026
+    Other short term financing
+        obligations                 Various       Various               N/A            -          10,500           20,512
+
+                                                                                   4,940         411,627          377,998
+  Less: deferred financing
+    costs, net of amortization                                                         -           (2,318)          (2,248)
+
+              Total bonds and
+                 notes payable                                                 $   4,940    $    409,309     $    375,750
+
+(1)
+      The bonds, issued at par with no discount or premium, represent a general obligation of the University.
+(2)
+      The bonds represent a general obligation of the University. The balances at June 30, 2025 and 2024
+      include a premium of $3,432,000 and $3,729,000, respectively.
+(3)
+      The bonds represent a general obligation of the University. The balances at June 30, 2025 and 2024
+      include a premium of $2,709,000 and $1,812,000, respectively.
+(4)
+      The bonds represent a general obligation of the University. The balances at June 30, 2025 and 2024
+      include a premium of $4,711,000 and $5,303,000, respectively.
+(5)
+      The bonds represent a general obligation of the University. The balances at June 30, 2025 and 2024
+      include a premium of $14,512,000 and $15,519,000, respectively.
+(6)
+      In fiscal year 2025, the University entered into a term loan agreement with T.D. Bank, N.A., with an
+      original issue amount of $26,100,000. Proceeds were used to finance the acquisition of the Courtyard
+      Marriott hotel property. The loan matures in 2027, and requires interest-only payments through
+      maturity, with the entire principal balance due at that date. The loan is variable-rate, with interest rates
+      tied to the Secured Overnight Financing Rate.
+(7)
+      In fiscal year 2025, the University issued $20,400,000 of tax-exempt Massachusetts Development
+      Finance Agency Revenue Bonds (Series 2024). Proceeds from the issuance were used to finance the
+      acquisition of the Hampton Inn hotel property. The bonds mature in September 2054 and are subject
+      to a mandatory purchase date in September 2027. The University expects to remarket the bonds at the
+      mandatory purchase date. The bonds are variable rate, with interest rates tied to the Secured Overnight
+      Financing Rate.
+
+
+                                                                 25
+                                     Worcester Polytechnic Institute
+
+                 NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                          June 30, 2025 and 2024
+
+
+There were no funds held under bond agreements at June 30, 2025 for construction and debt service
+reserves regarding the University’s various bond indentures.
+
+Scheduled aggregate principal repayments on bonds, notes payable, and financing liabilities for each of
+the next five fiscal years and thereafter are as follows (in thousands):
+
+ Year Ending June 30,                                                                             Amount Due
+
+ 2026                                                                                         $        15,415
+ 2027                                                                                                  31,723
+ 2028                                                                                                   6,761
+ 2029                                                                                                   6,949
+ 2030                                                                                                   7,731
+ Thereafter                                                                                           317,684
+
+           Total cash payments                                                                        386,262
+
+ Premium                                                                                               25,364
+
+                                                                                              $       411,627
+
+The University also has a $50,000,000 bank revolving line of credit. The line of credit bears interest at an
+adjusted SOFR rate plus 1.25% per month on outstanding amounts. The balance outstanding was
+$10,500,000 and $20,500,000 at June 30, 2025 and 2024, respectively. Related interest expense was
+$492,000 and $378,000 for the years ended June 30, 2025 and 2024, respectively.
+
+
+NOTE 11 - INTEREST RATE AGREEMENTS
+
+The University has entered into several interest rate swap agreements used to economically hedge the
+interest rate risk associated with certain of its variable rate debt obligations. The following summarizes the
+terms for each of these agreements as of June 30 (dollars in thousands):
+
+                                                                              Series 2008 A
+                                                                   Deutsche                    Barclays
+                                                                   Bank AG                    Bank PLC
+
+ Trade/effective date                                            Nov. 3, 2008              Nov. 3, 2008
+ Initial notional amount                                    $          14,100         $         34,200
+ Termination date                                                 Oct.1, 2033              Sept.1, 2035
+ Rate paid by University                                               4.65%                     3.71%
+ Rate paid by Counterparty                                      71% of one-month
+                                                                     LIBOR            SOFR + 11.448 bps
+
+                                                               Series 2008 A
+ Fair Value Liability                                     Level 1          Level 2                   Total
+
+ June 30, 2025                                        $           714    $           866      $         1,580
+ June 30, 2024                                        $           655    $           745      $         1,400
+
+The interest rate swap agreements contain provisions requiring collateral postings should the fair value
+liability of the University exceed certain amounts based on the University’s long-term credit ratings. For the
+
+
+
+                                                     26
+                                            Worcester Polytechnic Institute
+
+                    NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                                   June 30, 2025 and 2024
+
+
+agreement with Deutsche Bank AG, the collateral posting provision is triggered should the fair value liability
+exceed $40 million while the University’s long-term credit rating remains at A1/A+. For the Barclays Bank
+PLC agreement, collateral would be required if the combined fair value liability exceeds $40M and the
+University’s long-term credit rating declines to A2/A. At the University’s current rating of A2/A, a combined
+fair value liability in excess of $40 million would trigger a posting requirement for the Barclays Bank PLC
+agreement. The combined debt and swap liability is $28 million at June 30, 2025. The provisions with both
+counterparties provide that the liability threshold increases if the University’s long-term credit ratings
+decline. At June 30, 2025, the University is not required to post collateral to its counterparties.
+
+
+NOTE 12 - RETIREMENT PLAN
+
+The University participates in a defined contribution retirement plan for substantially all of its employees.
+Through March 31, 2025, employees could elect to invest in various accounts with the Teachers’ Insurance
+and Annuity Association of America (“TIAA”), Fidelity Investments, or a combination of both. Effective April
+2025, the University transitioned to a single record keeper arrangement with TIAA. All new enrollments and
+contributions were directed solely to TIAA as of April 1, 2025 and April 22, 2025, respectively. Participants
+with Fidelity held their account balances in Fidelity through June 30, 2025, with the transfer of previously
+accumulated account balances scheduled for July 2025. Contributions were $11,423,000 and $11,224,000
+for the years ended June 30, 2025 and 2024, respectively. Contributions are based upon a percentage of
+the employees’ compensation.
+
+
+NOTE 13 - FUNCTIONAL EXPENSES
+
+Expenses are presented by functional classification in the following tables. Each functional classification
+includes all expenses related to the underlying operations by natural classification. The costs of operation
+and maintenance of plant, depreciation, and interest expense have been allocated across all functional
+expense categories to reflect the full cost of those activities.
+
+Costs are allocated using the following methods: Expenses pertaining to depreciation, administration,
+supervision, operation, maintenance, preservation, and protection of the institution’s physical plant are
+allocated based on square footage. Interest expense is allocated based on usage of debt-financed space.
+
+The following summarizes the allocation of functional expenses as of June 30 (dollars in thousands):
+                                                                            2025
+                        Instruction                                                                    Institution and
+                           and        Sponsored         Student          Auxiliary        External       Academic
+                         Research     Research          Services        Enterprises       Relations       Support            Total
+
+ Wages and
+     benefits       $     113,575     $   36,998    $      14,933       $     7,111   $       11,155   $      40,088     $   223,860
+ Operating
+     expenses               21,206        26,159            7,529            29,246            2,065          22,504         108,709
+ Depreciation               11,939         5,610            5,180             8,611              230           6,705          38,275
+ Interest expense            5,500         1,194            2,877             6,395               39           2,222          18,227
+
+    Total
+       operating
+       expenses     $     152,220     $   69,961    $      30,519       $    51,363   $       13,489   $      71,519     $   389,071
+
+
+
+
+                                                                   27
+                                              Worcester Polytechnic Institute
+
+                    NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                                    June 30, 2025 and 2024
+
+
+                                                                              2024
+                        Instruction                                                                            Institution and
+                           and        Sponsored           Student          Auxiliary           External          Academic
+                         Research     Research            Services        Enterprises          Relations          Support                 Total
+
+ Wages and
+     benefits       $     112,584     $   34,212      $      14,401       $        6,248   $       11,301      $      38,524         $    217,270
+ Operating
+     expenses               19,707        24,145              7,503               21,855             2,118            21,340                96,668
+ Depreciation               10,789         5,341              5,387                8,392               174             6,557                36,640
+ Interest expense            3,670           647              1,773                3,854                30               590                10,564
+
+    Total
+       operating
+       expenses     $     146,750     $   64,345      $      29,064       $       40,349   $       13,623      $      67,011         $    361,142
+
+
+External relations expenditures include $8,595,000 and $9,137,000 of fundraising expenses for the years
+ended June 30, 2025 and 2024, respectively.
+
+
+NOTE 14 - LIQUIDITY AND AVAILABILITY OF FINANCIAL RESOURCES
+
+The following summarizes the financial assets available to meet the University’s general expenditures
+(dollars in thousands), as of June 30, 2025:
+                                                                                      Resources
+                                                                                     Appropriated          Resources not
+                                                                Resources            by the Board            Available
+                                                               Available at          and Available            Within
+                                                              June 30, 2025           in FY 2026            12 Months                    Total
+ Financial assets available within 12 months
+      Cash and cash equivalents                              $         4,758        $                -     $             -       $           4,758
+      Accounts receivable, net                                        16,008                         -                   -                  16,008
+      Forecasted payout on board designated
+         endowments                                                           -             18,775                       -                  18,775
+      Investments not subject to donor restrictions or
+         board designations                                                   -             11,175                       -                  11,175
+
+             Total financial assets available within 12
+                months                                                20,766                29,950                       -                  50,716
+
+ Financial assets not available for expenditures
+    within 12 months
+       Cash, cash equivalents and investments                                 -                      -             793,290                 793,290
+       Contributions not due within one year                          18,989                         -                                      18,989
+       Student loan receivables, net                                          -                      -              14,447                  14,447
+
+ Liquidity resources
+    Bank line of credit (less balance outstanding as of
+       June 30, 2025)                                                 19,500                         -                   -                  19,500
+
+             Total financial assets and other liquidity
+                resources                                    $        59,255        $       29,950         $       807,736       $         896,942
+
+
+The University regularly monitors liquidity required to meet its operating needs and other contractual
+commitments. When reviewing available resources required to meet its expenditures over a 12-month
+period, the University considers all expenditures related to its ongoing activities.
+
+In addition to the financial assets available to meet expenditures over the next 12 months, the University
+operates with a balanced budget and anticipates collecting sufficient revenue to cover expenditures not
+covered by donor-restricted resources.
+
+
+
+
+                                                                     28
+                                      Worcester Polytechnic Institute
+
+                NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                           June 30, 2025 and 2024
+
+
+Included in financial assets not available for expenditure at June 30, 2025, the University had $277,006,000
+of board-designated endowments that, with the Board’s approval, could be made available for expenditures.
+
+Of the University’s investments, 59% are redeemable within 30 days, 22% may be redeemed either at
+future specified redemption dates or currently by incurring a penalty, and 19% are in real estate, private
+equites, and other private investments. Constraints that limit the University’s ability to withdraw capital after
+such investments are made may limit the amount available for withdrawal at a given redemption date which
+could limit the University’s ability to respond quickly to changes in market conditions.
+
+
+NOTE 15 - NET ASSETS
+
+Net assets consist of the following at June 30 (in thousands):
+
+                                                                                      2025
+                                                             Without
+                                                              Donor                With Donor
+                                                            Restrictions           Restrictions       Total
+ Endowment funds
+   Long-term investment (quasi-endowment)              $        277,006        $             -    $    277,006
+   Original principal                                                 -                268,007         268,007
+   Unspent income and appreciation
+     Scholarship support                                                   -           130,473         130,473
+     Faculty support                                                       -            28,076          28,076
+     Program support                                                       -            27,860          27,860
+
+           Total endowment funds                                277,006                454,416         731,422
+
+ Split-interest agreements and perpetual trusts                    3,650                 21,958         25,608
+ Student loan funds                                               14,832                  4,546         19,378
+ Gifts and other unexpended revenues
+   Acquisition of building and equipment                               -                    690            690
+   Instruction, research and institutional support                     -                 30,168         30,168
+ Undesignated                                                     94,816                      -         94,816
+
+                                                       $        390,304        $       511,778    $    902,082
+
+
+
+
+                                                       29
+                                    Worcester Polytechnic Institute
+
+               NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                         June 30, 2025 and 2024
+
+
+                                                                                    2024
+                                                           Without
+                                                            Donor                With Donor
+                                                          Restrictions           Restrictions       Total
+ Endowment funds
+   Long-term investment (quasi-endowment)            $        261,163        $             -    $    261,163
+   Original principal                                               -                257,101         257,101
+   Unspent income and appreciation
+     Scholarship support                                                 -           112,650         112,650
+     Faculty support                                                     -            24,127          24,127
+     Program support                                                     -            24,958          24,958
+
+           Total endowment funds                              261,163                418,836         679,999
+
+ Split-interest agreements and perpetual trusts                  2,218                 21,602         23,820
+ Student loan funds                                             14,513                  4,483         18,996
+ Gifts and other unexpended revenues
+   Acquisition of building and equipment                             -                  3,411          3,411
+   Instruction, research and institutional support                   -                 37,028         37,028
+ Undesignated                                                   86,931                      -         86,931
+
+                                                     $        364,825        $       485,360    $    850,185
+
+
+NOTE 16 - RELATED PARTIES
+
+The Alumni Association of Worcester Polytechnic Institute (“Alumni Association”), a separate 501(c)(3)
+organization, invests the majority of its funds in the University’s endowment. At June 30, 2025 and 2024,
+funds held for others in the consolidated statements of financial position include Alumni Association assets
+of $3,943,000 and $3,701,000, respectively. There are no other material related party transactions as of
+and for the years ended June 30, 2025 and 2024.
+
+
+NOTE 17 - COMMITMENTS AND CONTINGENCIES
+
+Construction Contracts
+
+For years ended June 30, 2025 and 2024, the University had contracted for various renovations and
+construction projects across campus totaling $475,000 and $2,185,000, respectively.
+
+Investments
+
+The University is obligated under certain limited partnership agreements and other alternative investment
+arrangements to advance additional funding periodically up to specified levels. At June 30, 2025 and 2024,
+the University had unfunded commitments of $100,462,000 and $76,032,000, respectively, that can be
+called through fiscal year 2030. These commitments will be funded from the University’s existing cash and
+investments.
+
+Guarantees
+
+The University has guaranteed commercial loans with an outstanding amount of $2,914,000 to six
+fraternities. These loans are collateralized by real property owned by the fraternities.
+
+
+
+
+                                                     30
+                                      Worcester Polytechnic Institute
+
+                NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - CONTINUED
+
+                                           June 30, 2025 and 2024
+
+
+Uncertain Tax Positions
+
+The University is generally exempt from federal and state income taxes. Management annually reviews for
+uncertain tax positions along with any related interest and penalties and believes that the University has no
+uncertain tax positions that would have a material adverse effect, individually or in the aggregate, upon the
+University’s consolidated statement of financial position or the related consolidated statements of activities
+or cash flows.
+
+Sponsored Research
+
+The University’s sponsored research program and indirect cost recovery are subject to audit by the
+respective sponsoring federal agency as provided for in federally sponsored research regulations.
+Management believes that any such audit will not have a material adverse effect, individually or in the
+aggregate, upon the University’s consolidated statement of financial position or the related consolidated
+statements of activities or cash flows.
+
+Self-insured Medical Claims
+
+The University is self-insured for medical claims and is a member of a captive insurer providing stop-loss
+insurance to cover plan expenses in excess of certain limits. Management believes insurance claims that
+have occurred as of June 30, 2025 and 2024 but not yet reported or paid have been adequately reserved.
+
+Other Commitments and Contingencies
+
+In May 2009, the University entered into a payment in lieu of taxes (“PILOT”) agreement with the City of
+Worcester. The 25-year agreement provides for the University to pay $800,000 annually in voluntary
+payments, increasing 2.5% annually. The agreement calls for the City of Worcester to use these amounts
+to support the operations of the Worcester Public Library and for the implementation of the master plan to
+renovate Institute Park. In April 2015, the PILOT agreement was amended to increase the voluntary
+payment by an additional $130,000 annually, also increasing 2.5% annually.
+
+The University is also involved in various legal actions arising in the normal course of its activities. Although
+the ultimate outcome is not determinable at this time, management, after taking into consideration advice
+of legal counsel, believes that the resolution of these pending matters will not have a material adverse
+effect, individually or in the aggregate, upon the University’s consolidated statement of financial position or
+the related consolidated statements of activities or cash flows.
+
+
+NOTE 18 - SUBSEQUENT EVENTS
+
+Management has assessed subsequent events for the period from June 30, 2025 to November 5, 2025,
+the date the financial statements were issued, and has determined that no subsequent events necessitate
+recognition in the consolidated financial statements or disclosure in the notes of the consolidated financial
+statements, except as outlined below.
+
+On August 1, 2025, the University issued $20,000,000 of tax-exempt revenue bonds (Series 2025) through
+the Massachusetts Development Finance Agency. Proceeds from the issuance are being held in a trustee-
+controlled project account, with draws permitted as eligible project costs are incurred. The proceeds will be
+used to finance capital improvements. The bonds are variable-rate, with interest rates indexed to the
+Secured Overnight Financing Rate, and mature in 2050.
+
+On August 15, 2025, the University repaid in full its outstanding $20,400,000 Massachusetts Development
+Finance Agency Revenue Bond (Series 2024), originally issued to finance acquisition of the Hampton Inn
+hotel in Worcester, MA. Following this repayment, the bond is no longer outstanding.
+
+
+                                                       31
+

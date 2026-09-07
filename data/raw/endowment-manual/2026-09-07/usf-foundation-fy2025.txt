@@ -1,0 +1,2385 @@
+University of South Florida
+Foundation, Inc.
+(A Component Unit of the
+University of South Florida)
+Financial Report
+June 30, 2025
+                                               Contents
+
+Independent auditor’s report                                                              1-3
+
+Management’s discussion and analysis (unaudited)                                         4-10
+
+Financial statements
+
+  Statements of net position                                                            11-12
+
+  Statements of revenues, expenses and changes in net position                            13
+
+  Statements of cash flows                                                              14-15
+
+  Statements of fiduciary net position                                                    16
+
+  Statements of changes in fiduciary net position                                         17
+
+  Notes to consolidated financial statements                                            18-43
+
+Supplementary information
+
+  Schedules of functional expenses                                                      44-45
+
+Report on internal control over financial reporting and on
+  compliance and other matters based on an audit of financial statements performed in
+  accordance with Government Auditing Standards                                         46-47
+                                       Independent Auditor’s Report
+
+
+Board of Directors and Management
+University of South Florida Foundation, Inc.
+
+
+Report on the Audit of the Financial Statements
+
+Opinions
+We have audited the financial statements of the business-type activities and fiduciary activities of the
+University of South Florida Foundation, Inc. (Foundation), a component unit of the University of South
+Florida, as of and for the years ended June 30, 2025 and 2024, and the related notes to the financial
+statements, which collectively comprise the Foundation’s basic financial statements as listed in the table
+of contents.
+
+In our opinion, the accompanying financial statements referred to above present fairly, in all material
+respects, the financial position of the business-type activities and fiduciary activities of the Foundation, as
+of June 30, 2025 and 2024, and the respective changes in financial position and, where applicable, cash
+flows thereof for the year then ended in accordance with accounting principles generally accepted in the
+United States of America.
+
+Basis for Opinions
+We conducted our audits in accordance with auditing standards generally accepted in the United States
+of America (GAAS) and the standards applicable to financial audits contained in Government Auditing
+Standards issued by the Comptroller General of the United States (Government Auditing Standards). Our
+responsibilities under those standards are further described in the Auditor’s Responsibilities for the Audit
+of the Financial Statements section of our report. We are required to be independent of the Foundation,
+and to meet our other ethical responsibilities, in accordance with the relevant ethical requirements relating
+to our audits. We believe that the audit evidence we have obtained is sufficient and appropriate to provide
+a basis for our audit opinions.
+
+Responsibilities of Management for the Financial Statements
+Management is responsible for the preparation and fair presentation of the financial statements in
+accordance with accounting principles generally accepted in the United States of America, and for the
+design, implementation and maintenance of internal control relevant to the preparation and fair
+presentation of financial statements that are free from material misstatement, whether due to fraud or
+error.
+
+In preparing the financial statements, management is required to evaluate whether there are conditions or
+events, considered in the aggregate, that raise substantial doubt about the Foundation’s ability to
+continue as a going concern for 12 months beyond the financial statement date, including any currently
+known information that may raise substantial doubt shortly thereafter.
+
+
+
+
+                                                       1
+Auditor’s Responsibilities for the Audit of the Financial Statements
+Our objectives are to obtain reasonable assurance about whether the financial statements as a whole are
+free from material misstatement, whether due to fraud or error, and to issue an auditor’s report that
+includes our opinions. Reasonable assurance is a high level of assurance but is not absolute assurance
+and, therefore, is not a guarantee that an audit conducted in accordance with GAAS and Government
+Auditing Standards will always detect a material misstatement when it exists. The risk of not detecting a
+material misstatement resulting from fraud is higher than for one resulting from error, as fraud may involve
+collusion, forgery, intentional omissions, misrepresentations or the override of internal control.
+Misstatements are considered material if there is a substantial likelihood that, individually or in the
+aggregate, they would influence the judgment made by a reasonable user based on the financial
+statements.
+
+In performing an audit in accordance with GAAS and Government Auditing Standards, we:
+
+•   Exercise professional judgment and maintain professional skepticism throughout the audit.
+
+•   Identify and assess the risks of material misstatement of the financial statements, whether due to
+    fraud or error, and design and perform audit procedures responsive to those risks. Such procedures
+    include examining, on a test basis, evidence regarding the amounts and disclosures in the financial
+    statements.
+
+•   Obtain an understanding of internal control relevant to the audit in order to design audit procedures
+    that are appropriate in the circumstances, but not for the purpose of expressing an opinion on the
+    effectiveness of the Foundation’s internal control. Accordingly, no such opinion is expressed.
+
+•   Evaluate the appropriateness of accounting policies used and the reasonableness of significant
+    accounting estimates made by management, as well as evaluate the overall presentation of the
+    financial statements.
+
+•   Conclude whether, in our judgment, there are conditions or events, considered in the aggregate, that
+    raise substantial doubt about the Foundation’s ability to continue as a going concern for a reasonable
+    period of time.
+
+We are required to communicate with those charged with governance regarding, among other matters,
+the planned scope and timing of the audit, significant audit findings and certain internal control-related
+matters that we identified during the audit.
+
+Required Supplementary Information
+Accounting principles generally accepted in the United States of America require that management
+discussion and analysis be presented to supplement the basic financial statements. Such information is
+the responsibility of management and, although not a part of the basic financial statements, is required by
+the Governmental Accounting Standards Board who considers it to be an essential part of financial
+reporting for placing the basic financial statements in an appropriate operational, economic, or historical
+context. We have applied certain limited procedures to the required supplementary information in
+accordance with GAAS, which consisted of inquiries of management about the methods of preparing the
+information and comparing the information for consistency with management’s responses to our inquiries,
+the basic financial statements, and other knowledge we obtained during our audit of the basic financial
+statements. We do not express an opinion or provide any assurance on the information because the
+limited procedures do not provide us with sufficient evidence to express an opinion or provide any
+assurance.
+
+
+
+
+                                                      2
+Supplementary Information
+Our audits were conducted for the purpose of forming opinions on the financial statements that
+collectively comprise the Foundation’s basic financial statements. The schedules of functional expenses
+are presented for purposes of additional analysis and are not a required part of the basic financial
+statements. Such information is the responsibility of management and was derived from and relates
+directly to the underlying accounting and other records used to prepare the basic financial statements.
+The information has been subjected to the auditing procedures applied in the audit of the basic financial
+statements and certain additional procedures, including comparing and reconciling such information
+directly to the underlying accounting and other records used to prepare the basic financial statements or
+to the basic financial statements themselves, and other additional procedures in accordance with GAAS.
+In our opinion, the schedules of functional expenses are fairly stated, in all material respects, in relation to
+the basic financial statements as a whole.
+
+Other Reporting Required by Government Auditing Standards
+In accordance with Government Auditing Standards, we have also issued our report dated October 16,
+2025, on our consideration of the Foundation’s internal control over financial reporting and on our tests of
+its compliance with certain provisions of laws, regulations, contracts and grant agreements and other
+matters. The purpose of that report is solely to describe the scope of our testing of internal control over
+financial reporting and compliance and the results of that testing, and not to provide an opinion on the
+effectiveness of the Foundation’s internal control over financial reporting or on compliance. That report is
+an integral part of an audit performed in accordance with Government Auditing Standards in considering
+the Foundation’s internal control over financial reporting and compliance.
+
+
+
+
+Tampa, Florida
+October 16, 2025
+
+
+
+
+                                                       3
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Management’s Discussion and Analysis (Unaudited)
+
+Management’s discussion and analysis (MD&A) provides an overview of the financial position and
+activities of the University of South Florida Foundation, Inc., including its blended component unit, the
+USF Real Estate Foundation, LLC (the Foundation), as of and for the years ended June 30, 2025 and
+2024, and comparative amounts for the year ended June 30, 2023. Since discussion and analysis is
+designed to focus on current activities, it should be read in conjunction with the financial statements and
+notes thereto. The MD&A, financial statements, and notes thereto, are the responsibility of Foundation
+management.
+
+The Foundation is a direct support organization (DSO) and component unit of the University of South
+Florida (a government agency) (the University or USF). The Foundation solicits, receives, holds, invests
+and administers charitable contributions for the University. The Foundation accounts for its transactions in
+accordance with the pronouncements issued by the Governmental Accounting Standards Board (GASB).
+
+Financial Highlights
+
+During fiscal year 2025, the Foundation’s net position, which represents the excess of total assets over
+liabilities and deferred inflows of resources, increased by $97.7 million. This is compared to an increase in
+net position during fiscal year 2024 of $81.2 million.
+
+The increase in net position is primarily the result of investment gains of the Foundation’s investment
+portfolios as well as an increase in contributions to both current use and endowed gift funds. The
+endowment pool net total return was a gain of 11.5% as of June 30, 2025, compared to a gain of 14.0%
+as of June 30, 2024.
+
+During fiscal year 2024, the Foundation’s net position increased by $81.2 million. This is compared to an
+increase in net position during fiscal year 2023 of $11.7 million.
+
+The increase in net position is primarily the result of investment gains of the Foundation’s investment
+portfolios as well as an increase in contributions to both current use and endowed gift funds. The
+endowment pool net total return was a gain of 14.0% as of June 30, 2024, compared to a gain of 9.1% as
+of June 30, 2023.
+
+Change in contributions for current use and endowed funds was an increase of $10.4 million and an
+increase of $28.1 million as of June 30, 2025, and 2024, respectively. While the investment returns are a
+function of the financial markets and asset allocation strategy, the Foundation expects fluctuations in
+contribution revenue, for both current use and endowment funds and investment results from year to
+year. The Foundation manages the endowment portfolio with a long-term philosophy of capital
+appreciation. Significant contributions, including bequests, are periodically received from donors as a
+result of relationships cultivated over many years. The timing of these contributions is not entirely
+predictable, and often will correlate with a fundraising initiative or campaign.
+
+Overview of the Financial Statements
+
+The financial statements are prepared on the accrual basis of accounting in accordance with accounting
+principles generally accepted in the United States of America, as promulgated by the GASB. See notes to
+financial statements for a summary of the Foundation’s significant accounting policies.
+
+
+
+
+                                                      4
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Management’s Discussion and Analysis (Unaudited)
+
+The Foundation is considered a Business-Type Activity (BTA) under the provisions of GASB Statement
+No. 34, Basic Financial Statements and Management’s Discussion and Analysis – for State and Local
+Governments (GASB Statement 34) and GASB Statement No. 35, Basic Financial Statement –
+Management’s Discussion and Analysis – for Public Colleges and Universities (GASB Statement 35). The
+BTA format includes accounting on an accrual basis. The statements are a presentation of 1) assets and
+liabilities as current and noncurrent and deferred inflows of resources; 2) revenues and expenses as
+operating and nonoperating; and 3) the use of the direct and indirect methods for the statement of cash
+flows. Pursuant to GASB Statement No. 35, the Foundation’s basic financial statements include: the
+statement of net position; the statement of revenues, expenses and changes in net position; the
+statement of cash flows; and other required supplementary information.
+
+The fiduciary fund financial statements include investments held on behalf of other direct support
+organizations of the University. These funds represent trust responsibilities of the Foundation and are
+restricted in purpose. Accordingly, they do not represent discretionary assets of the Foundation and are
+not presented as part of the Foundation’s basic financial statements.
+
+The Statements of Net Position
+
+The statements of net position include all assets, liabilities and deferred inflows of resources. The
+Foundation’s net position (the difference between assets, liabilities and deferred inflows of resources) is
+one indicator of the Foundation’s financial health, when considered in combination with other nonfinancial
+information. Restricted net position is comprised of expendable and nonexpendable and consists of
+assets that have constraints placed upon their use by external donors. Nonexpendable assets represent
+endowment assets whose principal cannot be spent and are required by the donor to be held in
+perpetuity. Unrestricted net position consists of any portion of net position that does not meet the
+definition of restricted or net investment in capital assets.
+
+The following schedule is a condensed summary of the Foundation’s statements of net position as of
+June 30, 2025, 2024 and 2023:
+
+                                                            2025              2024              2023
+Assets:
+  Current assets                                   $     158,164,177     $ 132,327,879     $ 125,796,068
+  Capital assets, net                                     18,382,074        18,047,203        17,052,139
+  Other noncurrent assets                                841,200,564       769,966,214       694,680,033
+         Total assets                                  1,017,746,815       920,341,296       837,528,240
+Liabilities:
+  Current liabilities                                        6,715,761       8,229,934         6,702,927
+  Noncurrent liabilities                                     3,941,964       4,334,830         4,791,359
+         Total liabilities                                  10,657,725      12,564,764        11,494,286
+Deferred inflows of resources:
+  Leases, remainder and beneficial interests                29,990,242      28,341,382        27,805,961
+Net position:
+  Net investment in capital assets                          14,781,047      14,220,766        12,806,301
+  Restricted by donors-expendable                          494,966,701     415,018,760       358,423,657
+  Permanent endowments-nonexpendable                       438,929,159     422,273,813       402,121,998
+  Unrestricted                                              28,421,941      27,921,811        24,876,037
+         Total net position                        $       977,098,848   $ 879,435,150     $ 798,227,993
+
+
+
+                                                       5
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Management’s Discussion and Analysis (Unaudited)
+
+Assets
+
+Current assets, comprised of resources available to meet current obligations such as cash and cash
+equivalents, short-term investments, and the portion of contributions, due from USF, leases and other
+receivables due within one year, increased by $25.8 million during fiscal year 2025. In fiscal year 2025,
+the increase is primarily attributable to a rise in short-term investments.
+
+Current assets increased by $6.5 million in fiscal year 2024. In fiscal year 2024, amounts due from the
+University increased due to amounts owed related to the construction of an academic facility.
+
+As of June 30, 2025, noncurrent assets represent $859.6 million of total assets and consist of long-term
+investments (primarily related to the endowment), the portions of contributions, leases, and other
+receivables due beyond one-year, beneficial interests in irrevocable split-interest agreements, amounts
+due from the University and capital assets. Noncurrent assets increased by $71.6 million during fiscal
+year 2025, which is mainly attributable to the effect of investment gains.
+
+As of June 30, 2024, noncurrent assets represent $788.0 million of total assets and consist of long-term
+investments (primarily related to the endowment), the portions of contributions, leases, and other
+receivables due beyond one-year, beneficial interests in irrevocable split-interest agreements, amounts
+due from the University and capital assets. Noncurrent assets increased by $76.3 million during fiscal
+year 2024 which is mainly attributable to the effect of investment gains.
+
+Liabilities
+
+Current liabilities of $6.7 million are comprised of amounts payable to the University and vendors at year-
+end, and the current portion of liabilities for a mortgage, lease liability, subscription liability, amounts held
+for third-party beneficiaries and trust and life income beneficiaries. During fiscal year 2025, amounts due
+were lower than in fiscal year 2024 for year end payables and amounts due to the University.
+
+Noncurrent liabilities are primarily comprised of the long-term liability associated with the mortgage, lease
+liability, subscription liability, amounts due to third-party beneficiaries and amounts due to trust and life
+income beneficiaries. Noncurrent liabilities tend to be fairly level from year to year and changes to the
+amounts due to third-party beneficiaries will typically correlate with changes in investment performance.
+
+As of June 30, 2025, current liabilities totaled $6.7 million, consisting of amounts payable to the University
+and vendors, as well as the current portion of obligations related to the mortgage, lease, and subscription
+liabilities. This total also includes funds held for third-party beneficiaries and for trust and life income
+beneficiaries. The balance represents a decrease from fiscal year 2024, primarily due to lower year-end
+payables and reduced amounts due to the University. In contrast, fiscal year 2024 liabilities were higher
+than in fiscal year 2023, largely driven by pending transfers to support the construction of an academic
+facility.
+
+Deferred Inflows of Resources
+
+Deferred inflows of resources represent a future impact on net position. The Foundation classifies
+changes in leases receivable and irrevocable split-interest agreements as deferred inflows of resources.
+Changes in deferred inflows of resources are attributable to changes in liabilities due to trust and life
+income beneficiaries, new split-interest agreements, maturities and payments made on the lease during
+the year.
+
+
+
+
+                                                        6
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Management’s Discussion and Analysis (Unaudited)
+
+Net Position
+
+Net position provides three classifications including net investment in capital assets, restricted, and
+unrestricted net position. Net investment in capital assets consists of capital assets, net of accumulated
+depreciation and reduced by outstanding balances of mortgages or other borrowings associated with
+those assets. Restricted net position consists of expendable resources made up of external, donor
+restricted funds and appreciation from the endowment while restricted-nonexpendable resources
+represent permanent endowments to be held in perpetuity.
+
+During fiscal year 2025, restricted expendable net position was $495.0 million, which reflects an increase
+of $79.9 million compared to June 30, 2024. The increase between fiscal year 2024 and 2023 was
+$56.6 million. Both increases were due to an increase in the value of the investments.
+
+During fiscal year 2024, restricted nonexpendable net position was $438.9 million, which reflects an
+increase of $16.7 million compared to June 30, 2024. The increase between fiscal year 2024 and 2023
+was $20.2 million. Both increases were due to contributions made and reinvested earnings to increase
+the endowment.
+
+The Statements of Revenues, Expenses and Changes in Net Position
+
+The statements of revenues, expenses and changes in net position present the Foundation’s operating
+and nonoperating revenues, expenses, and contributions to permanent endowments for a given fiscal
+year. GASB Statement No. 35 categorizes revenues and expenses as either operating or nonoperating.
+Revenues and expenses are recognized when earned or incurred, regardless of when cash is received or
+paid, with the exception of revenue associated with permanent endowment gifts, which is recognized
+when all eligibility criteria are met.
+
+The statements of revenues, expenses and changes in net position present the Foundation’s result of
+operations. A condensed summary of the Foundation’s changes in net position for the fiscal years ended
+June 30, 2025, 2024 and 2023, is as follows:
+
+                                                             2025              2024              2023
+Operating revenues:
+ Contributions                                      $        74,789,647   $ 61,152,971      $ 38,624,760
+ Investment income, net                                      81,904,602     91,461,707         55,750,060
+ Other income                                                 2,063,006      9,463,338          2,340,820
+    Total operating revenue                                 158,757,255    162,078,016         96,715,640
+ Less operating expenses                                    102,107,002    122,992,970       114,567,522
+    Operating income (loss)                                  56,650,253     39,085,046        (17,851,882)
+Nonoperating revenues:
+ University support                                          24,776,674     22,621,721         15,683,805
+    Nonoperating revenues                                    24,776,674     22,621,721         15,683,805
+
+Income (loss) before endowment contributions                 81,426,927     61,706,767          (2,168,077)
+Endowment contributions:
+  Contributions to endowments                                16,236,771     19,500,390         13,902,299
+    Change in net position                                   97,663,698     81,207,157         11,734,222
+
+Net position, beginning of the year                         879,435,150     798,227,993       786,493,771
+Net position, end of the year                       $       977,098,848   $ 879,435,150     $ 798,227,993
+
+                                                        7
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Management’s Discussion and Analysis (Unaudited)
+
+Operating Revenues
+
+Total net operating revenues for fiscal year 2025 of $158.8 million includes recognizable expendable
+charitable gifts and contributions, net investment gains and other income from fundraising activities.
+Contributions were $74.8 million, an increase of $13.6 million from 2024, due primarily to large
+contributions received in 2025 for facility construction projects and the establishment of a new college.
+Investment gains generated from the Foundation’s endowment and operating investment portfolios, were
+$81.9 million, a decrease of $9.6 million. The Foundation uses a balanced and diversified approach to its
+asset allocation within a stated policy. In any one-year, certain components of the portfolios may perform
+better than others.
+
+Total net operating revenues for fiscal year 2024 of $162.1 million includes recognizable expendable
+charitable gifts and contributions, net investment gains and other income from fundraising activities.
+Contributions were $61.2 million, an increase of $22.5 million from 2023, due primarily to large
+contributions received in 2024 for several facility construction projects. Investment gains generated from
+the Foundation’s endowment and operating investment portfolios, were $91.5 million, an increase of
+$35.7 million. The Foundation uses a balanced and diversified approach to its asset allocation within a
+stated policy. In any one-year, certain components of the portfolios may perform better than others.
+During fiscal year 2024, equities contributed positively to returns, which was consistent with the increase
+within the market.
+
+Operating Expenses
+
+Operating expenses consist primarily of program service expenses made to or on behalf of the University
+of expendable contributions and accumulated endowment dividend distributions. Operating expenses
+were lower in fiscal year 2025, as compared to fiscal years 2024 and 2023, due to the transfer of funds to
+the University for facility improvement and construction projects in prior years.
+
+Nonoperating Revenues
+
+Nonoperating revenues of $24.8 million for fiscal year 2025, $22.6 million for fiscal year 2024 and
+$15.7 million for fiscal year 2023, consist primarily of in-kind support for salaries of University employees
+dedicated to the advancement efforts of the Foundation on behalf of the University. The corresponding
+expenses are included in the operating expense section of the statements of revenues, expenses and
+changes in net position. In-kind salary support was consistent in fiscal years 2025 and 2024. Fiscal year
+2024 had an increase in support compared to 2023 due to funding received for additional positions.
+
+Endowments
+
+The Foundation places a high priority on increasing the gifts to and the return on the endowment. The
+timing of these gifts may be unpredictable and may vary significantly from year to year. Endowed gifts
+received during 2025 were lower than in fiscal year 2024. Endowed gifts in 2024 were higher than fiscal
+year 2023.
+
+Works of Art, Capital Assets and Long-term Debt Activity
+
+The Foundation has $18.4 million of capital assets and works of art, included in noncurrent assets on the
+accompanying statement of net position as of June 30, 2025, as compared to $18.0 million as of June 30,
+2024. Capital asset balances are net of accumulated depreciation of $3.6 million and $2.6 million,
+respectively.
+
+
+
+
+                                                      8
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Management’s Discussion and Analysis (Unaudited)
+
+At June 30, 2024, the Foundation had $18.0 million of capital assets and works of art, included in
+noncurrent assets on the accompanying statement of net position, as compared to $17.1 million as of
+June 30, 2023. Capital asset balances are net of accumulated depreciation of $2.6 million and
+$2.1 million, respectively.
+
+The capital assets and works of art balances at June 30, 2025, is comprised of 36.0% land totaling
+$6.6 million, 19.7% buildings and equipment of $3.6 million, 8.3% right-to-use leased asset and
+subscription-based information technology assets of $1.6 million and 36.0% works of art totaling
+$6.6 million.
+
+The capital assets and works of art balances at June 30, 2024, is comprised of 36.7% land totaling
+$6.6 million, 20.8% buildings and equipment of $3.7 million, 7.0% right-to-use leased asset and
+subscription-based information technology assets of $1.3 million and 35.5% works of art totaling
+$6.4 million.
+
+At June 30, 2025, the Foundation had $2.3 million in debt outstanding compared to $2.7 million at
+June 30, 2024. During fiscal year 2025, the Foundation reduced debt by principal payments on its
+mortgage.
+
+At June 30, 2024, the Foundation had $2.7 million in debt outstanding compared to $3.1 million at
+June 30, 2023. During fiscal year 2024, the Foundation reduced debt by principal payments on its
+mortgage. Additional information on the Foundation’s long-term debt obligations can be found in Note 9 of
+the accompanying notes to financial statements.
+
+Economic Factors that Will Affect the Future
+
+Factors that can significantly impact future periods include the state of the overall economy, recent tax
+law changes and the financial markets, which impact charitable giving and the value of investments. The
+Foundation monitors the status of the economy, its impact on overall giving, contributions receivable and
+the investment pools.
+
+Charitable support is an important resource to the University providing a direct impact on enhancing
+University programs through annual contributions and endowments. In the future, due to the growth in the
+endowment from new gifts and investment returns, expenditure of funds from the endowment payout to
+benefit the University is anticipated to increase. The University also has several significant facility
+enhancement projects underway in Academic areas, Athletics and USF Health; therefore, a higher rate of
+incoming expendable gifts to support these initiatives is expected.
+
+Endowment pledges totaling approximately $18.8 million and $22.6 million as of June 30, 2025 and 2024,
+respectively, have not been recorded in the financial statements as these commitments will be recognized
+when the resources are received and all eligibility requirements have been met.
+
+The Foundation participates in the State of Florida Major Gifts Challenge Grant Program (the Program).
+The Program has been temporarily suspended for donations received on or after June 30, 2011. Existing
+eligible donations received on or before June 29, 2011, remain eligible for future matching funds when
+appropriated by the state of Florida. As of June 30, 2025, the Foundation submitted matching requests
+totaling $25.71 million to the state of Florida. The program may be restarted by the state after $200 million
+of the backlog for the state match programs has been funded. When received, state matching grants will
+benefit the endowment. Therefore, the $25.71 million has not been recorded in the statement of net
+position.
+
+
+
+
+                                                     9
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Management’s Discussion and Analysis (Unaudited)
+
+Management is not aware of any other factors within management’s control that would have a significant
+impact on future periods.
+
+Requests for Information
+
+Questions concerning information provided in the MD&A or other required supplemental information and
+financial statements and notes thereto, or requests for additional financial information should be
+addressed to: Chief Financial Officer, University of South Florida Foundation, Inc., 4202 East Fowler
+Avenue, ALC100, Tampa, Florida 33620 or by calling (813) 974-1801.
+
+
+
+
+                                                  10
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Statements of Net Position
+June 30, 2025 and 2024
+
+                                                                                      2025              2024
+Assets
+
+Current assets:
+ Cash and cash equivalents                                                      $      1,906,402    $     1,673,154
+ Investments                                                                         122,197,274         92,307,435
+ Contributions receivable, net                                                        31,941,666         35,309,881
+ Lease and other receivables, net                                                        650,947            616,093
+ Real estate held for sale                                                                    -           1,250,000
+ Due from the University of South Florida                                              1,467,888          1,171,316
+          Total current assets                                                       158,164,177        132,327,879
+
+Noncurrent assets:
+ Investments                                                                         759,830,186        705,984,423
+ Contributions receivable, net                                                        52,904,043         36,880,297
+ Beneficial interest assets                                                           24,956,770         23,045,103
+ Lease and other receivables, net                                                      2,809,565          3,256,391
+ Due from the University of South Florida                                                700,000            800,000
+ Land                                                                                  6,620,414          6,620,414
+ Buildings, equipment and other, net                                                   3,629,947          3,748,746
+ Works of art                                                                          6,613,923          6,418,098
+ Right to use lease assets, net                                                          817,083            300,027
+ Right to use subscription assets, net                                                   700,707            959,918
+          Total noncurrent assets                                                    859,582,638        788,013,417
+
+              Total assets                                                      $   1,017,746,815   $   920,341,296
+
+Liabilities
+
+Current liabilities:
+ Accounts payable                                                               $      2,561,133    $     3,759,059
+ Due to the University of South Florida                                                2,823,166          3,227,457
+ Lease liability                                                                         352,804             65,830
+ Subscription liability                                                                  298,904            510,984
+ Mortgage payable                                                                        446,266            434,716
+ Life beneficiaries obligations                                                          233,488            231,888
+           Total current liabilities                                                   6,715,761          8,229,934
+
+Noncurrent liabilities:
+ Mortgage payable, net of current portion                                              1,822,636          2,268,902
+ Due to the University of South Florida, net of current portion                          314,685            314,685
+ Lease liability, net of current portion                                                 425,030            180,126
+ Subscription liability, net of current portion                                          255,387            365,879
+ Life beneficiaries obligations, net of current portion                                1,124,226          1,205,238
+          Total noncurrent liabilities                                                 3,941,964          4,334,830
+
+              Total liabilities                                                       10,657,725         12,564,764
+
+                                                                  (Continued)
+
+
+
+
+                                                                       11
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Statements of Net Position (Continued)
+June 30, 2025 and 2024
+
+                                                                    2025              2024
+Deferred inflows of resources:
+ Deferred inflows from remainder interest assets                $     1,777,081   $     1,604,626
+ Deferred inflows from beneficial interest assets                    24,956,770        23,045,103
+ Deferred inflows from leases                                         3,256,391         3,691,653
+           Total deferred inflows                                    29,990,242        28,341,382
+
+Net position:
+ Net investment in capital assets                                    14,781,047        14,220,766
+    Restricted
+      Expendable:
+         Endowment appreciation and accumulated earnings            344,987,723       301,431,543
+         Donor restricted gift funds                                149,978,978       113,587,217
+      Nonexpendable endowments                                      438,929,159       422,273,813
+    Unrestricted                                                     28,421,941        27,921,811
+
+          Total net position                                    $   977,098,848   $   879,435,150
+
+
+
+See notes to financial statements.
+
+
+
+
+                                                           12
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Statements of Revenues, Expenses and Changes in Net Position
+Years Ended June 30, 2025 and 2024
+
+                                                                     2025              2024
+Operating revenues:
+ Contributions                                                 $    74,789,647   $    61,152,971
+ Fundraising activities and other income                             2,063,006         9,463,338
+ Interest earnings                                                  16,159,954        14,121,789
+ Net investment gain                                                65,744,648        77,339,918
+        Total operating revenues                                   158,757,255       162,078,016
+
+Operating expenses:
+ Program service support                                            71,528,272        95,098,236
+ Fundraising support                                                17,239,369        17,524,352
+ Operating costs                                                    13,339,361        10,370,382
+        Total operating expenses                                   102,107,002       122,992,970
+
+        Operating income                                            56,650,253        39,085,046
+
+Nonoperating revenues:
+ University support                                                 24,776,674        22,621,721
+       Total nonoperating revenues                                  24,776,674        22,621,721
+
+Income before endowment contributions                               81,426,927        61,706,767
+
+Endowment contributions:
+ Contributions to permanent endowments                              16,236,771        19,500,390
+
+        Change in net position                                      97,663,698        81,207,157
+
+Net position, beginning of year                                    879,435,150       798,227,993
+
+Net position, end of year                                      $ 977,098,848     $ 879,435,150
+
+
+See notes to financial statements.
+
+
+
+
+                                                  13
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Statements of Cash Flows
+Years Ended June 30, 2025 and 2024
+
+                                                                                               2025                2024
+Cash flows from operating activities:
+ Receipts from contributions                                                             $     62,134,116    $     35,938,787
+ Receipts from fundraising activities and other sources                                         2,862,089           9,970,713
+ Payments for University program support                                                      (44,288,818)        (65,302,101)
+ Payments for fundraising support                                                              (2,624,932)         (2,454,187)
+ Payments for management and operating activities                                              (2,050,891)         (2,740,347)
+ Payments to the University and DSOs for
+   salaries and benefits                                                                      (29,895,764)        (31,227,151)
+         Net cash flows used in operating activities                                          (13,864,200)        (55,814,286)
+
+Cash flows from investing activities:
+ Purchases of investments                                                                    (469,682,647)       (310,034,484)
+ Proceeds from sales and maturities of investments                                            451,596,030         334,096,429
+ Receipts from investment income, net                                                          16,146,886          14,233,455
+         Net cash flows (used in) provided by investing activities                             (1,939,731)         38,295,400
+
+Cash flows from capital and related financing activities:
+ Proceeds of sales of contributed land held for resale                                          923,644                    -
+ Interest paid on lease                                                                           (16,978)             (9,729)
+ Principal paid on lease                                                                         (372,289)            (66,614)
+ Principal paid on mortgage                                                                      (434,716)           (423,467)
+ Interest paid on mortgage                                                                        (65,765)            (77,015)
+         Net cash flows provided by (used in) capital and related financing activities             33,896            (576,825)
+
+Cash flows from noncapital financing activities:
+ Endowment contributions received for other than capital purposes                             16,236,771          19,500,390
+ Beneficiary payments                                                                           (233,488)           (231,888)
+         Net cash flows provided by noncapital financing activities                           16,003,283          19,268,502
+
+         Change in cash and cash equivalents                                                     233,248            1,172,791
+
+Cash and cash equivalents:
+ Beginning of year                                                                              1,673,154            500,363
+
+ End of year                                                                             $      1,906,402    $      1,673,154
+
+Supplemental disclosure of noncash related investing activities:
+ Unrealized (loss) gain on investments                                                   $     (8,097,733)   $    58,198,312
+
+                                                              (Continued)
+
+
+
+
+                                                                   14
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Statement of Cash Flows (Continued)
+Years Ended June 30, 2025 and 2024
+
+                                                                         2025               2024
+Reconciliation of operating income to net cash flows
+ used in operating activities:
+ Operating income                                                   $   56,650,253     $   39,085,046
+ Adjustments to reconcile operating income to net cash
+   flows used in operating activities:
+   Change in the provision for losses and discounts
+      on contributions receivable                                        (1,315,715)        (5,538,152)
+   Depreciation                                                             118,799            118,799
+   Noncash support from University                                       24,776,674         22,621,721
+   Net realized and unrealized gains on investments                     (65,744,648)       (77,339,918)
+   Investment income, net                                               (16,146,886)       (14,233,455)
+   Interest expense                                                          82,743             86,744
+   Gift of books and art objects                                           (195,825)          (915,700)
+   Real estate held for sale                                                326,356         (1,250,000)
+   Changes in operating assets and liabilities:
+      Contributions receivable                                          (11,273,472)       (18,229,274)
+      Lease and other receivables                                           799,084            418,026
+      Due from the University of South Florida                             (196,572)        (1,911,170)
+      Accounts payable and accrued expenses                              (1,197,927)         1,000,736
+      Subscription-based information technology arrangements                (63,361)          (216,832)
+      Amounts due to third-party beneficiaries                              (79,412)             4,257
+      Due to the University of South Florida                               (404,291)           484,886
+
+           Net cash flows used in operating activities              $   (13,864,200)   $   (55,814,286)
+
+
+See notes to financial statements.
+
+
+
+
+                                                               15
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Statements of Fiduciary Net Position
+June 30, 2025 and 2024
+
+                                                                      Custodial Funds
+                                                               External Investment Pool Funds
+                                                                  2025               2024
+Assets
+
+Cash and cash equivalents                                  $         18,209    $       13,180
+Short-term investments                                            1,189,319           819,368
+Long-term investments                                            42,988,348        47,770,090
+         Total assets                                            44,195,876        48,602,638
+
+Liabilities
+
+Life beneficiaries obligations                                       42,409            44,399
+        Total liabilities                                            42,409            44,399
+
+Deferred inflows of resources:
+ Deferred inflows from remainder interest assets                     27,333            23,765
+        Total deferred inflows                                       27,333            23,765
+
+Net position:
+ Net position restricted for USF Research Foundation             32,009,753        37,557,457
+ Net position restricted for the USF Alumni Association          12,116,381        10,977,017
+
+         Total net position                                $     44,126,134    $   48,534,474
+
+
+See notes to financial statements.
+
+
+
+
+                                                      16
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Statements of Changes in Fiduciary Net Position
+June 30, 2025 and 2024
+
+                                                                       Custodial Funds
+                                                                External Investment Pool Funds
+                                                                   2025               2024
+Additions:
+ Interest earnings                                          $        420,251    $      392,747
+ Net change in the fair value of investments                       4,113,917         5,179,974
+ USF Alumni Association program revenue                            2,711,441         3,181,739
+        Total additions                                            7,245,609         8,754,460
+
+Deductions:
+ Administrative fees                                                (833,619)         (846,386)
+ USF Alumni Association program expenses                          (2,320,330)       (3,249,841)
+ USF Research Foundation distribution                             (8,500,000)               -
+        Total deductions                                         (11,653,949)       (4,096,227)
+
+        Net (decrease) increase in fiduciary net position         (4,408,340)        4,658,233
+
+Beginning fiduciary net position                                  48,534,474        43,876,241
+
+Ending fiduciary net position                               $     44,126,134    $   48,534,474
+
+
+See notes to financial statements.
+
+
+
+
+                                                    17
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 1.     Nature of Organization and Summary of Significant Accounting Policies
+Nature of organization: The University of South Florida Foundation, Inc. (the Foundation) is a not-for-
+profit organization as described in Section 501(c)(3) of the Internal Revenue Code (IRC) and is exempt
+from federal and state income tax pursuant to Section 501(a) of the IRC except for income from activities
+unrelated to its principal function. Formed in 1969, the Foundation operates as a Direct Support
+Organization (DSO) for the University of South Florida (the University or USF) as provided for in Section
+1004.28 of the Florida Statutes and serves as the official legal conduit for the solicitation, acceptance,
+investment, and administration of charitable contributions in support of the activities and programs of the
+University, which includes the colleges, campuses, health, athletics and other appropriate University
+related units. The Foundation is governed by a Board of Directors consisting primarily of appointed
+volunteer members, some of whom are significant donors to the Foundation. The Board also includes ex-
+officio University staff. The University Board of Trustees is required to approve all elected board members
+of the Foundation.
+
+Reporting entity: In defining the Foundation for financial reporting purposes, management has applied
+the requirements of Governmental Accounting Standards Board (GASB) Statement No. 14, The Financial
+Reporting Entity, GASB Statement No. 39, Determining Whether Certain Organizations Are Component
+Units, and GASB Statement No. 61, The Financial Reporting Entity, Omnibus. These statements
+establish the standards for defining and reporting on the financial reporting entity and whether it is
+considered a component unit of another entity. The Foundation would be a component unit of another
+entity if it is financially accountable to that unit. Financial accountability occurs when an entity appoints a
+voting majority of the board of the potential component unit and: (1) is able to impose its will on the
+potential component unit, and/or (2) is in a relationship of financial benefit or burden with the potential
+component unit. An entity would also be considered financially accountable if the potential component
+unit is fiscally dependent and there is a financial benefit or burden relationship, regardless of whether the
+entity appoints the voting majority of the potential component unit’s board. The Foundation is a direct
+support organization of the University and has met all of the financial accountability criteria necessary to
+be considered a component unit of the University.
+
+Blended component unit: The Foundation formed the USF Real Estate Foundation, L.L.C. (the LLC) to
+hold contributed real estate. The Foundation is the sole member and manager of the LLC. Further, the
+Foundation is able to impose its will on the LLC by influencing its activities and is legally entitled to or can
+otherwise access the LLC’s resources. Because the Foundation is financially accountable for the LLC, the
+LLC is considered a component unit of the Foundation. As the LLC is organized as a not-for-profit for
+which the Foundation is the sole member, its activities are combined into the total of the Foundation. The
+LLC is a single member limited liability corporation and is structured as a disregarded entity for U.S.
+federal, state, and local income tax purposes. Accordingly, no provision for income taxes is made in the
+financial statements. There has been no activity in the LLC as of June 30, 2025 and 2024 and there are
+no assets, liabilities, deferred inflows or net position in the LLC as of June 30, 2025 and 2024.
+
+
+
+
+                                                      18
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 1.     Nature of Organization and Summary of Significant Accounting Policies (Continued)
+A summary of the Foundation’s significant accounting policies follows:
+
+Basis of accounting: The accompanying financial statements have been prepared using accounting
+principles generally accepted in the United States of America (U.S. GAAP), as promulgated by GASB.
+The statements are prepared using the economic resources measurement focus and the accrual basis of
+accounting. To help ensure observance of limitations and restrictions placed on the use of resources, the
+accounts of the Foundation are maintained in accordance with the principles of fund accounting. This is
+the procedure by which resources for various purposes are classified for accounting and reporting
+purposes into funds established according to their nature and purpose. For reporting purposes, these
+funds are combined into one column as a business-type activity as defined by GASB Statement No. 34,
+Basic Financial Statements—and Management’s Discussion and Analysis—for State and Local
+Governments.
+
+The Foundation’s financial statements are presented in the form of an enterprise fund and fiduciary
+custodial funds.
+
+Custodial funds are used to account for assets held by or as an agent for the benefit of other
+organizations outside the reporting entity. Custodial funds are custodial in nature. They follow the
+economic resources measurement focus and the accrual basis of accounting. In accordance with the
+provisions of GASB Statement No. 84, Fiduciary Activities, the assets and liabilities for custodial funds are
+presented on the statements of fiduciary net position and additions and deductions on the statements of
+changes in fiduciary net position.
+
+Custodial funds include the USF Alumni Association and the USF Research Foundation. The USF Alumni
+Association is a component unit of the University and a legally separate 501(c)(3) entity organized to
+support various USF activities primarily for USF alumni. The USF Alumni Association had designated a
+portion of their total investment to function as an endowment. The Foundation, as the financial fiduciary
+for these funds, removes the Alumni Association’s equity interest in Foundation assets and reports the
+Alumni Association’s cash and investments on the fiduciary fund statements of net position.
+
+The USF Research Foundation is a component unit of the University and a legally separate 501(c)(3)
+entity organized to promote, encourage and enhance the research activities at the University. The USF
+Research Foundation Board has designated a portion of their total investment to function as an
+endowment. The Foundation, as the financial fiduciary for these funds, removes the Research
+Foundation’s equity interest in Foundation assets and reports the Research Foundation’s cash and
+investments on the fiduciary fund statements of net position.
+
+Basis of presentation: As a discrete component unit of the University, the Foundation prepares its
+financial statements according to the provisions of the GASB Statement No. 35, Basic Financial
+Statements—and Management’s Discussion and Analysis—for Public Colleges and Universities. This
+Statement establishes accounting and financial reporting standards for public colleges and universities
+within the financial reporting guidelines of GASB Statement No. 34, Basic Financial Statements-and
+Management’s Discussion and Analysis-for State and Local Governments.
+
+These standards require public institutions to present management’s discussion and analysis (MD&A),
+basic financial statements, notes to the financial statements, and require supplementary information other
+than MD&A.
+
+
+
+
+                                                     19
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 1.       Nature of Organization and Summary of Significant Accounting Policies (Continued)
+The net position of the Foundation is reported in three categories as follows:
+
+Net investment in capital assets—Represents funds that consist of capital assets, including right to use
+assets, net of accumulated depreciation and reduced by the outstanding balances of any bonds,
+mortgages, notes or other borrowings that are attributable to and expended on the acquisition,
+construction or improvement of those assets net of any related unspent debt proceeds.
+
+Restricted: Includes Expendable funds and Nonexpendable endowments.
+
+•   Expendable
+
+    −     Endowment appreciation and accumulated earnings is comprised of net accumulated
+          appreciation on endowments and net accumulated endowment spending allocations.
+
+    −     Restricted donor gift fund represents funds that are subject to external donor or grantor
+          restrictions to benefit various programs at the University and that can be fulfilled by the actions of
+          the Foundation pursuant to the restriction or that expire by the passage of time.
+
+•   Nonexpendable Endowments–Represents the nonexpendable portion (corpus) of endowment funds
+    that are subject to donor or grantor restrictions for the benefit of various programs at the University.
+    These programs include student scholarships, endowed chairs, professorships, facility improvements
+    and research funding. The corpus of the permanent endowments are retained and reported in
+    nonexpendable endowments, while the net earnings or losses on endowment funds are included in
+    expendable funds available for expenditure.
+
+Unrestricted: Represents funds that are not subject to external restrictions and are available for carrying
+out the Foundation’s objectives.
+
+As a general practice, the Foundation applies restricted resources when an expense relating to the
+purpose restriction imposed by the outside party is incurred before unrestricted resources are used.
+
+Use of estimates: The preparation of financial statements in conformity with U.S. GAAP requires
+management to make estimates and assumptions that affect the reported amounts of assets, liabilities
+and deferred inflows of resources and disclosure of contingent assets, liabilities and deferred inflows of
+resources at the date of the financial statements. Estimates also affect the reported amounts of revenues
+and expenses during the reporting period. Actual results could differ from those estimates.
+
+Classification of current and noncurrent assets and liabilities: The Foundation considers assets to
+be current that can reasonably be expected, as part of normal business operations, to be converted to
+cash and be available for liquidation within 12 months of the statements of net position date. The
+Foundation considers liabilities to be current that reasonably can be expected, as part of normal business
+operations, to be due and payable within 12 months of the statements of net position date. All other
+assets and liabilities are considered to be noncurrent.
+
+Operating and nonoperating activities: Operating revenues and expenses represent ongoing activities
+of the Foundation, as well as ongoing activities that are in support of the University’s programs. Operating
+activities relate to the Foundation’s principal function, which is to solicit, receive, hold, invest and
+administer charitable contributions for the benefit of the University. Nonoperating revenues include certain
+revenue sources that provide additional funding not included in operating revenues which include
+University related support and endowment contributions.
+
+                                                       20
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 1.     Nature of Organization and Summary of Significant Accounting Policies (Continued)
+Income taxes: The Foundation is exempt from federal income taxes under Section 501(c)(3) of the IRC
+as an organization described in Section 501(c)(3). However, the Foundation is subject to income tax on
+any net income that is derived from a trade or business, regularly carried on, and not in furtherance of the
+purpose for which it is granted exemption. The Foundation is classified as an organization operated for
+the benefit of a college or university owned or operated by a governmental unit described in Section
+170(b)(1)(A)(iv). The Foundation has no unrelated business income tax expense for the years ended
+June 30, 2025 and 2024, respectively.
+
+Cash and cash equivalents: The Foundation considers all highly liquid investments with original
+maturities of three months or less when purchased to be cash equivalents except for balances included in
+the pooled investments.
+
+Investments: The Foundation has created two pools for the investment of funds. The endowment pool
+employs a long-term investment strategy ideal for the perpetual nature of endowments. The operating
+pool was created to provide liquidity and be a source of funds to meet planned or anticipated expenses
+for current operations. Investments are carried at fair value based on published quotations from the
+national exchanges or over-the-counter market, or by utilizing net asset value as a practical expedient.
+
+Gifts of investments are recorded at their fair value (based upon quotations or appraisals) at the date of
+gift. Except for investments that are not readily marketable or are held separately for specific reasons, all
+gifts of investments are liquidated and invested in accordance with the donor’s intent.
+
+Gifts that are invested in the endowment pool are assigned units of participation in the pool based upon
+their market value on the date of gift and the most recently determined unit market value for the existing
+units of participation. Subsequent allocations of annual income of the endowment pool are based upon
+the number of units of participation. Distributions are based upon the spending policy approved by the
+Foundation Board of Directors and follow the total return concept of utilizing both income and realized and
+unrealized gains. The market value of the units of participation is calculated monthly.
+
+Investment earnings (losses) (including interest and dividends and realized and unrealized gains and
+losses, net of expenses) is reflected in the accompanying statements of revenues, expenses and
+changes in net position. Purchases and sales of investments are recorded on a trade-date basis. The
+cost of investments sold is determined using the specific-identification method.
+
+Charitable gift annuity assets (beneficial interest assets) are invested and recorded at fair value. In
+accordance with Section 627.481 of the Florida Statutes, the charitable gift annuity reserve fund must
+maintain assets at least equal to the liability on its outstanding annuity agreements, plus 10%. Investment
+of the gift annuity reserve fund is limited to no more than 50% equities and no more than 10% may be
+invested in any one stock or fund.
+
+Investments classified as noncurrent represent the corpus and accumulated gains of donor restricted
+contributions and investments not expected to be used during the Foundation’s next fiscal year.
+
+
+
+
+                                                     21
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 1.     Nature of Organization and Summary of Significant Accounting Policies (Continued)
+The Foundation’s investment policy allows for investments in domestic equities, international equities,
+fixed income, real assets and alternatives. For equity investments, the investment policy requires that the
+investments be diversified by sector and industry and proportionally allocated to small- and large-
+capitalization stocks. International equity investments are to be diversified by country exposure, covering
+both developed and emerging markets. For fixed income instruments, the Foundation’s investment policy
+allows for investments to be broadly diversified by issuer, sector, quality and maturity. For alternative
+instruments, the Foundation’s investment policy allows for private equity, absolute return (hedge funds),
+real assets and commodities.
+
+The Foundation provides investment management of funds to the University, its DSOs, and component
+units to provide benefits from economies of scale, active professional oversight and broad diversification
+over many asset classes. Organizations participating in this program may be invested in the Foundation’s
+operating and/or endowment investment pools.
+
+Fair value measurements: The Foundation categorizes its fair value measurements within the fair value
+hierarchy established by GAAP. Fair value is defined in the accounting standards as the price that would
+be received to sell an asset or paid to transfer a liability in an orderly transaction between market
+participants at the measurement date. Assets and liabilities reported at fair value are organized into a
+hierarchy based on the levels of inputs observable in the marketplace that are used to measure fair value.
+Inputs are used in applying the various valuation techniques and take into account the assumptions that
+market participants use to make valuation decisions. Inputs may include price information, credit data,
+liquidity statistics and other factors specific to the financial instrument. Observable inputs reflect market
+data obtained from independent sources. In contrast, unobservable inputs reflect the entity’s assumptions
+about how market participants would value the financial asset.
+
+A financial instrument’s level within the fair value hierarchy is based on the lowest level of any input that is
+significant to the fair value measurement. The following describes the hierarchy of inputs used to measure
+fair value and the primary valuation methodologies used for financial instruments measured at fair value on
+a recurring basis:
+
+Level 1: Inputs are quoted prices in active markets for identical assets or liabilities that the Foundation
+         has the ability to access at the measurement date.
+
+Level 2: Inputs other than quoted prices that are observable for the asset and liability, either directly or
+         indirectly.
+
+Level 3: Inputs are unobservable inputs for the asset or liability. Unobservable inputs shall be developed
+         based on the best information available in the circumstances.
+
+The following valuation techniques and inputs were used to estimate the fair value of assets and liabilities
+carried at fair value on the statements of net position. There have been no changes to these techniques
+and inputs during the years ended June 30, 2025 and 2024.
+
+Money market funds: The fair value of these short-term investments is classified as Level 1 based on
+quoted prices in an active market.
+
+
+
+
+                                                      22
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 1.     Nature of Organization and Summary of Significant Accounting Policies (Continued)
+Fixed income: Included in the Level 1 category are fixed income investments. Level 1 fixed income
+investments consist of mutual funds invested in corporate and government bonds valued on quoted
+prices in an active market. Other fixed income investments consist of corporate, government, and
+mortgage bonds structured as a commingled fund. The fair value has been estimated using the net asset
+value (NAV) per share of the fund at year-end based on the current market value of each investment and
+reinvested investment income as a practical expedient. NAV is excluded from the valuation hierarchy.
+
+Stock investments: Included in both the Level 1 category are domestic and international equities.
+Level 1 stock investments are valued at quoted prices in an active market. Other stock investments are
+structured as commingled funds, and fair value has been estimated using NAV per share of the fund at
+year-end as a practical expedient. NAV is excluded from the valuation hierarchy. Their fair value is based
+on observable inputs, which include market prices for similar assets in the active market.
+
+Partnership investments: Included within endowment pooled investments in the accompanying
+statements of net position are a high yield bond fund, funds of funds, investments in private equity
+companies, and partnerships that do not have readily determinable values. The fair value of the
+Foundation’s interest in these limited partnerships is based on capital account balances reported by the
+underlying partnerships, which is subject to management review and adjustment. This fair value is
+determined using NAV per percentage of ownership. Investments valued at NAV as a practical expedient
+are excluded from the valuation hierarchy. Due to the inherent uncertainty of these estimates, these
+values may differ materially from the values that would have been used had a ready market for these
+investments existed.
+
+Beneficial interests in irrevocable split-interest agreements: Beneficial interests are included in the
+Level 3 category and are made up of beneficial interests in perpetual trusts and charitable remainder
+trusts. The Foundation determines the value of these assets as measured by the fair value of the assets
+contributed to the trusts. For charitable remainder trusts, the income approach is utilized, and the trust
+assets are discounted to present value using the Internal Revenue Service (IRS) discount rate. The
+Foundation has assessed the interest rate used and no additional risk premium is added to this rate. This
+fair valuation is performed on an annual basis.
+
+Contributions receivable: Contributions receivable represent written unconditional promises to give by
+donors. Contributions receivable are recognized as contribution revenue in the period pledged as long as
+they are verifiable, measurable, probable of collection, and they meet all the eligibility requirements
+specified by GASB Statement No. 33, Accounting and Financial Reporting for Nonexchange
+Transactions. Endowment gifts are recognized as contributions to permanent endowment funds at the
+time payment is received due to time eligibility requirements. Unconditional promises to give that are
+expected to be collected within one year are recorded at net realizable value, which approximates fair
+value at the date of the pledge. Contributions receivable that are expected to be collected in future years
+are reported at fair value determined using the discounted present value of expected cash flows. The
+discount rate applied to the risk-adjusted cash flow is based on U.S. Treasury yields appropriate for the
+expected terms of the promise to give. For the year ended June 30, 2025, discount rates ranging from
+3.68% to 3.98% were used. For the year ended June 30, 2024, discount rates ranging from 4.33% to
+5.09% were used. An allowance is made for uncollectible contributions receivable based upon the
+Foundation’s analysis of past collection experience and other judgmental factors. The allowance captures
+the risk premium to bring the contributions receivable balance to a risk-adjusted expected cash flow.
+
+
+
+
+                                                    23
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 1.     Nature of Organization and Summary of Significant Accounting Policies (Continued)
+Beneficial interest in non-trustee split-interest agreements: Deferred inflows of resources represent
+an acquisition of net position that applies to a future period. The Foundation classifies changes in
+irrevocable split-interest agreements (beneficial interest assets) as deferred inflows of resources. These
+amounts will be recognized as revenue upon the distribution or termination of the split-interest
+agreements.
+
+Capital assets: Buildings, land, property and equipment are stated at cost, if purchased, and at
+acquisition value upon receipt, if acquired by gift. Upon retirement or disposition, the asset’s carrying
+value and related accumulated depreciation are relieved and the resulting gain or loss is included in the
+statements of revenues, expenses and changes in net position. The Foundation transfers gifts and
+purchased property to the University for capitalization, asset management and insurance purposes.
+These transfers are reflected on the statements of revenues, expenses and changes in net position as
+program services expenses.
+
+The Foundation depreciates buildings and equipment on a straight-line basis over their estimated useful
+lives. Useful lives range from 3 to 20 years for equipment, 15 to 20 years for building improvements and
+30 to 40 years for buildings. Land is not subject to depreciation.
+
+Impairment of capital assets: The Foundation evaluates the recoverability of its land, buildings,
+equipment and other whenever adverse events or changes in the business climate indicate that the
+expected undiscounted future cash flows from the related asset may be less than the carrying value. If
+the net book value of the related asset exceeds the undiscounted future cash flows of the asset, the
+carrying amount would be reduced to the present value of its expected future cash flows and an
+impairment loss would be recognized. No such impairment was recorded for the years ended June 30,
+2025 and 2024.
+
+Leases: As a lessor, the Foundation recognizes a lease receivable and a deferred inflow of resources at
+the commencement of the lease term. The lease receivable is measured at the present value of the lease
+payments expected to be received during the lease term. The deferred inflow of resources is measured
+as the value of the lease receivable in addition to any payments received at or before the commencement
+of the lease term that relate to future periods. Lease receivable is reduced as payments are received,
+applying principal against receivable and interest to revenue based on the amortization schedule.
+Deferred inflow is recognized as revenue on a straight-line basis over the life of the lease term.
+
+As a lessee, the Foundation recognizes lease expense based on the provisions of the lease agreement in
+the statements of revenues, expenses and changes in net position for leases with a maximum possible
+term of 12 months or less at commencement (short-term). For all other leases, the Foundation recognizes
+a lease liability and an intangible right to use leased asset in the statements of net position. At the
+commencement of a lease, the Foundation initially measures the lease liability at the present value of
+payments expected to be made during the lease term. Subsequently, the lease liability is reduced by the
+principal portion of lease payments made. The leased asset is initially measured at the amount of the
+lease liability, and as applicable, less lease payments made on or before the lease commencement date,
+plus any initial direct costs ancillary to placing the underlying asset into service, less any lease incentives
+received at or before the lease commencement date. Subsequently, the leased asset is amortized on a
+straight-line basis over the shorter of the lease term or the useful life of the underlying asset.
+
+
+
+
+                                                      24
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 1.     Nature of Organization and Summary of Significant Accounting Policies (Continued)
+For both lessor and lessee arrangements, the Foundation uses its incremental borrowing rate to discount
+the expected lease payments to present value based on the terms of the leases. The Foundation
+monitors changes in circumstances that may require a remeasurement of a lease arrangement. When
+certain changes occur that are expected to significantly affect the amount of the lease receivable, or lease
+liability, the receivable or liability is remeasured, and a corresponding adjustment is made to the deferred
+inflows of resources for leasing transactions. Similarly, a corresponding adjustment is made to the leased
+asset. The lease term includes the non-cancelable lease period, plus: 1) periods for which the Foundation
+has a unilateral option to extend and is reasonably certain to exercise such option, or 2) periods after an
+optional termination date if the Foundation is reasonably certain not to exercise the termination option.
+
+Subscription-based information technology arrangement (SBITA) assets: SBITA assets include
+right-to-use software subscriptions of $250,000 or more and a term of more than 12 months. The right to
+use assets are initially measured at an amount equal to the related subscription liability plus any
+payments made at or before commencement of the services and certain direct costs. The SBITA assets
+are amortized on a straight-line basis over the subscription term. The subscription term of the various
+SIBTA assets ranges from three to five years.
+
+SBITA liabilities: SBITA liabilities are initially measured at the present value of subscription payments
+expected to be made during the subscription term, discounted to present value. The discount rate used is
+7.5% for 2025 and 8.5% for 2024, which is the rate in effect at the date the SBITA is placed into service.
+
+Deferred inflows of resources from leases and split-interest agreements: Deferred inflows of
+resources represent an acquisition of net position that applies to a future period. The Foundation
+classifies changes in leases and irrevocable split-interest agreements (remainder interest assets and
+beneficial interest assets) as deferred inflows of resources. These amounts will be recognized as revenue
+when lease payments are received and upon the distribution or termination of the split-interest
+agreements.
+
+Revenue recognition: Contributions of cash, investment securities or contributions receivable are
+recognized at fair value when all eligibility requirements have been met and are reported as increases in
+net position. Land, buildings and equipment donated to the Foundation are recorded at their acquisition
+values at the dates of donation. These amounts are also reflected within program service expenses on
+the accompanying statements of revenues, expenses and changes in net position for the transfer of the
+in-kind contributions to the University or maintained on the statements of net position as real estate held
+for resale when appropriate. Additions to endowments and other trusts are not recognized until the
+resources are received and all eligibility requirements have been met.
+
+Functional expenses: Expenses that can be identified with a specific program, fundraising or
+administrative service are charged directly to the function. Certain other costs have been allocated among
+program, fundraising and administrative services benefited. Such allocations are determined by
+management on an equitable basis that is consistently applied. The expenses that are allocated based on
+time and effort include personnel costs.
+
+Subsequent events: The Foundation has evaluated subsequent events from the net position date
+through October 16, 2025, the date which the financial statements were available to be issued and
+determined there are no items to disclose. The (GASB has issued the following statements that will be
+effective for the fiscal year ending June 30, 2026.
+
+
+
+
+                                                     25
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 1.     Nature of Organization and Summary of Significant Accounting Policies (Continued)
+GASB 103 introduces changes to the financial reporting model, including a revised structure for
+Management’s Discussion and Analysis (MD&A), updated presentation requirements for proprietary fund
+statements, and enhanced disclosures for unusual or infrequent items. The Organization is currently
+evaluating the impact of these changes and will update its MD&A and financial statement presentation
+accordingly to comply with the new requirements.
+
+GASB 104 requires separate disclosures for certain capital assets, including lease assets, subscription-
+based IT arrangements (SBITAs), and other intangible assets. It also introduces disclosure requirements
+for capital assets held for sale. The Organization is assessing its capital asset records and disclosure
+templates to ensure compliance with GASB 104. These changes are expected to enhance transparency
+and comparability in the financial statements.
+
+The Organization plans to implement both standards for the fiscal year beginning July 1, 2025. The
+impact of these statements is not expected to materially affect the financial position or results of
+operations but will result in enhanced disclosures and presentation.
+
+Note 2.     Cash and Cash Equivalents
+The amount recorded for cash and cash equivalents of the Foundation’s deposits held in operating bank
+accounts was $1,906,402 and $1,673,154 at June 30, 2025 and 2024, respectively. Bank balances as of
+June 30, 2025 and 2024, totaled $2,352,278 and $2,147,530, respectively.
+
+Custodial credit risk for deposits is the risk that, in the event of the failure of a depository financial
+institution, the Foundation will not be able to recover deposits. The Foundation mitigates custodial credit
+risk by holding non-invested cash in a financial institution covered by the Federal Deposit Insurance
+Corporation.
+
+
+
+
+                                                     26
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 3.     Investments
+Investments are carried at fair value and consist of the following at June 30:
+
+                                                                                 2025              2024
+Short-term investments:
+ Money market funds                                                      $    40,235,602     $    29,068,178
+ Fixed income securities                                                      81,486,609          62,451,663
+ Domestic securities                                                           1,664,382           1,606,962
+     Total current investments for the reporting entity                      123,386,593          93,126,803
+Less Fiduciary Fund equity interest in pooled current investments              1,189,319             819,368
+     Total current pooled investments of the Foundation                      122,197,274          92,307,435
+Long-term investments:
+ Money market funds                                                            2,154,517           2,160,988
+ Fixed income                                                                161,978,059         120,390,980
+ Domestic securities                                                         270,606,712         250,640,154
+ International equities                                                      171,393,502         211,071,985
+ Real asset equities                                                          38,531,036          29,476,664
+ Private equity                                                               66,730,973          63,595,404
+ Fixed income partnership                                                     36,146,936          28,992,055
+ Real asset partnership                                                       55,276,799          47,426,283
+     Total noncurrent investments for the reporting entity                   802,818,534         753,754,513
+Less Fiduciary Fund equity interest in pooled
+ long-term investments                                                        42,988,348          47,770,090
+     Total pooled investments of the Foundation                              759,830,186         705,984,423
+
+     Total investments                                                       926,205,127         846,881,316
+Less Fiduciary Fund equity interest in total pooled investments             44,177,667          48,589,458
+     Total long-term pooled investments of the Foundation                $ 882,027,460       $ 798,291,858
+
+The Foundation’s pooled investments reported on the statements of financial position are reduced by the
+equity interest of fiduciary funds managed by the Foundation. The Foundation measures amounts held on
+behalf of fiduciary funds at fair value on a recurring basis. The fair value of these underlying assets is held
+in short- and long-term investments presented in the above tables for the years ended June 30, 2025 and
+2024. See fiduciary fund statements of net position for additional information.
+
+
+
+
+                                                      27
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 3.      Investments (Continued)
+The following schedule provides the components of the realized and unrealized gains and losses on
+investments, net are as follows at June 30:
+
+                                                                                  2025                 2024
+
+Net realized gains on investments                                           $   78,793,102        $   20,447,628
+Net unrealized (losses) gains investments                                       (8,934,537)           62,072,264
+       Total realized and unrealized gains on investments,
+           net for the reporting entity                                         69,858,565            82,519,892
+Less realized gains on investments for fiduciary funds                          (4,950,721)           (1,306,022)
+Less unrealized loss (gains) on investments for fiduciary funds                    836,804            (3,873,952)
+       Total realized and unrealized gains on investments,
+         net for the Foundation                                             $   65,744,648        $   77,339,918
+
+Investment risk factors: There are many factors that can affect the value of investments. In addition to
+market risk, credit risk, custodial credit risk, concentration of credit risk and interest rate risk may affect
+both equity and fixed-income securities. Equity securities are affected by such factors as economic
+conditions, individual company earnings performance and market liquidity, while fixed-income securities
+are particularly sensitive to credit risk, inflation and changes in interest rates.
+
+Custodial credit risk for investments is the risk that, in the event of the failure of the counterparty, the
+Foundation will not be able to recover the value of its investments or collateral securities that are in
+possession of an outside party. To mitigate custodial credit risk, the Foundation requires that all securities
+in separately managed accounts be held, in the Foundation’s name, by a well-capitalized and financially
+secure third-party custodian bank. The Foundation monitors the financial viability of its custodian bank on
+a regular basis.
+
+Credit risk is the risk that an issuer or other counterparty to an investment will not fulfill its obligations. The
+Foundation’s investment policy mitigates credit risk by targeting higher credit ratings when possible.
+
+The following schedule represents the ratings of the Foundation’s debt-type investments as of June 30,
+2025, using nationally recognized statistical ratings quality organizations:
+
+                                                             Domestic        International          Total
+                   Credit Rating                           Fixed Income      Fixed Income      Debt Securities
+
+AAA                                                    $  36,826,415       $  5,817,255       $  42,643,670
+AA                                                        47,431,572            299,463          47,731,035
+A                                                         13,614,535          3,088,706          16,703,241
+BBB                                                       22,886,815         19,896,086          42,782,901
+BB                                                        22,078,777         17,046,040          39,124,817
+B                                                         20,192,195          3,753,625          23,945,820
+Less than B rated                                          5,976,489            227,398           6,203,887
+Not rated                                                 59,613,055            863,178          60,476,233
+        Total fixed income investments                 $ 228,619,853       $ 50,991,751       $ 279,611,604
+
+
+
+                                                        28
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 3.      Investments (Continued)
+The following schedule represents the ratings of the Foundation’s debt-type investments as of June 30,
+2024, using nationally recognized statistical ratings quality organizations:
+
+                                                            Domestic       International          Total
+                   Credit Rating                          Fixed Income     Fixed Income      Debt Securities
+
+AAA                                                   $   7,819,278       $  3,375,349      $  11,194,627
+AA                                                       66,803,124                 -          66,803,124
+A                                                        10,391,903            860,637         11,252,540
+BBB                                                      17,270,255         10,013,044         27,283,299
+BB                                                       17,174,995          6,083,554         23,258,549
+B                                                        16,567,433          2,940,463         19,507,896
+Less than B rated                                         3,753,873            150,619          3,904,492
+Not rated                                                47,591,724          1,038,447         48,630,171
+        Total fixed income investments                $ 187,372,585       $ 24,462,113      $ 211,834,698
+
+Concentration of credit risk is the risk of loss attributed to the magnitude of an entity’s investment in a
+single issuer. The Foundation’s investment policy requires diversification in its asset allocation sufficient
+to reduce the potential of a single security, single sector of securities or single investment manager
+having a disproportionate or significant impact on the portfolio. The Foundation’s investment policy
+mitigates this risk by limiting single issuer concentration (excluding U.S. government and agencies) to no
+more than 5% of the value of the fixed income composite. As such, there were no single issuer (excluding
+U.S. governments and agencies) greater than 5% of the value of the fixed income composite for the year
+ended June 30, 2025 and 2024.
+
+Interest rate risk is the risk that changes in interest rates will adversely affect the value of an investment,
+and is measured by duration. The Foundation mitigates interest rate risk by allocating to shorter duration
+strategies in its operating pool, as stipulated by the investment policy. The endowment investment policy
+requires that duration remain within 1.5 years relative to the asset class benchmark.
+
+The effective duration (in years) of the Foundation’s fixed-income securities at June 30, 2025, is as
+follows:
+
+                     Average                                Domestic       International          2025
+                     Duration                             Fixed Income     Fixed Income         Fair Value
+
+Less than one year                                    $ 162,595,602       $ 14,648,734      $ 177,244,336
+One to five years                                        66,024,251         36,343,017        102,367,268
+                                                      $ 228,619,853       $ 50,991,751      $ 279,611,604
+
+
+
+
+                                                       29
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 3.     Investments (Continued)
+The effective duration (in years) of the Foundation’s fixed-income securities at June 30, 2024, is as
+follows:
+
+                     Average                           Domestic         International         2024
+                     Duration                        Fixed Income       Fixed Income        Fair Value
+
+Less than one year                                 $ 124,220,859       $         -       $ 124,220,859
+One to five years                                     63,151,726         24,462,113         87,613,839
+                                                   $ 187,372,585       $ 24,462,113      $ 211,834,698
+
+Foreign currency risk is the risk that changes in exchange rates between the U.S. dollar and foreign
+currencies could adversely affect an investment’s fair value. As of June 30, 2025 and 2024, the
+Foundation did not have any direct investments in equity or fixed income investments subject to this risk.
+As of June 30, 2025 and 2024, the Foundation’s assets were held in U.S. currency; the currency risk on
+international and global assets is reflected in investment performance.
+
+Alternative investments consist of marketable alternatives (hedge funds, including absolute return and
+long/short equity strategies), limited partnerships, private equity, venture capital and private real estate
+funds. Alternative investments include ownership interests in a wide variety of vehicles including
+partnerships and corporations that may be domiciled in the United States or offshore. The underlying
+investments may be leveraged to enhance the total investment return and may include financial assets
+such as marketable securities, nonmarketable securities, derivatives and other synthetic and structured
+instruments as well as tangible and intangible assets. Generally, these alternative investments do not
+have a ready market and ownership interests in these investment vehicles may not be traded without the
+approval of the general partner or fund management. These investments are subject to the risk generally
+associated with equities and fixed-income instruments, with additional risks to leverage and the lack of a
+ready market for acquisition or disposition of ownership interests. The investment risk of these
+investments without readily determinable values with respect to each underlying investment will be limited
+to the capital committed to it by the Foundation. The carrying value of alternative investments was
+$155,474,553 and $138,059,498 as of June 30, 2025 and 2024, respectively, which is reflected in
+investments in the accompanying statements of net position.
+
+The following table presents the assets measured at fair value on a recurring basis on the statements of
+net position for the years ended June 30, 2025 and 2024, by the valuation hierarchy (as described
+above). Investments calculated using a NAV per share are listed separately for reconciliation to the
+balances on the statements of net position.
+
+
+
+
+                                                    30
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 3.        Investments (Continued)
+                                                                       Fair Value Measurement at June 30, 2025
+                  Description                       Total              Level 1         Level 2         Level 3              NAV
+Short-term investments:
+ Money market funds                           $    40,235,602    $ 40,235,602      $          -    $             -   $            -
+ Fixed income                                      81,486,609      81,486,609                 -                  -                -
+ Domestic equities                                  1,664,382       1,664,382                 -                  -                -
+         Total current investments                123,386,593     123,386,593                 -                  -                -
+
+Long-term investments:
+  Money market funds                                2,154,517          2,154,517              -                  -                -
+  Fixed income                                    161,978,059          6,807,126              -                  -       155,170,933
+Stock investments:
+  Domestic equities                               270,606,712        121,759,914              -                  -       148,846,798
+  International equities                          171,393,502                 -               -                  -       171,393,502
+  Real asset equities                              38,531,036         38,531,036              -                  -                -
+Partnership investments:
+  Private equity                                   66,730,973                 -               -                  -        66,730,973
+  Fixed income                                     36,146,936                 -               -                  -        36,146,936
+  Real asset                                       55,276,799                 -               -                  -        55,276,799
+         Total noncurrent investments             802,818,534        169,252,593              -                  -       633,565,941
+         Total investments                        926,205,127        292,639,186              -                  -       633,565,941
+Fiduciary equity interest in total pooled
+  investments                                     (44,177,667)
+           Total pooled investments for the
+             reporting entity                 $   882,027,460
+           Total beneficial interest assets   $    24,956,770    $            -    $          -    $ 24,956,770      $            -
+
+
+                                                                       Fair Value Measurement at June 30, 2024
+                  Description                       Total              Level 1         Level 2         Level 3              NAV
+Short-term investments:
+ Money market funds                           $    29,068,178    $ 29,068,178      $          -    $             -   $            -
+ Fixed income                                      62,451,663      62,451,663                 -                  -                -
+ Domestic equities                                  1,606,962       1,606,962                 -                  -                -
+         Total current investments                 93,126,803      93,126,803                 -                  -                -
+
+Long-term investments:
+  Money market funds                                2,160,988          2,160,988              -                  -                -
+  Fixed income                                    120,390,980          6,312,471              -                  -       114,078,509
+Stock investments:
+  Domestic equities                               250,640,154        120,501,253              -                  -       130,138,901
+  International equities                          211,071,985                 -               -                  -       211,071,985
+  Real asset equities                              29,476,664         29,476,664              -                  -                -
+Partnership investments:
+  Private equity                                   63,595,404                 -               -                  -        63,595,404
+  Fixed income                                     28,992,055                 -               -                  -        28,992,055
+  Real asset                                       47,426,283                 -               -                  -        47,426,283
+         Total noncurrent investments             753,754,513        158,451,376              -                  -       595,303,137
+         Total investments                        846,881,316        251,578,179              -                  -       595,303,137
+Fiduciary equity interest in total pooled
+  investments                                     (48,589,458)
+           Total pooled investments for the
+             reporting entity                 $   798,291,858
+           Total beneficial interest assets   $    23,045,103    $            -    $          -    $ 23,045,103      $            -
+
+
+
+
+                                                                 31
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 3.      Investments (Continued)
+The following table discloses the nature and risks of investments that have a fair value based on the net
+asset value per share as reported by investment institutions where the funds are held at June 30:
+
+(a) This category includes investments in fixed income securities through a commingled fund structure.
+    The investment manager’s emphasis is on spread sectors, in particular puttable corporate bonds and
+    commercial mortgage-backed securities. The fair value of the investments in this category has been
+    estimated using NAV per share of the investments.
+
+(b) This category included investments in domestic and international equities through a commingled fund
+    structure. The investment objective of these funds is to provide long-term total return in excess of
+    their respective benchmarks. The fair value of the investments in this category has been estimated
+    using NAV per share of the investments.
+
+(c) This category consists of private capital partnerships in fund of fund underlying managers.
+    Investments include private equity, real estate and real assets that are not subject to redemption. The
+    Foundation instead receives distributions through the liquidation of the underlying assets of the
+    investees. Private partnerships typically operate for a term of 10-12 years.
+
+(d) This category consists of a high-yield bond portfolio in a commingled fund in which the manager holds
+    publicly traded corporate bonds with some rated below investment grade. The fair value of the
+    investments in this category has been estimated using NAV per share of the investments.
+
+                                         Fair              Unfunded       Redemption       Redemption
+           June 30, 2025                Value             Commitments     Frequency        Notice Period
+
+Fixed income(a)                    $   155,170,933   $              -       Weekly           0-7 days
+Stock investments(b):
+  Domestic equities                    148,846,798                  -    Daily/Monthly       2-30 days
+  International equities               171,393,502                  -    Daily/Monthly       5-30 days
+Partnership investments
+  Private equity(c)                     66,730,973          38,664,188       NA                 NA
+  Fixed income(d)                       36,146,936           4,525,120      Monthly          3-5 days
+  Real asset(c)                         55,276,799           7,533,463       NA                 NA
+          Total                    $   633,565,941   $      50,722,771
+
+                                         Fair              Unfunded       Redemption       Redemption
+           June 30, 2024                Value             Commitments     Frequency        Notice Period
+
+Fixed income(a)                    $   114,078,509   $              -       Weekly           0-7 days
+Stock investments(b):
+  Domestic equities                    130,138,901                  -    Daily/Monthly       2-30 days
+  International equities               211,071,985                  -    Daily/Monthly       5-30 days
+Partnership investments
+  Private equity(c)                     63,595,404          44,231,312       NA                 NA
+  Fixed income(d)                       28,992,055          11,522,516      Monthly          3-5 days
+  Real asset(c)                         47,426,283          20,695,871       NA                 NA
+          Total                    $   595,303,137   $      76,449,699
+
+
+
+
+                                                     32
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 4.     Endowments
+The State of Florida adopted Florida Statute 617.2104, Florida Uniform Management of Institutional Act
+(FUMIFA), which provides policy for administration related to investment of endowment funds and the
+ability to spend net appreciation. The Foundation authorizes expenditures for the uses and purposes for
+which endowment funds were established.
+
+FUMIFA requires the Foundation Board of Directors (the Board) to use reasonable care, skill and caution
+as exercised by a prudent investor, in considering the investment management and expenditures of
+endowment funds. In accordance with FUMIFA, the Foundation’s Board may expend so much of an
+endowment fund as the Foundation’s Board determines to be prudent for the uses and purposes for
+which the endowment fund is established, consistent with the goal of conserving the long-term purchasing
+power of the endowment.
+
+In accordance with FUMIFA, the Foundation considers the following factors in making a determination to
+distribute or accumulate donor-restricted funds:
+
+1. The duration and preservation of the fund.
+
+2. The purposes of the Foundation and the donor-restricted endowment fund.
+
+3. General economic conditions.
+
+4. The possible effect of inflation and deflation.
+
+5. The expected total return from income and the appreciation of investments.
+
+6. Other resources of the Foundation and the University.
+
+7. The investment policies of the Foundation.
+
+As a result of this interpretation, the Foundation classifies as nonexpendable net position: (a) the original
+value of gifts donated to the permanent endowment, (b) the original value of subsequent gifts to the
+permanent endowment, and (c) accumulations to the permanent endowment made in accordance with
+the direction of the applicable donor gift instrument at the time the accumulation is added to the fund. The
+remaining portion of the donor-restricted endowment fund that is not classified in restricted
+nonexpendable net position is classified as restricted expendable net position until those amounts are
+appropriated for expenditure by the organization in a manner consistent with the standard of prudence
+prescribed by FUMIFA.
+
+The Foundation has adopted investment and spending policies for endowment assets that attempt to
+provide a predictable stream of funding to programs supported by its endowment while seeking to
+maintain purchasing power of the endowment assets. Under this policy, as approved by the Foundation’s
+Board, the endowment assets are invested in a manner that is intended to produce a real return, net of
+inflation and investment management costs that will grow the endowment over the long-term while
+supporting the spending policy. Actual returns in any given year may vary from this amount.
+
+To satisfy its long-term rate-of-return objectives, the Foundation relies on a total return strategy in which
+investment returns are achieved through both capital appreciation (realized and unrealized) and current
+yield (interest and dividends). The Foundation targets a diversified asset allocation that places a greater
+emphasis on equity-based investments to achieve its long-term objective within prudent risk constraints.
+
+
+                                                      33
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 4.     Endowments (Continued)
+The Foundation has a spending policy with two components governing the distributions from the
+endowment: the administrative fee and the dividend payout. In establishing this policy, the Foundation
+considered the long-term expected return on its endowment.
+
+Accordingly, over the long-term, the Foundation expects the current spending policy to allow its
+endowment to grow at an average of the long-term rate of inflation. This is consistent with the
+Foundation’s objective to maintain the purchasing power of the endowment assets held in perpetuity, as
+well as to provide additional real growth through new gifts and investment return.
+
+The dividend payout rate on endowment invested amounts for years ended June 30, 2025 and 2024, was
+4%. Annually, the Foundation’s Board evaluates historical performance, projected returns, and the needs
+of the University to determine the appropriate dividend payout rate. Dividends are calculated monthly and
+distributed quarterly to all funds invested in the endowment pool based on the five-year average market
+value of the endowment pool as of December 31 of the preceding fiscal year in which distribution is
+planned. During the years ended June 30, 2025 and 2024, the Foundation distributed $28,898,438 and
+$27,161,270, respectively, in endowment dividends. The dividends are made available to support the
+activities and programs of the University, its DSOs, and component units, and are expended in
+accordance with donor-imposed restrictions.
+
+The Foundation charged a 2% administrative fee on endowment invested amounts for the years ended
+June 30, 2025 and 2024. Annually, the Foundation’s Board evaluates historical performance, projected
+returns, and operating needs to determine the appropriate administrative fee. During the years ended
+June 30, 2025 and 2024, the Foundation collected $13,558,233 and $12,746,815, respectively, in
+administrative fees. These fees cover the cost of business office operating expenses that include
+accounting, auditing, taxes and other related business expenses; support for fundraising operations and
+management of the endowment.
+
+The Foundation endowment consists of 1,639 individual funds established for a variety of purposes. The
+following displays the total ending endowment balances for nonexpendable endowments or donor-
+restricted endowments:
+
+                                                                             2025              2024
+
+Total Foundation endowment balance                                     $ 722,838,408      $ 664,260,909
+Less appreciated portion of restricted expendable                       (283,909,249)      (241,987,096)
+        Permanently restricted nonexpendable balance                   $ 438,929,159      $ 422,273,813
+
+
+
+
+                                                   34
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 5.      Contributions Receivable, Net
+Contributions receivable is expected to be realized in the following periods ended June 30:
+
+                                                                                       2025                 2024
+
+In one year or less                                                               $ 41,593,832         $ 43,864,810
+Between one and five years                                                           48,638,760          30,365,584
+Greater than five years                                                              11,856,914          13,821,521
+                                                                                   102,089,506           88,051,915
+Less present value discount 3.68% – 3.98%                                            (7,101,549)         (6,266,687)
+Less allowance for uncollectible contributions                                      (10,142,248)         (9,595,050)
+                                                                                  $ 84,845,709         $ 72,190,178
+
+Contributions receivable, net, is classified as follows at June 30:
+
+                                                                                       2025                 2024
+
+Current contributions receivable, net                                             $ 31,941,666         $ 35,309,881
+Noncurrent contributions receivable, net                                            52,904,043           36,880,297
+                                                                                  $ 84,845,709         $ 72,190,178
+
+
+Note 6.      Works of Art and Capital Assets, Net
+Capital assets consist of the following at June 30:
+
+                                         June 30, 2024         Increase             Decrease           June 30, 2025
+
+Land (non-depreciable)               $       6,620,414    $               -   $                -   $       6,620,414
+Buildings, improvements,
+  equipment and other:
+  Property and equipment                     5,361,206                 -                       -           5,361,206
+Right to use lease assets                      432,636            904,167                      -           1,336,803
+Right to use subscription assets             1,815,159            195,309                      -           2,010,468
+                                            14,229,415          1,099,476                      -          15,328,891
+Less accumulated depreciation
+  and amortization:
+  Buildings, improvements,
+    equipment and other:
+    Property and equipment                  (1,612,460)          (118,799)                     -          (1,731,259)
+  Right to use lease assets                   (132,609)          (387,111)                     -            (519,720)
+  Right to use subscription assets            (855,241)          (454,520)                     -          (1,309,761)
+                                            (2,600,310)          (960,430)                     -          (3,560,740)
+Total net capital assets             $      11,629,105    $       139,046     $                -   $      11,768,151
+Works of art (non-depreciable)       $       6,418,098    $       195,825     $                -   $       6,613,923
+
+
+
+
+                                                          35
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 6.      Works of Art and Capital Assets, Net Continued)
+                                         June 30, 2023         Increase           Decrease           June 30, 2024
+
+Land (non-depreciable)               $       6,620,414    $               -   $              -   $        6,620,414
+Buildings, improvements,
+  equipment and other:
+  Property and equipment                     5,361,206                 -                     -            5,361,206
+Right to use lease assets                      432,636                 -                     -              432,636
+Right to use subscription assets             1,242,699            572,460                    -            1,815,159
+                                            13,656,955            572,460                    -           14,229,415
+Less accumulated depreciation
+  and amortization:
+  Buildings, improvements,
+    equipment and other:
+    Property and equipment                  (1,493,661)          (118,799)                -              (1,612,460)
+  Right-to-use lease assets                    (43,260)           (89,349)                -                (132,609)
+  Right-to-use subscription assets            (570,293)          (284,948)                -                (855,241)
+                                            (2,107,214)          (493,096)                -              (2,600,310)
+Total net capital assets             $      11,549,741    $        79,364     $           -      $       11,629,105
+Works of art (non-depreciable)       $       5,502,398    $       920,900     $       (5,200)    $        6,418,098
+
+The Foundation acquired a parcel of land located in St. Petersburg, Florida, adjacent to the USF St.
+Petersburg campus. The Foundation has entered into a lease agreement with the University for the use of
+the property by USF St. Petersburg. See Note 10 for information on the lease. The Foundation financed
+this property with a mortgage obligation. See Note 9 for information regarding the associated mortgage
+payable. Certain costs associated with the development and improvement of this property are incurred
+directly by the University. These amounts are transferred to the Foundation for capitalization. No such
+improvement costs were transferred or recorded for the years ended June 30, 2025 and 2024.
+
+Depreciation expense of $118,799 was included in operating expenses for program services for the years
+ended June 30, 2025 and 2024. Works of art are measured at acquisition value when gifted were
+$6,613,923 and $6,418,098 as of June 30, 2025 and 2024, respectively, and are included in the
+statements of net position.
+
+Note 7.      Due to/From the University of South Florida, Net
+Due to (from) the University of South Florida consists of the following at June 30:
+
+                                                                                    2025                   2024
+
+USF Health Morsani College and Heart Institute loan                           $     1,800,000        $    1,900,000
+Supplemental and deferred compensation contracts                                           -               (593,000)
+Convenience accounts and pending transfers                                         (2,455,278)           (2,563,141)
+Courtelis Facilities Matching Gift Program                                           (314,685)             (314,685)
+                                                                              $      (969,963)       $   (1,570,826)
+
+
+
+
+                                                          36
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 7.     Due to/from the University of South Florida, Net (Continued)
+Due to (from) the University of South Florida, net, are classified as follows at June 30:
+
+                                                                                2025               2024
+
+Current assets due from USF, net                                          $    1,467,888      $    1,171,316
+Noncurrent assets due from USF, net                                              700,000             800,000
+Current liabilities due to USF, net                                           (2,823,166)         (3,227,457)
+Noncurrent liabilities due to USF, net                                          (314,685)           (314,685)
+                                                                          $     (969,963)     $   (1,570,826)
+
+During fiscal year 2023, the Foundation entered into a Memorandum of Understanding (MOU) with the
+University in which the Foundation granted USF Health Morsani College of Medicine, a division of the
+University, a loan in an amount not to exceed $5,500,000. The loan proceeds are to be used to finance
+the renovation and completion of the USF Health Morsani College of Medicine Heart Institute. Under the
+terms of the MOU, payments of principal shall be made annually, and interest payments shall be paid
+quarterly. All loan principal and interest accrued shall be repaid no later than June 30, 2028. Interest shall
+be calculated from the date of the first draw of the loan at a rate equal to the Prime rate, reset at the
+beginning of each calendar quarter subject to interest rate discounts as approved by the Foundation.
+Interest was received from the loan of $175,500 and $54,671 on June 30, 2025 and 2024, respectively.
+During the years ended June 30, 2025 and 2024, principal payments of $1,100,000 were received by the
+Foundation.
+
+The Foundation has entered into supplemental compensation agreements with certain University
+employees on behalf of the University. These agreements provide for amounts that would be paid in the
+event of involuntary termination without cause. The potential maximum amounts under these contracts
+range up to $11,502,299 and may be reduced or eliminated based on a predetermined schedule or
+compensation earned during employment in addition to reductions for severance paid by USF and
+compensation from new employment. Based on conditions required in the agreements, the likelihood of
+these payments occurring is considered remote and will be recognized when due to the University. In
+addition, some of these agreements provide for deferred compensation amounts that will be earned at a
+future date or in the event of death, disability, or termination without cause. In some cases, the deferred
+compensation is earned on a pro-rated basis in the event of resignation or termination for cause. The
+amounts recorded within due to University of South Florida on the statements of net position to recognize
+the deferred compensation was $0 and $593,000 as of June 30, 2025 and 2024, respectively. The
+amounts recorded as program services on the statements of revenues, expenses and changes in net
+position to reflect the expense associated with the liability for deferred compensation was $200,500 and
+$593,000 for the years ended June 30, 2025 and 2024, respectively. The University has committed to
+support the funding of these agreements if there are not sufficient funds available to them in the
+Foundation at the time of payment. Any payments due under these agreements will be made by the
+Foundation to the University for them to process for their employees.
+
+The Foundation has convenience accounts held at the University in which money is transferred to pay
+salaries and reimburse other expenses incurred by the University. The balances of these accounts reflect
+the difference between actual costs incurred and amounts transferred during the year netted with
+transfers pending at June 30th.
+
+
+
+
+                                                      37
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 7.               Due to/from the University of South Florida, Net (Continued)
+The Courtelis Facilities Matching Gift Program liability represents private money raised to support the
+construction of the USF Health Major Renovation/Remodeling/Addition, USF Health North Clinic, USF
+Joint Military Science Leadership Center, USF Byrd Alzheimer’s Institute, USF Health Nursing Expansion,
+and the College of The Arts Music Building.
+
+The Foundation certifies to the University and the State on December 31 of each year the amount of
+private money that has been raised and that is eligible to be matched under the program. During each
+annual legislative session, the legislature may appropriate funding or veto a project for matching. Once
+the appropriation has been made by the legislature, the Foundation is obligated to transfer the funds to
+the University to receive the match. During fiscal years 2025 and 2024, no appropriation was made by the
+legislature for the University projects eligible to receive matching funds from the program. The Courtelis
+Facilities Matching Gift Program has been temporarily suspended for donations received on or after
+June 30, 2011. Existing eligible donations received on or before June 29, 2011, remain eligible for future
+matching funds. The program may be restarted after $200 million of the backlog for the state match
+programs have been funded.
+
+Note 8.               Liabilities to Life Beneficiaries
+The Foundation is obligated under 24 charitable gift annuity agreements to pay annuities with rates
+ranging from 0.6% to 7.6% to life beneficiaries. These annuity obligations are calculated based on
+actuarial assumptions, using IRS tables, at their present value each year. During the years ended
+June 30, 2025 and 2024, there were payments of $233,488 and $231,888 made on annuities,
+respectively. Upon satisfaction of the terms of each trust, the trust assets shall be transferred to the
+Foundation per the donor’s direction. The Foundation has recorded liabilities to life beneficiaries on the
+accompanying statements of net position equal to the present value of the total anticipated future
+payments to the beneficiaries of these trusts and annuities of $1,357,714 and $1,437,126 as of June 30,
+2025 and 2024, respectively.
+
+                                  June 30,             New             Adjustments         Beneficiary         June 30,       Amount Due
+                                    2024            Obligations         to Liability       Payments              2025        Within One Year
+Liabilities to Life
+   Beneficiaries              $     1,437,126   $         14,103   $         139,973   $       (233,488)   $     1,357,714   $      233,488
+
+
+                                  June 30,             New             Adjustments         Beneficiary         June 30,       Amount Due
+                                    2023            Obligations         to Liability       Payments              2024        Within One Year
+Liabilities to Life
+   Beneficiaries              $     1,432,869   $         83,702   $         152,443   $       (231,888)   $     1,437,126   $      231,888
+
+
+
+
+                                                                       38
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 9.     Mortgage Payable
+The Foundation financed property adjacent to the USF St. Pete campus with a fully amortizing
+nonrecourse mortgage of $6,200,000. The mortgage is collateralized by the property with a carrying value
+of $6,200,000 (see Note 6) and future improvements made to the property. Payments of $41,707 are due
+monthly over a 15-year period at a fixed rate of 2.625%.
+
+                                                                                                             Amount Due
+                                  June 30, 2024       Increase           Decrease        June 30, 2025      Within One Year
+
+Mortgage payable                 $   2,703,618    $              -   $     (434,716)    $   2,268,902       $      446,266
+
+                                                                                                             Amount Due
+                                  June 30, 2023       Increase           Decrease        June 30, 2024      Within One Year
+
+Mortgage payable                 $   3,127,085    $              -   $     (423,467)    $   2,703,618       $      434,716
+
+
+Principal and interest requirements are as follows:
+
+                                                             Principal                 Interest                  Total
+
+2026                                                     $     446,266         $         54,215         $         500,481
+2027                                                           458,123                   42,359                   500,482
+2028                                                           470,294                   30,187                   500,481
+2029                                                           482,789                   17,692                   500,481
+2030                                                           411,430                    4,960                   416,390
+                                                        $    2,268,902         $        149,413         $       2,418,315
+
+Interest expense of $65,765 and $77,015 is included in program services expenses in the accompanying
+statements of revenue, expenses and changes in net position for the years ended June 30, 2025 and
+2024, respectively.
+
+The Foundation’s mortgage of $2,268,902 and $2,703,618 as of June 30, 2025 and 2024, respectively,
+contains a provision that in the event of default any amounts advanced will be immediately due if the
+Foundation is unable to make payment in full when due. In addition, the Foundation may be liable to the
+lender for any and all insurance benefits or refunds that may be available on default.
+
+Note 10.    Leases and Subscription-Based IT Arrangements
+On March 31, 2015, the Foundation, as a lessor, entered into an agreement with the University, the
+lessee, as the tenant related to property described in Note 6. The noncancelable lease agreement
+requires the University to make monthly lease payments of $43,913 to the Foundation through March 30,
+2032. The lease was measured with an interest rate of 2.625%, the Foundation’s incremental borrowing
+rate of the leased property. During the year ended June 30, 2025, the Foundation received $526,956 from
+the University, which includes $435,262 in lease revenue and $91,694 in lease interest income, which is
+included in other income and interest earnings, respectively, in the accompanying statement of revenues,
+expenses and change in net position. During the year ended June 30, 2024, the Foundation received
+$526,956 from the University, which includes $423,997 in lease revenue and $102,959 in lease interest
+income, which is included in other income and interest earnings, respectively, in the accompanying
+statement of revenues, expenses and change in net position.
+
+
+                                                       39
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 10.    Leases and Subscription-Based IT Arrangements (Continued)
+During the year ended June 30, 2023, the Foundation entered into a lease for office space with the USF
+Research Foundation, Inc. with a term ending in December 2027.
+
+The net present value of the Foundation’s minimum future lease payments under this lease was
+discounted at 3.5% and is as follows for the years ending June 30:
+
+                                                        Principal         Interest           Total
+
+2026                                                $      69,283     $        5,200    $       74,483
+2027                                                       72,873              2,728            75,601
+2028                                                       37,970                389            38,359
+                                                    $     180,126     $        8,317    $      188,443
+
+During the year ended June 30, 2025, the Foundation entered into a suite license agreement with a term
+ending June 30, 2027.
+
+The net present value of the Foundation’s minimum future lease payments under this lease was
+discounted at 7.5% and is as follows for the years ending June 30:
+
+                                                        Principal         Interest           Total
+
+2026                                                $     283,521     $      60,213     $      343,734
+2027                                                      314,187            50,792            364,979
+                                                    $     597,708     $     111,005     $      708,713
+
+The Foundation’s SBITA assets consist of amortization expense totaling $454,520 and $284,948, and is
+included in operating expenses on the accompanying statements of revenues, expenses and changes in
+net position for the years ended June 30, 2025 and 2024, respectively.
+
+A summary of the principal and interest amounts for the remaining SBITA arrangements is as follows as
+of June 30:
+
+                                                        Principal         Interest           Total
+
+2026                                                $     298,904     $       23,943    $      322,847
+2027                                                      255,387              3,102           258,489
+                                                    $     554,291     $       27,045    $      581,336
+
+
+Note 11.    Related-Party Transactions
+The Foundation considers the University, its DSOs, and members of the Foundation’s Board to be related
+parties for purposes of the financial statements. The DSOs include the USF Alumni Association, Inc.,
+University Medical Services Association (UMSA), USF Medical Services Support Corporation, USF
+Health Professions Conferencing Corporation (HPCC), USF Research Foundation, Inc., USF Financing
+Corporation, Inc., USF Property Corporation, Inc., USF Management Corporation, USF Institute of
+Applied Engineering, Inc., and USF Intercollegiate Athletic Association, Inc.
+
+
+                                                  40
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 11.    Related-Party Transactions (Continued)
+Program services expenses on the accompanying statements of revenues, expenses and changes in net
+position include amounts transferred to related parties or amounts disbursed directly to third parties to
+benefit the University or its DSOs. These expenses include salaries, scholarships and other program-
+related expenses. Also, included in these expenses was property donated to or purchased by the
+Foundation, and transferred to the University for asset management and recordkeeping purposes.
+
+Employees of the University perform operating functions for the Foundation. The University tracks,
+administers, and reports all payroll and fringe benefit costs. The University directly funded salaries of
+$22,712,072 and $21,153,763 for University employees that perform functions for the benefit of both the
+University and the Foundation for the years ended June 30, 2025 and 2024, respectively. This amount is
+included in University support on the statements of revenues, expenses and changes in net position. The
+Foundation transferred additional payroll and fringe benefit costs to the University of $1,731,694 and
+$1,689,797 for the years ended June 30, 2025 and 2024, respectively. These amounts are shown on the
+statements of revenue, expenses and changes in net position in fundraising and operating costs.
+
+The University recognized and reported a compensated absence liability of approximately $2,953,979
+and $2,640,658 for University employees performing functions for the Foundation for the years ended
+June 30, 2025 and 2024, respectively. This amount is not included in the Foundation’s statements of
+revenues, expenses and changes in net position.
+
+Portions of the Foundation’s contributions receivable balance ($258,232 and $219,811 at June 30, 2025
+and 2024, respectively) are commitments made to the Foundation by several members of the
+Foundation’s Board. In addition, the Foundation received $414,629 and $301,476 during the years ended
+June 30, 2025 and 2024, respectively, in cash and in-kind contributions from various members of the
+Foundation’s Board. DSOs have made gifts to the Foundation of $89,726 and $14,086 for the years
+ended June 30, 2025 and 2024, respectively. These amounts are included in contributions on the
+accompanying statements of revenues, expenses and changes in net position.
+
+The Foundation has interfund loans to University colleges, units and regional campuses that are
+collateralized by assets within the Foundation. Foundation interfund loans totaled approximately
+$29,801,877 and $38,412,437 at June 30, 2025 and 2024, respectively, and net of $0 on the
+accompanying statements of net position.
+
+Note 12.    Retirement Plan
+Foundation personnel are employees of the University and are eligible to enroll as members of the State
+administered Florida Retirement System (FRS). Provisions relating to the FRS are established by
+Chapters 121 and 122, Florida Statutes; Chapter 112, Part IV, Florida Statutes; Chapter 238, Florida
+Statutes; and FRS Rules, Chapter 605, Florida Administrative Code; wherein plan eligibility, contributions
+and benefits are defined and described in detail. The FRS is a single retirement system administered by
+the Department of Management Services, Division of Retirement, and consists of two cost sharing,
+multiple-employer retirement plans and other nonintegrated programs. These include a defined-benefit
+pension plan (Plan), with a Deferred Retirement Option Program (DROP), and a defined contribution
+plan, referred to as the FRS Investment Plan (Investment Plan).
+
+
+
+
+                                                    41
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 12.    Retirement Plan (Continued)
+Benefits of the Plan vest as of six years of service or eight years for new employees enrolled after July 1,
+2011. All members are eligible for normal retirement benefits based on the plan definition of normal
+retirement date which is determined on the date they enrolled in the plan. The Plan also includes an early
+retirement provision but imposes a penalty for each year a member retires before the specified retirement
+age. The Plan provides retirement, disability and death benefits, and annual cost-of-living adjustments.
+
+DROP, subject to provisions of Section 121.091, Florida Statues, permits employees eligible for normal
+retirement under the Plan to defer receipt of monthly benefit payments, while continuing employment with
+an FRS employer. An employee may participate in DROP for a period not to exceed 96 months after
+electing to participate. During the period of DROP participation, deferred monthly benefits are held in the
+FRS Trust Fund, and accrue interest. Upon termination of employment, the participant receives the total
+DROP benefits and begins to receive previously determined retirement benefits.
+
+As provided in Section 121.4501, Florida Statutes, eligible FRS members may elect to participate in the
+Investment Plan in lieu of the FRS defined-benefit plan. University employees already participating in the
+State University System Optional Retirement Program or DROP are not eligible to participate in this
+program. Employer and employee contributions are defined by law, but the ultimate benefit depends in
+part on the performance of investment funds. The Investment Plan is funded by employer and employee
+contributions that are based on salary and membership class (Regular Class, Senior Management
+Service Class, etc.). Contributions are directed to individual member accounts, and the individual
+members allocate contributions and account balances among various approved investment choices.
+Employees in the Investment Plan vest at one year of service.
+
+Financial statements and other supplementary information of the FRS are included in the State’s Annual
+Comprehensive Financial Report, which is available from the Florida Department of Financial Services.
+An annual report on the FRS, which includes its financial statements, require supplementary information,
+actuarial report, and other relevant information, is available from the Florida Department of Management
+Services, Division of Retirement’s Web site (www.frs.myflorida.com).
+
+It has been determined that the Foundation is not a payor fund for the purposes of liquidating the pension
+liability. An actuarial valuation has been performed for the plan. The Foundation’s employees were
+included in the actuarial analysis and are part of the total pension liability and net pension liability
+disclosed in the footnotes and required supplementary information of the University’s Annual Report. The
+University does not determine a separate liability for the Foundation’s employees and as a result, there is
+no net pension liability recorded in these financial statements.
+
+The cost of the defined benefit pension plan for the Foundation’s current employees is paid by the
+University and recorded by the Foundation’s as an operating transfer from related organizations and an
+operating expense.
+
+
+
+
+                                                     42
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Notes to Financial Statements
+
+
+Note 13.    Other Postemployment Benefits
+Pursuant to the provisions of Section 112.0801, Florida Statutes, all employees who retire from the
+University are eligible to participate in the State Group Health Insurance Program, an agent multiple-
+employer defined-benefit plan (Plan). The University subsidizes the premium rates paid by retirees by
+allowing them to participate in the Plan at reduced or blended group (implicitly subsidized) premium rates
+for both active and retired employees. These rates provide an implicit subsidy for retirees because, on an
+actuarial basis, their current and future claims are expected to result in higher costs to the Plan on
+average than those of active employees. Retirees are required to enroll in the Federal Medicare program
+for their primary coverage as soon as they are eligible.
+
+A stand-alone report is not issued and the Plan information is not included in the report of a public
+employee retirement system or another entity.
+
+Plan benefits are pursuant to the provisions of Section 112.0801, Florida Statutes, and benefits and
+contributions can be amended by the Florida Legislature. Premiums necessary for funding the Plan each
+year on a pay-as-you-go basis are established by the Governor’s recommended budget and the General
+Appropriations Act. The University provided required contributions toward the annual OPEB cost,
+comprised of benefit payments made on behalf of retirees for claims expenses (net of reinsurance),
+administrative expenses and reinsurance premiums.
+
+It has been determined that the Foundation is not a payor fund for the purpose of liquidating the net
+OPEB liability. An actuarial valuation has been performed for the plan. The Foundation’s employees were
+included in the actuarial analysis of the valuation of the OPEB Plan and are part of the OPEB disclosed in
+the footnotes and required supplementary information of the University’s Annual Report. The University
+does not determine a separate liability for the Association employees and as a result, there is no OPEB
+cost, percentage of annual OPEB cost contributed to the Plan, or the net OPEB liability recorded in these
+financial statements.
+
+Note 14.    Contingencies
+The Foundation participates in state assisted grant programs that are subject to review and audit by the
+grantor agencies. Entitlement to these resources is generally conditional upon compliance with the terms
+and conditions of the grant agreements and applicable state regulations. Any disallowance resulting from
+a regulatory audit may become a liability of the Foundation. Liabilities, if any, from such audits, if any, are
+recorded when the amounts of such liabilities become reasonably determinable.
+
+
+
+
+                                                      43
+Supplementary Information
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Schedule of Functional Expenses
+Year Ended June 30, 2025
+
+                                             Program
+                                             Service          Fundraising       Operating          Total
+                                             Support            Support          Costs           Expenses
+
+Salaries and other supplements           $   32,330,987   $    14,713,845   $    9,849,909   $    56,894,741
+Community relations                           1,156,319           298,219               -          1,454,538
+Travel and per diems                          1,296,005           292,003           87,432         1,675,440
+Meals and entertainment                       2,185,161           467,499          225,604         2,878,264
+Supplies and equipment                        1,904,132            65,656          713,835         2,683,623
+Scholarships and awards                      12,881,743                -                -         12,881,743
+Conferences and seminars                        308,857            57,527           44,081           410,465
+University services                           3,250,398                -           375,233         3,625,631
+Postage, printing and publication               469,556           470,868           10,271           950,695
+Books and journals                               91,141             5,543            3,421           100,105
+Building repair and maintenance                 615,061                -           101,484           716,545
+Service and independent contractors          12,421,321           439,134          767,915        13,628,370
+Insurance, licenses, taxes and
+  assessments                                    52,242               293          288,693           341,228
+Depreciation                                    118,799                -                -            118,799
+Amortization                                         -            301,389          586,128           887,517
+Interest expense                                 65,765             9,421            7,557            82,743
+Other costs                                   1,241,459           117,972          277,798         1,637,229
+          Subtotal                           70,388,946        17,239,369       13,339,361       100,967,676
+Other expenses:
+  Provision for uncollectible pledges         1,139,326                -                -          1,139,326
+
+         Total                           $   71,528,272   $    17,239,369   $   13,339,361   $ 102,107,002
+
+
+
+
+                                                   44
+University of South Florida Foundation, Inc.
+(A Component Unit of the University of South Florida)
+
+Schedule of Functional Expenses
+Year Ended June 30, 2024
+
+                                             Program
+                                             Service          Fundraising       Operating             Total
+                                             Support           Support           Costs              Expenses
+
+Salaries and other supplements           $   32,098,265   $    15,011,074   $    7,947,706      $    55,057,045
+Community relations                             738,258           241,896               -               980,154
+Travel and per diems                            798,524           311,076           48,526            1,158,126
+Meals and entertainment                       1,833,302           511,554          168,672            2,513,528
+Supplies and equipment                        1,381,095            69,156           52,099            1,502,350
+Scholarships and awards                      11,794,816                -                -            11,794,816
+Conferences and seminars                        527,615           105,920           36,963              670,498
+University services                          31,561,118               400          162,066           31,723,584
+Postage, printing and publication               439,635           503,233           43,440              986,308
+Books and journals                               47,285             5,169           10,833               63,287
+Building repair and maintenance                 547,857                -           174,796              722,653
+Service and independent contractors           6,787,480           709,966          842,233            8,339,679
+Insurance, licenses, taxes and
+  assessments                                    46,067                34          281,553              327,654
+Depreciation                                    118,799                -                -               118,799
+Amortization                                         -                 -           397,970              397,970
+Interest expense                                 77,015                -             9,729               86,744
+Other costs                                     876,184            54,874          193,796            1,124,854
+          Subtotal                           89,673,315        17,524,352       10,370,382          117,568,049
+Other expenses:
+  Provision for uncollectible pledges         5,424,921                 -                   -         5,424,921
+
+         Total                           $   95,098,236   $    17,524,352   $   10,370,382      $ 122,992,970
+
+
+
+
+                                                   45
+                    Report on Internal Control over Financial Reporting and on
+              Compliance and Other Matters Based on an Audit of Financial Statements
+                 Performed in Accordance with Government Auditing Standards
+
+                                       Independent Auditor’s Report
+
+Board of Directors and Management
+University of South Florida Foundation, Inc.
+
+
+We have audited, in accordance with the auditing standards generally accepted in the United States of
+America and the standards applicable to financial audits contained in Government Auditing Standards
+issued by the Comptroller General of the United States (Government Auditing Standards), the financial
+statements of the University of South Florida Foundation, Inc. (Foundation), a discrete component unit of
+the University of South Florida, as of and for the year ended June 30, 2025, and the related notes to the
+financial statements, which collectively comprise the Foundation’s basic financial statements, and have
+issued our report thereon dated October 16, 2025.
+
+Report on Internal Control Over Financial Reporting
+In planning and performing our audit of the financial statements, we considered the Foundation’s internal
+control over financial reporting (internal control) as a basis for designing audit procedures that are
+appropriate in the circumstances for the purpose of expressing our opinion on the financial statements,
+but not for the purpose of expressing an opinion on the effectiveness of the Foundation’s internal control.
+Accordingly, we do not express an opinion on the effectiveness of the Foundation’s internal control.
+
+A deficiency in internal control exists when the design or operation of a control does not allow
+management or employees, in the normal course of performing their assigned functions, to prevent, or
+detect and correct, misstatements on a timely basis. A material weakness is a deficiency, or a
+combination of deficiencies, in internal control, such that there is a reasonable possibility that a material
+misstatement of the entity’s financial statements will not be prevented, or detected and corrected, on a
+timely basis. A significant deficiency is a deficiency, or a combination of deficiencies, in internal control
+that is less severe than a material weakness, yet important enough to merit attention by those charged
+with governance.
+
+Our consideration of internal control was for the limited purpose described in the first paragraph of this
+section and was not designed to identify all deficiencies in internal control that might be material
+weaknesses or significant deficiencies. Given these limitations, during our audit we did not identify any
+deficiencies in internal control that we consider to be material weaknesses. However, material
+weaknesses or significant deficiencies may exist that were not identified.
+
+Report on Compliance and Other Matters
+As part of obtaining reasonable assurance about whether the Foundation’s financial statements are free
+from material misstatement, we performed tests of its compliance with certain provisions of laws,
+regulations, contracts, and grant agreements, noncompliance with which could have a direct and material
+effect on the financial statements. However, providing an opinion on compliance with those provisions
+was not an objective of our audit, and accordingly, we do not express such an opinion. The results of our
+tests disclosed no instances of noncompliance or other matters that are required to be reported under
+Government Auditing Standards.
+
+
+                                                      46
+Purpose of This Report
+The purpose of this report is solely to describe the scope of our testing of internal control and compliance
+and the results of that testing, and not to provide an opinion on the effectiveness of the entity’s internal
+control or on compliance. This report is an integral part of an audit performed in accordance with
+Government Auditing Standards in considering the entity’s internal control and compliance. Accordingly,
+this communication is not suitable for any other purpose.
+
+
+
+
+Tampa, Florida
+October 16, 2025
+
+
+
+
+                                                     47
+
