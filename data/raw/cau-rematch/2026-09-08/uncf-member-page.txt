@@ -1,0 +1,10 @@
+SOURCE: https://uncf.org/member-colleges/Clark-Atlanta
+FETCHED: 2026-09-08 (PT) via page-text fetch
+
+Clark Atlanta University is a private, coeducational, four-year university in the historic heart of Atlanta, GA.
+
+It is the only university in the historic Atlanta University Center, a consortium of 8,000 primarily African-American scholars. It is designated by the Carnegie Foundation for the Advancement of Teaching as a "Doctoral University - High Research Activity. ... Clark Atlanta University has produced more than 29,000 alumni in myriad fields of professional, civic and social endeavor.
+
+KEY EXCERPTS USED:
+- Control: "a private, coeducational, four-year university" -> control = "private"
+- Alumni: "produced more than 29,000 alumni" -> alumni_network_k = 29

@@ -1,0 +1,15 @@
+SOURCE: https://www.cau.edu/news/clark-atlanta-university-renewed-prestigious-r2-research-institution-2025-carnegie
+FETCHED: 2026-09-08 (PT) via page-text fetch
+PUBLISHED: 02/17/2025 (page dateline)
+
+# Clark Atlanta University Renewed as Prestigious R2 Research Institution in 2025 Carnegie Classifications
+
+As one of only two private HBCUs with the R2 designation, CAU celebrates its exceptional academic distinction and pioneering contributions to scholarly research
+
+Clark Atlanta University (CAU) is thrilled to announce that it is one of only two private HBCUs to achieve the *Research 2: High Spending and Doctorate Production* designation in the 2025 Carnegie Classifications.
+
+Maintaining the R2 designation signifies that Clark Atlanta University meets rigorous standards in research activity, including an average annual expenditure of at least $5 million on research and the awarding of 20 or more research doctorates each year. The university's recent research expenditures have reached $10,320,000 for fiscal year 2023, and it has averaged 38 research doctorates over the past three academic years (2020-21, 2021-22, and 2022-23).
+
+KEY EXCERPTS USED:
+- Carnegie classification: "Research 2: High Spending and Doctorate Production" (2025 Carnegie Classifications) -> carnegie = "R2"
+- Research expenditures FY2023: "$10,320,000" -> research_spend_m = 10.32
