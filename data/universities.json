@@ -1,8 +1,8 @@
 {
  "metadata": {
-  "last_updated": "2026-09-07",
+  "last_updated": "2026-09-09",
   "source": "College Scorecard API (DEMO_KEY) + v0.9 dedup: 13 duplicate entries replaced with 13 distinct schools (TCU, Syracuse, Arkansas, Ole Miss, Mississippi State, Creighton, Gonzaga, Marquette, Xavier, Butler, Hamilton, Macalester, Providence), 200/200 distinct IDs, 200/200 real",
-  "version": "0.15",
+  "version": "0.17",
   "total_universities": 200,
   "criteria_version": "1.0",
   "enriched_count": 200,
@@ -53,7 +53,8 @@
   "endowment_gapfill_v15": {
    "verified_new": 9,
    "synthetic_remaining": 0
-  }
+  },
+  "updated": "2026-09-09T02:00:00-07:00"
  },
  "criteria": {
   "alumni_advantage_score": {
@@ -296,7 +297,7 @@
   },
   {
    "id": "penn",
-   "name": "Penn University",
+   "name": "University of Pennsylvania",
    "control": "private",
    "state": "PA",
    "carnegie": "R1",
@@ -659,7 +660,7 @@
   },
   {
    "id": "washu",
-   "name": "WashU University",
+   "name": "Washington University in St. Louis",
    "control": "private",
    "state": "MO",
    "carnegie": "R2",
@@ -794,7 +795,7 @@
   },
   {
    "id": "uwmadison",
-   "name": "UW Madison University",
+   "name": "UW-Madison",
    "control": "public",
    "state": "WI",
    "carnegie": "R2",
@@ -840,7 +841,7 @@
   },
   {
    "id": "umd",
-   "name": "UMD University",
+   "name": "University of Maryland",
    "control": "public",
    "state": "MD",
    "carnegie": "R1",
@@ -886,7 +887,7 @@
   },
   {
    "id": "lmu",
-   "name": "LMU University",
+   "name": "Loyola Marymount University",
    "control": "private",
    "state": "CA",
    "carnegie": "R2",
@@ -1021,7 +1022,7 @@
   },
   {
    "id": "ucberkeley",
-   "name": "UC Berkeley University",
+   "name": "UC Berkeley",
    "control": "public",
    "state": "CA",
    "carnegie": "R1",
@@ -1111,7 +1112,7 @@
   },
   {
    "id": "asu",
-   "name": "ASU University",
+   "name": "Arizona State University",
    "control": "public",
    "state": "AZ",
    "carnegie": "R2",
@@ -1156,7 +1157,7 @@
   },
   {
    "id": "georgiatech",
-   "name": "Georgia Tech University",
+   "name": "Georgia Tech",
    "control": "public",
    "state": "GA",
    "carnegie": "R1",
@@ -1519,7 +1520,7 @@
   },
   {
    "id": "uwseattle",
-   "name": "UW Seattle University",
+   "name": "University of Washington",
    "control": "public",
    "state": "WA",
    "carnegie": "R1",
@@ -1655,7 +1656,7 @@
   },
   {
    "id": "utaustin",
-   "name": "UT Austin University",
+   "name": "UT Austin",
    "control": "public",
    "state": "TX",
    "carnegie": "R1",
@@ -1700,7 +1701,7 @@
   },
   {
    "id": "uiuc",
-   "name": "UIUC University",
+   "name": "University of Illinois Urbana-Champaign",
    "control": "public",
    "state": "IL",
    "carnegie": "R1",
@@ -1837,7 +1838,7 @@
   },
   {
    "id": "ucd",
-   "name": "UCD University",
+   "name": "UC Davis",
    "control": "public",
    "state": "CA",
    "carnegie": "R1",
@@ -2018,7 +2019,7 @@
   },
   {
    "id": "casewestern",
-   "name": "Case Western University",
+   "name": "Case Western Reserve University",
    "control": "private",
    "state": "OH",
    "carnegie": "R2",
@@ -2063,7 +2064,7 @@
   },
   {
    "id": "ucsb",
-   "name": "UCSB University",
+   "name": "UC Santa Barbara",
    "control": "public",
    "state": "CA",
    "carnegie": "R1",
@@ -2108,7 +2109,7 @@
   },
   {
    "id": "usc",
-   "name": "USC University",
+   "name": "USC",
    "control": "private",
    "state": "CA",
    "carnegie": "R1",
@@ -2243,7 +2244,7 @@
   },
   {
    "id": "smu",
-   "name": "SMU University",
+   "name": "SMU",
    "control": "private",
    "state": "TX",
    "carnegie": "R1",
@@ -2378,7 +2379,7 @@
   },
   {
    "id": "morehouse",
-   "name": "Morehouse University",
+   "name": "Morehouse College",
    "control": "private",
    "state": "GA",
    "carnegie": "R1",
@@ -2513,7 +2514,7 @@
   },
   {
    "id": "nyu",
-   "name": "NYU University",
+   "name": "New York University",
    "control": "private",
    "state": "NY",
    "carnegie": "R1",
@@ -2649,7 +2650,7 @@
   },
   {
    "id": "uncchapelhil",
-   "name": "UNC Chapel Hill University",
+   "name": "UNC-Chapel Hill",
    "control": "public",
    "state": "NC",
    "carnegie": "R1",
@@ -2739,7 +2740,7 @@
   },
   {
    "id": "ucsd",
-   "name": "UCSD University",
+   "name": "UC San Diego",
    "control": "public",
    "state": "CA",
    "carnegie": "R1",
@@ -4772,22 +4773,22 @@
    "control": "public",
    "state": "OR",
    "carnegie": "R1",
-   "enrollment_fte": 23000,
+   "enrollment_fte": 20497,
    "endowment_b": 1.3,
-   "endowment_per_student": 56522,
-   "grad_rate_6yr": 0.73,
+   "endowment_per_student": 63424,
+   "grad_rate_6yr": 0.7169,
    "retention": 0.87,
    "sf_ratio": 18,
-   "median_earn_10yr": 101028,
+   "median_earn_10yr": 61324,
    "employment_6mo": 0.77,
    "alumni_giving": 0.09,
-   "net_price_avg": 18000,
+   "net_price_avg": 22182,
    "pell_gap": 0.07,
    "loan_default": 0.039,
-   "debt_avg": 16625,
+   "debt_avg": 20139,
    "research_spend_m": 300,
    "alumni_network_k": 250,
-   "score": 78.5,
+   "score": 64.4,
    "filings": {
     "ipeds": "2024",
     "990": "n/a-public",
@@ -4798,17 +4799,21 @@
    },
    "conference": "Big Ten",
    "peer_group": "Big Ten",
-   "median_earn_10yr_real": 101028,
+   "median_earn_10yr_real": 61324,
    "_earnings_source": "scorecard",
-   "debt_avg_real": 16625,
-   "loan_default_real": 0.0,
-   "enrollment_fte_real": 836,
-   "avg_family_income": 33701,
-   "pell_rate": 0.2893,
-   "scorecard_id": 209490,
-   "scorecard_name": "Oregon Health & Science University",
-   "scorecard_city": "Portland",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "debt_avg_real": 20139,
+   "loan_default_real": null,
+   "enrollment_fte_real": 20497,
+   "avg_family_income": 78050,
+   "pell_rate": 0.2135,
+   "scorecard_id": 209551,
+   "scorecard_name": "University of Oregon",
+   "scorecard_city": "Eugene",
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "scorecard_state": "OR",
+   "net_price_avg_real": 22182,
+   "admission_rate": 0.883,
+   "_identity_source": "v0.17 rematch: Scorecard id 209551 = University of Oregon, Eugene (was 209490 = Oregon Health & Science University, Portland); raw artifact data/raw/collegescorecard/2026-09-09/uo_209551_v17.json"
   },
   {
    "id": "pitt",
