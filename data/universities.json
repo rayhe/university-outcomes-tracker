@@ -1,8 +1,8 @@
 {
  "metadata": {
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-09-10",
   "source": "College Scorecard API (DEMO_KEY) + v0.9 dedup: 13 duplicate entries replaced with 13 distinct schools (TCU, Syracuse, Arkansas, Ole Miss, Mississippi State, Creighton, Gonzaga, Marquette, Xavier, Butler, Hamilton, Macalester, Providence), 200/200 distinct IDs, 200/200 real",
-  "version": "0.17",
+  "version": "0.18",
   "total_universities": 200,
   "criteria_version": "1.0",
   "enriched_count": 200,
@@ -54,7 +54,12 @@
    "verified_new": 9,
    "synthetic_remaining": 0
   },
-  "updated": "2026-09-09T02:00:00-07:00"
+  "updated": "2026-09-10",
+  "research_herd_v18": {
+   "real": 198,
+   "synthetic_remaining": 2,
+   "source": "NSF HERD FY2024 nsf26304 Table 19"
+  }
  },
  "criteria": {
   "alumni_advantage_score": {
@@ -88,7 +93,7 @@
    "pell_gap": 0.03,
    "loan_default": 0.011,
    "debt_avg": 12000,
-   "research_spend_m": 1800,
+   "research_spend_m": 1641.96,
    "alumni_network_k": 220,
    "score": 90.5,
    "filings": {
@@ -96,7 +101,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 124080,
@@ -112,7 +117,10 @@
    "scorecard_city": "Stanford",
    "conference": "Pac-12 Legacy",
    "peer_group": "Pac-12 Legacy",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Stanford U.",
+   "_research_rank": 10
   },
   {
    "id": "mit",
@@ -133,7 +141,7 @@
    "pell_gap": 0.02,
    "loan_default": 0.008,
    "debt_avg": 14768,
-   "research_spend_m": 1000,
+   "research_spend_m": 1065.55,
    "alumni_network_k": 140,
    "score": 97.0,
    "filings": {
@@ -141,7 +149,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 143372,
@@ -157,7 +165,10 @@
    "scorecard_city": "Cambridge",
    "conference": "NEWMAC",
    "peer_group": "NEWMAC",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Massachusetts Institute of Technology",
+   "_research_rank": 34
   },
   {
    "id": "harvard",
@@ -178,7 +189,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.012,
    "debt_avg": 14000,
-   "research_spend_m": 1250,
+   "research_spend_m": 1494.53,
    "alumni_network_k": 400,
    "score": 83.0,
    "filings": {
@@ -186,7 +197,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 101817,
@@ -202,7 +213,10 @@
    "scorecard_city": "Cambridge",
    "conference": "Ivy League",
    "peer_group": "Ivy League",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Harvard U.",
+   "_research_rank": 20
   },
   {
    "id": "caltech",
@@ -223,7 +237,7 @@
    "pell_gap": 0.05,
    "loan_default": 0.009,
    "debt_avg": 22209,
-   "research_spend_m": 450,
+   "research_spend_m": 445.17,
    "alumni_network_k": 26,
    "score": 91.9,
    "filings": {
@@ -231,7 +245,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "debt_avg_real": 22209,
@@ -248,7 +262,10 @@
    "avg_family_income": 74238,
    "conference": "SCIAC",
    "peer_group": "SCIAC",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "California Institute of Technology",
+   "_research_rank": 82
   },
   {
    "id": "princeton",
@@ -269,7 +286,7 @@
    "pell_gap": 0.03,
    "loan_default": 0.01,
    "debt_avg": 10320,
-   "research_spend_m": 370,
+   "research_spend_m": 558.62,
    "alumni_network_k": 96,
    "score": 85.8,
    "filings": {
@@ -277,7 +294,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 110066,
@@ -293,7 +310,10 @@
    "scorecard_city": "Princeton",
    "conference": "Ivy League",
    "peer_group": "Ivy League",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Princeton U.",
+   "_research_rank": 63
   },
   {
    "id": "penn",
@@ -314,7 +334,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.052,
    "debt_avg": 15715,
-   "research_spend_m": 781,
+   "research_spend_m": 2167.5,
    "alumni_network_k": 206,
    "score": 85.8,
    "filings": {
@@ -322,7 +342,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "not-reported",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 111371,
@@ -338,7 +358,10 @@
    "scorecard_city": "Philadelphia",
    "conference": "Ivy League",
    "peer_group": "Ivy League",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Pennsylvania",
+   "_research_rank": 3
   },
   {
    "id": "brandeis",
@@ -359,7 +382,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.029,
    "debt_avg": 25648,
-   "research_spend_m": 787,
+   "research_spend_m": 107.06,
    "alumni_network_k": 283,
    "score": 73.1,
    "filings": {
@@ -367,7 +390,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "not-reported",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 77231,
@@ -383,7 +406,10 @@
    "scorecard_city": "Waltham",
    "conference": "UAA",
    "peer_group": "UAA",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Brandeis U.",
+   "_research_rank": 177
   },
   {
    "id": "villanova",
@@ -404,7 +430,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.031,
    "debt_avg": 25874,
-   "research_spend_m": 384,
+   "research_spend_m": 33.09,
    "alumni_network_k": 341,
    "score": 80.2,
    "filings": {
@@ -412,7 +438,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 100423,
@@ -428,7 +454,10 @@
    "scorecard_city": "Villanova",
    "conference": "Big East",
    "peer_group": "Big East",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Villanova U.",
+   "_research_rank": 267
   },
   {
    "id": "howard",
@@ -449,7 +478,7 @@
    "pell_gap": 0.14,
    "loan_default": 0.022,
    "debt_avg": 24500,
-   "research_spend_m": 472,
+   "research_spend_m": 101.81,
    "alumni_network_k": 137,
    "score": 68.1,
    "filings": {
@@ -457,7 +486,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "avg_family_income": 58082,
@@ -474,7 +503,10 @@
    "net_price_avg_real": 50539,
    "enrollment_fte_real": 10108,
    "admission_rate": 0.4134,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Howard U.",
+   "_research_rank": 179
   },
   {
    "id": "uf",
@@ -495,7 +527,7 @@
    "pell_gap": 0.11,
    "loan_default": 0.029,
    "debt_avg": 15000,
-   "research_spend_m": 329,
+   "research_spend_m": 1272.49,
    "alumni_network_k": 115,
    "score": 71.6,
    "filings": {
@@ -503,7 +535,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 71588,
@@ -520,7 +552,10 @@
    "conference": "SEC",
    "peer_group": "SEC",
    "grad_rate_6yr_real": 0.9131,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Florida",
+   "_research_rank": 27
   },
   {
    "id": "pepperdine",
@@ -541,7 +576,7 @@
    "pell_gap": 0.13,
    "loan_default": 0.048,
    "debt_avg": 23510,
-   "research_spend_m": 141,
+   "research_spend_m": 10.87,
    "alumni_network_k": 124,
    "score": 74.1,
    "filings": {
@@ -549,7 +584,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 82939,
@@ -565,7 +600,10 @@
    "scorecard_city": "Malibu",
    "conference": "WCC",
    "peer_group": "WCC",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Pepperdine U.",
+   "_research_rank": 368
   },
   {
    "id": "yale",
@@ -586,7 +624,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.022,
    "debt_avg": 12975,
-   "research_spend_m": 654,
+   "research_spend_m": 1519.69,
    "alumni_network_k": 141,
    "score": 80.7,
    "filings": {
@@ -594,7 +632,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 100533,
@@ -610,7 +648,10 @@
    "scorecard_city": "New Haven",
    "conference": "Ivy League",
    "peer_group": "Ivy League",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Yale U.",
+   "_research_rank": 17
   },
   {
    "id": "ohiostate",
@@ -631,7 +672,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.047,
    "debt_avg": 19976,
-   "research_spend_m": 308,
+   "research_spend_m": 1581.57,
    "alumni_network_k": 52,
    "score": 66.1,
    "filings": {
@@ -639,7 +680,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "not-reported",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 60409,
@@ -656,7 +697,10 @@
    "peer_group": "Big Ten",
    "grad_rate_6yr_real": 0.8773,
    "admission_rate": 0.6057,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Ohio State U.",
+   "_research_rank": 13
   },
   {
    "id": "washu",
@@ -677,7 +721,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.015,
    "debt_avg": 17500,
-   "research_spend_m": 418,
+   "research_spend_m": 1243.12,
    "alumni_network_k": 76,
    "score": 76.0,
    "filings": {
@@ -685,7 +729,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 86182,
@@ -701,7 +745,10 @@
    "scorecard_city": "St. Louis",
    "conference": "UAA",
    "peer_group": "UAA",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Washington U., Saint Louis",
+   "_research_rank": 31
   },
   {
    "id": "duke",
@@ -722,7 +769,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.024,
    "debt_avg": 13000,
-   "research_spend_m": 318,
+   "research_spend_m": 1580.76,
    "alumni_network_k": 91,
    "score": 80.8,
    "filings": {
@@ -730,7 +777,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "not-reported",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 97800,
@@ -746,7 +793,10 @@
    "scorecard_city": "Durham",
    "conference": "ACC",
    "peer_group": "ACC",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Duke U.",
+   "_research_rank": 14
   },
   {
    "id": "carnegiemell",
@@ -767,7 +817,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.015,
    "debt_avg": 21750,
-   "research_spend_m": 410,
+   "research_spend_m": 505.26,
    "alumni_network_k": 125,
    "score": 86.6,
    "filings": {
@@ -775,7 +825,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 114862,
@@ -791,7 +841,10 @@
    "scorecard_city": "Pittsburgh",
    "conference": "UAA",
    "peer_group": "UAA",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Carnegie Mellon U.",
+   "_research_rank": 72
   },
   {
    "id": "uwmadison",
@@ -812,7 +865,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.023,
    "debt_avg": 20484,
-   "research_spend_m": 174,
+   "research_spend_m": 1933.23,
    "alumni_network_k": 256,
    "score": 70.4,
    "filings": {
@@ -820,7 +873,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "not-reported",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 73792,
@@ -837,7 +890,10 @@
    "conference": "Big Ten",
    "peer_group": "Big Ten",
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
-   "_endowment_scope": "UW Foundation (system)"
+   "_endowment_scope": "UW Foundation (system)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Wisconsin-Madison",
+   "_research_rank": 6
   },
   {
    "id": "umd",
@@ -858,7 +914,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.041,
    "debt_avg": 19000,
-   "research_spend_m": 821,
+   "research_spend_m": 1539.52,
    "alumni_network_k": 124,
    "score": 74.8,
    "filings": {
@@ -866,7 +922,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 82860,
@@ -883,7 +939,10 @@
    "conference": "Big Ten",
    "peer_group": "Big Ten",
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
-   "_endowment_scope": "USM Foundation (system)"
+   "_endowment_scope": "USM Foundation (system)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Marylandb",
+   "_research_rank": 15
   },
   {
    "id": "lmu",
@@ -904,7 +963,7 @@
    "pell_gap": 0.14,
    "loan_default": 0.029,
    "debt_avg": 19500,
-   "research_spend_m": 753,
+   "research_spend_m": 15.57,
    "alumni_network_k": 317,
    "score": 72.8,
    "filings": {
@@ -912,7 +971,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 78349,
@@ -928,7 +987,10 @@
    "scorecard_city": "Los Angeles",
    "conference": "WCC",
    "peer_group": "WCC",
-   "_endowment_source": "Wikipedia infobox (2024): $722.7M, Loyola Marymount"
+   "_endowment_source": "Wikipedia infobox (2024): $722.7M, Loyola Marymount",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Loyola Marymount U.",
+   "_research_rank": 330
   },
   {
    "id": "tulane",
@@ -949,7 +1011,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.028,
    "debt_avg": 20500,
-   "research_spend_m": 94,
+   "research_spend_m": 275.88,
    "alumni_network_k": 313,
    "score": 68.7,
    "filings": {
@@ -957,7 +1019,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "partial",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 63268,
@@ -973,7 +1035,10 @@
    "scorecard_city": "New Orleans",
    "conference": "AAC",
    "peer_group": "AAC",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Tulane U.",
+   "_research_rank": 120
   },
   {
    "id": "santaclara",
@@ -994,7 +1059,7 @@
    "pell_gap": 0.13,
    "loan_default": 0.044,
    "debt_avg": 19162,
-   "research_spend_m": 106,
+   "research_spend_m": 8.01,
    "alumni_network_k": 86,
    "score": 83.5,
    "filings": {
@@ -1002,7 +1067,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 109183,
@@ -1018,7 +1083,10 @@
    "scorecard_city": "Santa Clara",
    "conference": "WCC",
    "peer_group": "WCC",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Santa Clara U.",
+   "_research_rank": 401
   },
   {
    "id": "ucberkeley",
@@ -1039,7 +1107,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.022,
    "debt_avg": 13000,
-   "research_spend_m": 1000,
+   "research_spend_m": 1126.78,
    "alumni_network_k": 540,
    "score": 79.3,
    "filings": {
@@ -1047,7 +1115,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 92446,
@@ -1063,7 +1131,10 @@
    "scorecard_city": "Berkeley",
    "conference": "Pac-12 Legacy",
    "peer_group": "Pac-12 Legacy",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. California, Berkeley",
+   "_research_rank": 33
   },
   {
    "id": "emory",
@@ -1084,7 +1155,7 @@
    "pell_gap": 0.1,
    "loan_default": 0.032,
    "debt_avg": 18250,
-   "research_spend_m": 89,
+   "research_spend_m": 1246.51,
    "alumni_network_k": 274,
    "score": 74.5,
    "filings": {
@@ -1092,7 +1163,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "partial",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 80137,
@@ -1108,7 +1179,10 @@
    "scorecard_city": "Atlanta",
    "conference": "UAA",
    "peer_group": "UAA",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Emory U.",
+   "_research_rank": 30
   },
   {
    "id": "asu",
@@ -1129,7 +1203,7 @@
    "pell_gap": 0.11,
    "loan_default": 0.016,
    "debt_avg": 19500,
-   "research_spend_m": 790,
+   "research_spend_m": 1003.27,
    "alumni_network_k": 193,
    "score": 66.4,
    "filings": {
@@ -1137,7 +1211,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 62668,
@@ -1153,7 +1227,10 @@
    "enrollment_fte_real": 64674,
    "admission_rate": 0.8989,
    "pell_rate": 0.2899,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Arizona State U.",
+   "_research_rank": 38
   },
   {
    "id": "georgiatech",
@@ -1174,7 +1251,7 @@
    "pell_gap": 0.1,
    "loan_default": 0.019,
    "debt_avg": 21672,
-   "research_spend_m": 1150,
+   "research_spend_m": 1528.64,
    "alumni_network_k": 180,
    "score": 82.6,
    "filings": {
@@ -1182,7 +1259,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 102772,
@@ -1198,7 +1275,10 @@
    "scorecard_city": "Atlanta",
    "conference": "ACC",
    "peer_group": "ACC",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Georgia Institute of Technology",
+   "_research_rank": 16
   },
   {
    "id": "vanderbilt",
@@ -1219,7 +1299,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.015,
    "debt_avg": 14000,
-   "research_spend_m": 493,
+   "research_spend_m": 1327.87,
    "alumni_network_k": 101,
    "score": 78.5,
    "filings": {
@@ -1227,7 +1307,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "not-reported",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 91565,
@@ -1243,7 +1323,11 @@
    "scorecard_city": "Nashville",
    "conference": "SEC",
    "peer_group": "SEC",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Vanderbilt U. and Vanderbilt U. Medical Center",
+   "_research_rank": 25,
+   "_research_scope": "HERD reporting unit: university + medical center"
   },
   {
    "id": "lehigh",
@@ -1264,7 +1348,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.049,
    "debt_avg": 21960,
-   "research_spend_m": 146,
+   "research_spend_m": 62.41,
    "alumni_network_k": 245,
    "score": 81.4,
    "filings": {
@@ -1272,7 +1356,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "not-reported",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 105584,
@@ -1288,7 +1372,10 @@
    "scorecard_city": "Bethlehem",
    "conference": "Patriot",
    "peer_group": "Patriot",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Lehigh U.",
+   "_research_rank": 219
   },
   {
    "id": "cornell",
@@ -1309,7 +1396,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.023,
    "debt_avg": 14000,
-   "research_spend_m": 842,
+   "research_spend_m": 1613.63,
    "alumni_network_k": 327,
    "score": 83.3,
    "filings": {
@@ -1317,7 +1404,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 104043,
@@ -1334,7 +1421,10 @@
    "enrollment_fte_real": 15995,
    "admission_rate": 0.0876,
    "pell_rate": 0.1841,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Cornell U.",
+   "_research_rank": 11
   },
   {
    "id": "bostonuniver",
@@ -1355,7 +1445,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.032,
    "debt_avg": 23250,
-   "research_spend_m": 657,
+   "research_spend_m": 784.36,
    "alumni_network_k": 151,
    "score": 75.8,
    "filings": {
@@ -1363,7 +1453,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 83238,
@@ -1379,7 +1469,10 @@
    "scorecard_city": "Boston",
    "conference": "Patriot",
    "peer_group": "Patriot",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Boston U.",
+   "_research_rank": 49
   },
   {
    "id": "michigan",
@@ -1400,7 +1493,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.018,
    "debt_avg": 19500,
-   "research_spend_m": 1900,
+   "research_spend_m": 2110.96,
    "alumni_network_k": 640,
    "score": 76.2,
    "filings": {
@@ -1408,7 +1501,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 83648,
@@ -1424,7 +1517,10 @@
    "scorecard_city": "Ann Arbor",
    "conference": "Big Ten",
    "peer_group": "Big Ten",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Michigan, Ann Arbor",
+   "_research_rank": 5
   },
   {
    "id": "usd",
@@ -1445,7 +1541,7 @@
    "pell_gap": 0.05,
    "loan_default": 0.037,
    "debt_avg": 22940,
-   "research_spend_m": 173,
+   "research_spend_m": 12.65,
    "alumni_network_k": 280,
    "score": 74.8,
    "filings": {
@@ -1453,7 +1549,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 86522,
@@ -1470,7 +1566,10 @@
    "conference": "WCC",
    "peer_group": "WCC",
    "grad_rate_6yr_real": 0.8266,
-   "_endowment_source": "Wikipedia infobox (2025): $767M, University of San Diego"
+   "_endowment_source": "Wikipedia infobox (2025): $767M, University of San Diego",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. San Diego",
+   "_research_rank": 351
   },
   {
    "id": "northeastern",
@@ -1491,7 +1590,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.031,
    "debt_avg": 24250,
-   "research_spend_m": 663,
+   "research_spend_m": 346.9,
    "alumni_network_k": 234,
    "score": 79.1,
    "filings": {
@@ -1499,7 +1598,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 92538,
@@ -1516,7 +1615,10 @@
    "conference": "CAA",
    "peer_group": "CAA",
    "grad_rate_6yr_real": 0.9046,
-   "_endowment_source": "Wikipedia infobox (2025): $2.1B; audited FY2025 rollforward consistent"
+   "_endowment_source": "Wikipedia infobox (2025): $2.1B; audited FY2025 rollforward consistent",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Northeastern U.",
+   "_research_rank": 100
   },
   {
    "id": "uwseattle",
@@ -1537,7 +1639,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.031,
    "debt_avg": 14615,
-   "research_spend_m": 320,
+   "research_spend_m": 1691.3,
    "alumni_network_k": 179,
    "score": 73.4,
    "filings": {
@@ -1545,7 +1647,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "partial",
-    "herd": "not-reported",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 78466,
@@ -1561,7 +1663,10 @@
    "scorecard_city": "Seattle",
    "conference": "Big Ten",
    "peer_group": "Big Ten",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Washington, Seattle",
+   "_research_rank": 9
   },
   {
    "id": "ucla",
@@ -1582,7 +1687,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.023,
    "debt_avg": 14000,
-   "research_spend_m": 1600,
+   "research_spend_m": 1896.23,
    "alumni_network_k": 600,
    "score": 76.0,
    "filings": {
@@ -1590,7 +1695,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 82511,
@@ -1607,7 +1712,10 @@
    "conference": "Big Ten",
    "peer_group": "Big Ten",
    "grad_rate_6yr_real": 0.9264,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. California, Los Angeles",
+   "_research_rank": 7
   },
   {
    "id": "chapman",
@@ -1628,7 +1736,7 @@
    "pell_gap": 0.14,
    "loan_default": 0.038,
    "debt_avg": 20500,
-   "research_spend_m": 806,
+   "research_spend_m": 48.31,
    "alumni_network_k": 121,
    "score": 68.7,
    "filings": {
@@ -1636,7 +1744,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 70070,
@@ -1652,7 +1760,10 @@
    "scorecard_city": "Orange",
    "conference": "SCIAC",
    "peer_group": "SCIAC",
-   "_endowment_source": "Chapman president 2025 State of the University address: $860M"
+   "_endowment_source": "Chapman president 2025 State of the University address: $860M",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Chapman U.",
+   "_research_rank": 240
   },
   {
    "id": "utaustin",
@@ -1673,7 +1784,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.054,
    "debt_avg": 20500,
-   "research_spend_m": 763,
+   "research_spend_m": 1143.92,
    "alumni_network_k": 323,
    "score": 72.9,
    "filings": {
@@ -1681,7 +1792,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "not-reported",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 75121,
@@ -1697,7 +1808,10 @@
    "scorecard_city": "Austin",
    "conference": "SEC",
    "peer_group": "SEC",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Texas, Austin",
+   "_research_rank": 32
   },
   {
    "id": "uiuc",
@@ -1718,7 +1832,7 @@
    "pell_gap": 0.14,
    "loan_default": 0.047,
    "debt_avg": 19500,
-   "research_spend_m": 105,
+   "research_spend_m": 906.75,
    "alumni_network_k": 131,
    "score": 72.9,
    "filings": {
@@ -1726,7 +1840,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 81054,
@@ -1743,7 +1857,10 @@
    "conference": "Big Ten",
    "peer_group": "Big Ten",
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
-   "_endowment_scope": "U of I & Foundations (system)"
+   "_endowment_scope": "U of I & Foundations (system)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Illinois, Urbana-Champaign",
+   "_research_rank": 41
   },
   {
    "id": "pennstate",
@@ -1764,7 +1881,7 @@
    "pell_gap": 0.13,
    "loan_default": 0.037,
    "debt_avg": 25000,
-   "research_spend_m": 863,
+   "research_spend_m": 1302.97,
    "alumni_network_k": 334,
    "score": 67.2,
    "filings": {
@@ -1772,7 +1889,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 63435,
@@ -1789,7 +1906,11 @@
    "conference": "Big Ten",
    "peer_group": "Big Ten",
    "grad_rate_6yr_real": 0.8589,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Pennsylvania State U., University Park and Hershey Medical Center",
+   "_research_rank": 26,
+   "_research_scope": "HERD reporting unit: University Park + Hershey Medical Center"
   },
   {
    "id": "columbia",
@@ -1810,7 +1931,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.028,
    "debt_avg": 21500,
-   "research_spend_m": 432,
+   "research_spend_m": 1449.54,
    "alumni_network_k": 349,
    "score": 82.7,
    "filings": {
@@ -1818,7 +1939,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "not-reported",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 102491,
@@ -1834,7 +1955,10 @@
    "scorecard_city": "New York",
    "conference": "Ivy League",
    "peer_group": "Ivy League",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Columbia U. in the City of New York",
+   "_research_rank": 21
   },
   {
    "id": "ucd",
@@ -1855,7 +1979,7 @@
    "pell_gap": 0.11,
    "loan_default": 0.04,
    "debt_avg": 13000,
-   "research_spend_m": 607,
+   "research_spend_m": 1005.76,
    "alumni_network_k": 211,
    "score": 73.2,
    "filings": {
@@ -1863,7 +1987,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 80838,
@@ -1879,7 +2003,10 @@
    "scorecard_city": "Davis",
    "conference": "Big West",
    "peer_group": "Big West",
-   "_endowment_source": "UC Davis Venture Catalyst newsletter: endowment $2.2B"
+   "_endowment_source": "UC Davis Venture Catalyst newsletter: endowment $2.2B",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. California, Davis",
+   "_research_rank": 37
   },
   {
    "id": "texasa&m",
@@ -1900,7 +2027,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.046,
    "debt_avg": 17804,
-   "research_spend_m": 853,
+   "research_spend_m": 1393.83,
    "alumni_network_k": 266,
    "score": 70.7,
    "filings": {
@@ -1908,7 +2035,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 72097,
@@ -1925,7 +2052,11 @@
    "conference": "SEC",
    "peer_group": "SEC",
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
-   "_endowment_scope": "TAMU System"
+   "_endowment_scope": "TAMU System",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Texas A&M U., College Station and Health Science Center",
+   "_research_rank": 23,
+   "_research_scope": "HERD reporting unit: College Station + Health Science Center"
   },
   {
    "id": "northwestern",
@@ -1946,7 +2077,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.015,
    "debt_avg": 15000,
-   "research_spend_m": 690,
+   "research_spend_m": 1257.86,
    "alumni_network_k": 279,
    "score": 77.3,
    "filings": {
@@ -1954,7 +2085,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "not-reported",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 89363,
@@ -1970,7 +2101,10 @@
    "scorecard_city": "Evanston",
    "conference": "Big Ten",
    "peer_group": "Big Ten",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Northwestern U.",
+   "_research_rank": 29
   },
   {
    "id": "johnshopkins",
@@ -1991,7 +2125,7 @@
    "pell_gap": 0.13,
    "loan_default": 0.05,
    "debt_avg": 10250,
-   "research_spend_m": 592,
+   "research_spend_m": 4129.26,
    "alumni_network_k": 131,
    "score": 77.4,
    "filings": {
@@ -1999,7 +2133,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 87555,
@@ -2015,7 +2149,10 @@
    "scorecard_city": "Baltimore",
    "conference": "Big Ten",
    "peer_group": "Big Ten",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Johns Hopkins U.a",
+   "_research_rank": 2
   },
   {
    "id": "casewestern",
@@ -2036,7 +2173,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.032,
    "debt_avg": 24000,
-   "research_spend_m": 337,
+   "research_spend_m": 642.55,
    "alumni_network_k": 158,
    "score": 76.3,
    "filings": {
@@ -2044,7 +2181,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 87989,
@@ -2060,7 +2197,10 @@
    "scorecard_city": "Cleveland",
    "conference": "UAA",
    "peer_group": "UAA",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Case Western Reserve U.",
+   "_research_rank": 59
   },
   {
    "id": "ucsb",
@@ -2081,7 +2221,7 @@
    "pell_gap": 0.13,
    "loan_default": 0.041,
    "debt_avg": 13993,
-   "research_spend_m": 710,
+   "research_spend_m": 303.45,
    "alumni_network_k": 331,
    "score": 71.4,
    "filings": {
@@ -2089,7 +2229,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "partial",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 74915,
@@ -2105,7 +2245,10 @@
    "scorecard_city": "Santa Barbara",
    "conference": "Big West",
    "peer_group": "Big West",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. California, Santa Barbara",
+   "_research_rank": 112
   },
   {
    "id": "usc",
@@ -2126,7 +2269,7 @@
    "pell_gap": 0.13,
    "loan_default": 0.044,
    "debt_avg": 18000,
-   "research_spend_m": 810,
+   "research_spend_m": 1264.2,
    "alumni_network_k": 199,
    "score": 77.9,
    "filings": {
@@ -2134,7 +2277,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 92498,
@@ -2150,7 +2293,10 @@
    "scorecard_city": "Los Angeles",
    "conference": "Big Ten",
    "peer_group": "Big Ten",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Southern California",
+   "_research_rank": 28
   },
   {
    "id": "tufts",
@@ -2171,7 +2317,7 @@
    "pell_gap": 0.12,
    "loan_default": 0.017,
    "debt_avg": 16250,
-   "research_spend_m": 730,
+   "research_spend_m": 278.3,
    "alumni_network_k": 275,
    "score": 74.5,
    "filings": {
@@ -2179,7 +2325,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 83214,
@@ -2195,7 +2341,10 @@
    "scorecard_city": "Medford",
    "conference": "NESCAC",
    "peer_group": "NESCAC",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Tufts U.",
+   "_research_rank": 117
   },
   {
    "id": "rice",
@@ -2216,7 +2365,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.043,
    "debt_avg": 11000,
-   "research_spend_m": 274,
+   "research_spend_m": 277.68,
    "alumni_network_k": 191,
    "score": 77.6,
    "filings": {
@@ -2224,7 +2373,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "not-reported",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 89718,
@@ -2240,7 +2389,10 @@
    "scorecard_city": "Houston",
    "conference": "AAC",
    "peer_group": "AAC",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Rice U.",
+   "_research_rank": 118
   },
   {
    "id": "smu",
@@ -2261,7 +2413,7 @@
    "pell_gap": 0.03,
    "loan_default": 0.031,
    "debt_avg": 19500,
-   "research_spend_m": 378,
+   "research_spend_m": 62.55,
    "alumni_network_k": 56,
    "score": 72.1,
    "filings": {
@@ -2269,7 +2421,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 78354,
@@ -2285,7 +2437,10 @@
    "scorecard_city": "Dallas",
    "conference": "ACC",
    "peer_group": "ACC",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Southern Methodist U.",
+   "_research_rank": 218
   },
   {
    "id": "purdue",
@@ -2306,7 +2461,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.054,
    "debt_avg": 19500,
-   "research_spend_m": 191,
+   "research_spend_m": 931.51,
    "alumni_network_k": 345,
    "score": 71.0,
    "filings": {
@@ -2314,7 +2469,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 72424,
@@ -2330,7 +2485,10 @@
    "scorecard_city": "West Lafayette",
    "conference": "Big Ten",
    "peer_group": "Big Ten",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Purdue U., West Lafayette",
+   "_research_rank": 40
   },
   {
    "id": "bostoncolleg",
@@ -2351,7 +2509,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.043,
    "debt_avg": 19000,
-   "research_spend_m": 686,
+   "research_spend_m": 96.31,
    "alumni_network_k": 164,
    "score": 81.4,
    "filings": {
@@ -2359,7 +2517,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 103937,
@@ -2375,7 +2533,10 @@
    "conference": "ACC",
    "peer_group": "ACC",
    "admission_rate": 0.1643,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Boston C.",
+   "_research_rank": 180
   },
   {
    "id": "morehouse",
@@ -2396,7 +2557,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.04,
    "debt_avg": 25000,
-   "research_spend_m": 537,
+   "research_spend_m": 5.9,
    "alumni_network_k": 315,
    "score": 63.9,
    "filings": {
@@ -2404,7 +2565,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 52889,
@@ -2420,7 +2581,10 @@
    "scorecard_city": "Atlanta",
    "conference": "SIAC",
    "peer_group": "SIAC",
-   "_endowment_source": "Associated Press (Jul 2024): $280M"
+   "_endowment_source": "Associated Press (Jul 2024): $280M",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Morehouse C.",
+   "_research_rank": 441
   },
   {
    "id": "rutgers",
@@ -2441,7 +2605,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.027,
    "debt_avg": 21500,
-   "research_spend_m": 364,
+   "research_spend_m": 836.8,
    "alumni_network_k": 255,
    "score": 70.1,
    "filings": {
@@ -2449,7 +2613,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "partial",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 74479,
@@ -2465,7 +2629,10 @@
    "scorecard_city": "New Brunswick",
    "conference": "Big Ten",
    "peer_group": "Big Ten",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Rutgers, State U. New Jersey, New Brunswick",
+   "_research_rank": 46
   },
   {
    "id": "notredame",
@@ -2486,7 +2653,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.032,
    "debt_avg": 19000,
-   "research_spend_m": 769,
+   "research_spend_m": 345.79,
    "alumni_network_k": 90,
    "score": 81.0,
    "filings": {
@@ -2494,7 +2661,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "not-reported",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 99980,
@@ -2510,7 +2677,10 @@
    "scorecard_city": "Notre Dame",
    "conference": "ACC",
    "peer_group": "ACC",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Notre Dame",
+   "_research_rank": 101
   },
   {
    "id": "nyu",
@@ -2531,7 +2701,7 @@
    "pell_gap": 0.13,
    "loan_default": 0.05,
    "debt_avg": 20500,
-   "research_spend_m": 325,
+   "research_spend_m": 1500.73,
    "alumni_network_k": 69,
    "score": 75.6,
    "filings": {
@@ -2539,7 +2709,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "partial",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 82509,
@@ -2555,7 +2725,10 @@
    "scorecard_city": "New York",
    "conference": "UAA",
    "peer_group": "UAA",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "New York U.",
+   "_research_rank": 19
   },
   {
    "id": "clarkatlanta",
@@ -2576,7 +2749,7 @@
    "pell_gap": 0.1,
    "loan_default": 0.029,
    "debt_avg": 27000,
-   "research_spend_m": 10.32,
+   "research_spend_m": 13.42,
    "alumni_network_k": 29,
    "score": 56.6,
    "filings": {
@@ -2584,7 +2757,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 42712,
@@ -2601,7 +2774,10 @@
    "conference": "SIAC",
    "peer_group": "SIAC",
    "_endowment_source": "IPEDS Finance FY2024 via Data USA (not NACUBO participant)",
-   "_identity_source": "v0.16 rematch: Scorecard id 138947 = Clark Atlanta University (was 'HBCU Sample University'); raw artifacts data/raw/cau-rematch/2026-09-08/"
+   "_identity_source": "v0.16 rematch: Scorecard id 138947 = Clark Atlanta University (was 'HBCU Sample University'); raw artifacts data/raw/cau-rematch/2026-09-08/",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Clark Atlanta U.",
+   "_research_rank": 342
   },
   {
    "id": "georgetown",
@@ -2622,7 +2798,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.04,
    "debt_avg": 15500,
-   "research_spend_m": 175,
+   "research_spend_m": 376.6,
    "alumni_network_k": 161,
    "score": 81.9,
    "filings": {
@@ -2630,7 +2806,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 103494,
@@ -2646,7 +2822,10 @@
    "scorecard_city": "Washington",
    "conference": "Big East",
    "peer_group": "Big East",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Georgetown U.",
+   "_research_rank": 92
   },
   {
    "id": "uncchapelhil",
@@ -2667,7 +2846,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.048,
    "debt_avg": 14000,
-   "research_spend_m": 520,
+   "research_spend_m": 1598.75,
    "alumni_network_k": 105,
    "score": 71.8,
    "filings": {
@@ -2675,7 +2854,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 72200,
@@ -2691,7 +2870,10 @@
    "scorecard_city": "Chapel Hill",
    "conference": "ACC",
    "peer_group": "ACC",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. North Carolina, Chapel Hill",
+   "_research_rank": 12
   },
   {
    "id": "spelman",
@@ -2712,7 +2894,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.055,
    "debt_avg": 25000,
-   "research_spend_m": 587,
+   "research_spend_m": 4.54,
    "alumni_network_k": 58,
    "score": 66.4,
    "filings": {
@@ -2720,7 +2902,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "not-reported",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "median_earn_10yr_real": 59993,
@@ -2736,7 +2918,10 @@
    "scorecard_city": "Atlanta",
    "conference": "SIAC",
    "peer_group": "SIAC",
-   "_endowment_source": "Spelman College audited FY2025 financial statements: $609M endowment funds"
+   "_endowment_source": "Spelman College audited FY2025 financial statements: $609M endowment funds",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Spelman C.",
+   "_research_rank": 480
   },
   {
    "id": "ucsd",
@@ -2757,7 +2942,7 @@
    "pell_gap": 0.11,
    "loan_default": 0.044,
    "debt_avg": 15500,
-   "research_spend_m": 452,
+   "research_spend_m": 1881.29,
    "alumni_network_k": 260,
    "score": 74.6,
    "filings": {
@@ -2765,7 +2950,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "median_earn_10yr_real": 84943,
@@ -2781,7 +2966,10 @@
    "scorecard_city": "La Jolla",
    "conference": "Big West",
    "peer_group": "Big West",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. California, San Diego",
+   "_research_rank": 8
   },
   {
    "id": "brown",
@@ -2802,7 +2990,7 @@
    "pell_gap": 0.03,
    "loan_default": 0.015,
    "debt_avg": 11428,
-   "research_spend_m": 200,
+   "research_spend_m": 374.5,
    "alumni_network_k": 110,
    "score": 80.1,
    "filings": {
@@ -2810,7 +2998,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "Ivy League",
@@ -2827,7 +3015,10 @@
    "scorecard_id": 217156,
    "scorecard_name": "Brown University",
    "scorecard_city": "Providence",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Brown U.",
+   "_research_rank": 94
   },
   {
    "id": "dartmouth",
@@ -2848,7 +3039,7 @@
    "pell_gap": 0.02,
    "loan_default": 0.012,
    "debt_avg": 17500,
-   "research_spend_m": 150,
+   "research_spend_m": 418.43,
    "alumni_network_k": 85,
    "score": 81.4,
    "filings": {
@@ -2856,7 +3047,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "Ivy League",
@@ -2873,7 +3064,11 @@
    "scorecard_id": 182670,
    "scorecard_name": "Dartmouth College",
    "scorecard_city": "Hanover",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Dartmouth C. and Dartmouth Hitchcock Medical Center",
+   "_research_rank": 86,
+   "_research_scope": "HERD reporting unit: college + Hitchcock Medical Center"
   },
   {
    "id": "uchicago",
@@ -2894,7 +3089,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.014,
    "debt_avg": 15000,
-   "research_spend_m": 400,
+   "research_spend_m": 680.75,
    "alumni_network_k": 180,
    "score": 79.5,
    "filings": {
@@ -2902,7 +3097,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "UAA",
@@ -2919,7 +3114,10 @@
    "scorecard_id": 144050,
    "scorecard_name": "University of Chicago",
    "scorecard_city": "Chicago",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Chicago",
+   "_research_rank": 55
   },
   {
    "id": "baylor",
@@ -2940,7 +3138,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.035,
    "debt_avg": 23000,
-   "research_spend_m": 300,
+   "research_spend_m": 134.88,
    "alumni_network_k": 170,
    "score": 67.9,
    "filings": {
@@ -2948,7 +3146,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "Big 12",
@@ -2965,7 +3163,10 @@
    "scorecard_id": 223232,
    "scorecard_name": "Baylor University",
    "scorecard_city": "Waco",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Baylor U.",
+   "_research_rank": 168
   },
   {
    "id": "byu",
@@ -2986,7 +3187,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.028,
    "debt_avg": 11069,
-   "research_spend_m": 100,
+   "research_spend_m": 158.32,
    "alumni_network_k": 400,
    "score": 70.7,
    "filings": {
@@ -2994,7 +3195,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "Big 12",
@@ -3011,7 +3212,10 @@
    "scorecard_id": 230038,
    "scorecard_name": "Brigham Young University",
    "scorecard_city": "Provo",
-   "_endowment_source": "Wikipedia infobox (FY2025): $3.71B"
+   "_endowment_source": "Wikipedia infobox (FY2025): $3.71B",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Brigham Young U., Provo",
+   "_research_rank": 157
   },
   {
    "id": "clemson",
@@ -3032,7 +3236,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.032,
    "debt_avg": 21500,
-   "research_spend_m": 200,
+   "research_spend_m": 338.53,
    "alumni_network_k": 160,
    "score": 70.7,
    "filings": {
@@ -3040,7 +3244,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "ACC",
@@ -3057,7 +3261,10 @@
    "scorecard_id": 217882,
    "scorecard_name": "Clemson University",
    "scorecard_city": "Clemson",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Clemson U.",
+   "_research_rank": 104
   },
   {
    "id": "coloradomines",
@@ -3078,7 +3285,7 @@
    "pell_gap": 0.05,
    "loan_default": 0.025,
    "debt_avg": 23000,
-   "research_spend_m": 80,
+   "research_spend_m": 109.91,
    "alumni_network_k": 30,
    "score": 78.4,
    "filings": {
@@ -3086,7 +3293,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "RMAC",
@@ -3103,7 +3310,10 @@
    "scorecard_id": 126775,
    "scorecard_name": "Colorado School of Mines",
    "scorecard_city": "Golden",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Colorado School of Mines",
+   "_research_rank": 175
   },
   {
    "id": "drexel",
@@ -3124,7 +3334,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.042,
    "debt_avg": 25325,
-   "research_spend_m": 120,
+   "research_spend_m": 170.21,
    "alumni_network_k": 140,
    "score": 72.6,
    "filings": {
@@ -3132,7 +3342,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "CAA",
@@ -3149,7 +3359,10 @@
    "scorecard_id": 212054,
    "scorecard_name": "Drexel University",
    "scorecard_city": "Philadelphia",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Drexel U.",
+   "_research_rank": 152
   },
   {
    "id": "floridastate",
@@ -3170,7 +3383,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.038,
    "debt_avg": 18000,
-   "research_spend_m": 300,
+   "research_spend_m": 460.73,
    "alumni_network_k": 350,
    "score": 67.6,
    "filings": {
@@ -3178,7 +3391,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "ACC",
@@ -3195,7 +3408,10 @@
    "scorecard_id": 134097,
    "scorecard_name": "Florida State University",
    "scorecard_city": "Tallahassee",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Florida State U.",
+   "_research_rank": 80
   },
   {
    "id": "fordham",
@@ -3216,7 +3432,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.036,
    "debt_avg": 24300,
-   "research_spend_m": 50,
+   "research_spend_m": 28.25,
    "alumni_network_k": 180,
    "score": 74.6,
    "filings": {
@@ -3224,7 +3440,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "Big East",
@@ -3241,7 +3457,10 @@
    "scorecard_id": 191241,
    "scorecard_name": "Fordham University",
    "scorecard_city": "Bronx",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Fordham U.",
+   "_research_rank": 280
   },
   {
    "id": "gwu",
@@ -3262,7 +3481,7 @@
    "pell_gap": 0.05,
    "loan_default": 0.032,
    "debt_avg": 20449,
-   "research_spend_m": 200,
+   "research_spend_m": 381.58,
    "alumni_network_k": 290,
    "score": 76.6,
    "filings": {
@@ -3270,7 +3489,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "A-10",
@@ -3287,7 +3506,10 @@
    "scorecard_id": 131469,
    "scorecard_name": "George Washington University",
    "scorecard_city": "Washington",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "George Washington U.",
+   "_research_rank": 91
   },
   {
    "id": "georgiastate",
@@ -3308,7 +3530,7 @@
    "pell_gap": 0.12,
    "loan_default": 0.065,
    "debt_avg": 20903,
-   "research_spend_m": 150,
+   "research_spend_m": 241.12,
    "alumni_network_k": 250,
    "score": 59.4,
    "filings": {
@@ -3316,7 +3538,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Sun Belt",
@@ -3333,7 +3555,10 @@
    "scorecard_id": 139940,
    "scorecard_name": "Georgia State University",
    "scorecard_city": "Atlanta",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Georgia State U.",
+   "_research_rank": 131
   },
   {
    "id": "indiana",
@@ -3354,7 +3579,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.038,
    "debt_avg": 19509,
-   "research_spend_m": 400,
+   "research_spend_m": 896.98,
    "alumni_network_k": 750,
    "score": 66.3,
    "filings": {
@@ -3362,7 +3587,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big Ten",
@@ -3380,7 +3605,10 @@
    "scorecard_name": "Indiana University-Bloomington",
    "scorecard_city": "Bloomington",
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
-   "_endowment_scope": "IU Foundation (system)"
+   "_endowment_scope": "IU Foundation (system)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Indiana U., Bloomington",
+   "_research_rank": 42
   },
   {
    "id": "iowastate",
@@ -3401,7 +3629,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.034,
    "debt_avg": 22869,
-   "research_spend_m": 350,
+   "research_spend_m": 462.35,
    "alumni_network_k": 275,
    "score": 65.4,
    "filings": {
@@ -3409,7 +3637,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big 12",
@@ -3426,7 +3654,10 @@
    "scorecard_id": 153603,
    "scorecard_name": "Iowa State University",
    "scorecard_city": "Ames",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Iowa State U.",
+   "_research_rank": 79
   },
   {
    "id": "jamesmadison",
@@ -3447,7 +3678,7 @@
    "pell_gap": 0.05,
    "loan_default": 0.032,
    "debt_avg": 20093,
-   "research_spend_m": 20,
+   "research_spend_m": 21.39,
    "alumni_network_k": 150,
    "score": 68.8,
    "filings": {
@@ -3455,7 +3686,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Sun Belt",
@@ -3472,7 +3703,10 @@
    "scorecard_id": 232423,
    "scorecard_name": "James Madison University",
    "scorecard_city": "Harrisonburg",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "James Madison U.",
+   "_research_rank": 311
   },
   {
    "id": "kansasstate",
@@ -3493,7 +3727,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.041,
    "debt_avg": 21250,
-   "research_spend_m": 200,
+   "research_spend_m": 264.96,
    "alumni_network_k": 200,
    "score": 62.8,
    "filings": {
@@ -3501,7 +3735,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big 12",
@@ -3518,7 +3752,10 @@
    "scorecard_name": "Kansas State University",
    "scorecard_city": "Manhattan",
    "admission_rate": 0.8169,
-   "_endowment_source": "Kansas State University Foundation audited FY2025 statements: Endowment net assets - End of year $1,047,320,258"
+   "_endowment_source": "Kansas State University Foundation audited FY2025 statements: Endowment net assets - End of year $1,047,320,258",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Kansas State U.",
+   "_research_rank": 122
   },
   {
    "id": "lsu",
@@ -3539,7 +3776,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.045,
    "debt_avg": 20500,
-   "research_spend_m": 350,
+   "research_spend_m": 431.44,
    "alumni_network_k": 300,
    "score": 64.7,
    "filings": {
@@ -3547,7 +3784,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "SEC",
@@ -3565,7 +3802,10 @@
    "net_price_avg_real": 19151,
    "admission_rate": 0.7333,
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
-   "_endowment_scope": "LSU System"
+   "_endowment_scope": "LSU System",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Louisiana State U., Baton Rouge",
+   "_research_rank": 84
   },
   {
    "id": "michiganstate",
@@ -3586,7 +3826,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.036,
    "debt_avg": 23250,
-   "research_spend_m": 700,
+   "research_spend_m": 931.85,
    "alumni_network_k": 550,
    "score": 67.4,
    "filings": {
@@ -3594,7 +3834,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big Ten",
@@ -3611,7 +3851,10 @@
    "scorecard_id": 171100,
    "scorecard_name": "Michigan State University",
    "scorecard_city": "East Lansing",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Michigan State U.",
+   "_research_rank": 39
   },
   {
    "id": "missouri",
@@ -3632,7 +3875,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.041,
    "debt_avg": 20500,
-   "research_spend_m": 400,
+   "research_spend_m": 508.58,
    "alumni_network_k": 350,
    "score": 65.4,
    "filings": {
@@ -3640,7 +3883,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "SEC",
@@ -3658,7 +3901,10 @@
    "scorecard_city": "Columbia",
    "admission_rate": 0.7847,
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
-   "_endowment_scope": "MU System"
+   "_endowment_scope": "MU System",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Missouri, Columbia",
+   "_research_rank": 71
   },
   {
    "id": "ncstate",
@@ -3679,7 +3925,7 @@
    "pell_gap": 0.05,
    "loan_default": 0.031,
    "debt_avg": 20121,
-   "research_spend_m": 600,
+   "research_spend_m": 717.0,
    "alumni_network_k": 300,
    "score": 69.5,
    "filings": {
@@ -3687,7 +3933,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "ACC",
@@ -3704,7 +3950,10 @@
    "scorecard_id": 199193,
    "scorecard_name": "North Carolina State University at Raleigh",
    "scorecard_city": "Raleigh",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "North Carolina State U.",
+   "_research_rank": 53
   },
   {
    "id": "oklahomastate",
@@ -3725,7 +3974,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.045,
    "debt_avg": 20500,
-   "research_spend_m": 200,
+   "research_spend_m": 253.77,
    "alumni_network_k": 250,
    "score": 62.8,
    "filings": {
@@ -3733,7 +3982,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big 12",
@@ -3750,7 +3999,10 @@
    "scorecard_name": "Oklahoma State University-Main Campus",
    "scorecard_city": "Stillwater",
    "admission_rate": 0.7504,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Oklahoma State U., Stillwater",
+   "_research_rank": 127
   },
   {
    "id": "oregonstate",
@@ -3771,7 +4023,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.042,
    "debt_avg": 21221,
-   "research_spend_m": 350,
+   "research_spend_m": 371.9,
    "alumni_network_k": 250,
    "score": 65.5,
    "filings": {
@@ -3779,7 +4031,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Pac-12 Legacy",
@@ -3796,7 +4048,10 @@
    "scorecard_id": 209542,
    "scorecard_name": "Oregon State University",
    "scorecard_city": "Corvallis",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Oregon State U.",
+   "_research_rank": 95
   },
   {
    "id": "temple",
@@ -3817,7 +4072,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.046,
    "debt_avg": 24395,
-   "research_spend_m": 300,
+   "research_spend_m": 315.0,
    "alumni_network_k": 350,
    "score": 65.7,
    "filings": {
@@ -3825,7 +4080,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "AAC",
@@ -3842,7 +4097,10 @@
    "scorecard_id": 216339,
    "scorecard_name": "Temple University",
    "scorecard_city": "Philadelphia",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Temple U.",
+   "_research_rank": 108
   },
   {
    "id": "texastech",
@@ -3863,7 +4121,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.043,
    "debt_avg": 21500,
-   "research_spend_m": 300,
+   "research_spend_m": 256.92,
    "alumni_network_k": 350,
    "score": 64.5,
    "filings": {
@@ -3871,7 +4129,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big 12",
@@ -3888,7 +4146,10 @@
    "net_price_avg_real": 19070,
    "admission_rate": 0.7265,
    "avg_family_income": 72431,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Texas Tech U.",
+   "_research_rank": 125
   },
   {
    "id": "ucirvine",
@@ -3909,7 +4170,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.032,
    "debt_avg": 15000,
-   "research_spend_m": 500,
+   "research_spend_m": 644.95,
    "alumni_network_k": 200,
    "score": 74.1,
    "filings": {
@@ -3917,7 +4178,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big West",
@@ -3934,7 +4195,10 @@
    "scorecard_id": 110653,
    "scorecard_name": "University of California-Irvine",
    "scorecard_city": "Irvine",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. California, Irvine",
+   "_research_rank": 58
   },
   {
    "id": "ucriverside",
@@ -3955,7 +4219,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.041,
    "debt_avg": 17500,
-   "research_spend_m": 200,
+   "research_spend_m": 231.6,
    "alumni_network_k": 120,
    "score": 67.3,
    "filings": {
@@ -3963,7 +4227,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big West",
@@ -3980,7 +4244,10 @@
    "scorecard_id": 110671,
    "scorecard_name": "University of California-Riverside",
    "scorecard_city": "Riverside",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. California, Riverside",
+   "_research_rank": 134
   },
   {
    "id": "ucsc",
@@ -4001,7 +4268,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.04,
    "debt_avg": 16666,
-   "research_spend_m": 200,
+   "research_spend_m": 218.43,
    "alumni_network_k": 130,
    "score": 67.9,
    "filings": {
@@ -4009,7 +4276,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big West",
@@ -4026,7 +4293,10 @@
    "scorecard_id": 110714,
    "scorecard_name": "University of California-Santa Cruz",
    "scorecard_city": "Santa Cruz",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. California, Santa Cruz",
+   "_research_rank": 140
   },
   {
    "id": "alabama",
@@ -4047,7 +4317,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.044,
    "debt_avg": 22750,
-   "research_spend_m": 250,
+   "research_spend_m": 221.24,
    "alumni_network_k": 250,
    "score": 64.2,
    "filings": {
@@ -4055,7 +4325,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "SEC",
@@ -4073,7 +4343,10 @@
    "scorecard_name": "The University of Alabama",
    "scorecard_city": "Tuscaloosa",
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
-   "_endowment_scope": "UA System (Tuscaloosa/Birmingham/Huntsville)"
+   "_endowment_scope": "UA System (Tuscaloosa/Birmingham/Huntsville)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Alabama, Tuscaloosa",
+   "_research_rank": 139
   },
   {
    "id": "ucf",
@@ -4094,7 +4367,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.04,
    "debt_avg": 18190,
-   "research_spend_m": 200,
+   "research_spend_m": 284.94,
    "alumni_network_k": 340,
    "score": 65.2,
    "filings": {
@@ -4102,7 +4375,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big 12",
@@ -4119,7 +4392,10 @@
    "scorecard_id": 132903,
    "scorecard_name": "University of Central Florida",
    "scorecard_city": "Orlando",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Central Florida",
+   "_research_rank": 114
   },
   {
    "id": "colorado",
@@ -4140,7 +4416,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.036,
    "debt_avg": 19500,
-   "research_spend_m": 600,
+   "research_spend_m": 717.92,
    "alumni_network_k": 350,
    "score": 67.8,
    "filings": {
@@ -4148,7 +4424,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big 12",
@@ -4166,7 +4442,10 @@
    "scorecard_name": "University of Colorado Boulder",
    "scorecard_city": "Boulder",
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
-   "_endowment_scope": "CU Foundation (system)"
+   "_endowment_scope": "CU Foundation (system)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Colorado Boulder",
+   "_research_rank": 52
   },
   {
    "id": "uconn",
@@ -4187,7 +4466,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.032,
    "debt_avg": 21500,
-   "research_spend_m": 300,
+   "research_spend_m": 433.55,
    "alumni_network_k": 280,
    "score": 70.9,
    "filings": {
@@ -4195,7 +4474,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big East",
@@ -4212,7 +4491,10 @@
    "scorecard_id": 129020,
    "scorecard_name": "University of Connecticut",
    "scorecard_city": "Storrs",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Connecticut",
+   "_research_rank": 83
   },
   {
    "id": "udel",
@@ -4233,7 +4515,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.033,
    "debt_avg": 24572,
-   "research_spend_m": 200,
+   "research_spend_m": 465.78,
    "alumni_network_k": 190,
    "score": 69.7,
    "filings": {
@@ -4241,7 +4523,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "CAA",
@@ -4258,7 +4540,10 @@
    "scorecard_id": 130943,
    "scorecard_name": "University of Delaware",
    "scorecard_city": "Newark",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Delaware",
+   "_research_rank": 78
   },
   {
    "id": "houston",
@@ -4279,7 +4564,7 @@
    "pell_gap": 0.1,
    "loan_default": 0.048,
    "debt_avg": 18194,
-   "research_spend_m": 300,
+   "research_spend_m": 239.0,
    "alumni_network_k": 340,
    "score": 64.5,
    "filings": {
@@ -4287,7 +4572,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big 12",
@@ -4304,7 +4589,10 @@
    "scorecard_name": "University of Houston",
    "scorecard_city": "Houston",
    "admission_rate": 0.7392,
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Houston",
+   "_research_rank": 133
   },
   {
    "id": "iowa",
@@ -4325,7 +4613,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.037,
    "debt_avg": 22500,
-   "research_spend_m": 400,
+   "research_spend_m": 703.33,
    "alumni_network_k": 300,
    "score": 65.9,
    "filings": {
@@ -4333,7 +4621,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big Ten",
@@ -4350,7 +4638,10 @@
    "scorecard_id": 153658,
    "scorecard_name": "University of Iowa",
    "scorecard_city": "Iowa City",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Iowa",
+   "_research_rank": 54
   },
   {
    "id": "kansas",
@@ -4371,7 +4662,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.041,
    "debt_avg": 21000,
-   "research_spend_m": 300,
+   "research_spend_m": 546.11,
    "alumni_network_k": 350,
    "score": 64.0,
    "filings": {
@@ -4379,7 +4670,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big 12",
@@ -4396,7 +4687,10 @@
    "scorecard_id": 155317,
    "scorecard_name": "University of Kansas",
    "scorecard_city": "Lawrence",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Kansas",
+   "_research_rank": 64
   },
   {
    "id": "kentucky",
@@ -4417,7 +4711,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.044,
    "debt_avg": 22500,
-   "research_spend_m": 400,
+   "research_spend_m": 527.66,
    "alumni_network_k": 300,
    "score": 63.3,
    "filings": {
@@ -4425,7 +4719,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "SEC",
@@ -4442,7 +4736,10 @@
    "scorecard_id": 157085,
    "scorecard_name": "University of Kentucky",
    "scorecard_city": "Lexington",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Kentucky",
+   "_research_rank": 68
   },
   {
    "id": "louisville",
@@ -4463,7 +4760,7 @@
    "pell_gap": 0.1,
    "loan_default": 0.05,
    "debt_avg": 20500,
-   "research_spend_m": 200,
+   "research_spend_m": 224.97,
    "alumni_network_k": 150,
    "score": 61.0,
    "filings": {
@@ -4471,7 +4768,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "ACC",
@@ -4488,7 +4785,10 @@
    "scorecard_name": "University of Louisville",
    "scorecard_city": "Louisville",
    "admission_rate": 0.7941,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Louisville",
+   "_research_rank": 138
   },
   {
    "id": "miami",
@@ -4509,7 +4809,7 @@
    "pell_gap": 0.05,
    "loan_default": 0.033,
    "debt_avg": 17500,
-   "research_spend_m": 400,
+   "research_spend_m": 559.01,
    "alumni_network_k": 190,
    "score": 72.3,
    "filings": {
@@ -4517,7 +4817,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "ACC",
@@ -4534,7 +4834,10 @@
    "scorecard_id": 135726,
    "scorecard_name": "University of Miami",
    "scorecard_city": "Coral Gables",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Miami",
+   "_research_rank": 62
   },
   {
    "id": "minnesota",
@@ -4555,7 +4858,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.034,
    "debt_avg": 19500,
-   "research_spend_m": 900,
+   "research_spend_m": 1409.71,
    "alumni_network_k": 500,
    "score": 68.3,
    "filings": {
@@ -4563,7 +4866,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big Ten",
@@ -4580,7 +4883,10 @@
    "scorecard_id": 174066,
    "scorecard_name": "University of Minnesota-Twin Cities",
    "scorecard_city": "Minneapolis",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Minnesota, Twin Cities",
+   "_research_rank": 22
   },
   {
    "id": "nebraska",
@@ -4601,7 +4907,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.039,
    "debt_avg": 21000,
-   "research_spend_m": 300,
+   "research_spend_m": 657.47,
    "alumni_network_k": 250,
    "score": 62.6,
    "filings": {
@@ -4609,7 +4915,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big Ten",
@@ -4627,7 +4933,11 @@
    "scorecard_name": "University of Nebraska-Lincoln",
    "scorecard_city": "Lincoln",
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
-   "_endowment_scope": "NU system"
+   "_endowment_scope": "NU system",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Nebraska, Lincoln and Medical Center",
+   "_research_rank": 56,
+   "_research_scope": "HERD reporting unit: Lincoln + Medical Center"
   },
   {
    "id": "unm",
@@ -4648,7 +4958,7 @@
    "pell_gap": 0.12,
    "loan_default": 0.058,
    "debt_avg": 18450,
-   "research_spend_m": 250,
+   "research_spend_m": 354.87,
    "alumni_network_k": 200,
    "score": 56.9,
    "filings": {
@@ -4656,7 +4966,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Mountain West",
@@ -4673,7 +4983,10 @@
    "scorecard_name": "University of New Mexico-Main Campus",
    "scorecard_city": "Albuquerque",
    "admission_rate": 0.9518,
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. New Mexico",
+   "_research_rank": 98
   },
   {
    "id": "uncc",
@@ -4694,7 +5007,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.044,
    "debt_avg": 21500,
-   "research_spend_m": 100,
+   "research_spend_m": 94.89,
    "alumni_network_k": 130,
    "score": 62.9,
    "filings": {
@@ -4702,7 +5015,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "AAC",
@@ -4719,7 +5032,10 @@
    "scorecard_id": 199139,
    "scorecard_name": "University of North Carolina at Charlotte",
    "scorecard_city": "Charlotte",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. North Carolina, Charlotte",
+   "_research_rank": 182
   },
   {
    "id": "oklahoma",
@@ -4740,7 +5056,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.041,
    "debt_avg": 20654,
-   "research_spend_m": 300,
+   "research_spend_m": 474.04,
    "alumni_network_k": 280,
    "score": 65.4,
    "filings": {
@@ -4748,7 +5064,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "SEC",
@@ -4765,7 +5081,10 @@
    "scorecard_id": 207500,
    "scorecard_name": "University of Oklahoma-Norman Campus",
    "scorecard_city": "Norman",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Oklahomac",
+   "_research_rank": 75
   },
   {
    "id": "oregon",
@@ -4786,7 +5105,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.039,
    "debt_avg": 20139,
-   "research_spend_m": 300,
+   "research_spend_m": 174.78,
    "alumni_network_k": 250,
    "score": 64.4,
    "filings": {
@@ -4794,7 +5113,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big Ten",
@@ -4813,7 +5132,10 @@
    "scorecard_state": "OR",
    "net_price_avg_real": 22182,
    "admission_rate": 0.883,
-   "_identity_source": "v0.17 rematch: Scorecard id 209551 = University of Oregon, Eugene (was 209490 = Oregon Health & Science University, Portland); raw artifact data/raw/collegescorecard/2026-09-09/uo_209551_v17.json"
+   "_identity_source": "v0.17 rematch: Scorecard id 209551 = University of Oregon, Eugene (was 209490 = Oregon Health & Science University, Portland); raw artifact data/raw/collegescorecard/2026-09-09/uo_209551_v17.json",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Oregon",
+   "_research_rank": 149
   },
   {
    "id": "pitt",
@@ -4834,7 +5156,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.034,
    "debt_avg": 24250,
-   "research_spend_m": 700,
+   "research_spend_m": 1504.66,
    "alumni_network_k": 330,
    "score": 68.1,
    "filings": {
@@ -4842,7 +5164,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "ACC",
@@ -4859,7 +5181,10 @@
    "scorecard_id": 215293,
    "scorecard_name": "University of Pittsburgh-Pittsburgh Campus",
    "scorecard_city": "Pittsburgh",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Pittsburgh, Pittsburgh",
+   "_research_rank": 18
   },
   {
    "id": "rochester",
@@ -4880,7 +5205,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.028,
    "debt_avg": 21000,
-   "research_spend_m": 400,
+   "research_spend_m": 492.37,
    "alumni_network_k": 120,
    "score": 73.2,
    "filings": {
@@ -4888,7 +5213,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "AAU Private",
@@ -4905,7 +5230,10 @@
    "scorecard_id": 195030,
    "scorecard_name": "University of Rochester",
    "scorecard_city": "Rochester",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Rochester",
+   "_research_rank": 74
   },
   {
    "id": "southcarolina",
@@ -4926,7 +5254,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.04,
    "debt_avg": 21500,
-   "research_spend_m": 300,
+   "research_spend_m": 277.33,
    "alumni_network_k": 350,
    "score": 66.1,
    "filings": {
@@ -4934,7 +5262,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "SEC",
@@ -4951,7 +5279,10 @@
    "scorecard_id": 218663,
    "scorecard_name": "University of South Carolina-Columbia",
    "scorecard_city": "Columbia",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. South Carolina, Columbia",
+   "_research_rank": 119
   },
   {
    "id": "usf",
@@ -4972,7 +5303,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.04,
    "debt_avg": 17988,
-   "research_spend_m": 400,
+   "research_spend_m": 521.89,
    "alumni_network_k": 250,
    "score": 64.9,
    "filings": {
@@ -4980,7 +5311,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "AAC",
@@ -4997,7 +5328,10 @@
    "scorecard_id": 137351,
    "scorecard_name": "University of South Florida",
    "scorecard_city": "Tampa",
-   "_endowment_source": "University of South Florida Foundation audited FY2025 statements: Total Foundation endowment balance $722,838,408"
+   "_endowment_source": "University of South Florida Foundation audited FY2025 statements: Total Foundation endowment balance $722,838,408",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. South Florida",
+   "_research_rank": 70
   },
   {
    "id": "tennessee",
@@ -5018,7 +5352,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.041,
    "debt_avg": 20500,
-   "research_spend_m": 300,
+   "research_spend_m": 386.95,
    "alumni_network_k": 280,
    "score": 65.5,
    "filings": {
@@ -5026,7 +5360,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "SEC",
@@ -5044,7 +5378,10 @@
    "scorecard_name": "The University of Tennessee-Knoxville",
    "scorecard_city": "Knoxville",
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
-   "_endowment_scope": "UT System"
+   "_endowment_scope": "UT System",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Tennessee, Knoxville",
+   "_research_rank": 90
   },
   {
    "id": "utah",
@@ -5065,7 +5402,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.036,
    "debt_avg": 19000,
-   "research_spend_m": 500,
+   "research_spend_m": 789.27,
    "alumni_network_k": 230,
    "score": 66.4,
    "filings": {
@@ -5073,7 +5410,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big 12",
@@ -5090,7 +5427,10 @@
    "scorecard_id": 230764,
    "scorecard_name": "University of Utah",
    "scorecard_city": "Salt Lake City",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Utah",
+   "_research_rank": 48
   },
   {
    "id": "uva",
@@ -5111,7 +5451,7 @@
    "pell_gap": 0.03,
    "loan_default": 0.024,
    "debt_avg": 17500,
-   "research_spend_m": 500,
+   "research_spend_m": 813.77,
    "alumni_network_k": 250,
    "score": 77.5,
    "filings": {
@@ -5119,7 +5459,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "ACC",
@@ -5136,7 +5476,10 @@
    "scorecard_id": 234076,
    "scorecard_name": "University of Virginia-Main Campus",
    "scorecard_city": "Charlottesville",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Virginia, Charlottesville",
+   "_research_rank": 47
   },
   {
    "id": "virginiatech",
@@ -5157,7 +5500,7 @@
    "pell_gap": 0.05,
    "loan_default": 0.03,
    "debt_avg": 21500,
-   "research_spend_m": 600,
+   "research_spend_m": 656.92,
    "alumni_network_k": 280,
    "score": 73.6,
    "filings": {
@@ -5165,7 +5508,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "ACC",
@@ -5182,7 +5525,10 @@
    "scorecard_id": 233921,
    "scorecard_name": "Virginia Polytechnic Institute and State University",
    "scorecard_city": "Blacksburg",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 (Virginia Tech Foundation)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 (Virginia Tech Foundation)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Virginia Polytechnic Institute and State U.",
+   "_research_rank": 57
   },
   {
    "id": "wakeforest",
@@ -5203,7 +5549,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.028,
    "debt_avg": 21500,
-   "research_spend_m": 100,
+   "research_spend_m": 344.52,
    "alumni_network_k": 80,
    "score": 73.7,
    "filings": {
@@ -5211,7 +5557,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "ACC",
@@ -5228,7 +5574,10 @@
    "scorecard_id": 199847,
    "scorecard_name": "Wake Forest University",
    "scorecard_city": "Winston-Salem",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Wake Forest U.",
+   "_research_rank": 102
   },
   {
    "id": "washstate",
@@ -5249,7 +5598,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.044,
    "debt_avg": 19500,
-   "research_spend_m": 400,
+   "research_spend_m": 403.37,
    "alumni_network_k": 220,
    "score": 65.9,
    "filings": {
@@ -5257,7 +5606,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Pac-12 Legacy",
@@ -5274,7 +5623,10 @@
    "scorecard_id": 236939,
    "scorecard_name": "Washington State University",
    "scorecard_city": "Pullman",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Washington State U.",
+   "_research_rank": 87
   },
   {
    "id": "waynestate",
@@ -5295,7 +5647,7 @@
    "pell_gap": 0.13,
    "loan_default": 0.06,
    "debt_avg": 21250,
-   "research_spend_m": 300,
+   "research_spend_m": 291.69,
    "alumni_network_k": 155,
    "score": 60.2,
    "filings": {
@@ -5303,7 +5655,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Horizon",
@@ -5320,7 +5672,10 @@
    "scorecard_id": 172644,
    "scorecard_name": "Wayne State University",
    "scorecard_city": "Detroit",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Wayne State U.",
+   "_research_rank": 113
   },
   {
    "id": "williamandmary",
@@ -5341,7 +5696,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.027,
    "debt_avg": 18500,
-   "research_spend_m": 50,
+   "research_spend_m": 94.61,
    "alumni_network_k": 110,
    "score": 72.1,
    "filings": {
@@ -5349,7 +5704,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "CAA",
@@ -5366,7 +5721,10 @@
    "scorecard_id": 231624,
    "scorecard_name": "William & Mary",
    "scorecard_city": "Williamsburg",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "William & Mary",
+   "_research_rank": 183
   },
   {
    "id": "wpi",
@@ -5387,7 +5745,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.027,
    "debt_avg": 27000,
-   "research_spend_m": 100,
+   "research_spend_m": 71.55,
    "alumni_network_k": 40,
    "score": 80.8,
    "filings": {
@@ -5395,7 +5753,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "NEWMAC",
@@ -5412,7 +5770,10 @@
    "scorecard_id": 168421,
    "scorecard_name": "Worcester Polytechnic Institute",
    "scorecard_city": "Worcester",
-   "_endowment_source": "Worcester Polytechnic Institute audited FY2025 statements: Total endowment funds $731,422 (thousands) at June 30, 2025"
+   "_endowment_source": "Worcester Polytechnic Institute audited FY2025 statements: Total endowment funds $731,422 (thousands) at June 30, 2025",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Worcester Polytechnic Institute",
+   "_research_rank": 209
   },
   {
    "id": "yeshiva",
@@ -5433,7 +5794,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.035,
    "debt_avg": 18250,
-   "research_spend_m": 50,
+   "research_spend_m": 10.29,
    "alumni_network_k": 60,
    "score": 70.0,
    "filings": {
@@ -5441,7 +5802,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "Skyline",
@@ -5458,7 +5819,10 @@
    "scorecard_id": 197708,
    "scorecard_name": "Yeshiva University",
    "scorecard_city": "New York",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Yeshiva U.",
+   "_research_rank": 376
   },
   {
    "id": "rpi",
@@ -5479,7 +5843,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.026,
    "debt_avg": 23750,
-   "research_spend_m": 150,
+   "research_spend_m": 140.25,
    "alumni_network_k": 110,
    "score": 80.1,
    "filings": {
@@ -5487,7 +5851,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "Liberty",
@@ -5504,7 +5868,10 @@
    "scorecard_id": 194824,
    "scorecard_name": "Rensselaer Polytechnic Institute",
    "scorecard_city": "Troy",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Rensselaer Polytechnic Institute",
+   "_research_rank": 165
   },
   {
    "id": "stevens",
@@ -5525,7 +5892,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.025,
    "debt_avg": 27000,
-   "research_spend_m": 80,
+   "research_spend_m": 70.74,
    "alumni_network_k": 50,
    "score": 82.9,
    "filings": {
@@ -5533,7 +5900,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "MAC",
@@ -5550,7 +5917,10 @@
    "scorecard_id": 186867,
    "scorecard_name": "Stevens Institute of Technology",
    "scorecard_city": "Hoboken",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Stevens Institute of Technology",
+   "_research_rank": 210
   },
   {
    "id": "auburn",
@@ -5571,7 +5941,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.035,
    "debt_avg": 21000,
-   "research_spend_m": 300,
+   "research_spend_m": 393.56,
    "alumni_network_k": 260,
    "score": 67.9,
    "filings": {
@@ -5579,7 +5949,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "SEC",
@@ -5596,7 +5966,10 @@
    "scorecard_id": 100858,
    "scorecard_name": "Auburn University",
    "scorecard_city": "Auburn",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Auburn U., Auburn",
+   "_research_rank": 88
   },
   {
    "id": "arizona",
@@ -5617,7 +5990,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.042,
    "debt_avg": 19620,
-   "research_spend_m": 700,
+   "research_spend_m": 1012.4,
    "alumni_network_k": 300,
    "score": 63.4,
    "filings": {
@@ -5625,7 +5998,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big 12",
@@ -5642,7 +6015,10 @@
    "scorecard_id": 104179,
    "scorecard_name": "University of Arizona",
    "scorecard_city": "Tucson",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Arizona",
+   "_research_rank": 36
   },
   {
    "id": "umassamherst",
@@ -5663,7 +6039,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.041,
    "debt_avg": 22763,
-   "research_spend_m": 200,
+   "research_spend_m": 281.73,
    "alumni_network_k": 600,
    "score": 69.6,
    "filings": {
@@ -5671,7 +6047,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "MAC",
@@ -5688,7 +6064,10 @@
    "admission_rate": 0.5973,
    "pell_rate": 0.1994,
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
-   "_endowment_scope": "UMass Foundation (system)"
+   "_endowment_scope": "UMass Foundation (system)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Massachusetts, Amherst",
+   "_research_rank": 115
   },
   {
    "id": "bucknell",
@@ -5709,7 +6088,7 @@
    "pell_gap": 0.03,
    "loan_default": 0.026,
    "debt_avg": 27000,
-   "research_spend_m": 10,
+   "research_spend_m": 6.19,
    "alumni_network_k": 50,
    "score": 78.9,
    "filings": {
@@ -5717,7 +6096,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "Patriot",
@@ -5734,7 +6113,10 @@
    "scorecard_id": 211291,
    "scorecard_name": "Bucknell University",
    "scorecard_city": "Lewisburg",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Bucknell U.",
+   "_research_rank": 434
   },
   {
    "id": "calpoly",
@@ -5755,7 +6137,7 @@
    "pell_gap": 0.05,
    "loan_default": 0.03,
    "debt_avg": 18500,
-   "research_spend_m": 40,
+   "research_spend_m": 38.13,
    "alumni_network_k": 120,
    "score": 77.2,
    "filings": {
@@ -5763,7 +6145,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big West",
@@ -5780,7 +6162,10 @@
    "scorecard_id": 110422,
    "scorecard_name": "California Polytechnic State University-San Luis Obispo",
    "scorecard_city": "San Luis Obispo",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "California Polytechnic State U., San Luis Obispo",
+   "_research_rank": 253
   },
   {
    "id": "carleton",
@@ -5801,7 +6186,7 @@
    "pell_gap": 0.03,
    "loan_default": 0.024,
    "debt_avg": 16750,
-   "research_spend_m": 5,
+   "research_spend_m": 4.99,
    "alumni_network_k": 30,
    "score": 73.4,
    "filings": {
@@ -5809,7 +6194,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "MIAC",
@@ -5826,7 +6211,10 @@
    "scorecard_id": 173258,
    "scorecard_name": "Carleton College",
    "scorecard_city": "Northfield",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Carleton C.",
+   "_research_rank": 466
   },
   {
    "id": "claremont",
@@ -5847,7 +6235,7 @@
    "pell_gap": 0.03,
    "loan_default": 0.024,
    "debt_avg": 13500,
-   "research_spend_m": 5,
+   "research_spend_m": 7.78,
    "alumni_network_k": 15,
    "score": 83.3,
    "filings": {
@@ -5855,7 +6243,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "SCIAC",
@@ -5872,7 +6260,10 @@
    "scorecard_id": 112260,
    "scorecard_name": "Claremont McKenna College",
    "scorecard_city": "Claremont",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Claremont McKenna C.",
+   "_research_rank": 406
   },
   {
    "id": "colgate",
@@ -5893,7 +6284,7 @@
    "pell_gap": 0.03,
    "loan_default": 0.025,
    "debt_avg": 15000,
-   "research_spend_m": 10,
+   "research_spend_m": 4.73,
    "alumni_network_k": 35,
    "score": 76.5,
    "filings": {
@@ -5901,7 +6292,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "Patriot",
@@ -5918,7 +6309,10 @@
    "scorecard_id": 190099,
    "scorecard_name": "Colgate University",
    "scorecard_city": "Hamilton",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Colgate U.",
+   "_research_rank": 474
   },
   {
    "id": "coloradostate",
@@ -5939,7 +6333,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.041,
    "debt_avg": 20000,
-   "research_spend_m": 400,
+   "research_spend_m": 466.39,
    "alumni_network_k": 250,
    "score": 63.9,
    "filings": {
@@ -5947,7 +6341,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Mountain West",
@@ -5964,7 +6358,10 @@
    "scorecard_id": 126818,
    "scorecard_name": "Colorado State University-Fort Collins",
    "scorecard_city": "Fort Collins",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Colorado State U., Fort Collins",
+   "_research_rank": 77
   },
   {
    "id": "utahstate",
@@ -5985,7 +6382,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.032,
    "debt_avg": 14340,
-   "research_spend_m": 200,
+   "research_spend_m": 451.38,
    "alumni_network_k": 280,
    "score": 61.0,
    "filings": {
@@ -5993,7 +6390,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Mountain West",
@@ -6011,7 +6408,10 @@
    "scorecard_name": "Utah State University",
    "scorecard_city": "Logan",
    "_endowment_source": "Utah Board of Higher Education memorandum (Mar 27, 2025): 'about $640 million in its endowment' (FY2024 yearend holdings)",
-   "_endowment_scope": "approximate - source wording"
+   "_endowment_scope": "approximate - source wording",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Utah State U.",
+   "_research_rank": 81
   },
   {
    "id": "davidson",
@@ -6032,7 +6432,7 @@
    "pell_gap": 0.03,
    "loan_default": 0.024,
    "debt_avg": 18688,
-   "research_spend_m": 5,
+   "research_spend_m": 4.53,
    "alumni_network_k": 25,
    "score": 75.5,
    "filings": {
@@ -6040,7 +6440,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "A-10",
@@ -6057,7 +6457,10 @@
    "scorecard_name": "Davidson College",
    "scorecard_city": "Davidson",
    "admission_rate": 0.1337,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Davidson C.",
+   "_research_rank": 481
   },
   {
    "id": "fresnostate",
@@ -6078,7 +6481,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.033,
    "debt_avg": 14505,
-   "research_spend_m": 200,
+   "research_spend_m": 14.41,
    "alumni_network_k": 190,
    "score": 63.1,
    "filings": {
@@ -6086,7 +6489,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Mountain West",
@@ -6103,7 +6506,10 @@
    "scorecard_id": 110556,
    "scorecard_name": "California State University-Fresno",
    "scorecard_city": "Fresno",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "California State U., Fresno",
+   "_research_rank": 337
   },
   {
    "id": "denver",
@@ -6124,7 +6530,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.038,
    "debt_avg": 21844,
-   "research_spend_m": 100,
+   "research_spend_m": 55.63,
    "alumni_network_k": 90,
    "score": 68.2,
    "filings": {
@@ -6132,7 +6538,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "Summit",
@@ -6149,7 +6555,10 @@
    "scorecard_id": 127060,
    "scorecard_name": "University of Denver",
    "scorecard_city": "Denver",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Denver",
+   "_research_rank": 230
   },
   {
    "id": "depaul",
@@ -6170,7 +6579,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.047,
    "debt_avg": 23168,
-   "research_spend_m": 80,
+   "research_spend_m": 10.52,
    "alumni_network_k": 180,
    "score": 66.8,
    "filings": {
@@ -6178,7 +6587,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "Big East",
@@ -6195,7 +6604,10 @@
    "scorecard_id": 144740,
    "scorecard_name": "DePaul University",
    "scorecard_city": "Chicago",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "DePaul U.",
+   "_research_rank": 372
   },
   {
    "id": "fiu",
@@ -6216,7 +6628,7 @@
    "pell_gap": 0.11,
    "loan_default": 0.05,
    "debt_avg": 16500,
-   "research_spend_m": 300,
+   "research_spend_m": 325.79,
    "alumni_network_k": 300,
    "score": 64.3,
    "filings": {
@@ -6224,7 +6636,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "CUSA",
@@ -6241,7 +6653,10 @@
    "scorecard_id": 133951,
    "scorecard_name": "Florida International University",
    "scorecard_city": "Miami",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Florida International U.",
+   "_research_rank": 105
   },
   {
    "id": "georgia",
@@ -6262,7 +6677,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.033,
    "debt_avg": 18500,
-   "research_spend_m": 500,
+   "research_spend_m": 628.12,
    "alumni_network_k": 360,
    "score": 70.1,
    "filings": {
@@ -6270,7 +6685,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "SEC",
@@ -6287,7 +6702,10 @@
    "scorecard_id": 139959,
    "scorecard_name": "University of Georgia",
    "scorecard_city": "Athens",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Georgia",
+   "_research_rank": 60
   },
   {
    "id": "harveymudd",
@@ -6308,7 +6726,7 @@
    "pell_gap": 0.02,
    "loan_default": 0.018,
    "debt_avg": 25000,
-   "research_spend_m": 10,
+   "research_spend_m": 3.9,
    "alumni_network_k": 10,
    "score": 94.9,
    "filings": {
@@ -6316,7 +6734,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "SCIAC",
@@ -6333,7 +6751,10 @@
    "scorecard_id": 115409,
    "scorecard_name": "Harvey Mudd College",
    "scorecard_city": "Claremont",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Harvey Mudd C.",
+   "_research_rank": 498
   },
   {
    "id": "illinoischicago",
@@ -6354,7 +6775,7 @@
    "pell_gap": 0.1,
    "loan_default": 0.046,
    "debt_avg": 16704,
-   "research_spend_m": 400,
+   "research_spend_m": 532.18,
    "alumni_network_k": 300,
    "score": 66.3,
    "filings": {
@@ -6362,7 +6783,7 @@
     "990": "n/a-public",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "MVC",
@@ -6379,7 +6800,10 @@
    "scorecard_id": 145600,
    "scorecard_name": "University of Illinois Chicago",
    "scorecard_city": "Chicago",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Illinois, Chicago",
+   "_research_rank": 67
   },
   {
    "id": "williams",
@@ -6400,7 +6824,7 @@
    "pell_gap": 0.02,
    "loan_default": 0.015,
    "debt_avg": 14000,
-   "research_spend_m": 8,
+   "research_spend_m": 7.07,
    "alumni_network_k": 22,
    "score": 80.2,
    "filings": {
@@ -6408,7 +6832,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "NESCAC",
@@ -6424,7 +6848,10 @@
    "pell_rate": 0.1643,
    "scorecard_name": "Williams College",
    "scorecard_city": "Williamstown",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Williams C.",
+   "_research_rank": 415
   },
   {
    "id": "amherst",
@@ -6445,7 +6872,7 @@
    "pell_gap": 0.02,
    "loan_default": 0.014,
    "debt_avg": 13740,
-   "research_spend_m": 7,
+   "research_spend_m": 8.67,
    "alumni_network_k": 21,
    "score": 76.0,
    "filings": {
@@ -6453,7 +6880,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "NESCAC",
@@ -6470,7 +6897,10 @@
    "scorecard_id": 164465,
    "scorecard_name": "Amherst College",
    "scorecard_city": "Amherst",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Amherst C.",
+   "_research_rank": 389
   },
   {
    "id": "swarthmore",
@@ -6491,7 +6921,7 @@
    "pell_gap": 0.03,
    "loan_default": 0.016,
    "debt_avg": 17500,
-   "research_spend_m": 9,
+   "research_spend_m": 6.07,
    "alumni_network_k": 20,
    "score": 76.7,
    "filings": {
@@ -6499,7 +6929,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "Centennial",
@@ -6516,7 +6946,10 @@
    "scorecard_id": 216287,
    "scorecard_name": "Swarthmore College",
    "scorecard_city": "Swarthmore",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Swarthmore C.",
+   "_research_rank": 435
   },
   {
    "id": "pomona",
@@ -6537,7 +6970,7 @@
    "pell_gap": 0.02,
    "loan_default": 0.015,
    "debt_avg": 11782,
-   "research_spend_m": 10,
+   "research_spend_m": 5.52,
    "alumni_network_k": 23,
    "score": 76.0,
    "filings": {
@@ -6545,7 +6978,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "SCIAC",
@@ -6561,7 +6994,10 @@
    "scorecard_name": "Pomona College",
    "scorecard_city": "Claremont",
    "admission_rate": 0.0709,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Pomona C.",
+   "_research_rank": 457
   },
   {
    "id": "wellesley",
@@ -6582,7 +7018,7 @@
    "pell_gap": 0.03,
    "loan_default": 0.018,
    "debt_avg": 10000,
-   "research_spend_m": 6,
+   "research_spend_m": 6.99,
    "alumni_network_k": 35,
    "score": 78.0,
    "filings": {
@@ -6590,7 +7026,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "NEWMAC",
@@ -6607,7 +7043,10 @@
    "scorecard_id": 168218,
    "scorecard_name": "Wellesley College",
    "scorecard_city": "Wellesley",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Wellesley C.",
+   "_research_rank": 418
   },
   {
    "id": "bowdoin",
@@ -6628,7 +7067,7 @@
    "pell_gap": 0.02,
    "loan_default": 0.016,
    "debt_avg": 18500,
-   "research_spend_m": 5,
+   "research_spend_m": 3.41,
    "alumni_network_k": 20,
    "score": 77.8,
    "filings": {
@@ -6636,7 +7075,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "NESCAC",
@@ -6653,7 +7092,10 @@
    "scorecard_id": 161004,
    "scorecard_name": "Bowdoin College",
    "scorecard_city": "Brunswick",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Bowdoin C.",
+   "_research_rank": 525
   },
   {
    "id": "middlebury",
@@ -6674,7 +7116,7 @@
    "pell_gap": 0.03,
    "loan_default": 0.017,
    "debt_avg": 13857,
-   "research_spend_m": 6,
+   "research_spend_m": 3.58,
    "alumni_network_k": 28,
    "score": 75.2,
    "filings": {
@@ -6682,7 +7124,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "NESCAC",
@@ -6699,13 +7141,16 @@
    "scorecard_id": 230959,
    "scorecard_name": "Middlebury College",
    "scorecard_city": "Middlebury",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Middlebury C.",
+   "_research_rank": 517
   },
   {
    "id": "wesleyan",
    "name": "Wesleyan University",
    "control": "private",
-   "state": "VA",
+   "state": "CT",
    "carnegie": "Baccalaureate",
    "enrollment_fte": 3100,
    "endowment_b": 1.64,
@@ -6720,7 +7165,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.019,
    "debt_avg": 17000,
-   "research_spend_m": 12,
+   "research_spend_m": 10.82,
    "alumni_network_k": 32,
    "score": 74.3,
    "filings": {
@@ -6728,7 +7173,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "NESCAC",
@@ -6745,7 +7190,10 @@
    "scorecard_id": 130697,
    "scorecard_name": "Wesleyan University",
    "scorecard_city": "Middletown",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Wesleyan U.",
+   "_research_rank": 369
   },
   {
    "id": "vassar",
@@ -6766,7 +7214,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.02,
    "debt_avg": 18625,
-   "research_spend_m": 5,
+   "research_spend_m": 3.77,
    "alumni_network_k": 30,
    "score": 73.2,
    "filings": {
@@ -6774,7 +7222,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "Liberty",
@@ -6791,13 +7239,16 @@
    "scorecard_id": 197133,
    "scorecard_name": "Vassar College",
    "scorecard_city": "Poughkeepsie",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Vassar C.",
+   "_research_rank": 508
   },
   {
    "id": "colby",
    "name": "Colby College",
    "control": "private",
-   "state": "NH",
+   "state": "ME",
    "carnegie": "Baccalaureate",
    "enrollment_fte": 2200,
    "endowment_b": 1.25,
@@ -6812,7 +7263,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.003,
    "debt_avg": 19157,
-   "research_spend_m": 4,
+   "research_spend_m": 4.51,
    "alumni_network_k": 24,
    "score": 76.5,
    "filings": {
@@ -6820,7 +7271,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "NESCAC",
@@ -6838,7 +7289,10 @@
    "scorecard_id": 161086,
    "scorecard_name": "Colby College",
    "scorecard_city": "Waterville",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Colby C.",
+   "_research_rank": 482
   },
   {
    "id": "cincinnati",
@@ -6859,7 +7313,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.035,
    "debt_avg": 21250,
-   "research_spend_m": 620,
+   "research_spend_m": 739.88,
    "alumni_network_k": 320,
    "score": 62.6,
    "filings": {
@@ -6867,7 +7321,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big 12",
@@ -6884,13 +7338,16 @@
    "scorecard_id": 201885,
    "scorecard_name": "University of Cincinnati-Main Campus",
    "scorecard_city": "Cincinnati",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Cincinnati",
+   "_research_rank": 51
   },
   {
    "id": "dayton",
    "name": "University of Dayton",
    "control": "private",
-   "state": "FL",
+   "state": "OH",
    "carnegie": "R2",
    "enrollment_fte": 10500,
    "endowment_b": 0.919,
@@ -6905,7 +7362,7 @@
    "pell_gap": 0.05,
    "loan_default": 0.028,
    "debt_avg": 23250,
-   "research_spend_m": 160,
+   "research_spend_m": 252.54,
    "alumni_network_k": 115,
    "score": 70.7,
    "filings": {
@@ -6913,7 +7370,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "A-10",
@@ -6930,7 +7387,10 @@
    "scorecard_id": 202480,
    "scorecard_name": "University of Dayton",
    "scorecard_city": "Dayton",
-   "_endowment_source": "University of Dayton official endowment page (retrieved 2026-09-07): '$919 million: The value of UD\\u2019s endowment'"
+   "_endowment_source": "University of Dayton official endowment page (retrieved 2026-09-07): '$919 million: The value of UD\\u2019s endowment'",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Dayton",
+   "_research_rank": 128
   },
   {
    "id": "loyolachicago",
@@ -6951,7 +7411,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.032,
    "debt_avg": 24157,
-   "research_spend_m": 70,
+   "research_spend_m": 61.45,
    "alumni_network_k": 150,
    "score": 68.1,
    "filings": {
@@ -6959,7 +7419,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "A-10",
@@ -6975,7 +7435,10 @@
    "pell_rate": 0.2375,
    "scorecard_name": "Loyola University Chicago",
    "scorecard_city": "Chicago",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Loyola U., Chicago",
+   "_research_rank": 223
   },
   {
    "id": "slu",
@@ -6996,7 +7459,7 @@
    "pell_gap": 0.05,
    "loan_default": 0.03,
    "debt_avg": 25000,
-   "research_spend_m": 85,
+   "research_spend_m": 95.83,
    "alumni_network_k": 130,
    "score": 68.7,
    "filings": {
@@ -7004,7 +7467,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "A-10",
@@ -7021,7 +7484,10 @@
    "scorecard_id": 179159,
    "scorecard_name": "Saint Louis University",
    "scorecard_city": "Saint Louis",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Saint Louis U.",
+   "_research_rank": 181
   },
   {
    "id": "usfca",
@@ -7042,7 +7508,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.029,
    "debt_avg": 23000,
-   "research_spend_m": 20,
+   "research_spend_m": 10.96,
    "alumni_network_k": 110,
    "score": 74.7,
    "filings": {
@@ -7050,7 +7516,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "conference": "WCC",
@@ -7066,7 +7532,10 @@
    "enrollment_fte_real": 5287,
    "admission_rate": 0.6171,
    "pell_rate": 0.2796,
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. San Francisco",
+   "_research_rank": 365
   },
   {
    "id": "sdsu",
@@ -7087,7 +7556,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.031,
    "debt_avg": 15000,
-   "research_spend_m": 150,
+   "research_spend_m": 181.6,
    "alumni_network_k": 300,
    "score": 67.7,
    "filings": {
@@ -7095,7 +7564,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Mountain West",
@@ -7112,7 +7581,10 @@
    "scorecard_id": 122409,
    "scorecard_name": "San Diego State University",
    "scorecard_city": "San Diego",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "San Diego State U.",
+   "_research_rank": 148
   },
   {
    "id": "sjsu",
@@ -7133,7 +7605,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.034,
    "debt_avg": 15000,
-   "research_spend_m": 70,
+   "research_spend_m": 88.12,
    "alumni_network_k": 280,
    "score": 70.3,
    "filings": {
@@ -7141,7 +7613,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Mountain West",
@@ -7158,7 +7630,10 @@
    "scorecard_id": 122755,
    "scorecard_name": "San Jose State University",
    "scorecard_city": "San Jose",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "San Jose State U.",
+   "_research_rank": 188
   },
   {
    "id": "unlv",
@@ -7179,7 +7654,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.042,
    "debt_avg": 19450,
-   "research_spend_m": 90,
+   "research_spend_m": 118.05,
    "alumni_network_k": 140,
    "score": 60.2,
    "filings": {
@@ -7187,7 +7662,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Mountain West",
@@ -7204,7 +7679,10 @@
    "scorecard_id": 182281,
    "scorecard_name": "University of Nevada-Las Vegas",
    "scorecard_city": "Las Vegas",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Nevada, Las Vegas",
+   "_research_rank": 173
   },
   {
    "id": "unr",
@@ -7225,7 +7703,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.038,
    "debt_avg": 18922,
-   "research_spend_m": 140,
+   "research_spend_m": 194.13,
    "alumni_network_k": 110,
    "score": 63.6,
    "filings": {
@@ -7233,7 +7711,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Mountain West",
@@ -7250,7 +7728,10 @@
    "scorecard_id": 182290,
    "scorecard_name": "University of Nevada-Reno",
    "scorecard_city": "Reno",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Nevada, Reno",
+   "_research_rank": 145
   },
   {
    "id": "wyoming",
@@ -7271,7 +7752,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.036,
    "debt_avg": 18000,
-   "research_spend_m": 110,
+   "research_spend_m": 167.31,
    "alumni_network_k": 65,
    "score": 61.3,
    "filings": {
@@ -7279,7 +7760,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Mountain West",
@@ -7297,7 +7778,10 @@
    "scorecard_name": "University of Wyoming",
    "scorecard_city": "Laramie",
    "_endowment_source": "University of Wyoming Foundation audited FY2025 statements: Total managed endowments $857,427,086 at June 30, 2025",
-   "_endowment_scope": "Total managed endowments; includes $347,598,365 custodial endowment corpus held by Foundation for the University"
+   "_endowment_scope": "Total managed endowments; includes $347,598,365 custodial endowment corpus held by Foundation for the University",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Wyoming",
+   "_research_rank": 153
   },
   {
    "id": "uvm",
@@ -7318,7 +7802,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.03,
    "debt_avg": 20951,
-   "research_spend_m": 210,
+   "research_spend_m": 246.24,
    "alumni_network_k": 115,
    "score": 66.1,
    "filings": {
@@ -7326,7 +7810,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "America East",
@@ -7343,7 +7827,10 @@
    "scorecard_id": 231174,
    "scorecard_name": "University of Vermont",
    "scorecard_city": "Burlington",
-   "_endowment_source": "University of Vermont Foundation FY2025 endowment overview: UVM ENDOWMENT - 6/30/2025 972,473,524"
+   "_endowment_source": "University of Vermont Foundation FY2025 endowment overview: UVM ENDOWMENT - 6/30/2025 972,473,524",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Vermont",
+   "_research_rank": 130
   },
   {
    "id": "unh",
@@ -7364,7 +7851,7 @@
    "pell_gap": 0.06,
    "loan_default": 0.029,
    "debt_avg": 26814,
-   "research_spend_m": 180,
+   "research_spend_m": 230.22,
    "alumni_network_k": 130,
    "score": 66.5,
    "filings": {
@@ -7372,7 +7859,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "America East",
@@ -7390,7 +7877,10 @@
    "scorecard_name": "University of New Hampshire-Main Campus",
    "scorecard_city": "Durham",
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
-   "_endowment_scope": "USNH system"
+   "_endowment_scope": "USNH system",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. New Hampshire",
+   "_research_rank": 136
   },
   {
    "id": "maine",
@@ -7411,7 +7901,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.035,
    "debt_avg": 25000,
-   "research_spend_m": 180,
+   "research_spend_m": 198.87,
    "alumni_network_k": 105,
    "score": 58.2,
    "filings": {
@@ -7419,7 +7909,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "America East",
@@ -7436,7 +7926,10 @@
    "scorecard_name": "University of Maine",
    "scorecard_city": "Orono",
    "admission_rate": 0.9664,
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Maine",
+   "_research_rank": 142
   },
   {
    "id": "uri",
@@ -7457,7 +7950,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.032,
    "debt_avg": 22250,
-   "research_spend_m": 110,
+   "research_spend_m": 137.46,
    "alumni_network_k": 125,
    "score": 67.8,
    "filings": {
@@ -7465,7 +7958,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "A-10",
@@ -7481,7 +7974,10 @@
    "pell_rate": 0.2176,
    "scorecard_name": "University of Rhode Island",
    "scorecard_city": "Kingston",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Rhode Island",
+   "_research_rank": 167
   },
   {
    "id": "hawaii",
@@ -7502,7 +7998,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.036,
    "debt_avg": 18500,
-   "research_spend_m": 340,
+   "research_spend_m": 375.63,
    "alumni_network_k": 190,
    "score": 62.4,
    "filings": {
@@ -7510,7 +8006,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big West",
@@ -7527,7 +8023,10 @@
    "scorecard_id": 141574,
    "scorecard_name": "University of Hawaii at Manoa",
    "scorecard_city": "Honolulu",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Hawaii, Manoa",
+   "_research_rank": 93
   },
   {
    "id": "montanastate",
@@ -7548,7 +8047,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.034,
    "debt_avg": 22500,
-   "research_spend_m": 200,
+   "research_spend_m": 257.93,
    "alumni_network_k": 85,
    "score": 60.3,
    "filings": {
@@ -7556,7 +8055,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big Sky",
@@ -7573,7 +8072,10 @@
    "scorecard_name": "Montana State University",
    "scorecard_city": "Bozeman",
    "admission_rate": 0.8214,
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Montana State U., Bozeman",
+   "_research_rank": 124
   },
   {
    "id": "montana",
@@ -7594,7 +8096,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.038,
    "debt_avg": 22400,
-   "research_spend_m": 95,
+   "research_spend_m": 143.81,
    "alumni_network_k": 75,
    "score": 56.1,
    "filings": {
@@ -7602,7 +8104,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big Sky",
@@ -7619,7 +8121,10 @@
    "scorecard_id": 180489,
    "scorecard_name": "The University of Montana",
    "scorecard_city": "Missoula",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Montana, Missoula",
+   "_research_rank": 162
   },
   {
    "id": "ndsu",
@@ -7640,7 +8145,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.032,
    "debt_avg": 23199,
-   "research_spend_m": 180,
+   "research_spend_m": 199.88,
    "alumni_network_k": 95,
    "score": 63.6,
    "filings": {
@@ -7648,7 +8153,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Summit",
@@ -7665,7 +8170,10 @@
    "scorecard_id": 200332,
    "scorecard_name": "North Dakota State University-Main Campus",
    "scorecard_city": "Fargo",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "North Dakota State U.",
+   "_research_rank": 141
   },
   {
    "id": "und",
@@ -7686,7 +8194,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.033,
    "debt_avg": 22057,
-   "research_spend_m": 120,
+   "research_spend_m": 197.43,
    "alumni_network_k": 110,
    "score": 64.3,
    "filings": {
@@ -7694,7 +8202,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Summit",
@@ -7710,7 +8218,10 @@
    "pell_rate": 0.1715,
    "scorecard_name": "University of North Dakota",
    "scorecard_city": "Grand Forks",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. North Dakota",
+   "_research_rank": 144
   },
   {
    "id": "sdstate",
@@ -7731,7 +8242,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.031,
    "debt_avg": 23250,
-   "research_spend_m": 70,
+   "research_spend_m": 82.25,
    "alumni_network_k": 75,
    "score": 60.9,
    "filings": {
@@ -7739,7 +8250,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Summit",
@@ -7756,7 +8267,10 @@
    "scorecard_id": 219356,
    "scorecard_name": "South Dakota State University",
    "scorecard_city": "Brookings",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "South Dakota State U.",
+   "_research_rank": 192
   },
   {
    "id": "boisestate",
@@ -7777,7 +8291,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.037,
    "debt_avg": 20500,
-   "research_spend_m": 70,
+   "research_spend_m": 57.75,
    "alumni_network_k": 95,
    "score": 59.9,
    "filings": {
@@ -7785,7 +8299,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Mountain West",
@@ -7802,7 +8316,10 @@
    "scorecard_id": 142115,
    "scorecard_name": "Boise State University",
    "scorecard_city": "Boise",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Boise State U.",
+   "_research_rank": 227
   },
   {
    "id": "idaho",
@@ -7823,7 +8340,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.034,
    "debt_avg": 21982,
-   "research_spend_m": 120,
+   "research_spend_m": 140.41,
    "alumni_network_k": 90,
    "score": 61.1,
    "filings": {
@@ -7831,7 +8348,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Big Sky",
@@ -7848,7 +8365,10 @@
    "scorecard_name": "University of Idaho",
    "scorecard_city": "Moscow",
    "admission_rate": 0.7553,
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Idaho",
+   "_research_rank": 164
   },
   {
    "id": "nmsu",
@@ -7869,7 +8389,7 @@
    "pell_gap": 0.1,
    "loan_default": 0.04,
    "debt_avg": 17095,
-   "research_spend_m": 150,
+   "research_spend_m": 142.87,
    "alumni_network_k": 125,
    "score": 55.0,
    "filings": {
@@ -7877,7 +8397,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "CUSA",
@@ -7894,7 +8414,10 @@
    "scorecard_id": 188030,
    "scorecard_name": "New Mexico State University-Main Campus",
    "scorecard_city": "Las Cruces",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "New Mexico State U.",
+   "_research_rank": 163
   },
   {
    "id": "txstate",
@@ -7915,7 +8438,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.038,
    "debt_avg": 21000,
-   "research_spend_m": 110,
+   "research_spend_m": 165.05,
    "alumni_network_k": 200,
    "score": 61.4,
    "filings": {
@@ -7923,7 +8446,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Sun Belt",
@@ -7941,7 +8464,10 @@
    "scorecard_name": "Texas State University",
    "scorecard_city": "San Marcos",
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
-   "_endowment_scope": "TSU System"
+   "_endowment_scope": "TSU System",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Texas State U.",
+   "_research_rank": 155
   },
   {
    "id": "unt",
@@ -7962,7 +8488,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.037,
    "debt_avg": 19250,
-   "research_spend_m": 90,
+   "research_spend_m": 124.22,
    "alumni_network_k": 260,
    "score": 62.4,
    "filings": {
@@ -7970,7 +8496,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "AAC",
@@ -7986,7 +8512,10 @@
    "net_price_avg_real": 15649,
    "admission_rate": 0.7223,
    "avg_family_income": 58313,
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. North Texas, Denton",
+   "_research_rank": 171
   },
   {
    "id": "uta",
@@ -8007,7 +8536,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.039,
    "debt_avg": 17527,
-   "research_spend_m": 140,
+   "research_spend_m": 153.78,
    "alumni_network_k": 250,
    "score": 63.6,
    "filings": {
@@ -8015,7 +8544,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "WAC",
@@ -8032,7 +8561,10 @@
    "scorecard_id": 228769,
    "scorecard_name": "The University of Texas at Arlington",
    "scorecard_city": "Arlington",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Texas, Arlington",
+   "_research_rank": 160
   },
   {
    "id": "utdallas",
@@ -8053,7 +8585,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.03,
    "debt_avg": 18000,
-   "research_spend_m": 140,
+   "research_spend_m": 181.79,
    "alumni_network_k": 130,
    "score": 67.8,
    "filings": {
@@ -8061,7 +8593,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Lone Star",
@@ -8078,7 +8610,10 @@
    "scorecard_id": 228787,
    "scorecard_name": "The University of Texas at Dallas",
    "scorecard_city": "Richardson",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Texas, Dallas",
+   "_research_rank": 147
   },
   {
    "id": "utsa",
@@ -8099,7 +8634,7 @@
    "pell_gap": 0.1,
    "loan_default": 0.04,
    "debt_avg": 20500,
-   "research_spend_m": 140,
+   "research_spend_m": 171.53,
    "alumni_network_k": 140,
    "score": 61.2,
    "filings": {
@@ -8107,7 +8642,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "AAC",
@@ -8124,7 +8659,10 @@
    "scorecard_id": 229027,
    "scorecard_name": "The University of Texas at San Antonio",
    "scorecard_city": "San Antonio",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Texas, San Antonio",
+   "_research_rank": 151
   },
   {
    "id": "fau",
@@ -8145,7 +8683,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.038,
    "debt_avg": 17236,
-   "research_spend_m": 70,
+   "research_spend_m": 87.91,
    "alumni_network_k": 180,
    "score": 62.6,
    "filings": {
@@ -8153,7 +8691,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "AAC",
@@ -8170,7 +8708,10 @@
    "scorecard_id": 133669,
    "scorecard_name": "Florida Atlantic University",
    "scorecard_city": "Boca Raton",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Florida Atlantic U.",
+   "_research_rank": 189
   },
   {
    "id": "memphis",
@@ -8191,7 +8732,7 @@
    "pell_gap": 0.1,
    "loan_default": 0.042,
    "debt_avg": 23300,
-   "research_spend_m": 70,
+   "research_spend_m": 108.86,
    "alumni_network_k": 130,
    "score": 58.6,
    "filings": {
@@ -8199,7 +8740,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "AAC",
@@ -8216,7 +8757,10 @@
    "scorecard_id": 220862,
    "scorecard_name": "University of Memphis",
    "scorecard_city": "Memphis",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Memphis",
+   "_research_rank": 176
   },
   {
    "id": "akron",
@@ -8237,7 +8781,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.041,
    "debt_avg": 23250,
-   "research_spend_m": 70,
+   "research_spend_m": 24.57,
    "alumni_network_k": 160,
    "score": 58.2,
    "filings": {
@@ -8245,7 +8789,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "MAC",
@@ -8262,7 +8806,10 @@
    "scorecard_id": 200800,
    "scorecard_name": "University of Akron Main Campus",
    "scorecard_city": "Akron",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Akron",
+   "_research_rank": 295
   },
   {
    "id": "toledo",
@@ -8283,7 +8830,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.039,
    "debt_avg": 22250,
-   "research_spend_m": 70,
+   "research_spend_m": 73.2,
    "alumni_network_k": 150,
    "score": 59.1,
    "filings": {
@@ -8291,7 +8838,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "MAC",
@@ -8308,7 +8855,10 @@
    "scorecard_id": 206084,
    "scorecard_name": "University of Toledo",
    "scorecard_city": "Toledo",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Toledo",
+   "_research_rank": 206
   },
   {
    "id": "kentstate",
@@ -8329,7 +8879,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.038,
    "debt_avg": 24500,
-   "research_spend_m": 40,
+   "research_spend_m": 61.44,
    "alumni_network_k": 240,
    "score": 58.2,
    "filings": {
@@ -8337,7 +8887,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "MAC",
@@ -8354,7 +8904,10 @@
    "scorecard_id": 203517,
    "scorecard_name": "Kent State University at Kent",
    "scorecard_city": "Kent",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Kent State U.",
+   "_research_rank": 224
   },
   {
    "id": "bgsu",
@@ -8375,7 +8928,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.037,
    "debt_avg": 25000,
-   "research_spend_m": 25,
+   "research_spend_m": 19.61,
    "alumni_network_k": 180,
    "score": 59.1,
    "filings": {
@@ -8383,7 +8936,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "MAC",
@@ -8400,7 +8953,10 @@
    "scorecard_id": 201441,
    "scorecard_name": "Bowling Green State University-Main Campus",
    "scorecard_city": "Bowling Green",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Bowling Green State U.",
+   "_research_rank": 313
   },
   {
    "id": "ohiou",
@@ -8421,7 +8977,7 @@
    "pell_gap": 0.07,
    "loan_default": 0.036,
    "debt_avg": 21056,
-   "research_spend_m": 70,
+   "research_spend_m": 67.43,
    "alumni_network_k": 290,
    "score": 60.9,
    "filings": {
@@ -8429,7 +8985,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "MAC",
@@ -8446,7 +9002,10 @@
    "scorecard_id": 204857,
    "scorecard_name": "Ohio University-Main Campus",
    "scorecard_city": "Athens",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Ohio U.",
+   "_research_rank": 215
   },
   {
    "id": "miamioh",
@@ -8467,7 +9026,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.027,
    "debt_avg": 23000,
-   "research_spend_m": 35,
+   "research_spend_m": 28.57,
    "alumni_network_k": 210,
    "score": 63.5,
    "filings": {
@@ -8475,7 +9034,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "MAC",
@@ -8492,7 +9051,10 @@
    "scorecard_id": 204024,
    "scorecard_name": "Miami University-Oxford",
    "scorecard_city": "Oxford",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Miami U.",
+   "_research_rank": 279
   },
   {
    "id": "umkc",
@@ -8513,7 +9075,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.036,
    "debt_avg": 18750,
-   "research_spend_m": 40,
+   "research_spend_m": 57.03,
    "alumni_network_k": 85,
    "score": 62.7,
    "filings": {
@@ -8521,7 +9083,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Summit",
@@ -8538,7 +9100,10 @@
    "scorecard_id": 178402,
    "scorecard_name": "University of Missouri-Kansas City",
    "scorecard_city": "Kansas City",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Missouri, Kansas City",
+   "_research_rank": 229
   },
   {
    "id": "uwmilwaukee",
@@ -8559,7 +9124,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.038,
    "debt_avg": 23000,
-   "research_spend_m": 70,
+   "research_spend_m": 66.27,
    "alumni_network_k": 180,
    "score": 60.0,
    "filings": {
@@ -8567,7 +9132,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "Horizon",
@@ -8584,7 +9149,10 @@
    "scorecard_id": 240453,
    "scorecard_name": "University of Wisconsin-Milwaukee",
    "scorecard_city": "Milwaukee",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Wisconsin-Milwaukee",
+   "_research_rank": 216
   },
   {
    "id": "uab",
@@ -8605,7 +9173,7 @@
    "pell_gap": 0.09,
    "loan_default": 0.037,
    "debt_avg": 22300,
-   "research_spend_m": 700,
+   "research_spend_m": 865.87,
    "alumni_network_k": 145,
    "score": 61.4,
    "filings": {
@@ -8613,7 +9181,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "conference": "AAC",
@@ -8630,7 +9198,10 @@
    "scorecard_id": 100663,
    "scorecard_name": "University of Alabama at Birmingham",
    "scorecard_city": "Birmingham",
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Alabama, Birmingham",
+   "_research_rank": 45
   },
   {
    "id": "tcu",
@@ -8645,7 +9216,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "enrollment_fte": 11000,
@@ -8661,7 +9232,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.025,
    "debt_avg": 21500,
-   "research_spend_m": 60,
+   "research_spend_m": 27.66,
    "alumni_network_k": 100,
    "_earnings_source": "scorecard",
    "score": 69.4,
@@ -8676,7 +9247,10 @@
    "avg_family_income": 109988,
    "grad_rate_6yr_real": 0.8551,
    "enrollment_fte_real": 11026,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Texas Christian U.",
+   "_research_rank": 283
   },
   {
    "id": "syracuse",
@@ -8691,7 +9265,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "enrollment_fte": 21000,
@@ -8707,7 +9281,7 @@
    "pell_gap": 0.05,
    "loan_default": 0.027,
    "debt_avg": 26000,
-   "research_spend_m": 90,
+   "research_spend_m": 198.75,
    "alumni_network_k": 250,
    "median_earn_10yr_real": 79164,
    "_earnings_source": "scorecard",
@@ -8722,7 +9296,10 @@
    "scorecard_name": "Syracuse University",
    "scorecard_city": "Syracuse",
    "score": 72.8,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Syracuse U.",
+   "_research_rank": 143
   },
   {
    "id": "arkansas",
@@ -8737,7 +9314,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "enrollment_fte": 30000,
@@ -8753,7 +9330,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.033,
    "debt_avg": 21500,
-   "research_spend_m": 200,
+   "research_spend_m": 230.63,
    "alumni_network_k": 170,
    "median_earn_10yr_real": 58191,
    "_earnings_source": "scorecard",
@@ -8768,7 +9345,10 @@
    "scorecard_name": "University of Arkansas",
    "scorecard_city": "Fayetteville",
    "score": 63.6,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Arkansas, Fayetteville",
+   "_research_rank": 135
   },
   {
    "id": "olemiss",
@@ -8783,7 +9363,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "enrollment_fte": 21000,
@@ -8799,7 +9379,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.034,
    "debt_avg": 20000,
-   "research_spend_m": 120,
+   "research_spend_m": 189.91,
    "alumni_network_k": 150,
    "_earnings_source": "scorecard",
    "score": 60.6,
@@ -8814,7 +9394,10 @@
    "scorecard_id": 176017,
    "scorecard_name": "University of Mississippi",
    "scorecard_city": "University",
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "U. Mississippi",
+   "_research_rank": 146
   },
   {
    "id": "mississippistate",
@@ -8829,7 +9412,7 @@
     "990": "n/a",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "2024"
    },
    "enrollment_fte": 22000,
@@ -8845,7 +9428,7 @@
    "pell_gap": 0.08,
    "loan_default": 0.033,
    "debt_avg": 22142,
-   "research_spend_m": 300,
+   "research_spend_m": 342.13,
    "alumni_network_k": 150,
    "median_earn_10yr_real": 51513,
    "_earnings_source": "scorecard",
@@ -8860,7 +9443,10 @@
    "scorecard_name": "Mississippi State University",
    "scorecard_city": "Mississippi State",
    "score": 60.8,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Mississippi State U.",
+   "_research_rank": 103
   },
   {
    "id": "creighton",
@@ -8875,7 +9461,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "enrollment_fte": 8200,
@@ -8891,7 +9477,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.026,
    "debt_avg": 25000,
-   "research_spend_m": 25,
+   "research_spend_m": 29.33,
    "alumni_network_k": 70,
    "median_earn_10yr_real": 73911,
    "_earnings_source": "scorecard",
@@ -8906,7 +9492,10 @@
    "scorecard_name": "Creighton University",
    "scorecard_city": "Omaha",
    "score": 70.0,
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Creighton U.",
+   "_research_rank": 277
   },
   {
    "id": "gonzaga",
@@ -8952,7 +9541,8 @@
    "scorecard_name": "Gonzaga University",
    "scorecard_city": "Spokane",
    "score": 71.9,
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "synthetic (placeholder)"
   },
   {
    "id": "marquette",
@@ -8967,7 +9557,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "enrollment_fte": 11500,
@@ -8983,7 +9573,7 @@
    "pell_gap": 0.05,
    "loan_default": 0.028,
    "debt_avg": 23940,
-   "research_spend_m": 35,
+   "research_spend_m": 49.1,
    "alumni_network_k": 110,
    "median_earn_10yr_real": 78257,
    "_earnings_source": "scorecard",
@@ -8998,7 +9588,10 @@
    "scorecard_name": "Marquette University",
    "scorecard_city": "Milwaukee",
    "score": 71.4,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Marquette U.",
+   "_research_rank": 239
   },
   {
    "id": "xavier",
@@ -9044,7 +9637,8 @@
    "scorecard_name": "Xavier University",
    "scorecard_city": "Cincinnati",
    "score": 65.5,
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "synthetic (placeholder)"
   },
   {
    "id": "butler",
@@ -9059,7 +9653,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "enrollment_fte": 5500,
@@ -9075,7 +9669,7 @@
    "pell_gap": 0.05,
    "loan_default": 0.029,
    "debt_avg": 26000,
-   "research_spend_m": 6,
+   "research_spend_m": 1.31,
    "alumni_network_k": 55,
    "median_earn_10yr_real": 77235,
    "_earnings_source": "scorecard",
@@ -9090,7 +9684,10 @@
    "scorecard_name": "Butler University",
    "scorecard_city": "Indianapolis",
    "score": 70.6,
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Butler U.",
+   "_research_rank": 643
   },
   {
    "id": "hamilton",
@@ -9105,7 +9702,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "enrollment_fte": 2050,
@@ -9121,7 +9718,7 @@
    "pell_gap": 0.03,
    "loan_default": 0.017,
    "debt_avg": 17000,
-   "research_spend_m": 4,
+   "research_spend_m": 3.66,
    "alumni_network_k": 24,
    "median_earn_10yr_real": 78411,
    "_earnings_source": "scorecard",
@@ -9136,7 +9733,10 @@
    "scorecard_name": "Hamilton College",
    "scorecard_city": "Clinton",
    "score": 75.8,
-   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)"
+   "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Hamilton C.",
+   "_research_rank": 513
   },
   {
    "id": "macalester",
@@ -9151,7 +9751,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "enrollment_fte": 2200,
@@ -9167,7 +9767,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.019,
    "debt_avg": 23000,
-   "research_spend_m": 5,
+   "research_spend_m": 1.95,
    "alumni_network_k": 26,
    "median_earn_10yr_real": 63878,
    "_earnings_source": "scorecard",
@@ -9182,7 +9782,10 @@
    "scorecard_name": "Macalester College",
    "scorecard_city": "Saint Paul",
    "score": 70.0,
-   "_endowment_source": "Macalester College official 2025 Facts & Figures: Endowment 6/30/25: $920 million"
+   "_endowment_source": "Macalester College official 2025 Facts & Figures: Endowment 6/30/25: $920 million",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Macalester C.",
+   "_research_rank": 591
   },
   {
    "id": "providence",
@@ -9197,7 +9800,7 @@
     "990": "2023",
     "audited": "2024",
     "scorecard": "full",
-    "herd": "2023",
+    "herd": "2024",
     "state_audit": "n/a"
    },
    "enrollment_fte": 4200,
@@ -9213,7 +9816,7 @@
    "pell_gap": 0.04,
    "loan_default": 0.026,
    "debt_avg": 27000,
-   "research_spend_m": 5,
+   "research_spend_m": 5.92,
    "alumni_network_k": 55,
    "median_earn_10yr_real": 87054,
    "_earnings_source": "scorecard",
@@ -9228,7 +9831,10 @@
    "scorecard_name": "Providence College",
    "scorecard_city": "Providence",
    "score": 77.0,
-   "_endowment_source": "synthetic (placeholder)"
+   "_endowment_source": "synthetic (placeholder)",
+   "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
+   "_research_herd_name": "Providence C.",
+   "_research_rank": 439
   }
  ]
 }

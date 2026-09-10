@@ -1,0 +1,4102 @@
+{
+ "_fetch_meta": {
+  "source": "nsf-herd",
+  "endpoint": "https://ncses.nsf.gov/pubs/nsf26304/assets/data-tables/tables/nsf26304-tab019.xlsx",
+  "fetched_at": "2026-09-10",
+  "note": "NSF NCSES HERD FY2024, Table 19: Higher education R&D expenditures at all institutions, ranked by all R&D expenditures, by source of funds. Dollars converted thousands->millions."
+ },
+ "institutions": [
+  {
+   "name": "All institutions",
+   "rank": null,
+   "rd_m": 117554.15,
+   "overall_rank": 1
+  },
+  {
+   "name": "Johns Hopkins U.a",
+   "rank": 1,
+   "rd_m": 4129.26,
+   "overall_rank": 2
+  },
+  {
+   "name": "Georgia Institute of Technology",
+   "rank": 2,
+   "rd_m": 1528.64,
+   "overall_rank": 16
+  },
+  {
+   "name": "U. Texas M. D. Anderson Cancer Center",
+   "rank": 3,
+   "rd_m": 1363.32,
+   "overall_rank": 24
+  },
+  {
+   "name": "Texas A&M U., College Station and Health Science Center",
+   "rank": 4,
+   "rd_m": 1393.83,
+   "overall_rank": 23
+  },
+  {
+   "name": "U. Wisconsin-Madison",
+   "rank": 5,
+   "rd_m": 1933.23,
+   "overall_rank": 6
+  },
+  {
+   "name": "U. Michigan, Ann Arbor",
+   "rank": 6,
+   "rd_m": 2110.96,
+   "overall_rank": 5
+  },
+  {
+   "name": "Pennsylvania State U., University Park and Hershey Medical Center",
+   "rank": 7,
+   "rd_m": 1302.97,
+   "overall_rank": 26
+  },
+  {
+   "name": "U. California, Berkeley",
+   "rank": 8,
+   "rd_m": 1126.78,
+   "overall_rank": 33
+  },
+  {
+   "name": "U. California, San Diego",
+   "rank": 9,
+   "rd_m": 1881.29,
+   "overall_rank": 8
+  },
+  {
+   "name": "U. Texas, Austin",
+   "rank": 10,
+   "rd_m": 1143.92,
+   "overall_rank": 32
+  },
+  {
+   "name": "Massachusetts Institute of Technology",
+   "rank": 11,
+   "rd_m": 1065.55,
+   "overall_rank": 34
+  },
+  {
+   "name": "Harvard U.",
+   "rank": 12,
+   "rd_m": 1494.53,
+   "overall_rank": 20
+  },
+  {
+   "name": "Arizona State U.",
+   "rank": 13,
+   "rd_m": 1003.27,
+   "overall_rank": 38
+  },
+  {
+   "name": "U. California, Los Angeles",
+   "rank": 14,
+   "rd_m": 1896.23,
+   "overall_rank": 7
+  },
+  {
+   "name": "U. Marylandb",
+   "rank": 15,
+   "rd_m": 1539.52,
+   "overall_rank": 15
+  },
+  {
+   "name": "Purdue U., West Lafayette",
+   "rank": 16,
+   "rd_m": 931.51,
+   "overall_rank": 40
+  },
+  {
+   "name": "Cornell U.",
+   "rank": 17,
+   "rd_m": 1613.63,
+   "overall_rank": 11
+  },
+  {
+   "name": "U. Minnesota, Twin Cities",
+   "rank": 18,
+   "rd_m": 1409.71,
+   "overall_rank": 22
+  },
+  {
+   "name": "U. Illinois, Urbana-Champaign",
+   "rank": 19,
+   "rd_m": 906.75,
+   "overall_rank": 41
+  },
+  {
+   "name": "Michigan State U.",
+   "rank": 20,
+   "rd_m": 931.85,
+   "overall_rank": 39
+  },
+  {
+   "name": "U. Southern California",
+   "rank": 21,
+   "rd_m": 1264.2,
+   "overall_rank": 28
+  },
+  {
+   "name": "U. Washington, Seattle",
+   "rank": 22,
+   "rd_m": 1691.3,
+   "overall_rank": 9
+  },
+  {
+   "name": "Ohio State U.",
+   "rank": 23,
+   "rd_m": 1581.57,
+   "overall_rank": 13
+  },
+  {
+   "name": "U. North Carolina, Chapel Hill",
+   "rank": 24,
+   "rd_m": 1598.75,
+   "overall_rank": 12
+  },
+  {
+   "name": "U. Colorado Boulder",
+   "rank": 25,
+   "rd_m": 717.92,
+   "overall_rank": 52
+  },
+  {
+   "name": "North Carolina State U.",
+   "rank": 26,
+   "rd_m": 717.0,
+   "overall_rank": 53
+  },
+  {
+   "name": "U. California, Davis",
+   "rank": 27,
+   "rd_m": 1005.76,
+   "overall_rank": 37
+  },
+  {
+   "name": "U. Arizona",
+   "rank": 28,
+   "rd_m": 1012.4,
+   "overall_rank": 36
+  },
+  {
+   "name": "U. Pennsylvania",
+   "rank": 29,
+   "rd_m": 2167.5,
+   "overall_rank": 3
+  },
+  {
+   "name": "U. Florida",
+   "rank": 30,
+   "rd_m": 1272.49,
+   "overall_rank": 27
+  },
+  {
+   "name": "Columbia U. in the City of New York",
+   "rank": 31,
+   "rd_m": 1449.54,
+   "overall_rank": 21
+  },
+  {
+   "name": "Virginia Polytechnic Institute and State U.",
+   "rank": 32,
+   "rd_m": 656.92,
+   "overall_rank": 57
+  },
+  {
+   "name": "Emory U.",
+   "rank": 33,
+   "rd_m": 1246.51,
+   "overall_rank": 30
+  },
+  {
+   "name": "U. Georgia",
+   "rank": 34,
+   "rd_m": 628.12,
+   "overall_rank": 60
+  },
+  {
+   "name": "Vanderbilt U. and Vanderbilt U. Medical Center",
+   "rank": 35,
+   "rd_m": 1327.87,
+   "overall_rank": 25
+  },
+  {
+   "name": "Princeton U.",
+   "rank": 36,
+   "rd_m": 558.62,
+   "overall_rank": 63
+  },
+  {
+   "name": "Boston U.",
+   "rank": 37,
+   "rd_m": 784.36,
+   "overall_rank": 49
+  },
+  {
+   "name": "U. Nebraska, Lincoln and Medical Center",
+   "rank": 38,
+   "rd_m": 657.47,
+   "overall_rank": 56
+  },
+  {
+   "name": "Carnegie Mellon U.",
+   "rank": 39,
+   "rd_m": 505.26,
+   "overall_rank": 72
+  },
+  {
+   "name": "Scripps Research Institute",
+   "rank": 40,
+   "rd_m": 501.47,
+   "overall_rank": 73
+  },
+  {
+   "name": "New York U.",
+   "rank": 41,
+   "rd_m": 1500.73,
+   "overall_rank": 19
+  },
+  {
+   "name": "Stanford U.",
+   "rank": 42,
+   "rd_m": 1641.96,
+   "overall_rank": 10
+  },
+  {
+   "name": "SUNY, U. Albany",
+   "rank": 43,
+   "rd_m": 471.61,
+   "overall_rank": 76
+  },
+  {
+   "name": "U. Utah",
+   "rank": 44,
+   "rd_m": 789.27,
+   "overall_rank": 48
+  },
+  {
+   "name": "Colorado State U., Fort Collins",
+   "rank": 45,
+   "rd_m": 466.39,
+   "overall_rank": 77
+  },
+  {
+   "name": "U. Delaware",
+   "rank": 46,
+   "rd_m": 465.78,
+   "overall_rank": 78
+  },
+  {
+   "name": "Iowa State U.",
+   "rank": 47,
+   "rd_m": 462.35,
+   "overall_rank": 79
+  },
+  {
+   "name": "Utah State U.",
+   "rank": 48,
+   "rd_m": 451.38,
+   "overall_rank": 81
+  },
+  {
+   "name": "California Institute of Technology",
+   "rank": 49,
+   "rd_m": 445.17,
+   "overall_rank": 82
+  },
+  {
+   "name": "Louisiana State U., Baton Rouge",
+   "rank": 50,
+   "rd_m": 431.44,
+   "overall_rank": 84
+  },
+  {
+   "name": "Florida State U.",
+   "rank": 51,
+   "rd_m": 460.73,
+   "overall_rank": 80
+  },
+  {
+   "name": "U. California, Irvine",
+   "rank": 52,
+   "rd_m": 644.95,
+   "overall_rank": 58
+  },
+  {
+   "name": "Northwestern U.",
+   "rank": 53,
+   "rd_m": 1257.86,
+   "overall_rank": 29
+  },
+  {
+   "name": "U. Missouri, Columbia",
+   "rank": 54,
+   "rd_m": 508.58,
+   "overall_rank": 71
+  },
+  {
+   "name": "U. Virginia, Charlottesville",
+   "rank": 55,
+   "rd_m": 813.77,
+   "overall_rank": 47
+  },
+  {
+   "name": "Auburn U., Auburn",
+   "rank": 56,
+   "rd_m": 393.56,
+   "overall_rank": 88
+  },
+  {
+   "name": "Wichita State U.",
+   "rank": 57,
+   "rd_m": 392.33,
+   "overall_rank": 89
+  },
+  {
+   "name": "U. Tennessee, Knoxville",
+   "rank": 58,
+   "rd_m": 386.95,
+   "overall_rank": 90
+  },
+  {
+   "name": "U. Pittsburgh, Pittsburgh",
+   "rank": 59,
+   "rd_m": 1504.66,
+   "overall_rank": 18
+  },
+  {
+   "name": "Oregon State U.",
+   "rank": 60,
+   "rd_m": 371.9,
+   "overall_rank": 95
+  },
+  {
+   "name": "Washington State U.",
+   "rank": 61,
+   "rd_m": 403.37,
+   "overall_rank": 87
+  },
+  {
+   "name": "Northeastern U.",
+   "rank": 62,
+   "rd_m": 346.9,
+   "overall_rank": 100
+  },
+  {
+   "name": "U. Notre Dame",
+   "rank": 63,
+   "rd_m": 345.79,
+   "overall_rank": 101
+  },
+  {
+   "name": "U. Hawaii, Manoa",
+   "rank": 64,
+   "rd_m": 375.63,
+   "overall_rank": 93
+  },
+  {
+   "name": "Mississippi State U.",
+   "rank": 65,
+   "rd_m": 342.13,
+   "overall_rank": 103
+  },
+  {
+   "name": "Rutgers, State U. New Jersey, New Brunswick",
+   "rank": 66,
+   "rd_m": 836.8,
+   "overall_rank": 46
+  },
+  {
+   "name": "Clemson U.",
+   "rank": 67,
+   "rd_m": 338.53,
+   "overall_rank": 104
+  },
+  {
+   "name": "Yale U.",
+   "rank": 68,
+   "rd_m": 1519.69,
+   "overall_rank": 17
+  },
+  {
+   "name": "U. Illinois, Chicago",
+   "rank": 69,
+   "rd_m": 532.18,
+   "overall_rank": 67
+  },
+  {
+   "name": "U. South Florida",
+   "rank": 70,
+   "rd_m": 521.89,
+   "overall_rank": 70
+  },
+  {
+   "name": "U. Kansas",
+   "rank": 71,
+   "rd_m": 546.11,
+   "overall_rank": 64
+  },
+  {
+   "name": "U. Oklahomac",
+   "rank": 72,
+   "rd_m": 474.04,
+   "overall_rank": 75
+  },
+  {
+   "name": "Florida International U.",
+   "rank": 73,
+   "rd_m": 325.79,
+   "overall_rank": 105
+  },
+  {
+   "name": "U. Kentucky",
+   "rank": 74,
+   "rd_m": 527.66,
+   "overall_rank": 68
+  },
+  {
+   "name": "SUNY, U. Buffalo",
+   "rank": 75,
+   "rd_m": 541.88,
+   "overall_rank": 66
+  },
+  {
+   "name": "U. Iowa",
+   "rank": 76,
+   "rd_m": 703.33,
+   "overall_rank": 54
+  },
+  {
+   "name": "U. Connecticut",
+   "rank": 77,
+   "rd_m": 433.55,
+   "overall_rank": 83
+  },
+  {
+   "name": "Woods Hole Oceanographic Institution",
+   "rank": 78,
+   "rd_m": 308.24,
+   "overall_rank": 110
+  },
+  {
+   "name": "Rockefeller U.",
+   "rank": 79,
+   "rd_m": 305.3,
+   "overall_rank": 111
+  },
+  {
+   "name": "Duke U.",
+   "rank": 80,
+   "rd_m": 1580.76,
+   "overall_rank": 14
+  },
+  {
+   "name": "U. California, Santa Barbara",
+   "rank": 81,
+   "rd_m": 303.45,
+   "overall_rank": 112
+  },
+  {
+   "name": "Indiana U., Bloomington",
+   "rank": 82,
+   "rd_m": 896.98,
+   "overall_rank": 42
+  },
+  {
+   "name": "George Washington U.",
+   "rank": 83,
+   "rd_m": 381.58,
+   "overall_rank": 91
+  },
+  {
+   "name": "Medical U. South Carolina",
+   "rank": 84,
+   "rd_m": 320.99,
+   "overall_rank": 106
+  },
+  {
+   "name": "U. Massachusetts, Amherst",
+   "rank": 85,
+   "rd_m": 281.73,
+   "overall_rank": 115
+  },
+  {
+   "name": "George Mason U.",
+   "rank": 86,
+   "rd_m": 281.7,
+   "overall_rank": 116
+  },
+  {
+   "name": "Rice U.",
+   "rank": 87,
+   "rd_m": 277.68,
+   "overall_rank": 118
+  },
+  {
+   "name": "Brown U.",
+   "rank": 88,
+   "rd_m": 374.5,
+   "overall_rank": 94
+  },
+  {
+   "name": "Kansas State U.",
+   "rank": 89,
+   "rd_m": 264.96,
+   "overall_rank": 122
+  },
+  {
+   "name": "Montana State U., Bozeman",
+   "rank": 90,
+   "rd_m": 257.93,
+   "overall_rank": 124
+  },
+  {
+   "name": "U. Central Florida",
+   "rank": 91,
+   "rd_m": 284.94,
+   "overall_rank": 114
+  },
+  {
+   "name": "Texas Tech U.",
+   "rank": 92,
+   "rd_m": 256.92,
+   "overall_rank": 125
+  },
+  {
+   "name": "U. Chicago",
+   "rank": 93,
+   "rd_m": 680.75,
+   "overall_rank": 55
+  },
+  {
+   "name": "Virginia Commonwealth U.",
+   "rank": 94,
+   "rd_m": 524.29,
+   "overall_rank": 69
+  },
+  {
+   "name": "U. Louisiana, Lafayette",
+   "rank": 95,
+   "rd_m": 254.88,
+   "overall_rank": 126
+  },
+  {
+   "name": "Oklahoma State U., Stillwater",
+   "rank": 96,
+   "rd_m": 253.77,
+   "overall_rank": 127
+  },
+  {
+   "name": "U. Dayton",
+   "rank": 97,
+   "rd_m": 252.54,
+   "overall_rank": 128
+  },
+  {
+   "name": "U. South Carolina, Columbia",
+   "rank": 98,
+   "rd_m": 277.33,
+   "overall_rank": 119
+  },
+  {
+   "name": "U. California, San Francisco",
+   "rank": 99,
+   "rd_m": 2127.64,
+   "overall_rank": 4
+  },
+  {
+   "name": "U. Alaska, Fairbanks",
+   "rank": 100,
+   "rd_m": 246.29,
+   "overall_rank": 129
+  },
+  {
+   "name": "Dartmouth C. and Dartmouth Hitchcock Medical Center",
+   "rank": 101,
+   "rd_m": 418.43,
+   "overall_rank": 86
+  },
+  {
+   "name": "Georgia State U.",
+   "rank": 102,
+   "rd_m": 241.12,
+   "overall_rank": 131
+  },
+  {
+   "name": "U. New Mexico",
+   "rank": 103,
+   "rd_m": 354.87,
+   "overall_rank": 98
+  },
+  {
+   "name": "U. Houston",
+   "rank": 104,
+   "rd_m": 239.0,
+   "overall_rank": 133
+  },
+  {
+   "name": "Oregon Health and Science U.",
+   "rank": 105,
+   "rd_m": 545.21,
+   "overall_rank": 65
+  },
+  {
+   "name": "U. Arkansas, Fayetteville",
+   "rank": 106,
+   "rd_m": 230.63,
+   "overall_rank": 135
+  },
+  {
+   "name": "U. New Hampshire",
+   "rank": 107,
+   "rd_m": 230.22,
+   "overall_rank": 136
+  },
+  {
+   "name": "U. Alabama, Birmingham",
+   "rank": 108,
+   "rd_m": 865.87,
+   "overall_rank": 45
+  },
+  {
+   "name": "U. Alabama, Tuscaloosa",
+   "rank": 109,
+   "rd_m": 221.24,
+   "overall_rank": 139
+  },
+  {
+   "name": "U. California, Santa Cruz",
+   "rank": 110,
+   "rd_m": 218.43,
+   "overall_rank": 140
+  },
+  {
+   "name": "U. California, Riverside",
+   "rank": 111,
+   "rd_m": 231.6,
+   "overall_rank": 134
+  },
+  {
+   "name": "U. Rochester",
+   "rank": 112,
+   "rd_m": 492.37,
+   "overall_rank": 74
+  },
+  {
+   "name": "Temple U.",
+   "rank": 113,
+   "rd_m": 315.0,
+   "overall_rank": 108
+  },
+  {
+   "name": "Tufts U.",
+   "rank": 114,
+   "rd_m": 278.3,
+   "overall_rank": 117
+  },
+  {
+   "name": "North Dakota State U.",
+   "rank": 115,
+   "rd_m": 199.88,
+   "overall_rank": 141
+  },
+  {
+   "name": "U. Maine",
+   "rank": 116,
+   "rd_m": 198.87,
+   "overall_rank": 142
+  },
+  {
+   "name": "Syracuse U.",
+   "rank": 117,
+   "rd_m": 198.75,
+   "overall_rank": 143
+  },
+  {
+   "name": "U. Colorado Anschutz Medical Campus",
+   "rank": 118,
+   "rd_m": 741.64,
+   "overall_rank": 50
+  },
+  {
+   "name": "West Virginia U.",
+   "rank": 119,
+   "rd_m": 259.07,
+   "overall_rank": 123
+  },
+  {
+   "name": "SUNY, Stony Brook U.",
+   "rank": 120,
+   "rd_m": 319.26,
+   "overall_rank": 107
+  },
+  {
+   "name": "U. Texas, Dallas",
+   "rank": 121,
+   "rd_m": 181.79,
+   "overall_rank": 147
+  },
+  {
+   "name": "San Diego State U.",
+   "rank": 122,
+   "rd_m": 181.6,
+   "overall_rank": 148
+  },
+  {
+   "name": "U. Oregon",
+   "rank": 123,
+   "rd_m": 174.78,
+   "overall_rank": 149
+  },
+  {
+   "name": "U. Texas Health Science Center, Houston",
+   "rank": 124,
+   "rd_m": 419.12,
+   "overall_rank": 85
+  },
+  {
+   "name": "New Jersey Institute of Technology",
+   "rank": 125,
+   "rd_m": 171.74,
+   "overall_rank": 150
+  },
+  {
+   "name": "U. Texas, San Antonio",
+   "rank": 126,
+   "rd_m": 171.53,
+   "overall_rank": 151
+  },
+  {
+   "name": "Case Western Reserve U.",
+   "rank": 127,
+   "rd_m": 642.55,
+   "overall_rank": 59
+  },
+  {
+   "name": "U. Wyoming",
+   "rank": 128,
+   "rd_m": 167.31,
+   "overall_rank": 153
+  },
+  {
+   "name": "Georgetown U.",
+   "rank": 129,
+   "rd_m": 376.6,
+   "overall_rank": 92
+  },
+  {
+   "name": "U. North Dakota",
+   "rank": 130,
+   "rd_m": 197.43,
+   "overall_rank": 144
+  },
+  {
+   "name": "Tulane U.",
+   "rank": 131,
+   "rd_m": 275.88,
+   "overall_rank": 120
+  },
+  {
+   "name": "Texas State U.",
+   "rank": 132,
+   "rd_m": 165.05,
+   "overall_rank": 155
+  },
+  {
+   "name": "SUNY, Binghamton U.",
+   "rank": 133,
+   "rd_m": 160.64,
+   "overall_rank": 156
+  },
+  {
+   "name": "Brigham Young U., Provo",
+   "rank": 134,
+   "rd_m": 158.32,
+   "overall_rank": 157
+  },
+  {
+   "name": "U. Texas, El Paso",
+   "rank": 135,
+   "rd_m": 157.57,
+   "overall_rank": 158
+  },
+  {
+   "name": "Washington U., Saint Louis",
+   "rank": 136,
+   "rd_m": 1243.12,
+   "overall_rank": 31
+  },
+  {
+   "name": "U. Alabama, Huntsville",
+   "rank": 137,
+   "rd_m": 154.49,
+   "overall_rank": 159
+  },
+  {
+   "name": "U. Nevada, Reno",
+   "rank": 138,
+   "rd_m": 194.13,
+   "overall_rank": 145
+  },
+  {
+   "name": "U. Texas, Arlington",
+   "rank": 139,
+   "rd_m": 153.78,
+   "overall_rank": 160
+  },
+  {
+   "name": "U. Maryland, Baltimore County",
+   "rank": 140,
+   "rd_m": 150.91,
+   "overall_rank": 161
+  },
+  {
+   "name": "U. Montana, Missoula",
+   "rank": 141,
+   "rd_m": 143.81,
+   "overall_rank": 162
+  },
+  {
+   "name": "New Mexico State U.",
+   "rank": 142,
+   "rd_m": 142.87,
+   "overall_rank": 163
+  },
+  {
+   "name": "U. Idaho",
+   "rank": 143,
+   "rd_m": 140.41,
+   "overall_rank": 164
+  },
+  {
+   "name": "Rensselaer Polytechnic Institute",
+   "rank": 144,
+   "rd_m": 140.25,
+   "overall_rank": 165
+  },
+  {
+   "name": "U. Miami",
+   "rank": 145,
+   "rd_m": 559.01,
+   "overall_rank": 62
+  },
+  {
+   "name": "U. Rhode Island",
+   "rank": 146,
+   "rd_m": 137.46,
+   "overall_rank": 167
+  },
+  {
+   "name": "Baylor U.",
+   "rank": 147,
+   "rd_m": 134.88,
+   "overall_rank": 168
+  },
+  {
+   "name": "U. Vermont",
+   "rank": 148,
+   "rd_m": 246.24,
+   "overall_rank": 130
+  },
+  {
+   "name": "U. Cincinnati",
+   "rank": 149,
+   "rd_m": 739.88,
+   "overall_rank": 51
+  },
+  {
+   "name": "Drexel U.",
+   "rank": 150,
+   "rd_m": 170.21,
+   "overall_rank": 152
+  },
+  {
+   "name": "Cold Spring Harbor Laboratory",
+   "rank": 151,
+   "rd_m": 126.5,
+   "overall_rank": 169
+  },
+  {
+   "name": "U. Texas Health Science Center, San Antonio",
+   "rank": 152,
+   "rd_m": 312.79,
+   "overall_rank": 109
+  },
+  {
+   "name": "U. North Texas, Denton",
+   "rank": 153,
+   "rd_m": 124.22,
+   "overall_rank": 171
+  },
+  {
+   "name": "U. Massachusetts, Lowell",
+   "rank": 154,
+   "rd_m": 120.67,
+   "overall_rank": 172
+  },
+  {
+   "name": "Wayne State U.",
+   "rank": 155,
+   "rd_m": 291.69,
+   "overall_rank": 113
+  },
+  {
+   "name": "U. Nevada, Las Vegas",
+   "rank": 156,
+   "rd_m": 118.05,
+   "overall_rank": 173
+  },
+  {
+   "name": "Colorado School of Mines",
+   "rank": 157,
+   "rd_m": 109.91,
+   "overall_rank": 175
+  },
+  {
+   "name": "U. Mississippi",
+   "rank": 158,
+   "rd_m": 189.91,
+   "overall_rank": 146
+  },
+  {
+   "name": "U. Memphis",
+   "rank": 159,
+   "rd_m": 108.86,
+   "overall_rank": 176
+  },
+  {
+   "name": "Brandeis U.",
+   "rank": 160,
+   "rd_m": 107.06,
+   "overall_rank": 177
+  },
+  {
+   "name": "U. North Texas, Health Science Center",
+   "rank": 161,
+   "rd_m": 110.5,
+   "overall_rank": 174
+  },
+  {
+   "name": "Michigan Technological U.",
+   "rank": 162,
+   "rd_m": 106.92,
+   "overall_rank": 178
+  },
+  {
+   "name": "Boston C.",
+   "rank": 163,
+   "rd_m": 96.31,
+   "overall_rank": 180
+  },
+  {
+   "name": "U. North Carolina, Charlotte",
+   "rank": 164,
+   "rd_m": 94.89,
+   "overall_rank": 182
+  },
+  {
+   "name": "William & Mary",
+   "rank": 165,
+   "rd_m": 94.61,
+   "overall_rank": 183
+  },
+  {
+   "name": "Northern Arizona U.",
+   "rank": 166,
+   "rd_m": 93.75,
+   "overall_rank": 184
+  },
+  {
+   "name": "U. Southern Mississippi",
+   "rank": 167,
+   "rd_m": 93.69,
+   "overall_rank": 185
+  },
+  {
+   "name": "Uniformed Services U. of the Health Sciences",
+   "rank": 168,
+   "rd_m": 569.05,
+   "overall_rank": 61
+  },
+  {
+   "name": "U. Texas Rio Grande Valley",
+   "rank": 169,
+   "rd_m": 90.61,
+   "overall_rank": 186
+  },
+  {
+   "name": "Indiana U.-Purdue U., Indianapolis",
+   "rank": 170,
+   "rd_m": 88.99,
+   "overall_rank": 187
+  },
+  {
+   "name": "San Jose State U.",
+   "rank": 171,
+   "rd_m": 88.12,
+   "overall_rank": 188
+  },
+  {
+   "name": "U. Louisville",
+   "rank": 172,
+   "rd_m": 224.97,
+   "overall_rank": 138
+  },
+  {
+   "name": "Cleveland State U.",
+   "rank": 173,
+   "rd_m": 85.84,
+   "overall_rank": 190
+  },
+  {
+   "name": "Van Andel Research Institute",
+   "rank": 174,
+   "rd_m": 83.31,
+   "overall_rank": 191
+  },
+  {
+   "name": "South Dakota State U.",
+   "rank": 175,
+   "rd_m": 82.25,
+   "overall_rank": 192
+  },
+  {
+   "name": "North Carolina A&T State U.",
+   "rank": 176,
+   "rd_m": 81.84,
+   "overall_rank": 193
+  },
+  {
+   "name": "CUNY, Graduate Center",
+   "rank": 177,
+   "rd_m": 80.83,
+   "overall_rank": 194
+  },
+  {
+   "name": "New Mexico Institute of Mining and Technology",
+   "rank": 178,
+   "rd_m": 79.86,
+   "overall_rank": 195
+  },
+  {
+   "name": "Florida Atlantic U.",
+   "rank": 179,
+   "rd_m": 87.91,
+   "overall_rank": 189
+  },
+  {
+   "name": "U. California, Office of the President",
+   "rank": 180,
+   "rd_m": 79.29,
+   "overall_rank": 197
+  },
+  {
+   "name": "Rochester Institute of Technology",
+   "rank": 181,
+   "rd_m": 78.49,
+   "overall_rank": 198
+  },
+  {
+   "name": "American U.",
+   "rank": 182,
+   "rd_m": 78.36,
+   "overall_rank": 199
+  },
+  {
+   "name": "U. North Carolina, Greensboro",
+   "rank": 183,
+   "rd_m": 77.37,
+   "overall_rank": 200
+  },
+  {
+   "name": "U. California, Merced",
+   "rank": 184,
+   "rd_m": 77.23,
+   "overall_rank": 201
+  },
+  {
+   "name": "Touro U., New York",
+   "rank": 185,
+   "rd_m": 76.87,
+   "overall_rank": 202
+  },
+  {
+   "name": "Old Dominion U.",
+   "rank": 186,
+   "rd_m": 76.2,
+   "overall_rank": 203
+  },
+  {
+   "name": "U. Massachusetts, Boston",
+   "rank": 187,
+   "rd_m": 74.62,
+   "overall_rank": 204
+  },
+  {
+   "name": "Naval Postgraduate School",
+   "rank": 188,
+   "rd_m": 73.23,
+   "overall_rank": 205
+  },
+  {
+   "name": "Howard U.",
+   "rank": 189,
+   "rd_m": 101.81,
+   "overall_rank": 179
+  },
+  {
+   "name": "Worcester Polytechnic Institute",
+   "rank": 190,
+   "rd_m": 71.55,
+   "overall_rank": 209
+  },
+  {
+   "name": "Stevens Institute of Technology",
+   "rank": 191,
+   "rd_m": 70.74,
+   "overall_rank": 210
+  },
+  {
+   "name": "Missouri U. of Science and Technology",
+   "rank": 192,
+   "rd_m": 69.53,
+   "overall_rank": 212
+  },
+  {
+   "name": "CUNY, City C.",
+   "rank": 193,
+   "rd_m": 71.68,
+   "overall_rank": 208
+  },
+  {
+   "name": "Florida A&M U.",
+   "rank": 194,
+   "rd_m": 68.67,
+   "overall_rank": 214
+  },
+  {
+   "name": "U. Wisconsin-Milwaukee",
+   "rank": 195,
+   "rd_m": 66.27,
+   "overall_rank": 216
+  },
+  {
+   "name": "Southern Methodist U.",
+   "rank": 196,
+   "rd_m": 62.55,
+   "overall_rank": 218
+  },
+  {
+   "name": "Lehigh U.",
+   "rank": 197,
+   "rd_m": 62.41,
+   "overall_rank": 219
+  },
+  {
+   "name": "Kent State U.",
+   "rank": 198,
+   "rd_m": 61.44,
+   "overall_rank": 224
+  },
+  {
+   "name": "Boise State U.",
+   "rank": 199,
+   "rd_m": 57.75,
+   "overall_rank": 227
+  },
+  {
+   "name": "Catholic U. of America",
+   "rank": 200,
+   "rd_m": 57.7,
+   "overall_rank": 228
+  },
+  {
+   "name": "U. Denver",
+   "rank": 201,
+   "rd_m": 55.63,
+   "overall_rank": 230
+  },
+  {
+   "name": "Morgan State U.",
+   "rank": 202,
+   "rd_m": 55.51,
+   "overall_rank": 231
+  },
+  {
+   "name": "Western Michigan U. and Homer Stryker M.D. School of Medicine",
+   "rank": 203,
+   "rd_m": 62.06,
+   "overall_rank": 220
+  },
+  {
+   "name": "East Carolina U.",
+   "rank": 204,
+   "rd_m": 72.54,
+   "overall_rank": 207
+  },
+  {
+   "name": "Air Force Institute of Technology",
+   "rank": 205,
+   "rd_m": 54.2,
+   "overall_rank": 232
+  },
+  {
+   "name": "U. Maryland Center for Environmental Science",
+   "rank": 206,
+   "rd_m": 54.04,
+   "overall_rank": 233
+  },
+  {
+   "name": "U.S. Air Force Academy",
+   "rank": 207,
+   "rd_m": 53.16,
+   "overall_rank": 234
+  },
+  {
+   "name": "Ohio U.",
+   "rank": 208,
+   "rd_m": 67.43,
+   "overall_rank": 215
+  },
+  {
+   "name": "Rowan U.",
+   "rank": 209,
+   "rd_m": 63.98,
+   "overall_rank": 217
+  },
+  {
+   "name": "Texas A&M U.-Corpus Christi",
+   "rank": 210,
+   "rd_m": 52.17,
+   "overall_rank": 236
+  },
+  {
+   "name": "Portland State U.",
+   "rank": 211,
+   "rd_m": 51.68,
+   "overall_rank": 237
+  },
+  {
+   "name": "Kennesaw State U.",
+   "rank": 212,
+   "rd_m": 51.58,
+   "overall_rank": 238
+  },
+  {
+   "name": "Marquette U.",
+   "rank": 213,
+   "rd_m": 49.1,
+   "overall_rank": 239
+  },
+  {
+   "name": "U. Missouri, Kansas City",
+   "rank": 214,
+   "rd_m": 57.03,
+   "overall_rank": 229
+  },
+  {
+   "name": "Baylor C. of Medicine",
+   "rank": 215,
+   "rd_m": 881.23,
+   "overall_rank": 43
+  },
+  {
+   "name": "Chapman U.",
+   "rank": 216,
+   "rd_m": 48.31,
+   "overall_rank": 240
+  },
+  {
+   "name": "Saint Louis U.",
+   "rank": 217,
+   "rd_m": 95.83,
+   "overall_rank": 181
+  },
+  {
+   "name": "U. South Alabama",
+   "rank": 218,
+   "rd_m": 70.08,
+   "overall_rank": 211
+  },
+  {
+   "name": "Georgia Southern U.",
+   "rank": 219,
+   "rd_m": 46.09,
+   "overall_rank": 242
+  },
+  {
+   "name": "CUNY, Hunter C.",
+   "rank": 220,
+   "rd_m": 45.22,
+   "overall_rank": 243
+  },
+  {
+   "name": "Montclair State U.",
+   "rank": 221,
+   "rd_m": 43.8,
+   "overall_rank": 244
+  },
+  {
+   "name": "Delaware State U.",
+   "rank": 222,
+   "rd_m": 43.72,
+   "overall_rank": 245
+  },
+  {
+   "name": "U. West Florida",
+   "rank": 223,
+   "rd_m": 43.5,
+   "overall_rank": 246
+  },
+  {
+   "name": "Southern Illinois U., Carbondale",
+   "rank": 224,
+   "rd_m": 61.46,
+   "overall_rank": 221
+  },
+  {
+   "name": "U. Massachusetts, Dartmouth",
+   "rank": 225,
+   "rd_m": 42.35,
+   "overall_rank": 248
+  },
+  {
+   "name": "San Francisco State U.",
+   "rank": 226,
+   "rd_m": 42.0,
+   "overall_rank": 249
+  },
+  {
+   "name": "U. Toledo",
+   "rank": 227,
+   "rd_m": 73.2,
+   "overall_rank": 206
+  },
+  {
+   "name": "Mercer U.",
+   "rank": 228,
+   "rd_m": 46.5,
+   "overall_rank": 241
+  },
+  {
+   "name": "U. Puerto Rico, Medical Sciences Campus",
+   "rank": 229,
+   "rd_m": 61.45,
+   "overall_rank": 222
+  },
+  {
+   "name": "SUNY, C. of Environmental Science and Forestry",
+   "rank": 230,
+   "rd_m": 38.66,
+   "overall_rank": 251
+  },
+  {
+   "name": "California Polytechnic State U., San Luis Obispo",
+   "rank": 231,
+   "rd_m": 38.13,
+   "overall_rank": 253
+  },
+  {
+   "name": "Illinois Institute of Technology",
+   "rank": 232,
+   "rd_m": 37.99,
+   "overall_rank": 254
+  },
+  {
+   "name": "Oakland U.",
+   "rank": 233,
+   "rd_m": 38.51,
+   "overall_rank": 252
+  },
+  {
+   "name": "U. Texas Southwestern Medical Center",
+   "rank": 234,
+   "rd_m": 869.3,
+   "overall_rank": 44
+  },
+  {
+   "name": "Tennessee Technological U.",
+   "rank": 235,
+   "rd_m": 36.4,
+   "overall_rank": 256
+  },
+  {
+   "name": "U. Nebraska, Omaha",
+   "rank": 236,
+   "rd_m": 35.13,
+   "overall_rank": 257
+  },
+  {
+   "name": "East Tennessee State U.",
+   "rank": 237,
+   "rd_m": 42.53,
+   "overall_rank": 247
+  },
+  {
+   "name": "Tennessee State U.",
+   "rank": 238,
+   "rd_m": 35.02,
+   "overall_rank": 258
+  },
+  {
+   "name": "Embry-Riddle Aeronautical U.",
+   "rank": 239,
+   "rd_m": 35.01,
+   "overall_rank": 259
+  },
+  {
+   "name": "Northern Illinois U.",
+   "rank": 240,
+   "rd_m": 34.47,
+   "overall_rank": 260
+  },
+  {
+   "name": "Illinois State U.",
+   "rank": 241,
+   "rd_m": 34.24,
+   "overall_rank": 261
+  },
+  {
+   "name": "Teachers C., Columbia U.",
+   "rank": 242,
+   "rd_m": 34.1,
+   "overall_rank": 262
+  },
+  {
+   "name": "California State U., Sacramento",
+   "rank": 243,
+   "rd_m": 33.95,
+   "overall_rank": 263
+  },
+  {
+   "name": "California State U., Long Beach",
+   "rank": 244,
+   "rd_m": 33.9,
+   "overall_rank": 264
+  },
+  {
+   "name": "California State U., Fullerton",
+   "rank": 245,
+   "rd_m": 33.71,
+   "overall_rank": 265
+  },
+  {
+   "name": "U. Puerto Rico, Rio Piedras",
+   "rank": 246,
+   "rd_m": 33.66,
+   "overall_rank": 266
+  },
+  {
+   "name": "Villanova U.",
+   "rank": 247,
+   "rd_m": 33.09,
+   "overall_rank": 267
+  },
+  {
+   "name": "U. Tulsa",
+   "rank": 248,
+   "rd_m": 32.8,
+   "overall_rank": 268
+  },
+  {
+   "name": "Desert Research Institute",
+   "rank": 249,
+   "rd_m": 32.25,
+   "overall_rank": 269
+  },
+  {
+   "name": "CUNY, Queens C.",
+   "rank": 250,
+   "rd_m": 31.84,
+   "overall_rank": 271
+  },
+  {
+   "name": "Texas A&M U.-Kingsville",
+   "rank": 251,
+   "rd_m": 31.75,
+   "overall_rank": 272
+  },
+  {
+   "name": "Prairie View A&M U.",
+   "rank": 252,
+   "rd_m": 31.63,
+   "overall_rank": 273
+  },
+  {
+   "name": "Louisiana Tech U.",
+   "rank": 253,
+   "rd_m": 31.25,
+   "overall_rank": 274
+  },
+  {
+   "name": "U. Minnesota, Duluth",
+   "rank": 254,
+   "rd_m": 29.9,
+   "overall_rank": 275
+  },
+  {
+   "name": "Tuskegee U.",
+   "rank": 255,
+   "rd_m": 29.72,
+   "overall_rank": 276
+  },
+  {
+   "name": "Nova Southeastern U.",
+   "rank": 256,
+   "rd_m": 60.63,
+   "overall_rank": 225
+  },
+  {
+   "name": "CUNY, Graduate School of Public Health and Health Policy",
+   "rank": 257,
+   "rd_m": 28.64,
+   "overall_rank": 278
+  },
+  {
+   "name": "Miami U.",
+   "rank": 258,
+   "rd_m": 28.57,
+   "overall_rank": 279
+  },
+  {
+   "name": "Fordham U.",
+   "rank": 259,
+   "rd_m": 28.25,
+   "overall_rank": 280
+  },
+  {
+   "name": "Texas Christian U.",
+   "rank": 260,
+   "rd_m": 27.66,
+   "overall_rank": 283
+  },
+  {
+   "name": "California State U., Northridge",
+   "rank": 261,
+   "rd_m": 27.01,
+   "overall_rank": 285
+  },
+  {
+   "name": "Augusta U.",
+   "rank": 262,
+   "rd_m": 166.22,
+   "overall_rank": 154
+  },
+  {
+   "name": "Wake Forest U.",
+   "rank": 263,
+   "rd_m": 344.52,
+   "overall_rank": 102
+  },
+  {
+   "name": "California State Polytechnic U., Humboldt",
+   "rank": 264,
+   "rd_m": 26.61,
+   "overall_rank": 286
+  },
+  {
+   "name": "U. Puerto Rico, Mayaguez",
+   "rank": 265,
+   "rd_m": 26.45,
+   "overall_rank": 287
+  },
+  {
+   "name": "U. Texas Health Science Center, Tyler",
+   "rank": 266,
+   "rd_m": 26.24,
+   "overall_rank": 288
+  },
+  {
+   "name": "Rutgers, State U. New Jersey, Newark",
+   "rank": 267,
+   "rd_m": 26.22,
+   "overall_rank": 289
+  },
+  {
+   "name": "Clarkson U.",
+   "rank": 268,
+   "rd_m": 26.15,
+   "overall_rank": 290
+  },
+  {
+   "name": "U. Guam",
+   "rank": 269,
+   "rd_m": 25.31,
+   "overall_rank": 291
+  },
+  {
+   "name": "Tarleton State U.",
+   "rank": 270,
+   "rd_m": 24.88,
+   "overall_rank": 292
+  },
+  {
+   "name": "Jackson State U.",
+   "rank": 271,
+   "rd_m": 24.74,
+   "overall_rank": 293
+  },
+  {
+   "name": "U. Alaska, Anchorage",
+   "rank": 272,
+   "rd_m": 24.65,
+   "overall_rank": 294
+  },
+  {
+   "name": "U. Akron",
+   "rank": 273,
+   "rd_m": 24.57,
+   "overall_rank": 295
+  },
+  {
+   "name": "U. Colorado Denver",
+   "rank": 274,
+   "rd_m": 24.31,
+   "overall_rank": 296
+  },
+  {
+   "name": "South Dakota School of Mines and Technology",
+   "rank": 275,
+   "rd_m": 23.94,
+   "overall_rank": 297
+  },
+  {
+   "name": "New School",
+   "rank": 276,
+   "rd_m": 23.9,
+   "overall_rank": 298
+  },
+  {
+   "name": "Florida Gulf Coast U.",
+   "rank": 277,
+   "rd_m": 23.84,
+   "overall_rank": 300
+  },
+  {
+   "name": "Thomas Jefferson U.",
+   "rank": 278,
+   "rd_m": 271.2,
+   "overall_rank": 121
+  },
+  {
+   "name": "Western Washington U.",
+   "rank": 279,
+   "rd_m": 23.27,
+   "overall_rank": 303
+  },
+  {
+   "name": "Marshall U.",
+   "rank": 280,
+   "rd_m": 39.18,
+   "overall_rank": 250
+  },
+  {
+   "name": "U. North Carolina, Wilmington",
+   "rank": 281,
+   "rd_m": 22.67,
+   "overall_rank": 305
+  },
+  {
+   "name": "Montana Technological U.",
+   "rank": 282,
+   "rd_m": 22.59,
+   "overall_rank": 307
+  },
+  {
+   "name": "CUNY, Advanced Science Research Center",
+   "rank": 283,
+   "rd_m": 22.46,
+   "overall_rank": 308
+  },
+  {
+   "name": "U.S. Military Academy",
+   "rank": 284,
+   "rd_m": 22.29,
+   "overall_rank": 309
+  },
+  {
+   "name": "James Madison U.",
+   "rank": 285,
+   "rd_m": 21.39,
+   "overall_rank": 311
+  },
+  {
+   "name": "CUNY, John Jay C. of Criminal Justice",
+   "rank": 286,
+   "rd_m": 21.16,
+   "overall_rank": 312
+  },
+  {
+   "name": "Bowling Green State U.",
+   "rank": 287,
+   "rd_m": 19.61,
+   "overall_rank": 313
+  },
+  {
+   "name": "U. North Florida",
+   "rank": 288,
+   "rd_m": 19.32,
+   "overall_rank": 314
+  },
+  {
+   "name": "U. New Orleans",
+   "rank": 289,
+   "rd_m": 19.31,
+   "overall_rank": 315
+  },
+  {
+   "name": "Towson U.",
+   "rank": 290,
+   "rd_m": 19.21,
+   "overall_rank": 316
+  },
+  {
+   "name": "Texas Southern U.",
+   "rank": 291,
+   "rd_m": 19.05,
+   "overall_rank": 317
+  },
+  {
+   "name": "Long Island U.",
+   "rank": 292,
+   "rd_m": 18.76,
+   "overall_rank": 318
+  },
+  {
+   "name": "U. South Dakota",
+   "rank": 293,
+   "rd_m": 27.91,
+   "overall_rank": 281
+  },
+  {
+   "name": "Florida Institute of Technology",
+   "rank": 294,
+   "rd_m": 17.84,
+   "overall_rank": 320
+  },
+  {
+   "name": "Southern Illinois U., Edwardsville",
+   "rank": 295,
+   "rd_m": 17.67,
+   "overall_rank": 321
+  },
+  {
+   "name": "Texas Tech U., Health Sciences Center",
+   "rank": 296,
+   "rd_m": 52.99,
+   "overall_rank": 235
+  },
+  {
+   "name": "Idaho State U.",
+   "rank": 297,
+   "rd_m": 17.49,
+   "overall_rank": 322
+  },
+  {
+   "name": "Alabama A&M U.",
+   "rank": 298,
+   "rd_m": 16.25,
+   "overall_rank": 324
+  },
+  {
+   "name": "North Carolina Central U.",
+   "rank": 299,
+   "rd_m": 16.21,
+   "overall_rank": 325
+  },
+  {
+   "name": "Missouri State U.",
+   "rank": 300,
+   "rd_m": 16.1,
+   "overall_rank": 326
+  },
+  {
+   "name": "Xavier U. Louisiana",
+   "rank": 301,
+   "rd_m": 15.96,
+   "overall_rank": 328
+  },
+  {
+   "name": "Sam Houston State U.",
+   "rank": 302,
+   "rd_m": 16.72,
+   "overall_rank": 323
+  },
+  {
+   "name": "Loyola Marymount U.",
+   "rank": 303,
+   "rd_m": 15.57,
+   "overall_rank": 330
+  },
+  {
+   "name": "Duquesne U.",
+   "rank": 304,
+   "rd_m": 18.35,
+   "overall_rank": 319
+  },
+  {
+   "name": "U. Texas Medical Branch",
+   "rank": 305,
+   "rd_m": 241.07,
+   "overall_rank": 132
+  },
+  {
+   "name": "CUNY, Brooklyn C.",
+   "rank": 306,
+   "rd_m": 15.24,
+   "overall_rank": 331
+  },
+  {
+   "name": "Alcorn State U.",
+   "rank": 307,
+   "rd_m": 14.84,
+   "overall_rank": 332
+  },
+  {
+   "name": "U. of the Virgin Islands",
+   "rank": 308,
+   "rd_m": 14.76,
+   "overall_rank": 333
+  },
+  {
+   "name": "U. Missouri, Saint Louis",
+   "rank": 309,
+   "rd_m": 14.7,
+   "overall_rank": 334
+  },
+  {
+   "name": "Loyola U., Chicago",
+   "rank": 310,
+   "rd_m": 61.45,
+   "overall_rank": 223
+  },
+  {
+   "name": "U. Hawaii, system office",
+   "rank": 311,
+   "rd_m": 14.54,
+   "overall_rank": 335
+  },
+  {
+   "name": "Salisbury U.",
+   "rank": 312,
+   "rd_m": 14.42,
+   "overall_rank": 336
+  },
+  {
+   "name": "California State U., Fresno",
+   "rank": 313,
+   "rd_m": 14.41,
+   "overall_rank": 337
+  },
+  {
+   "name": "California State U., East Bay",
+   "rank": 314,
+   "rd_m": 14.31,
+   "overall_rank": 338
+  },
+  {
+   "name": "California State Polytechnic U., Pomona",
+   "rank": 315,
+   "rd_m": 13.69,
+   "overall_rank": 339
+  },
+  {
+   "name": "Kentucky State U.",
+   "rank": 316,
+   "rd_m": 13.53,
+   "overall_rank": 341
+  },
+  {
+   "name": "Clark Atlanta U.",
+   "rank": 317,
+   "rd_m": 13.42,
+   "overall_rank": 342
+  },
+  {
+   "name": "U. Maryland, Eastern Shore",
+   "rank": 318,
+   "rd_m": 13.42,
+   "overall_rank": 343
+  },
+  {
+   "name": "Langston U.",
+   "rank": 319,
+   "rd_m": 13.34,
+   "overall_rank": 344
+  },
+  {
+   "name": "Virginia State U.",
+   "rank": 320,
+   "rd_m": 13.27,
+   "overall_rank": 345
+  },
+  {
+   "name": "Ball State U.",
+   "rank": 321,
+   "rd_m": 13.1,
+   "overall_rank": 346
+  },
+  {
+   "name": "California State U., San Marcos",
+   "rank": 322,
+   "rd_m": 12.79,
+   "overall_rank": 348
+  },
+  {
+   "name": "Clark U.",
+   "rank": 323,
+   "rd_m": 12.71,
+   "overall_rank": 349
+  },
+  {
+   "name": "Winston-Salem State U.",
+   "rank": 324,
+   "rd_m": 12.65,
+   "overall_rank": 350
+  },
+  {
+   "name": "U. San Diego",
+   "rank": 325,
+   "rd_m": 12.65,
+   "overall_rank": 351
+  },
+  {
+   "name": "Central Michigan U.",
+   "rank": 326,
+   "rd_m": 27.43,
+   "overall_rank": 284
+  },
+  {
+   "name": "South Carolina State U.",
+   "rank": 327,
+   "rd_m": 12.5,
+   "overall_rank": 352
+  },
+  {
+   "name": "U. Michigan, Dearborn",
+   "rank": 328,
+   "rd_m": 12.46,
+   "overall_rank": 353
+  },
+  {
+   "name": "U. Tennessee, Chattanooga",
+   "rank": 329,
+   "rd_m": 12.1,
+   "overall_rank": 354
+  },
+  {
+   "name": "Wright State U.",
+   "rank": 330,
+   "rd_m": 22.65,
+   "overall_rank": 306
+  },
+  {
+   "name": "Fort Valley State U.",
+   "rank": 331,
+   "rd_m": 11.73,
+   "overall_rank": 356
+  },
+  {
+   "name": "California State U., Monterey Bay",
+   "rank": 332,
+   "rd_m": 11.72,
+   "overall_rank": 357
+  },
+  {
+   "name": "West Texas A&M U.",
+   "rank": 333,
+   "rd_m": 11.62,
+   "overall_rank": 358
+  },
+  {
+   "name": "Central State U.",
+   "rank": 334,
+   "rd_m": 11.46,
+   "overall_rank": 359
+  },
+  {
+   "name": "California State U., San Bernardino",
+   "rank": 335,
+   "rd_m": 11.34,
+   "overall_rank": 360
+  },
+  {
+   "name": "Appalachian State U.",
+   "rank": 336,
+   "rd_m": 11.29,
+   "overall_rank": 361
+  },
+  {
+   "name": "Western Kentucky U.",
+   "rank": 337,
+   "rd_m": 11.21,
+   "overall_rank": 362
+  },
+  {
+   "name": "Eastern Michigan U.",
+   "rank": 338,
+   "rd_m": 11.2,
+   "overall_rank": 363
+  },
+  {
+   "name": "U. San Francisco",
+   "rank": 339,
+   "rd_m": 10.96,
+   "overall_rank": 365
+  },
+  {
+   "name": "Arkansas State U., Jonesboro",
+   "rank": 340,
+   "rd_m": 10.95,
+   "overall_rank": 366
+  },
+  {
+   "name": "California State U., Los Angeles",
+   "rank": 341,
+   "rd_m": 10.89,
+   "overall_rank": 367
+  },
+  {
+   "name": "Pepperdine U.",
+   "rank": 342,
+   "rd_m": 10.87,
+   "overall_rank": 368
+  },
+  {
+   "name": "Wesleyan U.",
+   "rank": 343,
+   "rd_m": 10.82,
+   "overall_rank": 369
+  },
+  {
+   "name": "Hampton U.",
+   "rank": 344,
+   "rd_m": 10.66,
+   "overall_rank": 370
+  },
+  {
+   "name": "U.S. Naval Academy",
+   "rank": 345,
+   "rd_m": 10.59,
+   "overall_rank": 371
+  },
+  {
+   "name": "DePaul U.",
+   "rank": 346,
+   "rd_m": 10.52,
+   "overall_rank": 372
+  },
+  {
+   "name": "U. Arkansas, Little Rock",
+   "rank": 347,
+   "rd_m": 10.46,
+   "overall_rank": 373
+  },
+  {
+   "name": "Saint Joseph's U.",
+   "rank": 348,
+   "rd_m": 10.45,
+   "overall_rank": 374
+  },
+  {
+   "name": "Yeshiva U.",
+   "rank": 349,
+   "rd_m": 10.29,
+   "overall_rank": 376
+  },
+  {
+   "name": "Creighton U.",
+   "rank": 350,
+   "rd_m": 29.33,
+   "overall_rank": 277
+  },
+  {
+   "name": "MGH Institute of Health Professions",
+   "rank": 351,
+   "rd_m": 10.03,
+   "overall_rank": 377
+  },
+  {
+   "name": "Charles R. Drew U. of Medicine and Science",
+   "rank": 352,
+   "rd_m": 23.66,
+   "overall_rank": 302
+  },
+  {
+   "name": "Rutgers, State U. New Jersey, Camden",
+   "rank": 353,
+   "rd_m": 9.85,
+   "overall_rank": 378
+  },
+  {
+   "name": "Hofstra U.",
+   "rank": 354,
+   "rd_m": 10.43,
+   "overall_rank": 375
+  },
+  {
+   "name": "Purdue U., Northwest",
+   "rank": 355,
+   "rd_m": 9.55,
+   "overall_rank": 379
+  },
+  {
+   "name": "Gallaudet U.",
+   "rank": 356,
+   "rd_m": 9.52,
+   "overall_rank": 380
+  },
+  {
+   "name": "Kean U.",
+   "rank": 357,
+   "rd_m": 9.48,
+   "overall_rank": 381
+  },
+  {
+   "name": "Seton Hall U.",
+   "rank": 358,
+   "rd_m": 9.48,
+   "overall_rank": 382
+  },
+  {
+   "name": "U. of the District of Columbia",
+   "rank": 359,
+   "rd_m": 9.39,
+   "overall_rank": 383
+  },
+  {
+   "name": "Lincoln U., Jefferson City",
+   "rank": 360,
+   "rd_m": 9.26,
+   "overall_rank": 384
+  },
+  {
+   "name": "Texas Woman's U.",
+   "rank": 361,
+   "rd_m": 9.0,
+   "overall_rank": 385
+  },
+  {
+   "name": "Southern U. and A&M C., Agricultural Research and Extension Center",
+   "rank": 362,
+   "rd_m": 8.97,
+   "overall_rank": 386
+  },
+  {
+   "name": "SUNY, Upstate Medical U.",
+   "rank": 363,
+   "rd_m": 59.48,
+   "overall_rank": 226
+  },
+  {
+   "name": "California State U., Chico",
+   "rank": 364,
+   "rd_m": 8.92,
+   "overall_rank": 387
+  },
+  {
+   "name": "Western U. of Health Sciences",
+   "rank": 365,
+   "rd_m": 11.19,
+   "overall_rank": 364
+  },
+  {
+   "name": "Middle Tennessee State U.",
+   "rank": 366,
+   "rd_m": 8.74,
+   "overall_rank": 388
+  },
+  {
+   "name": "Amherst C.",
+   "rank": 367,
+   "rd_m": 8.67,
+   "overall_rank": 389
+  },
+  {
+   "name": "C. Charleston",
+   "rank": 368,
+   "rd_m": 8.66,
+   "overall_rank": 390
+  },
+  {
+   "name": "U. Hawaii, Hilo",
+   "rank": 369,
+   "rd_m": 8.5,
+   "overall_rank": 391
+  },
+  {
+   "name": "U. Northern Colorado",
+   "rank": 370,
+   "rd_m": 8.48,
+   "overall_rank": 392
+  },
+  {
+   "name": "California State U., Bakersfield",
+   "rank": 371,
+   "rd_m": 8.46,
+   "overall_rank": 393
+  },
+  {
+   "name": "Lawrence Technological U.",
+   "rank": 372,
+   "rd_m": 8.44,
+   "overall_rank": 394
+  },
+  {
+   "name": "Pacific U.",
+   "rank": 373,
+   "rd_m": 8.38,
+   "overall_rank": 395
+  },
+  {
+   "name": "Texas A&M International U.",
+   "rank": 374,
+   "rd_m": 8.38,
+   "overall_rank": 396
+  },
+  {
+   "name": "U. Wisconsin-Superior",
+   "rank": 375,
+   "rd_m": 8.36,
+   "overall_rank": 397
+  },
+  {
+   "name": "Lamar U.",
+   "rank": 376,
+   "rd_m": 8.32,
+   "overall_rank": 398
+  },
+  {
+   "name": "SUNY, Downstate Health Sciences U.",
+   "rank": 377,
+   "rd_m": 37.32,
+   "overall_rank": 255
+  },
+  {
+   "name": "Santa Clara U.",
+   "rank": 378,
+   "rd_m": 8.01,
+   "overall_rank": 401
+  },
+  {
+   "name": "U. Arkansas, Pine Bluff",
+   "rank": 379,
+   "rd_m": 7.97,
+   "overall_rank": 402
+  },
+  {
+   "name": "U. Washington, Tacoma",
+   "rank": 380,
+   "rd_m": 7.97,
+   "overall_rank": 403
+  },
+  {
+   "name": "Abilene Christian U.",
+   "rank": 381,
+   "rd_m": 7.87,
+   "overall_rank": 404
+  },
+  {
+   "name": "Benedict C.",
+   "rank": 382,
+   "rd_m": 7.79,
+   "overall_rank": 405
+  },
+  {
+   "name": "Claremont McKenna C.",
+   "rank": 383,
+   "rd_m": 7.78,
+   "overall_rank": 406
+  },
+  {
+   "name": "Southern Connecticut State U.",
+   "rank": 384,
+   "rd_m": 7.62,
+   "overall_rank": 407
+  },
+  {
+   "name": "U. Colorado Colorado Springs",
+   "rank": 385,
+   "rd_m": 7.53,
+   "overall_rank": 409
+  },
+  {
+   "name": "Smith C.",
+   "rank": 386,
+   "rd_m": 7.38,
+   "overall_rank": 411
+  },
+  {
+   "name": "Norfolk State U.",
+   "rank": 387,
+   "rd_m": 7.31,
+   "overall_rank": 412
+  },
+  {
+   "name": "Louisiana State U., Health Sciences Center, New Orleans",
+   "rank": 388,
+   "rd_m": 79.68,
+   "overall_rank": 196
+  },
+  {
+   "name": "Texas A&M U.-San Antonio",
+   "rank": 389,
+   "rd_m": 7.15,
+   "overall_rank": 413
+  },
+  {
+   "name": "Grinnell C.",
+   "rank": 390,
+   "rd_m": 7.13,
+   "overall_rank": 414
+  },
+  {
+   "name": "Williams C.",
+   "rank": 391,
+   "rd_m": 7.07,
+   "overall_rank": 415
+  },
+  {
+   "name": "Pennsylvania State U., Behrend",
+   "rank": 392,
+   "rd_m": 7.05,
+   "overall_rank": 416
+  },
+  {
+   "name": "Grand Valley State U.",
+   "rank": 393,
+   "rd_m": 7.04,
+   "overall_rank": 417
+  },
+  {
+   "name": "Wellesley C.",
+   "rank": 394,
+   "rd_m": 6.99,
+   "overall_rank": 418
+  },
+  {
+   "name": "Northwest Indian C.",
+   "rank": 395,
+   "rd_m": 6.99,
+   "overall_rank": 419
+  },
+  {
+   "name": "Dine C.",
+   "rank": 396,
+   "rd_m": 6.96,
+   "overall_rank": 420
+  },
+  {
+   "name": "West Chester U. Pennsylvania",
+   "rank": 397,
+   "rd_m": 6.87,
+   "overall_rank": 421
+  },
+  {
+   "name": "U.S. Army War C.",
+   "rank": 398,
+   "rd_m": 6.82,
+   "overall_rank": 422
+  },
+  {
+   "name": "Texas A&M U.-Commerce",
+   "rank": 399,
+   "rd_m": 6.81,
+   "overall_rank": 423
+  },
+  {
+   "name": "Midwestern U.",
+   "rank": 400,
+   "rd_m": 13.63,
+   "overall_rank": 340
+  },
+  {
+   "name": "Indiana U. Pennsylvania",
+   "rank": 401,
+   "rd_m": 6.57,
+   "overall_rank": 424
+  },
+  {
+   "name": "Sul Ross State U.",
+   "rank": 402,
+   "rd_m": 6.55,
+   "overall_rank": 426
+  },
+  {
+   "name": "U. Southern Maine",
+   "rank": 403,
+   "rd_m": 6.54,
+   "overall_rank": 427
+  },
+  {
+   "name": "Memorial Sloan Kettering Cancer Center, Louis V. Gerstner Jr. Graduate S. of Biomedical Sciences",
+   "rank": 404,
+   "rd_m": 6.48,
+   "overall_rank": 428
+  },
+  {
+   "name": "Barnard C.",
+   "rank": 405,
+   "rd_m": 6.36,
+   "overall_rank": 429
+  },
+  {
+   "name": "Oregon Institute of Technology",
+   "rank": 406,
+   "rd_m": 6.31,
+   "overall_rank": 430
+  },
+  {
+   "name": "Bryn Mawr C.",
+   "rank": 407,
+   "rd_m": 6.3,
+   "overall_rank": 431
+  },
+  {
+   "name": "CUNY, Lehman C.",
+   "rank": 408,
+   "rd_m": 6.26,
+   "overall_rank": 432
+  },
+  {
+   "name": "Roseman U. of Health Sciences",
+   "rank": 409,
+   "rd_m": 6.2,
+   "overall_rank": 433
+  },
+  {
+   "name": "Bucknell U.",
+   "rank": 410,
+   "rd_m": 6.19,
+   "overall_rank": 434
+  },
+  {
+   "name": "Swarthmore C.",
+   "rank": 411,
+   "rd_m": 6.07,
+   "overall_rank": 435
+  },
+  {
+   "name": "West Virginia State U.",
+   "rank": 412,
+   "rd_m": 6.06,
+   "overall_rank": 436
+  },
+  {
+   "name": "U. of St. Thomas (MN)",
+   "rank": 413,
+   "rd_m": 5.99,
+   "overall_rank": 437
+  },
+  {
+   "name": "CUNY, Baruch C.",
+   "rank": 414,
+   "rd_m": 5.98,
+   "overall_rank": 438
+  },
+  {
+   "name": "Providence C.",
+   "rank": 415,
+   "rd_m": 5.92,
+   "overall_rank": 439
+  },
+  {
+   "name": "Alfred U.",
+   "rank": 416,
+   "rd_m": 5.92,
+   "overall_rank": 440
+  },
+  {
+   "name": "Morehouse C.",
+   "rank": 417,
+   "rd_m": 5.9,
+   "overall_rank": 441
+  },
+  {
+   "name": "Marian U., Indianapolis",
+   "rank": 418,
+   "rd_m": 7.52,
+   "overall_rank": 410
+  },
+  {
+   "name": "Naval War C.",
+   "rank": 419,
+   "rd_m": 5.87,
+   "overall_rank": 442
+  },
+  {
+   "name": "Fairfield U.",
+   "rank": 420,
+   "rd_m": 5.84,
+   "overall_rank": 443
+  },
+  {
+   "name": "Trinity U.",
+   "rank": 421,
+   "rd_m": 5.84,
+   "overall_rank": 444
+  },
+  {
+   "name": "U. Baltimore",
+   "rank": 422,
+   "rd_m": 5.8,
+   "overall_rank": 445
+  },
+  {
+   "name": "California State U., Dominguez Hills",
+   "rank": 423,
+   "rd_m": 5.76,
+   "overall_rank": 446
+  },
+  {
+   "name": "Occidental C.",
+   "rank": 424,
+   "rd_m": 5.75,
+   "overall_rank": 447
+  },
+  {
+   "name": "CUNY, C. Staten Island",
+   "rank": 425,
+   "rd_m": 5.74,
+   "overall_rank": 448
+  },
+  {
+   "name": "Pennsylvania State U., Harrisburg",
+   "rank": 426,
+   "rd_m": 5.74,
+   "overall_rank": 449
+  },
+  {
+   "name": "Loma Linda U.",
+   "rank": 427,
+   "rd_m": 23.9,
+   "overall_rank": 299
+  },
+  {
+   "name": "Sacred Heart U.",
+   "rank": 428,
+   "rd_m": 5.7,
+   "overall_rank": 450
+  },
+  {
+   "name": "U. North Carolina, Asheville",
+   "rank": 429,
+   "rd_m": 5.68,
+   "overall_rank": 451
+  },
+  {
+   "name": "Dakota State U.",
+   "rank": 430,
+   "rd_m": 5.65,
+   "overall_rank": 452
+  },
+  {
+   "name": "U. New Haven",
+   "rank": 431,
+   "rd_m": 5.64,
+   "overall_rank": 453
+  },
+  {
+   "name": "Meharry Medical C.",
+   "rank": 432,
+   "rd_m": 23.69,
+   "overall_rank": 301
+  },
+  {
+   "name": "High Tech High Graduate School of Ed.",
+   "rank": 433,
+   "rd_m": 5.58,
+   "overall_rank": 454
+  },
+  {
+   "name": "Hope C.",
+   "rank": 434,
+   "rd_m": 5.58,
+   "overall_rank": 455
+  },
+  {
+   "name": "Southeastern Louisiana U.",
+   "rank": 435,
+   "rd_m": 5.58,
+   "overall_rank": 456
+  },
+  {
+   "name": "Pomona C.",
+   "rank": 436,
+   "rd_m": 5.52,
+   "overall_rank": 457
+  },
+  {
+   "name": "Southern U. and A&M C., Baton Rouge",
+   "rank": 437,
+   "rd_m": 5.48,
+   "overall_rank": 458
+  },
+  {
+   "name": "U. Washington, Bothell",
+   "rank": 438,
+   "rd_m": 5.32,
+   "overall_rank": 459
+  },
+  {
+   "name": "Reed C.",
+   "rank": 439,
+   "rd_m": 5.15,
+   "overall_rank": 460
+  },
+  {
+   "name": "Rhode Island School of Design",
+   "rank": 440,
+   "rd_m": 5.13,
+   "overall_rank": 461
+  },
+  {
+   "name": "Coastal Carolina U.",
+   "rank": 441,
+   "rd_m": 5.09,
+   "overall_rank": 462
+  },
+  {
+   "name": "Trinity C., Hartford",
+   "rank": 442,
+   "rd_m": 5.07,
+   "overall_rank": 463
+  },
+  {
+   "name": "Austin Peay State U.",
+   "rank": 443,
+   "rd_m": 5.07,
+   "overall_rank": 464
+  },
+  {
+   "name": "National U.",
+   "rank": 444,
+   "rd_m": 5.02,
+   "overall_rank": 465
+  },
+  {
+   "name": "Carleton C.",
+   "rank": 445,
+   "rd_m": 4.99,
+   "overall_rank": 466
+  },
+  {
+   "name": "Toyota Technological Institute, Chicago",
+   "rank": 446,
+   "rd_m": 4.98,
+   "overall_rank": 467
+  },
+  {
+   "name": "Citadel Military C. South Carolina",
+   "rank": 447,
+   "rd_m": 4.97,
+   "overall_rank": 468
+  },
+  {
+   "name": "Philadelphia C. of Osteopathic Medicine",
+   "rank": 448,
+   "rd_m": 7.61,
+   "overall_rank": 408
+  },
+  {
+   "name": "St. John's U., New York",
+   "rank": 449,
+   "rd_m": 4.95,
+   "overall_rank": 469
+  },
+  {
+   "name": "Sonoma State U.",
+   "rank": 450,
+   "rd_m": 4.93,
+   "overall_rank": 470
+  },
+  {
+   "name": "Suffolk U.",
+   "rank": 451,
+   "rd_m": 4.89,
+   "overall_rank": 471
+  },
+  {
+   "name": "Franklin and Marshall C.",
+   "rank": 452,
+   "rd_m": 4.82,
+   "overall_rank": 472
+  },
+  {
+   "name": "Claremont Graduate U.",
+   "rank": 453,
+   "rd_m": 4.81,
+   "overall_rank": 473
+  },
+  {
+   "name": "Colgate U.",
+   "rank": 454,
+   "rd_m": 4.73,
+   "overall_rank": 474
+  },
+  {
+   "name": "Seattle U.",
+   "rank": 455,
+   "rd_m": 4.7,
+   "overall_rank": 475
+  },
+  {
+   "name": "U. Wisconsin-Stevens Point",
+   "rank": 456,
+   "rd_m": 4.69,
+   "overall_rank": 476
+  },
+  {
+   "name": "Bentley U.",
+   "rank": 457,
+   "rd_m": 4.64,
+   "overall_rank": 477
+  },
+  {
+   "name": "Fort Lewis C.",
+   "rank": 458,
+   "rd_m": 4.58,
+   "overall_rank": 478
+  },
+  {
+   "name": "U. Detroit Mercy",
+   "rank": 459,
+   "rd_m": 4.55,
+   "overall_rank": 479
+  },
+  {
+   "name": "Spelman C.",
+   "rank": 460,
+   "rd_m": 4.54,
+   "overall_rank": 480
+  },
+  {
+   "name": "Davidson C.",
+   "rank": 461,
+   "rd_m": 4.53,
+   "overall_rank": 481
+  },
+  {
+   "name": "Colby C.",
+   "rank": 462,
+   "rd_m": 4.51,
+   "overall_rank": 482
+  },
+  {
+   "name": "Stephen F. Austin State U.",
+   "rank": 463,
+   "rd_m": 4.5,
+   "overall_rank": 483
+  },
+  {
+   "name": "U. Central Oklahoma",
+   "rank": 464,
+   "rd_m": 4.5,
+   "overall_rank": 484
+  },
+  {
+   "name": "St. Cloud State U.",
+   "rank": 465,
+   "rd_m": 4.42,
+   "overall_rank": 485
+  },
+  {
+   "name": "Rush U.",
+   "rank": 466,
+   "rd_m": 139.29,
+   "overall_rank": 166
+  },
+  {
+   "name": "U. Northern Iowa",
+   "rank": 467,
+   "rd_m": 4.41,
+   "overall_rank": 486
+  },
+  {
+   "name": "Monmouth U.",
+   "rank": 468,
+   "rd_m": 4.34,
+   "overall_rank": 487
+  },
+  {
+   "name": "Morehouse School of Medicine",
+   "rank": 469,
+   "rd_m": 68.75,
+   "overall_rank": 213
+  },
+  {
+   "name": "St. John Fisher U.",
+   "rank": 470,
+   "rd_m": 4.19,
+   "overall_rank": 488
+  },
+  {
+   "name": "Albany State U.",
+   "rank": 471,
+   "rd_m": 4.16,
+   "overall_rank": 489
+  },
+  {
+   "name": "Western Illinois U.",
+   "rank": 472,
+   "rd_m": 4.14,
+   "overall_rank": 490
+  },
+  {
+   "name": "Haverford C.",
+   "rank": 473,
+   "rd_m": 4.1,
+   "overall_rank": 491
+  },
+  {
+   "name": "New Mexico Highlands U.",
+   "rank": 474,
+   "rd_m": 4.07,
+   "overall_rank": 492
+  },
+  {
+   "name": "National Louis U.",
+   "rank": 475,
+   "rd_m": 3.99,
+   "overall_rank": 493
+  },
+  {
+   "name": "Keck Graduate Institute",
+   "rank": 476,
+   "rd_m": 3.97,
+   "overall_rank": 494
+  },
+  {
+   "name": "Fayetteville State U.",
+   "rank": 477,
+   "rd_m": 3.94,
+   "overall_rank": 495
+  },
+  {
+   "name": "East Stroudsburg U. Pennsylvania",
+   "rank": 478,
+   "rd_m": 3.92,
+   "overall_rank": 496
+  },
+  {
+   "name": "Alabama State U.",
+   "rank": 479,
+   "rd_m": 3.9,
+   "overall_rank": 497
+  },
+  {
+   "name": "Harvey Mudd C.",
+   "rank": 480,
+   "rd_m": 3.9,
+   "overall_rank": 498
+  },
+  {
+   "name": "Whitman C.",
+   "rank": 481,
+   "rd_m": 3.89,
+   "overall_rank": 499
+  },
+  {
+   "name": "Lake Superior State U.",
+   "rank": 482,
+   "rd_m": 3.88,
+   "overall_rank": 501
+  },
+  {
+   "name": "California State U., Channel Islands",
+   "rank": 483,
+   "rd_m": 3.86,
+   "overall_rank": 502
+  },
+  {
+   "name": "U. Nebraska, Kearney",
+   "rank": 484,
+   "rd_m": 3.8,
+   "overall_rank": 503
+  },
+  {
+   "name": "Purdue U., Fort Wayne",
+   "rank": 485,
+   "rd_m": 3.79,
+   "overall_rank": 504
+  },
+  {
+   "name": "Hawaii Pacific U.",
+   "rank": 486,
+   "rd_m": 3.78,
+   "overall_rank": 505
+  },
+  {
+   "name": "SUNY, C. of Optometry",
+   "rank": 487,
+   "rd_m": 3.78,
+   "overall_rank": 506
+  },
+  {
+   "name": "Vassar C.",
+   "rank": 488,
+   "rd_m": 3.77,
+   "overall_rank": 508
+  },
+  {
+   "name": "Christopher Newport U.",
+   "rank": 489,
+   "rd_m": 3.76,
+   "overall_rank": 509
+  },
+  {
+   "name": "U. New England",
+   "rank": 490,
+   "rd_m": 8.09,
+   "overall_rank": 400
+  },
+  {
+   "name": "Bowie State U.",
+   "rank": 491,
+   "rd_m": 3.73,
+   "overall_rank": 510
+  },
+  {
+   "name": "U. Wisconsin-Eau Claire",
+   "rank": 492,
+   "rd_m": 3.73,
+   "overall_rank": 511
+  },
+  {
+   "name": "Roger Williams U.",
+   "rank": 493,
+   "rd_m": 3.68,
+   "overall_rank": 512
+  },
+  {
+   "name": "Hamilton C.",
+   "rank": 494,
+   "rd_m": 3.66,
+   "overall_rank": 513
+  },
+  {
+   "name": "U. Texas, Tyler",
+   "rank": 495,
+   "rd_m": 3.63,
+   "overall_rank": 514
+  },
+  {
+   "name": "Murray State U.",
+   "rank": 496,
+   "rd_m": 3.63,
+   "overall_rank": 515
+  },
+  {
+   "name": "New England C. of Optometry",
+   "rank": 497,
+   "rd_m": 3.6,
+   "overall_rank": 516
+  },
+  {
+   "name": "Middlebury C.",
+   "rank": 498,
+   "rd_m": 3.58,
+   "overall_rank": 517
+  },
+  {
+   "name": "Saginaw Valley State U.",
+   "rank": 499,
+   "rd_m": 3.55,
+   "overall_rank": 519
+  },
+  {
+   "name": "Winthrop U.",
+   "rank": 500,
+   "rd_m": 3.47,
+   "overall_rank": 520
+  },
+  {
+   "name": "Tougaloo C.",
+   "rank": 501,
+   "rd_m": 3.46,
+   "overall_rank": 521
+  },
+  {
+   "name": "National Defense U.",
+   "rank": 502,
+   "rd_m": 3.46,
+   "overall_rank": 522
+  },
+  {
+   "name": "U. Wisconsin-Oshkosh",
+   "rank": 503,
+   "rd_m": 3.44,
+   "overall_rank": 523
+  },
+  {
+   "name": "Fisk U.",
+   "rank": 504,
+   "rd_m": 3.42,
+   "overall_rank": 524
+  },
+  {
+   "name": "Bowdoin C.",
+   "rank": 505,
+   "rd_m": 3.41,
+   "overall_rank": 525
+  },
+  {
+   "name": "Azusa Pacific U.",
+   "rank": 506,
+   "rd_m": 3.4,
+   "overall_rank": 526
+  },
+  {
+   "name": "Pace U.",
+   "rank": 507,
+   "rd_m": 3.35,
+   "overall_rank": 527
+  },
+  {
+   "name": "Troy U.",
+   "rank": 508,
+   "rd_m": 3.32,
+   "overall_rank": 528
+  },
+  {
+   "name": "Dillard U.",
+   "rank": 509,
+   "rd_m": 3.32,
+   "overall_rank": 529
+  },
+  {
+   "name": "Texas Tech U., Health Sciences Center, El Paso",
+   "rank": 510,
+   "rd_m": 15.6,
+   "overall_rank": 329
+  },
+  {
+   "name": "Northern Kentucky U.",
+   "rank": 511,
+   "rd_m": 3.27,
+   "overall_rank": 530
+  },
+  {
+   "name": "Des Moines U.",
+   "rank": 512,
+   "rd_m": 3.89,
+   "overall_rank": 500
+  },
+  {
+   "name": "SUNY, Oswego",
+   "rank": 513,
+   "rd_m": 3.24,
+   "overall_rank": 531
+  },
+  {
+   "name": "Minnesota State U., Mankato",
+   "rank": 514,
+   "rd_m": 3.23,
+   "overall_rank": 532
+  },
+  {
+   "name": "Furman U.",
+   "rank": 515,
+   "rd_m": 3.23,
+   "overall_rank": 533
+  },
+  {
+   "name": "U. Central Arkansas",
+   "rank": 516,
+   "rd_m": 3.14,
+   "overall_rank": 534
+  },
+  {
+   "name": "Milwaukee School of Engineering",
+   "rank": 517,
+   "rd_m": 3.09,
+   "overall_rank": 535
+  },
+  {
+   "name": "U. Houston-Clear Lake",
+   "rank": 518,
+   "rd_m": 3.08,
+   "overall_rank": 536
+  },
+  {
+   "name": "U. Tennessee, Health Science Center",
+   "rank": 519,
+   "rd_m": 124.77,
+   "overall_rank": 170
+  },
+  {
+   "name": "U. Wisconsin-La Crosse",
+   "rank": 520,
+   "rd_m": 3.07,
+   "overall_rank": 537
+  },
+  {
+   "name": "U. Houston-Downtown",
+   "rank": 521,
+   "rd_m": 3.05,
+   "overall_rank": 538
+  },
+  {
+   "name": "CUNY, New York City C. of Technology",
+   "rank": 522,
+   "rd_m": 3.03,
+   "overall_rank": 539
+  },
+  {
+   "name": "Elon U.",
+   "rank": 523,
+   "rd_m": 3.0,
+   "overall_rank": 540
+  },
+  {
+   "name": "U. of the Incarnate Word",
+   "rank": 524,
+   "rd_m": 3.58,
+   "overall_rank": 518
+  },
+  {
+   "name": "U. of Health Sciences and Pharmacy in St. Louis",
+   "rank": 525,
+   "rd_m": 2.98,
+   "overall_rank": 541
+  },
+  {
+   "name": "U. Richmond",
+   "rank": 526,
+   "rd_m": 2.96,
+   "overall_rank": 542
+  },
+  {
+   "name": "Eastern Washington U.",
+   "rank": 527,
+   "rd_m": 2.96,
+   "overall_rank": 543
+  },
+  {
+   "name": "U. Louisiana, Monroe",
+   "rank": 528,
+   "rd_m": 2.94,
+   "overall_rank": 544
+  },
+  {
+   "name": "Lewis and Clark C.",
+   "rank": 529,
+   "rd_m": 2.92,
+   "overall_rank": 545
+  },
+  {
+   "name": "C. New Jersey",
+   "rank": 530,
+   "rd_m": 2.86,
+   "overall_rank": 546
+  },
+  {
+   "name": "Merrimack C.",
+   "rank": 531,
+   "rd_m": 2.85,
+   "overall_rank": 547
+  },
+  {
+   "name": "U. Wisconsin-River Falls",
+   "rank": 532,
+   "rd_m": 2.85,
+   "overall_rank": 548
+  },
+  {
+   "name": "Northeastern Illinois U.",
+   "rank": 533,
+   "rd_m": 2.84,
+   "overall_rank": 549
+  },
+  {
+   "name": "U. South Carolina Upstate",
+   "rank": 534,
+   "rd_m": 2.76,
+   "overall_rank": 550
+  },
+  {
+   "name": "Skidmore C.",
+   "rank": 535,
+   "rd_m": 2.76,
+   "overall_rank": 551
+  },
+  {
+   "name": "Central Washington U.",
+   "rank": 536,
+   "rd_m": 2.76,
+   "overall_rank": 552
+  },
+  {
+   "name": "Marymount U.",
+   "rank": 537,
+   "rd_m": 2.75,
+   "overall_rank": 553
+  },
+  {
+   "name": "CUNY, system office",
+   "rank": 538,
+   "rd_m": 2.72,
+   "overall_rank": 554
+  },
+  {
+   "name": "Chicago State U.",
+   "rank": 539,
+   "rd_m": 2.7,
+   "overall_rank": 555
+  },
+  {
+   "name": "Youngstown State U.",
+   "rank": 540,
+   "rd_m": 2.69,
+   "overall_rank": 556
+  },
+  {
+   "name": "La Sierra U.",
+   "rank": 541,
+   "rd_m": 2.69,
+   "overall_rank": 557
+  },
+  {
+   "name": "Lafayette C.",
+   "rank": 542,
+   "rd_m": 2.68,
+   "overall_rank": 558
+  },
+  {
+   "name": "U. Texas of the Permian Basin",
+   "rank": 543,
+   "rd_m": 2.68,
+   "overall_rank": 559
+  },
+  {
+   "name": "Black Hills State U.",
+   "rank": 544,
+   "rd_m": 2.65,
+   "overall_rank": 560
+  },
+  {
+   "name": "U. Wisconsin-Green Bay",
+   "rank": 545,
+   "rd_m": 2.64,
+   "overall_rank": 561
+  },
+  {
+   "name": "Northeast Ohio Medical U.",
+   "rank": 546,
+   "rd_m": 13.05,
+   "overall_rank": 347
+  },
+  {
+   "name": "Rosalind Franklin U. of Medicine and Science",
+   "rank": 547,
+   "rd_m": 11.77,
+   "overall_rank": 355
+  },
+  {
+   "name": "Pittsburg State U.",
+   "rank": 548,
+   "rd_m": 2.58,
+   "overall_rank": 562
+  },
+  {
+   "name": "U. Illinois, Springfield",
+   "rank": 549,
+   "rd_m": 2.55,
+   "overall_rank": 563
+  },
+  {
+   "name": "Virginia Military Institute",
+   "rank": 550,
+   "rd_m": 2.51,
+   "overall_rank": 564
+  },
+  {
+   "name": "Calvin U.",
+   "rank": 551,
+   "rd_m": 2.49,
+   "overall_rank": 565
+  },
+  {
+   "name": "New York Institute of Technology",
+   "rank": 552,
+   "rd_m": 6.56,
+   "overall_rank": 425
+  },
+  {
+   "name": "SUNY, Buffalo State U.",
+   "rank": 553,
+   "rd_m": 2.45,
+   "overall_rank": 566
+  },
+  {
+   "name": "California State U., Stanislaus",
+   "rank": 554,
+   "rd_m": 2.44,
+   "overall_rank": 567
+  },
+  {
+   "name": "Seattle Pacific U.",
+   "rank": 555,
+   "rd_m": 2.41,
+   "overall_rank": 568
+  },
+  {
+   "name": "U. Alaska, Southeast",
+   "rank": 556,
+   "rd_m": 2.4,
+   "overall_rank": 569
+  },
+  {
+   "name": "Florida Polytechnic U.",
+   "rank": 557,
+   "rd_m": 2.39,
+   "overall_rank": 570
+  },
+  {
+   "name": "John Carroll U.",
+   "rank": 558,
+   "rd_m": 2.38,
+   "overall_rank": 571
+  },
+  {
+   "name": "Savannah State U.",
+   "rank": 559,
+   "rd_m": 2.38,
+   "overall_rank": 572
+  },
+  {
+   "name": "Mount Holyoke C.",
+   "rank": 560,
+   "rd_m": 2.37,
+   "overall_rank": 573
+  },
+  {
+   "name": "U. of the Pacific",
+   "rank": 561,
+   "rd_m": 2.36,
+   "overall_rank": 574
+  },
+  {
+   "name": "Western Carolina U.",
+   "rank": 562,
+   "rd_m": 2.33,
+   "overall_rank": 576
+  },
+  {
+   "name": "Morehead State U.",
+   "rank": 563,
+   "rd_m": 2.29,
+   "overall_rank": 577
+  },
+  {
+   "name": "Union C., Schenectady",
+   "rank": 564,
+   "rd_m": 2.26,
+   "overall_rank": 578
+  },
+  {
+   "name": "Utah Valley U.",
+   "rank": 565,
+   "rd_m": 2.25,
+   "overall_rank": 579
+  },
+  {
+   "name": "Stockton U.",
+   "rank": 566,
+   "rd_m": 2.25,
+   "overall_rank": 580
+  },
+  {
+   "name": "Manhattan C.",
+   "rank": 567,
+   "rd_m": 2.18,
+   "overall_rank": 581
+  },
+  {
+   "name": "Colorado C.",
+   "rank": 568,
+   "rd_m": 2.18,
+   "overall_rank": 582
+  },
+  {
+   "name": "U. Puerto Rico, Cayey",
+   "rank": 569,
+   "rd_m": 2.17,
+   "overall_rank": 583
+  },
+  {
+   "name": "Alaska Pacific U.",
+   "rank": 570,
+   "rd_m": 2.17,
+   "overall_rank": 584
+  },
+  {
+   "name": "Bates C.",
+   "rank": 571,
+   "rd_m": 2.07,
+   "overall_rank": 585
+  },
+  {
+   "name": "Ferris State U.",
+   "rank": 572,
+   "rd_m": 2.05,
+   "overall_rank": 586
+  },
+  {
+   "name": "U. Michigan, Flint",
+   "rank": 573,
+   "rd_m": 2.02,
+   "overall_rank": 587
+  },
+  {
+   "name": "Lipscomb U.",
+   "rank": 574,
+   "rd_m": 2.01,
+   "overall_rank": 588
+  },
+  {
+   "name": "Nevada State U.",
+   "rank": 575,
+   "rd_m": 1.99,
+   "overall_rank": 589
+  },
+  {
+   "name": "Hobart and William Smith Colleges",
+   "rank": 576,
+   "rd_m": 1.98,
+   "overall_rank": 590
+  },
+  {
+   "name": "Macalester C.",
+   "rank": 577,
+   "rd_m": 1.95,
+   "overall_rank": 591
+  },
+  {
+   "name": "U. Hartford",
+   "rank": 578,
+   "rd_m": 1.94,
+   "overall_rank": 592
+  },
+  {
+   "name": "SUNY, C. Brockport",
+   "rank": 579,
+   "rd_m": 1.93,
+   "overall_rank": 593
+  },
+  {
+   "name": "U. Puerto Rico, Humacao",
+   "rank": 579,
+   "rd_m": 1.93,
+   "overall_rank": 594
+  },
+  {
+   "name": "Northern Michigan U.",
+   "rank": 581,
+   "rd_m": 1.93,
+   "overall_rank": 595
+  },
+  {
+   "name": "Oberlin C.",
+   "rank": 582,
+   "rd_m": 1.93,
+   "overall_rank": 596
+  },
+  {
+   "name": "Southern Utah U.",
+   "rank": 583,
+   "rd_m": 1.9,
+   "overall_rank": 597
+  },
+  {
+   "name": "Erikson Institute",
+   "rank": 584,
+   "rd_m": 1.89,
+   "overall_rank": 598
+  },
+  {
+   "name": "Heidelberg U.",
+   "rank": 585,
+   "rd_m": 1.88,
+   "overall_rank": 599
+  },
+  {
+   "name": "Norwich U.",
+   "rank": 586,
+   "rd_m": 1.88,
+   "overall_rank": 600
+  },
+  {
+   "name": "Colorado State U., Pueblo",
+   "rank": 587,
+   "rd_m": 1.83,
+   "overall_rank": 601
+  },
+  {
+   "name": "SUNY, Geneseo",
+   "rank": 588,
+   "rd_m": 1.82,
+   "overall_rank": 602
+  },
+  {
+   "name": "Franklin W. Olin C. of Engineering",
+   "rank": 589,
+   "rd_m": 1.82,
+   "overall_rank": 603
+  },
+  {
+   "name": "Claflin U.",
+   "rank": 590,
+   "rd_m": 1.82,
+   "overall_rank": 604
+  },
+  {
+   "name": "U. North Georgia",
+   "rank": 591,
+   "rd_m": 1.8,
+   "overall_rank": 605
+  },
+  {
+   "name": "United Tribes Technical C.",
+   "rank": 592,
+   "rd_m": 1.8,
+   "overall_rank": 606
+  },
+  {
+   "name": "Babson C.",
+   "rank": 593,
+   "rd_m": 1.78,
+   "overall_rank": 607
+  },
+  {
+   "name": "Biola U.",
+   "rank": 594,
+   "rd_m": 1.76,
+   "overall_rank": 608
+  },
+  {
+   "name": "Andrews U.",
+   "rank": 595,
+   "rd_m": 1.75,
+   "overall_rank": 610
+  },
+  {
+   "name": "Dickinson C.",
+   "rank": 596,
+   "rd_m": 1.74,
+   "overall_rank": 611
+  },
+  {
+   "name": "Pratt Institute",
+   "rank": 597,
+   "rd_m": 1.71,
+   "overall_rank": 612
+  },
+  {
+   "name": "Arcadia U.",
+   "rank": 598,
+   "rd_m": 1.69,
+   "overall_rank": 613
+  },
+  {
+   "name": "U. Ana G. Mendez, Gurabo",
+   "rank": 599,
+   "rd_m": 1.66,
+   "overall_rank": 614
+  },
+  {
+   "name": "Saint John's U.",
+   "rank": 600,
+   "rd_m": 1.62,
+   "overall_rank": 615
+  },
+  {
+   "name": "U. South Carolina, Aiken",
+   "rank": 601,
+   "rd_m": 1.61,
+   "overall_rank": 616
+  },
+  {
+   "name": "Hartford International U. for Religion and Peace",
+   "rank": 602,
+   "rd_m": 1.6,
+   "overall_rank": 617
+  },
+  {
+   "name": "Pennsylvania State U., Altoona",
+   "rank": 603,
+   "rd_m": 1.57,
+   "overall_rank": 619
+  },
+  {
+   "name": "St. Edward's U.",
+   "rank": 604,
+   "rd_m": 1.57,
+   "overall_rank": 620
+  },
+  {
+   "name": "Eckerd C.",
+   "rank": 605,
+   "rd_m": 1.56,
+   "overall_rank": 621
+  },
+  {
+   "name": "C. of Saint Benedict",
+   "rank": 606,
+   "rd_m": 1.54,
+   "overall_rank": 622
+  },
+  {
+   "name": "U. Hawaii, Maui C.",
+   "rank": 607,
+   "rd_m": 1.52,
+   "overall_rank": 623
+  },
+  {
+   "name": "CUNY, York C.",
+   "rank": 608,
+   "rd_m": 1.51,
+   "overall_rank": 624
+  },
+  {
+   "name": "St. Olaf C.",
+   "rank": 609,
+   "rd_m": 1.5,
+   "overall_rank": 625
+  },
+  {
+   "name": "Drake U.",
+   "rank": 610,
+   "rd_m": 1.49,
+   "overall_rank": 626
+  },
+  {
+   "name": "Willamette U.",
+   "rank": 611,
+   "rd_m": 1.47,
+   "overall_rank": 628
+  },
+  {
+   "name": "Kenyon C.",
+   "rank": 612,
+   "rd_m": 1.47,
+   "overall_rank": 629
+  },
+  {
+   "name": "National U. of Natural Medicine",
+   "rank": 612,
+   "rd_m": 1.47,
+   "overall_rank": 630
+  },
+  {
+   "name": "SUNY, C. Plattsburgh",
+   "rank": 614,
+   "rd_m": 1.47,
+   "overall_rank": 631
+  },
+  {
+   "name": "U. Virginia's C. Wise",
+   "rank": 615,
+   "rd_m": 1.46,
+   "overall_rank": 632
+  },
+  {
+   "name": "New C. Florida",
+   "rank": 616,
+   "rd_m": 1.46,
+   "overall_rank": 633
+  },
+  {
+   "name": "Wheaton C., Wheaton",
+   "rank": 617,
+   "rd_m": 1.45,
+   "overall_rank": 634
+  },
+  {
+   "name": "Eastern Kentucky U.",
+   "rank": 618,
+   "rd_m": 1.44,
+   "overall_rank": 635
+  },
+  {
+   "name": "U. Scranton",
+   "rank": 618,
+   "rd_m": 1.44,
+   "overall_rank": 636
+  },
+  {
+   "name": "Eastern Connecticut State U.",
+   "rank": 620,
+   "rd_m": 1.42,
+   "overall_rank": 637
+  },
+  {
+   "name": "Roosevelt U.",
+   "rank": 621,
+   "rd_m": 1.42,
+   "overall_rank": 638
+  },
+  {
+   "name": "Robert Morris U.",
+   "rank": 622,
+   "rd_m": 1.41,
+   "overall_rank": 639
+  },
+  {
+   "name": "U. North Carolina, general administration",
+   "rank": 623,
+   "rd_m": 1.4,
+   "overall_rank": 640
+  },
+  {
+   "name": "Loyola U., Maryland",
+   "rank": 624,
+   "rd_m": 1.36,
+   "overall_rank": 641
+  },
+  {
+   "name": "U. of Mary Washington",
+   "rank": 625,
+   "rd_m": 1.33,
+   "overall_rank": 642
+  },
+  {
+   "name": "Butler U.",
+   "rank": 626,
+   "rd_m": 1.31,
+   "overall_rank": 643
+  },
+  {
+   "name": "C. Wooster",
+   "rank": 627,
+   "rd_m": 1.3,
+   "overall_rank": 644
+  },
+  {
+   "name": "Radford U.",
+   "rank": 628,
+   "rd_m": 1.29,
+   "overall_rank": 645
+  },
+  {
+   "name": "Midwestern State U.",
+   "rank": 629,
+   "rd_m": 1.26,
+   "overall_rank": 646
+  },
+  {
+   "name": "U. Puget Sound",
+   "rank": 630,
+   "rd_m": 1.25,
+   "overall_rank": 647
+  },
+  {
+   "name": "SUNY, Polytechnic Institute",
+   "rank": 631,
+   "rd_m": 1.23,
+   "overall_rank": 648
+  },
+  {
+   "name": "Weber State U.",
+   "rank": 632,
+   "rd_m": 1.22,
+   "overall_rank": 649
+  },
+  {
+   "name": "California Lutheran U.",
+   "rank": 633,
+   "rd_m": 1.2,
+   "overall_rank": 650
+  },
+  {
+   "name": "Western New England U.",
+   "rank": 633,
+   "rd_m": 1.2,
+   "overall_rank": 651
+  },
+  {
+   "name": "Liberty U.",
+   "rank": 635,
+   "rd_m": 1.6,
+   "overall_rank": 618
+  },
+  {
+   "name": "U. South Carolina, Beaufort",
+   "rank": 636,
+   "rd_m": 1.18,
+   "overall_rank": 652
+  },
+  {
+   "name": "Illinois C. of Optometry",
+   "rank": 637,
+   "rd_m": 1.16,
+   "overall_rank": 653
+  },
+  {
+   "name": "Juniata C.",
+   "rank": 638,
+   "rd_m": 1.16,
+   "overall_rank": 654
+  },
+  {
+   "name": "Gettysburg C.",
+   "rank": 639,
+   "rd_m": 1.15,
+   "overall_rank": 655
+  },
+  {
+   "name": "SUNY, Cobleskill",
+   "rank": 640,
+   "rd_m": 1.15,
+   "overall_rank": 656
+  },
+  {
+   "name": "Indiana State U.",
+   "rank": 641,
+   "rd_m": 1.14,
+   "overall_rank": 657
+  },
+  {
+   "name": "Nicholls State U.",
+   "rank": 642,
+   "rd_m": 1.12,
+   "overall_rank": 658
+  },
+  {
+   "name": "Albany C. of Pharmacy and Health Sciences",
+   "rank": 643,
+   "rd_m": 1.11,
+   "overall_rank": 659
+  },
+  {
+   "name": "Denison U.",
+   "rank": 644,
+   "rd_m": 1.11,
+   "overall_rank": 660
+  },
+  {
+   "name": "Connecticut C.",
+   "rank": 645,
+   "rd_m": 1.1,
+   "overall_rank": 661
+  },
+  {
+   "name": "Elizabeth City State U.",
+   "rank": 646,
+   "rd_m": 1.08,
+   "overall_rank": 662
+  },
+  {
+   "name": "Indiana U., South Bend",
+   "rank": 647,
+   "rd_m": 1.07,
+   "overall_rank": 663
+  },
+  {
+   "name": "Aaniiih Nakoda C.",
+   "rank": 648,
+   "rd_m": 1.04,
+   "overall_rank": 664
+  },
+  {
+   "name": "Southern Oregon U.",
+   "rank": 649,
+   "rd_m": 1.02,
+   "overall_rank": 665
+  },
+  {
+   "name": "Ursinus C.",
+   "rank": 650,
+   "rd_m": 1.01,
+   "overall_rank": 666
+  },
+  {
+   "name": "St. Bonaventure U.",
+   "rank": 651,
+   "rd_m": 1.0,
+   "overall_rank": 667
+  },
+  {
+   "name": "High Point U.",
+   "rank": 652,
+   "rd_m": 1.0,
+   "overall_rank": 668
+  },
+  {
+   "name": "Johnson C. Smith U.",
+   "rank": 653,
+   "rd_m": 0.94,
+   "overall_rank": 669
+  },
+  {
+   "name": "Plymouth State U.",
+   "rank": 654,
+   "rd_m": 0.93,
+   "overall_rank": 670
+  },
+  {
+   "name": "U. Minnesota, Rochester",
+   "rank": 655,
+   "rd_m": 0.92,
+   "overall_rank": 671
+  },
+  {
+   "name": "Valparaiso U.",
+   "rank": 656,
+   "rd_m": 0.92,
+   "overall_rank": 672
+  },
+  {
+   "name": "U. North Texas, Dallas",
+   "rank": 657,
+   "rd_m": 0.91,
+   "overall_rank": 673
+  },
+  {
+   "name": "Keene State C.",
+   "rank": 658,
+   "rd_m": 0.84,
+   "overall_rank": 674
+  },
+  {
+   "name": "St. Catherine U.",
+   "rank": 659,
+   "rd_m": 0.82,
+   "overall_rank": 675
+  },
+  {
+   "name": "Northwestern State U. Louisiana",
+   "rank": 660,
+   "rd_m": 0.8,
+   "overall_rank": 676
+  },
+  {
+   "name": "Polytechnic U. Puerto Rico",
+   "rank": 661,
+   "rd_m": 0.8,
+   "overall_rank": 677
+  },
+  {
+   "name": "Auburn U., Montgomery",
+   "rank": 662,
+   "rd_m": 0.78,
+   "overall_rank": 678
+  },
+  {
+   "name": "Palmer C. of Chiropractic, Davenport",
+   "rank": 663,
+   "rd_m": 0.75,
+   "overall_rank": 679
+  },
+  {
+   "name": "Berry C.",
+   "rank": 664,
+   "rd_m": 0.67,
+   "overall_rank": 680
+  },
+  {
+   "name": "Bryant U.",
+   "rank": 665,
+   "rd_m": 0.46,
+   "overall_rank": 681
+  },
+  {
+   "name": "New York Medical C.",
+   "rank": 666,
+   "rd_m": 21.85,
+   "overall_rank": 310
+  },
+  {
+   "name": "Carthage C.",
+   "rank": 667,
+   "rd_m": 0.19,
+   "overall_rank": 682
+  },
+  {
+   "name": "Lincoln Memorial U.",
+   "rank": 668,
+   "rd_m": 1.76,
+   "overall_rank": 609
+  },
+  {
+   "name": "Touro U., California",
+   "rank": 669,
+   "rd_m": 2.36,
+   "overall_rank": 575
+  },
+  {
+   "name": "Medical C. Wisconsin",
+   "rank": 670,
+   "rd_m": 360.31,
+   "overall_rank": 97
+  },
+  {
+   "name": "Albany Medical C.",
+   "rank": null,
+   "rd_m": 23.05,
+   "overall_rank": 304
+  },
+  {
+   "name": "Albert Einstein C. of Medicine",
+   "rank": null,
+   "rd_m": 360.79,
+   "overall_rank": 96
+  },
+  {
+   "name": "Eastern Virginia Medical School",
+   "rank": null,
+   "rd_m": 27.89,
+   "overall_rank": 282
+  },
+  {
+   "name": "Edward Via C. of Osteopathic Medicine",
+   "rank": null,
+   "rd_m": 8.13,
+   "overall_rank": 399
+  },
+  {
+   "name": "Icahn School of Medicine at Mount Sinai",
+   "rank": null,
+   "rd_m": 1015.6,
+   "overall_rank": 35
+  },
+  {
+   "name": "Louisiana State U., Health Sciences Center, Shreveport",
+   "rank": null,
+   "rd_m": 31.89,
+   "overall_rank": 270
+  },
+  {
+   "name": "Oklahoma State U., Center for Health Sciences",
+   "rank": null,
+   "rd_m": 16.05,
+   "overall_rank": 327
+  },
+  {
+   "name": "U. Arkansas for Medical Sciences",
+   "rank": null,
+   "rd_m": 226.84,
+   "overall_rank": 137
+  },
+  {
+   "name": "U. Central del Caribe",
+   "rank": null,
+   "rd_m": 3.78,
+   "overall_rank": 507
+  },
+  {
+   "name": "U. Massachusetts, Medical School",
+   "rank": null,
+   "rd_m": 349.62,
+   "overall_rank": 99
+  },
+  {
+   "name": "West Virginia School of Osteopathic Medicine",
+   "rank": null,
+   "rd_m": 1.49,
+   "overall_rank": 627
+  }
+ ]
+}
