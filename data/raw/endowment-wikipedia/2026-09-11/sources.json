@@ -1,0 +1,419 @@
+{
+ "fetched": "2026-09-11",
+ "method": "Wikipedia infobox per-school fetch + manual review; 6 search mismatches re-fetched on correct page",
+ "records": [
+  {
+   "id": "uwseattle",
+   "name": "University of Washington",
+   "endowment_b": 5.96,
+   "source": "Wikipedia infobox (2025): $5.96B",
+   "wiki_page": "University of Washington-Seattle Campus"
+  },
+  {
+   "id": "ucsb",
+   "name": "UC Santa Barbara",
+   "endowment_b": 0.6659,
+   "source": "Wikipedia infobox (2024): $665.9M",
+   "wiki_page": "University of California-Santa Barbara"
+  },
+  {
+   "id": "coloradomines",
+   "name": "Colorado School of Mines",
+   "endowment_b": 0.4633,
+   "source": "Wikipedia infobox (2025): $463.3M",
+   "wiki_page": "Colorado School of Mines"
+  },
+  {
+   "id": "georgiastate",
+   "name": "Georgia State University",
+   "endowment_b": 0.2565,
+   "source": "Wikipedia infobox (2024): $256.5M",
+   "wiki_page": "Georgia State University"
+  },
+  {
+   "id": "jamesmadison",
+   "name": "James Madison University",
+   "endowment_b": 0.181,
+   "source": "Wikipedia infobox (2025): $181M",
+   "wiki_page": "James Madison University"
+  },
+  {
+   "id": "ucriverside",
+   "name": "UC Riverside",
+   "endowment_b": 0.24987,
+   "source": "Wikipedia infobox (2023): $249.87M (as of June 30, 2023)",
+   "wiki_page": "University of California-Riverside"
+  },
+  {
+   "id": "ucsc",
+   "name": "UC Santa Cruz",
+   "endowment_b": 0.35962,
+   "source": "Wikipedia infobox (2025): $359.62M",
+   "wiki_page": "University of California-Santa Cruz"
+  },
+  {
+   "id": "ucf",
+   "name": "University of Central Florida",
+   "endowment_b": 0.2667,
+   "source": "Wikipedia infobox (FY2025): $266.7M (NACUBO 2025 NCSE)",
+   "wiki_page": "University of Central Florida"
+  },
+  {
+   "id": "uconn",
+   "name": "University of Connecticut",
+   "endowment_b": 0.6686,
+   "source": "Wikipedia infobox (2025): $668.6M",
+   "wiki_page": "University of Connecticut"
+  },
+  {
+   "id": "houston",
+   "name": "University of Houston",
+   "endowment_b": 1.337,
+   "source": "Wikipedia infobox (FY2025): $1.337B endowment ($1.35B Texas University Fund share excluded)",
+   "wiki_page": "University of Houston"
+  },
+  {
+   "id": "unm",
+   "name": "University of New Mexico",
+   "endowment_b": 0.887,
+   "source": "Wikipedia infobox (2025): $887M",
+   "wiki_page": "University of New Mexico-Main Campus"
+  },
+  {
+   "id": "uncc",
+   "name": "UNC Charlotte",
+   "endowment_b": 0.3767,
+   "source": "Wikipedia infobox (2025): $376.7M",
+   "wiki_page": "University of North Carolina at Charlotte"
+  },
+  {
+   "id": "oklahoma",
+   "name": "University of Oklahoma",
+   "endowment_b": 1.81,
+   "source": "Wikipedia infobox (FY2024): $1.81B (as of June 30, 2024)",
+   "wiki_page": "University of Oklahoma-Norman Campus"
+  },
+  {
+   "id": "washstate",
+   "name": "Washington State University",
+   "endowment_b": 0.8003,
+   "source": "Wikipedia infobox (2025): $800.3M",
+   "wiki_page": "Washington State University"
+  },
+  {
+   "id": "waynestate",
+   "name": "Wayne State University",
+   "endowment_b": 0.636,
+   "source": "Wikipedia infobox (2025): $636M",
+   "wiki_page": "Wayne State University"
+  },
+  {
+   "id": "yeshiva",
+   "name": "Yeshiva University",
+   "endowment_b": 0.71415,
+   "source": "Wikipedia infobox (2025): $714.15M",
+   "wiki_page": "Yeshiva University"
+  },
+  {
+   "id": "rpi",
+   "name": "Rensselaer Polytechnic Institute",
+   "endowment_b": 1.02,
+   "source": "Wikipedia infobox (2025): $1.02B",
+   "wiki_page": "Rensselaer Polytechnic Institute"
+  },
+  {
+   "id": "stevens",
+   "name": "Stevens Institute of Technology",
+   "endowment_b": 0.3877,
+   "source": "Wikipedia infobox (2025): $387.7M",
+   "wiki_page": "Stevens Institute of Technology"
+  },
+  {
+   "id": "calpoly",
+   "name": "Cal Poly San Luis Obispo",
+   "endowment_b": 0.3358,
+   "source": "Wikipedia infobox (2025): $335.8M",
+   "wiki_page": "California Polytechnic State University-San Luis Obispo"
+  },
+  {
+   "id": "coloradostate",
+   "name": "Colorado State University",
+   "endowment_b": 0.6675,
+   "source": "Wikipedia infobox (2025): $667.5M",
+   "wiki_page": "Colorado State University-Fort Collins"
+  },
+  {
+   "id": "fresnostate",
+   "name": "Fresno State",
+   "endowment_b": 0.2548,
+   "source": "Wikipedia infobox (FY2024): $254.8M (NACUBO; as of June 30, 2024)",
+   "wiki_page": "California State University-Fresno"
+  },
+  {
+   "id": "fiu",
+   "name": "Florida International University",
+   "endowment_b": 0.3801,
+   "source": "Wikipedia infobox (2025): $380.1M",
+   "wiki_page": "Florida International University"
+  },
+  {
+   "id": "harveymudd",
+   "name": "Harvey Mudd College",
+   "endowment_b": 0.45455,
+   "source": "Wikipedia infobox (2024): $454.55M (NACUBO; as of June 30, 2024)",
+   "wiki_page": "Harvey Mudd College"
+  },
+  {
+   "id": "illinoischicago",
+   "name": "University of Illinois Chicago",
+   "endowment_b": 0.5279,
+   "source": "Wikipedia infobox (2025): $527.9M",
+   "wiki_page": "University of Illinois Chicago"
+  },
+  {
+   "id": "usfca",
+   "name": "University of San Francisco",
+   "endowment_b": 0.566,
+   "source": "Wikipedia infobox (2024): $566M (as of June 30, 2024)",
+   "wiki_page": "University of San Francisco"
+  },
+  {
+   "id": "sdsu",
+   "name": "San Diego State University",
+   "endowment_b": 0.4566,
+   "source": "Wikipedia infobox (FY2024): $456.6M (NACUBO; as of June 30, 2024)",
+   "wiki_page": "San Diego State University"
+  },
+  {
+   "id": "sjsu",
+   "name": "San Jose State University",
+   "endowment_b": 0.2646,
+   "source": "Wikipedia infobox (2025-26): $264.6M",
+   "wiki_page": "San Jose State University"
+  },
+  {
+   "id": "unlv",
+   "name": "University of Nevada Las Vegas",
+   "endowment_b": 0.47085,
+   "source": "Wikipedia infobox (2025): $470.85M",
+   "wiki_page": "University of Nevada-Las Vegas"
+  },
+  {
+   "id": "unr",
+   "name": "University of Nevada Reno",
+   "endowment_b": 0.6403,
+   "source": "Wikipedia infobox (2025): $640.3M",
+   "wiki_page": "University of Nevada-Reno"
+  },
+  {
+   "id": "maine",
+   "name": "University of Maine",
+   "endowment_b": 0.4422,
+   "source": "Wikipedia infobox (2025): $442.2M",
+   "wiki_page": "University of Maine"
+  },
+  {
+   "id": "uri",
+   "name": "University of Rhode Island",
+   "endowment_b": 0.2787,
+   "source": "Wikipedia infobox (2025): $278.7M",
+   "wiki_page": "University of Rhode Island"
+  },
+  {
+   "id": "hawaii",
+   "name": "University of Hawaii at Manoa",
+   "endowment_b": 0.6321,
+   "source": "Wikipedia infobox (2025): $632.1M (system-wide)",
+   "wiki_page": "University of Hawaii at Manoa"
+  },
+  {
+   "id": "montanastate",
+   "name": "Montana State University",
+   "endowment_b": 0.3196,
+   "source": "Wikipedia infobox (2025): $319.6M",
+   "wiki_page": "Montana State University"
+  },
+  {
+   "id": "montana",
+   "name": "University of Montana",
+   "endowment_b": 0.3207,
+   "source": "Wikipedia infobox (2025): $320.7M",
+   "wiki_page": "The University of Montana"
+  },
+  {
+   "id": "ndsu",
+   "name": "North Dakota State University",
+   "endowment_b": 0.528,
+   "source": "Wikipedia infobox (2025): $528M",
+   "wiki_page": "North Dakota State University-Main Campus"
+  },
+  {
+   "id": "und",
+   "name": "University of North Dakota",
+   "endowment_b": 0.4714,
+   "source": "Wikipedia infobox (2025): $471.4M",
+   "wiki_page": "University of North Dakota"
+  },
+  {
+   "id": "sdstate",
+   "name": "South Dakota State University",
+   "endowment_b": 0.2926,
+   "source": "Wikipedia infobox (2025): $292.6M",
+   "wiki_page": "South Dakota State University"
+  },
+  {
+   "id": "boisestate",
+   "name": "Boise State University",
+   "endowment_b": 0.18425,
+   "source": "Wikipedia infobox (2025): $184.25M",
+   "wiki_page": "Boise State University"
+  },
+  {
+   "id": "idaho",
+   "name": "University of Idaho",
+   "endowment_b": 0.474,
+   "source": "Wikipedia infobox (2025): $474M",
+   "wiki_page": "University of Idaho"
+  },
+  {
+   "id": "nmsu",
+   "name": "New Mexico State University",
+   "endowment_b": 0.4215,
+   "source": "Wikipedia infobox (2025): $421.5M",
+   "wiki_page": "New Mexico State University-Main Campus"
+  },
+  {
+   "id": "unt",
+   "name": "University of North Texas",
+   "endowment_b": 0.356,
+   "source": "Wikipedia infobox (FY2025): $356M endowment ($1.18B Texas University Fund share excluded)",
+   "wiki_page": "University of North Texas"
+  },
+  {
+   "id": "uta",
+   "name": "University of Texas at Arlington",
+   "endowment_b": 0.2232,
+   "source": "Wikipedia infobox (FY2024): $223.2M (UTA only, UT System Smartbook)",
+   "wiki_page": "The University of Texas at Arlington"
+  },
+  {
+   "id": "utdallas",
+   "name": "University of Texas at Dallas",
+   "endowment_b": 0.8627,
+   "source": "Wikipedia infobox (FY2024): $862.7M (UTD only, UT System Smartbook)",
+   "wiki_page": "The University of Texas at Dallas"
+  },
+  {
+   "id": "fau",
+   "name": "Florida Atlantic University",
+   "endowment_b": 0.2951,
+   "source": "Wikipedia infobox (2024): $295.1M",
+   "wiki_page": "Florida Atlantic University"
+  },
+  {
+   "id": "memphis",
+   "name": "University of Memphis",
+   "endowment_b": 0.413,
+   "source": "Wikipedia infobox (2025): $413M",
+   "wiki_page": "University of Memphis"
+  },
+  {
+   "id": "akron",
+   "name": "University of Akron",
+   "endowment_b": 0.2353,
+   "source": "Wikipedia infobox (as of June 30, 2020): $235.3M - stale, latest available",
+   "wiki_page": "University of Akron Main Campus"
+  },
+  {
+   "id": "toledo",
+   "name": "University of Toledo",
+   "endowment_b": 0.6891,
+   "source": "Wikipedia infobox (2025): $689.1M",
+   "wiki_page": "University of Toledo"
+  },
+  {
+   "id": "kentstate",
+   "name": "Kent State University",
+   "endowment_b": 0.2185,
+   "source": "Wikipedia infobox (2025): $218.5M",
+   "wiki_page": "Kent State University at Kent"
+  },
+  {
+   "id": "bgsu",
+   "name": "Bowling Green State University",
+   "endowment_b": 0.2594,
+   "source": "Wikipedia infobox (2025): $259.4M",
+   "wiki_page": "Bowling Green State University-Main Campus"
+  },
+  {
+   "id": "ohiou",
+   "name": "Ohio University",
+   "endowment_b": 1.0,
+   "source": "Wikipedia infobox (2026): $1.0B (April 2026)",
+   "wiki_page": "Ohio University-Main Campus"
+  },
+  {
+   "id": "miamioh",
+   "name": "Miami University",
+   "endowment_b": 1.09,
+   "source": "Wikipedia infobox (FY2025): $1.09B (NACUBO 2025 NCSE)",
+   "wiki_page": "Miami University-Oxford"
+  },
+  {
+   "id": "umkc",
+   "name": "University of Missouri-Kansas City",
+   "endowment_b": 0.20414,
+   "source": "Wikipedia infobox (2023): $204.14M (UMKC only, as of June 30, 2023)",
+   "wiki_page": "University of Missouri-Kansas City"
+  },
+  {
+   "id": "uwmilwaukee",
+   "name": "University of Wisconsin-Milwaukee",
+   "endowment_b": 0.323,
+   "source": "Wikipedia infobox (2023): $323M",
+   "wiki_page": "University of Wisconsin-Milwaukee"
+  },
+  {
+   "id": "uab",
+   "name": "University of Alabama Birmingham",
+   "endowment_b": 1.0,
+   "source": "Wikipedia infobox: $1B (no date given)",
+   "wiki_page": "University of Alabama at Birmingham"
+  },
+  {
+   "id": "creighton",
+   "name": "Creighton University",
+   "endowment_b": 0.8666,
+   "source": "Wikipedia infobox (2025): $866.6M",
+   "wiki_page": "Creighton University"
+  },
+  {
+   "id": "gonzaga",
+   "name": "Gonzaga University",
+   "endowment_b": 0.4988,
+   "source": "Wikipedia infobox (2025): $498.8M",
+   "wiki_page": "Gonzaga University"
+  },
+  {
+   "id": "xavier",
+   "name": "Xavier University",
+   "endowment_b": 0.30065,
+   "source": "Wikipedia infobox (2025): $300.65M",
+   "wiki_page": "Xavier University"
+  },
+  {
+   "id": "butler",
+   "name": "Butler University",
+   "endowment_b": 0.3192,
+   "source": "Wikipedia infobox (2025): $319.2M",
+   "wiki_page": "Butler University"
+  },
+  {
+   "id": "providence",
+   "name": "Providence College",
+   "endowment_b": 0.321,
+   "source": "Wikipedia infobox (2023): $321M (as of August 31, 2023)",
+   "wiki_page": "Providence College"
+  }
+ ]
+}

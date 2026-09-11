@@ -1,0 +1,415 @@
+[
+ {
+  "id": "uwseattle",
+  "name": "University of Washington",
+  "wiki_title": "Campus of the University of Washington",
+  "endowment_raw": null,
+  "old_placeholder_b": 2.7
+ },
+ {
+  "id": "ucsb",
+  "name": "UC Santa Barbara",
+  "wiki_title": "University of California, Santa Barbara",
+  "endowment_raw": "$665.9 million (2024)<ref name=NACUBO>As of February 26, 2025. {{cite web",
+  "old_placeholder_b": 3.8
+ },
+ {
+  "id": "coloradomines",
+  "name": "Colorado School of Mines",
+  "wiki_title": "Colorado School of Mines",
+  "endowment_raw": "$463.3 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.35
+ },
+ {
+  "id": "georgiastate",
+  "name": "Georgia State University",
+  "wiki_title": "Georgia State University",
+  "endowment_raw": "$256.5 million (2024)<ref name=endowment>{{cite web",
+  "old_placeholder_b": 0.15
+ },
+ {
+  "id": "jamesmadison",
+  "name": "James Madison University",
+  "wiki_title": "James Madison University",
+  "endowment_raw": "$181 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.12
+ },
+ {
+  "id": "ucriverside",
+  "name": "UC Riverside",
+  "wiki_title": "University of California, Riverside",
+  "endowment_raw": "$249.87 million (2023)<ref name=\"UCEndowment\">As of June 30, 2023. {{cite web",
+  "old_placeholder_b": 0.25
+ },
+ {
+  "id": "ucsc",
+  "name": "UC Santa Cruz",
+  "wiki_title": "University of California, Santa Cruz",
+  "endowment_raw": "$359.62 million (2025)<ref name=\"UCEndowment\">As of 2025. {{cite web",
+  "old_placeholder_b": 0.25
+ },
+ {
+  "id": "ucf",
+  "name": "University of Central Florida",
+  "wiki_title": "University of Central Florida",
+  "endowment_raw": "$266.7 million ([[Fiscal year",
+  "old_placeholder_b": 0.25
+ },
+ {
+  "id": "uconn",
+  "name": "University of Connecticut",
+  "wiki_title": "University of Connecticut",
+  "endowment_raw": "$668.6 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.65
+ },
+ {
+  "id": "houston",
+  "name": "University of Houston",
+  "wiki_title": "University of Houston",
+  "endowment_raw": "{{US$",
+  "old_placeholder_b": 1.1
+ },
+ {
+  "id": "unm",
+  "name": "University of New Mexico",
+  "wiki_title": "University of New Mexico",
+  "endowment_raw": "$887 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.5
+ },
+ {
+  "id": "uncc",
+  "name": "UNC Charlotte",
+  "wiki_title": "University of North Carolina at Charlotte",
+  "endowment_raw": "$376.7 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.15
+ },
+ {
+  "id": "oklahoma",
+  "name": "University of Oklahoma",
+  "wiki_title": "University of Oklahoma",
+  "endowment_raw": "$1.81 billion (FY2024)<ref>As of June 30, 2024. {{Cite web",
+  "old_placeholder_b": 1.5
+ },
+ {
+  "id": "washstate",
+  "name": "Washington State University",
+  "wiki_title": "University of Washington",
+  "endowment_raw": "$5.96 billion (2025)<ref>{{cite report",
+  "old_placeholder_b": 1.1
+ },
+ {
+  "id": "waynestate",
+  "name": "Wayne State University",
+  "wiki_title": "Wayne State University",
+  "endowment_raw": "$636 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.45
+ },
+ {
+  "id": "yeshiva",
+  "name": "Yeshiva University",
+  "wiki_title": "Yeshiva University",
+  "endowment_raw": "$714.15 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.6
+ },
+ {
+  "id": "rpi",
+  "name": "Rensselaer Polytechnic Institute",
+  "wiki_title": "Rensselaer Polytechnic Institute",
+  "endowment_raw": "$1.02 billion (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.9
+ },
+ {
+  "id": "stevens",
+  "name": "Stevens Institute of Technology",
+  "wiki_title": "Stevens Institute of Technology",
+  "endowment_raw": "$387.7 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.25
+ },
+ {
+  "id": "calpoly",
+  "name": "Cal Poly San Luis Obispo",
+  "wiki_title": "California Polytechnic State University, San Luis Obispo",
+  "endowment_raw": "$335.8 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.25
+ },
+ {
+  "id": "coloradostate",
+  "name": "Colorado State University",
+  "wiki_title": "Colorado State University",
+  "endowment_raw": "$667.5 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.55
+ },
+ {
+  "id": "fresnostate",
+  "name": "Fresno State",
+  "wiki_title": "California State University, Fresno",
+  "endowment_raw": "$254.8 million (2023\u201324)<ref name=NACUBO>As of June 30, 2024. {{Cite web",
+  "old_placeholder_b": 1.0
+ },
+ {
+  "id": "fiu",
+  "name": "Florida International University",
+  "wiki_title": "Florida International University",
+  "endowment_raw": "$380.1 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.25
+ },
+ {
+  "id": "harveymudd",
+  "name": "Harvey Mudd College",
+  "wiki_title": "Harvey Mudd College",
+  "endowment_raw": "$454.55 million (2024)<ref name=NACUBO>As of June 30, 2024. {{cite web",
+  "old_placeholder_b": 0.35
+ },
+ {
+  "id": "illinoischicago",
+  "name": "University of Illinois Chicago",
+  "wiki_title": "University of Illinois Chicago",
+  "endowment_raw": "$527.9 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.6
+ },
+ {
+  "id": "usfca",
+  "name": "University of San Francisco",
+  "wiki_title": "University of California, San Francisco",
+  "endowment_raw": "$2.95 billion (2024)<ref name=NACUBO>As of June 30, 2024. {{cite web",
+  "old_placeholder_b": 0.5
+ },
+ {
+  "id": "sdsu",
+  "name": "San Diego State University",
+  "wiki_title": "San Diego State University",
+  "endowment_raw": "$456.6 million (2023\u201324)<ref name=NACUBO>As of June 30, 2024. {{Cite web",
+  "old_placeholder_b": 0.5
+ },
+ {
+  "id": "sjsu",
+  "name": "San Jose State University",
+  "wiki_title": "San Jose State University",
+  "endowment_raw": "$264.6 million (2025\u201326)<ref>{{cite web",
+  "old_placeholder_b": 0.2
+ },
+ {
+  "id": "unlv",
+  "name": "University of Nevada Las Vegas",
+  "wiki_title": "University of Nevada, Las Vegas",
+  "endowment_raw": "$470.85 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.3
+ },
+ {
+  "id": "unr",
+  "name": "University of Nevada Reno",
+  "wiki_title": "University of Nevada, Reno",
+  "endowment_raw": "$640.3 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.4
+ },
+ {
+  "id": "maine",
+  "name": "University of Maine",
+  "wiki_title": "University of Maine",
+  "endowment_raw": "$442.2 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.4
+ },
+ {
+  "id": "uri",
+  "name": "University of Rhode Island",
+  "wiki_title": "University of Rhode Island",
+  "endowment_raw": "$278.7 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.2
+ },
+ {
+  "id": "hawaii",
+  "name": "University of Hawaii at Manoa",
+  "wiki_title": "University of Hawai\u02bbi at M\u0101noa",
+  "endowment_raw": "$632.1 million (2025)<br />(system-wide)<ref>{{cite web",
+  "old_placeholder_b": 0.4
+ },
+ {
+  "id": "montanastate",
+  "name": "Montana State University",
+  "wiki_title": "Montana State University",
+  "endowment_raw": "$319.6 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.2
+ },
+ {
+  "id": "montana",
+  "name": "University of Montana",
+  "wiki_title": "University of Montana",
+  "endowment_raw": "$320.7 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.2
+ },
+ {
+  "id": "ndsu",
+  "name": "North Dakota State University",
+  "wiki_title": "North Dakota State University",
+  "endowment_raw": "$528 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.3
+ },
+ {
+  "id": "und",
+  "name": "University of North Dakota",
+  "wiki_title": "North Dakota State University",
+  "endowment_raw": "$528 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.3
+ },
+ {
+  "id": "sdstate",
+  "name": "South Dakota State University",
+  "wiki_title": "South Dakota State University",
+  "endowment_raw": "$292.6 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.2
+ },
+ {
+  "id": "boisestate",
+  "name": "Boise State University",
+  "wiki_title": "Boise State University",
+  "endowment_raw": "$184.25 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.2
+ },
+ {
+  "id": "idaho",
+  "name": "University of Idaho",
+  "wiki_title": "University of Idaho",
+  "endowment_raw": "$474 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.3
+ },
+ {
+  "id": "nmsu",
+  "name": "New Mexico State University",
+  "wiki_title": "New Mexico State University",
+  "endowment_raw": "$421.5 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.2
+ },
+ {
+  "id": "unt",
+  "name": "University of North Texas",
+  "wiki_title": "University of North Texas",
+  "endowment_raw": "$1.536B ($356 million ([[Fiscal year",
+  "old_placeholder_b": 0.3
+ },
+ {
+  "id": "uta",
+  "name": "University of Texas at Arlington",
+  "wiki_title": "University of Texas at Arlington",
+  "endowment_raw": "$223.2 million ([[Fiscal year",
+  "old_placeholder_b": 0.2
+ },
+ {
+  "id": "utdallas",
+  "name": "University of Texas at Dallas",
+  "wiki_title": "University of Texas at Dallas",
+  "endowment_raw": "$862.7 million ([[Fiscal year",
+  "old_placeholder_b": 0.7
+ },
+ {
+  "id": "fau",
+  "name": "Florida Atlantic University",
+  "wiki_title": "Florida Atlantic University",
+  "endowment_raw": "$295.1 million (2024)<ref name=endowment>{{cite web",
+  "old_placeholder_b": 0.3
+ },
+ {
+  "id": "memphis",
+  "name": "University of Memphis",
+  "wiki_title": "University of Memphis",
+  "endowment_raw": "$413 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.2
+ },
+ {
+  "id": "akron",
+  "name": "University of Akron",
+  "wiki_title": "University of Akron",
+  "endowment_raw": "$235.3 million (2020)<ref>As of June 30, 2020. {{cite report",
+  "old_placeholder_b": 0.2
+ },
+ {
+  "id": "toledo",
+  "name": "University of Toledo",
+  "wiki_title": "University of Toledo",
+  "endowment_raw": "$689.1 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.4
+ },
+ {
+  "id": "kentstate",
+  "name": "Kent State University",
+  "wiki_title": "University of Kent",
+  "endowment_raw": "[[Pound sterling",
+  "old_placeholder_b": 0.2
+ },
+ {
+  "id": "bgsu",
+  "name": "Bowling Green State University",
+  "wiki_title": "Bowling Green State University",
+  "endowment_raw": "$259.4 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.2
+ },
+ {
+  "id": "ohiou",
+  "name": "Ohio University",
+  "wiki_title": "Wright State University",
+  "endowment_raw": "$120.15 million (2024)<ref>{{cite web",
+  "old_placeholder_b": 0.7
+ },
+ {
+  "id": "miamioh",
+  "name": "Miami University",
+  "wiki_title": "Miami University",
+  "endowment_raw": "$1.09 billion ([[Fiscal year",
+  "old_placeholder_b": 0.6
+ },
+ {
+  "id": "umkc",
+  "name": "University of Missouri-Kansas City",
+  "wiki_title": "University of Missouri\u2013Kansas City",
+  "endowment_raw": "$204.14 million (2023)<br />(UMKC only)<ref name=Endowment>As of June 30, 2023. {{cite web",
+  "old_placeholder_b": 0.2
+ },
+ {
+  "id": "uwmilwaukee",
+  "name": "University of Wisconsin-Milwaukee",
+  "wiki_title": "University of Wisconsin\u2013Milwaukee",
+  "endowment_raw": "$323 million (2023)",
+  "old_placeholder_b": 0.2
+ },
+ {
+  "id": "uab",
+  "name": "University of Alabama Birmingham",
+  "wiki_title": "University of Alabama at Birmingham",
+  "endowment_raw": "$1 billion<ref>{{cite web",
+  "old_placeholder_b": 0.7
+ },
+ {
+  "id": "creighton",
+  "name": "Creighton University",
+  "wiki_title": "Creighton University",
+  "endowment_raw": "$866.6 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.65
+ },
+ {
+  "id": "gonzaga",
+  "name": "Gonzaga University",
+  "wiki_title": "Gonzaga University",
+  "endowment_raw": "$498.8 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.35
+ },
+ {
+  "id": "xavier",
+  "name": "Xavier University",
+  "wiki_title": "Xavier University",
+  "endowment_raw": "$300.65 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.25
+ },
+ {
+  "id": "butler",
+  "name": "Butler University",
+  "wiki_title": "Butler University",
+  "endowment_raw": "$319.2 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.3
+ },
+ {
+  "id": "providence",
+  "name": "Providence College",
+  "wiki_title": "Providence College",
+  "endowment_raw": "$321 million (2023)<ref>As of August 31, 2023.{{cite web",
+  "old_placeholder_b": 0.3
+ }
+]
