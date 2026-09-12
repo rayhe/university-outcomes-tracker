@@ -1,0 +1,24 @@
+{
+ "georgiatech": {
+  "qid": "Q864855",
+  "label": "Georgia Tech",
+  "coords": [
+   [
+    33.77580555555556,
+    -84.39469444444444,
+    "normal"
+   ]
+  ]
+ },
+ "williamandmary": {
+  "qid": "Q875637",
+  "label": "College of William & Mary",
+  "coords": [
+   [
+    37.270833333333336,
+    -76.70833333333333,
+    "normal"
+   ]
+  ]
+ }
+}

@@ -1,8 +1,8 @@
 {
  "metadata": {
-  "last_updated": "2026-09-11",
+  "last_updated": "2026-09-12",
   "source": "College Scorecard API (DEMO_KEY) + v0.9 dedup: 13 duplicate entries replaced with 13 distinct schools (TCU, Syracuse, Arkansas, Ole Miss, Mississippi State, Creighton, Gonzaga, Marquette, Xavier, Butler, Hamilton, Macalester, Providence), 200/200 distinct IDs, 200/200 real",
-  "version": "0.19",
+  "version": "0.20",
   "total_universities": 200,
   "criteria_version": "1.0",
   "enriched_count": 200,
@@ -59,6 +59,11 @@
    "real": 198,
    "synthetic_remaining": 2,
    "source": "NSF HERD FY2024 nsf26304 Table 19"
+  },
+  "location_v20": {
+   "real": 200,
+   "synthetic_remaining": 0,
+   "source": "Wikipedia {{coord}} templates (primary first)"
   }
  },
  "criteria": {
@@ -120,7 +125,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Stanford U.",
-   "_research_rank": 10
+   "_research_rank": 10,
+   "lat": 37.4275,
+   "lon": -122.17,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "mit",
@@ -168,7 +176,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Massachusetts Institute of Technology",
-   "_research_rank": 34
+   "_research_rank": 34,
+   "lat": 42.3597,
+   "lon": -71.0919,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "harvard",
@@ -216,7 +227,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Harvard U.",
-   "_research_rank": 20
+   "_research_rank": 20,
+   "lat": 42.3744,
+   "lon": -71.1169,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "caltech",
@@ -265,7 +279,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "California Institute of Technology",
-   "_research_rank": 82
+   "_research_rank": 82,
+   "lat": 34.1375,
+   "lon": -118.125,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "princeton",
@@ -313,7 +330,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Princeton U.",
-   "_research_rank": 63
+   "_research_rank": 63,
+   "lat": 40.3453,
+   "lon": -74.6561,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "penn",
@@ -361,7 +381,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Pennsylvania",
-   "_research_rank": 3
+   "_research_rank": 3,
+   "lat": 39.9519,
+   "lon": -75.1936,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "brandeis",
@@ -409,7 +432,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Brandeis U.",
-   "_research_rank": 177
+   "_research_rank": 177,
+   "lat": 42.3657,
+   "lon": -71.2597,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "villanova",
@@ -457,7 +483,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Villanova U.",
-   "_research_rank": 267
+   "_research_rank": 267,
+   "lat": 40.0377,
+   "lon": -75.3375,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "howard",
@@ -506,7 +535,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Howard U.",
-   "_research_rank": 179
+   "_research_rank": 179,
+   "lat": 38.9222,
+   "lon": -77.0194,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "uf",
@@ -555,7 +587,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Florida",
-   "_research_rank": 27
+   "_research_rank": 27,
+   "lat": 29.6475,
+   "lon": -82.345,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "pepperdine",
@@ -603,7 +638,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Pepperdine U.",
-   "_research_rank": 368
+   "_research_rank": 368,
+   "lat": 34.0387,
+   "lon": -118.7076,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "yale",
@@ -651,7 +689,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Yale U.",
-   "_research_rank": 17
+   "_research_rank": 17,
+   "lat": 41.3164,
+   "lon": -72.9222,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "ohiostate",
@@ -700,7 +741,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Ohio State U.",
-   "_research_rank": 13
+   "_research_rank": 13,
+   "lat": 40.0006,
+   "lon": -83.0144,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "washu",
@@ -748,7 +792,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Washington U., Saint Louis",
-   "_research_rank": 31
+   "_research_rank": 31,
+   "lat": 38.648,
+   "lon": -90.305,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "duke",
@@ -796,7 +843,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Duke U.",
-   "_research_rank": 14
+   "_research_rank": 14,
+   "lat": 36.0014,
+   "lon": -78.9383,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "carnegiemell",
@@ -844,7 +894,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Carnegie Mellon U.",
-   "_research_rank": 72
+   "_research_rank": 72,
+   "lat": 40.4425,
+   "lon": -79.9433,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "uwmadison",
@@ -893,7 +946,10 @@
    "_endowment_scope": "UW Foundation (system)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Wisconsin-Madison",
-   "_research_rank": 6
+   "_research_rank": 6,
+   "lat": 43.0753,
+   "lon": -89.4042,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "umd",
@@ -942,7 +998,10 @@
    "_endowment_scope": "USM Foundation (system)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Marylandb",
-   "_research_rank": 15
+   "_research_rank": 15,
+   "lat": 38.9881,
+   "lon": -76.9425,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "lmu",
@@ -990,7 +1049,10 @@
    "_endowment_source": "Wikipedia infobox (2024): $722.7M, Loyola Marymount",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Loyola Marymount U.",
-   "_research_rank": 330
+   "_research_rank": 330,
+   "lat": 33.97,
+   "lon": -118.418,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "tulane",
@@ -1038,7 +1100,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Tulane U.",
-   "_research_rank": 120
+   "_research_rank": 120,
+   "lat": 29.94,
+   "lon": -90.12,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "santaclara",
@@ -1086,7 +1151,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Santa Clara U.",
-   "_research_rank": 401
+   "_research_rank": 401,
+   "lat": 37.3492,
+   "lon": -121.9381,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "ucberkeley",
@@ -1134,7 +1202,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. California, Berkeley",
-   "_research_rank": 33
+   "_research_rank": 33,
+   "lat": 37.8719,
+   "lon": -122.2583,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "emory",
@@ -1182,7 +1253,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Emory U.",
-   "_research_rank": 30
+   "_research_rank": 30,
+   "lat": 33.7911,
+   "lon": -84.3233,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "asu",
@@ -1230,7 +1304,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Arizona State U.",
-   "_research_rank": 38
+   "_research_rank": 38,
+   "lat": 33.4209,
+   "lon": -111.934,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "georgiatech",
@@ -1278,7 +1355,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Georgia Institute of Technology",
-   "_research_rank": 16
+   "_research_rank": 16,
+   "lat": 33.7758,
+   "lon": -84.3947,
+   "_location_source": "Wikidata P625 (Q864855 Georgia Tech), fetched 2026-09-12"
   },
   {
    "id": "vanderbilt",
@@ -1327,7 +1407,10 @@
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Vanderbilt U. and Vanderbilt U. Medical Center",
    "_research_rank": 25,
-   "_research_scope": "HERD reporting unit: university + medical center"
+   "_research_scope": "HERD reporting unit: university + medical center",
+   "lat": 36.1475,
+   "lon": -86.8025,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "lehigh",
@@ -1375,7 +1458,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Lehigh U.",
-   "_research_rank": 219
+   "_research_rank": 219,
+   "lat": 40.6061,
+   "lon": -75.3772,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "cornell",
@@ -1424,7 +1510,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Cornell U.",
-   "_research_rank": 11
+   "_research_rank": 11,
+   "lat": 42.4492,
+   "lon": -76.4839,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "bostonuniver",
@@ -1472,7 +1561,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Boston U.",
-   "_research_rank": 49
+   "_research_rank": 49,
+   "lat": 42.3489,
+   "lon": -71.1003,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "michigan",
@@ -1520,7 +1612,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Michigan, Ann Arbor",
-   "_research_rank": 5
+   "_research_rank": 5,
+   "lat": 42.2814,
+   "lon": -83.7483,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "usd",
@@ -1569,7 +1664,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $767M, University of San Diego",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. San Diego",
-   "_research_rank": 351
+   "_research_rank": 351,
+   "lat": 32.7711,
+   "lon": -117.1875,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "northeastern",
@@ -1618,7 +1716,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $2.1B; audited FY2025 rollforward consistent",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Northeastern U.",
-   "_research_rank": 100
+   "_research_rank": 100,
+   "lat": 42.34,
+   "lon": -71.0883,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "uwseattle",
@@ -1666,7 +1767,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $5.96B",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Washington, Seattle",
-   "_research_rank": 9
+   "_research_rank": 9,
+   "lat": 47.6542,
+   "lon": -122.3081,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "ucla",
@@ -1715,7 +1819,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. California, Los Angeles",
-   "_research_rank": 7
+   "_research_rank": 7,
+   "lat": 34.0722,
+   "lon": -118.4427,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "chapman",
@@ -1763,7 +1870,10 @@
    "_endowment_source": "Chapman president 2025 State of the University address: $860M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Chapman U.",
-   "_research_rank": 240
+   "_research_rank": 240,
+   "lat": 33.7928,
+   "lon": -117.8514,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "utaustin",
@@ -1811,7 +1921,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Texas, Austin",
-   "_research_rank": 32
+   "_research_rank": 32,
+   "lat": 30.285,
+   "lon": -97.735,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "uiuc",
@@ -1860,7 +1973,10 @@
    "_endowment_scope": "U of I & Foundations (system)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Illinois, Urbana-Champaign",
-   "_research_rank": 41
+   "_research_rank": 41,
+   "lat": 40.1106,
+   "lon": -88.2283,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "pennstate",
@@ -1910,7 +2026,10 @@
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Pennsylvania State U., University Park and Hershey Medical Center",
    "_research_rank": 26,
-   "_research_scope": "HERD reporting unit: University Park + Hershey Medical Center"
+   "_research_scope": "HERD reporting unit: University Park + Hershey Medical Center",
+   "lat": 40.7983,
+   "lon": -77.86,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "columbia",
@@ -1958,7 +2077,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Columbia U. in the City of New York",
-   "_research_rank": 21
+   "_research_rank": 21,
+   "lat": 40.8083,
+   "lon": -73.9619,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "ucd",
@@ -2006,7 +2128,10 @@
    "_endowment_source": "UC Davis Venture Catalyst newsletter: endowment $2.2B",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. California, Davis",
-   "_research_rank": 37
+   "_research_rank": 37,
+   "lat": 38.54,
+   "lon": -121.75,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "texasa&m",
@@ -2056,7 +2181,10 @@
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Texas A&M U., College Station and Health Science Center",
    "_research_rank": 23,
-   "_research_scope": "HERD reporting unit: College Station + Health Science Center"
+   "_research_scope": "HERD reporting unit: College Station + Health Science Center",
+   "lat": 30.61,
+   "lon": -96.35,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "northwestern",
@@ -2104,7 +2232,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Northwestern U.",
-   "_research_rank": 29
+   "_research_rank": 29,
+   "lat": 42.0558,
+   "lon": -87.6747,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "johnshopkins",
@@ -2152,7 +2283,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Johns Hopkins U.a",
-   "_research_rank": 2
+   "_research_rank": 2,
+   "lat": 39.3289,
+   "lon": -76.6203,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "casewestern",
@@ -2200,7 +2334,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Case Western Reserve U.",
-   "_research_rank": 59
+   "_research_rank": 59,
+   "lat": 41.504,
+   "lon": -81.608,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "ucsb",
@@ -2248,7 +2385,10 @@
    "_endowment_source": "Wikipedia infobox (2024): $665.9M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. California, Santa Barbara",
-   "_research_rank": 112
+   "_research_rank": 112,
+   "lat": 34.4164,
+   "lon": -119.8464,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "usc",
@@ -2296,7 +2436,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Southern California",
-   "_research_rank": 28
+   "_research_rank": 28,
+   "lat": 34.0206,
+   "lon": -118.2848,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "tufts",
@@ -2344,7 +2487,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Tufts U.",
-   "_research_rank": 117
+   "_research_rank": 117,
+   "lat": 42.406,
+   "lon": -71.12,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "rice",
@@ -2392,7 +2538,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Rice U.",
-   "_research_rank": 118
+   "_research_rank": 118,
+   "lat": 29.7169,
+   "lon": -95.4028,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "smu",
@@ -2440,7 +2589,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Southern Methodist U.",
-   "_research_rank": 218
+   "_research_rank": 218,
+   "lat": 32.8385,
+   "lon": -96.7829,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "purdue",
@@ -2488,7 +2640,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Purdue U., West Lafayette",
-   "_research_rank": 40
+   "_research_rank": 40,
+   "lat": 40.425,
+   "lon": -86.9231,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "bostoncolleg",
@@ -2536,7 +2691,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Boston C.",
-   "_research_rank": 180
+   "_research_rank": 180,
+   "lat": 42.335,
+   "lon": -71.1703,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "morehouse",
@@ -2584,7 +2742,10 @@
    "_endowment_source": "Associated Press (Jul 2024): $280M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Morehouse C.",
-   "_research_rank": 441
+   "_research_rank": 441,
+   "lat": 33.7467,
+   "lon": -84.4153,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "rutgers",
@@ -2632,7 +2793,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Rutgers, State U. New Jersey, New Brunswick",
-   "_research_rank": 46
+   "_research_rank": 46,
+   "lat": 40.5025,
+   "lon": -74.4486,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "notredame",
@@ -2680,7 +2844,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Notre Dame",
-   "_research_rank": 101
+   "_research_rank": 101,
+   "lat": 41.7,
+   "lon": -86.2389,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "nyu",
@@ -2728,7 +2895,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "New York U.",
-   "_research_rank": 19
+   "_research_rank": 19,
+   "lat": 40.73,
+   "lon": -73.995,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "clarkatlanta",
@@ -2777,7 +2947,10 @@
    "_identity_source": "v0.16 rematch: Scorecard id 138947 = Clark Atlanta University (was 'HBCU Sample University'); raw artifacts data/raw/cau-rematch/2026-09-08/",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Clark Atlanta U.",
-   "_research_rank": 342
+   "_research_rank": 342,
+   "lat": 33.7508,
+   "lon": -84.4103,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "georgetown",
@@ -2825,7 +2998,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Georgetown U.",
-   "_research_rank": 92
+   "_research_rank": 92,
+   "lat": 38.9072,
+   "lon": -77.0728,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "uncchapelhil",
@@ -2873,7 +3049,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. North Carolina, Chapel Hill",
-   "_research_rank": 12
+   "_research_rank": 12,
+   "lat": 35.9086,
+   "lon": -79.0492,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "spelman",
@@ -2921,7 +3100,10 @@
    "_endowment_source": "Spelman College audited FY2025 financial statements: $609M endowment funds",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Spelman C.",
-   "_research_rank": 480
+   "_research_rank": 480,
+   "lat": 33.746,
+   "lon": -84.411,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "ucsd",
@@ -2969,7 +3151,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. California, San Diego",
-   "_research_rank": 8
+   "_research_rank": 8,
+   "lat": 32.8801,
+   "lon": -117.234,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "brown",
@@ -3018,7 +3203,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Brown U.",
-   "_research_rank": 94
+   "_research_rank": 94,
+   "lat": 41.826,
+   "lon": -71.403,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "dartmouth",
@@ -3068,7 +3256,10 @@
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Dartmouth C. and Dartmouth Hitchcock Medical Center",
    "_research_rank": 86,
-   "_research_scope": "HERD reporting unit: college + Hitchcock Medical Center"
+   "_research_scope": "HERD reporting unit: college + Hitchcock Medical Center",
+   "lat": 43.7033,
+   "lon": -72.2883,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "uchicago",
@@ -3117,7 +3308,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Chicago",
-   "_research_rank": 55
+   "_research_rank": 55,
+   "lat": 41.7897,
+   "lon": -87.5997,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "baylor",
@@ -3166,7 +3360,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Baylor U.",
-   "_research_rank": 168
+   "_research_rank": 168,
+   "lat": 31.548,
+   "lon": -97.116,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "byu",
@@ -3215,7 +3412,10 @@
    "_endowment_source": "Wikipedia infobox (FY2025): $3.71B",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Brigham Young U., Provo",
-   "_research_rank": 157
+   "_research_rank": 157,
+   "lat": 40.2497,
+   "lon": -111.6492,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "clemson",
@@ -3264,7 +3464,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Clemson U.",
-   "_research_rank": 104
+   "_research_rank": 104,
+   "lat": 34.6783,
+   "lon": -82.8392,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "coloradomines",
@@ -3313,7 +3516,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $463.3M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Colorado School of Mines",
-   "_research_rank": 175
+   "_research_rank": 175,
+   "lat": 39.7511,
+   "lon": -105.2225,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "drexel",
@@ -3362,7 +3568,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Drexel U.",
-   "_research_rank": 152
+   "_research_rank": 152,
+   "lat": 39.954,
+   "lon": -75.188,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "floridastate",
@@ -3411,7 +3620,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Florida State U.",
-   "_research_rank": 80
+   "_research_rank": 80,
+   "lat": 30.442,
+   "lon": -84.298,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "fordham",
@@ -3460,7 +3672,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Fordham U.",
-   "_research_rank": 280
+   "_research_rank": 280,
+   "lat": 40.8619,
+   "lon": -73.8861,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "gwu",
@@ -3509,7 +3724,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "George Washington U.",
-   "_research_rank": 91
+   "_research_rank": 91,
+   "lat": 38.9008,
+   "lon": -77.0508,
+   "_location_source": "Wikidata P625 (Q432637 George Washington University), fetched 2026-09-12"
   },
   {
    "id": "georgiastate",
@@ -3558,7 +3776,10 @@
    "_endowment_source": "Wikipedia infobox (2024): $256.5M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Georgia State U.",
-   "_research_rank": 131
+   "_research_rank": 131,
+   "lat": 33.7537,
+   "lon": -84.386,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "indiana",
@@ -3608,7 +3829,10 @@
    "_endowment_scope": "IU Foundation (system)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Indiana U., Bloomington",
-   "_research_rank": 42
+   "_research_rank": 42,
+   "lat": 39.1672,
+   "lon": -86.5214,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "iowastate",
@@ -3657,7 +3881,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Iowa State U.",
-   "_research_rank": 79
+   "_research_rank": 79,
+   "lat": 42.0262,
+   "lon": -93.648,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "jamesmadison",
@@ -3706,7 +3933,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $181M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "James Madison U.",
-   "_research_rank": 311
+   "_research_rank": 311,
+   "lat": 38.4384,
+   "lon": -78.8738,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "kansasstate",
@@ -3755,7 +3985,10 @@
    "_endowment_source": "Kansas State University Foundation audited FY2025 statements: Endowment net assets - End of year $1,047,320,258",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Kansas State U.",
-   "_research_rank": 122
+   "_research_rank": 122,
+   "lat": 39.1914,
+   "lon": -96.5809,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "lsu",
@@ -3805,7 +4038,10 @@
    "_endowment_scope": "LSU System",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Louisiana State U., Baton Rouge",
-   "_research_rank": 84
+   "_research_rank": 84,
+   "lat": 30.4145,
+   "lon": -91.1783,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "michiganstate",
@@ -3854,7 +4090,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Michigan State U.",
-   "_research_rank": 39
+   "_research_rank": 39,
+   "lat": 42.725,
+   "lon": -84.48,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "missouri",
@@ -3904,7 +4143,10 @@
    "_endowment_scope": "MU System",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Missouri, Columbia",
-   "_research_rank": 71
+   "_research_rank": 71,
+   "lat": 38.9475,
+   "lon": -92.3267,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "ncstate",
@@ -3953,7 +4195,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "North Carolina State U.",
-   "_research_rank": 53
+   "_research_rank": 53,
+   "lat": 35.7872,
+   "lon": -78.6706,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "oklahomastate",
@@ -4002,7 +4247,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Oklahoma State U., Stillwater",
-   "_research_rank": 127
+   "_research_rank": 127,
+   "lat": 36.1224,
+   "lon": -97.0698,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "oregonstate",
@@ -4051,7 +4299,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Oregon State U.",
-   "_research_rank": 95
+   "_research_rank": 95,
+   "lat": 44.5639,
+   "lon": -123.2747,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "temple",
@@ -4100,7 +4351,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Temple U.",
-   "_research_rank": 108
+   "_research_rank": 108,
+   "lat": 39.9814,
+   "lon": -75.1544,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "texastech",
@@ -4149,7 +4403,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Texas Tech U.",
-   "_research_rank": 125
+   "_research_rank": 125,
+   "lat": 33.584,
+   "lon": -101.878,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "ucirvine",
@@ -4198,7 +4455,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. California, Irvine",
-   "_research_rank": 58
+   "_research_rank": 58,
+   "lat": 33.6456,
+   "lon": -117.8425,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "ucriverside",
@@ -4247,7 +4507,10 @@
    "_endowment_source": "Wikipedia infobox (2023): $249.87M (as of June 30, 2023)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. California, Riverside",
-   "_research_rank": 134
+   "_research_rank": 134,
+   "lat": 33.9756,
+   "lon": -117.3311,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "ucsc",
@@ -4296,7 +4559,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $359.62M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. California, Santa Cruz",
-   "_research_rank": 140
+   "_research_rank": 140,
+   "lat": 37,
+   "lon": -122.06,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "alabama",
@@ -4346,7 +4612,10 @@
    "_endowment_scope": "UA System (Tuscaloosa/Birmingham/Huntsville)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Alabama, Tuscaloosa",
-   "_research_rank": 139
+   "_research_rank": 139,
+   "lat": 33.2108,
+   "lon": -87.5461,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "ucf",
@@ -4395,7 +4664,10 @@
    "_endowment_source": "Wikipedia infobox (FY2025): $266.7M (NACUBO 2025 NCSE)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Central Florida",
-   "_research_rank": 114
+   "_research_rank": 114,
+   "lat": 28.6016,
+   "lon": -81.2005,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "colorado",
@@ -4445,7 +4717,10 @@
    "_endowment_scope": "CU Foundation (system)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Colorado Boulder",
-   "_research_rank": 52
+   "_research_rank": 52,
+   "lat": 40.0073,
+   "lon": -105.2678,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "uconn",
@@ -4494,7 +4769,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $668.6M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Connecticut",
-   "_research_rank": 83
+   "_research_rank": 83,
+   "lat": 41.8072,
+   "lon": -72.2525,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "udel",
@@ -4543,7 +4821,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Delaware",
-   "_research_rank": 78
+   "_research_rank": 78,
+   "lat": 39.6783,
+   "lon": -75.7511,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "houston",
@@ -4592,7 +4873,10 @@
    "_endowment_source": "Wikipedia infobox (FY2025): $1.337B endowment ($1.35B Texas University Fund share excluded)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Houston",
-   "_research_rank": 133
+   "_research_rank": 133,
+   "lat": 29.7189,
+   "lon": -95.3392,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "iowa",
@@ -4641,7 +4925,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Iowa",
-   "_research_rank": 54
+   "_research_rank": 54,
+   "lat": 41.6617,
+   "lon": -91.5364,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "kansas",
@@ -4690,7 +4977,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Kansas",
-   "_research_rank": 64
+   "_research_rank": 64,
+   "lat": 38.9584,
+   "lon": -95.2478,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "kentucky",
@@ -4739,7 +5029,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Kentucky",
-   "_research_rank": 68
+   "_research_rank": 68,
+   "lat": 38.0325,
+   "lon": -84.5025,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "louisville",
@@ -4788,7 +5081,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Louisville",
-   "_research_rank": 138
+   "_research_rank": 138,
+   "lat": 38.215,
+   "lon": -85.7603,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "miami",
@@ -4837,7 +5133,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Miami",
-   "_research_rank": 62
+   "_research_rank": 62,
+   "lat": 25.7216,
+   "lon": -80.2793,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "minnesota",
@@ -4886,7 +5185,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Minnesota, Twin Cities",
-   "_research_rank": 22
+   "_research_rank": 22,
+   "lat": 44.975,
+   "lon": -93.2353,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "nebraska",
@@ -4937,7 +5239,10 @@
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Nebraska, Lincoln and Medical Center",
    "_research_rank": 56,
-   "_research_scope": "HERD reporting unit: Lincoln + Medical Center"
+   "_research_scope": "HERD reporting unit: Lincoln + Medical Center",
+   "lat": 40.8175,
+   "lon": -96.7014,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "unm",
@@ -4986,7 +5291,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $887M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. New Mexico",
-   "_research_rank": 98
+   "_research_rank": 98,
+   "lat": 35.0839,
+   "lon": -106.6186,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "uncc",
@@ -5035,7 +5343,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $376.7M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. North Carolina, Charlotte",
-   "_research_rank": 182
+   "_research_rank": 182,
+   "lat": 35.3064,
+   "lon": -80.7333,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "oklahoma",
@@ -5084,7 +5395,10 @@
    "_endowment_source": "Wikipedia infobox (FY2024): $1.81B (as of June 30, 2024)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Oklahomac",
-   "_research_rank": 75
+   "_research_rank": 75,
+   "lat": 35.2208,
+   "lon": -97.4436,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "oregon",
@@ -5135,7 +5449,10 @@
    "_identity_source": "v0.17 rematch: Scorecard id 209551 = University of Oregon, Eugene (was 209490 = Oregon Health & Science University, Portland); raw artifact data/raw/collegescorecard/2026-09-09/uo_209551_v17.json",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Oregon",
-   "_research_rank": 149
+   "_research_rank": 149,
+   "lat": 44.0443,
+   "lon": -123.0758,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "pitt",
@@ -5184,7 +5501,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Pittsburgh, Pittsburgh",
-   "_research_rank": 18
+   "_research_rank": 18,
+   "lat": 40.4446,
+   "lon": -79.9533,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "rochester",
@@ -5233,7 +5553,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Rochester",
-   "_research_rank": 74
+   "_research_rank": 74,
+   "lat": 43.1283,
+   "lon": -77.6283,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "southcarolina",
@@ -5282,7 +5605,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. South Carolina, Columbia",
-   "_research_rank": 119
+   "_research_rank": 119,
+   "lat": 34.0006,
+   "lon": -81.0347,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "usf",
@@ -5331,7 +5657,10 @@
    "_endowment_source": "University of South Florida Foundation audited FY2025 statements: Total Foundation endowment balance $722,838,408",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. South Florida",
-   "_research_rank": 70
+   "_research_rank": 70,
+   "lat": 28.0546,
+   "lon": -82.4131,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "tennessee",
@@ -5381,7 +5710,10 @@
    "_endowment_scope": "UT System",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Tennessee, Knoxville",
-   "_research_rank": 90
+   "_research_rank": 90,
+   "lat": 35.9617,
+   "lon": -83.9232,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "utah",
@@ -5430,7 +5762,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Utah",
-   "_research_rank": 48
+   "_research_rank": 48,
+   "lat": 40.7642,
+   "lon": -111.8465,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "uva",
@@ -5479,7 +5814,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Virginia, Charlottesville",
-   "_research_rank": 47
+   "_research_rank": 47,
+   "lat": 38.0356,
+   "lon": -78.5033,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "virginiatech",
@@ -5528,7 +5866,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 (Virginia Tech Foundation)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Virginia Polytechnic Institute and State U.",
-   "_research_rank": 57
+   "_research_rank": 57,
+   "lat": 37.225,
+   "lon": -80.425,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "wakeforest",
@@ -5577,7 +5918,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Wake Forest U.",
-   "_research_rank": 102
+   "_research_rank": 102,
+   "lat": 36.134,
+   "lon": -80.276,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "washstate",
@@ -5626,7 +5970,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $800.3M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Washington State U.",
-   "_research_rank": 87
+   "_research_rank": 87,
+   "lat": 46.73,
+   "lon": -117.16,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "waynestate",
@@ -5675,7 +6022,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $636M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Wayne State U.",
-   "_research_rank": 113
+   "_research_rank": 113,
+   "lat": 42.3573,
+   "lon": -83.0701,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "williamandmary",
@@ -5724,7 +6074,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "William & Mary",
-   "_research_rank": 183
+   "_research_rank": 183,
+   "lat": 37.2708,
+   "lon": -76.7083,
+   "_location_source": "Wikidata P625 (Q875637 College of William & Mary), fetched 2026-09-12"
   },
   {
    "id": "wpi",
@@ -5773,7 +6126,10 @@
    "_endowment_source": "Worcester Polytechnic Institute audited FY2025 statements: Total endowment funds $731,422 (thousands) at June 30, 2025",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Worcester Polytechnic Institute",
-   "_research_rank": 209
+   "_research_rank": 209,
+   "lat": 42.2744,
+   "lon": -71.8075,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "yeshiva",
@@ -5822,7 +6178,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $714.15M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Yeshiva U.",
-   "_research_rank": 376
+   "_research_rank": 376,
+   "lat": 40.8506,
+   "lon": -73.9297,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "rpi",
@@ -5871,7 +6230,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $1.02B",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Rensselaer Polytechnic Institute",
-   "_research_rank": 165
+   "_research_rank": 165,
+   "lat": 42.73,
+   "lon": -73.6775,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "stevens",
@@ -5920,7 +6282,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $387.7M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Stevens Institute of Technology",
-   "_research_rank": 210
+   "_research_rank": 210,
+   "lat": 40.7449,
+   "lon": -74.0239,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "auburn",
@@ -5969,7 +6334,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Auburn U., Auburn",
-   "_research_rank": 88
+   "_research_rank": 88,
+   "lat": 32.603,
+   "lon": -85.486,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "arizona",
@@ -6018,7 +6386,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Arizona",
-   "_research_rank": 36
+   "_research_rank": 36,
+   "lat": 32.2319,
+   "lon": -110.9527,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "umassamherst",
@@ -6067,7 +6438,10 @@
    "_endowment_scope": "UMass Foundation (system)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Massachusetts, Amherst",
-   "_research_rank": 115
+   "_research_rank": 115,
+   "lat": 42.3889,
+   "lon": -72.5278,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "bucknell",
@@ -6116,7 +6490,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Bucknell U.",
-   "_research_rank": 434
+   "_research_rank": 434,
+   "lat": 40.9547,
+   "lon": -76.8836,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "calpoly",
@@ -6165,7 +6542,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $335.8M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "California Polytechnic State U., San Luis Obispo",
-   "_research_rank": 253
+   "_research_rank": 253,
+   "lat": 35.3042,
+   "lon": -120.6628,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "carleton",
@@ -6214,7 +6594,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Carleton C.",
-   "_research_rank": 466
+   "_research_rank": 466,
+   "lat": 44.4619,
+   "lon": -93.1536,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "claremont",
@@ -6263,7 +6646,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Claremont McKenna C.",
-   "_research_rank": 406
+   "_research_rank": 406,
+   "lat": 34.1017,
+   "lon": -117.707,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "colgate",
@@ -6312,7 +6698,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Colgate U.",
-   "_research_rank": 474
+   "_research_rank": 474,
+   "lat": 42.8194,
+   "lon": -75.5364,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "coloradostate",
@@ -6361,7 +6750,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $667.5M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Colorado State U., Fort Collins",
-   "_research_rank": 77
+   "_research_rank": 77,
+   "lat": 40.5475,
+   "lon": -105.0658,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "utahstate",
@@ -6411,7 +6803,10 @@
    "_endowment_scope": "approximate - source wording",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Utah State U.",
-   "_research_rank": 81
+   "_research_rank": 81,
+   "lat": 41.7425,
+   "lon": -111.8125,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "davidson",
@@ -6460,7 +6855,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Davidson C.",
-   "_research_rank": 481
+   "_research_rank": 481,
+   "lat": 35.5,
+   "lon": -80.8453,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "fresnostate",
@@ -6509,7 +6907,10 @@
    "_endowment_source": "Wikipedia infobox (FY2024): $254.8M (NACUBO; as of June 30, 2024)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "California State U., Fresno",
-   "_research_rank": 337
+   "_research_rank": 337,
+   "lat": 36.8133,
+   "lon": -119.75,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "denver",
@@ -6558,7 +6959,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Denver",
-   "_research_rank": 230
+   "_research_rank": 230,
+   "lat": 39.6783,
+   "lon": -104.9622,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "depaul",
@@ -6607,7 +7011,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "DePaul U.",
-   "_research_rank": 372
+   "_research_rank": 372,
+   "lat": 41.924,
+   "lon": -87.656,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "fiu",
@@ -6656,7 +7063,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $380.1M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Florida International U.",
-   "_research_rank": 105
+   "_research_rank": 105,
+   "lat": 25.757,
+   "lon": -80.374,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "georgia",
@@ -6705,7 +7115,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Georgia",
-   "_research_rank": 60
+   "_research_rank": 60,
+   "lat": 33.9558,
+   "lon": -83.3745,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "harveymudd",
@@ -6754,7 +7167,10 @@
    "_endowment_source": "Wikipedia infobox (2024): $454.55M (NACUBO; as of June 30, 2024)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Harvey Mudd C.",
-   "_research_rank": 498
+   "_research_rank": 498,
+   "lat": 34.1061,
+   "lon": -117.7092,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "illinoischicago",
@@ -6803,7 +7219,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $527.9M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Illinois, Chicago",
-   "_research_rank": 67
+   "_research_rank": 67,
+   "lat": 41.8717,
+   "lon": -87.6492,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "williams",
@@ -6851,7 +7270,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Williams C.",
-   "_research_rank": 415
+   "_research_rank": 415,
+   "lat": 42.7125,
+   "lon": -73.205,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "amherst",
@@ -6900,7 +7322,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Amherst C.",
-   "_research_rank": 389
+   "_research_rank": 389,
+   "lat": 42.3708,
+   "lon": -72.5169,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "swarthmore",
@@ -6949,7 +7374,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Swarthmore C.",
-   "_research_rank": 435
+   "_research_rank": 435,
+   "lat": 39.905,
+   "lon": -75.3539,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "pomona",
@@ -6997,7 +7425,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Pomona C.",
-   "_research_rank": 457
+   "_research_rank": 457,
+   "lat": 34.0981,
+   "lon": -117.7139,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "wellesley",
@@ -7046,7 +7477,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Wellesley C.",
-   "_research_rank": 418
+   "_research_rank": 418,
+   "lat": 42.2925,
+   "lon": -71.3075,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "bowdoin",
@@ -7095,7 +7529,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Bowdoin C.",
-   "_research_rank": 525
+   "_research_rank": 525,
+   "lat": 43.9086,
+   "lon": -69.9628,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "middlebury",
@@ -7144,7 +7581,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Middlebury C.",
-   "_research_rank": 517
+   "_research_rank": 517,
+   "lat": 44.0089,
+   "lon": -73.1772,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "wesleyan",
@@ -7193,7 +7633,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Wesleyan U.",
-   "_research_rank": 369
+   "_research_rank": 369,
+   "lat": 41.5556,
+   "lon": -72.6558,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "vassar",
@@ -7242,7 +7685,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Vassar C.",
-   "_research_rank": 508
+   "_research_rank": 508,
+   "lat": 41.6875,
+   "lon": -73.8958,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "colby",
@@ -7292,7 +7738,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Colby C.",
-   "_research_rank": 482
+   "_research_rank": 482,
+   "lat": 44.5642,
+   "lon": -69.6631,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "cincinnati",
@@ -7341,7 +7790,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Cincinnati",
-   "_research_rank": 51
+   "_research_rank": 51,
+   "lat": 39.1328,
+   "lon": -84.5153,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "dayton",
@@ -7390,7 +7842,10 @@
    "_endowment_source": "University of Dayton official endowment page (retrieved 2026-09-07): '$919 million: The value of UD\\u2019s endowment'",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Dayton",
-   "_research_rank": 128
+   "_research_rank": 128,
+   "lat": 39.7404,
+   "lon": -84.1792,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "loyolachicago",
@@ -7438,7 +7893,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Loyola U., Chicago",
-   "_research_rank": 223
+   "_research_rank": 223,
+   "lat": 41.9999,
+   "lon": -87.6578,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "slu",
@@ -7487,7 +7945,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Saint Louis U.",
-   "_research_rank": 181
+   "_research_rank": 181,
+   "lat": 38.6364,
+   "lon": -90.2342,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "usfca",
@@ -7535,7 +7996,10 @@
    "_endowment_source": "Wikipedia infobox (2024): $566M (as of June 30, 2024)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. San Francisco",
-   "_research_rank": 365
+   "_research_rank": 365,
+   "lat": 37.7794,
+   "lon": -122.4519,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "sdsu",
@@ -7584,7 +8048,10 @@
    "_endowment_source": "Wikipedia infobox (FY2024): $456.6M (NACUBO; as of June 30, 2024)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "San Diego State U.",
-   "_research_rank": 148
+   "_research_rank": 148,
+   "lat": 32.7753,
+   "lon": -117.0722,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "sjsu",
@@ -7633,7 +8100,10 @@
    "_endowment_source": "Wikipedia infobox (2025-26): $264.6M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "San Jose State U.",
-   "_research_rank": 188
+   "_research_rank": 188,
+   "lat": 37.3353,
+   "lon": -121.8813,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "unlv",
@@ -7682,7 +8152,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $470.85M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Nevada, Las Vegas",
-   "_research_rank": 173
+   "_research_rank": 173,
+   "lat": 36.1078,
+   "lon": -115.1438,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "unr",
@@ -7731,7 +8204,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $640.3M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Nevada, Reno",
-   "_research_rank": 145
+   "_research_rank": 145,
+   "lat": 39.5378,
+   "lon": -119.8139,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "wyoming",
@@ -7781,7 +8257,10 @@
    "_endowment_scope": "Total managed endowments; includes $347,598,365 custodial endowment corpus held by Foundation for the University",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Wyoming",
-   "_research_rank": 153
+   "_research_rank": 153,
+   "lat": 41.3131,
+   "lon": -105.5814,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "uvm",
@@ -7830,7 +8309,10 @@
    "_endowment_source": "University of Vermont Foundation FY2025 endowment overview: UVM ENDOWMENT - 6/30/2025 972,473,524",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Vermont",
-   "_research_rank": 130
+   "_research_rank": 130,
+   "lat": 44.476,
+   "lon": -73.195,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "unh",
@@ -7880,7 +8362,10 @@
    "_endowment_scope": "USNH system",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. New Hampshire",
-   "_research_rank": 136
+   "_research_rank": 136,
+   "lat": 43.1364,
+   "lon": -70.9322,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "maine",
@@ -7929,7 +8414,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $442.2M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Maine",
-   "_research_rank": 142
+   "_research_rank": 142,
+   "lat": 44.902,
+   "lon": -68.668,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "uri",
@@ -7977,7 +8465,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $278.7M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Rhode Island",
-   "_research_rank": 167
+   "_research_rank": 167,
+   "lat": 41.4807,
+   "lon": -71.5258,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "hawaii",
@@ -8026,7 +8517,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $632.1M (system-wide)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Hawaii, Manoa",
-   "_research_rank": 93
+   "_research_rank": 93,
+   "lat": 21.297,
+   "lon": -157.817,
+   "_location_source": "Wikipedia {{coord}} (secondary), University of Hawai\u02bbi at M\u0101noa page, fetched 2026-09-12"
   },
   {
    "id": "montanastate",
@@ -8075,7 +8569,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $319.6M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Montana State U., Bozeman",
-   "_research_rank": 124
+   "_research_rank": 124,
+   "lat": 45.6683,
+   "lon": -111.05,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "montana",
@@ -8124,7 +8621,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $320.7M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Montana, Missoula",
-   "_research_rank": 162
+   "_research_rank": 162,
+   "lat": 46.86,
+   "lon": -113.9853,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "ndsu",
@@ -8173,7 +8673,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $528M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "North Dakota State U.",
-   "_research_rank": 141
+   "_research_rank": 141,
+   "lat": 46.8917,
+   "lon": -96.8,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "und",
@@ -8221,7 +8724,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $471.4M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. North Dakota",
-   "_research_rank": 144
+   "_research_rank": 144,
+   "lat": 47.9222,
+   "lon": -97.0734,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "sdstate",
@@ -8270,7 +8776,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $292.6M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "South Dakota State U.",
-   "_research_rank": 192
+   "_research_rank": 192,
+   "lat": 44.3181,
+   "lon": -96.7833,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "boisestate",
@@ -8319,7 +8828,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $184.25M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Boise State U.",
-   "_research_rank": 227
+   "_research_rank": 227,
+   "lat": 43.604,
+   "lon": -116.204,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "idaho",
@@ -8368,7 +8880,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $474M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Idaho",
-   "_research_rank": 164
+   "_research_rank": 164,
+   "lat": 46.726,
+   "lon": -117.011,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "nmsu",
@@ -8417,7 +8932,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $421.5M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "New Mexico State U.",
-   "_research_rank": 163
+   "_research_rank": 163,
+   "lat": 32.283,
+   "lon": -106.748,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "txstate",
@@ -8467,7 +8985,10 @@
    "_endowment_scope": "TSU System",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Texas State U.",
-   "_research_rank": 155
+   "_research_rank": 155,
+   "lat": 29.8889,
+   "lon": -97.9389,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "unt",
@@ -8515,7 +9036,10 @@
    "_endowment_source": "Wikipedia infobox (FY2025): $356M endowment ($1.18B Texas University Fund share excluded)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. North Texas, Denton",
-   "_research_rank": 171
+   "_research_rank": 171,
+   "lat": 33.2097,
+   "lon": -97.15,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "uta",
@@ -8564,7 +9088,10 @@
    "_endowment_source": "Wikipedia infobox (FY2024): $223.2M (UTA only, UT System Smartbook)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Texas, Arlington",
-   "_research_rank": 160
+   "_research_rank": 160,
+   "lat": 32.7307,
+   "lon": -97.1146,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "utdallas",
@@ -8613,7 +9140,10 @@
    "_endowment_source": "Wikipedia infobox (FY2024): $862.7M (UTD only, UT System Smartbook)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Texas, Dallas",
-   "_research_rank": 147
+   "_research_rank": 147,
+   "lat": 32.985,
+   "lon": -96.75,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "utsa",
@@ -8662,7 +9192,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Texas, San Antonio",
-   "_research_rank": 151
+   "_research_rank": 151,
+   "lat": 29.5833,
+   "lon": -98.6208,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "fau",
@@ -8711,7 +9244,10 @@
    "_endowment_source": "Wikipedia infobox (2024): $295.1M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Florida Atlantic U.",
-   "_research_rank": 189
+   "_research_rank": 189,
+   "lat": 26.371,
+   "lon": -80.102,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "memphis",
@@ -8760,7 +9296,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $413M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Memphis",
-   "_research_rank": 176
+   "_research_rank": 176,
+   "lat": 35.1189,
+   "lon": -89.9372,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "akron",
@@ -8809,7 +9348,10 @@
    "_endowment_source": "Wikipedia infobox (as of June 30, 2020): $235.3M - stale, latest available",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Akron",
-   "_research_rank": 295
+   "_research_rank": 295,
+   "lat": 41.0752,
+   "lon": -81.5115,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "toledo",
@@ -8858,7 +9400,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $689.1M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Toledo",
-   "_research_rank": 206
+   "_research_rank": 206,
+   "lat": 41.6577,
+   "lon": -83.6137,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "kentstate",
@@ -8907,7 +9452,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $218.5M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Kent State U.",
-   "_research_rank": 224
+   "_research_rank": 224,
+   "lat": 41.1469,
+   "lon": -81.3433,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "bgsu",
@@ -8956,7 +9504,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $259.4M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Bowling Green State U.",
-   "_research_rank": 313
+   "_research_rank": 313,
+   "lat": 41.38,
+   "lon": -83.63,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "ohiou",
@@ -9005,7 +9556,10 @@
    "_endowment_source": "Wikipedia infobox (2026): $1.0B (April 2026)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Ohio U.",
-   "_research_rank": 215
+   "_research_rank": 215,
+   "lat": 39.324,
+   "lon": -82.102,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "miamioh",
@@ -9054,7 +9608,10 @@
    "_endowment_source": "Wikipedia infobox (FY2025): $1.09B (NACUBO 2025 NCSE)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Miami U.",
-   "_research_rank": 279
+   "_research_rank": 279,
+   "lat": 39.5119,
+   "lon": -84.7347,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "umkc",
@@ -9103,7 +9660,10 @@
    "_endowment_source": "Wikipedia infobox (2023): $204.14M (UMKC only, as of June 30, 2023)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Missouri, Kansas City",
-   "_research_rank": 229
+   "_research_rank": 229,
+   "lat": 39.0335,
+   "lon": -94.5756,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "uwmilwaukee",
@@ -9152,7 +9712,10 @@
    "_endowment_source": "Wikipedia infobox (2023): $323M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Wisconsin-Milwaukee",
-   "_research_rank": 216
+   "_research_rank": 216,
+   "lat": 43.075,
+   "lon": -87.8829,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "uab",
@@ -9201,7 +9764,10 @@
    "_endowment_source": "Wikipedia infobox: $1B (no date given)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Alabama, Birmingham",
-   "_research_rank": 45
+   "_research_rank": 45,
+   "lat": 33.502,
+   "lon": -86.8079,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "tcu",
@@ -9250,7 +9816,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Texas Christian U.",
-   "_research_rank": 283
+   "_research_rank": 283,
+   "lat": 32.7096,
+   "lon": -97.364,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "syracuse",
@@ -9299,7 +9868,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Syracuse U.",
-   "_research_rank": 143
+   "_research_rank": 143,
+   "lat": 43.0376,
+   "lon": -76.134,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "arkansas",
@@ -9348,7 +9920,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Arkansas, Fayetteville",
-   "_research_rank": 135
+   "_research_rank": 135,
+   "lat": 36.0686,
+   "lon": -94.1761,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "olemiss",
@@ -9397,7 +9972,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "U. Mississippi",
-   "_research_rank": 146
+   "_research_rank": 146,
+   "lat": 34.3653,
+   "lon": -89.535,
+   "_location_source": "Wikidata P625 (Q1138384 University of Mississippi), fetched 2026-09-12"
   },
   {
    "id": "mississippistate",
@@ -9446,7 +10024,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Mississippi State U.",
-   "_research_rank": 103
+   "_research_rank": 103,
+   "lat": 33.454,
+   "lon": -88.789,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "creighton",
@@ -9495,7 +10076,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $866.6M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Creighton U.",
-   "_research_rank": 277
+   "_research_rank": 277,
+   "lat": 41.2647,
+   "lon": -95.9461,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "gonzaga",
@@ -9542,7 +10126,10 @@
    "scorecard_city": "Spokane",
    "score": 71.9,
    "_endowment_source": "Wikipedia infobox (2025): $498.8M",
-   "_research_source": "synthetic (placeholder)"
+   "_research_source": "synthetic (placeholder)",
+   "lat": 47.6675,
+   "lon": -117.4025,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "marquette",
@@ -9591,7 +10178,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Marquette U.",
-   "_research_rank": 239
+   "_research_rank": 239,
+   "lat": 43.0392,
+   "lon": -87.9325,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "xavier",
@@ -9638,7 +10228,10 @@
    "scorecard_city": "Cincinnati",
    "score": 65.5,
    "_endowment_source": "Wikipedia infobox (2025): $300.65M",
-   "_research_source": "synthetic (placeholder)"
+   "_research_source": "synthetic (placeholder)",
+   "lat": 39.1487,
+   "lon": -84.478,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "butler",
@@ -9687,7 +10280,10 @@
    "_endowment_source": "Wikipedia infobox (2025): $319.2M",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Butler U.",
-   "_research_rank": 643
+   "_research_rank": 643,
+   "lat": 39.8394,
+   "lon": -86.1714,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "hamilton",
@@ -9736,7 +10332,10 @@
    "_endowment_source": "NACUBO 2025 NCSE FY2025 market value (via Wikipedia compilation, fetched 2026-09-04)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Hamilton C.",
-   "_research_rank": 513
+   "_research_rank": 513,
+   "lat": 43.0519,
+   "lon": -75.4061,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "macalester",
@@ -9785,7 +10384,10 @@
    "_endowment_source": "Macalester College official 2025 Facts & Figures: Endowment 6/30/25: $920 million",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Macalester C.",
-   "_research_rank": 591
+   "_research_rank": 591,
+   "lat": 44.9392,
+   "lon": -93.1678,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   },
   {
    "id": "providence",
@@ -9834,7 +10436,10 @@
    "_endowment_source": "Wikipedia infobox (2023): $321M (as of August 31, 2023)",
    "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
    "_research_herd_name": "Providence C.",
-   "_research_rank": 439
+   "_research_rank": 439,
+   "lat": 41.8439,
+   "lon": -71.435,
+   "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
   }
  ]
 }

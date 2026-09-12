@@ -1,0 +1,26 @@
+{
+ "georgiatech": {
+  "title": "Georgia Institute of Technology",
+  "got": null
+ },
+ "gwu": {
+  "title": "George Washington University",
+  "got": null
+ },
+ "williamandmary": {
+  "title": "William and Mary",
+  "got": null
+ },
+ "hawaii": {
+  "title": "University of Hawai\u02bbi at M\u0101noa",
+  "got": [
+   21.297,
+   -157.817,
+   "secondary"
+  ]
+ },
+ "olemiss": {
+  "title": "University of Mississippi",
+  "got": null
+ }
+}

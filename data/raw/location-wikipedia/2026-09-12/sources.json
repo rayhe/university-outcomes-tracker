@@ -1,0 +1,14 @@
+{
+ "source": "Wikipedia",
+ "endpoint": "https://en.wikipedia.org/w/api.php",
+ "methods": [
+  "list=search (srlimit=3, title auto-pick by Jaccard token overlap)",
+  "prop=coordinates (primary first)"
+ ],
+ "fetched_at": "2026-09-12T09:18:47.815813+00:00",
+ "records": 200,
+ "secrets": "none involved",
+ "review": "200/200 title picks reviewed: 195 auto-pick accepted (3 REVIEW-LOW verified correct: minnesota->University of Minnesota, virginiatech->Virginia Tech; 1 wrong: hawaii athletics page -> University of Hawai\u02bbi at M\u0101noa); state-median outlier scan clean (all outliers legitimate NorCal/SoCal etc splits)",
+ "fallbacks": "4 enwiki articles carry no {{coord}} at all (verified via wikitext grep): georgiatech, gwu, williamandmary, olemiss -> Wikidata P625 (Q864855, Q432637, Q875637, Q1138384), see wikidata_fallback.json + wikidata_fallback2.json",
+ "coverage": "200/200 lat/lon applied, 0 missing, 0 out-of-US-bounds"
+}

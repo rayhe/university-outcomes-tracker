@@ -1,0 +1,24 @@
+{
+ "null": {
+  "wikidata_id": "-1",
+  "coord": null
+ },
+ "George Washington University": {
+  "wikidata_id": "Q432637",
+  "coord": [
+   38.900833333333,
+   -77.050833333333
+  ]
+ },
+ "William and Mary": {
+  "wikidata_id": "Q1947603",
+  "coord": null
+ },
+ "University of Mississippi": {
+  "wikidata_id": "Q1138384",
+  "coord": [
+   34.36527777777778,
+   -89.535
+  ]
+ }
+}

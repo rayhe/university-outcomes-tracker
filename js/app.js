@@ -40,7 +40,7 @@ function renderProvenance(meta){
 }
 
 function exportCSV(unis){
-  const headers=['id','name','control','state','carnegie','conference','score','median_earn_10yr','median_earn_real','debt_avg','loan_default','net_price_avg','grad_rate_6yr','retention','endowment_b','endowment_per_student','enrollment_fte','research_spend_m','alumni_network_k','admission_rate','scorecard_id','scorecard_name'];
+  const headers=['id','name','control','state','carnegie','conference','score','median_earn_10yr','median_earn_real','debt_avg','loan_default','net_price_avg','grad_rate_6yr','retention','endowment_b','endowment_per_student','enrollment_fte','research_spend_m','alumni_network_k','admission_rate','lat','lon','scorecard_id','scorecard_name'];
   const rows=[headers.join(',')];
   unis.forEach(u=>{
     const vals=headers.map(h=>{
@@ -265,10 +265,10 @@ function applyFilters(){
   if(preset==='grad_desc'){sortKey='grad_rate_6yr';sortDir=-1;}
   if(preset==='value_desc'){
     list = list.sort((a,b)=>(a.net_price_avg/a.median_earn_10yr)-(b.net_price_avg/b.median_earn_10yr));
-    filtered=list; renderTable(filtered); drawCharts(filtered); renderPeers(filtered); renderMetrics(filtered); renderDistributions(filtered); return;
+    filtered=list; renderTable(filtered); drawCharts(filtered); renderPeers(filtered); renderMap(filtered); renderMetrics(filtered); renderDistributions(filtered); return;
   }
   list.sort((a,b)=>{ let av=a[sortKey], bv=b[sortKey]; if(typeof av==='string') av=av.toLowerCase(), bv=bv.toLowerCase(); if(av<bv) return -1*sortDir; if(av>bv) return 1*sortDir; return 0; });
-  filtered=list; renderTable(filtered); drawCharts(filtered); renderPeers(filtered); renderMetrics(filtered); renderDistributions(filtered);
+  filtered=list; renderTable(filtered); drawCharts(filtered); renderPeers(filtered); renderMap(filtered); renderMetrics(filtered); renderDistributions(filtered);
 }
 
 function showDetail(id){
@@ -276,7 +276,7 @@ function showDetail(id){
   const p = document.getElementById('detail-panel');
   p.classList.remove('hidden');
   const realBadge = (k)=> u[k+'_real']!=null ? '<span style="font-size:.65rem;background:#0f251c;color:#3dd598;border:1px solid #1f5c3a;padding:1px 5px;border-radius:999px;margin-left:6px">Scorecard real</span>' : '<span style="font-size:.65rem;background:#1f1f28;color:#9aa0b8;padding:1px 5px;border-radius:999px;margin-left:6px">synthetic</span>';
-  const provenance = u.scorecard_name ? `<div style="font-size:.75rem;color:#9aa0b8;margin-top:6px">Matched to Scorecard: ${u.scorecard_name} (${u.scorecard_city}) ID ${u.scorecard_id} • Conf ${u.conference||''}</div>` : '';
+  const provenance = u.scorecard_name ? `<div style="font-size:.75rem;color:#9aa0b8;margin-top:6px">Matched to Scorecard: ${u.scorecard_name} (${u.scorecard_city}) ID ${u.scorecard_id} • Conf ${u.conference||''}${u.lat!=null?` • Location ${u.lat.toFixed(3)}, ${u.lon.toFixed(3)} (Wikipedia coord)`:''}</div>` : '';
   p.innerHTML = `<h3>${u.name} — Alumni Advantage ${u.score.toFixed(1)} ${u.median_earn_10yr_real?' <span style="color:#3dd598">● Scorecard-enriched</span>':''}</h3>
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:.86rem">
   <div><b>Basic</b><br>Control: ${u.control}<br>State: ${u.state}<br>Carnegie: ${u.carnegie}<br>Conference: ${u.conference||''}<br>Enrollment FTE: ${u.enrollment_fte.toLocaleString()}${u.enrollment_fte_real?` <span style="color:#3dd598">(${u.enrollment_fte_real} Scorecard)</span>`:''}<br>Endowment: $${u.endowment_b}B ($${(u.endowment_per_student/1000).toFixed(0)}k / student)<br>Student-Faculty: ${u.sf_ratio}:1${u.admission_rate!=null?`<br>Admission Rate: ${(u.admission_rate*100).toFixed(1)}%${realBadge('admission_rate')}`:''}</div>
@@ -440,6 +440,72 @@ function renderPeers(unis){
   }
 }
 
+// v0.20: Geographic map — 200 campuses plotted at Wikipedia {{coord}} locations.
+// State outlines: us-atlas states-10m topojson via CDN (same CDN pattern as d3),
+// converted with topojson-client (also CDN). Graceful fallback if offline.
+function loadScript(src){
+  return new Promise((res,rej)=>{
+    if(document.querySelector('script[src="'+src+'"]')) return res();
+    const s=document.createElement('script'); s.src=src; s.onload=res; s.onerror=rej;
+    document.head.appendChild(s);
+  });
+}
+let _statesGeo=null;
+async function renderMap(unis){
+  const el=document.getElementById('geo-map'); if(!el) return;
+  const pts=unis.filter(u=>u.lat!=null&&u.lon!=null);
+  if(!_statesGeo){
+    el.innerHTML='<p class="chart-desc">Loading US map outlines…</p>';
+    try{
+      if(typeof topojson==='undefined') await loadScript('https://cdn.jsdelivr.net/npm/topojson-client@3');
+      const tj=await (await fetch('https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json')).json();
+      _statesGeo=topojson.feature(tj, tj.objects.states);
+    }catch(e){
+      el.innerHTML='<p class="chart-desc">US map outlines failed to load (needs network for the one-time states topojson fetch). Campus coordinates are still in the data file.</p>';
+      return;
+    }
+  }
+  const w=Math.max(el.clientWidth||980,320);
+  const h=Math.max(320,Math.round(w*0.52));
+  el.innerHTML='';
+  const svg=d3.select(el).append('svg').attr('viewBox','0 0 '+w+' '+h)
+    .attr('width','100%').style('height','auto').style('display','block');
+  const proj=d3.geoAlbersUsa().fitSize([w,h],_statesGeo);
+  const path=d3.geoPath(proj);
+  svg.append('g').selectAll('path').data(_statesGeo.features).join('path')
+    .attr('d',path).attr('fill','#1a1e2c').attr('stroke','#2e3348').attr('stroke-width',0.7);
+  const xy=d=>{ const p=proj([d.lon,d.lat]); return p?p:[-50,-50]; };
+  const tooltip=d3.select('body').selectAll('#peer-tooltip').data([0]).join('div')
+    .attr('id','peer-tooltip').style('position','absolute').style('display','none')
+    .style('background','#151821').style('border','1px solid #2a2e42').style('border-radius','8px')
+    .style('padding','8px 10px').style('font-size','.78rem').style('color','#e6e8f0')
+    .style('pointer-events','none').style('z-index','40').style('box-shadow','0 8px 24px rgba(0,0,0,.5)');
+  svg.append('g').selectAll('circle').data(pts).join('circle')
+    .attr('cx',d=>xy(d)[0]).attr('cy',d=>xy(d)[1])
+    .attr('r',d=>2.2+d.score/48)
+    .attr('fill',d=>d.control==='private'?'#7c8cff':'#3dd598')
+    .attr('stroke','#0b0d12').attr('stroke-width',0.7).attr('opacity',0.85)
+    .style('cursor','pointer')
+    .on('click',(e,d)=>{ showDetail(d.id); if(history.replaceState){ const u=new URL(window.location); u.searchParams.set('id',d.id); history.replaceState(null,'',u);} })
+    .on('mouseover',function(e,d){ d3.select(this).attr('stroke','#fff').attr('stroke-width',1.5);
+      tooltip.style('display','block').html('<b>'+d.name+'</b><br>Score '+d.score.toFixed(1)+' • $'+(d.median_earn_10yr/1000).toFixed(0)+'k earn<br>'+(d.scorecard_city||'')+', '+d.state+' • '+d.control+'<br>Click for detail'); })
+    .on('mousemove',(e)=>{ tooltip.style('left',(e.pageX+12)+'px').style('top',(e.pageY-10)+'px'); })
+    .on('mouseout',function(){ d3.select(this).attr('stroke','#0b0d12').attr('stroke-width',0.7); tooltip.style('display','none'); });
+  const top=pts.slice().sort((a,b)=>b.score-a.score).slice(0,10);
+  svg.append('g').selectAll('text').data(top).join('text')
+    .text(d=>d.name.split(' ').slice(0,2).join(' '))
+    .attr('x',d=>xy(d)[0]+7).attr('y',d=>xy(d)[1]+3)
+    .attr('font-size','9px').attr('fill','#c8ccda').attr('pointer-events','none').attr('opacity',0.9);
+  const lg=svg.append('g').attr('transform','translate(14,'+(h-28)+')');
+  lg.append('circle').attr('cx',0).attr('cy',0).attr('r',5).attr('fill','#7c8cff').attr('opacity',0.85);
+  lg.append('text').attr('x',9).attr('y',3.5).attr('fill','#9aa0b8').attr('font-size','10px').text('Private');
+  lg.append('circle').attr('cx',70).attr('cy',0).attr('r',5).attr('fill','#3dd598').attr('opacity',0.85);
+  lg.append('text').attr('x',79).attr('y',3.5).attr('fill','#9aa0b8').attr('font-size','10px').text('Public');
+  lg.append('text').attr('x',140).attr('y',3.5).attr('fill','#9aa0b8').attr('font-size','10px').text('Dot size = Alumni Advantage score');
+  const note=document.getElementById('geo-note');
+  if(note) note.textContent=pts.length+'/'+unis.length+' campuses plotted at Wikipedia {{coord}} locations (primary first). Dots sized by score; top 10 labeled.';
+}
+
 loadData().then(data=>{
   allUnis=data.universities; filtered=[...allUnis];
   const urlParams=new URLSearchParams(window.location.search);
@@ -447,7 +513,7 @@ loadData().then(data=>{
   renderProvenance(data.metadata||{});
   renderPctControls(); renderMetrics(filtered); renderDistributions(filtered);
   renderInsights(data); renderTable(filtered); renderFilings(data); drawCharts(filtered);
-  renderPeers(filtered);
+  renderPeers(filtered); renderMap(filtered);
   const qParam=urlParams.get('q'); if(qParam){ const se=document.getElementById('search'); if(se){ se.value=qParam; } }
   const cParam=urlParams.get('control'); if(cParam){ const fe=document.getElementById('filter-control'); if(fe) fe.value=cParam; }
   const peerParam=urlParams.get('peer'); if(peerParam){ const pe=document.getElementById('peer-mode'); if(pe){ pe.value=peerParam; renderPeers(filtered); } }
