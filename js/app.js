@@ -178,6 +178,58 @@ function corr(x,y){
   for(let i=0;i<n;i++){ const cx=x[i]-mx, cy=y[i]-my; num+=cx*cy; dx+=cx*cx; dy+=cy*cy; }
   return dx&&dy? num/Math.sqrt(dx*dy) : 0;
 }
+
+// v0.21 significance toolkit: two-tailed p-value for Pearson r via Student's t.
+// t = r*sqrt(df)/sqrt(1-r^2), p from the t CDF via the regularized incomplete
+// beta I_x(a,b) (Numerical Recipes betacf continued fraction + Lanczos lgamma).
+function lgamma(x){
+  const C=[0.99999999999980993,676.5203681218851,-1259.1392167224028,771.32342877765313,-176.61502916214059,12.507343278686905,-0.13857109526572012,9.9843695780195716e-6,1.5056327351493116e-7];
+  if(x<0.5) return Math.log(Math.PI/Math.sin(Math.PI*x))-lgamma(1-x);
+  x-=1; let a=C[0]; for(let i=1;i<9;i++) a+=C[i]/(x+i);
+  const t=x+7.5;
+  return 0.5*Math.log(2*Math.PI)+(x+0.5)*Math.log(t)-t+Math.log(a);
+}
+function betacf(a,b,x){
+  const MAXIT=200, EPS=3e-14, FPMIN=1e-300;
+  const qab=a+b, qap=a+1, qam=a-1;
+  let c=1, d=1-qab*x/qap;
+  if(Math.abs(d)<FPMIN) d=FPMIN; d=1/d; let h=d;
+  for(let m=1;m<=MAXIT;m++){
+    const m2=2*m;
+    let aa=m*(b-m)*x/((qam+m2)*(a+m2));
+    d=1+aa*d; if(Math.abs(d)<FPMIN) d=FPMIN; c=1+aa/c; if(Math.abs(c)<FPMIN) c=FPMIN; d=1/d; h*=d*c;
+    aa=-(a+m)*(qab+m)*x/((a+m2)*(qap+m2));
+    d=1+aa*d; if(Math.abs(d)<FPMIN) d=FPMIN; c=1+aa/c; if(Math.abs(c)<FPMIN) c=FPMIN; d=1/d; const del=d*c; h*=del;
+    if(Math.abs(del-1)<EPS) break;
+  }
+  return h;
+}
+function betaReg(x,a,b){
+  if(x<=0) return 0; if(x>=1) return 1;
+  const bt=Math.exp(lgamma(a+b)-lgamma(a)-lgamma(b)+a*Math.log(x)+b*Math.log(1-x));
+  const r = x<(a+1)/(a+b+2) ? bt*betacf(a,b,x)/a : 1-bt*betacf(b,a,1-x)/b;
+  return Math.min(1,Math.max(0,r));
+}
+function tPval(t,df){
+  if(t===0) return 1;
+  if(!isFinite(t)||df<=0) return t===0?1:0;
+  const x=df/(df+t*t);
+  return betaReg(x, df/2, 0.5); // two-tailed: P(|T|>=|t|)
+}
+function corrTest(x,y){
+  const r=corr(x,y), n=x.length, df=n-2;
+  if(df<=0) return {r,n,t:NaN,p:NaN};
+  if(Math.abs(r)>=1) return {r,n,t:Infinity,p:0};
+  const t=Math.abs(r)*Math.sqrt(df/(1-r*r));
+  return {r,n,t,p:tPval(t,df)};
+}
+function fmtP(p){
+  if(!(p>=0)) return 'p n/a';
+  if(p<0.001) return 'p<0.001';
+  if(p<0.01) return 'p='+p.toFixed(3);
+  return 'p='+p.toFixed(2);
+}
+function sigWord(p){ return !(p>=0) ? 'untested' : (p<0.05 ? 'significant at α=0.05' : 'not significant at α=0.05'); }
 function linearRegression(x,y){
   const n=x.length; const mx=x.reduce((a,b)=>a+b,0)/n, my=y.reduce((a,b)=>a+b,0)/n;
   let num=0, den=0;
@@ -203,9 +255,10 @@ function renderInsights(data){
   const bestGrad = [...unis].sort((a,b)=>b.grad_rate_6yr-a.grad_rate_6yr)[0];
   const endowPerMedian = median(unis.map(u=>u.endowment_per_student));
   const publicFlagshipValue = unis.filter(u=>u.control==='public' && u.carnegie==='R1').sort((a,b)=>(a.net_price_avg/a.median_earn_10yr)-(b.net_price_avg/b.median_earn_10yr))[0];
-  const rEarnEndow = corr(unis.map(u=>Math.log(u.endowment_per_student||1)), unis.map(u=>u.median_earn_10yr));
-  const rEarnGrad = corr(unis.map(u=>u.grad_rate_6yr), unis.map(u=>u.median_earn_10yr));
-  const rAdmitScore = corr(unis.filter(u=>u.admission_rate).map(u=>1-u.admission_rate), unis.filter(u=>u.admission_rate).map(u=>u.score));
+  const ctEarnEndow = corrTest(unis.map(u=>Math.log(u.endowment_per_student||1)), unis.map(u=>u.median_earn_10yr));
+  const ctEarnGrad = corrTest(unis.map(u=>u.grad_rate_6yr), unis.map(u=>u.median_earn_10yr));
+  const _selA = unis.filter(u=>u.admission_rate);
+  const ctAdmitScore = corrTest(_selA.map(u=>1-u.admission_rate), _selA.map(u=>u.score));
   const medianROI = median(unis.map(u=>u.median_earn_10yr - 35000*2 - u.net_price_avg*4));
   const topROI = [...unis].sort((a,b)=>(b.median_earn_10yr - b.net_price_avg*4)-(a.median_earn_10yr - a.net_price_avg*4))[0];
   // Peer benchmarking
@@ -218,7 +271,7 @@ function renderInsights(data){
   insights.push({t:`Highest Earnings: ${topEarn.name}`, d:`$${topEarn.median_earn_10yr.toLocaleString()} median 10yr. SF ratio ${topEarn.sf_ratio}:1, research $${topEarn.research_spend_m}M. Earnings premium correlates with research spend per student (r~0.6). ${topEarn.median_earn_10yr_real? '● Scorecard real.' : ''} Conference ${topEarn.conference}.`});
   insights.push({t:`Best Value (Price/Earnings): ${bestValue.name}`, d:`Net price $${bestValue.net_price_avg.toLocaleString()} vs earnings $${bestValue.median_earn_10yr.toLocaleString()}. Public flagship model shows ROI advantage despite lower endowment/student. Ratio ${(bestValue.net_price_avg/bestValue.median_earn_10yr).toFixed(2)}. Conf ${bestValue.conference}.`});
   insights.push({t:`Private vs Public: ${privateAvg.toFixed(1)} vs ${publicAvg.toFixed(1)} avg score`, d:`Private advantage driven by endowment/student (avg ${(endowPerMedian/1000).toFixed(0)}k median) and alumni giving (28% vs 9%). Publics close gap on value/ROI and research scale. n=${unis.length}, private=${unis.filter(u=>u.control==='private').length}, public=${unis.filter(u=>u.control==='public').length}.`});
-  insights.push({t:`Correlation: Earnings vs Endowment r=${rEarnEndow.toFixed(2)} (regression added)`, d:`Log(endow/student) vs earnings 10yr r=${rEarnEndow.toFixed(2)} (n=${unis.length}). Earnings vs grad rate r=${rEarnGrad.toFixed(2)}. Selectivity (1-admit) vs score r=${rAdmitScore.toFixed(2)}. Strongest predictor is grad rate + retention, not raw endowment. Scatter now shows regression line.`});
+  insights.push({t:`Correlation: Earnings vs Endowment r=${ctEarnEndow.r.toFixed(2)} (${fmtP(ctEarnEndow.p)})`, d:`Log(endow/student) vs earnings 10yr r=${ctEarnEndow.r.toFixed(2)}, ${fmtP(ctEarnEndow.p)}, n=${ctEarnEndow.n} — ${sigWord(ctEarnEndow.p)}. Earnings vs grad rate r=${ctEarnGrad.r.toFixed(2)} (${fmtP(ctEarnGrad.p)}, ${sigWord(ctEarnGrad.p)}). Selectivity (1-admit) vs score r=${ctAdmitScore.r.toFixed(2)} (${fmtP(ctAdmitScore.p)}, n=${ctAdmitScore.n}, ${sigWord(ctAdmitScore.p)}). All p-values two-tailed Student's t on Pearson r (df=n-2). Strongest predictor is grad rate + retention, not raw endowment. Scatter shows regression line with significance.`});
   insights.push({t:`ROI Leader: ${topROI.name} $${(topROI.median_earn_10yr - 35000*2 - topROI.net_price_avg*4).toLocaleString()} 10yr`, d:`ROI 10yr = earnings - $70k HS baseline - 4×net price. Median ROI $${medianROI.toLocaleString()} across ${unis.length} schools. ${topROI.name} ROI $${(topROI.median_earn_10yr - 35000*2 - topROI.net_price_avg*4).toLocaleString()} = $${topROI.median_earn_10yr.toLocaleString()} - $70k - $${(topROI.net_price_avg*4).toLocaleString()}. Public flagships dominate ROI due to low net price. Compare table now shows ROI column.`});
   insights.push({t:`Peer Benchmark: Conference Leaders`, d:`Top 5 conferences by avg Alumni Advantage: ${confBenchStr}. Ivy League (n=${byConf['Ivy League']?.length||0}) avg ${(byConf['Ivy League']?byConf['Ivy League'].reduce((s,u)=>s+u.score,0)/byConf['Ivy League'].length:0).toFixed(1)} vs Big Ten ${(byConf['Big Ten']?byConf['Big Ten'].reduce((s,u)=>s+u.score,0)/byConf['Big Ten'].length:0).toFixed(1)}. Peer network drag-enabled, clickable, URL ?peer= persists.`});
   insights.push({t:`Public Filings Coverage: 6 sources • ${realCount}/${unis.length} real`, d:`IPEDS (100% Title IV), IRS 990 (private only), Audited financials (GAAP), College Scorecard (earnings/debt/default/net price) ${realCount}/${unis.length} real, NSF HERD (R&D), State audit (publics). Filing presence is trust signal, not score weight. v0.5 fixes 9 Scorecard mismatches (Brown, UChicago, Penn, Baylor, BYU, Houston, Louisville, Miami, Utah, Davidson, Denver, Delaware, UConn, Howard).`});
@@ -305,11 +358,13 @@ function drawCharts(unis){
   // regression line on log(endow) vs earn
   const lx=unis.map(u=>Math.log(u.endowment_per_student||1)), ly=unis.map(u=>u.median_earn_10yr);
   const lr=linearRegression(lx,ly);
+  const ct=corrTest(lx,ly);
   const xVals=[d3.min(unis,d=>d.endowment_per_student)*0.8, d3.max(unis,d=>d.endowment_per_student)*1.2];
   const lineData=xVals.map(v=>({x:v, y: lr.m*Math.log(v)+lr.b}));
   const line=d3.line().x(d=>x(d.x)).y(d=>y(d.y));
   svg.append('path').datum(lineData).attr('fill','none').attr('stroke','#7c8cff').attr('stroke-width',1.2).attr('stroke-dasharray','4 3').attr('opacity',0.6).attr('d',line);
-  svg.selectAll('circle').data(unis).enter().append('circle').attr('cx',d=>x(d.endowment_per_student)).attr('cy',d=>y(d.median_earn_10yr)).attr('r',d=>Math.sqrt(d.enrollment_fte)/25+3).attr('fill',d=>d.control==='private'?'#7c8cff':'#3dd598').attr('opacity',0.7).append('title').text(d=>`${d.name} (${d.conference}): $${d.endowment_per_student.toLocaleString()} / stud, $${d.median_earn_10yr} earn, r=${corr(lx,ly).toFixed(2)}`);
+  svg.append('text').attr('x',w-m.right-6).attr('y',m.top+12).attr('text-anchor','end').attr('fill','#7c8cff').attr('font-size','10px').attr('opacity',0.85).text(`r=${ct.r.toFixed(2)}, ${fmtP(ct.p)} (n=${ct.n})`);
+  svg.selectAll('circle').data(unis).enter().append('circle').attr('cx',d=>x(d.endowment_per_student)).attr('cy',d=>y(d.median_earn_10yr)).attr('r',d=>Math.sqrt(d.enrollment_fte)/25+3).attr('fill',d=>d.control==='private'?'#7c8cff':'#3dd598').attr('opacity',0.7).append('title').text(d=>`${d.name} (${d.conference}): $${d.endowment_per_student.toLocaleString()} / stud, $${d.median_earn_10yr} earn, r=${ct.r.toFixed(2)}, ${fmtP(ct.p)}`);
   const gd=document.getElementById('chart-grad-default'); if(gd){ gd.innerHTML=''; const svg2=d3.select(gd).append('svg').attr('viewBox',`0 0 ${w} ${h}`).attr('width','100%').style('height','auto').style('display','block'); const x2=d3.scaleLinear().domain([0.7,1]).range([m.left,w-m.right]); const y2=d3.scaleLinear().domain([0,0.08]).range([h-m.bottom,m.top]); svg2.append('g').attr('transform',`translate(0,${h-m.bottom})`).call(d3.axisBottom(x2).tickFormat(d=>d*100+'%')).attr('color','#9aa0b8'); svg2.append('g').attr('transform',`translate(${m.left},0)`).call(d3.axisLeft(y2).tickFormat(d=>d*100+'%')).attr('color','#9aa0b8'); svg2.selectAll('circle').data(unis).enter().append('circle').attr('cx',d=>x2(d.grad_rate_6yr)).attr('cy',d=>y2(d.loan_default)).attr('r',4).attr('fill',d=>d.score>92?'#7c8cff':'#9aa0b8').attr('opacity',0.8).append('title').text(d=>d.name); }
   const val=document.getElementById('chart-value'); if(val){ val.innerHTML=''; const svg3=d3.select(val).append('svg').attr('viewBox',`0 0 ${w} ${h}`).attr('width','100%').style('height','auto').style('display','block'); const x3=d3.scaleLinear().domain([0,d3.max(unis,d=>d.net_price_avg)*1.1]).range([m.left,w-m.right]); const y3=d3.scaleLinear().domain([d3.min(unis,d=>d.median_earn_10yr)*0.9,d3.max(unis,d=>d.median_earn_10yr)*1.1]).range([h-m.bottom,m.top]); svg3.append('g').attr('transform',`translate(0,${h-m.bottom})`).call(d3.axisBottom(x3)).attr('color','#9aa0b8'); svg3.append('g').attr('transform',`translate(${m.left},0)`).call(d3.axisLeft(y3)).attr('color','#9aa0b8'); svg3.selectAll('circle').data(unis).enter().append('circle').attr('cx',d=>x3(d.net_price_avg)).attr('cy',d=>y3(d.median_earn_10yr)).attr('r',4).attr('fill',d=>d.control==='public'?'#3dd598':'#ffb84d').append('title').text(d=>d.name);
   const vqx=unis.map(d=>d.net_price_avg).sort((a,b)=>a-b), vqy=unis.map(d=>d.median_earn_10yr).sort((a,b)=>a-b);
