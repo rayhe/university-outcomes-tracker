@@ -300,9 +300,40 @@ function renderTable(unis){
 }
 
 let sortKey='score', sortDir=-1;
+const SORTABLE_KEYS=['name','conference','control','state','score','median_earn_10yr','endowment_per_student','grad_rate_6yr','loan_default','net_price_avg','enrollment_fte'];
+const SORT_PRESET_MAP={score_desc:['score',-1],earn_desc:['median_earn_10yr',-1],endow_desc:['endowment_per_student',-1],grad_desc:['grad_rate_6yr',-1]};
+// ?sort= URL deep-link helpers (pure; unit-tested by hidden_files/verify_sortlink_v22.js)
+// parseSortParam(v) -> {key,dir,preset} | null (null = default or unknown)
+function parseSortParam(v){
+  if(!v) return null;
+  if(v==='value_desc') return {key:'value',dir:1,preset:'value_desc'};
+  if(SORT_PRESET_MAP[v]) return {key:SORT_PRESET_MAP[v][0],dir:SORT_PRESET_MAP[v][1],preset:v};
+  const m=/^(.+)_(asc|desc)$/.exec(v);
+  if(m&&SORTABLE_KEYS.includes(m[1])) return {key:m[1],dir:m[2]==='asc'?1:-1,preset:'score_desc'};
+  return null;
+}
+// sortParamValue(key,dir,preset) -> URL param string | null (null when default score_desc)
+function sortParamValue(key,dir,preset){
+  if(preset==='value_desc') return 'value_desc';
+  if(preset==='earn_desc') return 'earn_desc';
+  if(preset==='endow_desc') return 'endow_desc';
+  if(preset==='grad_desc') return 'grad_desc';
+  if(key==='score'&&dir===-1) return null;
+  if(!SORTABLE_KEYS.includes(key)) return null;
+  return key+'_'+(dir<0?'desc':'asc');
+}
+function writeSortURL(){
+  const u=new URL(window.location);
+  const preset=document.getElementById('sort-preset').value;
+  const v=sortParamValue(sortKey,sortDir,preset);
+  if(v) u.searchParams.set('sort',v); else u.searchParams.delete('sort');
+  history.replaceState(null,'',u);
+}
 function sortBy(k){
   if(sortKey===k) sortDir*=-1; else {sortKey=k; sortDir=k==='name'||k==='control'||k==='state'||k==='conference'?1:-1;}
+  const sp=document.getElementById('sort-preset'); if(sp) sp.value='score_desc'; // neutralize preset so the clicked column sort takes effect
   applyFilters();
+  writeSortURL();
 }
 function applyFilters(){
   const q = document.getElementById('search').value.toLowerCase();
@@ -571,12 +602,14 @@ loadData().then(data=>{
   renderPeers(filtered); renderMap(filtered);
   const qParam=urlParams.get('q'); if(qParam){ const se=document.getElementById('search'); if(se){ se.value=qParam; } }
   const cParam=urlParams.get('control'); if(cParam){ const fe=document.getElementById('filter-control'); if(fe) fe.value=cParam; }
+  const sParam=urlParams.get('sort'); const parsedSort=parseSortParam(sParam);
+  if(parsedSort){ const se=document.getElementById('sort-preset'); if(se) se.value=parsedSort.preset; if(parsedSort.key!=='value'){ sortKey=parsedSort.key; sortDir=parsedSort.dir; } }
   const peerParam=urlParams.get('peer'); if(peerParam){ const pe=document.getElementById('peer-mode'); if(pe){ pe.value=peerParam; renderPeers(filtered); } }
   const idParam=urlParams.get('id'); if(idParam){ setTimeout(()=>showDetail(idParam), 400); }
-  if(qParam||cParam) applyFilters();
+  if(qParam||cParam||parsedSort) applyFilters();
   document.getElementById('search').addEventListener('input',()=>{ applyFilters(); const u=new URL(window.location); const v=document.getElementById('search').value; if(v) u.searchParams.set('q',v); else u.searchParams.delete('q'); history.replaceState(null,'',u); });
   document.getElementById('filter-control').addEventListener('change',()=>{ applyFilters(); const u=new URL(window.location); const v=document.getElementById('filter-control').value; if(v && v!=='all') u.searchParams.set('control',v); else u.searchParams.delete('control'); history.replaceState(null,'',u); });
-  document.getElementById('sort-preset').addEventListener('change',applyFilters);
+  document.getElementById('sort-preset').addEventListener('change',()=>{ applyFilters(); writeSortURL(); });
   const peerMode=document.getElementById('peer-mode'); if(peerMode) peerMode.addEventListener('change',()=>{ renderPeers(filtered); const u=new URL(window.location); const v=peerMode.value; if(v && v!=='conference') u.searchParams.set('peer',v); else u.searchParams.delete('peer'); history.replaceState(null,'',u); });
   const csvBtn=document.getElementById('btn-csv'); if(csvBtn) csvBtn.addEventListener('click',()=>exportCSV(filtered));
   const cmpBtn=document.getElementById('btn-compare'); if(cmpBtn) cmpBtn.addEventListener('click',()=>{ document.getElementById('compare-bar').style.display='flex'; });
