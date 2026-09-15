@@ -237,6 +237,45 @@ function linearRegression(x,y){
   const m=den?num/den:0; const b=my-m*mx;
   return {m,b};
 }
+// v0.23 radar toolkit: true radial radar chart with per-dimension min-max
+// normalization to 0-100 (replaces the grouped-bar "radar" + /1.5 scale hack).
+// Min-max extents are taken over the FULL dataset (stable under filtering);
+// private/public polygons are averages of the current filtered set.
+// RADAR-V23-START
+const RADAR_DIMS=[
+  {key:'career',   label:'Career',   val:u=>u.median_earn_10yr},
+  {key:'alumni',   label:'Alumni',   val:u=>u.alumni_giving},
+  {key:'academic', label:'Academic', val:u=>u.grad_rate_6yr},
+  {key:'financial',label:'Financial',val:u=>Math.log(u.endowment_per_student||1)},
+  {key:'value',    label:'Value',    val:u=>1-u.loan_default}
+];
+function radarExtents(unis){
+  const ext={};
+  RADAR_DIMS.forEach(d=>{
+    const vs=unis.map(d.val).filter(v=>Number.isFinite(v));
+    ext[d.key]=vs.length?[Math.min(...vs),Math.max(...vs)]:[0,1];
+  });
+  return ext;
+}
+function radarNormVal(ext,key,v){
+  const [lo,hi]=ext[key];
+  if(!Number.isFinite(v)||!(hi>lo)) return 0;
+  return Math.min(100,Math.max(0,(v-lo)/(hi-lo)*100));
+}
+function radarAverage(unis,ext){
+  const o={};
+  RADAR_DIMS.forEach(d=>{
+    const vs=unis.map(u=>radarNormVal(ext,d.key,d.val(u)));
+    o[d.key]=vs.length?vs.reduce((a,b)=>a+b,0)/vs.length:0;
+  });
+  return o;
+}
+function radarPoint(cx,cy,R,i,n,v){
+  const a=-Math.PI/2 + i*2*Math.PI/n;
+  const r=R*Math.min(100,Math.max(0,v))/100;
+  return [cx+r*Math.cos(a), cy+r*Math.sin(a)];
+}
+// RADAR-V23-END
 function renderInsights(data){
   const unis = data.universities;
   const insights = [];
@@ -403,7 +442,40 @@ function drawCharts(unis){
   svg3.append('line').attr('x1',x3(medx)).attr('x2',x3(medx)).attr('y1',m.top).attr('y2',h-m.bottom).attr('stroke','#9aa0b8').attr('stroke-dasharray','4 3').attr('opacity',.5);
   svg3.append('line').attr('x1',m.left).attr('x2',w-m.right).attr('y1',y3(medy)).attr('y2',y3(medy)).attr('stroke','#9aa0b8').attr('stroke-dasharray','4 3').attr('opacity',.5);
   svg3.append('text').attr('x',m.left+6).attr('y',m.top+12).attr('fill','#3dd598').attr('font-size','10px').attr('font-weight','600').text('BEST VALUE'); }
-  const rad=document.getElementById('chart-radar'); if(rad){ rad.innerHTML=''; const privAvg={career:0,alumni:0,academic:0,financial:0,value:0}; const pubAvg={career:0,alumni:0,academic:0,financial:0,value:0}; let pc=0,uc=0; unis.forEach(u=>{ const isPriv=u.control==='private'; const tgt=isPriv?privAvg:pubAvg; tgt.career+=u.median_earn_10yr/1000; tgt.alumni+=u.alumni_giving*100; tgt.academic+=u.grad_rate_6yr*100; tgt.financial+=Math.log(u.endowment_per_student); tgt.value+=(1-u.loan_default)*100; if(isPriv) pc++; else uc++; }); Object.keys(privAvg).forEach(k=>privAvg[k]/=pc||1); Object.keys(pubAvg).forEach(k=>pubAvg[k]/=uc||1); const svg4=d3.select(rad).append('svg').attr('viewBox',`0 0 ${w} ${h}`).attr('width','100%').style('height','auto').style('display','block'); const keys=Object.keys(privAvg); const x4=d3.scaleBand().domain(keys).range([m.left,w-m.right]).padding(0.2); const y4=d3.scaleLinear().domain([0,100]).range([h-m.bottom,m.top]); svg4.append('g').attr('transform',`translate(0,${h-m.bottom})`).call(d3.axisBottom(x4)).attr('color','#9aa0b8'); svg4.append('g').attr('transform',`translate(${m.left},0)`).call(d3.axisLeft(y4)).attr('color','#9aa0b8'); keys.forEach((k)=>{ svg4.append('rect').attr('x',x4(k)).attr('y',y4(privAvg[k]/1.5)).attr('width',x4.bandwidth()/2).attr('height',h-m.bottom-y4(privAvg[k]/1.5)).attr('fill','#7c8cff'); svg4.append('rect').attr('x',x4(k)+x4.bandwidth()/2).attr('y',y4(pubAvg[k]/1.5)).attr('width',x4.bandwidth()/2).attr('height',h-m.bottom-y4(pubAvg[k]/1.5)).attr('fill','#3dd598'); }); }
+    const rad=document.getElementById('chart-radar'); if(rad){ rad.innerHTML='';
+    // v0.23: true radial radar. Extents from ALL unis (stable under filtering),
+    // polygons are averages of the current filtered set. Replaces the /1.5 bar hack.
+    const ext=radarExtents(allUnis);
+    const privAvg=radarAverage(unis.filter(u=>u.control==='private'),ext);
+    const pubAvg=radarAverage(unis.filter(u=>u.control==='public'),ext);
+    const rw=340, rh=300, rcx=rw/2, rcy=rh/2-6, R=104, n=RADAR_DIMS.length;
+    const pt=(i,v)=>radarPoint(rcx,rcy,R,i,n,v);
+    const svg4=d3.select(rad).append('svg').attr('viewBox',`0 0 ${rw} ${rh}`).attr('width','100%').style('height','auto').style('display','block');
+    [25,50,75,100].forEach(g=>{
+      svg4.append('polygon').attr('points',RADAR_DIMS.map((d,i)=>pt(i,g).join(',')).join(' '))
+        .attr('fill','none').attr('stroke','#3a3f55').attr('stroke-width',1).attr('opacity',g===100?0.9:0.55);
+      svg4.append('text').attr('x',rcx+4).attr('y',rcy-R*g/100-3).attr('fill','#5c6278').attr('font-size','9px').text(g);
+    });
+    RADAR_DIMS.forEach((d,i)=>{
+      const [ex,ey]=pt(i,100);
+      svg4.append('line').attr('x1',rcx).attr('y1',rcy).attr('x2',ex).attr('y2',ey).attr('stroke','#3a3f55').attr('stroke-width',1);
+      const [lx,ly]=pt(i,130);
+      const cx=Math.min(rw-2,Math.max(2,lx)), cy=Math.min(rh-4,Math.max(12,ly));
+      svg4.append('text').attr('x',cx).attr('y',cy)
+        .attr('text-anchor',Math.abs(cx-rcx)<10?'middle':(cx>rcx?'start':'end'))
+        .attr('fill','#9aa0b8').attr('font-size','10px').attr('font-weight','600').text(d.label);
+    });
+    [{vals:privAvg,color:'#7c8cff',name:'Private',isPriv:true},{vals:pubAvg,color:'#3dd598',name:'Public',isPriv:false}].forEach(s=>{
+      if(!unis.some(u=>(u.control==='private')===s.isPriv)) return; // filtered side empty
+      svg4.append('polygon').attr('points',RADAR_DIMS.map((d,i)=>pt(i,s.vals[d.key]).join(',')).join(' '))
+        .attr('fill',s.color).attr('fill-opacity',0.22).attr('stroke',s.color).attr('stroke-width',2);
+      RADAR_DIMS.forEach((d,i)=>{
+        const [vx,vy]=pt(i,s.vals[d.key]);
+        svg4.append('circle').attr('cx',vx).attr('cy',vy).attr('r',3.5).attr('fill',s.color).attr('stroke','#10131c').attr('stroke-width',1)
+          .append('title').text(`${d.label} — ${s.name} avg ${s.vals[d.key].toFixed(1)}/100`);
+      });
+    });
+  }
 }
 
 function renderFilings(data){
