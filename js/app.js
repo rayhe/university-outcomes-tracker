@@ -510,7 +510,6 @@ function renderPeers(unis){
   });
   const groupKeys=Object.keys(groups).sort();
   const statsEl=document.getElementById('peer-stats');
-  if(statsEl) statsEl.textContent=`${groupKeys.length} groups • ${unis.length} universities • force-directed, drag, clickable, URL ?peer=`;
   netEl.innerHTML='';
   const w=Math.max(netEl.clientWidth||900, 700), h=440;
   const svg=d3.select(netEl).append('svg').attr('width',w).attr('height',h).attr('viewBox',`0 0 ${w} ${h}`).style('background','transparent');
@@ -522,7 +521,7 @@ function renderPeers(unis){
     else if(mode==='control') gkey=u.control;
     else if(mode==='state') gkey=u.state;
     else gkey='All';
-    return {...u, group:gkey, x:Math.random()*w, y:Math.random()*h};
+    return {...u, group:gkey, conf:u.conference||u.peer_group||'Other', x:Math.random()*w, y:Math.random()*h};
   });
   const groupIndex={}; groupKeys.forEach((g,i)=>groupIndex[g]=i);
   const links=[];
@@ -536,15 +535,48 @@ function renderPeers(unis){
       }
     }
   });
+  // CARNEGIE-CROSSWALK-V24-BEGIN
+  // Crosswalk edges: each school links to up to k score-nearest schools that share its
+  // Carnegie tier but sit in a DIFFERENT conference (conference <-> Carnegie crosswalk).
+  // Pure helper — mechanically extracted for unit tests, no transcription.
+  function buildCrosswalkLinks(nodes, k){
+    const byCarnegie={};
+    nodes.forEach(n=>{ const c=n.carnegie||'Other'; if(!byCarnegie[c]) byCarnegie[c]=[]; byCarnegie[c].push(n); });
+    const seen=new Set();
+    const out=[];
+    nodes.forEach(n=>{
+      const c=n.carnegie||'Other';
+      const conf=n.conf||'Other';
+      const cand=(byCarnegie[c]||[])
+        .filter(m=>m.id!==n.id && (m.conf||'Other')!==conf &&
+          !seen.has(n.id+'|'+m.id) && !seen.has(m.id+'|'+n.id));
+      cand.sort((a,b)=>Math.abs(a.score-n.score)-Math.abs(b.score-n.score));
+      let added=0;
+      for(const m of cand){
+        if(added>=k) break;
+        out.push({source:n.id, target:m.id, xwalk:true});
+        seen.add(n.id+'|'+m.id);
+        added++;
+      }
+    });
+    return out;
+  }
+  // CARNEGIE-CROSSWALK-V24-END
+  const xlinks=buildCrosswalkLinks(nodes, 2);
+  const allLinks=links.concat(xlinks);
+  if(statsEl) statsEl.textContent=`${groupKeys.length} groups • ${unis.length} universities • ${xlinks.length} crosswalk • force-directed, drag, clickable, URL ?peer=`;
   const sim=d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(links).id(d=>d.id).distance(40).strength(0.15))
+    .force('link', d3.forceLink(allLinks).id(d=>d.id).distance(d=>d.xwalk?70:40).strength(d=>d.xwalk?0.1:0.15))
     .force('charge', d3.forceManyBody().strength(-55))
     .force('x', d3.forceX().x(d=> (groupIndex[d.group]||0)/Math.max(1,groupKeys.length-1)* (w-120)+60).strength(0.25))
     .force('y', d3.forceY(h/2).strength(0.12))
     .force('collide', d3.forceCollide().radius(d=>4 + d.score/35 + 2).strength(0.8))
     .alphaDecay(0.04);
-  const linkG=svg.append('g').attr('stroke','#2a2e42').attr('stroke-opacity',0.35);
-  const link=linkG.selectAll('line').data(links).join('line').attr('stroke-width',0.6);
+  const linkG=svg.append('g');
+  const link=linkG.selectAll('line').data(allLinks).join('line')
+    .attr('stroke',d=>d.xwalk?'#f5a524':'#2a2e42')
+    .attr('stroke-opacity',d=>d.xwalk?0.5:0.35)
+    .attr('stroke-width',d=>d.xwalk?1.1:0.6);
   const nodeG=svg.append('g');
   const node=nodeG.selectAll('circle').data(nodes).join('circle')
     .attr('r',d=>3.5 + d.score/38)
@@ -565,7 +597,14 @@ function renderPeers(unis){
   const labels=labelG.selectAll('text').data(topNodes).join('text')
     .text(d=>d.name.split(' ').slice(0,2).join(' '))
     .attr('font-size','9px').attr('fill','#c8ccda').attr('pointer-events','none').attr('opacity',0.9);
+  const xLegend=svg.append('g').attr('transform',`translate(${w-252},14)`);
+  xLegend.append('line').attr('x1',0).attr('y1',0).attr('x2',26).attr('y2',0).attr('stroke','#f5a524').attr('stroke-opacity',0.65).attr('stroke-width',2.2);
+  xLegend.append('text').attr('x',32).attr('y',4).attr('fill','#9aa0b8').attr('font-size','10px').text('crosswalk: same Carnegie tier, different conference');
   const tooltip=d3.select('body').selectAll('#peer-tooltip').data([0]).join('div').attr('id','peer-tooltip').style('position','absolute').style('display','none').style('background','#151821').style('border','1px solid #2a2e42').style('border-radius','8px').style('padding','8px 10px').style('font-size','.78rem').style('color','#e6e8f0').style('pointer-events','none').style('z-index','40').style('box-shadow','0 8px 24px rgba(0,0,0,.5)');
+  link.filter(d=>d.xwalk).style('cursor','pointer')
+    .on('mouseover',(e,d)=>{ const a=d.source, b=d.target; d3.select(e.currentTarget).attr('stroke-width',2.4); tooltip.style('display','block').html('<b>'+a.name+'</b> &#8596; <b>'+b.name+'</b><br>Crosswalk: both '+(a.carnegie||'Other')+' &bull; '+(a.conf||'')+' vs '+(b.conf||'')+'<br>Scores '+a.score.toFixed(1)+' / '+b.score.toFixed(1)); })
+    .on('mousemove',(e)=>{ tooltip.style('left',(e.pageX+12)+'px').style('top',(e.pageY-10)+'px'); })
+    .on('mouseout',(e)=>{ d3.select(e.currentTarget).attr('stroke-width',1.1); tooltip.style('display','none'); });
   sim.on('tick',()=>{
     link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
     node.attr('cx',d=>d.x=Math.max(12,Math.min(w-12,d.x))).attr('cy',d=>d.y=Math.max(16,Math.min(h-16,d.y)));
