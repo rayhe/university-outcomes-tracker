@@ -68,27 +68,59 @@ function updateCompareBar(){
   cnt.textContent=`${selectedCompare.size} selected for compare`;
   bar.style.display=selectedCompare.size>0?'flex':'none';
 }
+// COMPARE-CSV-V25-START
+const COMPARE_DIMS=['score','conference','carnegie','control','median_earn_10yr','debt_avg','loan_default','net_price_avg','grad_rate_6yr','retention','endowment_per_student','admission_rate','enrollment_fte','roi_10yr'];
+function compareRaw(u,k){
+  if(k==='roi_10yr') return u.median_earn_10yr-35000*2-u.net_price_avg*4;
+  let v=u[k];
+  if(v==null){ const r=u[k+'_real']; v=(typeof r==='number')?r:null; }
+  return v;
+}
+function isMoneyDim(k){ return k.includes('earn')||k.includes('debt')||k.includes('price')||k.includes('endowment')||k==='roi_10yr'; }
+function isPctDim(k){ return k.includes('grad')||k.includes('retention')||k.includes('default')||k.includes('admission'); }
+function compareCellHTML(u,k){
+  const v0=compareRaw(u,k);
+  if(k==='conference'||k==='carnegie'||k==='control') return `<td>${v0||'—'}</td>`;
+  let v=v0==null?'—':v0;
+  if(isMoneyDim(k)) v=v!=null&&v!=='—'?fmtMoney(v):v;
+  else if(isPctDim(k)) v=v!=null&&v!=='—'?(v*100).toFixed(1)+'%':v;
+  else if(typeof v==='number') v=v.toFixed(1);
+  const realBadge=u[k+'_real']!=null||u.median_earn_10yr_real!=null&&k==='median_earn_10yr'?' <span style="font-size:.65rem;color:#3dd598">●real</span>':'';
+  return `<td>${v}${realBadge}</td>`;
+}
+function csvCell(s){
+  s=(s==null)?'':String(s);
+  return /[",\n\r]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s;
+}
+function buildCompareCSV(picks){
+  const rows=[['Metric'].concat(picks.map(u=>u.name))];
+  COMPARE_DIMS.forEach(k=>{ rows.push([k].concat(picks.map(u=>{ const v=compareRaw(u,k); return v==null?'':String(v); }))); });
+  return rows.map(r=>r.map(csvCell).join(',')).join('\n');
+}
+// COMPARE-CSV-V25-END
+function downloadCompareCSV(){
+  const ids=window.__lastCompare||[];
+  const picks=ids.map(id=>allUnis.find(u=>u.id===id)).filter(Boolean);
+  if(picks.length<2){ alert('Select at least 2 schools to compare first'); return; }
+  const csv=buildCompareCSV(picks);
+  const blob=new Blob([csv],{type:'text/csv;charset=utf-8'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='university-compare-'+picks.map(u=>u.id).join('-')+'.csv';
+  document.body.appendChild(a); a.click();
+  setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); },200);
+}
 function showCompare(){
   if(selectedCompare.size<2){ alert('Select at least 2'); return; }
   const picks=[...selectedCompare].map(id=>allUnis.find(u=>u.id===id)).filter(Boolean);
+  window.__lastCompare=picks.map(u=>u.id);
   const p=document.getElementById('detail-panel');
   p.classList.remove('hidden');
-  const dims=['score','conference','carnegie','control','median_earn_10yr','debt_avg','loan_default','net_price_avg','grad_rate_6yr','retention','endowment_per_student','admission_rate','enrollment_fte','roi_10yr'];
   let html=`<h3>Comparison — ${picks.map(u=>u.name).join(' vs ')}</h3><div style="overflow:auto"><table style="width:100%;font-size:.86rem"><thead><tr><th>Metric</th>${picks.map(u=>`<th>${u.name}<br><span style="font-size:.7rem;color:#9aa0b8">${u.conference||u.carnegie||''}</span></th>`).join('')}</tr></thead><tbody>`;
-  dims.forEach(k=>{
-    html+=`<tr><td><b>${k}</b></td>${picks.map(u=>{
-      let v;
-      if(k==='roi_10yr') v=u.median_earn_10yr - 35000*2 - u.net_price_avg*4;
-      else { v=u[k]; if(v==null) v=u[k+'_real']||'—'; }
-      if(k==='conference'||k==='carnegie'||k==='control') { return `<td>${v||'—'}</td>`; }
-      if(k.includes('earn')||k.includes('debt')||k.includes('price')||k.includes('endowment')||k==='roi_10yr') v=v!=null&&v!=='—'?fmtMoney(v):v;
-      else if(k.includes('grad')||k.includes('retention')||k.includes('default')||k.includes('admission')) v=v!=null&&v!=='—'?(v*100).toFixed(1)+'%':v;
-      else if(typeof v==='number') v=v.toFixed(1);
-      const realBadge=u[k+'_real']!=null||u.median_earn_10yr_real!=null&&k==='median_earn_10yr'?' <span style="font-size:.65rem;color:#3dd598">●real</span>':'';
-      return `<td>${v}${realBadge}</td>`;
-    }).join('')}</tr>`;
+  COMPARE_DIMS.forEach(k=>{
+    html+=`<tr><td><b>${k}</b></td>${picks.map(u=>compareCellHTML(u,k)).join('')}</tr>`;
   });
-  html+=`</tbody></table></div><p style="font-size:.8rem;color:#9aa0b8;margin-top:8px">●real = College Scorecard API. ROI 10yr = earn - $70k HS baseline - 4×net price. Conference fixed v0.5 (150/150). Drag nodes in peer network, URL ?peer= persists.</p><button onclick="document.getElementById('detail-panel').classList.add('hidden')" style="margin-top:8px">Close</button>`;
+  html+=`</tbody></table></div><p style="font-size:.8rem;color:#9aa0b8;margin-top:8px">●real = College Scorecard API. ROI 10yr = earn - $70k HS baseline - 4×net price. Conference fixed v0.5 (150/150). Drag nodes in peer network, URL ?peer= persists.</p><div style="display:flex;gap:8px;margin-top:8px"><button onclick="document.getElementById('detail-panel').classList.add('hidden')">Close</button><button onclick="window.__downloadCompareCSV()" style="padding:6px 12px;background:#3dd598;border:none;border-radius:6px;color:#0a0f1a;font-size:.85rem;cursor:pointer">⬇ Download CSV</button></div>`;
   p.innerHTML=html;
   p.scrollIntoView({behavior:'smooth'});
 }
@@ -728,4 +760,5 @@ loadData().then(data=>{
   const cl=document.getElementById('compare-clear'); if(cl) cl.addEventListener('click',()=>{ selectedCompare.clear(); updateCompareBar(); renderTable(filtered); });
   window.__toggleCompare=toggleCompare;
   window.__showCompare=showCompare;
+  window.__downloadCompareCSV=downloadCompareCSV;
 });
