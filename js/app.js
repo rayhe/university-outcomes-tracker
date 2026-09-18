@@ -524,6 +524,66 @@ function renderFilings(data){
   }).join('');
 }
 
+// PEER-LAYOUT-V26-BEGIN
+// Drag persistence for the peer force network. Pinned node positions are stored in
+// localStorage, normalized to the canvas size so they survive resizes, keyed by
+// grouping mode + the exact visible school id set (drift -> no restore, no misplaced pins).
+// Pure helpers — mechanically extracted for unit tests, no transcription.
+function peerLayoutHash(s){
+  let h=5381;
+  for(let i=0;i<s.length;i++) h=((h<<5)+h+s.charCodeAt(i))>>>0;
+  return h.toString(16);
+}
+function peerLayoutKey(mode, ids){
+  return 'uot_peer_layout_'+mode+'_'+peerLayoutHash(ids.slice().sort().join(','));
+}
+function savePeerLayout(storage, mode, ids, nodes, w, h){
+  if(!storage||w<=0||h<=0) return null;
+  const pos={};
+  nodes.forEach(n=>{
+    const px=(n.fx!=null?n.fx:(n.x||0))/w;
+    const py=(n.fy!=null?n.fy:(n.y||0))/h;
+    pos[n.id]=[+px.toFixed(4), +py.toFixed(4)];
+  });
+  const key=peerLayoutKey(mode, ids);
+  try{ storage.setItem(key, JSON.stringify({ids:ids.slice().sort(), pos})); }catch(e){ return null; }
+  return key;
+}
+function loadPeerLayout(storage, mode, ids){
+  if(!storage) return null;
+  let raw=null;
+  try{ raw=storage.getItem(peerLayoutKey(mode, ids)); }catch(e){ return null; }
+  if(!raw) return null;
+  let parsed;
+  try{ parsed=JSON.parse(raw); }catch(e){ return null; }
+  if(!parsed||!Array.isArray(parsed.ids)||!parsed.pos||typeof parsed.pos!=='object') return null;
+  const want=ids.slice().sort().join(',');
+  if(parsed.ids.join(',')!==want) return null;
+  return parsed.pos;
+}
+function applySavedLayout(nodes, pos, w, h){
+  let applied=0;
+  nodes.forEach(n=>{
+    const p=pos[n.id];
+    if(!p||typeof p[0]!=='number'||typeof p[1]!=='number') return;
+    const x=Math.max(12,Math.min(w-12, p[0]*w));
+    const y=Math.max(16,Math.min(h-16, p[1]*h));
+    n.x=x; n.y=y; n.fx=x; n.fy=y; applied++;
+  });
+  return applied;
+}
+function clearPeerLayout(storage, mode){
+  if(!storage) return 0;
+  const prefix='uot_peer_layout_'+mode+'_';
+  let len=0;
+  try{ len=storage.length; }catch(e){ return 0; }
+  const keys=[];
+  for(let i=0;i<len;i++){ try{ const k=storage.key(i); if(k&&k.indexOf(prefix)===0) keys.push(k); }catch(e){} }
+  let n=0;
+  keys.forEach(k=>{ try{ storage.removeItem(k); n++; }catch(e){} });
+  return n;
+}
+// PEER-LAYOUT-V26-END
 function renderPeers(unis){
   const modeEl=document.getElementById('peer-mode');
   const mode=modeEl?modeEl.value:'conference';
@@ -594,9 +654,16 @@ function renderPeers(unis){
     return out;
   }
   // CARNEGIE-CROSSWALK-V24-END
+  // PEER-LAYOUT-V26: restore a saved drag layout for this exact mode + school set
+  const __store=(function(){ try{ return window.localStorage; }catch(e){ return null; } })();
+  const __ids=unis.map(u=>u.id);
+  const __saved=loadPeerLayout(__store, mode, __ids);
+  let __restored=0;
+  if(__saved) __restored=applySavedLayout(nodes, __saved, w, h);
   const xlinks=buildCrosswalkLinks(nodes, 2);
   const allLinks=links.concat(xlinks);
-  if(statsEl) statsEl.textContent=`${groupKeys.length} groups • ${unis.length} universities • ${xlinks.length} crosswalk • force-directed, drag, clickable, URL ?peer=`;
+  const __statsBase=`${groupKeys.length} groups • ${unis.length} universities • ${xlinks.length} crosswalk • force-directed, drag, clickable, URL ?peer=`;
+  if(statsEl) statsEl.textContent=__statsBase+(__restored?` • layout restored (${__restored})`:'');
   const sim=d3.forceSimulation(nodes)
     .force('link', d3.forceLink(allLinks).id(d=>d.id).distance(d=>d.xwalk?70:40).strength(d=>d.xwalk?0.1:0.15))
     .force('charge', d3.forceManyBody().strength(-55))
@@ -617,12 +684,13 @@ function renderPeers(unis){
     .attr('opacity',0.92)
     .style('cursor','pointer')
     .on('click',(e,d)=>{ showDetail(d.id); if(history.replaceState){ const u=new URL(window.location); u.searchParams.set('id', d.id); history.replaceState(null,'',u);} })
-    .on('mouseover',function(e,d){ d3.select(this).attr('stroke','#fff').attr('stroke-width',1.6); tooltip.style('display','block').html(`<b>${d.name}</b><br>Score ${d.score.toFixed(1)} • $${(d.median_earn_10yr/1000).toFixed(0)}k earn<br>${d.conference||d.carnegie} • ${d.control} • ${d.state}<br>Drag to move, click for detail`); })
+    .on('mouseover',function(e,d){ d3.select(this).attr('stroke','#fff').attr('stroke-width',1.6); tooltip.style('display','block').html(`<b>${d.name}</b><br>Score ${d.score.toFixed(1)} • $${(d.median_earn_10yr/1000).toFixed(0)}k earn<br>${d.conference||d.carnegie} • ${d.control} • ${d.state}<br>Drag to move (position saved), click for detail`); })
     .on('mousemove',(e)=>{ tooltip.style('left',(e.pageX+12)+'px').style('top',(e.pageY-10)+'px'); })
     .on('mouseout',function(){ d3.select(this).attr('stroke','#0b0d12').attr('stroke-width',0.8); tooltip.style('display','none'); });
   const dragstarted=(e,d)=>{ if(!e.active) sim.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; };
   const dragged=(e,d)=>{ d.fx=e.x; d.fy=e.y; };
-  const dragended=(e,d)=>{ if(!e.active) sim.alphaTarget(0); d.fx=null; d.fy=null; };
+  // PEER-LAYOUT-V26: keep the node pinned on release (was: fx cleared) and persist the layout
+  const dragended=(e,d)=>{ if(!e.active) sim.alphaTarget(0); d.fx=d.x; d.fy=d.y; savePeerLayout(__store, mode, __ids, nodes, w, h); if(statsEl) statsEl.textContent=__statsBase+' • layout saved'; };
   node.call(d3.drag().on('start',dragstarted).on('drag',dragged).on('end',dragended));
   const labelG=svg.append('g');
   const topNodes=nodes.slice().sort((a,b)=>b.score-a.score).slice(0,18);
@@ -758,6 +826,7 @@ loadData().then(data=>{
   const cmpBtn=document.getElementById('btn-compare'); if(cmpBtn) cmpBtn.addEventListener('click',()=>{ document.getElementById('compare-bar').style.display='flex'; });
   const go=document.getElementById('compare-go'); if(go) go.addEventListener('click',showCompare);
   const cl=document.getElementById('compare-clear'); if(cl) cl.addEventListener('click',()=>{ selectedCompare.clear(); updateCompareBar(); renderTable(filtered); });
+  const rlBtn=document.getElementById('peer-reset-layout'); if(rlBtn) rlBtn.addEventListener('click',()=>{ const pe=document.getElementById('peer-mode'); try{ clearPeerLayout(window.localStorage, pe?pe.value:'conference'); }catch(e){} renderPeers(filtered); });
   window.__toggleCompare=toggleCompare;
   window.__showCompare=showCompare;
   window.__downloadCompareCSV=downloadCompareCSV;

@@ -1,8 +1,8 @@
 {
  "metadata": {
-  "last_updated": "2026-09-17",
+  "last_updated": "2026-09-18",
   "source": "College Scorecard API (DEMO_KEY) + v0.9 dedup: 13 duplicate entries replaced with 13 distinct schools (TCU, Syracuse, Arkansas, Ole Miss, Mississippi State, Creighton, Gonzaga, Marquette, Xavier, Butler, Hamilton, Macalester, Providence), 200/200 distinct IDs, 200/200 real",
-  "version": "0.25",
+  "version": "0.26",
   "total_universities": 200,
   "criteria_version": "1.0",
   "enriched_count": 200,
