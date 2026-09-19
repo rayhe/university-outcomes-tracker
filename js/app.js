@@ -98,6 +98,49 @@ function buildCompareCSV(picks){
   return rows.map(r=>r.map(csvCell).join(',')).join('\n');
 }
 // COMPARE-CSV-V25-END
+// BENCH-CSV-V27-START
+function benchGroupKey(u,mode){
+  if(mode==='conference') return u.conference||u.peer_group||'Other';
+  if(mode==='carnegie') return u.carnegie||'Other';
+  if(mode==='control') return u.control||'Other';
+  if(mode==='state') return u.state||'Other';
+  return 'All';
+}
+function groupBenchRows(unis,mode){
+  const groups={};
+  unis.forEach(u=>{ const g=benchGroupKey(u,mode); (groups[g]=groups[g]||[]).push(u); });
+  return Object.keys(groups).sort().map(g=>{
+    const members=groups[g].slice().sort((a,b)=>b.score-a.score);
+    const n=members.length;
+    const avgScore=members.reduce((s,u)=>s+u.score,0)/n;
+    const avgEarn=members.reduce((s,u)=>s+u.median_earn_10yr,0)/n;
+    const avgROI=members.reduce((s,u)=>s+(u.median_earn_10yr-35000*2-u.net_price_avg*4),0)/n;
+    return {group:g, n, avgScore, avgEarn, avgROI, top3:members.slice(0,3).map(m=>({id:m.id,name:m.name}))};
+  }).sort((a,b)=>b.avgScore-a.avgScore);
+}
+function benchCsvCell(s){
+  s=(s==null)?'':String(s);
+  return /[",\n\r]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s;
+}
+function buildBenchCSV(rows,mode){
+  const header=[mode+'_group','n','avg_score','avg_earn','avg_roi','top3'];
+  const out=[header];
+  rows.forEach(r=>{ out.push([r.group, r.n, r.avgScore.toFixed(2), Math.round(r.avgEarn), Math.round(r.avgROI), r.top3.map(t=>t.name).join('; ')]); });
+  return out.map(r=>r.map(benchCsvCell).join(',')).join('\n');
+}
+function downloadBenchCSV(){
+  const st=window.__lastBench;
+  const rows=st&&st.rows, mode=st&&st.mode;
+  if(!rows||!rows.length){ alert('Peer benchmarking table not available'); return; }
+  const csv=buildBenchCSV(rows,mode);
+  const blob=new Blob([csv],{type:'text/csv;charset=utf-8'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='university-benchmark-'+mode+'.csv';
+  document.body.appendChild(a); a.click();
+  setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); },200);
+}
+// BENCH-CSV-V27-END
 function downloadCompareCSV(){
   const ids=window.__lastCompare||[];
   const picks=ids.map(id=>allUnis.find(u=>u.id===id)).filter(Boolean);
@@ -718,15 +761,11 @@ function renderPeers(unis){
   });
   const listEl=document.getElementById('peer-list');
   if(listEl){
-    // Peer benchmarking table
-    const bench=groupKeys.map(g=>{
-      const members=groups[g].sort((a,b)=>b.score-a.score);
-      const avgScore=members.reduce((s,u)=>s+u.score,0)/members.length;
-      const avgEarn=members.reduce((s,u)=>s+u.median_earn_10yr,0)/members.length;
-      const avgROI=members.reduce((s,u)=>s+(u.median_earn_10yr - 35000*2 - u.net_price_avg*4),0)/members.length;
-      return {g, n:members.length, avgScore, avgEarn, avgROI, members};
-    }).sort((a,b)=>b.avgScore-a.avgScore);
-    listEl.innerHTML=`<div style="grid-column:1/-1;margin-bottom:8px"><h4 style="margin:0 0 6px;font-size:.9rem">Peer Benchmarking — Avg Score / Earn / ROI by ${mode}</h4><div style="overflow:auto"><table style="width:100%;font-size:.78rem;border-collapse:collapse"><thead><tr style="color:#9aa0b8"><th style="text-align:left;padding:4px 6px">${mode}</th><th>n</th><th>avg Score</th><th>avg Earn</th><th>avg ROI</th><th>top</th></tr></thead><tbody>${bench.map(b=>`<tr style="border-top:1px solid #1e2235"><td style="padding:4px 6px"><b style="color:${color(b.g)}">● ${b.g}</b></td><td>${b.n}</td><td>${b.avgScore.toFixed(1)}</td><td>$${(b.avgEarn/1000).toFixed(0)}k</td><td>$${(b.avgROI/1000).toFixed(0)}k</td><td style="font-size:.75rem">${b.members.slice(0,3).map(m=>`<a href="#" onclick="event.preventDefault();showDetail('${m.id}')" style="color:#c8ccda">${m.name}</a>`).join(', ')}</td></tr>`).join('')}</tbody></table></div></div>` +
+    // Peer benchmarking table — rows from shared pure helper (BENCH-CSV-V27),
+    // so the table and the exported CSV can never drift.
+    const bench=groupBenchRows(unis,mode);
+    window.__lastBench={rows:bench,mode};
+    listEl.innerHTML=`<div style="grid-column:1/-1;margin-bottom:8px"><h4 style="margin:0 0 6px;font-size:.9rem;display:flex;align-items:center;gap:8px">Peer Benchmarking — Avg Score / Earn / ROI by ${mode}<button onclick="window.__downloadBenchCSV()" title="Export this table as CSV (raw values, RFC 4180)" style="font-size:.72rem;padding:3px 10px;background:#3dd598;border:none;border-radius:6px;color:#0a0f1a;cursor:pointer">⬇ Benchmark CSV</button></h4><div style="overflow:auto"><table style="width:100%;font-size:.78rem;border-collapse:collapse"><thead><tr style="color:#9aa0b8"><th style="text-align:left;padding:4px 6px">${mode}</th><th>n</th><th>avg Score</th><th>avg Earn</th><th>avg ROI</th><th>top</th></tr></thead><tbody>${bench.map(b=>`<tr style="border-top:1px solid #1e2235"><td style="padding:4px 6px"><b style="color:${color(b.group)}">● ${b.group}</b></td><td>${b.n}</td><td>${b.avgScore.toFixed(1)}</td><td>$${(b.avgEarn/1000).toFixed(0)}k</td><td>$${(b.avgROI/1000).toFixed(0)}k</td><td style="font-size:.75rem">${b.top3.map(m=>`<a href="#" onclick="event.preventDefault();showDetail('${m.id}')" style="color:#c8ccda">${m.name}</a>`).join(', ')}</td></tr>`).join('')}</tbody></table></div></div>` +
       groupKeys.slice(0,12).map(g=>{
       const members=groups[g].sort((a,b)=>b.score-a.score);
       const avgScore=members.reduce((s,u)=>s+u.score,0)/members.length;
@@ -830,4 +869,5 @@ loadData().then(data=>{
   window.__toggleCompare=toggleCompare;
   window.__showCompare=showCompare;
   window.__downloadCompareCSV=downloadCompareCSV;
+  window.__downloadBenchCSV=downloadBenchCSV;
 });
