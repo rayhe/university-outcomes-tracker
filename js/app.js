@@ -659,17 +659,46 @@ function renderPeers(unis){
     return {...u, group:gkey, conf:u.conference||u.peer_group||'Other', x:Math.random()*w, y:Math.random()*h};
   });
   const groupIndex={}; groupKeys.forEach((g,i)=>groupIndex[g]=i);
-  const links=[];
-  const byGroup={};
-  nodes.forEach(n=>{ if(!byGroup[n.group]) byGroup[n.group]=[]; byGroup[n.group].push(n); });
-  Object.values(byGroup).forEach(arr=>{
-    if(arr.length>12) arr=arr.sort((a,b)=>b.score-a.score).slice(0,12);
-    for(let i=0;i<arr.length;i++){
-      for(let j=i+1;j<arr.length;j++){
-        if(Math.random()<0.25) links.push({source:arr[i].id, target:arr[j].id});
-      }
-    }
-  });
+  // PEER-LINK-V28-BEGIN
+  // Peer-group-aware weighted links (closes the standing Network Quality issue
+  // "no link strength by peer_group", flagged since v0.5 — replaces the old
+  // random 0.25 same-group links). Each node links to its k score-nearest
+  // group-mates; link distance/strength is weighted by score proximity, with
+  // a bonus for a shared peer_group (matters in carnegie/control/state modes
+  // where a group mixes peer_groups). Deterministic — no Math.random.
+  // Pure helpers — mechanically extracted for unit tests, no transcription.
+  function peerLinkProps(a, b){
+    const gap=Math.abs((a.score||0)-(b.score||0));
+    const samePg=!!(a.peer_group||'') && (a.peer_group||'')===(b.peer_group||'');
+    let dist=28+Math.min(52, gap*1.4);
+    let str=0.38-Math.min(0.24, gap*0.009);
+    if(samePg){ dist=Math.max(20, dist-8); str=Math.min(0.5, str+0.08); }
+    return {dist:+dist.toFixed(2), str:+str.toFixed(3)};
+  }
+  function buildPeerLinks(nodes, k){
+    const byGroup={};
+    nodes.forEach(n=>{ const g=n.group||'Other'; if(!byGroup[g]) byGroup[g]=[]; byGroup[g].push(n); });
+    const seen=new Set(), out=[];
+    Object.values(byGroup).forEach(arr=>{
+      let members=arr;
+      if(members.length>12) members=members.slice().sort((a,b)=>(b.score||0)-(a.score||0)).slice(0,12);
+      members.forEach(n=>{
+        const cand=members.filter(m=>m.id!==n.id && !seen.has(n.id+'|'+m.id) && !seen.has(m.id+'|'+n.id));
+        cand.sort((a,b)=>Math.abs((a.score||0)-(n.score||0))-Math.abs((b.score||0)-(n.score||0)) || (a.id<b.id?-1:a.id>b.id?1:0));
+        let added=0;
+        for(const m of cand){
+          if(added>=k) break;
+          const p=peerLinkProps(n,m);
+          out.push({source:n.id, target:m.id, dist:p.dist, str:p.str});
+          seen.add(n.id+'|'+m.id);
+          added++;
+        }
+      });
+    });
+    return out;
+  }
+  // PEER-LINK-V28-END
+  const links=buildPeerLinks(nodes, 2);
   // CARNEGIE-CROSSWALK-V24-BEGIN
   // Crosswalk edges: each school links to up to k score-nearest schools that share its
   // Carnegie tier but sit in a DIFFERENT conference (conference <-> Carnegie crosswalk).
@@ -705,10 +734,10 @@ function renderPeers(unis){
   if(__saved) __restored=applySavedLayout(nodes, __saved, w, h);
   const xlinks=buildCrosswalkLinks(nodes, 2);
   const allLinks=links.concat(xlinks);
-  const __statsBase=`${groupKeys.length} groups • ${unis.length} universities • ${xlinks.length} crosswalk • force-directed, drag, clickable, URL ?peer=`;
+  const __statsBase=`${groupKeys.length} groups • ${unis.length} universities • ${links.length} weighted peer links • ${xlinks.length} crosswalk • force-directed, drag, clickable, URL ?peer=`;
   if(statsEl) statsEl.textContent=__statsBase+(__restored?` • layout restored (${__restored})`:'');
   const sim=d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(allLinks).id(d=>d.id).distance(d=>d.xwalk?70:40).strength(d=>d.xwalk?0.1:0.15))
+    .force('link', d3.forceLink(allLinks).id(d=>d.id).distance(d=>d.xwalk?70:(d.dist||40)).strength(d=>d.xwalk?0.1:(d.str||0.15)))
     .force('charge', d3.forceManyBody().strength(-55))
     .force('x', d3.forceX().x(d=> (groupIndex[d.group]||0)/Math.max(1,groupKeys.length-1)* (w-120)+60).strength(0.25))
     .force('y', d3.forceY(h/2).strength(0.12))
@@ -718,7 +747,7 @@ function renderPeers(unis){
   const link=linkG.selectAll('line').data(allLinks).join('line')
     .attr('stroke',d=>d.xwalk?'#f5a524':'#2a2e42')
     .attr('stroke-opacity',d=>d.xwalk?0.5:0.35)
-    .attr('stroke-width',d=>d.xwalk?1.1:0.6);
+    .attr('stroke-width',d=>d.xwalk?1.1:(0.55+(d.str||0.15)));
   const nodeG=svg.append('g');
   const node=nodeG.selectAll('circle').data(nodes).join('circle')
     .attr('r',d=>3.5 + d.score/38)
@@ -743,6 +772,8 @@ function renderPeers(unis){
   const xLegend=svg.append('g').attr('transform',`translate(${w-252},14)`);
   xLegend.append('line').attr('x1',0).attr('y1',0).attr('x2',26).attr('y2',0).attr('stroke','#f5a524').attr('stroke-opacity',0.65).attr('stroke-width',2.2);
   xLegend.append('text').attr('x',32).attr('y',4).attr('fill','#9aa0b8').attr('font-size','10px').text('crosswalk: same Carnegie tier, different conference');
+  xLegend.append('line').attr('x1',0).attr('y1',18).attr('x2',26).attr('y2',18).attr('stroke','#2a2e42').attr('stroke-opacity',0.7).attr('stroke-width',2.2);
+  xLegend.append('text').attr('x',32).attr('y',22).attr('fill','#9aa0b8').attr('font-size','10px').text('peer links: score-nearest peers, strength ∝ score proximity + peer_group');
   const tooltip=d3.select('body').selectAll('#peer-tooltip').data([0]).join('div').attr('id','peer-tooltip').style('position','absolute').style('display','none').style('background','#151821').style('border','1px solid #2a2e42').style('border-radius','8px').style('padding','8px 10px').style('font-size','.78rem').style('color','#e6e8f0').style('pointer-events','none').style('z-index','40').style('box-shadow','0 8px 24px rgba(0,0,0,.5)');
   link.filter(d=>d.xwalk).style('cursor','pointer')
     .on('mouseover',(e,d)=>{ const a=d.source, b=d.target; d3.select(e.currentTarget).attr('stroke-width',2.4); tooltip.style('display','block').html('<b>'+a.name+'</b> &#8596; <b>'+b.name+'</b><br>Crosswalk: both '+(a.carnegie||'Other')+' &bull; '+(a.conf||'')+' vs '+(b.conf||'')+'<br>Scores '+a.score.toFixed(1)+' / '+b.score.toFixed(1)); })
