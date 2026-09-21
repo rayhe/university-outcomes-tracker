@@ -698,6 +698,32 @@ function renderPeers(unis){
     return out;
   }
   // PEER-LINK-V28-END
+  // PEER-LINKTIP-V29-BEGIN
+  // Hover tooltips for intra-group peer links (closes the standing Interactivity +
+  // Network Quality issue "peer intra-group links not hoverable", flagged in the
+  // v0.28 panel — crosswalk edges have had hovers since v0.24, the gray peer
+  // links had none). Tooltip shows the pair, the shared group, score proximity
+  // (Delta), the weighted link strength, and the same-peer_group bonus note.
+  // Pure helper — mechanically extracted for unit tests, no transcription.
+  function escTip(s){
+    return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+  function peerLinkTip(a, b, mode, link){
+    a=a||{}; b=b||{};
+    const modeLabel={conference:'conference', carnegie:'Carnegie tier', control:'control', state:'state'}[mode]||'group';
+    const grp=escTip(a.group||b.group||'Other');
+    const sa=(a.score==null?'?':a.score.toFixed(1)), sb=(b.score==null?'?':b.score.toFixed(1));
+    const gap=(a.score==null||b.score==null)?null:Math.abs(a.score-b.score);
+    const samePg=!!(a.peer_group||'') && (a.peer_group||'')===(b.peer_group||'');
+    let html='<b>'+escTip(a.name||'?')+'</b> &#8596; <b>'+escTip(b.name||'?')+'</b><br>';
+    html+='Peer link: same '+modeLabel+' ('+grp+')<br>';
+    html+='Scores '+sa+' / '+sb+(gap==null?'':' (&#916;'+gap.toFixed(1)+')');
+    const str=(link&&link.str!=null?+link.str:null);
+    html+='<br>Link strength '+(str==null?'n/a':str.toFixed(3));
+    if(samePg) html+=' &bull; same peer_group '+escTip(a.peer_group)+' (tighter link)';
+    return html;
+  }
+  // PEER-LINKTIP-V29-END
   const links=buildPeerLinks(nodes, 2);
   // CARNEGIE-CROSSWALK-V24-BEGIN
   // Crosswalk edges: each school links to up to k score-nearest schools that share its
@@ -773,12 +799,19 @@ function renderPeers(unis){
   xLegend.append('line').attr('x1',0).attr('y1',0).attr('x2',26).attr('y2',0).attr('stroke','#f5a524').attr('stroke-opacity',0.65).attr('stroke-width',2.2);
   xLegend.append('text').attr('x',32).attr('y',4).attr('fill','#9aa0b8').attr('font-size','10px').text('crosswalk: same Carnegie tier, different conference');
   xLegend.append('line').attr('x1',0).attr('y1',18).attr('x2',26).attr('y2',18).attr('stroke','#2a2e42').attr('stroke-opacity',0.7).attr('stroke-width',2.2);
-  xLegend.append('text').attr('x',32).attr('y',22).attr('fill','#9aa0b8').attr('font-size','10px').text('peer links: score-nearest peers, strength ∝ score proximity + peer_group');
+  xLegend.append('text').attr('x',32).attr('y',22).attr('fill','#9aa0b8').attr('font-size','10px').text('peer links: score-nearest peers, strength ∝ score proximity + peer_group — hover any link for the pair');
   const tooltip=d3.select('body').selectAll('#peer-tooltip').data([0]).join('div').attr('id','peer-tooltip').style('position','absolute').style('display','none').style('background','#151821').style('border','1px solid #2a2e42').style('border-radius','8px').style('padding','8px 10px').style('font-size','.78rem').style('color','#e6e8f0').style('pointer-events','none').style('z-index','40').style('box-shadow','0 8px 24px rgba(0,0,0,.5)');
   link.filter(d=>d.xwalk).style('cursor','pointer')
     .on('mouseover',(e,d)=>{ const a=d.source, b=d.target; d3.select(e.currentTarget).attr('stroke-width',2.4); tooltip.style('display','block').html('<b>'+a.name+'</b> &#8596; <b>'+b.name+'</b><br>Crosswalk: both '+(a.carnegie||'Other')+' &bull; '+(a.conf||'')+' vs '+(b.conf||'')+'<br>Scores '+a.score.toFixed(1)+' / '+b.score.toFixed(1)); })
     .on('mousemove',(e)=>{ tooltip.style('left',(e.pageX+12)+'px').style('top',(e.pageY-10)+'px'); })
     .on('mouseout',(e)=>{ d3.select(e.currentTarget).attr('stroke-width',1.1); tooltip.style('display','none'); });
+  // PEER-LINKTIP-V29: intra-group peer links are hoverable too. On mouseout the
+  // stroke-width must be restored to the per-link strength value (0.55+str),
+  // NOT a constant — the width encodes link strength since v0.28.
+  link.filter(d=>!d.xwalk).style('cursor','pointer')
+    .on('mouseover',(e,d)=>{ const a=d.source, b=d.target; d3.select(e.currentTarget).attr('stroke-width',3.2); tooltip.style('display','block').html(peerLinkTip(a,b,mode,d)); })
+    .on('mousemove',(e)=>{ tooltip.style('left',(e.pageX+12)+'px').style('top',(e.pageY-10)+'px'); })
+    .on('mouseout',(e,d)=>{ d3.select(e.currentTarget).attr('stroke-width',0.55+(d.str||0.15)); tooltip.style('display','none'); });
   sim.on('tick',()=>{
     link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
     node.attr('cx',d=>d.x=Math.max(12,Math.min(w-12,d.x))).attr('cy',d=>d.y=Math.max(16,Math.min(h-16,d.y)));
