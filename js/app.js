@@ -851,6 +851,60 @@ function loadScript(src){
   });
 }
 let _statesGeo=null;
+// MAP-PEERLINK-V30-BEGIN
+// Geographic peer links on the campus map (closes the standing Network Quality
+// issue "map doesn't draw peer links", flagged since ~v0.5). Draws score-nearest
+// weighted peer edges (same weighting math as PEER-LINK-V28) between campuses
+// that share a peer_group, plotted as geographic lines on the US map. Width
+// encodes link strength; hover shows the pair. Module-level so renderMap can
+// call it (the V26-V29 helpers are scoped inside renderPeers). Pure helpers —
+// mechanically extracted for unit tests, no transcription.
+function mapLinkProps(a, b){
+  // Same formula as peerLinkProps: the same-peer_group bonus is always active
+  // because map links are strictly peer_group-scoped.
+  const gap=Math.abs((a.score||0)-(b.score||0));
+  let dist=28+Math.min(52, gap*1.4);
+  let str=0.38-Math.min(0.24, gap*0.009);
+  dist=Math.max(20, dist-8); str=Math.min(0.5, str+0.08);
+  return {dist:+dist.toFixed(2), str:+str.toFixed(3)};
+}
+function mapPeerLinks(unis, k){
+  const pts=unis.filter(u=>u.lat!=null&&u.lon!=null&&u.id!=null);
+  const byPg={};
+  pts.forEach(u=>{ const g=u.peer_group||'Other'; if(!byPg[g]) byPg[g]=[]; byPg[g].push(u); });
+  const seen=new Set(), out=[];
+  Object.values(byPg).forEach(arr=>{
+    let members=arr;
+    if(members.length>12) members=members.slice().sort((a,b)=>(b.score||0)-(a.score||0)).slice(0,12);
+    members.forEach(n=>{
+      const cand=members.filter(m=>m.id!==n.id && !seen.has(n.id+'|'+m.id) && !seen.has(m.id+'|'+n.id));
+      cand.sort((a,b)=>Math.abs((a.score||0)-(n.score||0))-Math.abs((b.score||0)-(n.score||0)) || (a.id<b.id?-1:a.id>b.id?1:0));
+      let added=0;
+      for(const m of cand){
+        if(added>=k) break;
+        const p=mapLinkProps(n,m);
+        out.push({a:n, b:m, str:p.str});
+        seen.add(n.id+'|'+m.id);
+        added++;
+      }
+    });
+  });
+  return out;
+}
+function escMapLink(s){
+  return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function mapPeerLinkTip(a, b, str){
+  a=a||{}; b=b||{};
+  const sa=(a.score==null?'?':a.score.toFixed(1)), sb=(b.score==null?'?':b.score.toFixed(1));
+  const gap=(a.score==null||b.score==null)?null:Math.abs(a.score-b.score);
+  let html='<b>'+escMapLink(a.name||'?')+'</b> &#8596; <b>'+escMapLink(b.name||'?')+'</b><br>';
+  html+='Peer-group link: '+escMapLink(a.peer_group||b.peer_group||'Other')+'<br>';
+  html+='Scores '+sa+' / '+sb+(gap==null?'':' (&#916;'+gap.toFixed(1)+')');
+  html+='<br>Link strength '+(str==null?'n/a':(+str).toFixed(3));
+  return html;
+}
+// MAP-PEERLINK-V30-END
 async function renderMap(unis){
   const el=document.getElementById('geo-map'); if(!el) return;
   const pts=unis.filter(u=>u.lat!=null&&u.lon!=null);
@@ -875,6 +929,24 @@ async function renderMap(unis){
   svg.append('g').selectAll('path').data(_statesGeo.features).join('path')
     .attr('d',path).attr('fill','#1a1e2c').attr('stroke','#2e3348').attr('stroke-width',0.7);
   const xy=d=>{ const p=proj([d.lon,d.lat]); return p?p:[-50,-50]; };
+  // MAP-PEERLINK-V30: draw score-nearest peer-group links (closes the standing
+  // Network Quality issue "map doesn't draw peer links", flagged since ~v0.5).
+  const linkToggle=document.getElementById('map-peer-links');
+  const showLinks=!linkToggle || linkToggle.checked;
+  let mapLinks=[];
+  if(showLinks){
+    mapLinks=mapPeerLinks(pts, 2);
+    svg.append('g').attr('class','map-peer-links').selectAll('line').data(mapLinks).join('line')
+      .attr('x1',d=>xy(d.a)[0]).attr('y1',d=>xy(d.a)[1])
+      .attr('x2',d=>xy(d.b)[0]).attr('y2',d=>xy(d.b)[1])
+      .attr('stroke','#8a90aa').attr('stroke-opacity',0.30)
+      .attr('stroke-width',d=>(0.6+d.str*1.6).toFixed(2))
+      .style('cursor','pointer')
+      .on('mouseover',function(e,d){ d3.select(this).attr('stroke','#c8ccda').attr('stroke-opacity',0.9);
+        tooltip.style('display','block').html(mapPeerLinkTip(d.a,d.b,d.str)); })
+      .on('mousemove',(e)=>{ tooltip.style('left',(e.pageX+12)+'px').style('top',(e.pageY-10)+'px'); })
+      .on('mouseout',function(){ d3.select(this).attr('stroke','#8a90aa').attr('stroke-opacity',0.30); tooltip.style('display','none'); });
+  }
   const tooltip=d3.select('body').selectAll('#peer-tooltip').data([0]).join('div')
     .attr('id','peer-tooltip').style('position','absolute').style('display','none')
     .style('background','#151821').style('border','1px solid #2a2e42').style('border-radius','8px')
@@ -902,8 +974,14 @@ async function renderMap(unis){
   lg.append('circle').attr('cx',70).attr('cy',0).attr('r',5).attr('fill','#3dd598').attr('opacity',0.85);
   lg.append('text').attr('x',79).attr('y',3.5).attr('fill','#9aa0b8').attr('font-size','10px').text('Public');
   lg.append('text').attr('x',140).attr('y',3.5).attr('fill','#9aa0b8').attr('font-size','10px').text('Dot size = Alumni Advantage score');
+  // MAP-PEERLINK-V30 legend row: peer-group link sample (width = link strength)
+  const lg2=svg.append('g').attr('transform','translate(14,'+(h-12)+')');
+  lg2.append('line').attr('x1',0).attr('y1',0).attr('x2',34).attr('y2',0)
+    .attr('stroke','#8a90aa').attr('stroke-opacity',0.55).attr('stroke-width',2.2);
+  lg2.append('text').attr('x',42).attr('y',3.5).attr('fill','#9aa0b8').attr('font-size','10px')
+    .text('Peer-group link (width = link strength; hover for the pair)');
   const note=document.getElementById('geo-note');
-  if(note) note.textContent=pts.length+'/'+unis.length+' campuses plotted at Wikipedia {{coord}} locations (primary first). Dots sized by score; top 10 labeled.';
+  if(note) note.textContent=pts.length+'/'+unis.length+' campuses plotted at Wikipedia {{coord}} locations (primary first). Dots sized by score; top 10 labeled.'+(showLinks?' '+mapLinks.length+' peer-group links drawn (2 score-nearest per school, width = link strength).':'');
 }
 
 loadData().then(data=>{
@@ -925,6 +1003,7 @@ loadData().then(data=>{
   document.getElementById('filter-control').addEventListener('change',()=>{ applyFilters(); const u=new URL(window.location); const v=document.getElementById('filter-control').value; if(v && v!=='all') u.searchParams.set('control',v); else u.searchParams.delete('control'); history.replaceState(null,'',u); });
   document.getElementById('sort-preset').addEventListener('change',()=>{ applyFilters(); writeSortURL(); });
   const peerMode=document.getElementById('peer-mode'); if(peerMode) peerMode.addEventListener('change',()=>{ renderPeers(filtered); const u=new URL(window.location); const v=peerMode.value; if(v && v!=='conference') u.searchParams.set('peer',v); else u.searchParams.delete('peer'); history.replaceState(null,'',u); });
+  const mapLinksToggle=document.getElementById('map-peer-links'); if(mapLinksToggle) mapLinksToggle.addEventListener('change',()=>{ renderMap(filtered); });
   const csvBtn=document.getElementById('btn-csv'); if(csvBtn) csvBtn.addEventListener('click',()=>exportCSV(filtered));
   const cmpBtn=document.getElementById('btn-compare'); if(cmpBtn) cmpBtn.addEventListener('click',()=>{ document.getElementById('compare-bar').style.display='flex'; });
   const go=document.getElementById('compare-go'); if(go) go.addEventListener('click',showCompare);
