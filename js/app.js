@@ -840,7 +840,7 @@ function renderPeers(unis){
   }
 }
 
-// v0.20: Geographic map — 200 campuses plotted at Wikipedia {{coord}} locations.
+// v0.20: Geographic map — 200 campuses plotted at Wikipedia {{coord}} locations. v0.31: expanded to 250 (33 Scorecard location + 17 geocoded for the new 50).
 // State outlines: us-atlas states-10m topojson via CDN (same CDN pattern as d3),
 // converted with topojson-client (also CDN). Graceful fallback if offline.
 function loadScript(src){

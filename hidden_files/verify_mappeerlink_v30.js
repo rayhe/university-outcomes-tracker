@@ -84,22 +84,22 @@ ok(mapPeerLinkTip({name:'X',peer_group:'P'},{name:'Y'},null).includes('Peer-grou
 ok(mapPeerLinkTip({name:'X',score:null},{name:'Y'},null).includes('Scores ? / ?'), 'missing scores -> ? with no Delta');
 ok(!mapPeerLinkTip({name:'<script>alert(1)</script>',score:80,peer_group:'P&G'},{name:'Y',score:79,peer_group:'P&G'},0.4).includes('<script>'), 'no raw script leak');
 
-// --- real-200 smoke ---
+// --- real-universe smoke ---
 const data=JSON.parse(fs.readFileSync(path.join(__dirname,'..','data','universities.json'),'utf8'));
 const real=mapPeerLinks(data.universities, 2);
-ok(real.length>0 && real.length<=400, 'real-200 link count sane: '+real.length);
-ok(real.every(l=>((l.a.peer_group||'Other')===(l.b.peer_group||'Other'))), 'real-200: all links intra-peer_group');
-ok(real.every(l=>l.str>=0.22&&l.str<=0.46), 'real-200: all str in [0.22,0.46]');
+ok(real.length>0 && real.length<=data.universities.length*2, 'real-universe link count sane: '+real.length);
+ok(real.every(l=>((l.a.peer_group||'Other')===(l.b.peer_group||'Other'))), 'real-universe: all links intra-peer_group');
+ok(real.every(l=>l.str>=0.22&&l.str<=0.46), 'real-universe: all str in [0.22,0.46]');
 const rpk=real.map(l=>[l.a.id,l.b.id].sort().join('|'));
-ok(new Set(rpk).size===rpk.length, 'real-200: no duplicate pairs');
-ok(real.every(l=>l.a.lon!=null&&l.a.lat!=null&&l.b.lon!=null&&l.b.lat!=null), 'real-200: all endpoints have lon/lat');
+ok(new Set(rpk).size===rpk.length, 'real-universe: no duplicate pairs');
+ok(real.every(l=>l.a.lon!=null&&l.a.lat!=null&&l.b.lon!=null&&l.b.lat!=null), 'real-universe: all endpoints have lon/lat');
 // Big Ten has 19 members -> top-12 cap must apply
 const bigTenLinks=real.filter(l=>(l.a.peer_group||'')==='Big Ten');
 const bigTenIds=new Set(); bigTenLinks.forEach(l=>{bigTenIds.add(l.a.id);bigTenIds.add(l.b.id);});
-ok(bigTenIds.size<=12, 'real-200: Big Ten participation capped at 12, got '+bigTenIds.size);
+ok(bigTenIds.size<=12, 'real-universe: Big Ten participation capped at 12, got '+bigTenIds.size);
 // visual width encoding sanity
 const widths=real.map(l=>(0.6+l.str*1.6).toFixed(2));
-ok(widths.every(w=>+w>=0.9&&+w<=1.4), 'real-200: stroke widths in [0.95,1.34]');
+ok(widths.every(w=>+w>=0.9&&+w<=1.4), 'real-universe: stroke widths in [0.95,1.34]');
 
 console.log('MAP-PEERLINK-V30: '+pass+' pass, '+fail+' fail');
 process.exit(fail?1:0);

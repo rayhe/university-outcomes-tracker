@@ -61,15 +61,15 @@ ok(JSON.stringify(again) === JSON.stringify(links), 'deterministic');
 const gOut = links.filter(l => l.source === 'g');
 ok(gOut.length === 1 && gOut[0].target === 'h', 'singleton-tier links');
 
-// 9. total volume sane on the real 200 (each node up to 3, pairs deduped)
+// 9. total volume sane on the real universe (each node up to 2, pairs deduped)
 const real = JSON.parse(fs.readFileSync(__dirname + '/../data/universities.json', 'utf8')).universities;
 const realNodes = real.map(u => ({ id: u.id, name: u.name, carnegie: u.carnegie, conf: u.conference || u.peer_group || 'Other', group: u.conference || u.peer_group || 'Other', score: u.score }));
 const realLinks = buildCrosswalkLinks(realNodes, 2);
-ok(realLinks.length > 50 && realLinks.length <= 200 * 2, 'real-200 volume: ' + realLinks.length);
+ok(realLinks.length > 50 && realLinks.length <= real.length * 2, 'real-universe volume: ' + realLinks.length);
 const rp = realLinks.map(l => [l.source, l.target].sort().join('|'));
-ok(new Set(rp).size === rp.length, 'real-200 no dup pairs');
+ok(new Set(rp).size === rp.length, 'real-universe no dup pairs');
 const rc = {}; realLinks.forEach(l => { const s = realNodes.find(n => n.id === l.source), t = realNodes.find(n => n.id === l.target); rc[l.source] = (rc[l.source] || 0) + 1; });
-ok(Object.values(rc).every(c => c <= 2), 'real-200 per-node cap k=2');
+ok(Object.values(rc).every(c => c <= 2), 'real-universe per-node cap k=2');
 // spot-check: MIT and Caltech (R1, different confs) should plausibly link
 const mitCal = rp.includes(['mit', 'caltech'].sort().join('|')) || rp.includes(['mit', 'stanford'].sort().join('|'));
 console.log('info: MIT crosswalk present:', mitCal, '| total crosswalk links:', realLinks.length);

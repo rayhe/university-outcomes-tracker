@@ -59,7 +59,7 @@ ok(t3.includes('Texas A&amp;M &lt;script&gt;alert(1)&lt;/script&gt;'), 'tip esca
 ok(!t3.includes('<script>'), 'tip has no raw <script> leak');
 ok(t3.includes('William &amp; Mary'), 'tip escapes & in second name');
 
-// --- real-200 smoke: names from the actual dataset ---
+// --- real-universe smoke: names from the actual dataset ---
 const data=JSON.parse(fs.readFileSync(path.join(__dirname,'..','data','universities.json'),'utf8'));
 const recs=data.universities;
 let seen=0;
@@ -70,7 +70,7 @@ for(let i=0;i<recs.length-1;i+=17){
   else pass++;
   seen++;
 }
-ok(seen>5, 'real-200 smoke ran over '+seen+' pairs');
+ok(seen>5, 'real-universe smoke ran over '+seen+' pairs');
 
 console.log(`\n${pass} passed, ${fail} failed`);
 process.exit(fail?1:0);
