@@ -1,0 +1,247 @@
+{
+ "floridaam": {
+  "endowment_b": 0.1357,
+  "_endowment_source": "Wikipedia infobox (2025): $135.7 million (2025), Florida A&M University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "ncat": {
+  "endowment_b": 0.202,
+  "_endowment_source": "Wikipedia infobox (2024): $202 million (2024), North Carolina A&T State University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "jacksonstate": {
+  "endowment_b": 0.06,
+  "_endowment_source": "Wikipedia infobox (2019): $60 million (2019), Jackson State University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "southern": {
+  "endowment_b": 0.01002,
+  "_endowment_source": "CollegeDB.app (IPEDS-derived, undated): $10,021,552 Southern University and A&M College Baton Rouge; Wikipedia page has no |endowment= (redirects to 'Southern University'), verified 2026-09-24",
+  "wiki_title": "Southern University and A&M College"
+ },
+ "grambling": {
+  "endowment_b": 0.007,
+  "_endowment_source": "Wikipedia infobox: $7 million, Grambling State University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "alcorn": {
+  "endowment_b": 0.0213,
+  "_endowment_source": "Wikipedia infobox (2021): $21.3 million (2021), Alcorn State University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "bethunecookman": {
+  "endowment_b": 0.06,
+  "_endowment_source": "Wikipedia infobox (2025): $60 million (2025), Bethune\u2013Cookman University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "delawarestate": {
+  "endowment_b": 0.043,
+  "_endowment_source": "Wikipedia infobox (2021): $43 million (2021), Delaware State University, fetched 2026-09-24",
+  "wiki_title": "Delaware State University"
+ },
+ "morganstate": {
+  "endowment_b": 0.106,
+  "_endowment_source": "Data USA (IPEDS Finance FY2024 via datausa.io): $106M Morgan State University, verified 2026-09-24",
+  "wiki_title": "Morgan State University"
+ },
+ "prairieview": {
+  "endowment_b": 0.1485,
+  "_endowment_source": "Wikipedia infobox: $148.5 million, Prairie View A&M University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "tennesseestate": {
+  "endowment_b": 0.0911,
+  "_endowment_source": "Wikipedia infobox (2021): $91.1 million (2021), Tennessee State University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "texassouthern": {
+  "endowment_b": 0.1,
+  "_endowment_source": "Wikipedia infobox (2024): $100 million (2024), Texas Southern University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "alabamaam": {
+  "endowment_b": 0.048,
+  "_endowment_source": "Wikipedia infobox (2019): $48.0&nbsp;million (2019), Alabama A&M University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "hampton": {
+  "endowment_b": 0.2806,
+  "_endowment_source": "Wikipedia infobox (2020): $280.6 million (2020), Hampton University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "tuskegee": {
+  "endowment_b": 0.157,
+  "_endowment_source": "Wikipedia infobox (2021): $157 million (2021), Tuskegee University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "xavierla": {
+  "endowment_b": 0.178,
+  "_endowment_source": "Wikipedia infobox (2022): $178 million (2022), Xavier University of Louisiana, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "dillard": {
+  "endowment_b": 0.1,
+  "_endowment_source": "Wikipedia infobox: $100 million, Dillard University, fetched 2026-09-24",
+  "wiki_title": "Dillard University"
+ },
+ "norfolkstate": {
+  "endowment_b": 0.1095,
+  "_endowment_source": "Wikipedia infobox (2025): $109.5 million (2025), Norfolk State University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "scstate": {
+  "endowment_b": 0.0172,
+  "_endowment_source": "Wikipedia infobox (2023): $17.2 million (2023), South Carolina State University, fetched 2026-09-24",
+  "wiki_title": "South Carolina State University"
+ },
+ "nccentral": {
+  "endowment_b": 0.089,
+  "_endowment_source": "Wikipedia infobox (2024): $89 million (2024), North Carolina Central University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "oberlin": {
+  "endowment_b": 1.48,
+  "_endowment_source": "Wikipedia infobox (2025): $1.48 billion (2025), Oberlin College, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "kenyon": {
+  "endowment_b": 0.68,
+  "_endowment_source": "Wikipedia infobox (2025): $680 million (2025), Kenyon College, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "grinnell": {
+  "endowment_b": 2.85,
+  "_endowment_source": "Wikipedia infobox (2025): $2.85 billion (2025), Grinnell College, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "reed": {
+  "endowment_b": 0.8767999999999999,
+  "_endowment_source": "Wikipedia infobox (2025): $876.8 million (2025), Reed College, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "whitman": {
+  "endowment_b": 0.8476,
+  "_endowment_source": "Wikipedia infobox (2025): $847.6 million (2025), Whitman College, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "coloradocollege": {
+  "endowment_b": 0.6675,
+  "_endowment_source": "Wikipedia infobox (2025): $667.5 million (2025), Colorado State University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "trinitytx": {
+  "endowment_b": 2.0,
+  "_endowment_source": "Wikipedia infobox (2025): $2.00 billion (2025), Trinity University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "rhodes": {
+  "endowment_b": 0.4485,
+  "_endowment_source": "Wikipedia infobox (2025): $448.5 million (2025), Rhodes College, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "centre": {
+  "endowment_b": 0.4143,
+  "_endowment_source": "Wikipedia infobox (2025): $414.3 million (2025), Centre College, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "denison": {
+  "endowment_b": 1.1,
+  "_endowment_source": "Wikipedia infobox (2025): $1.1 billion (2025), Denison University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "depauw": {
+  "endowment_b": 1.1,
+  "_endowment_source": "Wikipedia infobox (2026): $1.1 Billion (2026), DePauw University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "wabash": {
+  "endowment_b": 0.465,
+  "_endowment_source": "Wikipedia infobox (2025): $465 million (2025), Wabash College, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "stolaf": {
+  "endowment_b": 0.8816,
+  "_endowment_source": "Wikipedia infobox (2025): $881.6 million (2025), St. Olaf College, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "lawrence": {
+  "endowment_b": 0.4168,
+  "_endowment_source": "Wikipedia infobox (2024): $416.8 million (2024), St. Lawrence University, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "beloit": {
+  "endowment_b": 0.0856,
+  "_endowment_source": "Wikipedia infobox: $85.6 million in 2025, Beloit College, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "knox": {
+  "endowment_b": 0.17451,
+  "_endowment_source": "Knox College audited FY2024 (knox.edu auditor's report): endowment net assets end-of-year $174,514,569 at 6/30/2024; Wikipedia 'Knox College' page carries no |endowment=, verified 2026-09-24",
+  "wiki_title": null
+ },
+ "wooster": {
+  "endowment_b": 0.437,
+  "_endowment_source": "Wikipedia infobox (2024): $437 million (2024), College of Wooster, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "gettysburg": {
+  "endowment_b": 0.4592,
+  "_endowment_source": "Wikipedia infobox (2025): $459.2 million (2025), Gettysburg College, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "fandm": {
+  "endowment_b": 0.4392,
+  "_endowment_source": "Wikipedia infobox (2024): $439.2 million (2024), Franklin & Marshall College, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "dickinson": {
+  "endowment_b": 0.72,
+  "_endowment_source": "Wikipedia infobox (2025): $720 million (2025), Dickinson College, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "lafayette": {
+  "endowment_b": 1.2,
+  "_endowment_source": "Wikipedia infobox (2025): $1.2 billion (2025), Lafayette College, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "holycross": {
+  "endowment_b": 1.21,
+  "_endowment_source": "Wikipedia infobox (2025): $1.21 billion (2025), College of the Holy Cross, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "bates": {
+  "endowment_b": 0.4853,
+  "_endowment_source": "Wikipedia infobox (2025): $485.3 million (2025), Bates College, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "trinityct": {
+  "endowment_b": 0.8932,
+  "_endowment_source": "Wikipedia infobox (2025): $893.2 million (2025), Trinity College (Connecticut), fetched 2026-09-24",
+  "wiki_title": "Trinity College (Connecticut)"
+ },
+ "conncollege": {
+  "endowment_b": 0.5109,
+  "_endowment_source": "Wikipedia infobox (2025): $510.9 million (2025), Connecticut College, fetched 2026-09-24",
+  "wiki_title": "Connecticut College"
+ },
+ "skidmore": {
+  "endowment_b": 0.528,
+  "_endowment_source": "Wikipedia infobox (2025): $528 million (2025), Skidmore College, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "union": {
+  "endowment_b": 0.5637000000000001,
+  "_endowment_source": "Wikipedia infobox (2024): $563.7 million (2024), Union College, fetched 2026-09-24",
+  "wiki_title": "Union College"
+ },
+ "bard": {
+  "endowment_b": 1.0,
+  "_endowment_source": "Wikipedia infobox: $1 billion, Bard College, fetched 2026-09-24",
+  "wiki_title": null
+ },
+ "pitzer": {
+  "endowment_b": 0.1918,
+  "_endowment_source": "Wikipedia infobox (2024): $191.8 million (2024), Pitzer College, fetched 2026-09-24",
+  "wiki_title": null
+ }
+}

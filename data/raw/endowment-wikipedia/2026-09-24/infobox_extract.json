@@ -1,0 +1,345 @@
+[
+ {
+  "id": "floridaam",
+  "name": "Florida A&M University",
+  "wiki_title": "Florida A&M University",
+  "endowment_raw": "$135.7 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.13
+ },
+ {
+  "id": "ncat",
+  "name": "North Carolina A&T State University",
+  "wiki_title": "North Carolina A&T State University",
+  "endowment_raw": "$202 million (2024)<ref name=\"WFMY-TV\">{{cite web",
+  "old_placeholder_b": 0.09
+ },
+ {
+  "id": "jacksonstate",
+  "name": "Jackson State University",
+  "wiki_title": "Jackson State University",
+  "endowment_raw": "$60 million (2019)<ref>{{cite web",
+  "old_placeholder_b": 0.07
+ },
+ {
+  "id": "southern",
+  "name": "Southern University and A&M College",
+  "wiki_title": "Southern University",
+  "endowment_raw": "",
+  "old_placeholder_b": 0.03
+ },
+ {
+  "id": "grambling",
+  "name": "Grambling State University",
+  "wiki_title": "Grambling State University",
+  "endowment_raw": "$7 million<ref>{{cite web",
+  "old_placeholder_b": 0.03
+ },
+ {
+  "id": "alcorn",
+  "name": "Alcorn State University",
+  "wiki_title": "Alcorn State University",
+  "endowment_raw": "$21.3 million (2021)<ref>{{Cite web",
+  "old_placeholder_b": 0.06
+ },
+ {
+  "id": "bethunecookman",
+  "name": "Bethune-Cookman University",
+  "wiki_title": "Bethune\u2013Cookman University",
+  "endowment_raw": "$60 million (2025)<ref>{{cite news",
+  "old_placeholder_b": 0.05
+ },
+ {
+  "id": "delawarestate",
+  "name": "Delaware State University",
+  "wiki_title": "University of Delaware",
+  "endowment_raw": "$2.06 billion (2025)<ref name=NACUBO>{{Cite web",
+  "old_placeholder_b": 0.04
+ },
+ {
+  "id": "morganstate",
+  "name": "Morgan State University",
+  "wiki_title": "Morgan State University",
+  "endowment_raw": "",
+  "old_placeholder_b": 0.06
+ },
+ {
+  "id": "prairieview",
+  "name": "Prairie View A&M University",
+  "wiki_title": "Prairie View A&M University",
+  "endowment_raw": "$148.5 million<ref>{{cite web",
+  "old_placeholder_b": 0.15
+ },
+ {
+  "id": "tennesseestate",
+  "name": "Tennessee State University",
+  "wiki_title": "Tennessee State University",
+  "endowment_raw": "$91.1 million (2021)<ref>As of March 7, 2022. {{cite report",
+  "old_placeholder_b": 0.09
+ },
+ {
+  "id": "texassouthern",
+  "name": "Texas Southern University",
+  "wiki_title": "Texas Southern University",
+  "endowment_raw": "$100 million (2024)<ref>{{cite web",
+  "old_placeholder_b": 0.06
+ },
+ {
+  "id": "alabamaam",
+  "name": "Alabama A&M University",
+  "wiki_title": "Alabama A&M University",
+  "endowment_raw": "$48.0&nbsp;million (2019)<ref>As of June 30, 2019. {{cite web",
+  "old_placeholder_b": 0.12
+ },
+ {
+  "id": "hampton",
+  "name": "Hampton University",
+  "wiki_title": "Hampton University",
+  "endowment_raw": "$280.6 million (2020)<ref>As of June 30, 2020. {{cite report",
+  "old_placeholder_b": 0.33
+ },
+ {
+  "id": "tuskegee",
+  "name": "Tuskegee University",
+  "wiki_title": "Tuskegee University",
+  "endowment_raw": "$157 million (2021)<ref>{{cite web",
+  "old_placeholder_b": 0.15
+ },
+ {
+  "id": "xavierla",
+  "name": "Xavier University of Louisiana",
+  "wiki_title": "Xavier University of Louisiana",
+  "endowment_raw": "$178 million (2022)<ref>{{cite web",
+  "old_placeholder_b": 0.2
+ },
+ {
+  "id": "dillard",
+  "name": "Dillard University",
+  "wiki_title": "Annie Dillard",
+  "endowment_raw": null,
+  "old_placeholder_b": 0.1
+ },
+ {
+  "id": "norfolkstate",
+  "name": "Norfolk State University",
+  "wiki_title": "Norfolk State University",
+  "endowment_raw": "$109.5 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.03
+ },
+ {
+  "id": "scstate",
+  "name": "South Carolina State University",
+  "wiki_title": "University of South Carolina",
+  "endowment_raw": "$1.15 billion (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.02
+ },
+ {
+  "id": "nccentral",
+  "name": "North Carolina Central University",
+  "wiki_title": "North Carolina Central University",
+  "endowment_raw": "$89 million (2024)<ref>{{cite web",
+  "old_placeholder_b": 0.07
+ },
+ {
+  "id": "oberlin",
+  "name": "Oberlin College",
+  "wiki_title": "Oberlin College",
+  "endowment_raw": "$1.48 billion (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.95
+ },
+ {
+  "id": "kenyon",
+  "name": "Kenyon College",
+  "wiki_title": "Kenyon College",
+  "endowment_raw": "$680 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.55
+ },
+ {
+  "id": "grinnell",
+  "name": "Grinnell College",
+  "wiki_title": "Grinnell College",
+  "endowment_raw": "$2.85 billion (2025)<ref>{{cite web",
+  "old_placeholder_b": 2.7
+ },
+ {
+  "id": "reed",
+  "name": "Reed College",
+  "wiki_title": "Reed College",
+  "endowment_raw": "$876.8 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.65
+ },
+ {
+  "id": "whitman",
+  "name": "Whitman College",
+  "wiki_title": "Whitman College",
+  "endowment_raw": "$847.6 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.65
+ },
+ {
+  "id": "coloradocollege",
+  "name": "Colorado College",
+  "wiki_title": "Colorado State University",
+  "endowment_raw": "$667.5 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.9
+ },
+ {
+  "id": "trinitytx",
+  "name": "Trinity University",
+  "wiki_title": "Trinity University",
+  "endowment_raw": "$2.00 billion (2025)<ref name=\"2024-25 Trinity University Annual Report\">As of August 18, 2025. {{cite web",
+  "old_placeholder_b": 1.8
+ },
+ {
+  "id": "rhodes",
+  "name": "Rhodes College",
+  "wiki_title": "Rhodes College",
+  "endowment_raw": "$448.5 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.4
+ },
+ {
+  "id": "centre",
+  "name": "Centre College",
+  "wiki_title": "Centre College",
+  "endowment_raw": "$414.3 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.35
+ },
+ {
+  "id": "denison",
+  "name": "Denison University",
+  "wiki_title": "Denison University",
+  "endowment_raw": "$1.1 billion (2025)<ref>{{cite web",
+  "old_placeholder_b": 1.1
+ },
+ {
+  "id": "depauw",
+  "name": "DePauw University",
+  "wiki_title": "DePauw University",
+  "endowment_raw": "$1.1 Billion (2026)<ref>{{cite news",
+  "old_placeholder_b": 0.75
+ },
+ {
+  "id": "wabash",
+  "name": "Wabash College",
+  "wiki_title": "Wabash College",
+  "endowment_raw": "$465 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.4
+ },
+ {
+  "id": "stolaf",
+  "name": "St. Olaf College",
+  "wiki_title": "St. Olaf College",
+  "endowment_raw": "$881.6 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.65
+ },
+ {
+  "id": "lawrence",
+  "name": "Lawrence University",
+  "wiki_title": "St. Lawrence University",
+  "endowment_raw": "$416.8 million (2024)<ref name=endowment>{{cite web",
+  "old_placeholder_b": 0.45
+ },
+ {
+  "id": "beloit",
+  "name": "Beloit College",
+  "wiki_title": "Beloit College",
+  "endowment_raw": "$85.6 million in 2025",
+  "old_placeholder_b": 0.15
+ },
+ {
+  "id": "knox",
+  "name": "Knox College",
+  "wiki_title": "Knox College, Toronto",
+  "endowment_raw": "",
+  "old_placeholder_b": 0.18
+ },
+ {
+  "id": "wooster",
+  "name": "The College of Wooster",
+  "wiki_title": "College of Wooster",
+  "endowment_raw": "$437 million (2024)",
+  "old_placeholder_b": 0.35
+ },
+ {
+  "id": "gettysburg",
+  "name": "Gettysburg College",
+  "wiki_title": "Gettysburg College",
+  "endowment_raw": "$459.2 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.4
+ },
+ {
+  "id": "fandm",
+  "name": "Franklin & Marshall College",
+  "wiki_title": "Franklin & Marshall College",
+  "endowment_raw": "$439.2 million (2024)<ref name=endowment>{{cite web",
+  "old_placeholder_b": 0.45
+ },
+ {
+  "id": "dickinson",
+  "name": "Dickinson College",
+  "wiki_title": "Dickinson College",
+  "endowment_raw": "$720 million (2025)<ref>As of June 30, 2025. {{cite report",
+  "old_placeholder_b": 0.55
+ },
+ {
+  "id": "lafayette",
+  "name": "Lafayette College",
+  "wiki_title": "Lafayette College",
+  "endowment_raw": "$1.2 billion (2025)<ref>{{cite web",
+  "old_placeholder_b": 1.0
+ },
+ {
+  "id": "holycross",
+  "name": "College of the Holy Cross",
+  "wiki_title": "College of the Holy Cross",
+  "endowment_raw": "$1.21 billion (2025)<ref>{{cite web",
+  "old_placeholder_b": 1.1
+ },
+ {
+  "id": "bates",
+  "name": "Bates College",
+  "wiki_title": "Bates College",
+  "endowment_raw": "$485.3 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.4
+ },
+ {
+  "id": "trinityct",
+  "name": "Trinity College",
+  "wiki_title": "Trinity College, Cambridge",
+  "endowment_raw": "[[Pound sterling",
+  "old_placeholder_b": 0.75
+ },
+ {
+  "id": "conncollege",
+  "name": "Connecticut College",
+  "wiki_title": "List of colleges and universities in Connecticut",
+  "endowment_raw": null,
+  "old_placeholder_b": 0.35
+ },
+ {
+  "id": "skidmore",
+  "name": "Skidmore College",
+  "wiki_title": "Skidmore College",
+  "endowment_raw": "$528 million (2025)<ref>{{cite web",
+  "old_placeholder_b": 0.45
+ },
+ {
+  "id": "union",
+  "name": "Union College",
+  "wiki_title": "University and College Union",
+  "endowment_raw": null,
+  "old_placeholder_b": 0.5
+ },
+ {
+  "id": "bard",
+  "name": "Bard College",
+  "wiki_title": "Bard College",
+  "endowment_raw": "$1 billion",
+  "old_placeholder_b": 0.35
+ },
+ {
+  "id": "pitzer",
+  "name": "Pitzer College",
+  "wiki_title": "Pitzer College",
+  "endowment_raw": "$191.8 million (2024)<ref name=NACUBO>As of June 30, 2024. {{cite web",
+  "old_placeholder_b": 0.18
+ }
+]
