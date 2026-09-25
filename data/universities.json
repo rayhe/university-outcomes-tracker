@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-09-24",
+    "last_updated": "2026-09-25",
     "source": "College Scorecard API (DEMO_KEY) + 49 new v0.31 expansion to 249 (real 249) + 45 conferences",
-    "version": "0.32",
+    "version": "0.33",
     "total_universities": 249,
     "criteria_version": "1.0",
     "enriched_count": 249,
@@ -549,7 +549,9 @@
       "_research_rank": 179,
       "lat": 38.9222,
       "lon": -77.0194,
-      "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
+      "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (MEAC)"
     },
     {
       "id": "uf",
@@ -2756,7 +2758,9 @@
       "_research_rank": 441,
       "lat": 33.7467,
       "lon": -84.4153,
-      "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
+      "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (SIAC)"
     },
     {
       "id": "rutgers",
@@ -2961,7 +2965,9 @@
       "_research_rank": 342,
       "lat": 33.7508,
       "lon": -84.4103,
-      "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
+      "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (SIAC)"
     },
     {
       "id": "georgetown",
@@ -3114,7 +3120,9 @@
       "_research_rank": 480,
       "lat": 33.746,
       "lon": -84.411,
-      "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12"
+      "_location_source": "Wikipedia {{coord}} (primary first), fetched 2026-09-12",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (SIAC)"
     },
     {
       "id": "ucsd",
@@ -10502,7 +10510,9 @@
       "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
       "_research_herd_name": "Florida A&M U.",
       "_research_rank": 214,
-      "_endowment_source": "Wikipedia infobox (2025): $135.7 million (2025), Florida A&M University, fetched 2026-09-24"
+      "_endowment_source": "Wikipedia infobox (2025): $135.7 million (2025), Florida A&M University, fetched 2026-09-24",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (SWAC)"
     },
     {
       "id": "ncat",
@@ -10606,7 +10616,9 @@
       "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
       "_research_herd_name": "Jackson State U.",
       "_research_rank": 293,
-      "_endowment_source": "Wikipedia infobox (2019): $60 million (2019), Jackson State University, fetched 2026-09-24"
+      "_endowment_source": "Wikipedia infobox (2019): $60 million (2019), Jackson State University, fetched 2026-09-24",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (SWAC)"
     },
     {
       "id": "southern",
@@ -10659,7 +10671,9 @@
       "_research_herd_name": "Southern U. and A&M C., Baton Rouge",
       "_research_rank": 458,
       "_research_scope": "Baton Rouge main campus unit; the separate Agricultural Research and Extension Center ($9.0M) reports separately in HERD",
-      "_endowment_source": "CollegeDB.app (IPEDS-derived, undated): $10,021,552 Southern University and A&M College Baton Rouge; Wikipedia page has no |endowment= (redirects to 'Southern University'), verified 2026-09-24"
+      "_endowment_source": "CollegeDB.app (IPEDS-derived, undated): $10,021,552 Southern University and A&M College Baton Rouge; Wikipedia page has no |endowment= (redirects to 'Southern University'), verified 2026-09-24",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (SWAC)"
     },
     {
       "id": "grambling",
@@ -10709,7 +10723,9 @@
       "lon": -92.7132,
       "location_real": true,
       "_research_source": "synthetic (placeholder)",
-      "_endowment_source": "Wikipedia infobox: $7 million, Grambling State University, fetched 2026-09-24"
+      "_endowment_source": "Wikipedia infobox: $7 million, Grambling State University, fetched 2026-09-24",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (SWAC)"
     },
     {
       "id": "alcorn",
@@ -10761,7 +10777,9 @@
       "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
       "_research_herd_name": "Alcorn State U.",
       "_research_rank": 332,
-      "_endowment_source": "Wikipedia infobox (2021): $21.3 million (2021), Alcorn State University, fetched 2026-09-24"
+      "_endowment_source": "Wikipedia infobox (2021): $21.3 million (2021), Alcorn State University, fetched 2026-09-24",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (SWAC)"
     },
     {
       "id": "bethunecookman",
@@ -10811,7 +10829,9 @@
       "lon": -81.0329,
       "location_real": true,
       "_research_source": "synthetic (placeholder)",
-      "_endowment_source": "Wikipedia infobox (2025): $60 million (2025), Bethune\u2013Cookman University, fetched 2026-09-24"
+      "_endowment_source": "Wikipedia infobox (2025): $60 million (2025), Bethune\u2013Cookman University, fetched 2026-09-24",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (SWAC)"
     },
     {
       "id": "delawarestate",
@@ -10863,7 +10883,9 @@
       "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
       "_research_herd_name": "Delaware State U.",
       "_research_rank": 245,
-      "_endowment_source": "Wikipedia infobox (2021): $43 million (2021), Delaware State University, fetched 2026-09-24"
+      "_endowment_source": "Wikipedia infobox (2021): $43 million (2021), Delaware State University, fetched 2026-09-24",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (MEAC)"
     },
     {
       "id": "morganstate",
@@ -10915,7 +10937,9 @@
       "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
       "_research_herd_name": "Morgan State U.",
       "_research_rank": 231,
-      "_endowment_source": "Data USA (IPEDS Finance FY2024 via datausa.io): $106M Morgan State University, verified 2026-09-24"
+      "_endowment_source": "Data USA (IPEDS Finance FY2024 via datausa.io): $106M Morgan State University, verified 2026-09-24",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (MEAC)"
     },
     {
       "id": "prairieview",
@@ -10967,7 +10991,9 @@
       "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
       "_research_herd_name": "Prairie View A&M U.",
       "_research_rank": 273,
-      "_endowment_source": "Wikipedia infobox: $148.5 million, Prairie View A&M University, fetched 2026-09-24"
+      "_endowment_source": "Wikipedia infobox: $148.5 million, Prairie View A&M University, fetched 2026-09-24",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (SWAC)"
     },
     {
       "id": "tennesseestate",
@@ -11019,7 +11045,9 @@
       "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
       "_research_herd_name": "Tennessee State U.",
       "_research_rank": 258,
-      "_endowment_source": "Wikipedia infobox (2021): $91.1 million (2021), Tennessee State University, fetched 2026-09-24"
+      "_endowment_source": "Wikipedia infobox (2021): $91.1 million (2021), Tennessee State University, fetched 2026-09-24",
+      "hbcu": true,
+      "_hbcu_source": "Tennessee State University (OVC) - verified HBCU"
     },
     {
       "id": "texassouthern",
@@ -11071,7 +11099,9 @@
       "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
       "_research_herd_name": "Texas Southern U.",
       "_research_rank": 317,
-      "_endowment_source": "Wikipedia infobox (2024): $100 million (2024), Texas Southern University, fetched 2026-09-24"
+      "_endowment_source": "Wikipedia infobox (2024): $100 million (2024), Texas Southern University, fetched 2026-09-24",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (SWAC)"
     },
     {
       "id": "alabamaam",
@@ -11123,7 +11153,9 @@
       "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
       "_research_herd_name": "Alabama A&M U.",
       "_research_rank": 324,
-      "_endowment_source": "Wikipedia infobox (2019): $48.0&nbsp;million (2019), Alabama A&M University, fetched 2026-09-24"
+      "_endowment_source": "Wikipedia infobox (2019): $48.0&nbsp;million (2019), Alabama A&M University, fetched 2026-09-24",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (SWAC)"
     },
     {
       "id": "hampton",
@@ -11175,7 +11207,9 @@
       "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
       "_research_herd_name": "Hampton U.",
       "_research_rank": 370,
-      "_endowment_source": "Wikipedia infobox (2020): $280.6 million (2020), Hampton University, fetched 2026-09-24"
+      "_endowment_source": "Wikipedia infobox (2020): $280.6 million (2020), Hampton University, fetched 2026-09-24",
+      "hbcu": true,
+      "_hbcu_source": "Hampton University (CAA) - verified HBCU"
     },
     {
       "id": "tuskegee",
@@ -11227,7 +11261,9 @@
       "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
       "_research_herd_name": "Tuskegee U.",
       "_research_rank": 276,
-      "_endowment_source": "Wikipedia infobox (2021): $157 million (2021), Tuskegee University, fetched 2026-09-24"
+      "_endowment_source": "Wikipedia infobox (2021): $157 million (2021), Tuskegee University, fetched 2026-09-24",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (SIAC)"
     },
     {
       "id": "xavierla",
@@ -11383,7 +11419,9 @@
       "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
       "_research_herd_name": "Norfolk State U.",
       "_research_rank": 412,
-      "_endowment_source": "Wikipedia infobox (2025): $109.5 million (2025), Norfolk State University, fetched 2026-09-24"
+      "_endowment_source": "Wikipedia infobox (2025): $109.5 million (2025), Norfolk State University, fetched 2026-09-24",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (MEAC)"
     },
     {
       "id": "scstate",
@@ -11435,7 +11473,9 @@
       "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
       "_research_herd_name": "South Carolina State U.",
       "_research_rank": 352,
-      "_endowment_source": "Wikipedia infobox (2023): $17.2 million (2023), South Carolina State University, fetched 2026-09-24"
+      "_endowment_source": "Wikipedia infobox (2023): $17.2 million (2023), South Carolina State University, fetched 2026-09-24",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (MEAC)"
     },
     {
       "id": "nccentral",
@@ -11487,7 +11527,9 @@
       "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
       "_research_herd_name": "North Carolina Central U.",
       "_research_rank": 325,
-      "_endowment_source": "Wikipedia infobox (2024): $89 million (2024), North Carolina Central University, fetched 2026-09-24"
+      "_endowment_source": "Wikipedia infobox (2024): $89 million (2024), North Carolina Central University, fetched 2026-09-24",
+      "hbcu": true,
+      "_hbcu_source": "HBCU conference membership (MEAC)"
     },
     {
       "id": "oberlin",

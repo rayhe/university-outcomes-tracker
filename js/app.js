@@ -351,6 +351,33 @@ function radarPoint(cx,cy,R,i,n,v){
   return [cx+r*Math.cos(a), cy+r*Math.sin(a)];
 }
 // RADAR-V23-END
+// COHORT-V33-START
+// Cohort filtering + comparison stats (pure; unit-tested by hidden_files/verify_cohort_v33.js).
+// HBCU membership is an explicit hbcu===true flag in the data (scripts/tag_hbcu_v33.py:
+// SWAC/MEAC/SIAC conference membership + Tennessee State + Hampton). LAC membership is
+// carnegie==='Baccalaureate' (matches how the filter-control 'R1' option works).
+function cohortPred(cohort){
+  if(cohort==='hbcu') return u=>u.hbcu===true;
+  if(cohort==='lac') return u=>u.carnegie==='Baccalaureate';
+  return ()=>true; // 'all' and any unknown value pass through (never filter on garbage)
+}
+function cohortROI(u){ return u.median_earn_10yr - 35000*2 - u.net_price_avg*4; } // same formula as topROI insight
+function cohortStats(unis,pred){
+  const members=unis.filter(pred);
+  const n=members.length;
+  if(!n) return {n:0};
+  const avg=a=>a.reduce((s,x)=>s+x,0)/a.length;
+  const med=a=>{const s=[...a].sort((x,y)=>x-y);const m=Math.floor(s.length/2);return s.length%2?s[m]:(s[m-1]+s[m])/2;};
+  const top=[...members].sort((a,b)=>b.score-a.score||(a.id<b.id?-1:a.id>b.id?1:0))[0];
+  return { n,
+    avgScore: avg(members.map(u=>u.score)),
+    avgEarn: avg(members.map(u=>u.median_earn_10yr)),
+    medianEarn: med(members.map(u=>u.median_earn_10yr)),
+    medianEndowStud: med(members.map(u=>u.endowment_per_student)),
+    medianROI: med(members.map(cohortROI)),
+    topName: top.name, topScore: top.score };
+}
+// COHORT-V33-END
 function renderInsights(data){
   const unis = data.universities;
   const insights = [];
@@ -395,6 +422,13 @@ function renderInsights(data){
   insights.push({t:`Graduation Leader: ${bestGrad.name}`, d:`${(bestGrad.grad_rate_6yr*100).toFixed(0)}% 6yr grad rate, retention ${(bestGrad.retention*100).toFixed(0)}%. Academic Quality 15% of Alumni Advantage — grad rate + retention + SF ratio + research/student. Conf ${bestGrad.conference}.`});
   insights.push({t:`Default Risk: ${highDefault.name} highest`, d:`${(highDefault.loan_default*100).toFixed(1)}% loan default vs median ${(median(unis.map(u=>u.loan_default))*100).toFixed(1)}%. Lower default = higher Value/ROI (20% weight). Publics with low net price have lower default even with higher Pell %`});
   insights.push({t:`Median Earnings: $${medianEarn.toLocaleString()} (149 real)`, d:`Median 10yr earnings across ${unis.length} universities. Top quartile > $${[...earns].sort((a,b)=>b-a)[Math.floor(earns.length*0.25)].toLocaleString()}, bottom quartile < $${[...earns].sort((a,b)=>a-b)[Math.floor(earns.length*0.75)].toLocaleString()}. Earnings from College Scorecard where available (green dot). 149/150 real after mismatch correction.`});
+  // v0.33 cohort comparisons: HBCU (n=21) and LAC (n=43) vs the full universe and R1 baseline
+  const overallAvgScore = unis.reduce((s,u)=>s+u.score,0)/unis.length;
+  const hbcuC = cohortStats(unis, cohortPred('hbcu'));
+  const lacC = cohortStats(unis, cohortPred('lac'));
+  const r1C = cohortStats(unis, u=>u.carnegie==='R1');
+  insights.push({t:`HBCU Cohort (n=${hbcuC.n}): avg score ${hbcuC.avgScore.toFixed(1)} vs ${overallAvgScore.toFixed(1)} overall`, d:`Avg earnings $${(hbcuC.avgEarn/1000).toFixed(0)}k, median ROI $${hbcuC.medianROI.toLocaleString()} 10yr, median endow/student $${(hbcuC.medianEndowStud/1000).toFixed(0)}k. Top: ${hbcuC.topName} (${hbcuC.topScore.toFixed(1)}). 21 HBCUs tagged via SWAC/MEAC/SIAC conference membership + Tennessee State + Hampton (per-record _hbcu_source). Filter the whole site to this cohort with the Rankings cohort select (?cohort=hbcu).`});
+  insights.push({t:`Liberal Arts Cohort (n=${lacC.n}): avg score ${lacC.avgScore.toFixed(1)} vs R1 ${r1C.avgScore.toFixed(1)}`, d:`43 Baccalaureate schools (v0.31 added 29 LACs): median earnings $${lacC.medianEarn.toLocaleString()}, median ROI $${lacC.medianROI.toLocaleString()} 10yr, median endow/student $${(lacC.medianEndowStud/1000).toFixed(0)}k vs R1 $${(r1C.medianEndowStud/1000).toFixed(0)}k. Top: ${lacC.topName} (${lacC.topScore.toFixed(1)}). LACs hold the top of the Alumni Advantage table on small classes and high grad rates despite ~${((r1C.medianEndowStud/lacC.medianEndowStud)||0).toFixed(0)}x less endowment per student than R1s. Filter with the Rankings cohort select (?cohort=lac).`});
   const grid = document.getElementById('insights-grid');
   grid.innerHTML = insights.map(i=>`<div class="insight-card"><h4>${i.t}</h4><p>${i.d}</p></div>`).join('');
 }
@@ -457,6 +491,8 @@ function applyFilters(){
   if(f==='private') list = list.filter(u=>u.control==='private');
   if(f==='public') list = list.filter(u=>u.control==='public');
   if(f==='R1') list = list.filter(u=>u.carnegie==='R1');
+  const chEl = document.getElementById('filter-cohort'); const ch = chEl?chEl.value:'all';
+  if(ch && ch!=='all') list = list.filter(cohortPred(ch));
   const preset = document.getElementById('sort-preset').value;
   if(preset==='earn_desc'){sortKey='median_earn_10yr';sortDir=-1;}
   if(preset==='endow_desc'){sortKey='endowment_per_student';sortDir=-1;}
@@ -475,7 +511,7 @@ function showDetail(id){
   p.classList.remove('hidden');
   const realBadge = (k)=> u[k+'_real']!=null ? '<span style="font-size:.65rem;background:#0f251c;color:#3dd598;border:1px solid #1f5c3a;padding:1px 5px;border-radius:999px;margin-left:6px">Scorecard real</span>' : '<span style="font-size:.65rem;background:#1f1f28;color:#9aa0b8;padding:1px 5px;border-radius:999px;margin-left:6px">synthetic</span>';
   const researchLabel = (u._research_source && u._research_source.startsWith('NSF HERD')) ? 'NSF HERD FY2024' : 'synthetic placeholder';
-  const provenance = u.scorecard_name ? `<div style="font-size:.75rem;color:#9aa0b8;margin-top:6px">Matched to Scorecard: ${u.scorecard_name} (${u.scorecard_city}) ID ${u.scorecard_id} • Conf ${u.conference||''}${u.lat!=null?` • Location ${u.lat.toFixed(3)}, ${u.lon.toFixed(3)} (Wikipedia coord)`:''}</div>` : '';
+  const provenance = u.scorecard_name ? `<div style="font-size:.75rem;color:#9aa0b8;margin-top:6px">Matched to Scorecard: ${u.scorecard_name} (${u.scorecard_city}) ID ${u.scorecard_id} • Conf ${u.conference||''}${u.hbcu?' • <b style="color:#ffb84d">HBCU</b>':''}${u.lat!=null?` • Location ${u.lat.toFixed(3)}, ${u.lon.toFixed(3)} (Wikipedia coord)`:''}</div>` : '';
   p.innerHTML = `<h3>${u.name} — Alumni Advantage ${u.score.toFixed(1)} ${u.median_earn_10yr_real?' <span style="color:#3dd598">● Scorecard-enriched</span>':''}</h3>
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:.86rem">
   <div><b>Basic</b><br>Control: ${u.control}<br>State: ${u.state}<br>Carnegie: ${u.carnegie}<br>Conference: ${u.conference||''}<br>Enrollment FTE: ${u.enrollment_fte.toLocaleString()}${u.enrollment_fte_real?` <span style="color:#3dd598">(${u.enrollment_fte_real} Scorecard)</span>`:''}<br>Endowment: $${u.endowment_b}B ($${(u.endowment_per_student/1000).toFixed(0)}k / student)<br>Student-Faculty: ${u.sf_ratio}:1${u.admission_rate!=null?`<br>Admission Rate: ${(u.admission_rate*100).toFixed(1)}%${realBadge('admission_rate')}`:''}</div>
@@ -995,14 +1031,16 @@ loadData().then(data=>{
   renderPeers(filtered); renderMap(filtered);
   const qParam=urlParams.get('q'); if(qParam){ const se=document.getElementById('search'); if(se){ se.value=qParam; } }
   const cParam=urlParams.get('control'); if(cParam){ const fe=document.getElementById('filter-control'); if(fe) fe.value=cParam; }
+  const chParam=urlParams.get('cohort'); if(chParam){ const ce=document.getElementById('filter-cohort'); if(ce) ce.value=chParam; }
   const sParam=urlParams.get('sort'); const parsedSort=parseSortParam(sParam);
   if(parsedSort){ const se=document.getElementById('sort-preset'); if(se) se.value=parsedSort.preset; if(parsedSort.key!=='value'){ sortKey=parsedSort.key; sortDir=parsedSort.dir; } }
   const peerParam=urlParams.get('peer'); if(peerParam){ const pe=document.getElementById('peer-mode'); if(pe){ pe.value=peerParam; renderPeers(filtered); } }
   const idParam=urlParams.get('id'); if(idParam){ setTimeout(()=>showDetail(idParam), 400); }
-  if(qParam||cParam||parsedSort) applyFilters();
+  if(qParam||cParam||parsedSort||chParam) applyFilters();
   document.getElementById('search').addEventListener('input',()=>{ applyFilters(); const u=new URL(window.location); const v=document.getElementById('search').value; if(v) u.searchParams.set('q',v); else u.searchParams.delete('q'); history.replaceState(null,'',u); });
   document.getElementById('filter-control').addEventListener('change',()=>{ applyFilters(); const u=new URL(window.location); const v=document.getElementById('filter-control').value; if(v && v!=='all') u.searchParams.set('control',v); else u.searchParams.delete('control'); history.replaceState(null,'',u); });
   document.getElementById('sort-preset').addEventListener('change',()=>{ applyFilters(); writeSortURL(); });
+  document.getElementById('filter-cohort').addEventListener('change',()=>{ applyFilters(); const u=new URL(window.location); const v=document.getElementById('filter-cohort').value; if(v && v!=='all') u.searchParams.set('cohort',v); else u.searchParams.delete('cohort'); history.replaceState(null,'',u); });
   const peerMode=document.getElementById('peer-mode'); if(peerMode) peerMode.addEventListener('change',()=>{ renderPeers(filtered); const u=new URL(window.location); const v=peerMode.value; if(v && v!=='conference') u.searchParams.set('peer',v); else u.searchParams.delete('peer'); history.replaceState(null,'',u); });
   const mapLinksToggle=document.getElementById('map-peer-links'); if(mapLinksToggle) mapLinksToggle.addEventListener('change',()=>{ renderMap(filtered); });
   const csvBtn=document.getElementById('btn-csv'); if(csvBtn) csvBtn.addEventListener('click',()=>exportCSV(filtered));
