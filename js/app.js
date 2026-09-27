@@ -7,6 +7,49 @@ async function loadData(){
 function fmtMoney(n){ if(n>=1e9) return '$'+(n/1e9).toFixed(1)+'B'; if(n>=1e6) return '$'+(n/1e6).toFixed(1)+'M'; if(n>=1e3) return '$'+(n/1e3).toFixed(0)+'k'; return '$'+n; }
 function fmtNum(n){ return n.toLocaleString(); }
 
+// TOUCH-TIP-V35-BEGIN
+// Tap-to-pin tooltip positioning (closes the standing Interactivity issue
+// "touch tap-equivalent for link tooltips": hover tooltips are unreachable on
+// touch devices, and the peer/map link tooltips had no tap affordance at all —
+// tapping a link did nothing). Pure helper — mechanically extracted for unit
+// tests, no transcription.
+function pinTipPos(pageX, pageY, vw, vh, tipW, tipH){
+  const w=(tipW==null||!(tipW>0))?230:tipW;
+  const h=(tipH==null||!(tipH>0))?96:tipH;
+  const left=Math.max(8, Math.min(pageX+12, vw-w-8));
+  const top=Math.max(8, Math.min(pageY-10-h, vh-h-8));
+  return {left:Math.round(left), top:Math.round(top)};
+}
+// TOUCH-TIP-V35-END
+// TOUCH-TIP-V35 wiring (not pure: DOM/d3). A pinned tooltip reuses the shared
+// #peer-tooltip div, survives mouseout/scroll only until the next tap, and a
+// hover on another link transfers cleanly back to hover mode. Pinned state is
+// exposed via isTipPinned() so the existing hover handlers can guard on it.
+const __tipState={pinned:false, owner:null, bound:false};
+function isTipPinned(){ return __tipState.pinned; }
+function pinLinkTip(tip, html, e){
+  if(!tip||!tip.node()) return;
+  if(e&&e.stopPropagation) e.stopPropagation();
+  __tipState.pinned=true; __tipState.owner=(e&&e.currentTarget)||null;
+  const n=tip.node(); if(n&&n.dataset) n.dataset.pinned='1';
+  tip.html(html).style('display','block');
+  const p=pinTipPos(e.pageX||0, e.pageY||0, window.innerWidth, window.innerHeight, 230, 96);
+  tip.style('left',p.left+'px').style('top',p.top+'px');
+  ensureTipDismissBound();
+}
+function unpinTip(){
+  __tipState.pinned=false; __tipState.owner=null;
+  const n=document.getElementById('peer-tooltip');
+  if(n){ if(n.dataset) delete n.dataset.pinned; n.style.display='none'; }
+}
+function ensureTipDismissBound(){
+  if(__tipState.bound) return; __tipState.bound=true;
+  // Bubble-phase: link click handlers stopPropagation, so this only fires for
+  // taps anywhere else (nodes opening the detail panel included) -> dismiss.
+  document.addEventListener('click',()=>{ if(__tipState.pinned) unpinTip(); });
+  document.addEventListener('scroll',()=>{ if(__tipState.pinned) unpinTip(); }, true);
+}
+
 let allUnis=[], filtered=[], selectedCompare=new Set();
 
 // v0.11 percentile toolkit: P10..P99 across the university distribution
@@ -839,19 +882,26 @@ function renderPeers(unis){
   xLegend.append('line').attr('x1',0).attr('y1',0).attr('x2',26).attr('y2',0).attr('stroke','#f5a524').attr('stroke-opacity',0.65).attr('stroke-width',2.2);
   xLegend.append('text').attr('x',32).attr('y',4).attr('fill','#9aa0b8').attr('font-size','10px').text('crosswalk: same Carnegie tier, different conference');
   xLegend.append('line').attr('x1',0).attr('y1',18).attr('x2',26).attr('y2',18).attr('stroke','#2a2e42').attr('stroke-opacity',0.7).attr('stroke-width',2.2);
-  xLegend.append('text').attr('x',32).attr('y',22).attr('fill','#9aa0b8').attr('font-size','10px').text('peer links: score-nearest peers, strength ∝ score proximity + peer_group — hover any link for the pair');
+  xLegend.append('text').attr('x',32).attr('y',22).attr('fill','#9aa0b8').attr('font-size','10px').text('peer links: score-nearest peers, strength ∝ score proximity + peer_group — hover or tap any link for the pair');
   const tooltip=d3.select('body').selectAll('#peer-tooltip').data([0]).join('div').attr('id','peer-tooltip').style('position','absolute').style('display','none').style('background','#151821').style('border','1px solid #2a2e42').style('border-radius','8px').style('padding','8px 10px').style('font-size','.78rem').style('color','#e6e8f0').style('pointer-events','none').style('z-index','40').style('box-shadow','0 8px 24px rgba(0,0,0,.5)');
+  // TOUCH-TIP-V35: crosswalk links gain tap-to-pin (touch devices have no hover;
+  // tapping a link did nothing). Same HTML builder feeds hover + pinned paths.
+  const xwalkTipHtml=(e,d)=>{ const a=d.source, b=d.target; return '<b>'+a.name+'</b> &#8596; <b>'+b.name+'</b><br>Crosswalk: both '+(a.carnegie||'Other')+' &bull; '+(a.conf||'')+' vs '+(b.conf||'')+'<br>Scores '+a.score.toFixed(1)+' / '+b.score.toFixed(1); };
   link.filter(d=>d.xwalk).style('cursor','pointer')
-    .on('mouseover',(e,d)=>{ const a=d.source, b=d.target; d3.select(e.currentTarget).attr('stroke-width',2.4); tooltip.style('display','block').html('<b>'+a.name+'</b> &#8596; <b>'+b.name+'</b><br>Crosswalk: both '+(a.carnegie||'Other')+' &bull; '+(a.conf||'')+' vs '+(b.conf||'')+'<br>Scores '+a.score.toFixed(1)+' / '+b.score.toFixed(1)); })
+    .on('mouseover',(e,d)=>{ if(isTipPinned()) unpinTip(); d3.select(e.currentTarget).attr('stroke-width',2.4); tooltip.style('display','block').html(xwalkTipHtml(e,d)); })
     .on('mousemove',(e)=>{ tooltip.style('left',(e.pageX+12)+'px').style('top',(e.pageY-10)+'px'); })
-    .on('mouseout',(e)=>{ d3.select(e.currentTarget).attr('stroke-width',1.1); tooltip.style('display','none'); });
+    .on('mouseout',(e)=>{ if(isTipPinned()) return; d3.select(e.currentTarget).attr('stroke-width',1.1); tooltip.style('display','none'); })
+    .on('click',(e,d)=>pinLinkTip(tooltip, xwalkTipHtml(e,d), e));
   // PEER-LINKTIP-V29: intra-group peer links are hoverable too. On mouseout the
   // stroke-width must be restored to the per-link strength value (0.55+str),
   // NOT a constant — the width encodes link strength since v0.28.
+  // TOUCH-TIP-V35: intra-group peer links gain tap-to-pin (same reason as
+  // crosswalk links above); peerLinkTip is reused verbatim for both paths.
   link.filter(d=>!d.xwalk).style('cursor','pointer')
-    .on('mouseover',(e,d)=>{ const a=d.source, b=d.target; d3.select(e.currentTarget).attr('stroke-width',3.2); tooltip.style('display','block').html(peerLinkTip(a,b,mode,d)); })
+    .on('mouseover',(e,d)=>{ if(isTipPinned()) unpinTip(); const a=d.source, b=d.target; d3.select(e.currentTarget).attr('stroke-width',3.2); tooltip.style('display','block').html(peerLinkTip(a,b,mode,d)); })
     .on('mousemove',(e)=>{ tooltip.style('left',(e.pageX+12)+'px').style('top',(e.pageY-10)+'px'); })
-    .on('mouseout',(e,d)=>{ d3.select(e.currentTarget).attr('stroke-width',0.55+(d.str||0.15)); tooltip.style('display','none'); });
+    .on('mouseout',(e,d)=>{ if(isTipPinned()) return; d3.select(e.currentTarget).attr('stroke-width',0.55+(d.str||0.15)); tooltip.style('display','none'); })
+    .on('click',(e,d)=>{ const a=d.source, b=d.target; pinLinkTip(tooltip, peerLinkTip(a,b,mode,d), e); });
   sim.on('tick',()=>{
     link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
     node.attr('cx',d=>d.x=Math.max(12,Math.min(w-12,d.x))).attr('cy',d=>d.y=Math.max(16,Math.min(h-16,d.y)));
@@ -974,6 +1024,8 @@ async function renderMap(unis){
   const linkToggle=document.getElementById('map-peer-links');
   const showLinks=!linkToggle || linkToggle.checked;
   let mapLinks=[];
+  // TOUCH-TIP-V35: map peer links gain tap-to-pin (closes the touch-parity gap
+  // on the geographic view as well); mapPeerLinkTip reused verbatim.
   if(showLinks){
     mapLinks=mapPeerLinks(pts, 2);
     svg.append('g').attr('class','map-peer-links').selectAll('line').data(mapLinks).join('line')
@@ -982,10 +1034,11 @@ async function renderMap(unis){
       .attr('stroke','#8a90aa').attr('stroke-opacity',0.30)
       .attr('stroke-width',d=>(0.6+d.str*1.6).toFixed(2))
       .style('cursor','pointer')
-      .on('mouseover',function(e,d){ d3.select(this).attr('stroke','#c8ccda').attr('stroke-opacity',0.9);
+      .on('mouseover',function(e,d){ if(isTipPinned()) unpinTip(); d3.select(this).attr('stroke','#c8ccda').attr('stroke-opacity',0.9);
         tooltip.style('display','block').html(mapPeerLinkTip(d.a,d.b,d.str)); })
       .on('mousemove',(e)=>{ tooltip.style('left',(e.pageX+12)+'px').style('top',(e.pageY-10)+'px'); })
-      .on('mouseout',function(){ d3.select(this).attr('stroke','#8a90aa').attr('stroke-opacity',0.30); tooltip.style('display','none'); });
+      .on('mouseout',function(){ if(isTipPinned()) return; d3.select(this).attr('stroke','#8a90aa').attr('stroke-opacity',0.30); tooltip.style('display','none'); })
+      .on('click',function(e,d){ pinLinkTip(tooltip, mapPeerLinkTip(d.a,d.b,d.str), e); });
   }
   const tooltip=d3.select('body').selectAll('#peer-tooltip').data([0]).join('div')
     .attr('id','peer-tooltip').style('position','absolute').style('display','none')
