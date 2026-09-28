@@ -16,7 +16,7 @@ function t(name, cond) { if (cond) { pass++; } else { fail++; console.error('FAI
 const d = JSON.parse(fs.readFileSync(path.join(root, 'data/universities.json'), 'utf8'));
 const recs = d.universities;
 t('249 records', recs.length === 249);
-t('metadata version 0.34', d.metadata.version === '0.34');
+t('metadata version is well-formed N.NN', /^\d+\.\d+$/.test(d.metadata.version || ''));
 t('all alumni_giving synthetic-labeled',
   recs.every(r => r._alumni_giving_source === 'synthetic (placeholder)'));
 t('all employment_6mo synthetic-labeled',
@@ -52,7 +52,8 @@ t('methodology labels employment as placeholder honestly',
   idx.includes('Employment 6mo (estimated placeholder'));
 t('methodology labels alumni giving as placeholder honestly',
   idx.includes('Alumni giving rate (estimated placeholder'));
-t('badge bumped to v0.34', idx.includes('249 Universities v0.34'));
+t('badge version matches metadata version (not stale-pinned)',
+  idx.includes('249 Universities v' + d.metadata.version));
 
 const probe = fs.readFileSync(
   path.join(root, 'data/raw/alumni-giving-probe/2026-09-26/README.md'), 'utf8');

@@ -105,3 +105,10 @@ footer a{color:var(--accent)}
 .legend{display:flex;gap:14px;font-size:.75rem;color:var(--muted);margin:0 0 6px;flex-wrap:wrap}
 .sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px}
 @media (max-width:480px){.pct-bar-wrap{padding:10px 12px 0}}
+
+/* v0.36 responsive peer-network group legend (replaces the fixed SVG grid) */
+.peer-legend-chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 2px 0;padding:0}
+.peer-legend-chip{display:inline-flex;align-items:center;gap:6px;font-size:.75rem;padding:3px 10px;border-radius:999px;border:1px solid #2a2e42;background:#151821;color:#9aa0b8;white-space:nowrap}
+.peer-legend-dot{display:inline-block;width:9px;height:9px;border-radius:50%;flex:none}
+.peer-legend-chip b{color:#e6e8f0;font-weight:600}
+@media (max-width:480px){.peer-legend-chip{font-size:.7rem;padding:2px 8px}}

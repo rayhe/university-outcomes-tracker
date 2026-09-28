@@ -710,6 +710,27 @@ function clearPeerLayout(storage, mode){
   return n;
 }
 // PEER-LAYOUT-V26-END
+// PEER-LEGEND-V36-BEGIN
+// Responsive HTML group legend for the peer network (closes the standing
+// Visual Design / Interactivity issue "mobile badge overflow", flagged since
+// ~v0.7). The old legend was a fixed SVG grid (2 rows x 6 cols at 130px) that
+// showed only the first 18 of 45 conference groups and shrank unreadably on
+// mobile (the SVG scales via viewBox). The new legend is an HTML chip list
+// rendered below the network: all groups, member counts, wrapping on mobile,
+// using the same badge visual language as the filings badges. Pure helpers —
+// mechanically extracted for unit tests, no transcription.
+function escLegend(s){
+  return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function legendChipHtml(groups, groupKeys, colorOf){
+  if(!groupKeys || !groupKeys.length) return '';
+  return groupKeys.map(g=>{
+    const n=(groups&&groups[g])?groups[g].length:0;
+    const c=(typeof colorOf==='function')?colorOf(g):'#9aa0b8';
+    return '<span class="peer-legend-chip"><span class="peer-legend-dot" style="background:'+escLegend(c)+'"></span>'+escLegend(g)+' <b>'+n+'</b></span>';
+  }).join('');
+}
+// PEER-LEGEND-V36-END
 function renderPeers(unis){
   const modeEl=document.getElementById('peer-mode');
   const mode=modeEl?modeEl.value:'conference';
@@ -907,12 +928,11 @@ function renderPeers(unis){
     node.attr('cx',d=>d.x=Math.max(12,Math.min(w-12,d.x))).attr('cy',d=>d.y=Math.max(16,Math.min(h-16,d.y)));
     labels.attr('x',d=>d.x+7).attr('y',d=>d.y+3);
   });
-  const legend=svg.append('g').attr('transform',`translate(12, ${h-36})`);
-  groupKeys.slice(0,18).forEach((g,i)=>{
-    const row=Math.floor(i/6), col=i%6;
-    legend.append('circle').attr('cx',col*130).attr('cy',row*16).attr('r',5).attr('fill',color(g)).attr('opacity',0.85);
-    legend.append('text').attr('x',col*130+8).attr('y',row*16+3).attr('fill','#9aa0b8').attr('font-size','10px').text(g.slice(0,18));
-  });
+  // PEER-LEGEND-V36: responsive HTML legend (all groups + member counts,
+  // wraps on mobile) replaces the fixed SVG grid (18 of 45 groups max, shrank
+  // unreadably on mobile). Chips render into #peer-legend below the network.
+  const __legendEl=document.getElementById('peer-legend');
+  if(__legendEl) __legendEl.innerHTML=legendChipHtml(groups, groupKeys, g=>color(g));
   const listEl=document.getElementById('peer-list');
   if(listEl){
     // Peer benchmarking table — rows from shared pure helper (BENCH-CSV-V27),
