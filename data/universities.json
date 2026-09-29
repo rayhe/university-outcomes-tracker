@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-09-28",
+    "last_updated": "2026-09-29",
     "source": "College Scorecard API (DEMO_KEY) + 49 new v0.31 expansion to 249 (real 249) + 45 conferences",
-    "version": "0.36",
+    "version": "0.37",
     "total_universities": 249,
     "criteria_version": "1.0",
     "enriched_count": 249,
@@ -77,7 +77,8 @@
       "alumni_giving_synthetic": 249
     },
     "touchtip_v35": "tap-to-pin link tooltips for touch devices (peer-network crosswalk + intra-group links, map peer links); pure pinTipPos helper unit-tested; 0 score movers",
-    "peerlegend_v36": "responsive HTML group legend for peer network (all groups + counts, wraps on mobile; replaces fixed SVG grid that showed 18 of 45 conferences)"
+    "peerlegend_v36": "responsive HTML group legend for peer network (all groups + counts, wraps on mobile; replaces fixed SVG grid that showed 18 of 45 conferences)",
+    "maplabel_v37": "collision-free map labels: greedy priority placement with 5 fallback anchors (right/top/left/bottom/top-left), unlabeled schools stay clickable; closes standing 'map label collisions at small widths' + 'map top-10 label collisions on touch' issues"
   },
   "criteria": {
     "alumni_advantage_score": {

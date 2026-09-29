@@ -1015,6 +1015,45 @@ function mapPeerLinkTip(a, b, str){
   return html;
 }
 // MAP-PEERLINK-V30-END
+// MAP-LABEL-V37-BEGIN
+// Collision-free map label placement (closes the standing Visual Design issue
+// "map label collisions at small widths" + the Interactivity "map top-10
+// label collisions on touch" — at small display widths the viewBox scales
+// down and the old fixed +7/+3 labels piled up over dense regions like the
+// Northeast cluster, unreadable on touch). Pure: candidates are
+// [{x,y,text,priority}]; each tries 5 anchors in priority order (right, top,
+// left, bottom, top-left) and takes the first whose estimated box stays
+// inside the viewport and doesn't overlap an already-placed box; labels that
+// fit nowhere are dropped (caller reports the shown count). Estimated glyph
+// width keeps it DOM-free (deterministic, headless-safe); callers pass the
+// label text pre-truncated (e.g. first two words).
+function placeLabels(candidates, vw, vh, fontSize){
+  const fs=fontSize||9, PAD=4;
+  const ordered=candidates.map((c,i)=>({x:c.x,y:c.y,text:String(c.text),priority:c.priority==null?0:c.priority,idx:i}))
+    .sort((a,b)=>(b.priority-a.priority)||(a.text<b.text?-1:a.text>b.text?1:0)||(a.idx-b.idx));
+  const estW=t=>Math.ceil(t.length*fs*0.56);
+  const anchors=(x,y)=>[
+    {x:x+7,y:y+3,anchor:'start'},
+    {x:x+7,y:y-9,anchor:'start'},
+    {x:x-7,y:y+3,anchor:'end'},
+    {x:x+7,y:y+17,anchor:'start'},
+    {x:x-7,y:y-9,anchor:'end'}
+  ];
+  const boxOf=(ax,ay,anchor,w)=>{ const left=anchor==='start'?ax:ax-w; return {l:left,t:ay-fs,r:left+w,b:ay+4}; };
+  const inBounds=b=>b.l>=PAD&&b.t>=PAD&&b.r<=vw-PAD&&b.b<=vh-PAD;
+  const overlaps=(a,b)=>a.l<b.r&&a.r>b.l&&a.t<b.b&&a.b>b.t;
+  const placed=[], boxes=[];
+  for(const c of ordered){
+    const w=estW(c.text);
+    for(const a of anchors(c.x,c.y)){
+      const b=boxOf(a.x,a.y,a.anchor,w);
+      if(inBounds(b)&&!boxes.some(pb=>overlaps(pb,b))){ placed.push({text:c.text,x:a.x,y:a.y,anchor:a.anchor}); boxes.push(b); break; }
+    }
+  }
+  return placed;
+}
+// MAP-LABEL-V37-END
+
 async function renderMap(unis){
   const el=document.getElementById('geo-map'); if(!el) return;
   const pts=unis.filter(u=>u.lat!=null&&u.lon!=null);
@@ -1076,10 +1115,15 @@ async function renderMap(unis){
       tooltip.style('display','block').html('<b>'+d.name+'</b><br>Score '+d.score.toFixed(1)+' • $'+(d.median_earn_10yr/1000).toFixed(0)+'k earn<br>'+(d.scorecard_city||'')+', '+d.state+' • '+d.control+'<br>Click for detail'); })
     .on('mousemove',(e)=>{ tooltip.style('left',(e.pageX+12)+'px').style('top',(e.pageY-10)+'px'); })
     .on('mouseout',function(){ d3.select(this).attr('stroke','#0b0d12').attr('stroke-width',0.7); tooltip.style('display','none'); });
+  // MAP-LABEL-V37: collision-free top-10 labels (see pure block above). The map
+  // SVG uses a viewBox, so collision geometry in viewBox units holds at every
+  // display width; unlabeled schools stay clickable + hoverable, and the note
+  // reports how many of the top 10 fit collision-free.
   const top=pts.slice().sort((a,b)=>b.score-a.score).slice(0,10);
-  svg.append('g').selectAll('text').data(top).join('text')
-    .text(d=>d.name.split(' ').slice(0,2).join(' '))
-    .attr('x',d=>xy(d)[0]+7).attr('y',d=>xy(d)[1]+3)
+  const placed=placeLabels(top.map(u=>{ const p=xy(u); return {x:p[0],y:p[1],text:u.name.split(' ').slice(0,2).join(' '),priority:u.score}; }), w, h);
+  svg.append('g').selectAll('text').data(placed).join('text')
+    .text(d=>d.text)
+    .attr('x',d=>d.x).attr('y',d=>d.y).attr('text-anchor',d=>d.anchor)
     .attr('font-size','9px').attr('fill','#c8ccda').attr('pointer-events','none').attr('opacity',0.9);
   const lg=svg.append('g').attr('transform','translate(14,'+(h-28)+')');
   lg.append('circle').attr('cx',0).attr('cy',0).attr('r',5).attr('fill','#7c8cff').attr('opacity',0.85);
@@ -1094,7 +1138,7 @@ async function renderMap(unis){
   lg2.append('text').attr('x',42).attr('y',3.5).attr('fill','#9aa0b8').attr('font-size','10px')
     .text('Peer-group link (width = link strength; hover for the pair)');
   const note=document.getElementById('geo-note');
-  if(note) note.textContent=pts.length+'/'+unis.length+' campuses plotted at Wikipedia {{coord}} locations (primary first). Dots sized by score; top 10 labeled.'+(showLinks?' '+mapLinks.length+' peer-group links drawn (2 score-nearest per school, width = link strength).':'');
+  if(note) note.textContent=pts.length+'/'+unis.length+' campuses plotted at Wikipedia {{coord}} locations (primary first). Dots sized by score; top 10 by score labeled ('+placed.length+' of 10 shown, collision-free placement).'+(showLinks?' '+mapLinks.length+' peer-group links drawn (2 score-nearest per school, width = link strength).':'');
 }
 
 loadData().then(data=>{
