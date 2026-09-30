@@ -779,13 +779,27 @@ function renderPeers(unis){
     if(samePg){ dist=Math.max(20, dist-8); str=Math.min(0.5, str+0.08); }
     return {dist:+dist.toFixed(2), str:+str.toFixed(3)};
   }
+  // PEER-CAP-V38: adaptive group cap (closes the standing Network Quality issue
+  // "top-12 cap static vs larger groups", flagged since ~v0.7). The fixed 12-node
+  // cap left most members of big groups linkless: in carnegie mode R1=139,
+  // R2=67, Baccalaureate=43; control mode public=129, private=120; state mode
+  // CA=25. Groups of <=12 are unchanged; larger groups keep max(12, 60% of n),
+  // so peer-link density stays roughly proportional to group size instead of
+  // collapsing to a fixed 12. Pure helper — mechanically extracted for unit
+  // tests, no transcription.
+  function adaptivePeerCap(n){
+    n=Math.max(0,+n||0);
+    if(n<=12) return n;
+    return Math.min(n, Math.max(12, Math.ceil(n*0.6)));
+  }
   function buildPeerLinks(nodes, k){
     const byGroup={};
     nodes.forEach(n=>{ const g=n.group||'Other'; if(!byGroup[g]) byGroup[g]=[]; byGroup[g].push(n); });
     const seen=new Set(), out=[];
     Object.values(byGroup).forEach(arr=>{
       let members=arr;
-      if(members.length>12) members=members.slice().sort((a,b)=>(b.score||0)-(a.score||0)).slice(0,12);
+      const cap=adaptivePeerCap(members.length);
+      if(members.length>cap) members=members.slice().sort((a,b)=>(b.score||0)-(a.score||0)).slice(0,cap);
       members.forEach(n=>{
         const cand=members.filter(m=>m.id!==n.id && !seen.has(n.id+'|'+m.id) && !seen.has(m.id+'|'+n.id));
         cand.sort((a,b)=>Math.abs((a.score||0)-(n.score||0))-Math.abs((b.score||0)-(n.score||0)) || (a.id<b.id?-1:a.id>b.id?1:0));
@@ -978,6 +992,16 @@ function mapLinkProps(a, b){
   dist=Math.max(20, dist-8); str=Math.min(0.5, str+0.08);
   return {dist:+dist.toFixed(2), str:+str.toFixed(3)};
 }
+// PEER-CAP-V38 (map copy): same adaptive cap as the PEER-LINK-V28 block
+// (duplicated so this block stays mechanically self-contained — see the v0.30
+// precedent). Closes the standing Network Quality issue "top-12 cap static vs
+// larger groups" for map peer links: groups of <=12 unchanged, larger groups
+// keep max(12, 60% of n) members linkable.
+function adaptivePeerCap(n){
+  n=Math.max(0,+n||0);
+  if(n<=12) return n;
+  return Math.min(n, Math.max(12, Math.ceil(n*0.6)));
+}
 function mapPeerLinks(unis, k){
   const pts=unis.filter(u=>u.lat!=null&&u.lon!=null&&u.id!=null);
   const byPg={};
@@ -985,7 +1009,8 @@ function mapPeerLinks(unis, k){
   const seen=new Set(), out=[];
   Object.values(byPg).forEach(arr=>{
     let members=arr;
-    if(members.length>12) members=members.slice().sort((a,b)=>(b.score||0)-(a.score||0)).slice(0,12);
+    const cap=adaptivePeerCap(members.length);
+    if(members.length>cap) members=members.slice().sort((a,b)=>(b.score||0)-(a.score||0)).slice(0,cap);
     members.forEach(n=>{
       const cand=members.filter(m=>m.id!==n.id && !seen.has(n.id+'|'+m.id) && !seen.has(m.id+'|'+n.id));
       cand.sort((a,b)=>Math.abs((a.score||0)-(n.score||0))-Math.abs((b.score||0)-(n.score||0)) || (a.id<b.id?-1:a.id>b.id?1:0));
