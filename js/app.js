@@ -1079,6 +1079,61 @@ function placeLabels(candidates, vw, vh, fontSize){
 }
 // MAP-LABEL-V37-END
 
+// MAP-DOTSPREAD-V39-BEGIN
+// Deterministic dot-deoverlap for dense map clusters (closes the standing
+// Visual Design issue "map Northeast dot density", flagged since ~v0.7).
+// Under geoAlbersUsa the Northeast is heavily compressed: at desktop width
+// 242 dot pairs overlap (Boston: MIT overlaps Harvard/Brandeis/BU/Northeastern/
+// Tufts/BC/WPI/Wellesley/Holy Cross; same story in the Bay Area and LA), so
+// the dots under the top one are invisible and unhoverable. spreadDots runs a
+// few pairwise relaxation passes in display coordinates: any pair closer than
+// 85% of the sum of their radii is pushed apart minimally along the connecting
+// axis. Each dot's TOTAL displacement is then clamped to maxShift (default
+// 10px) so the geographic story stays honest; dense regions keep some overlap
+// by design, but every dot becomes visible and hoverable. Pure, headless-safe,
+// input-order deterministic: the (i<j) pair scan and the coincident-point
+// tiebreak both depend only on indices, so the same input yields identical
+// output. Returns [{x,y,r,dx,dy}] and never mutates its input; callers pass
+// dots pre-computed from the map projection.
+function spreadDots(dots, opts){
+  const maxShift=(opts&&opts.maxShift!=null)?opts.maxShift:10;
+  const passes=(opts&&opts.passes!=null)?opts.passes:4;
+  const n=dots.length;
+  const out=dots.map(d=>({x:d.x, y:d.y, r:d.r, dx:0, dy:0}));
+  for(let p=0;p<passes;p++){
+    for(let i=0;i<n;i++){
+      for(let j=i+1;j<n;j++){
+        const a=out[i], b=out[j];
+        const minD=(a.r+b.r)*0.85; // near-separation target: some overlap OK
+        let dx=b.x-a.x, dy=b.y-a.y;
+        let dist=Math.sqrt(dx*dx+dy*dy);
+        if(dist>=minD) continue;
+        if(dist<1e-6){ // coincident: deterministic tiebreak from indices
+          dx=(j-i)*0.5+0.25; dy=0.5;
+          dist=Math.sqrt(dx*dx+dy*dy);
+        }
+        const push=(minD-dist)/2;
+        dx/=dist; dy/=dist;
+        a.x-=dx*push; a.y-=dy*push;
+        b.x+=dx*push; b.y+=dy*push;
+      }
+    }
+  }
+  // Clamp total displacement to maxShift (geographic honesty bound).
+  for(let i=0;i<n;i++){
+    const o=out[i], d=dots[i];
+    const sx=o.x-d.x, sy=o.y-d.y;
+    const s=Math.sqrt(sx*sx+sy*sy);
+    if(s>maxShift){
+      const k=maxShift/s;
+      o.x=d.x+sx*k; o.y=d.y+sy*k;
+    }
+    o.dx=o.x-d.x; o.dy=o.y-d.y;
+  }
+  return out;
+}
+// MAP-DOTSPREAD-V39-END
+
 async function renderMap(unis){
   const el=document.getElementById('geo-map'); if(!el) return;
   const pts=unis.filter(u=>u.lat!=null&&u.lon!=null);
@@ -1103,6 +1158,14 @@ async function renderMap(unis){
   svg.append('g').selectAll('path').data(_statesGeo.features).join('path')
     .attr('d',path).attr('fill','#1a1e2c').attr('stroke','#2e3348').attr('stroke-width',0.7);
   const xy=d=>{ const p=proj([d.lon,d.lat]); return p?p:[-50,-50]; };
+  // MAP-DOTSPREAD-V39: deoverlap dense clusters (Northeast, Bay Area, LA) so
+  // every dot is visible and hoverable; displaced display positions feed dots,
+  // links, and labels alike via X(). Displaced <=10px, exact coordinates stay
+  // in the data file.
+  const _dots=pts.map(u=>{ const p=xy(u); return {x:p[0],y:p[1],r:2.2+u.score/48}; });
+  const _spread=spreadDots(_dots);
+  const _idx=new Map(); pts.forEach((u,i)=>_idx.set(u,i));
+  const X=d=>{ const s=_spread[_idx.get(d)]; return s?[s.x,s.y]:xy(d); };
   // MAP-PEERLINK-V30: draw score-nearest peer-group links (closes the standing
   // Network Quality issue "map doesn't draw peer links", flagged since ~v0.5).
   const linkToggle=document.getElementById('map-peer-links');
@@ -1113,8 +1176,8 @@ async function renderMap(unis){
   if(showLinks){
     mapLinks=mapPeerLinks(pts, 2);
     svg.append('g').attr('class','map-peer-links').selectAll('line').data(mapLinks).join('line')
-      .attr('x1',d=>xy(d.a)[0]).attr('y1',d=>xy(d.a)[1])
-      .attr('x2',d=>xy(d.b)[0]).attr('y2',d=>xy(d.b)[1])
+      .attr('x1',d=>X(d.a)[0]).attr('y1',d=>X(d.a)[1])
+      .attr('x2',d=>X(d.b)[0]).attr('y2',d=>X(d.b)[1])
       .attr('stroke','#8a90aa').attr('stroke-opacity',0.30)
       .attr('stroke-width',d=>(0.6+d.str*1.6).toFixed(2))
       .style('cursor','pointer')
@@ -1130,7 +1193,7 @@ async function renderMap(unis){
     .style('padding','8px 10px').style('font-size','.78rem').style('color','#e6e8f0')
     .style('pointer-events','none').style('z-index','40').style('box-shadow','0 8px 24px rgba(0,0,0,.5)');
   svg.append('g').selectAll('circle').data(pts).join('circle')
-    .attr('cx',d=>xy(d)[0]).attr('cy',d=>xy(d)[1])
+    .attr('cx',d=>X(d)[0]).attr('cy',d=>X(d)[1])
     .attr('r',d=>2.2+d.score/48)
     .attr('fill',d=>d.control==='private'?'#7c8cff':'#3dd598')
     .attr('stroke','#0b0d12').attr('stroke-width',0.7).attr('opacity',0.85)
@@ -1145,7 +1208,7 @@ async function renderMap(unis){
   // display width; unlabeled schools stay clickable + hoverable, and the note
   // reports how many of the top 10 fit collision-free.
   const top=pts.slice().sort((a,b)=>b.score-a.score).slice(0,10);
-  const placed=placeLabels(top.map(u=>{ const p=xy(u); return {x:p[0],y:p[1],text:u.name.split(' ').slice(0,2).join(' '),priority:u.score}; }), w, h);
+  const placed=placeLabels(top.map(u=>{ const p=X(u); return {x:p[0],y:p[1],text:u.name.split(' ').slice(0,2).join(' '),priority:u.score}; }), w, h);
   svg.append('g').selectAll('text').data(placed).join('text')
     .text(d=>d.text)
     .attr('x',d=>d.x).attr('y',d=>d.y).attr('text-anchor',d=>d.anchor)
@@ -1163,7 +1226,7 @@ async function renderMap(unis){
   lg2.append('text').attr('x',42).attr('y',3.5).attr('fill','#9aa0b8').attr('font-size','10px')
     .text('Peer-group link (width = link strength; hover for the pair)');
   const note=document.getElementById('geo-note');
-  if(note) note.textContent=pts.length+'/'+unis.length+' campuses plotted at Wikipedia {{coord}} locations (primary first). Dots sized by score; top 10 by score labeled ('+placed.length+' of 10 shown, collision-free placement).'+(showLinks?' '+mapLinks.length+' peer-group links drawn (2 score-nearest per school, width = link strength).':'');
+  if(note) note.textContent=pts.length+'/'+unis.length+' campuses plotted at Wikipedia {{coord}} locations (primary first). Dots sized by score and nudged ≤10px apart in dense clusters for visibility (exact coordinates in the data file); top 10 by score labeled ('+placed.length+' of 10 shown, collision-free placement).'+(showLinks?' '+mapLinks.length+' peer-group links drawn (2 score-nearest per school, width = link strength).':'');
 }
 
 loadData().then(data=>{
