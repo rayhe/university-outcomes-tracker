@@ -1040,6 +1040,59 @@ function mapPeerLinkTip(a, b, str){
   return html;
 }
 // MAP-PEERLINK-V30-END
+// MAP-LINKTHIN-V40-BEGIN
+// Density-adaptive thinning of geographic peer links (closes the standing
+// Network Quality issue "map Northeast link density", flagged ~v0.7): under
+// geoAlbersUsa the Northeast is so compressed that the full k=2 link set for
+// every linked school turns the Boston/NYC/Philadelphia cluster into a muddy
+// tangle of overlapping lines (each drawn at 0.30 opacity). Dots in dense
+// display clusters keep only their strongest link; dots in sparse regions keep
+// the usual k=2. A link survives if at least one endpoint keeps it, so every
+// linked school still shows at least one peer link. Deterministic; pure
+// helpers, mechanically extracted for unit tests, no transcription.
+function linkDensity(pts, r){
+  // pts: [{x,y}] in display coords (the displaced positions in renderMap).
+  // Returns per-dot neighbor counts within r px (O(n^2); n=249 is trivial).
+  r=Math.max(0,+r||0);
+  const n=pts.length, c=new Array(n).fill(0);
+  for(let i=0;i<n;i++)for(let j=i+1;j<n;j++){
+    const dx=pts[i].x-pts[j].x, dy=pts[i].y-pts[j].y;
+    if(dx*dx+dy*dy<=r*r){ c[i]++; c[j]++; }
+  }
+  return c;
+}
+function linkKey(l){
+  // Deterministic tie-break key for a link: sorted endpoint ids.
+  const a=String(l.a&&l.a.id), b=String(l.b&&l.b.id);
+  return a<b?a+'|'+b:b+'|'+a;
+}
+function thinMapLinks(links, densityOf, opts){
+  // links: [{a,b,str}] from mapPeerLinks (already pair-deduped). densityOf:
+  // node -> number of neighbors within the linkDensity radius. opts:
+  // {denseAt, kDense, kSparse}. Nodes at density>=denseAt keep only their
+  // kDense strongest links; other nodes keep kSparse. A link survives if at
+  // least one endpoint keeps it, so no linked school goes linkless. Returns a
+  // subset of links in the original order; input array is not mutated.
+  opts=opts||{};
+  const denseAt=opts.denseAt==null?6:opts.denseAt;
+  const kDense=opts.kDense==null?1:opts.kDense;
+  const kSparse=opts.kSparse==null?2:opts.kSparse;
+  const cap=n=>((densityOf(n)||0)>=denseAt?kDense:kSparse);
+  const incident=new Map();
+  links.forEach(l=>{
+    [l.a,l.b].forEach(n=>{
+      if(!incident.has(n)) incident.set(n,[]);
+      incident.get(n).push(l);
+    });
+  });
+  const kept=new Set();
+  incident.forEach((ls,n)=>{
+    ls.slice().sort((p,q)=>(q.str-p.str)||(linkKey(p)<linkKey(q)?-1:linkKey(p)>linkKey(q)?1:0))
+      .slice(0,Math.max(0,cap(n))).forEach(l=>kept.add(l));
+  });
+  return links.filter(l=>kept.has(l));
+}
+// MAP-LINKTHIN-V40-END
 // MAP-LABEL-V37-BEGIN
 // Collision-free map label placement (closes the standing Visual Design issue
 // "map label collisions at small widths" + the Interactivity "map top-10
@@ -1166,6 +1219,11 @@ async function renderMap(unis){
   const _spread=spreadDots(_dots);
   const _idx=new Map(); pts.forEach((u,i)=>_idx.set(u,i));
   const X=d=>{ const s=_spread[_idx.get(d)]; return s?[s.x,s.y]:xy(d); };
+  // MAP-LINKTHIN-V40: thin peer links in dense display clusters (Northeast)
+  // so they stop piling into a muddy tangle; every linked school still keeps
+  // at least one link. Density is computed on the displaced positions.
+  const _dens=linkDensity(_spread.map(s=>({x:s.x,y:s.y})), 26);
+  const _densOf=d=>_dens[_idx.get(d)];
   // MAP-PEERLINK-V30: draw score-nearest peer-group links (closes the standing
   // Network Quality issue "map doesn't draw peer links", flagged since ~v0.5).
   const linkToggle=document.getElementById('map-peer-links');
@@ -1174,7 +1232,7 @@ async function renderMap(unis){
   // TOUCH-TIP-V35: map peer links gain tap-to-pin (closes the touch-parity gap
   // on the geographic view as well); mapPeerLinkTip reused verbatim.
   if(showLinks){
-    mapLinks=mapPeerLinks(pts, 2);
+    mapLinks=thinMapLinks(mapPeerLinks(pts, 2), _densOf);
     svg.append('g').attr('class','map-peer-links').selectAll('line').data(mapLinks).join('line')
       .attr('x1',d=>X(d.a)[0]).attr('y1',d=>X(d.a)[1])
       .attr('x2',d=>X(d.b)[0]).attr('y2',d=>X(d.b)[1])
@@ -1226,7 +1284,7 @@ async function renderMap(unis){
   lg2.append('text').attr('x',42).attr('y',3.5).attr('fill','#9aa0b8').attr('font-size','10px')
     .text('Peer-group link (width = link strength; hover for the pair)');
   const note=document.getElementById('geo-note');
-  if(note) note.textContent=pts.length+'/'+unis.length+' campuses plotted at Wikipedia {{coord}} locations (primary first). Dots sized by score and nudged ≤10px apart in dense clusters for visibility (exact coordinates in the data file); top 10 by score labeled ('+placed.length+' of 10 shown, collision-free placement).'+(showLinks?' '+mapLinks.length+' peer-group links drawn (2 score-nearest per school, width = link strength).':'');
+  if(note) note.textContent=pts.length+'/'+unis.length+' campuses plotted at Wikipedia {{coord}} locations (primary first). Dots sized by score and nudged ≤10px apart in dense clusters for visibility (exact coordinates in the data file); top 10 by score labeled ('+placed.length+' of 10 shown, collision-free placement).'+(showLinks?' '+mapLinks.length+' peer-group links drawn (2 score-nearest per school in sparse regions, thinned to the strongest link for schools in dense clusters, width = link strength).':'');
 }
 
 loadData().then(data=>{

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-10-01",
+    "last_updated": "2026-10-02",
     "source": "College Scorecard API (DEMO_KEY) + 49 new v0.31 expansion to 249 (real 249) + 45 conferences",
-    "version": "0.39",
+    "version": "0.40",
     "total_universities": 249,
     "criteria_version": "1.0",
     "enriched_count": 249,
@@ -80,7 +80,8 @@
     "peerlegend_v36": "responsive HTML group legend for peer network (all groups + counts, wraps on mobile; replaces fixed SVG grid that showed 18 of 45 conferences)",
     "maplabel_v37": "collision-free map labels: greedy priority placement with 5 fallback anchors (right/top/left/bottom/top-left), unlabeled schools stay clickable; closes standing 'map label collisions at small widths' + 'map top-10 label collisions on touch' issues",
     "peercap_v38": "adaptive peer group cap: fixed top-12-by-score member cap replaced by max(12, 60% of n) per group; groups <=12 unchanged; closes standing Network Quality issue 'top-12 cap static vs larger groups'",
-    "mapdotspread_v39": "deterministic map dot deoverlap for dense clusters: pairwise relaxation in display coords pushes pairs closer than 85% of summed radii apart, each dot clamped to <=10px total displacement; dots/links/labels share displaced positions via X(); closes standing Visual Design issue 'map Northeast dot density'"
+    "mapdotspread_v39": "deterministic map dot deoverlap for dense clusters: pairwise relaxation in display coords pushes pairs closer than 85% of summed radii apart, each dot clamped to <=10px total displacement; dots/links/labels share displaced positions via X(); closes standing Visual Design issue 'map Northeast dot density'",
+    "linkthin_v40": "density-adaptive map peer-link thinning: schools with >=6 neighbors within 26px (display coords) keep only their strongest peer link; others keep k=2; a link survives if >=1 endpoint keeps it; closes standing Network Quality issue 'map Northeast link density'"
   },
   "criteria": {
     "alumni_advantage_score": {
