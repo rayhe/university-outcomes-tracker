@@ -394,6 +394,40 @@ function radarPoint(cx,cy,R,i,n,v){
   return [cx+r*Math.cos(a), cy+r*Math.sin(a)];
 }
 // RADAR-V23-END
+// RADAR-LABEL-V41-START
+// Axis-label layout with guaranteed viewBox margins (pure; unit-tested by
+// hidden_files/verify_radarlabel_v41.js). The v0.23 renderer parked labels at
+// 130% radius with only a 2px edge clamp, leaving "Career" ~5px from the top
+// edge and "Alumni" ~7px from the right edge of the 340x300 viewBox (the
+// standing "radar axis labels tight at narrow widths" issue, flagged ~v0.7).
+// radarLabelLayout keeps the v0.23 anchor rule (middle/start/end by x vs
+// center), estimates each label's pixel width (chars * fontPx * 0.62,
+// conservative for 600-weight Inter), then clamps the anchor point so the full
+// label box keeps >= RADAR_LABEL_MARGIN px from every viewBox edge.
+// Deterministic, no DOM, dims never mutated.
+const RADAR_LABEL_FRAC=1.30;   // label radius as a fraction of R (same as v0.23's pt(i,130))
+const RADAR_LABEL_PX=10;       // label font-size in px (must match the renderer)
+const RADAR_LABEL_MARGIN=12;   // guaranteed minimum margin to viewBox edges, px
+function radarLabelWidth(label){ return label.length*RADAR_LABEL_PX*0.62; }
+function radarLabelAnchor(lx,cx){ return Math.abs(lx-cx)<10?'middle':(lx>cx?'start':'end'); }
+function radarLabelLayout(dims,n,cx,cy,R,W,H){
+  // dims: [{label},...] in axis order. Returns [{x,y,anchor}] in the same order.
+  return dims.map((d,i)=>{
+    const a=-Math.PI/2 + i*2*Math.PI/n;
+    const r=R*RADAR_LABEL_FRAC;
+    const lx=cx+r*Math.cos(a), ly=cy+r*Math.sin(a);
+    const anchor=radarLabelAnchor(lx,cx);
+    const wEst=radarLabelWidth(d.label);
+    let x=lx;
+    if(anchor==='middle') x=Math.min(W-RADAR_LABEL_MARGIN-wEst/2,Math.max(RADAR_LABEL_MARGIN+wEst/2,lx));
+    else if(anchor==='start') x=Math.min(W-RADAR_LABEL_MARGIN-wEst,Math.max(RADAR_LABEL_MARGIN,lx));
+    else x=Math.min(W-RADAR_LABEL_MARGIN,Math.max(RADAR_LABEL_MARGIN+wEst,lx));
+    const ascent=RADAR_LABEL_PX*0.75, descent=RADAR_LABEL_PX*0.25;
+    const y=Math.min(H-RADAR_LABEL_MARGIN-descent,Math.max(RADAR_LABEL_MARGIN+ascent,ly));
+    return {x,y,anchor};
+  });
+}
+// RADAR-LABEL-V41-END
 // COHORT-V33-START
 // Cohort filtering + comparison stats (pure; unit-tested by hidden_files/verify_cohort_v33.js).
 // HBCU membership is an explicit hbcu===true flag in the data (scripts/tag_hbcu_v33.py:
@@ -606,7 +640,7 @@ function drawCharts(unis){
     const ext=radarExtents(allUnis);
     const privAvg=radarAverage(unis.filter(u=>u.control==='private'),ext);
     const pubAvg=radarAverage(unis.filter(u=>u.control==='public'),ext);
-    const rw=340, rh=300, rcx=rw/2, rcy=rh/2-6, R=104, n=RADAR_DIMS.length;
+    const rw=360, rh=312, rcx=rw/2, rcy=rh/2, R=104, n=RADAR_DIMS.length;
     const pt=(i,v)=>radarPoint(rcx,rcy,R,i,n,v);
     const svg4=d3.select(rad).append('svg').attr('viewBox',`0 0 ${rw} ${rh}`).attr('width','100%').style('height','auto').style('display','block');
     [25,50,75,100].forEach(g=>{
@@ -614,14 +648,15 @@ function drawCharts(unis){
         .attr('fill','none').attr('stroke','#3a3f55').attr('stroke-width',1).attr('opacity',g===100?0.9:0.55);
       svg4.append('text').attr('x',rcx+4).attr('y',rcy-R*g/100-3).attr('fill','#5c6278').attr('font-size','9px').text(g);
     });
+    // v0.41: axis labels via radarLabelLayout — guaranteed >=12px viewBox margins.
+    const labelPos=radarLabelLayout(RADAR_DIMS,n,rcx,rcy,R,rw,rh);
     RADAR_DIMS.forEach((d,i)=>{
       const [ex,ey]=pt(i,100);
       svg4.append('line').attr('x1',rcx).attr('y1',rcy).attr('x2',ex).attr('y2',ey).attr('stroke','#3a3f55').attr('stroke-width',1);
-      const [lx,ly]=pt(i,130);
-      const cx=Math.min(rw-2,Math.max(2,lx)), cy=Math.min(rh-4,Math.max(12,ly));
-      svg4.append('text').attr('x',cx).attr('y',cy)
-        .attr('text-anchor',Math.abs(cx-rcx)<10?'middle':(cx>rcx?'start':'end'))
-        .attr('fill','#9aa0b8').attr('font-size','10px').attr('font-weight','600').text(d.label);
+      const L=labelPos[i];
+      svg4.append('text').attr('x',L.x).attr('y',L.y)
+        .attr('text-anchor',L.anchor)
+        .attr('fill','#9aa0b8').attr('font-size',RADAR_LABEL_PX+'px').attr('font-weight','600').text(d.label);
     });
     [{vals:privAvg,color:'#7c8cff',name:'Private',isPriv:true},{vals:pubAvg,color:'#3dd598',name:'Public',isPriv:false}].forEach(s=>{
       if(!unis.some(u=>(u.control==='private')===s.isPriv)) return; // filtered side empty
