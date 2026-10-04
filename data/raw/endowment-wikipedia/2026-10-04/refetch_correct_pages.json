@@ -1,0 +1,32 @@
+[
+ {
+  "id": "usfca",
+  "title": "University of San Francisco",
+  "endowment_raw": "$566 million (2024), as of June 30, 2024",
+  "verdict": "keep old $566M (2024)"
+ },
+ {
+  "id": "lawrence",
+  "title": "Lawrence University",
+  "endowment_raw": "$456.6 million (2025)",
+  "verdict": "APPLY 0.4566 - correct institution (Appleton WI); v0.32 had applied St. Lawrence University's $416.8M to this record"
+ },
+ {
+  "id": "union",
+  "title": "Union College",
+  "endowment_raw": "$563.7 million (2024)",
+  "verdict": "keep old $563.7M (2024) - old value already correct institution"
+ },
+ {
+  "id": "scstate",
+  "title": "South Carolina State University",
+  "endowment_raw": "$17.2 million (2023)",
+  "verdict": "keep old $17.2M (2023)"
+ },
+ {
+  "id": "umkc",
+  "title": "University of Missouri\u2013Kansas City",
+  "endowment_raw": "$254 million (2026) (UMKC only), as of June 30, 2026",
+  "verdict": "APPLY 0.254 - newer than 2023 value"
+ }
+]

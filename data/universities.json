@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-10-03",
+    "last_updated": "2026-10-04",
     "source": "College Scorecard API (DEMO_KEY) + 49 new v0.31 expansion to 249 (real 249) + 45 conferences",
-    "version": "0.41",
+    "version": "0.42",
     "total_universities": 249,
     "criteria_version": "1.0",
     "enriched_count": 249,
@@ -82,7 +82,8 @@
     "peercap_v38": "adaptive peer group cap: fixed top-12-by-score member cap replaced by max(12, 60% of n) per group; groups <=12 unchanged; closes standing Network Quality issue 'top-12 cap static vs larger groups'",
     "mapdotspread_v39": "deterministic map dot deoverlap for dense clusters: pairwise relaxation in display coords pushes pairs closer than 85% of summed radii apart, each dot clamped to <=10px total displacement; dots/links/labels share displaced positions via X(); closes standing Visual Design issue 'map Northeast dot density'",
     "linkthin_v40": "density-adaptive map peer-link thinning: schools with >=6 neighbors within 26px (display coords) keep only their strongest peer link; others keep k=2; a link survives if >=1 endpoint keeps it; closes standing Network Quality issue 'map Northeast link density'",
-    "radarlabel_v41": "radar axis labels get guaranteed viewBox margins: new pure radarLabelLayout helper picks the v0.23 middle/start/end anchor by x vs center, estimates label width (chars*10px*0.62), clamps each label box to >=12px from every viewBox edge; radar viewBox 340x300 -> 360x312 (R=104 unchanged); on the real 5 labels the min margin goes Career-top 4.5px -> 13.3px and Alumni-right 7.4px -> 14.2px, zero pairwise overlap; closes the standing Visual Design issue 'radar axis labels tight at narrow widths'"
+    "radarlabel_v41": "radar axis labels get guaranteed viewBox margins: new pure radarLabelLayout helper picks the v0.23 middle/start/end anchor by x vs center, estimates label width (chars*10px*0.62), clamps each label box to >=12px from every viewBox edge; radar viewBox 340x300 -> 360x312 (R=104 unchanged); on the real 5 labels the min margin goes Career-top 4.5px -> 13.3px and Alumni-right 7.4px -> 14.2px, zero pairwise overlap; closes the standing Visual Design issue 'radar axis labels tight at narrow widths'",
+    "endowment_audit_v42": "33 pre-FY2025 endowment sources re-audited via Wikipedia infobox; 4 updated (morehouse, umkc, knox, lawrence identity-corrected); 29 unchanged incl. 4 HBCUs on 2019-2021 values + akron 2020; 3 auto-pick mismatches rejected (usfca->UCSF, union->labor union, scstate->USC Columbia)"
   },
   "criteria": {
     "alumni_advantage_score": {
@@ -2825,8 +2826,8 @@
       "state": "GA",
       "carnegie": "R1",
       "enrollment_fte": 23104,
-      "endowment_b": 0.28,
-      "endowment_per_student": 12119,
+      "endowment_b": 0.275,
+      "endowment_per_student": 11903,
       "grad_rate_6yr": 0.8,
       "retention": 0.95,
       "sf_ratio": 14,
@@ -2863,7 +2864,7 @@
       "scorecard_city": "Atlanta",
       "conference": "SIAC",
       "peer_group": "SIAC",
-      "_endowment_source": "Associated Press (Jul 2024): $280M",
+      "_endowment_source": "Wikipedia infobox (2024): $275M (as of 2025)",
       "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
       "_research_herd_name": "Morehouse C.",
       "_research_rank": 441,
@@ -10014,8 +10015,8 @@
       "state": "MO",
       "carnegie": "R2",
       "enrollment_fte": 15500,
-      "endowment_b": 0.20414,
-      "endowment_per_student": 13170.0,
+      "endowment_b": 0.254,
+      "endowment_per_student": 16387,
       "grad_rate_6yr": 0.5546,
       "retention": 0.76,
       "sf_ratio": 14,
@@ -10053,7 +10054,7 @@
       "scorecard_id": 178402,
       "scorecard_name": "University of Missouri-Kansas City",
       "scorecard_city": "Kansas City",
-      "_endowment_source": "Wikipedia infobox (2023): $204.14M (UMKC only, as of June 30, 2023)",
+      "_endowment_source": "Wikipedia infobox (2026): $254M (UMKC only, as of June 30, 2026)",
       "_research_source": "NSF HERD FY2024 (nsf26304 Table 19), total R&D expenditures",
       "_research_herd_name": "U. Missouri, Kansas City",
       "_research_rank": 229,
@@ -12677,8 +12678,8 @@
       "state": "WI",
       "carnegie": "Baccalaureate",
       "enrollment_fte": 1396,
-      "endowment_b": 0.4168,
-      "endowment_per_student": 298567,
+      "endowment_b": 0.4566,
+      "endowment_per_student": 327077,
       "grad_rate_6yr": 0.7677,
       "retention": 0.88,
       "sf_ratio": 8,
@@ -12720,7 +12721,8 @@
       "lon": -88.3978,
       "location_real": true,
       "_research_source": "synthetic (placeholder)",
-      "_endowment_source": "Wikipedia infobox (2024): $416.8 million (2024), St. Lawrence University, fetched 2026-09-24"
+      "_endowment_source": "Wikipedia infobox (2025): $456.6M",
+      "_identity_source": "v0.42: endowment re-matched to Lawrence University (Appleton, WI); v0.32 had applied St. Lawrence University (Canton, NY) $416.8M to this record"
     },
     {
       "id": "beloit",
@@ -12782,8 +12784,8 @@
       "state": "IL",
       "carnegie": "Baccalaureate",
       "enrollment_fte": 1127,
-      "endowment_b": 0.17451,
-      "endowment_per_student": 154845,
+      "endowment_b": 0.1766,
+      "endowment_per_student": 156699,
       "grad_rate_6yr": 0.6773,
       "retention": 0.84,
       "sf_ratio": 11,
@@ -12826,7 +12828,7 @@
       "location_real": false,
       "location_source": "geocoded",
       "_research_source": "synthetic (placeholder)",
-      "_endowment_source": "Knox College audited FY2024 (knox.edu auditor's report): endowment net assets end-of-year $174,514,569 at 6/30/2024; Wikipedia 'Knox College' page carries no |endowment=, verified 2026-09-24"
+      "_endowment_source": "Wikipedia infobox (2025): $176.6M"
     },
     {
       "id": "wooster",

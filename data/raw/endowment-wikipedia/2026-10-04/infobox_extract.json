@@ -1,0 +1,332 @@
+[
+ {
+  "id": "lmu",
+  "name": "Loyola Marymount University",
+  "scorecard_name": "Loyola Marymount University",
+  "wiki_title": "Loyola Marymount University",
+  "endowment_raw": "$722.7 million (2024)<ref name=NACUBO>As of June 30, 2024. {{cite web",
+  "old_value_b": 0.72,
+  "old_source": "Wikipedia infobox (2024): $722.7M, Loyola Marymount",
+  "note": null
+ },
+ {
+  "id": "ucsb",
+  "name": "UC Santa Barbara",
+  "scorecard_name": "University of California-Santa Barbara",
+  "wiki_title": "University of California, Santa Barbara",
+  "endowment_raw": "$665.9 million (2024)<ref name=NACUBO>As of February 26, 2025. {{cite web",
+  "old_value_b": 0.6659,
+  "old_source": "Wikipedia infobox (2024): $665.9M",
+  "note": null
+ },
+ {
+  "id": "morehouse",
+  "name": "Morehouse College",
+  "scorecard_name": "Morehouse College",
+  "wiki_title": "Morehouse College",
+  "endowment_raw": "$275 million (2024)<ref>As of 2025{{cite report",
+  "old_value_b": 0.28,
+  "old_source": "Associated Press (Jul 2024): $280M",
+  "note": null
+ },
+ {
+  "id": "georgiastate",
+  "name": "Georgia State University",
+  "scorecard_name": "Georgia State University",
+  "wiki_title": "Georgia State University",
+  "endowment_raw": "$256.5 million (2024)<ref name=endowment>{{cite web",
+  "old_value_b": 0.2565,
+  "old_source": "Wikipedia infobox (2024): $256.5M",
+  "note": null
+ },
+ {
+  "id": "ucriverside",
+  "name": "UC Riverside",
+  "scorecard_name": "University of California-Riverside",
+  "wiki_title": "University of California, Riverside",
+  "endowment_raw": "$249.87 million (2023)<ref name=\"UCEndowment\">As of June 30, 2023. {{cite web",
+  "old_value_b": 0.24987,
+  "old_source": "Wikipedia infobox (2023): $249.87M (as of June 30, 2023)",
+  "note": null
+ },
+ {
+  "id": "oklahoma",
+  "name": "University of Oklahoma",
+  "scorecard_name": "University of Oklahoma-Norman Campus",
+  "wiki_title": "University of Oklahoma",
+  "endowment_raw": "$1.81 billion (FY2024)<ref>As of June 30, 2024. {{Cite web",
+  "old_value_b": 1.81,
+  "old_source": "Wikipedia infobox (FY2024): $1.81B (as of June 30, 2024)",
+  "note": null
+ },
+ {
+  "id": "fresnostate",
+  "name": "Fresno State",
+  "scorecard_name": "California State University-Fresno",
+  "wiki_title": "California State University, Fresno",
+  "endowment_raw": "$254.8 million (2023\u201324)<ref name=NACUBO>As of June 30, 2024. {{Cite web",
+  "old_value_b": 0.2548,
+  "old_source": "Wikipedia infobox (FY2024): $254.8M (NACUBO; as of June 30, 2024)",
+  "note": null
+ },
+ {
+  "id": "harveymudd",
+  "name": "Harvey Mudd College",
+  "scorecard_name": "Harvey Mudd College",
+  "wiki_title": "Harvey Mudd College",
+  "endowment_raw": "$454.55 million (2024)<ref name=NACUBO>As of June 30, 2024. {{cite web",
+  "old_value_b": 0.45455,
+  "old_source": "Wikipedia infobox (2024): $454.55M (NACUBO; as of June 30, 2024)",
+  "note": null
+ },
+ {
+  "id": "usfca",
+  "name": "University of San Francisco",
+  "scorecard_name": "University of San Francisco",
+  "wiki_title": "University of California, San Francisco",
+  "endowment_raw": "$2.95 billion (2024)<ref name=NACUBO>As of June 30, 2024. {{cite web",
+  "old_value_b": 0.566,
+  "old_source": "Wikipedia infobox (2024): $566M (as of June 30, 2024)",
+  "note": null
+ },
+ {
+  "id": "sdsu",
+  "name": "San Diego State University",
+  "scorecard_name": "San Diego State University",
+  "wiki_title": "San Diego State University",
+  "endowment_raw": "$456.6 million (2023\u201324)<ref name=NACUBO>As of June 30, 2024. {{Cite web",
+  "old_value_b": 0.4566,
+  "old_source": "Wikipedia infobox (FY2024): $456.6M (NACUBO; as of June 30, 2024)",
+  "note": null
+ },
+ {
+  "id": "fau",
+  "name": "Florida Atlantic University",
+  "scorecard_name": "Florida Atlantic University",
+  "wiki_title": "Florida Atlantic University",
+  "endowment_raw": "$295.1 million (2024)<ref name=endowment>{{cite web",
+  "old_value_b": 0.2951,
+  "old_source": "Wikipedia infobox (2024): $295.1M",
+  "note": null
+ },
+ {
+  "id": "akron",
+  "name": "University of Akron",
+  "scorecard_name": "University of Akron Main Campus",
+  "wiki_title": "University of Akron",
+  "endowment_raw": "$235.3 million (2020)<ref>As of June 30, 2020. {{cite report",
+  "old_value_b": 0.2353,
+  "old_source": "Wikipedia infobox (as of June 30, 2020): $235.3M - stale, latest available",
+  "note": null
+ },
+ {
+  "id": "umkc",
+  "name": "University of Missouri-Kansas City",
+  "scorecard_name": "University of Missouri-Kansas City",
+  "wiki_title": "University of Missouri\u2013Kansas City",
+  "endowment_raw": "$254 million (2026)<br />(UMKC only)<ref name=Endowment>As of June 30, 2026. {{cite web",
+  "old_value_b": 0.20414,
+  "old_source": "Wikipedia infobox (2023): $204.14M (UMKC only, as of June 30, 2023)",
+  "note": null
+ },
+ {
+  "id": "uwmilwaukee",
+  "name": "University of Wisconsin-Milwaukee",
+  "scorecard_name": "University of Wisconsin-Milwaukee",
+  "wiki_title": "University of Wisconsin\u2013Milwaukee",
+  "endowment_raw": "$323 million (2023)",
+  "old_value_b": 0.323,
+  "old_source": "Wikipedia infobox (2023): $323M",
+  "note": null
+ },
+ {
+  "id": "providence",
+  "name": "Providence College",
+  "scorecard_name": "Providence College",
+  "wiki_title": "Providence College",
+  "endowment_raw": "$321 million (2023)<ref>As of August 31, 2023.{{cite web",
+  "old_value_b": 0.321,
+  "old_source": "Wikipedia infobox (2023): $321M (as of August 31, 2023)",
+  "note": null
+ },
+ {
+  "id": "ncat",
+  "name": "North Carolina A&T State University",
+  "scorecard_name": "North Carolina A & T State University",
+  "wiki_title": "North Carolina A&T State University",
+  "endowment_raw": "$202 million (2024)<ref name=\"WFMY-TV\">{{cite web",
+  "old_value_b": 0.202,
+  "old_source": "Wikipedia infobox (2024): $202 million (2024), North Carolina A&T State University, fetched 2026-09-24",
+  "note": null
+ },
+ {
+  "id": "jacksonstate",
+  "name": "Jackson State University",
+  "scorecard_name": "Jackson State University",
+  "wiki_title": "Jackson State University",
+  "endowment_raw": "$60 million (2019)<ref>{{cite web",
+  "old_value_b": 0.06,
+  "old_source": "Wikipedia infobox (2019): $60 million (2019), Jackson State University, fetched 2026-09-24",
+  "note": null
+ },
+ {
+  "id": "alcorn",
+  "name": "Alcorn State University",
+  "scorecard_name": "Alcorn State University",
+  "wiki_title": "Alcorn State University",
+  "endowment_raw": "$21.3 million (2021)<ref>{{Cite web",
+  "old_value_b": 0.0213,
+  "old_source": "Wikipedia infobox (2021): $21.3 million (2021), Alcorn State University, fetched 2026-09-24",
+  "note": null
+ },
+ {
+  "id": "delawarestate",
+  "name": "Delaware State University",
+  "scorecard_name": "Delaware State University",
+  "wiki_title": "Delaware State University",
+  "endowment_raw": "$43 million (2021)",
+  "old_value_b": 0.043,
+  "old_source": "Wikipedia infobox (2021): $43 million (2021), Delaware State University, fetched 2026-09-24",
+  "note": null
+ },
+ {
+  "id": "tennesseestate",
+  "name": "Tennessee State University",
+  "scorecard_name": "Tennessee State University",
+  "wiki_title": "Tennessee State University",
+  "endowment_raw": "$91.1 million (2021)<ref>As of March 7, 2022. {{cite report",
+  "old_value_b": 0.0911,
+  "old_source": "Wikipedia infobox (2021): $91.1 million (2021), Tennessee State University, fetched 2026-09-24",
+  "note": null
+ },
+ {
+  "id": "texassouthern",
+  "name": "Texas Southern University",
+  "scorecard_name": "Texas Southern University",
+  "wiki_title": "Texas Southern University",
+  "endowment_raw": "$100 million (2024)<ref>{{cite web",
+  "old_value_b": 0.1,
+  "old_source": "Wikipedia infobox (2024): $100 million (2024), Texas Southern University, fetched 2026-09-24",
+  "note": null
+ },
+ {
+  "id": "alabamaam",
+  "name": "Alabama A&M University",
+  "scorecard_name": "Alabama A & M University",
+  "wiki_title": "Alabama A&M University",
+  "endowment_raw": "$48.0&nbsp;million (2019)<ref>As of June 30, 2019. {{cite web",
+  "old_value_b": 0.048,
+  "old_source": "Wikipedia infobox (2019): $48.0&nbsp;million (2019), Alabama A&M University, fetched 2026-09-24",
+  "note": null
+ },
+ {
+  "id": "hampton",
+  "name": "Hampton University",
+  "scorecard_name": "Hampton University",
+  "wiki_title": "Hampton University",
+  "endowment_raw": "$280.6 million (2020)<ref>As of June 30, 2020. {{cite report",
+  "old_value_b": 0.2806,
+  "old_source": "Wikipedia infobox (2020): $280.6 million (2020), Hampton University, fetched 2026-09-24",
+  "note": null
+ },
+ {
+  "id": "tuskegee",
+  "name": "Tuskegee University",
+  "scorecard_name": "Tuskegee University",
+  "wiki_title": "Tuskegee University",
+  "endowment_raw": "$157 million (2021)<ref>{{cite web",
+  "old_value_b": 0.157,
+  "old_source": "Wikipedia infobox (2021): $157 million (2021), Tuskegee University, fetched 2026-09-24",
+  "note": null
+ },
+ {
+  "id": "xavierla",
+  "name": "Xavier University of Louisiana",
+  "scorecard_name": "Xavier University of Louisiana",
+  "wiki_title": "Xavier University of Louisiana",
+  "endowment_raw": "$178 million (2022)<ref>{{cite web",
+  "old_value_b": 0.178,
+  "old_source": "Wikipedia infobox (2022): $178 million (2022), Xavier University of Louisiana, fetched 2026-09-24",
+  "note": null
+ },
+ {
+  "id": "scstate",
+  "name": "South Carolina State University",
+  "scorecard_name": "South Carolina State University",
+  "wiki_title": "University of South Carolina",
+  "endowment_raw": "$1.15 billion (2025)<ref>{{cite web",
+  "old_value_b": 0.0172,
+  "old_source": "Wikipedia infobox (2023): $17.2 million (2023), South Carolina State University, fetched 2026-09-24",
+  "note": null
+ },
+ {
+  "id": "nccentral",
+  "name": "North Carolina Central University",
+  "scorecard_name": "North Carolina Central University",
+  "wiki_title": "North Carolina Central University",
+  "endowment_raw": "$89 million (2024)<ref>{{cite web",
+  "old_value_b": 0.089,
+  "old_source": "Wikipedia infobox (2024): $89 million (2024), North Carolina Central University, fetched 2026-09-24",
+  "note": null
+ },
+ {
+  "id": "lawrence",
+  "name": "Lawrence University",
+  "scorecard_name": "Lawrence University",
+  "wiki_title": "St. Lawrence University",
+  "endowment_raw": "$416.8 million (2024)<ref name=endowment>{{cite web",
+  "old_value_b": 0.4168,
+  "old_source": "Wikipedia infobox (2024): $416.8 million (2024), St. Lawrence University, fetched 2026-09-24",
+  "note": null
+ },
+ {
+  "id": "knox",
+  "name": "Knox College",
+  "scorecard_name": "Knox College",
+  "wiki_title": "Knox College (Illinois)",
+  "endowment_raw": "$176.6 million (2025)<ref>{{cite web",
+  "old_value_b": 0.17451,
+  "old_source": "Knox College audited FY2024 (knox.edu auditor's report): endowment net assets end-of-year $174,514,569 at 6/30/2024; Wikipedia 'Knox College' page carries no |endowment=, verified 2026-09-24",
+  "note": null
+ },
+ {
+  "id": "wooster",
+  "name": "The College of Wooster",
+  "scorecard_name": "The College of Wooster",
+  "wiki_title": "College of Wooster",
+  "endowment_raw": "$437 million (2024)",
+  "old_value_b": 0.437,
+  "old_source": "Wikipedia infobox (2024): $437 million (2024), College of Wooster, fetched 2026-09-24",
+  "note": null
+ },
+ {
+  "id": "fandm",
+  "name": "Franklin & Marshall College",
+  "scorecard_name": "Franklin and Marshall College",
+  "wiki_title": "Franklin & Marshall College",
+  "endowment_raw": "$439.2 million (2024)<ref name=endowment>{{cite web",
+  "old_value_b": 0.4392,
+  "old_source": "Wikipedia infobox (2024): $439.2 million (2024), Franklin & Marshall College, fetched 2026-09-24",
+  "note": null
+ },
+ {
+  "id": "union",
+  "name": "Union College",
+  "scorecard_name": "Union College",
+  "wiki_title": "University and College Union",
+  "endowment_raw": null,
+  "old_value_b": 0.5637000000000001,
+  "old_source": "Wikipedia infobox (2024): $563.7 million (2024), Union College, fetched 2026-09-24",
+  "note": null
+ },
+ {
+  "id": "pitzer",
+  "name": "Pitzer College",
+  "scorecard_name": "Pitzer College",
+  "wiki_title": "Pitzer College",
+  "endowment_raw": "$191.8 million (2024)<ref name=NACUBO>As of June 30, 2024. {{cite web",
+  "old_value_b": 0.1918,
+  "old_source": "Wikipedia infobox (2024): $191.8 million (2024), Pitzer College, fetched 2026-09-24",
+  "note": null
+ }
+]
