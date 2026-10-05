@@ -355,6 +355,53 @@ function linearRegression(x,y){
   const m=den?num/den:0; const b=my-m*mx;
   return {m,b};
 }
+// v0.43 resource-efficiency residual analysis: which schools convert resources
+// into alumni earnings better than the OLS resource model predicts?
+// The site's core question is resource→outcome conversion; the earnings-vs-
+// endowment scatter already fits OLS(earn ~ log(endow/student)) — this block
+// turns that fit into a per-school residual leaderboard. Self-contained
+// (its own tiny OLS + Pearson, no DOM) so the node verify suite can extract
+// it mechanically like the RADAR-V23 block.
+// EFFICIENCY-V43-START
+// efficiencyModel(unis) -> {m,b,r,n} | null (null when <2 usable records).
+// OLS fit of median_earn_10yr on log(endowment_per_student) — the same fit the
+// earnings scatter draws as its dashed regression line. Insights fit on the
+// full universe; the scatter refits per active filter.
+function efficiencyModel(unis){
+  const rows=(unis||[]).filter(u=>u&&u.endowment_per_student>0&&u.median_earn_10yr!=null);
+  const n=rows.length; if(n<2) return null;
+  const lx=rows.map(u=>Math.log(u.endowment_per_student)), ly=rows.map(u=>u.median_earn_10yr);
+  const mx=lx.reduce((a,b)=>a+b,0)/n, my=ly.reduce((a,b)=>a+b,0)/n;
+  let num=0,dx=0,dy=0;
+  for(let i=0;i<n;i++){ const cx=lx[i]-mx, cy=ly[i]-my; num+=cx*cy; dx+=cx*cx; dy+=cy*cy; }
+  const m=dx?num/dx:0, b=my-m*mx, r=(dx&&dy)?num/Math.sqrt(dx*dy):0;
+  return {m,b,r,n};
+}
+// efficiencyResiduals(unis) -> [{u,pred,resid}] sorted desc by resid.
+// resid = actual 10yr earnings − model prediction: positive means the school
+// earns MORE than its endowment-per-student predicts ("punches above its
+// resources"). Deterministic tie-break by school id; input never mutated.
+function efficiencyResiduals(unis){
+  const model=efficiencyModel(unis); if(!model) return [];
+  const out=[];
+  for(const u of (unis||[])){
+    if(!u||!(u.endowment_per_student>0)||u.median_earn_10yr==null) continue;
+    const pred=model.m*Math.log(u.endowment_per_student)+model.b;
+    out.push({u,pred,resid:u.median_earn_10yr-pred});
+  }
+  out.sort((a,b)=>(b.resid-a.resid)||String(a.u.id).localeCompare(String(b.u.id)));
+  return out;
+}
+// efficiencyLeaders(unis,k) -> {over,under}: the top-k positive-residual
+// schools (over-converters) and the top-k negative (under-converters, most
+// negative first). k defaults to 3, clamped to >=1; empty arrays when the
+// model can't fit.
+function efficiencyLeaders(unis,k){
+  const kk=Math.max(1,Math.floor(k==null?3:k));
+  const all=efficiencyResiduals(unis);
+  return {over:all.filter(d=>d.resid>0).slice(0,kk), under:all.filter(d=>d.resid<0).reverse().slice(0,kk)};
+}
+// EFFICIENCY-V43-END
 // v0.23 radar toolkit: true radial radar chart with per-dimension min-max
 // normalization to 0-100 (replaces the grouped-bar "radar" + /1.5 scale hack).
 // Min-max extents are taken over the FULL dataset (stable under filtering);
@@ -490,6 +537,14 @@ function renderInsights(data){
   insights.push({t:`Best Value (Price/Earnings): ${bestValue.name}`, d:`Net price $${bestValue.net_price_avg.toLocaleString()} vs earnings $${bestValue.median_earn_10yr.toLocaleString()}. Public flagship model shows ROI advantage despite lower endowment/student. Ratio ${(bestValue.net_price_avg/bestValue.median_earn_10yr).toFixed(2)}. Conf ${bestValue.conference}.`});
   insights.push({t:`Private vs Public: ${privateAvg.toFixed(1)} vs ${publicAvg.toFixed(1)} avg score`, d:`Private advantage driven by endowment/student (avg ${(endowPerMedian/1000).toFixed(0)}k median) and alumni giving (28% vs 9%). Publics close gap on value/ROI and research scale. n=${unis.length}, private=${unis.filter(u=>u.control==='private').length}, public=${unis.filter(u=>u.control==='public').length}.`});
   insights.push({t:`Correlation: Earnings vs Endowment r=${ctEarnEndow.r.toFixed(2)} (${fmtP(ctEarnEndow.p)})`, d:`Log(endow/student) vs earnings 10yr r=${ctEarnEndow.r.toFixed(2)}, ${fmtP(ctEarnEndow.p)}, n=${ctEarnEndow.n} — ${sigWord(ctEarnEndow.p)}. Earnings vs grad rate r=${ctEarnGrad.r.toFixed(2)} (${fmtP(ctEarnGrad.p)}, ${sigWord(ctEarnGrad.p)}). Selectivity (1-admit) vs score r=${ctAdmitScore.r.toFixed(2)} (${fmtP(ctAdmitScore.p)}, n=${ctAdmitScore.n}, ${sigWord(ctAdmitScore.p)}). All p-values two-tailed Student's t on Pearson r (df=n-2). Strongest predictor is grad rate + retention, not raw endowment. Scatter shows regression line with significance.`});
+  // v0.43 resource-efficiency residual leaders: who converts resources into
+  // earnings better than the OLS resource model predicts (the tracker's core
+  // question — resource→outcome conversion — ranked directly).
+  const effModel=efficiencyModel(unis), effLead=efficiencyLeaders(unis,3);
+  if(effModel&&effLead.over.length&&effLead.under.length){
+    const fmtEff=d=>`${d.u.name} (${d.resid>=0?'+':'-'}$${(Math.abs(d.resid)/1000).toFixed(1)}k, ${d.u.conference||d.u.control})`;
+    insights.push({t:`Resource Efficiency: ${effLead.over[0].u.name} earns $${(effLead.over[0].resid/1000).toFixed(1)}k more than its resources predict`, d:`Efficiency residual = actual 10yr earnings − OLS prediction from log(endowment/student), the same fit as the scatter's dashed regression line (r=${effModel.r.toFixed(2)}, n=${effModel.n}; p annotated on the scatter). Top resource converters: ${effLead.over.map(fmtEff).join('; ')}. Biggest under-converters vs resources: ${effLead.under.map(fmtEff).join('; ')}. Positive = punches above its endowment; negative = high resources, low earnings.`});
+  }
   insights.push({t:`ROI Leader: ${topROI.name} $${(topROI.median_earn_10yr - 35000*2 - topROI.net_price_avg*4).toLocaleString()} 10yr`, d:`ROI 10yr = earnings - $70k HS baseline - 4×net price. Median ROI $${medianROI.toLocaleString()} across ${unis.length} schools. ${topROI.name} ROI $${(topROI.median_earn_10yr - 35000*2 - topROI.net_price_avg*4).toLocaleString()} = $${topROI.median_earn_10yr.toLocaleString()} - $70k - $${(topROI.net_price_avg*4).toLocaleString()}. Public flagships dominate ROI due to low net price. Compare table now shows ROI column.`});
   insights.push({t:`Peer Benchmark: Conference Leaders`, d:`Top 5 conferences by avg Alumni Advantage: ${confBenchStr}. Ivy League (n=${byConf['Ivy League']?.length||0}) avg ${(byConf['Ivy League']?byConf['Ivy League'].reduce((s,u)=>s+u.score,0)/byConf['Ivy League'].length:0).toFixed(1)} vs Big Ten ${(byConf['Big Ten']?byConf['Big Ten'].reduce((s,u)=>s+u.score,0)/byConf['Big Ten'].length:0).toFixed(1)}. Peer network drag-enabled, clickable, URL ?peer= persists.`});
   insights.push({t:`Public Filings Coverage: 6 sources • ${realCount}/${unis.length} real`, d:`IPEDS (100% Title IV), IRS 990 (private only), Audited financials (GAAP), College Scorecard (earnings/debt/default/net price) ${realCount}/${unis.length} real, NSF HERD (R&D), State audit (publics). Filing presence is trust signal, not score weight. v0.5 fixes 9 Scorecard mismatches (Brown, UChicago, Penn, Baylor, BYU, Houston, Louisville, Miami, Utah, Davidson, Denver, Delaware, UConn, Howard).`});
