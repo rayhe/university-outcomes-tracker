@@ -402,6 +402,52 @@ function efficiencyLeaders(unis,k){
   return {over:all.filter(d=>d.resid>0).slice(0,kk), under:all.filter(d=>d.resid<0).reverse().slice(0,kk)};
 }
 // EFFICIENCY-V43-END
+// EFFICIENCY-PEER-V44-START
+// peerEfficiency(unis) -> [{u,resid,conf,confN,confMean,peerResid}] sorted desc
+// by peerResid; rows whose conference has <2 usable schools carry
+// peerResid=null and sort last.
+// Peer-normalized resource efficiency: starts from the v0.43 global
+// efficiency residuals (earnings minus the OLS prediction on
+// log(endowment/student)) and subtracts the conference mean residual.
+// Positive peerResid = the school converts its resources into earnings better
+// than its own conference peers; negative = it under-converts relative to
+// its peer set. This separates "efficient because the whole conference is
+// efficient" from "the standout converter among its peers". Conferences with
+// fewer than 2 usable schools have no peer baseline (peerResid null).
+// Deterministic (id tie-break); input never mutated. Depends on the v0.43
+// efficiencyResiduals block.
+function peerEfficiency(unis){
+  const res=efficiencyResiduals(unis);
+  if(!res.length) return [];
+  const byConf={};
+  for(const d of res){ const c=(d.u&&d.u.conference)||'Other'; (byConf[c]=byConf[c]||[]).push(d); }
+  const out=[];
+  for(const c of Object.keys(byConf)){
+    const arr=byConf[c];
+    if(arr.length<2){
+      for(const d of arr) out.push({u:d.u,resid:d.resid,conf:c,confN:arr.length,confMean:null,peerResid:null});
+      continue;
+    }
+    const mean=arr.reduce((s,d)=>s+d.resid,0)/arr.length;
+    for(const d of arr) out.push({u:d.u,resid:d.resid,conf:c,confN:arr.length,confMean:mean,peerResid:d.resid-mean});
+  }
+  out.sort((a,b)=>{
+    if(a.peerResid==null&&b.peerResid==null) return String(a.u.id).localeCompare(String(b.u.id));
+    if(a.peerResid==null) return 1;
+    if(b.peerResid==null) return -1;
+    return (b.peerResid-a.peerResid)||String(a.u.id).localeCompare(String(b.u.id));
+  });
+  return out;
+}
+// peerEfficiencyLeaders(unis,k) -> {over,under}: top-k schools by peerResid
+// (over: highest positive; under: most negative). k defaults to 3, clamped
+// to >=1; empty arrays when nothing is peer-normalizable.
+function peerEfficiencyLeaders(unis,k){
+  const kk=Math.max(1,Math.floor(k==null?3:k));
+  const all=peerEfficiency(unis).filter(d=>d.peerResid!=null);
+  return {over:all.filter(d=>d.peerResid>0).slice(0,kk), under:all.filter(d=>d.peerResid<0).reverse().slice(0,kk)};
+}
+// EFFICIENCY-PEER-V44-END
 // v0.23 radar toolkit: true radial radar chart with per-dimension min-max
 // normalization to 0-100 (replaces the grouped-bar "radar" + /1.5 scale hack).
 // Min-max extents are taken over the FULL dataset (stable under filtering);
@@ -544,6 +590,16 @@ function renderInsights(data){
   if(effModel&&effLead.over.length&&effLead.under.length){
     const fmtEff=d=>`${d.u.name} (${d.resid>=0?'+':'-'}$${(Math.abs(d.resid)/1000).toFixed(1)}k, ${d.u.conference||d.u.control})`;
     insights.push({t:`Resource Efficiency: ${effLead.over[0].u.name} earns $${(effLead.over[0].resid/1000).toFixed(1)}k more than its resources predict`, d:`Efficiency residual = actual 10yr earnings − OLS prediction from log(endowment/student), the same fit as the scatter's dashed regression line (r=${effModel.r.toFixed(2)}, n=${effModel.n}; p annotated on the scatter). Top resource converters: ${effLead.over.map(fmtEff).join('; ')}. Biggest under-converters vs resources: ${effLead.under.map(fmtEff).join('; ')}. Positive = punches above its endowment; negative = high resources, low earnings.`});
+  }
+  // v0.44 peer-normalized efficiency: the standout resource converters among
+  // their own conference peers (global residual minus conference mean).
+  const peAll=peerEfficiency(unis), peLead=peerEfficiencyLeaders(unis,3);
+  const peConfs=new Set(peAll.filter(d=>d.peerResid!=null).map(d=>d.conf)).size;
+  const peLone=peAll.length-peAll.filter(d=>d.peerResid!=null).length;
+  if(peAll.length&&peLead.over.length&&peLead.under.length){
+    const fmtPeO=d=>`${d.u.name} (+$${(d.peerResid/1000).toFixed(1)}k vs ${d.conf} peers)`;
+    const fmtPeU=d=>`${d.u.name} ($${(d.peerResid/1000).toFixed(1)}k vs ${d.conf} peers)`;
+    insights.push({t:`Peer Efficiency: ${peLead.over[0].u.name} beats its conference peers by $${(peLead.over[0].peerResid/1000).toFixed(1)}k`, d:`Peer-normalized efficiency = v0.43 global efficiency residual minus the conference mean residual, over ${peConfs} conferences with ≥2 schools (${peLone} single-school conferences excluded). Positive = converts resources into earnings better than its own peer set. Top vs-peers converters: ${peLead.over.map(fmtPeO).join('; ')}. Biggest under-converters vs their peers: ${peLead.under.map(fmtPeU).join('; ')}.`});
   }
   insights.push({t:`ROI Leader: ${topROI.name} $${(topROI.median_earn_10yr - 35000*2 - topROI.net_price_avg*4).toLocaleString()} 10yr`, d:`ROI 10yr = earnings - $70k HS baseline - 4×net price. Median ROI $${medianROI.toLocaleString()} across ${unis.length} schools. ${topROI.name} ROI $${(topROI.median_earn_10yr - 35000*2 - topROI.net_price_avg*4).toLocaleString()} = $${topROI.median_earn_10yr.toLocaleString()} - $70k - $${(topROI.net_price_avg*4).toLocaleString()}. Public flagships dominate ROI due to low net price. Compare table now shows ROI column.`});
   insights.push({t:`Peer Benchmark: Conference Leaders`, d:`Top 5 conferences by avg Alumni Advantage: ${confBenchStr}. Ivy League (n=${byConf['Ivy League']?.length||0}) avg ${(byConf['Ivy League']?byConf['Ivy League'].reduce((s,u)=>s+u.score,0)/byConf['Ivy League'].length:0).toFixed(1)} vs Big Ten ${(byConf['Big Ten']?byConf['Big Ten'].reduce((s,u)=>s+u.score,0)/byConf['Big Ten'].length:0).toFixed(1)}. Peer network drag-enabled, clickable, URL ?peer= persists.`});

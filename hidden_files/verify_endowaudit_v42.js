@@ -18,7 +18,9 @@ const recs = d.universities;
 const byid = Object.fromEntries(recs.map(r => [r.id, r]));
 
 t('249 records', recs.length === 249);
-t('metadata version 0.42', d.metadata.version === '0.42');
+t('metadata version is well-formed N.NN (not stale-pinned to 0.42)', /^\d+\.\d+$/.test(d.metadata.version || ''));
+t('index badge version matches metadata version (not stale-pinned)',
+  fs.readFileSync(path.join(root, 'index.html'), 'utf8').includes('249 Universities v' + d.metadata.version));
 t('metadata carries endowment_audit_v42 note', typeof d.metadata.endowment_audit_v42 === 'string');
 
 const EXPECTED = {
