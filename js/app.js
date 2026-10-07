@@ -448,6 +448,54 @@ function peerEfficiencyLeaders(unis,k){
   return {over:all.filter(d=>d.peerResid>0).slice(0,kk), under:all.filter(d=>d.peerResid<0).reverse().slice(0,kk)};
 }
 // EFFICIENCY-PEER-V44-END
+// v0.45 price-efficiency residuals: the student-side counterpart to the v0.43
+// resource-efficiency analysis. Where v0.43 asks "who converts endowment into
+// earnings best" (supply side), this block asks "who delivers the most
+// earnings per dollar charged" (demand side): OLS fit of median_earn_10yr on
+// net_price_avg — linear, since the linear fit (r=0.34, n=249) beats the log
+// fit (r=0.32) on the real 249 — then per-school residuals. Positive residual
+// = alumni earn more than the price level predicts ("beats the price line").
+// Self-contained (own tiny OLS + Pearson, no DOM) so the node verify suite
+// can extract it mechanically like the EFFICIENCY-V43 block.
+// PRICE-EFFICIENCY-V45-START
+// priceEfficiencyModel(unis) -> {m,b,r,n} | null (null when <2 usable records).
+// OLS fit of median_earn_10yr on net_price_avg (linear).
+function priceEfficiencyModel(unis){
+  const rows=(unis||[]).filter(u=>u&&u.net_price_avg>0&&u.median_earn_10yr!=null);
+  const n=rows.length; if(n<2) return null;
+  const xs=rows.map(u=>u.net_price_avg), ys=rows.map(u=>u.median_earn_10yr);
+  const mx=xs.reduce((a,b)=>a+b,0)/n, my=ys.reduce((a,b)=>a+b,0)/n;
+  let num=0,dx=0,dy=0;
+  for(let i=0;i<n;i++){ const cx=xs[i]-mx, cy=ys[i]-my; num+=cx*cy; dx+=cx*cx; dy+=cy*cy; }
+  const m=dx?num/dx:0, b=my-m*mx, r=(dx&&dy)?num/Math.sqrt(dx*dy):0;
+  return {m,b,r,n};
+}
+// priceEfficiencyResiduals(unis) -> [{u,pred,resid}] sorted desc by resid.
+// resid = actual 10yr earnings − model prediction: positive means the school
+// delivers MORE earnings per dollar charged than the price level predicts
+// ("beats the price line"). Deterministic tie-break by school id; input never
+// mutated.
+function priceEfficiencyResiduals(unis){
+  const model=priceEfficiencyModel(unis); if(!model) return [];
+  const out=[];
+  for(const u of (unis||[])){
+    if(!u||!(u.net_price_avg>0)||u.median_earn_10yr==null) continue;
+    const pred=model.m*u.net_price_avg+model.b;
+    out.push({u,pred,resid:u.median_earn_10yr-pred});
+  }
+  out.sort((a,b)=>(b.resid-a.resid)||String(a.u.id).localeCompare(String(b.u.id)));
+  return out;
+}
+// priceEfficiencyLeaders(unis,k) -> {over,under}: the top-k positive-residual
+// schools (over-deliverers) and the top-k negative (under-deliverers, most
+// negative first). k defaults to 3, clamped to >=1; empty arrays when the
+// model can't fit.
+function priceEfficiencyLeaders(unis,k){
+  const kk=Math.max(1,Math.floor(k==null?3:k));
+  const all=priceEfficiencyResiduals(unis);
+  return {over:all.filter(d=>d.resid>0).slice(0,kk), under:all.filter(d=>d.resid<0).reverse().slice(0,kk)};
+}
+// PRICE-EFFICIENCY-V45-END
 // v0.23 radar toolkit: true radial radar chart with per-dimension min-max
 // normalization to 0-100 (replaces the grouped-bar "radar" + /1.5 scale hack).
 // Min-max extents are taken over the FULL dataset (stable under filtering);
@@ -600,6 +648,17 @@ function renderInsights(data){
     const fmtPeO=d=>`${d.u.name} (+$${(d.peerResid/1000).toFixed(1)}k vs ${d.conf} peers)`;
     const fmtPeU=d=>`${d.u.name} ($${(d.peerResid/1000).toFixed(1)}k vs ${d.conf} peers)`;
     insights.push({t:`Peer Efficiency: ${peLead.over[0].u.name} beats its conference peers by $${(peLead.over[0].peerResid/1000).toFixed(1)}k`, d:`Peer-normalized efficiency = v0.43 global efficiency residual minus the conference mean residual, over ${peConfs} conferences with ≥2 schools (${peLone} single-school conferences excluded). Positive = converts resources into earnings better than its own peer set. Top vs-peers converters: ${peLead.over.map(fmtPeO).join('; ')}. Biggest under-converters vs their peers: ${peLead.under.map(fmtPeU).join('; ')}.`});
+  }
+  // v0.45 price-efficiency residuals: earnings per dollar charged — the
+  // student-side counterpart to v0.43's resource efficiency (supply side).
+  // Linear OLS of earnings on net price (linear r beats log r on the real
+  // 249); residual = earnings beyond what the price level predicts.
+  const pxRows=unis.filter(u=>u&&u.net_price_avg>0&&u.median_earn_10yr!=null);
+  const pxModel=priceEfficiencyModel(unis), pxLead=priceEfficiencyLeaders(unis,3);
+  const ctEarnPrice=corrTest(pxRows.map(u=>u.net_price_avg), pxRows.map(u=>u.median_earn_10yr));
+  if(pxModel&&pxLead.over.length&&pxLead.under.length){
+    const fmtPx=d=>`${d.u.name} (${d.resid>=0?'+':'-'}$${(Math.abs(d.resid)/1000).toFixed(1)}k, $${d.u.net_price_avg.toLocaleString()} net, ${d.u.conference||d.u.control})`;
+    insights.push({t:`Price Efficiency: ${pxLead.over[0].u.name} earns $${(pxLead.over[0].resid/1000).toFixed(1)}k more than its price predicts`, d:`Price-efficiency residual = actual 10yr earnings − OLS prediction from net price (linear fit, r=${pxModel.r.toFixed(2)}, ${fmtP(ctEarnPrice.p)}, n=${pxModel.n}; p two-tailed Student's t). The student-side counterpart to the Resource Efficiency card: that one asks how well schools convert endowment into earnings; this one asks who delivers the most earnings per dollar charged. Top earners-per-dollar: ${pxLead.over.map(fmtPx).join('; ')}. Biggest price under-deliverers: ${pxLead.under.map(fmtPx).join('; ')}. Positive = beats the price line; negative = expensive relative to alumni earnings. Distinct from the Best Value card (a raw price/earnings ratio): the residual controls for the overall price gradient.`});
   }
   insights.push({t:`ROI Leader: ${topROI.name} $${(topROI.median_earn_10yr - 35000*2 - topROI.net_price_avg*4).toLocaleString()} 10yr`, d:`ROI 10yr = earnings - $70k HS baseline - 4×net price. Median ROI $${medianROI.toLocaleString()} across ${unis.length} schools. ${topROI.name} ROI $${(topROI.median_earn_10yr - 35000*2 - topROI.net_price_avg*4).toLocaleString()} = $${topROI.median_earn_10yr.toLocaleString()} - $70k - $${(topROI.net_price_avg*4).toLocaleString()}. Public flagships dominate ROI due to low net price. Compare table now shows ROI column.`});
   insights.push({t:`Peer Benchmark: Conference Leaders`, d:`Top 5 conferences by avg Alumni Advantage: ${confBenchStr}. Ivy League (n=${byConf['Ivy League']?.length||0}) avg ${(byConf['Ivy League']?byConf['Ivy League'].reduce((s,u)=>s+u.score,0)/byConf['Ivy League'].length:0).toFixed(1)} vs Big Ten ${(byConf['Big Ten']?byConf['Big Ten'].reduce((s,u)=>s+u.score,0)/byConf['Big Ten'].length:0).toFixed(1)}. Peer network drag-enabled, clickable, URL ?peer= persists.`});
