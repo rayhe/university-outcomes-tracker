@@ -496,6 +496,52 @@ function priceEfficiencyLeaders(unis,k){
   return {over:all.filter(d=>d.resid>0).slice(0,kk), under:all.filter(d=>d.resid<0).reverse().slice(0,kk)};
 }
 // PRICE-EFFICIENCY-V45-END
+// v0.46 peer-normalized price efficiency: the v0.44 pattern applied to the
+// v0.45 price-efficiency block. Starts from the global price-efficiency
+// residuals (earnings minus the OLS prediction on net price) and subtracts
+// the conference mean residual. Positive peerResid = the school delivers more
+// earnings per dollar charged than its own conference peers; negative = it
+// under-delivers relative to its peer set. This separates "cheap conference
+// on average" from "the best value in its peer group". Conferences with fewer
+// than 2 usable schools have no peer baseline (peerResid null, sort last).
+// Deterministic (id tie-break); input never mutated. Depends on the v0.45
+// priceEfficiencyResiduals block.
+// EFFICIENCY-PEER-PRICE-V46-START
+// peerPriceEfficiency(unis) -> [{u,resid,conf,confN,confMean,peerResid}]
+// sorted desc by peerResid; rows whose conference has <2 usable schools
+// carry peerResid=null and sort last.
+function peerPriceEfficiency(unis){
+  const res=priceEfficiencyResiduals(unis);
+  if(!res.length) return [];
+  const byConf={};
+  for(const d of res){ const c=(d.u&&d.u.conference)||'Other'; (byConf[c]=byConf[c]||[]).push(d); }
+  const out=[];
+  for(const c of Object.keys(byConf)){
+    const arr=byConf[c];
+    if(arr.length<2){
+      for(const d of arr) out.push({u:d.u,resid:d.resid,conf:c,confN:arr.length,confMean:null,peerResid:null});
+      continue;
+    }
+    const mean=arr.reduce((s,d)=>s+d.resid,0)/arr.length;
+    for(const d of arr) out.push({u:d.u,resid:d.resid,conf:c,confN:arr.length,confMean:mean,peerResid:d.resid-mean});
+  }
+  out.sort((a,b)=>{
+    if(a.peerResid==null&&b.peerResid==null) return String(a.u.id).localeCompare(String(b.u.id));
+    if(a.peerResid==null) return 1;
+    if(b.peerResid==null) return -1;
+    return (b.peerResid-a.peerResid)||String(a.u.id).localeCompare(String(b.u.id));
+  });
+  return out;
+}
+// peerPriceEfficiencyLeaders(unis,k) -> {over,under}: top-k schools by
+// peerResid (over: highest positive; under: most negative). k defaults to 3,
+// clamped to >=1; empty arrays when nothing is peer-normalizable.
+function peerPriceEfficiencyLeaders(unis,k){
+  const kk=Math.max(1,Math.floor(k==null?3:k));
+  const all=peerPriceEfficiency(unis).filter(d=>d.peerResid!=null);
+  return {over:all.filter(d=>d.peerResid>0).slice(0,kk), under:all.filter(d=>d.peerResid<0).reverse().slice(0,kk)};
+}
+// EFFICIENCY-PEER-PRICE-V46-END
 // v0.23 radar toolkit: true radial radar chart with per-dimension min-max
 // normalization to 0-100 (replaces the grouped-bar "radar" + /1.5 scale hack).
 // Min-max extents are taken over the FULL dataset (stable under filtering);
@@ -659,6 +705,19 @@ function renderInsights(data){
   if(pxModel&&pxLead.over.length&&pxLead.under.length){
     const fmtPx=d=>`${d.u.name} (${d.resid>=0?'+':'-'}$${(Math.abs(d.resid)/1000).toFixed(1)}k, $${d.u.net_price_avg.toLocaleString()} net, ${d.u.conference||d.u.control})`;
     insights.push({t:`Price Efficiency: ${pxLead.over[0].u.name} earns $${(pxLead.over[0].resid/1000).toFixed(1)}k more than its price predicts`, d:`Price-efficiency residual = actual 10yr earnings − OLS prediction from net price (linear fit, r=${pxModel.r.toFixed(2)}, ${fmtP(ctEarnPrice.p)}, n=${pxModel.n}; p two-tailed Student's t). The student-side counterpart to the Resource Efficiency card: that one asks how well schools convert endowment into earnings; this one asks who delivers the most earnings per dollar charged. Top earners-per-dollar: ${pxLead.over.map(fmtPx).join('; ')}. Biggest price under-deliverers: ${pxLead.under.map(fmtPx).join('; ')}. Positive = beats the price line; negative = expensive relative to alumni earnings. Distinct from the Best Value card (a raw price/earnings ratio): the residual controls for the overall price gradient.`});
+  }
+  // v0.46 peer-normalized price efficiency: the standout values among each
+  // school's own conference peers (global price residual minus conference
+  // mean). A school can beat the global price line simply because its whole
+  // conference is cheap — this card finds the schools that beat their own
+  // peer set on earnings-per-dollar.
+  const ppAll=peerPriceEfficiency(unis), ppLead=peerPriceEfficiencyLeaders(unis,3);
+  const ppConfs=new Set(ppAll.filter(d=>d.peerResid!=null).map(d=>d.conf)).size;
+  const ppLone=ppAll.length-ppAll.filter(d=>d.peerResid!=null).length;
+  if(ppAll.length&&ppLead.over.length&&ppLead.under.length){
+    const fmtPpO=d=>`${d.u.name} (+$${(d.peerResid/1000).toFixed(1)}k vs ${d.conf} peers)`;
+    const fmtPpU=d=>`${d.u.name} ($${(d.peerResid/1000).toFixed(1)}k vs ${d.conf} peers)`;
+    insights.push({t:`Peer Price Efficiency: ${ppLead.over[0].u.name} beats its conference peers by $${(ppLead.over[0].peerResid/1000).toFixed(1)}k`, d:`Peer-normalized price efficiency = v0.45 global price-efficiency residual minus the conference mean residual, over ${ppConfs} conferences with ≥2 schools (${ppLone} single-school conferences excluded). Positive = delivers more earnings per dollar charged than its own peer set. Top vs-peers values: ${ppLead.over.map(fmtPpO).join('; ')}. Biggest price under-deliverers vs their peers: ${ppLead.under.map(fmtPpU).join('; ')}.`});
   }
   insights.push({t:`ROI Leader: ${topROI.name} $${(topROI.median_earn_10yr - 35000*2 - topROI.net_price_avg*4).toLocaleString()} 10yr`, d:`ROI 10yr = earnings - $70k HS baseline - 4×net price. Median ROI $${medianROI.toLocaleString()} across ${unis.length} schools. ${topROI.name} ROI $${(topROI.median_earn_10yr - 35000*2 - topROI.net_price_avg*4).toLocaleString()} = $${topROI.median_earn_10yr.toLocaleString()} - $70k - $${(topROI.net_price_avg*4).toLocaleString()}. Public flagships dominate ROI due to low net price. Compare table now shows ROI column.`});
   insights.push({t:`Peer Benchmark: Conference Leaders`, d:`Top 5 conferences by avg Alumni Advantage: ${confBenchStr}. Ivy League (n=${byConf['Ivy League']?.length||0}) avg ${(byConf['Ivy League']?byConf['Ivy League'].reduce((s,u)=>s+u.score,0)/byConf['Ivy League'].length:0).toFixed(1)} vs Big Ten ${(byConf['Big Ten']?byConf['Big Ten'].reduce((s,u)=>s+u.score,0)/byConf['Big Ten'].length:0).toFixed(1)}. Peer network drag-enabled, clickable, URL ?peer= persists.`});
