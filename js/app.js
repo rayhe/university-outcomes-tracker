@@ -542,6 +542,55 @@ function peerPriceEfficiencyLeaders(unis,k){
   return {over:all.filter(d=>d.peerResid>0).slice(0,kk), under:all.filter(d=>d.peerResid<0).reverse().slice(0,kk)};
 }
 // EFFICIENCY-PEER-PRICE-V46-END
+// v0.47 selectivity-efficiency residuals: the third input axis of the
+// efficiency arc. v0.43 asked "who converts endowment into earnings best"
+// (resources), v0.45 asked "who delivers the most earnings per dollar charged"
+// (price); this block asks "who delivers elite earnings without elite
+// selectivity" (access): OLS fit of median_earn_10yr on log10(admission_rate)
+// — log fit (r=-0.68, n=249) beats linear (r=-0.64) since selectivity spans
+// 0.026–0.98 — then per-school residuals. Positive residual = alumni earn more
+// than the school's selectivity predicts ("punches above its admit rate").
+// Self-contained (own tiny OLS + Pearson, no DOM) so the node verify suite
+// can extract it mechanically like the EFFICIENCY-V43 block.
+// SELECTIVITY-EFFICIENCY-V47-START
+// selectivityEfficiencyModel(unis) -> {m,b,r,n} | null (null when <2 usable).
+// OLS fit of median_earn_10yr on log10(admission_rate).
+function selectivityEfficiencyModel(unis){
+  const rows=(unis||[]).filter(u=>u&&u.admission_rate>0&&u.median_earn_10yr!=null);
+  const n=rows.length; if(n<2) return null;
+  const xs=rows.map(u=>Math.log10(u.admission_rate)), ys=rows.map(u=>u.median_earn_10yr);
+  const mx=xs.reduce((a,b)=>a+b,0)/n, my=ys.reduce((a,b)=>a+b,0)/n;
+  let num=0,dx=0,dy=0;
+  for(let i=0;i<n;i++){ const cx=xs[i]-mx, cy=ys[i]-my; num+=cx*cy; dx+=cx*cx; dy+=cy*cy; }
+  const m=dx?num/dx:0, b=my-m*mx, r=(dx&&dy)?num/Math.sqrt(dx*dy):0;
+  return {m,b,r,n};
+}
+// selectivityEfficiencyResiduals(unis) -> [{u,pred,resid}] sorted desc by resid.
+// resid = actual 10yr earnings − model prediction: positive means the school
+// delivers MORE earnings than its selectivity level predicts (elite outcomes
+// without elite gates). Deterministic tie-break by school id; input never
+// mutated.
+function selectivityEfficiencyResiduals(unis){
+  const model=selectivityEfficiencyModel(unis); if(!model) return [];
+  const out=[];
+  for(const u of (unis||[])){
+    if(!u||!(u.admission_rate>0)||u.median_earn_10yr==null) continue;
+    const pred=model.m*Math.log10(u.admission_rate)+model.b;
+    out.push({u,pred,resid:u.median_earn_10yr-pred});
+  }
+  out.sort((a,b)=>(b.resid-a.resid)||String(a.u.id).localeCompare(String(b.u.id)));
+  return out;
+}
+// selectivityEfficiencyLeaders(unis,k) -> {over,under}: the top-k
+// positive-residual schools (access over-deliverers) and the top-k negative
+// (most negative first). k defaults to 3, clamped to >=1; empty arrays when
+// the model can't fit.
+function selectivityEfficiencyLeaders(unis,k){
+  const kk=Math.max(1,Math.floor(k==null?3:k));
+  const all=selectivityEfficiencyResiduals(unis);
+  return {over:all.filter(d=>d.resid>0).slice(0,kk), under:all.filter(d=>d.resid<0).reverse().slice(0,kk)};
+}
+// SELECTIVITY-EFFICIENCY-V47-END
 // v0.23 radar toolkit: true radial radar chart with per-dimension min-max
 // normalization to 0-100 (replaces the grouped-bar "radar" + /1.5 scale hack).
 // Min-max extents are taken over the FULL dataset (stable under filtering);
@@ -718,6 +767,18 @@ function renderInsights(data){
     const fmtPpO=d=>`${d.u.name} (+$${(d.peerResid/1000).toFixed(1)}k vs ${d.conf} peers)`;
     const fmtPpU=d=>`${d.u.name} ($${(d.peerResid/1000).toFixed(1)}k vs ${d.conf} peers)`;
     insights.push({t:`Peer Price Efficiency: ${ppLead.over[0].u.name} beats its conference peers by $${(ppLead.over[0].peerResid/1000).toFixed(1)}k`, d:`Peer-normalized price efficiency = v0.45 global price-efficiency residual minus the conference mean residual, over ${ppConfs} conferences with ≥2 schools (${ppLone} single-school conferences excluded). Positive = delivers more earnings per dollar charged than its own peer set. Top vs-peers values: ${ppLead.over.map(fmtPpO).join('; ')}. Biggest price under-deliverers vs their peers: ${ppLead.under.map(fmtPpU).join('; ')}.`});
+  }
+  // v0.47 selectivity-efficiency residuals: the third input axis of the
+  // efficiency arc — who delivers elite earnings without elite selectivity.
+  // OLS of 10yr earnings on log10(admission_rate) (log r beats linear on the
+  // real 249; selectivity spans 0.026–0.98); residual = earnings beyond what
+  // the admit-rate gradient predicts.
+  const sxRows=unis.filter(u=>u&&u.admission_rate>0&&u.median_earn_10yr!=null);
+  const sxModel=selectivityEfficiencyModel(unis), sxLead=selectivityEfficiencyLeaders(unis,3);
+  const ctEarnAdmit=corrTest(sxRows.map(u=>Math.log10(u.admission_rate)), sxRows.map(u=>u.median_earn_10yr));
+  if(sxModel&&sxLead.over.length&&sxLead.under.length){
+    const fmtSx=d=>`${d.u.name} (${d.resid>=0?'+':'-'}$${(Math.abs(d.resid)/1000).toFixed(1)}k, ${(d.u.admission_rate*100).toFixed(0)}% admit, ${d.u.conference||d.u.control})`;
+    insights.push({t:`Selectivity Efficiency: ${sxLead.over[0].u.name} earns $${(sxLead.over[0].resid/1000).toFixed(1)}k more than its selectivity predicts`, d:`Selectivity-efficiency residual = actual 10yr earnings − OLS prediction from log10(admission_rate) (r=${sxModel.r.toFixed(2)}, ${fmtP(ctEarnAdmit.p)}, n=${sxModel.n}; p two-tailed Student's t). The third axis of the efficiency arc: v0.43 asked who converts endowment into earnings, v0.45 asked who delivers the most earnings per dollar charged — this one asks who delivers elite earnings without elite gates. Top access over-deliverers: ${sxLead.over.map(fmtSx).join('; ')}. Biggest under-deliverers vs selectivity: ${sxLead.under.map(fmtSx).join('; ')}. Positive = alumni earn more than the admit-rate gradient predicts — Santa Clara and Stevens show it need not require a 5% admit rate; MIT beats even the extreme-selectivity expectation.`});
   }
   insights.push({t:`ROI Leader: ${topROI.name} $${(topROI.median_earn_10yr - 35000*2 - topROI.net_price_avg*4).toLocaleString()} 10yr`, d:`ROI 10yr = earnings - $70k HS baseline - 4×net price. Median ROI $${medianROI.toLocaleString()} across ${unis.length} schools. ${topROI.name} ROI $${(topROI.median_earn_10yr - 35000*2 - topROI.net_price_avg*4).toLocaleString()} = $${topROI.median_earn_10yr.toLocaleString()} - $70k - $${(topROI.net_price_avg*4).toLocaleString()}. Public flagships dominate ROI due to low net price. Compare table now shows ROI column.`});
   insights.push({t:`Peer Benchmark: Conference Leaders`, d:`Top 5 conferences by avg Alumni Advantage: ${confBenchStr}. Ivy League (n=${byConf['Ivy League']?.length||0}) avg ${(byConf['Ivy League']?byConf['Ivy League'].reduce((s,u)=>s+u.score,0)/byConf['Ivy League'].length:0).toFixed(1)} vs Big Ten ${(byConf['Big Ten']?byConf['Big Ten'].reduce((s,u)=>s+u.score,0)/byConf['Big Ten'].length:0).toFixed(1)}. Peer network drag-enabled, clickable, URL ?peer= persists.`});

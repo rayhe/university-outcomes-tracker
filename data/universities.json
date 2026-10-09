@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-10-08",
+    "last_updated": "2026-10-09",
     "source": "College Scorecard API (DEMO_KEY) + 49 new v0.31 expansion to 249 (real 249) + 45 conferences",
-    "version": "0.46",
+    "version": "0.47",
     "total_universities": 249,
     "criteria_version": "1.0",
     "enriched_count": 249,
@@ -87,7 +87,8 @@
     "efficiency_v43": "resource-efficiency residuals: efficiencyModel/efficiencyResiduals/efficiencyLeaders pure helpers; Key Insights card ranks 249 by OLS residual of 10yr earnings on log(endowment/student) (r=0.61, n=249)",
     "peer_efficiency_v44": "peer-normalized resource efficiency: peerEfficiency/peerEfficiencyLeaders pure helpers; Key Insights card ranks each school by global efficiency residual minus its conference mean residual (32 conferences with >=2 schools; 240/249 normalized)",
     "price_efficiency_v45": "price-efficiency residuals: priceEfficiencyModel/priceEfficiencyResiduals/priceEfficiencyLeaders pure helpers; Key Insights card ranks 249 by OLS residual of 10yr earnings on net_price_avg (linear fit, r=0.34, n=249; linear beats log r=0.32); top earners-per-dollar MIT +$74.8k, Caltech +$62.5k, Harvey Mudd +$60.2k; biggest price under-deliverers Clark Atlanta -$36.9k, Jackson State -$31.9k, Bard -$31.1k",
-    "peer_price_efficiency_v46": "peer-normalized price efficiency: peerPriceEfficiency/peerPriceEfficiencyLeaders pure helpers; Key Insights card ranks each school by global price-efficiency residual minus its conference mean residual (36 conferences with >=2 schools; 240/249 normalized; 9 single-school conferences excluded)"
+    "peer_price_efficiency_v46": "peer-normalized price efficiency: peerPriceEfficiency/peerPriceEfficiencyLeaders pure helpers; Key Insights card ranks each school by global price-efficiency residual minus its conference mean residual (36 conferences with >=2 schools; 240/249 normalized; 9 single-school conferences excluded)",
+    "selectivity_efficiency_v47": "selectivity-efficiency residuals: selectivityEfficiencyModel/selectivityEfficiencyResiduals/selectivityEfficiencyLeaders pure helpers; Key Insights card ranks 249 by OLS residual of 10yr earnings on log10(admission_rate) (r=-0.68, n=249, strongest input gradient of the efficiency arc)"
   },
   "criteria": {
     "alumni_advantage_score": {
