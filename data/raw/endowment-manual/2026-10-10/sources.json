@@ -1,0 +1,73 @@
+{
+ "fetched_at": "2026-10-10",
+ "method": "browser_search snippets from datausa.io university profiles (IPEDS Finance FY2024 series) + XULA audited FY2025 via fdpclearinghouse.org",
+ "urls": [
+  "https://datausa.io/profile/university/jackson-state-university",
+  "https://datausa.io/profile/university/alcorn-state-university",
+  "https://datausa.io/profile/university/delaware-state-university",
+  "https://datausa.io/profile/university/tennessee-state-university",
+  "http://datausa.io/profile/university/hampton-university",
+  "https://datausa.io/profile/university/tuskegee-university",
+  "https://datausa.io/profile/university/university-of-akron-main-campus",
+  "https://datausa.io/profile/university/xavier-university-of-louisiana",
+  "https://datausa.io/profile/university/university-of-wisconsin-milwaukee",
+  "https://datausa.io/profile/university/providence-college",
+  "https://datausa.io/profile/university/south-carolina-state-university",
+  "https://fdpclearinghouse.org/file/get?id=5129"
+ ],
+ "values": {
+  "jacksonstate": {
+   "endowment_b": 0.061,
+   "source": "Data USA (IPEDS Finance FY2024 via datausa.io): $61M Jackson State University, verified 2026-10-10"
+  },
+  "alcorn": {
+   "endowment_b": 0.0198,
+   "source": "Data USA (IPEDS Finance FY2024 via datausa.io): $19.8M Alcorn State University, verified 2026-10-10"
+  },
+  "delawarestate": {
+   "endowment_b": 0.037,
+   "source": "Data USA (IPEDS Finance FY2024 via datausa.io): $37M Delaware State University, verified 2026-10-10"
+  },
+  "tennesseestate": {
+   "endowment_b": 0.115,
+   "source": "Data USA (IPEDS Finance FY2024 via datausa.io): $115M Tennessee State University, verified 2026-10-10"
+  },
+  "hampton": {
+   "endowment_b": 0.241,
+   "source": "Data USA (IPEDS Finance FY2024 via datausa.io): $241M Hampton University, verified 2026-10-10"
+  },
+  "tuskegee": {
+   "endowment_b": 0.164,
+   "source": "Data USA (IPEDS Finance FY2024 via datausa.io): $164M Tuskegee University, verified 2026-10-10"
+  },
+  "akron": {
+   "endowment_b": 0.352,
+   "source": "Data USA (IPEDS Finance FY2024 via datausa.io): $352M University of Akron Main Campus, verified 2026-10-10"
+  },
+  "xavierla": {
+   "endowment_b": 0.191657,
+   "source": "Xavier University of Louisiana audited FY2025 financial statements (FDP Clearinghouse): $191,657,130 total endowment net assets at 6/30/2025, verified 2026-10-10"
+  },
+  "uwmilwaukee": {
+   "endowment_b": 0.26,
+   "source": "Data USA (IPEDS Finance FY2024 via datausa.io): $260M University of Wisconsin-Milwaukee, verified 2026-10-10 (conflicts with Wikipedia infobox $323M (2023); IPEDS federal series used for consistency)"
+  },
+  "providence": {
+   "endowment_b": 0.353,
+   "source": "Data USA (IPEDS Finance FY2024 via datausa.io): $353M Providence College, verified 2026-10-10"
+  },
+  "scstate": {
+   "endowment_b": 0.0197,
+   "source": "Data USA (IPEDS Finance FY2024 via datausa.io): $19.7M South Carolina State University, verified 2026-10-10"
+  }
+ },
+ "no_change_documented": {
+  "alabamaam": "No fresher public figure found (Wikipedia infobox still $48M (2019); AAMU Trust for Educational Excellence 990 shows $43.0M total assets, not a clean endowment metric). Kept $48M (2019), labeled.",
+  "ucriverside": "Current Wikipedia infobox shows undated $165.6M vs stored $249.87M (2023, as of June 30 2023); UC pooled-endowment scope ambiguity. Kept $249.87M (2023), flagged."
+ },
+ "identity_notes": [
+  "Providence College matched against Providence Christian College ($25.3k) and University of Providence ($20.4M) \u2014 distinct schools excluded.",
+  "Xavier University of Louisiana ($183M IPEDS FY2024) distinguished from Xavier University Ohio ($269M); audited FY2025 $191.66M used as fresher primary source.",
+  "Delaware State University distinguished from University of Delaware."
+ ]
+}
