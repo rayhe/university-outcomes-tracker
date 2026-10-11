@@ -815,6 +815,7 @@ function renderTable(unis){
 }
 
 let sortKey='score', sortDir=-1;
+// SORTLINK-V22-START
 const SORTABLE_KEYS=['name','conference','control','state','score','median_earn_10yr','endowment_per_student','grad_rate_6yr','loan_default','net_price_avg','enrollment_fte'];
 const SORT_PRESET_MAP={score_desc:['score',-1],earn_desc:['median_earn_10yr',-1],endow_desc:['endowment_per_student',-1],grad_desc:['grad_rate_6yr',-1]};
 // ?sort= URL deep-link helpers (pure; unit-tested by hidden_files/verify_sortlink_v22.js)
@@ -837,6 +838,7 @@ function sortParamValue(key,dir,preset){
   if(!SORTABLE_KEYS.includes(key)) return null;
   return key+'_'+(dir<0?'desc':'asc');
 }
+// SORTLINK-V22-END
 function writeSortURL(){
   const u=new URL(window.location);
   const preset=document.getElementById('sort-preset').value;

@@ -39,14 +39,18 @@ for (const [id, [src, val]] of Object.entries(EXPECTED)) {
 t('lawrence identity annotation names St. Lawrence',
   (byid.lawrence._identity_source || '').includes('St. Lawrence University'));
 
-// spot-check keepers: values that should NOT have changed
+// spot-check keepers: values that should NOT have changed since v0.42.
+// Four of the six were legitimately refreshed by the v0.48 freshness
+// re-probe (IPEDS Finance FY2024 via Data USA); expectations updated to the
+// v0.48 values so the suite tracks the data it actually runs against.
+// The v0.42 values remain recorded in the iteration log (v0.42 entry).
 const KEEP = {
-  akron:        ['Wikipedia infobox (as of June 30, 2020): $235.3M - stale, latest available', 0.2353],
-  jacksonstate: ['Wikipedia infobox (2019): $60 million (2019), Jackson State University, fetched 2026-09-24', 0.06],
+  akron:        ['Data USA (IPEDS Finance FY2024 via datausa.io): $352M University of Akron Main Campus, verified 2026-10-10', 0.352],
+  jacksonstate: ['Data USA (IPEDS Finance FY2024 via datausa.io): $61M Jackson State University, verified 2026-10-10', 0.061],
   alabamaam:    ['Wikipedia infobox (2019): $48.0&nbsp;million (2019), Alabama A&M University, fetched 2026-09-24', 0.048],
   lmu:          ['Wikipedia infobox (2024): $722.7M, Loyola Marymount', 0.72],
-  hampton:      ['Wikipedia infobox (2020): $280.6 million (2020), Hampton University, fetched 2026-09-24', 0.2806],
-  scstate:      ['Wikipedia infobox (2023): $17.2 million (2023), South Carolina State University, fetched 2026-09-24', 0.0172],
+  hampton:      ['Data USA (IPEDS Finance FY2024 via datausa.io): $241M Hampton University, verified 2026-10-10', 0.241],
+  scstate:      ['Data USA (IPEDS Finance FY2024 via datausa.io): $19.7M South Carolina State University, verified 2026-10-10', 0.0197],
 };
 for (const [id, [src, val]] of Object.entries(KEEP)) {
   const u = byid[id];
