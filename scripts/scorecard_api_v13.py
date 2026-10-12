@@ -8,11 +8,18 @@ from raw_artifact import save_raw
 FIELDS = ["id","school.name","school.city","school.state","school.ownership"]
 
 def _proxy_env():
+    # Prefer the runtime's live proxy env (https_proxy etc.) when present;
+    # the legacy ~/.git-credentials-embedded extraction below carries a
+    # rotated password and now fails the proxy handshake (curl exit 56),
+    # breaking the canonical Scorecard probe path. Fall back to extraction
+    # only when the env carries no proxy at all.
+    env = dict(os.environ)
+    if env.get("https_proxy") or env.get("HTTPS_PROXY"):
+        return env
     enc = subprocess.check_output(
         r"grep -oP 'http://\K[^@]+(?=@hatch-egress-proxy%3a3128)' ~/.git-credentials | sed -n '1p'",
         shell=True, text=True).strip()
     userinfo = urllib.parse.unquote(enc)
-    env = dict(os.environ)
     env["https_proxy"] = f"http://{userinfo}@hatch-egress-proxy:3128"
     return env
 

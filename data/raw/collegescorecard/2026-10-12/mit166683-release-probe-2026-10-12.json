@@ -1,0 +1,31 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED",
+    "params": {
+      "query": "id=166683",
+      "fields": "id,school.name,latest.student.size,latest.admissions.admission_rate.overall,latest.earnings.10_yrs_after_entry.median,latest.cost.net_price.private.by_income_level.30k_48k,latest.aid.median_debt.completers.overall,latest.student.demographics.median_hh_income,latest.student.demographics.first_generation,latest.earnings.median_2014,latest.earnings.median_2015,latest.earnings.median_2016,latest.earnings.median_2020,latest.earnings.median_2021,latest.earnings.median_2022"
+    },
+    "fetched_at": "2026-10-12T08:58:26.516821+00:00",
+    "note": "Fifth release probe: MIT canary for new ED Scorecard release; Oct 11 probe showed no new release"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "latest.student.size": 4535,
+        "latest.admissions.admission_rate.overall": 0.0455,
+        "latest.earnings.10_yrs_after_entry.median": 143372,
+        "latest.aid.median_debt.completers.overall": 14768,
+        "latest.student.demographics.median_hh_income": 77426,
+        "latest.student.demographics.first_generation": 0.2585139319,
+        "school.name": "Massachusetts Institute of Technology",
+        "id": 166683
+      }
+    ]
+  }
+}

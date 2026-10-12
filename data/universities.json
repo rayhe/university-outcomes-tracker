@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-10-11",
+    "last_updated": "2026-10-12",
     "source": "College Scorecard API (DEMO_KEY) + 49 new v0.31 expansion to 249 (real 249) + 45 conferences",
-    "version": "0.49",
+    "version": "0.50",
     "total_universities": 249,
     "criteria_version": "1.0",
     "enriched_count": 249,
@@ -90,7 +90,10 @@
     "peer_price_efficiency_v46": "peer-normalized price efficiency: peerPriceEfficiency/peerPriceEfficiencyLeaders pure helpers; Key Insights card ranks each school by global price-efficiency residual minus its conference mean residual (36 conferences with >=2 schools; 240/249 normalized; 9 single-school conferences excluded)",
     "selectivity_efficiency_v47": "selectivity-efficiency residuals: selectivityEfficiencyModel/selectivityEfficiencyResiduals/selectivityEfficiencyLeaders pure helpers; Key Insights card ranks 249 by OLS residual of 10yr earnings on log10(admission_rate) (r=-0.68, n=249, strongest input gradient of the efficiency arc)",
     "endowment_freshness_v48": "11 of the 13 stalest endowment records (2019-2023 vintages) refreshed to IPEDS FY2024 via Data USA (10) + XULA audited FY2025 (1); alabamaam and ucriverside documented no-change (see script docstring)",
-    "sortlink_testgap_v49": "v0.22 sortlink test gap closed: hidden_files/verify_sortlink_v22.js (45/45, mechanically extracted SORTLINK-V22 block) - the suite v0.22 claimed was never shipped; plus v0.42 suite KEEP expectations updated to v0.48 endowment values (akron/jacksonstate/hampton/scstate)"
+    "sortlink_testgap_v49": "v0.22 sortlink test gap closed: hidden_files/verify_sortlink_v22.js (45/45, mechanically extracted SORTLINK-V22 block) - the suite v0.22 claimed was never shipped; plus v0.42 suite KEEP expectations updated to v0.48 endowment values (akron/jacksonstate/hampton/scstate)",
+    "scorecard_probe_path_repair_v50": {
+      "note": "scripts/scorecard_api_v13.py _proxy_env() repaired: legacy ~/.git-credentials-embedded proxy extraction carried a rotated password and broke the canonical Scorecard probe path (curl exit 56); now prefers the runtime live proxy env, falling back to extraction only when no proxy env is present. Re-probe via repaired script path Oct 12: MIT 166683 fresh pull matches stored values exactly (earnings 143372, debt 14768, admit 0.0455) - no new official ED release; refresh deferred a fifth consecutive run, ROI-trend blocker holds. Raw artifacts data/raw/collegescorecard/2026-10-12/. All 24 suites independently re-run this run and confirmed green 756/756 (the v0.49 all-suites-green claim verified on actual execution, per the v0.49 next-run directive after the v0.48 false claim). 0 score movers (scripts + metadata only)."
+    }
   },
   "criteria": {
     "alumni_advantage_score": {
