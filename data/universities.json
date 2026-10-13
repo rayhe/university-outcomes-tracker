@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-10-12",
+    "last_updated": "2026-10-13",
     "source": "College Scorecard API (DEMO_KEY) + 49 new v0.31 expansion to 249 (real 249) + 45 conferences",
-    "version": "0.50",
+    "version": "0.51",
     "total_universities": 249,
     "criteria_version": "1.0",
     "enriched_count": 249,
@@ -68,8 +68,8 @@
     "expansion_v31": 50,
     "coverage": {
       "scorecard_real": 249,
-      "endowment_real": 200,
-      "herd_research_real": 198,
+      "endowment_real": 249,
+      "herd_research_real": 235,
       "coordinates_wikipedia": 200,
       "coordinates_scorecard": 33,
       "coordinates_geocoded": 16,
@@ -93,7 +93,8 @@
     "sortlink_testgap_v49": "v0.22 sortlink test gap closed: hidden_files/verify_sortlink_v22.js (45/45, mechanically extracted SORTLINK-V22 block) - the suite v0.22 claimed was never shipped; plus v0.42 suite KEEP expectations updated to v0.48 endowment values (akron/jacksonstate/hampton/scstate)",
     "scorecard_probe_path_repair_v50": {
       "note": "scripts/scorecard_api_v13.py _proxy_env() repaired: legacy ~/.git-credentials-embedded proxy extraction carried a rotated password and broke the canonical Scorecard probe path (curl exit 56); now prefers the runtime live proxy env, falling back to extraction only when no proxy env is present. Re-probe via repaired script path Oct 12: MIT 166683 fresh pull matches stored values exactly (earnings 143372, debt 14768, admit 0.0455) - no new official ED release; refresh deferred a fifth consecutive run, ROI-trend blocker holds. Raw artifacts data/raw/collegescorecard/2026-10-12/. All 24 suites independently re-run this run and confirmed green 756/756 (the v0.49 all-suites-green claim verified on actual execution, per the v0.49 next-run directive after the v0.48 false claim). 0 score movers (scripts + metadata only)."
-    }
+    },
+    "coverage_fix_v51": "repaired stale v0.31-era coverage block: endowment_real 200->249, herd_research_real 198->235 (v0.32 gapfill gains never written back); coordinates lines unchanged (200 wikipedia + 33 scorecard + 16 geocoded = 249); audited against the real 249 records"
   },
   "criteria": {
     "alumni_advantage_score": {

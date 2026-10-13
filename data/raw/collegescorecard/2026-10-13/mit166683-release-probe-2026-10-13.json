@@ -1,0 +1,37 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED",
+    "params": {
+      "query": "id=166683",
+      "fields": "id,school.name,latest.earnings.10_yrs_after_entry.median,latest.aid.median_debt.completers.overall,latest.admissions.admission_rate.overall,2014.earnings.10_yrs_after_entry.median,2015.earnings.10_yrs_after_entry.median,2016.earnings.10_yrs_after_entry.median,2017.earnings.10_yrs_after_entry.median,2018.earnings.10_yrs_after_entry.median,2019.earnings.10_yrs_after_entry.median,2020.earnings.10_yrs_after_entry.median,2021.earnings.10_yrs_after_entry.median,2022.earnings.10_yrs_after_entry.median"
+    },
+    "fetched_at": "2026-10-13T08:58:04.311889+00:00",
+    "note": "v0.51 Scorecard release re-probe via repaired canonical path: check for new ED release (year-prefixed earnings medians 2014-2022) and drift vs stored (143372/14768/admit 0.0455)"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "2014.earnings.10_yrs_after_entry.median": 104700,
+        "2015.earnings.10_yrs_after_entry.median": null,
+        "2016.earnings.10_yrs_after_entry.median": null,
+        "2017.earnings.10_yrs_after_entry.median": null,
+        "2018.earnings.10_yrs_after_entry.median": null,
+        "2019.earnings.10_yrs_after_entry.median": null,
+        "2020.earnings.10_yrs_after_entry.median": 143372,
+        "2021.earnings.10_yrs_after_entry.median": null,
+        "2022.earnings.10_yrs_after_entry.median": null,
+        "latest.earnings.10_yrs_after_entry.median": 143372,
+        "latest.aid.median_debt.completers.overall": 14768,
+        "latest.admissions.admission_rate.overall": 0.0455,
+        "school.name": "Massachusetts Institute of Technology",
+        "id": 166683
+      }
+    ]
+  }
+}
