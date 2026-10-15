@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-10-14",
+    "last_updated": "2026-10-15",
     "source": "College Scorecard API (DEMO_KEY) + 49 new v0.31 expansion to 249 (real 249) + 45 conferences",
-    "version": "0.52",
+    "version": "0.53",
     "total_universities": 249,
     "criteria_version": "1.0",
     "enriched_count": 249,
@@ -95,7 +95,8 @@
       "note": "scripts/scorecard_api_v13.py _proxy_env() repaired: legacy ~/.git-credentials-embedded proxy extraction carried a rotated password and broke the canonical Scorecard probe path (curl exit 56); now prefers the runtime live proxy env, falling back to extraction only when no proxy env is present. Re-probe via repaired script path Oct 12: MIT 166683 fresh pull matches stored values exactly (earnings 143372, debt 14768, admit 0.0455) - no new official ED release; refresh deferred a fifth consecutive run, ROI-trend blocker holds. Raw artifacts data/raw/collegescorecard/2026-10-12/. All 24 suites independently re-run this run and confirmed green 756/756 (the v0.49 all-suites-green claim verified on actual execution, per the v0.49 next-run directive after the v0.48 false claim). 0 score movers (scripts + metadata only)."
     },
     "coverage_fix_v51": "repaired stale v0.31-era coverage block: endowment_real 200->249, herd_research_real 198->235 (v0.32 gapfill gains never written back); coordinates lines unchanged (200 wikipedia + 33 scorecard + 16 geocoded = 249); audited against the real 249 records",
-    "monitor_v52": "7th consecutive Scorecard no-new-release deferral (MIT 166683 matches stored 143372/14768/0.0455); API no longer returns year-prefixed by_cohort earnings fields at all (structural ROI-trend blocker); CASE/IPEDS landscape checked Oct 14: still member-gated, no new candidate source; coverage re-audited: endowment 249/249 real, research 235/249 real, 249/249 distinct ids/Scorecard IDs; all 24 suites green 756/756; 0 score movers"
+    "monitor_v52": "7th consecutive Scorecard no-new-release deferral (MIT 166683 matches stored 143372/14768/0.0455); API no longer returns year-prefixed by_cohort earnings fields at all (structural ROI-trend blocker); CASE/IPEDS landscape checked Oct 14: still member-gated, no new candidate source; coverage re-audited: endowment 249/249 real, research 235/249 real, 249/249 distinct ids/Scorecard IDs; all 24 suites green 756/756; 0 score movers",
+    "monitor_v53": "8th consecutive Scorecard no-new-release deferral (MIT 166683 fresh pull via canonical scorecard_api_v13.py matches stored exactly: earnings 143372, debt 14768, admit 0.0455, family income 86738); by_cohort probe fields dropped per v0.52 (structurally removed from API); CASE/IPEDS landscape not re-checked this run (checked Oct 14: still gated); coverage re-audited: endowment 249/249 real, research 235/249 real, 249/249 distinct ids/Scorecard IDs; all 24 suites green 756/756; 0 score movers"
   },
   "criteria": {
     "alumni_advantage_score": {
