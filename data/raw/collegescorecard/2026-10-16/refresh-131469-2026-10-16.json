@@ -1,0 +1,30 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED",
+    "params": {
+      "query": "id=131469",
+      "fields": "id,school.name,latest.earnings.10_yrs_after_entry.median,latest.aid.median_debt.completers.overall,latest.admissions.admission_rate.overall,latest.student.demographics.avg_family_income,latest.cost.avg_net_price.overall"
+    },
+    "fetched_at": "2026-10-16T09:03:26.434854+00:00",
+    "note": "v0.54 full Scorecard refresh on the new ED release"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "latest.earnings.10_yrs_after_entry.median": 96691,
+        "latest.aid.median_debt.completers.overall": 19857,
+        "latest.admissions.admission_rate.overall": 0.4709,
+        "latest.student.demographics.avg_family_income": 105591,
+        "latest.cost.avg_net_price.overall": 35760,
+        "school.name": "George Washington University",
+        "id": 131469
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED",
+    "params": {
+      "query": "id=166027",
+      "fields": "id,school.name,latest.earnings.10_yrs_after_entry.median,latest.aid.median_debt.completers.overall,latest.admissions.admission_rate.overall,latest.student.demographics.avg_family_income,latest.cost.avg_net_price.overall,latest.cost.net_price.public.by_income_level,latest.cost.net_price.private.by_income_level"
+    },
+    "fetched_at": "2026-10-16T08:58:29.505507+00:00",
+    "note": "v0.54: new-release confirmation probe"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "latest.earnings.10_yrs_after_entry.median": 121957,
+        "latest.aid.median_debt.completers.overall": 17559,
+        "latest.admissions.admission_rate.overall": 0.0365,
+        "latest.student.demographics.avg_family_income": 62458,
+        "latest.cost.avg_net_price.overall": 19148,
+        "latest.cost.net_price.public.by_income_level.0-30000": null,
+        "latest.cost.net_price.public.by_income_level.30001-48000": null,
+        "latest.cost.net_price.public.by_income_level.48001-75000": null,
+        "latest.cost.net_price.public.by_income_level.75001-110000": null,
+        "latest.cost.net_price.public.by_income_level.110001-plus": null,
+        "latest.cost.net_price.public.by_income_level.0-48000": null,
+        "latest.cost.net_price.public.by_income_level.30001-75000": null,
+        "latest.cost.net_price.public.by_income_level.75000-plus": null,
+        "latest.cost.net_price.private.by_income_level.0-30000": 2542,
+        "latest.cost.net_price.private.by_income_level.30001-48000": 2070,
+        "latest.cost.net_price.private.by_income_level.48001-75000": 4126,
+        "latest.cost.net_price.private.by_income_level.75001-110000": 9995,
+        "latest.cost.net_price.private.by_income_level.110001-plus": 51128,
+        "latest.cost.net_price.private.by_income_level.0-48000": 2262,
+        "latest.cost.net_price.private.by_income_level.30001-75000": 3227,
+        "latest.cost.net_price.private.by_income_level.75000-plus": 34317,
+        "school.name": "Harvard University",
+        "id": 166027
+      }
+    ]
+  }
+}

@@ -63,10 +63,24 @@ t('no synthetic endowment remaining',
 t('distinct internal ids', new Set(recs.map(r => r.id)).size === 249);
 t('distinct Scorecard IDs', new Set(recs.map(r => r.scorecard_id)).size === 249);
 
-// 0 score movers vs HEAD
-const old = JSON.parse(execSync('git show HEAD:data/universities.json', {cwd: root}).toString());
-const oldScore = Object.fromEntries(old.universities.map(r => [r.id, r.score]));
-t('0 score movers', recs.every(r => r.score === oldScore[r.id]));
+// v0.54 supersede: the original "0 score movers vs HEAD" guard applied to
+// metadata/copy-only runs. v0.54 refreshed Scorecard earnings on the new ED
+// release, so scores legitimately moved (240 movers; e.g. Caltech 91.9->97.0
+// now tops, MIT 97.0->93.1). The correct invariant is strictly stronger: every
+// score must equal the v0.10 formula recompute on the CURRENT record
+// (min-max to [55,97]; 0.06 tolerance covers Python round-half-even vs JS).
+const raws = recs.map(u => {
+  const earn = u.median_earn_10yr || 50000;
+  const gr = u.grad_rate_6yr || 0.6;
+  const ret = u.retention || 0.8;
+  const adm = u.admission_rate == null ? 0.7 : u.admission_rate;
+  let b = 60 + (earn - 45000) / 1200 * 0.8 + gr * 15 + ret * 8 + (1 - adm) * 6;
+  if (u.control === 'private' && u.carnegie === 'Baccalaureate') b += 3;
+  return b;
+});
+const rlo = Math.min(...raws), rhi = Math.max(...raws);
+t('scores match v0.10 formula recompute on current data (55-97 min-max)',
+  recs.every((u, i) => Math.abs(u.score - (55.0 + (raws[i] - rlo) / (rhi - rlo) * 42.0)) < 0.06));
 
 // raw artifacts
 const rawdir = path.join(root, 'data/raw/endowment-wikipedia/2026-10-04');

@@ -1,0 +1,30 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED",
+    "params": {
+      "query": "id=104179",
+      "fields": "id,school.name,latest.earnings.10_yrs_after_entry.median,latest.aid.median_debt.completers.overall,latest.admissions.admission_rate.overall,latest.student.demographics.avg_family_income,latest.cost.avg_net_price.overall"
+    },
+    "fetched_at": "2026-10-16T09:05:38.006377+00:00",
+    "note": "v0.54 full Scorecard refresh on the new ED release"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "latest.earnings.10_yrs_after_entry.median": 67414,
+        "latest.aid.median_debt.completers.overall": 18000,
+        "latest.admissions.admission_rate.overall": 0.8614,
+        "latest.student.demographics.avg_family_income": 69476,
+        "latest.cost.avg_net_price.overall": 17125,
+        "school.name": "University of Arizona",
+        "id": 104179
+      }
+    ]
+  }
+}

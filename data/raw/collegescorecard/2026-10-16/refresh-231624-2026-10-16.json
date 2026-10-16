@@ -1,0 +1,30 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED",
+    "params": {
+      "query": "id=231624",
+      "fields": "id,school.name,latest.earnings.10_yrs_after_entry.median,latest.aid.median_debt.completers.overall,latest.admissions.admission_rate.overall,latest.student.demographics.avg_family_income,latest.cost.avg_net_price.overall"
+    },
+    "fetched_at": "2026-10-16T09:05:24.222689+00:00",
+    "note": "v0.54 full Scorecard refresh on the new ED release"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "latest.earnings.10_yrs_after_entry.median": 83488,
+        "latest.aid.median_debt.completers.overall": 17417,
+        "latest.admissions.admission_rate.overall": 0.3407,
+        "latest.student.demographics.avg_family_income": 114454,
+        "latest.cost.avg_net_price.overall": 18880,
+        "school.name": "William & Mary",
+        "id": 231624
+      }
+    ]
+  }
+}
