@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-10-18",
+    "last_updated": "2026-10-19",
     "source": "College Scorecard API (DEMO_KEY) + 49 new v0.31 expansion to 249 (real 249) + 45 conferences",
-    "version": "0.56",
+    "version": "0.57",
     "total_universities": 249,
     "criteria_version": "1.0",
     "enriched_count": 249,
@@ -99,7 +99,8 @@
     "monitor_v53": "8th consecutive Scorecard no-new-release deferral (MIT 166683 fresh pull via canonical scorecard_api_v13.py matches stored exactly: earnings 143372, debt 14768, admit 0.0455, family income 86738); by_cohort probe fields dropped per v0.52 (structurally removed from API); CASE/IPEDS landscape not re-checked this run (checked Oct 14: still gated); coverage re-audited: endowment 249/249 real, research 235/249 real, 249/249 distinct ids/Scorecard IDs; all 24 suites green 756/756; 0 score movers",
     "scorecard_refresh_v54": "full 249-record Scorecard refresh on the new ED release (canary MIT 166683 earnings 143372->152553 broke the 8-run no-new-release streak): records with >=1 field updated 249/249; earnings 249, debt 237, admit 1, family income 2, net price 249; kept-stored-on-null/0 0 fields; 0 failed (kept stored); scores recomputed with unchanged v0.10 formula (min-max 55-97), 240 score movers; Williams Harvard-leak admit/family/netp fixed",
     "monitor_v55": "Scorecard re-probe Oct 17 via canonical scorecard_api_v13.py: no new official ED release (MIT 166683 matches stored exactly: earnings 152553, debt 14000, admit 0.0455, family income 86738, net price 14815) - refresh deferred after the v0.54 full refresh; by_cohort fields NOT re-probed (structurally removed from API per v0.52); CASE/IPEDS alumni-giving landscape not re-checked (checked Oct 14, still member-gated); coverage re-audited: endowment 249/249 real, research 235/249 real, 249/249 distinct ids/Scorecard IDs; all 24 suites green 756/756; 0 score movers",
-    "monitor_v56": "Scorecard re-probe Oct 18 via canonical scorecard_api_v13.py: no new official ED release (MIT 166683 matches stored exactly: earnings 152553, debt 14000, admit 0.0455, family income 86738, net price 14815) - refresh deferred, 2nd run after the v0.54 full refresh; by_cohort fields NOT re-probed (structurally removed from API per v0.52); CASE/IPEDS alumni-giving landscape not re-checked (checked Oct 14, still member-gated); coverage re-audited: endowment 249/249 real, research 235/249 real, 249/249 distinct ids/Scorecard IDs; all 24 suites green 756/756; 0 score movers"
+    "monitor_v56": "Scorecard re-probe Oct 18 via canonical scorecard_api_v13.py: no new official ED release (MIT 166683 matches stored exactly: earnings 152553, debt 14000, admit 0.0455, family income 86738, net price 14815) - refresh deferred, 2nd run after the v0.54 full refresh; by_cohort fields NOT re-probed (structurally removed from API per v0.52); CASE/IPEDS alumni-giving landscape not re-checked (checked Oct 14, still member-gated); coverage re-audited: endowment 249/249 real, research 235/249 real, 249/249 distinct ids/Scorecard IDs; all 24 suites green 756/756; 0 score movers",
+    "monitor_v57": "Scorecard re-probe Oct 19 via canonical scorecard_api_v13.py: no new official ED release (MIT 166683 matches stored exactly: earnings 152553, debt 14000, admit 0.0455, family income 86738, net price 14815) - refresh deferred, 3rd run after the v0.54 full refresh; by_cohort fields NOT re-probed (structurally removed from API per v0.52); CASE/IPEDS alumni-giving landscape not re-checked (checked Oct 14, still member-gated); coverage re-audited: endowment 249/249 real, research 235/249 real, 249/249 distinct ids/Scorecard IDs; all 24 suites green 756/756; 0 score movers"
   },
   "criteria": {
     "alumni_advantage_score": {
