@@ -1,0 +1,30 @@
+{
+  "_fetch_meta": {
+    "source": "collegescorecard",
+    "endpoint": "https://api.data.gov/ed/collegescorecard/v1/schools?api_key=REDACTED",
+    "params": {
+      "query": "id=166683",
+      "fields": "id,school.name,latest.earnings.10_yrs_after_entry.median,latest.aid.median_debt.completers.overall,latest.admissions.admission_rate.overall,latest.student.demographics.avg_family_income,latest.cost.avg_net_price.overall"
+    },
+    "fetched_at": "2026-10-20T08:57:45.019415+00:00",
+    "note": "v0.58 Scorecard re-probe: check for a new ED release before the (deferred) refresh"
+  },
+  "response": {
+    "metadata": {
+      "page": 0,
+      "total": 1,
+      "per_page": 20
+    },
+    "results": [
+      {
+        "latest.earnings.10_yrs_after_entry.median": 152553,
+        "latest.aid.median_debt.completers.overall": 14000,
+        "latest.admissions.admission_rate.overall": 0.0455,
+        "latest.student.demographics.avg_family_income": 86738,
+        "latest.cost.avg_net_price.overall": 14815,
+        "school.name": "Massachusetts Institute of Technology",
+        "id": 166683
+      }
+    ]
+  }
+}
