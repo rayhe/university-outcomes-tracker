@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-10-23",
+    "last_updated": "2026-10-24",
     "source": "College Scorecard API (DEMO_KEY) + 49 new v0.31 expansion to 249 (real 249) + 45 conferences",
-    "version": "0.61",
+    "version": "0.62",
     "total_universities": 249,
     "criteria_version": "1.0",
     "enriched_count": 249,
@@ -104,7 +104,8 @@
     "monitor_v58": "Scorecard re-probe Oct 20 via canonical scorecard_api_v13.py: no new official ED release (MIT 166683 matches stored exactly: earnings 152553, debt 14000, admit 0.0455, family income 86738, net price 14815) - refresh deferred, 4th run after the v0.54 full refresh; by_cohort fields NOT re-probed (structurally removed from API per v0.52); CASE/IPEDS alumni-giving landscape not re-checked (checked Oct 14, still member-gated); coverage re-audited: endowment 249/249 real, research 235/249 real, 249/249 distinct ids/Scorecard IDs; all 24 suites green 756/756; 0 score movers",
     "monitor_v59": "Scorecard re-probe Oct 21 via canonical scorecard_api_v13.py: no new official ED release (MIT 166683 matches stored exactly: earnings 152553, debt 14000, admit 0.0455, family income 86738, net price 14815) - refresh deferred, 5th run after the v0.54 full refresh; by_cohort fields NOT re-probed (structurally removed from API per v0.52); CASE/IPEDS alumni-giving landscape not re-checked (checked Oct 14, still member-gated); coverage re-audited: endowment 249/249 real, research 235/249 real, 249/249 distinct ids/Scorecard IDs; all 24 suites green 756/756; 0 score movers",
     "monitor_v60": "Scorecard re-probe Oct 22 via canonical scorecard_api_v13.py: no new official ED release (MIT 166683 matches stored exactly: earnings 152553, debt 14000, admit 0.0455, family income 86738, net price 14815) - refresh deferred, 6th run after the v0.54 full refresh; by_cohort fields NOT re-probed (structurally removed from API per v0.52); CASE/IPEDS alumni-giving landscape not re-checked (checked Oct 14, still member-gated); coverage re-audited: endowment 249/249 real, research 235/249 real, 249/249 distinct ids/Scorecard IDs; all 24 suites green 756/756; 0 score movers",
-    "monitor_v61": "Scorecard re-probe Oct 23 via canonical scorecard_api_v13.py: no new official ED release (MIT 166683 matches stored exactly: earnings 152553, debt 14000, admit 0.0455, family income 86738, net price 14815) - refresh deferred, 7th run after the v0.54 full refresh; by_cohort fields NOT re-probed (structurally removed from API per v0.52); CASE/IPEDS alumni-giving landscape not re-checked (checked Oct 14, still member-gated); coverage re-audited: endowment 249/249 real, research 235/249 real, 249/249 distinct ids/Scorecard IDs; all 24 suites green 756/756; 0 score movers"
+    "monitor_v61": "Scorecard re-probe Oct 23 via canonical scorecard_api_v13.py: no new official ED release (MIT 166683 matches stored exactly: earnings 152553, debt 14000, admit 0.0455, family income 86738, net price 14815) - refresh deferred, 7th run after the v0.54 full refresh; by_cohort fields NOT re-probed (structurally removed from API per v0.52); CASE/IPEDS alumni-giving landscape not re-checked (checked Oct 14, still member-gated); coverage re-audited: endowment 249/249 real, research 235/249 real, 249/249 distinct ids/Scorecard IDs; all 24 suites green 756/756; 0 score movers",
+    "monitor_v62": "v0.62 monitoring run: Scorecard re-probe Oct 24 via the canonical script path (scorecard_api_v13.py) - no new official ED release (MIT 166683 matches stored exactly: earnings 152553, debt 14000, admit 0.0455, family income 86738, net price 14815) - refresh deferred, eighth run after the v0.54 full refresh; by_cohort fields NOT re-probed (structurally removed from the API per v0.52, not just nulls); CASE/IPEDS alumni-giving landscape not re-checked this run (checked Oct 14, still member-gated, no new candidate source); coverage re-audited against the real 249 (endowment 249/249 real, research 235/249 real, 249/249 distinct ids/Scorecard IDs) - the v0.51 repair holds, no new staleness; all 24 suites re-run green 756/756; 0 score movers."
   },
   "criteria": {
     "alumni_advantage_score": {
